@@ -15,14 +15,18 @@ In this chapter, we will discuss a brief history of the Internet and how it was 
 <p>
 We will discuss some features of these new peer-to-peer networks that bring transparency and immutability to ledger by distributing copies to all participants or nodes in the network. We will examine how this new technology is opening up new career opportunities as new talent will be necessary to build the foundation for this technology to thrive. Finally, we will discuss implications of blockchain technology on industry sectors.</p>
 <br>
-#### Learning Objectives
+<h4 id="ch1-objs">Learning Objectives</h4>
 By the end of this chapter, you should be able to:
-  - Discuss blockchain technologies and the early Internet.
-  - Explain the difference between blockchain and the cryptocurrency Bitcoin.
-  - Discuss blockchain characteristics.
-  - Explain blockchain components.
-    - Explain what the block in blockchain is.
-    - Explain how blocks are chained together.
-    - Discuss the concept of immutability in a blockchain.
-  - Discuss about the roles and users in a blockchain community.
-  - Discuss use cases for general blockchain solutions.
+<ul>
+  <li>Discuss blockchain technologies and the early Internet.</li>
+  <li>Explain the difference between blockchain and the cryptocurrency Bitcoin.</li>
+  <li>Discuss blockchain characteristics.</li>
+  <li>Explain blockchain components.</li>
+  <ul>
+    <li>Explain what the block in blockchain is.</li>
+    <li>Explain how blocks are chained together.</li>
+    <li>Discuss the concept of immutability in a blockchain.</li>
+  </ul>
+<li>Discuss about the roles and users in a blockchain community.</li>
+<li>Discuss use cases for general blockchain solutions.</li>
+</ul>
