@@ -14,14 +14,15 @@ LFS170x is part of the Blockchain for Business Professional Certificate. Skills 
 In this chapter, we will discuss a brief history of the Internet and how it was designed. This foundation will help you understand blockchain technology and how it builds upon the current internet protocols while enhancing and improving them. We will see how blockchain technology is changing the Internet from one of information exchange to one of value exchange. Also, we will discuss Bitcoin and how it was the first real application to showcase blockchain technology.</p>
 <p>
 We will discuss some features of these new peer-to-peer networks that bring transparency and immutability to ledger by distributing copies to all participants or nodes in the network. We will examine how this new technology is opening up new career opportunities as new talent will be necessary to build the foundation for this technology to thrive. Finally, we will discuss implications of blockchain technology on industry sectors.</p>
+<br>
 #### Learning Objectives
 By the end of this chapter, you should be able to:
- - Discuss blockchain technologies and the early Internet.
- - Explain the difference between blockchain and the cryptocurrency Bitcoin.
- - Discuss blockchain characteristics.
- - Explain blockchain components.
-   - Explain what the block in blockchain is.
-   - Explain how blocks are chained together.
-   - Discuss the concept of immutability in a blockchain.
+  - Discuss blockchain technologies and the early Internet.
+  - Explain the difference between blockchain and the cryptocurrency Bitcoin.
+  - Discuss blockchain characteristics.
+  - Explain blockchain components.
+    - Explain what the block in blockchain is.
+    - Explain how blocks are chained together.
+    - Discuss the concept of immutability in a blockchain.
   - Discuss about the roles and users in a blockchain community.
   - Discuss use cases for general blockchain solutions.
