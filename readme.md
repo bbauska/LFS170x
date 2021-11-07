@@ -1,3 +1,8 @@
+## LFS170x-2021 - Linux FoundationX 
+## Blockchain: Understanding Its Use Cases and Implications
+ 
+![image](https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png)
+
 Chapter 1. Introduction to Blockchain
 Learning Objectives
 By the end of this chapter, you should be able to:
