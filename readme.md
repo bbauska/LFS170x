@@ -1,10 +1,65 @@
-## LFS170x-2021 - Linux FoundationX 
-## Blockchain: Understanding Its Use Cases and Implications
- 
-![image](https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png)
+## LFS170x-2021 - Linux FoundationX - LFS170-2021
 
-Chapter 1. Introduction to Blockchain
-Learning Objectives
+![linux logo](https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png)
+
+### Blockchain: Understanding Its Use Cases and Implications
+
+## [Table of Contents](#table-of-contents)
+
+## 1. [**Introduction to Blockchain**](#ch1)
+>### a.	[**Introduction**](#ch1a)
+>### b.	[**Introduction to Blockchain and The Early Internet**](#ch1b)
+>### c.	[**Blockchain Basics**](#ch1c)
+>### d.	[**Career Opportunities in Blockchain**](#ch1d)
+>### e.	[**Blockchain Use Cases**](#ch1e)
+>### f.	[**Summary**](#ch1f)
+
+## [**Chapter 2. Blockchain Mechanics**](#ch2)
+>### a.	[**Introduction**](#ch2a)
+>### b.	[**Understanding Ledgers**](#ch2b)
+>### c.	[**Cryptography**](#ch2c)
+>### d.	[**Transparency and Immutability**](#ch2d)
+>### e.	[**Summary**](#ch2e)
+
+## [**Chapter 3. Blockchain Functions**](#ch3)
+>### a.	[**Introduction**](#ch3a)
+>### b.	[**Smart Contracts**](#ch3b)
+>### c.	[**Blockchain Security**](#ch3c)
+>### d.	[**Public and Permissioned Blockchains**](#ch3d)
+>### e.	[**The Blockchain Transaction**](#ch3e)
+>### f.	[**Consensus**](#ch3f)
+>### g.	[**Summary**](#ch3g)
+
+## [**Chapter 4. Blockchains and Governance**](#ch4)
+>### a.	[**Introduction**](#ch4a)
+>### b.	[**Open Source Code**](#ch4b)
+>### c.	[**Governance**](#ch4c)
+>### d.	[**Identity and Anonymity on Blockchain**](#ch4d)
+>### e.	[**Summary**](#ch4e)
+
+## [**Chapter 5. Blockchain Problem Solving and Future Trends**](#ch5)
+>### a.	[**Introduction**](#ch5a)
+>### b.	[**Problems Blockchain Solves**](#ch5b)
+>### c.	[**Digital Currencies**](#ch5c)
+>### d.	[**Future Trends**](#ch5d)
+>### e.	[**Summary**](#ch5e)
+
+## [**Chapter 6. Blockchain Use Cases**](#ch6)
+>### a.	[**Introduction**](#ch6a)
+>### b.	[**Blockchain in Practice**](#ch6b)
+>### c.	[**Enterprise Solutions**](#ch6c)
+>### d.	[**Public Sector Solutions**](#ch6d)
+>### e.	[**Social Impact Solutions**](#ch6e)
+>### f.	[**Platform Developer’s Solutions**](#ch6f)
+>### g.	[**End User Solutions**](#ch6g)
+>### h.	[**Future of Blockchain**](#ch6h)
+>### i.	[**Summary**](#ch6i)
+
+---
+**[`^        back to top        ^`](#)**
+
+## <a id="ch1"></a>Chapter 1. Introduction to Blockchain
+### Learning Objectives
 By the end of this chapter, you should be able to:
 •	Discuss blockchain technologies and the early Internet.
 •	Explain the difference between blockchain and the cryptocurrency Bitcoin.
