@@ -55,7 +55,6 @@
 >### h.	[**Future of Blockchain**](#ch6h)
 >### i.	[**Summary**](#ch6i)
 
----
 **[`^        back to top        ^`](#)**
 
 ## <a id="ch1"></a>Chapter 1. Introduction to Blockchain
@@ -92,7 +91,8 @@ Characteristics of Web 1.0:
 •	Managed by a central authority.
 •	Read-only, information was “pushed” to users.
 •	Email was the first widely adopted application on the Internet.
- 
+
+**[`^        back to top        ^`](#)**
  
 Email, Electronically Transferring Information
 Computers and items for connection became necessities. Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. Companies appeared attempting to cash in on this new technology, most notable was a company called Netscape which developed the first commercial Web browser.
@@ -104,17 +104,14 @@ Read-write, individuals can interact with information.
 Information became siloed.
 Data became a commodity.
 Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sellers in a seamless low-cost way. Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. Websites let users generate content, social networks became part of our lives.
- 
- 
+
 Social Networking
 Real World Examples of File Sharing
 Use Case: Music Sharing Companies
- 
- 
+
 Approach: Music stored on many computers connected peer-to-peer. Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.
 Result: The industry cracks down music sharing companies copyright infringement. Napster is forced to take down its index, shutting down the platform.
- 
- 
+
 Approach: Music stored on many computers connected peer-to-peer. BitTorrent's software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.
 Result: The industry cracks down music sharing companies copyright infringement. BitTorrent is asked to shut down their platform. Since they do not control the software once downloaded to a peer, if two computers are running the software sharing can still occur.
 Music sharing companies gave us the first glimpse into peer-to-peer networking. Besides copyright infringement, the main challenge for the music sharing companies was file integrity. You could never be sure the file you requested was the file you would get and there was no one to complain to. Both Napster and BitTorrent are operating today, with different business models.
@@ -125,7 +122,9 @@ Characteristics of Web 3.0:
 •	Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.
 •	Identity and information will be held by the individual, breaking data silos.
 Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
- 
+
+**[`^        back to top        ^`](#)**
+
 Cryptocurrencies, Electronically Transferring Value
 The Internet of Value represents a world where value is exchanged at the speed in which information moves today. The Internet is still the basic platform that these new technologies operate from. The new Web 3.0 browsers are being built to help you manage your cryptocurrency, keys, passwords and other blockchain features. Let’s now dive into blockchain basics.
 c.	What Is Blockchain?
@@ -187,20 +186,18 @@ Smart contracts will revolutionize how we do business.
 There are so many possibilities with blockchain; not just in the now, but with things we haven't begun to think about yet.
 Blockchain Is NOT Bitcoin
 Bitcoin is a digital currency running on top of the Bitcoin blockchain. We will develop the concept of cryptocurrencies in later sections. Bitcoin has no borders and was created as a decentralized payment system, an alternative to currencies issued by governments. Let us look at what it means to be a currency.
- 
- Purpose of currency:
+
+Purpose of currency:
 •	Medium for exchange
 •	Store of value over time
 •	Accepted as a measure of worth
 According to Investopedia, “Fiat currency is money a government issues that is not backed by a commodity like gold. Fiat money is backed by the government and it has value because the government says so and the citizens believe it. The dollar is an example of the United States fiat currency”.
- 
 Apart from the government issuing Fiat, a centralized authority needs to keep track of assets. Banks, credit card companies’ stockbrokers are companies that represent a centralized authority that controls your money.
-
- 
 Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. If you have an Internet connection and a Bitcoin wallet application, you can receive and send the cryptocurrency Bitcoin. Cryptocurrencies like Bitcoin have value because it can be proven with math. Unlike banks offering centralized services, you are responsible for your cryptocurrency.
- 
 Bitcoin and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology. Some privately run blockchains do not use cryptocurrencies as a function of their blockchains. Blockchain technology can easily transfer anything from property rights, stocks, and even artwork. There are many more use cases that utilize blockchain technology far reaching than currency transfer.
- 
+
+**[`^        back to top        ^`](#)**
+
 c.	Blockchain - Let’s Cover the Basics
 In this section, we're gonna talk about what blockchain is: a real simple introduction to the basic concepts and principles behind blockchain.
 When you hear about blockchain, you probably think of new, high-emerging tech.
@@ -401,11 +398,11 @@ In this chapter, we discussed:
 •	Blockchain concepts and characteristics: distributed ledger, peer to peer, transparent, consensus, encryption, immutability, programmable.
 •	Blockchain users and their roles.
 •	Emerging general use cases.
-Chapter 2. Blockchain Mechanics / Introduction
+## <a id="ch2"></a>Chapter 2. Blockchain Mechanics / Introduction
 Chapter Overview
 In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques. We will gain an understanding of how previous computer technologies like file sharing, data storage and cryptography are wrapped into the blockchain foundations. We will also see how hashing functions and Merkle tree data structures help us immutably store and prove facts without revealing all the details.
 Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure. We will examine how this agreed-upon, append-only distributed ledger guarantees transparency and immutability, where trust in the information contained in the ledger is a given.
-Learning Objectives
+### Learning Objectives
 By the end of this chapter, you should be able to:
 •	Discuss how cryptography allows for distributed ledgers to work on a global scale.
 •	Explain how blockchain is using cryptography.
@@ -1064,7 +1061,7 @@ a.	Chapter Overview
 In this chapter, we will examine some blockchain functions. First, we will discuss smart contracts, how blockchains have the ability to store and run computer code (applications) that can execute the terms of an agreement. These digital promises stored and executed on the blockchains remove intermediaries and ambiguity thereby reducing conflict.
 We will discuss how blockchains secure their information and how these techniques differ from traditional database security. Next, we will discuss different types of blockchains (public, private and hybrid models) and design considerations that need to be made before blockchains can be developed. We will examine the steps in a basic blockchain transaction from start to finish.
 Finally, we will discuss blockchain consensus models and why they are the backbone to the blockchain operations. We will compare Proof of Stake and Proof of Work models and be able to discuss the differences and environmental considerations. Also, we will discuss private blockchain structures and how permissioning mechanisms are the basis for their ConsenSys models.
-Learning Objectives
+### Learning Objectives
 By the end of this chapter, you should be able to:
 •	Explain what smart contracts are and how they work.
 •	Discuss the benefits of using smart contracts.
@@ -1563,7 +1560,7 @@ In this chapter, we discussed:
 Chapter Overview
 In this section, we will cover blockchain governance. We will start by discussing the cooperative way blockchain companies share the computer code for this technology. We will also explore how this open source environment is fostering new innovations. And then we will examine who really is in charge of blockchains and how the network effect determines the direction a blockchain will take.
 Next, we will take a look at how these trustless systems with open interactions are more secure than past systems. Finally, we will dive into the idea of collaboration among parties who don't trust each other and how blockchain technology is changing how the global community can interact. This new form of world wide collaboration can be the key to solving the world's toughest problems.
-Learning Objectives
+### Learning Objectives
 By the end of this chapter, you should be able to:
 •	Discuss open source communities and blockchain source code.
 •	Discuss the different types of governance models and what types of governance are used in public and private blockchains.
@@ -1961,7 +1958,7 @@ In this chapter, we discussed:
 Now that we understand the basics of how blockchain works, Chapter 5 will discuss the problems blockchain can solve. We will discuss the concept of immutability and how the append only blockchain brings new trust in shared information. Next, we will take what we learned about smart contracts to see how they are bringing autonomy to systems that previously required human interaction. We will discuss the double-spend issue and how blockchain can solve for it. We will also discuss some popular cryptocurrencies.
 Next, we will discuss the new business trends blockchain makes possible. First, we will discuss the way we manage our identity and information on the Internet and how decentralized identity solutions rooted on a blockchain are fixing what is broken. Next, we will discuss how blockchain is revolutionizing the financial markets by autonomous market solutions that remove middlemen and open markets up to previously excluded clients. We will also join in the conversation around Central Bank Digital currencies and how enacting blockchain solutions can streamline the government's monetary policies.
 Finally, we will discuss the energized world of NFT’s (non-fungible tokens) and how owning unique rights to everything from music, sports collectables and even “captured moments” is turning the collectable world upside down. We end the chapter with a brief discussion on interoperability. In order for this new technology to take hold, blockchains need to be able to communicate and transfer value amongst themselves.
-Learning Objectives
+### Learning Objectives
 By the end of this chapter, you should be able to:
 •	Discuss immutability in blockchains.
 •	Explain what transparency is and review advantages and disadvantages of append-only ledgers.
@@ -2239,7 +2236,7 @@ Next, we will discuss the impact blockchain is having in developing countries. W
 Then, we will devote some time discussing new technologies and emerging breakthroughs developers are building. Either to enhance existing systems or offering services to help users manage blockchains, these new advances are like nothing we have seen before.
 Finally, we will see use cases designed to improve the individual's experience, decentralized gaming platforms and new marketplaces inventing new worlds to interact in. Blockchains are reshaping the way artists and musicians are benefiting from their creativity by having the royalties delivered directly to them, without agents and middlemen.
 Blockchain will be a part of everyone's future.
-Learning Objectives
+### Learning Objectives
 By the end of this chapter, you should be able to:
 •	Discuss blockchain use cases in business enterprises.
 •	Discuss use cases in the public sector.
