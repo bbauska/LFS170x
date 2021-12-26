@@ -55,7 +55,7 @@
 >### h.	[**Future of Blockchain**](#ch6h)
 >### i.	[**Summary**](#ch6i)
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ## <a id="ch1"></a>Chapter 1. Introduction to Blockchain
 ### Learning Objectives
@@ -92,7 +92,7 @@ Characteristics of Web 1.0:
 •	Read-only, information was “pushed” to users.
 •	Email was the first widely adopted application on the Internet.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
  
 Email, Electronically Transferring Information
 Computers and items for connection became necessities. Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. Companies appeared attempting to cash in on this new technology, most notable was a company called Netscape which developed the first commercial Web browser.
@@ -123,7 +123,7 @@ Characteristics of Web 3.0:
 •	Identity and information will be held by the individual, breaking data silos.
 Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 Cryptocurrencies, Electronically Transferring Value
 The Internet of Value represents a world where value is exchanged at the speed in which information moves today. The Internet is still the basic platform that these new technologies operate from. The new Web 3.0 browsers are being built to help you manage your cryptocurrency, keys, passwords and other blockchain features. Let’s now dive into blockchain basics.
@@ -196,7 +196,7 @@ Apart from the government issuing Fiat, a centralized authority needs to keep tr
 Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. If you have an Internet connection and a Bitcoin wallet application, you can receive and send the cryptocurrency Bitcoin. Cryptocurrencies like Bitcoin have value because it can be proven with math. Unlike banks offering centralized services, you are responsible for your cryptocurrency.
 Bitcoin and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology. Some privately run blockchains do not use cryptocurrencies as a function of their blockchains. Blockchain technology can easily transfer anything from property rights, stocks, and even artwork. There are many more use cases that utilize blockchain technology far reaching than currency transfer.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 c.	Blockchain - Let’s Cover the Basics
 In this section, we're gonna talk about what blockchain is: a real simple introduction to the basic concepts and principles behind blockchain.
@@ -2436,3 +2436,5 @@ In this chapter, we discussed:
 The end . . .
 © 2021 edX Inc. All rights reserved.
 深圳市恒宇博科技有限公司 粤ICP备17044299号-2
+
+**[`^        back to top        ^`](#table-of-contents)**
