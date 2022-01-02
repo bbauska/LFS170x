@@ -60,38 +60,38 @@
 ## <a id="ch1"></a>Chapter 1. Introduction to Blockchain
 ### Learning Objectives
 By the end of this chapter, you should be able to:
-•	Discuss blockchain technologies and the early Internet.
-•	Explain the difference between blockchain and the cryptocurrency Bitcoin.
-•	Discuss blockchain characteristics.
-•	Explain blockchain components.
-•	Explain what the block in blockchain is.
-•	Explain how blocks are chained together.
-•	Discuss the concept of immutability in a blockchain.
-•	Discuss about the roles and users in a blockchain community.
-•	Discuss use cases for general blockchain solutions.
+  •	Discuss blockchain technologies and the early Internet.
+  •	Explain the difference between blockchain and the cryptocurrency Bitcoin.
+  •	Discuss blockchain characteristics.
+  •	Explain blockchain components.
+  •	Explain what the block in blockchain is.
+  •	Explain how blocks are chained together.
+  •	Discuss the concept of immutability in a blockchain.
+  •	Discuss about the roles and users in a blockchain community.
+  •	Discuss use cases for general blockchain solutions.
 
-a.	What is Blockchain
+### <a id="ch1a"></a>a.	What is Blockchain
 Blockchain is a peer-to-peer ledger system that allows peers to transact directly with each other eliminating the need for a central authority.
 At its core, blockchain is a system for recording information about a transaction in a new decentralized way that makes it difficult or impossible to alter. These transactions are stored on sheets or blocks in a digital ledger that is shared among the participants of the network. Consensus on the transactions, brings the peer-to-peer network into agreement. Once the agreed-upon transactions blocks are recorded in the immutable ledger, trust becomes a fundamental component built into the system.
  
-b.	The Early Internet
+### <a id="ch1b"></a>b.	The Early Internet
 What started as a DARPA (Defense Advanced Research Project Agency) experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
  
 With the birth of the World Wide Web, expanded usages of this new technology arose along with expanded business opportunities. Web servers, people who host and store the documents and web browsers, companies set up to help you view linked documents, help create a household need for this technology and the Internet explosion began.
 The Growth of the Internet
 The Internet can be grouped into three distinct segments characterized by the way people interact with this new technology.
-•	Web 1.0 - Internet of Connection
-•	Web 2.0 - Internet of Information
-•	Web 3.0 - Internet of Value
+ •	Web 1.0 - Internet of Connection
+ •	Web 2.0 - Internet of Information
+ •	Web 3.0 - Internet of Value
 Let’s discuss them in more detail.
 Web 1.0 - Internet of Connection
 Characteristics of Web 1.0:
-•	Development of a host of web-based applications, which fostered in online services, such as email.
-•	Content from administrator.
-•	Managed by a central authority.
-•	Read-only, information was “pushed” to users.
-•	Email was the first widely adopted application on the Internet.
+ •	Development of a host of web-based applications, which fostered in online services, such as email.
+ •	Content from administrator.
+ •	Managed by a central authority.
+ •	Read-only, information was “pushed” to users.
+ •	Email was the first widely adopted application on the Internet.
 
 **[`^        back to top        ^`](#table-of-contents)**
  
@@ -118,17 +118,17 @@ Result: The industry cracks down music sharing companies copyright infringement.
 Music sharing companies gave us the first glimpse into peer-to-peer networking. Besides copyright infringement, the main challenge for the music sharing companies was file integrity. You could never be sure the file you requested was the file you would get and there was no one to complain to. Both Napster and BitTorrent are operating today, with different business models.
 Web 3.0 - Internet of Value
 Characteristics of Web 3.0:
-•	Community interaction.
-•	More connected, open, and intelligent.
-•	Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.
-•	Identity and information will be held by the individual, breaking data silos.
+ •	Community interaction.
+ •	More connected, open, and intelligent.
+ •	Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.
+ •	Identity and information will be held by the individual, breaking data silos.
 Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 Cryptocurrencies, Electronically Transferring Value
 The Internet of Value represents a world where value is exchanged at the speed in which information moves today. The Internet is still the basic platform that these new technologies operate from. The new Web 3.0 browsers are being built to help you manage your cryptocurrency, keys, passwords and other blockchain features. Let’s now dive into blockchain basics.
-c.	What Is Blockchain?
+#### <a id="ch1c"></a>c.	What Is Blockchain?
 There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
 You've probably heard of it: it's called Blockchain!
 But what is it? How does it work? How does it affect you?
@@ -2404,7 +2404,9 @@ Watch this video to learn more about Decentraland.
 Experts from Statista projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
 Read "Blockchain for the Music Industry: 9 Possible Use Cases" by Sam Mire to learn more.
 themusicianmarketplace.com was built to establish one profile for each artist, but each artist can list talents for any job they want. For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place. The options on themusicianmarketplace.com are unlimited. Below you can see themusicianmarketplace.com dashboard: 
- 
+
+**[`^        back to top        ^`](#table-of-contents)**
+
 ### What is the future of blockchain?
 That is a big question.
 And unlike everything we have already talked about in this course, this is nothing factual, but just my own opinion.
