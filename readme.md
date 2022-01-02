@@ -64,11 +64,12 @@ By the end of this chapter, you should be able to:
 •	Explain the difference between blockchain and the cryptocurrency Bitcoin.
 •	Discuss blockchain characteristics.
 •	Explain blockchain components.
-- Explain what the block in blockchain is.
-- Explain how blocks are chained together.
-- Discuss the concept of immutability in a blockchain.
+•	Explain what the block in blockchain is.
+•	Explain how blocks are chained together.
+•	Discuss the concept of immutability in a blockchain.
 •	Discuss about the roles and users in a blockchain community.
 •	Discuss use cases for general blockchain solutions.
+
 a.	What is Blockchain
 Blockchain is a peer-to-peer ledger system that allows peers to transact directly with each other eliminating the need for a central authority.
 At its core, blockchain is a system for recording information about a transaction in a new decentralized way that makes it difficult or impossible to alter. These transactions are stored on sheets or blocks in a digital ledger that is shared among the participants of the network. Consensus on the transactions, brings the peer-to-peer network into agreement. Once the agreed-upon transactions blocks are recorded in the immutable ledger, trust becomes a fundamental component built into the system.
