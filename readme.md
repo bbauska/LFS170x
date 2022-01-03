@@ -2400,10 +2400,16 @@ To learn more, visit the Game Developers Conference's website.
 Decentraland
 Decentraland is a virtual world built on top of the Ethereum blockchain. A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland). Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).
 Watch this video to learn more about Decentraland.
+https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w
+[![Decentraland](![image](https://user-images.githubusercontent.com/41387907/147904021-3bd8972a-96d6-47ee-906a-d81fde63bb88.png)
+](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w "Decentraland")
+
 ### Music
 Experts from Statista projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
 Read "Blockchain for the Music Industry: 9 Possible Use Cases" by Sam Mire to learn more.
 themusicianmarketplace.com was built to establish one profile for each artist, but each artist can list talents for any job they want. For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place. The options on themusicianmarketplace.com are unlimited. Below you can see themusicianmarketplace.com dashboard: 
+![image](https://user-images.githubusercontent.com/41387907/147904021-3bd8972a-96d6-47ee-906a-d81fde63bb88.png)
+
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2430,11 +2436,11 @@ So, if you ask me, I really believe technologies like blockchain and supporting 
 And that's why I think there's a ton of potential in blockchain and it's something really exciting, and hopefully, you're all inspired to stay up-to-date with.
 ### Chapter 6 Summary
 In this chapter, we discussed:
-•	Blockchain use cases in an enterprise environment.
-•	Public sector and how blockchain is important in shaping citizens' futures.
-•	The relevance of blockchain in social impact projects.
-•	Developing new blockchain platforms emerging as the ecosystem evolves.
-•	Blockchain and how it will improve human experience.
+  * Blockchain use cases in an enterprise environment.
+  * Public sector and how blockchain is important in shaping citizens' futures.
+  * The relevance of blockchain in social impact projects.
+  * Developing new blockchain platforms emerging as the ecosystem evolves.
+  * Blockchain and how it will improve human experience.
 
 The end . . .
 © 2021 edX Inc. All rights reserved.
