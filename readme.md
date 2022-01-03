@@ -1,8 +1,13 @@
 ## LFS170x - Linux FoundationX - Blockchain: Understanding Its Use Cases and Implications
 
-![linux logo](https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png "Linux Logo")
+<p align="center">
+<img width="400" src=
+"![linux logo](https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png "Linux Logo")
+<!-- "![linux logo](https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png "Linux Logo")  -->
 
-<h3 style="text-align: center;">Blockchain: Understanding Its Use Cases and Implications</h3>
+<h3 style="text-align: center;"> Blockchain: Understanding Its Use Cases and Implications </h3>
+
+This site was built using [GitHub Pages](https://pages.github.com/).
 
 ## [Table of Contents](#table-of-contents)
 
