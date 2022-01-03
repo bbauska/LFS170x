@@ -1,7 +1,7 @@
 ## LFS170x - Linux FoundationX - Blockchain: Understanding Its Use Cases and Implications
 
 <p align="center">
-<img width="400" src="![linux logo](https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png "Linux Logo")
+<img width="200" src="![linux logo](https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png "Linux Logo")
                                                                                                                                                       </p>
 <!-- "![linux logo](https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png "Linux Logo")  -->
 
@@ -2325,28 +2325,28 @@ Trade finance is showing promise for blockchain solutions in letter of credits b
 Voltron Trade Finance was co-founded by eight member banks including Bangkok Bank, BNP Paribas, CTBC, HSBC, ING, Natwest, SEB and Standard Chartered. The consortium has since grown to more than 50 banks and corporations. The platform is built on Corda blockchain, it solves the problem that most letters of credit are based on paper and take 5 to 10 days. By using blockchain technology, the letters of credit may be efficiently transacted in less than 24 hours. You can learn more about Voltron from the following two articles "Blockchain Based Letter of Credit Processed by HSBC on Voltron Trade Finance Platform" (by JD Alois) and "Trade Finance Solution Voltron Launches Open Platform on Corda Blockchain".
 ### Public Sector Solutions Overview
 Blockchain benefits of security, efficiency and speed have government leaders research the far reaching implications that will improve lives and accelerate global blockchain solutions. Public sector can be categorized by, Public Administration, Public Service, Land and Community, and Government. According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’Kelly, "Re-thinking Public Sector through Blockchain", all blockchain public sector project must consider in the design these four factors:
-•	Identity management for Governments
-•	Interactions (highly regulated transactions)
-•	Regulations
-•	Governance
+  - Identity management for Governments
+  - Interactions (highly regulated transactions)
+  - Regulations
+  - Governance
  
 One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. Watch these additional resources to learn more about the Smart Dubai initiative, "Smart Dubai's Paperless Strategy" and "Happy Cities Forum 2019".
  
 ### Dutch Blockchain Coalition established three pillars of society working together to build a blockchain future:
-•	Developing blockchain building blocks - digital identities
-•	Realizing the conditions for utilizing blockchain
-•	Developing and realizing the Human Capital Agenda
+  - Developing blockchain building blocks - digital identities
+  - Realizing the conditions for utilizing blockchain
+  - Developing and realizing the Human Capital Agenda
  
 Wyoming has now enacted a total of 13 blockchain-enabling laws, making it the only US state to provide a comprehensive, welcoming legal framework that enables blockchain technology to flourish, both for individuals and companies. This effort was led by tireless Caitlin Long.
 ### Social Impact Solutions Overview
 The Blockchain for Social Impact Coalition (BSIC) is a not-for-profit organization that incubates, develops, and collaborates on blockchain products and solutions that can address social and environmental challenges across the United Nations Sustainable Development Goals. The aim is to inspire, federate, and create bridges between NGOs, and government agencies, foundations, impact investors, philanthropists and technologists.
  
 According to the "7 Ways Blockchain Can Be Used for Social Good" article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
-•	Philanthropy and remittances
-•	Financial empowerment
-•	Identity and land rights
-•	Governance and democracy
-•	Supply chain and environmental protections
+  - Philanthropy and remittances
+  - Financial empowerment
+  - Identity and land rights
+  - Governance and democracy
+  - Supply chain and environmental protections
  
 More than 1.7 billion people around the world are unbanked and can’t access the financial services they need. Kiva is an international nonprofit, founded in 2005 in San Francisco, with a mission to expand financial access to help underserved communities thrive. Kiva accomplishes this by crowdfunding loans and unlocking capital for the underserved, improving the quality and cost of financial services, and addressing the underlying barriers to financial access around the world. Through Kiva's work, students can pay for tuition, women can start businesses, farmers are able to invest in equipment and families can afford needed emergency care.
  
@@ -2361,17 +2361,17 @@ Created by three local meetup groups, Ledger Academy, Hyperledger Princeton and 
 The Giving Chain is now moving from a Proof of Concept project to a prototype as it was selected for the 2021 Hyperledger Mentorship program.
 ConsenSys
 ConsenSys Mesh companies offer solutions to help build out the Ethereum Ecosystem. ConsenSys Mesh acts as an incubator for Etherum-based projects:
-•	Codefi
+  * Codefi
 Finance and commerce blockchain applications.
-•	Diligence
+  * Diligence
 Ethereum smart contract audits.
-•	INFURA
+  * INFURA
 Scaling and performance issues.
-•	Metamask
+  * Metamask
 Wallet application.
-•	Quorum
+  * Quorum
 open source blockchain platforms.
-•	Truffle
+  * Truffle
 Application builder.
 
 ### Hyperledger
@@ -2382,11 +2382,11 @@ Hyperledger is an open source project with blockchains for you to build your sol
 ### Daml
 Daml is:
 "a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
-•	Daml Connect
+  * Daml Connect
 It is a complete development and application stack allowing you to build, integrate, deploy, and maintain full-stack multi-party solutions with a minimum of boilerplate code.
-•	Daml Drivers
+  * Daml Drivers
 They allow you to deploy your application using distributed ledgers, blockchains, or databases. Migrate between ledger drivers without any code changes as business needs evolve.
-•	Daml Hub
+  * Daml Hub
 It is a cloud service that enables rapid distributed application deployment with an always available, easy-to-use, fully managed cloud environment.
  
 ### SIMBA Chain
@@ -2407,10 +2407,7 @@ The days of video games being just a form of entertainment are long gone. Most o
 To learn more, visit the Game Developers Conference's website.
 Decentraland
 Decentraland is a virtual world built on top of the Ethereum blockchain. A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland). Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).
-Watch this video to learn more about Decentraland.
-
-(![image](https://user-images.githubusercontent.com/41387907/147904021-3bd8972a-96d6-47ee-906a-d81fde63bb88.png)
-](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w "Decentraland")
+Watch this video to learn more about Decentraland [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).
 
 ### Music
 Experts from Statista projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
