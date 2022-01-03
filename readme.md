@@ -2401,7 +2401,7 @@ Decentraland
 Decentraland is a virtual world built on top of the Ethereum blockchain. A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland). Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).
 Watch this video to learn more about Decentraland.
 
-[![Decentraland](![image](https://user-images.githubusercontent.com/41387907/147904021-3bd8972a-96d6-47ee-906a-d81fde63bb88.png)
+(![image](https://user-images.githubusercontent.com/41387907/147904021-3bd8972a-96d6-47ee-906a-d81fde63bb88.png)
 ](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w "Decentraland")
 
 ### Music
