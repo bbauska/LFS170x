@@ -1886,13 +1886,13 @@ An anonymous party has the same level of anonymity protection as a basic blockch
 A party on the Corda blockchain reveals the real-world identity of the user which intentionally sacrifices anonymity for identity validation.
 Advanced Blockchain Anonymity Techniques
 The following are only some of the mechanisms developed and implemented in various blockchains:
-•	Zero-knowledge proofs
+  * Zero-knowledge proofs
 Zero-knowledge proofs use cryptographic algorithms to allow a user to prove knowledge of a secret without revealing the secret. A prover proves knowledge of a secret without revealing it. New technology referred to as SNARK (Succinct Non-interactive - ARgument of Knowledge) are fine tuning privacy issues on blockchains.
-•	Stealth addresses
+  * Stealth addresses
 Stealth addresses involve using one-time addresses to perform transactions on a blockchain. A stealth address is just a one-time address that makes it impossible to link a transaction to a known account. This prevents the data mining attacks on privacy that we discussed earlier.
-•	Ring signatures
+  * Ring signatures
 We mentioned previously that transactions are digitally signed. With ring signatures, all that can be determined from a transaction is that a member of a group signed it, but not the particular member.
-•	CoinJoin
+  * CoinJoin
 The ability to see who is performing transactions with whom is dangerous to user privacy and anonymity. Protocols like CoinJoin mix several transactions together so that it is difficult to pair senders with recipients.
 •	Confidential transactions
 Confidential transactions take advantage of homomorphic encryption, which makes it possible to perform mathematical operations on encrypted data. This means that the data contained in a transaction can be hidden from the public, while still allowing the network to verify that the transaction is valid.
@@ -1920,33 +1920,33 @@ Let's recap the features of a blockchain that establishes trust:
 Establishing Trust in Blockchains
 All transaction data on a chained block is assumed to be trustworthy.
 The users base this trust on the fact that:
-•	This data has not been tampered with.
-•	The blockchain is immutable.
+  1. This data has not been tampered with.
+  2. The blockchain is immutable.
 What Do Blockchains Really Do?
 Blockchains minimize the amount of trust required from any single actor in the system. They do this by distributing trust among different actors in the blockchain as defined by the consensus protocols.
 Blockchains have a shared ledger that gives us the absolute truth of the state of the system. It uses mathematics, economics, and game theory to incentivize all parties in the system to reach a “consensus” (i.e. coming to an agreement on a single state of the ledger).
-•	Consensus algorithms
+  * Consensus algorithms
 The blockchain is based on a consensus algorithm where all nodes agree that the transaction is valid.
-•	Financial transparency
+  * Financial transparency
 Financial transparency can reduce the need for intermediaries.
-•	Smart contracts
+  * Smart contracts
 Smart contracts reduce the need for accountants, lawyers, bankers, etc., as computer code can replace some basic functions. Trust shifts to technology.
-•	Trust in technology
+  * Trust in technology
 Trustless blockchains is a transfer of trust to technology from organizations, governments and corporations.
-•	Confidential transactions
+  * Confidential transactions
 Privacy techniques mask details of transactions while still proving they occurred.
-•	Decentralized ledger
+  * Decentralized ledger
 The ledger acts as a trust broker when two parties who don’t trust each other want to interact.
-•	Transparent code
+  * Transparent code
 Most blockchains are built on open-source software that is transparent, community-driven code that is open for comment.
-Chapter 4 Summary
+#### Chapter 4 Summary
 In this chapter, we discussed:
-•	Open source communities and blockchain source code.
-•	Governance models for blockchain and who is really in charge.
-•	How a blockchain is “trustless”.
-•	Why a trustless system is more secure than a system that requires trust.
-•	Why anonymity is required in public blockchains.
-•	How private/public key cryptography provides anonymity.
+  * Open source communities and blockchain source code.
+  * Governance models for blockchain and who is really in charge.
+  * How a blockchain is “trustless”.
+  * Why a trustless system is more secure than a system that requires trust.
+  * Why anonymity is required in public blockchains.
+  * How private/public key cryptography provides anonymity.
 
 ## <a id="ch5"></a>Chapter 5. Blockchain Problem Solving and Future Trends
 Now that we understand the basics of how blockchain works, Chapter 5 will discuss the problems blockchain can solve. We will discuss the concept of immutability and how the append only blockchain brings new trust in shared information. Next, we will take what we learned about smart contracts to see how they are bringing autonomy to systems that previously required human interaction. We will discuss the double-spend issue and how blockchain can solve for it. We will also discuss some popular cryptocurrencies.
@@ -1954,18 +1954,18 @@ Next, we will discuss the new business trends blockchain makes possible. First, 
 Finally, we will discuss the energized world of NFT’s (non-fungible tokens) and how owning unique rights to everything from music, sports collectables and even “captured moments” is turning the collectable world upside down. We end the chapter with a brief discussion on interoperability. In order for this new technology to take hold, blockchains need to be able to communicate and transfer value amongst themselves.
 ### Learning Objectives
 By the end of this chapter, you should be able to:
-•	Discuss immutability in blockchains.
-•	Explain what transparency is and review advantages and disadvantages of append-only ledgers.
-•	Explain how blockchain is looking to be autonomous through smart contracts.
-•	Discuss how blockchain removes third party intermediaries.
-•	Discuss how blockchain solves the problem of double spending.
-•	Distinguish between traditional database vs. blockchain immutability.
-•	Discuss central bank digital currencies and how they operate.
-•	Explain identity management on a blockchain.
-•	Discuss decentralized finance and the implications for the financial industry.
-•	Examine Central Bank Digital Currencies (CBDC).
-•	Discuss non-fungible tokens and how they will impact society.
-•	Examine the importance of interoperability for blockchains.
+ * Discuss immutability in blockchains.
+ * Explain what transparency is and review advantages and disadvantages of append-only ledgers.
+ * Explain how blockchain is looking to be autonomous through smart contracts.
+ * Discuss how blockchain removes third party intermediaries.
+ * Discuss how blockchain solves the problem of double spending.
+ * Distinguish between traditional database vs. blockchain immutability.
+ * Discuss central bank digital currencies and how they operate.
+ * Explain identity management on a blockchain.
+ * Discuss decentralized finance and the implications for the financial industry.
+ * Examine Central Bank Digital Currencies (CBDC).
+ * Discuss non-fungible tokens and how they will impact society.
+ * Examine the importance of interoperability for blockchains.
 
 Immutability Defined
 Immutability is when something is unable to be changed.
@@ -1986,6 +1986,7 @@ A signed contract becomes more than a piece of paper because those signatures re
 Blockchain provides a digital implementation of this process,
 and can be an immeasurably valuable tool when you need to capture not only what happened, but who was involved as well.
 Imagine the new opportunities that arise when organizations can safely and securely share their most critical data with one another, with the trust that the data they're seeing hasn't been compromised or altered.
+
 Traditional Database Immutability Concept
 The very nature of centrally-operated databases can’t be completely immutable, but that’s the case for blockchain as well. A centrally-run database can embed things into it with features that mention immutability (unchangeable). But if there is a central authority, they have all the ability in the world to override that feature.
 Another point to keep in mind is that immutability has been around for many years, just like the majority of the tech used via blockchain; it is the combination of these that makes it unique.
@@ -1995,11 +1996,13 @@ Let's review the aspects of the public blockchain that improve the chances of it
 There are many different variables, but the main one is consensus. In a blockchain, it refers to the logs of transactions which are created by consensus among the chain’s participants. The basic notion is that once a blockchain transaction has received a sufficient level of validation and posted on the chain, it can almost never be replaced, reversed or edited.
 If all the nodes within the network (Bitcoin specifically) are working to solve a really hard math problem by running many computers simultaneously, the chances of anyone overriding that are slim to zero.
 But, if someone wanted to undermine the immutability of the Bitcoin blockchain, here’s how they would do it:
-•	First, they would install more mining capacity than the rest of the network put together, creating a so-called “51% attack”.
-•	Second, instead of openly participating in the mining process, they would mine their own “secret branch", containing whichever transactions they approve and censoring the rest.
-•	Finally, when the desired amount of time has passed, they would anonymously broadcast their secret branch to the network.
+  * First, they would install more mining capacity than the rest of the network put together, creating a so-called “51% attack”.
+  * Second, instead of openly participating in the mining process, they would mine their own “secret branch", containing whichever transactions they approve and censoring the rest.
+  * Finally, when the desired amount of time has passed, they would anonymously broadcast their secret branch to the network.
+
 Since the attacker has more mining power than the rest of the network, their branch will contain more Proof of Work than the public one. Every Bitcoin node will therefore switch over since the rules of Bitcoin state that the more difficult branch wins. Any previously confirmed transactions not in the secret branch will be reversed and the Bitcoin they spent could be sent elsewhere. The computing power required to achieve this is enormous and probably only theoretical, but it’s important to consider.
 One other less technical and malicious example would be from the Ethereum hard fork that directly happened after the DAO hack. In this example, the majority of the Ethereum nodes in the network decided to update the software preventing those hackers from withdrawing the cryptocurrency “earned” (stolen). This update could not be enforced, since every Ethereum user controls their own computer. Nonetheless, it was publicly supported by Vitalik Buterin, Ethereum’s founder, as well as many other community leaders. As a result, most users complied, and the blockchain with the new rules kept the name "Ethereum". A minority disagreed with the change and continued the blockchain according to its original rules, earning the title "Ethereum Classic".
+
 Transparency Defined
 Anything that is see-through, where there is very little fog or obstruction in the way. Just like immutability, transparency comes on a spectrum. Certain things are more transparent than others. In the context of business/technology, this can be seen as a way of operating that is easy for others to see what actions are being performed.
  
