@@ -2278,7 +2278,7 @@ By the end of this chapter, you should be able to:
 •	Discuss developing new technologies made possible by blockchain.
 •	Explain how blockchain will improve the human experience.
 
-### Blockchain Use Case Categories
+### <a id="ch6b"></a>Blockchain Use Case Categories
 Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. It is showing a new path that will improve the lives of so many. We will see how identity management is key (no pun intended) to all the use cases we discuss. For our discussion, we will categorize use cases by who is developing solutions, starting with large enterprise solutions to smartphone and web browser applications powered by blockchain that put control back in the user's hands:
 •	Enterprise solutions
 Businesses and organizations are implementing blockchain to overcome obstacles in transparency and trust forging new associations with global implications.
@@ -2296,7 +2296,7 @@ Global Supply Chains
 Supply chain data is not always visible or trusted. In recent times of disruption supply chains matter more than ever. Global supply chain and blockchain are working to secure systems to better handle these disruptions. The Covid pandemic shed light on the frailty of our supply chains which accelerated discussion over blockchain solutions. 
  
 Learn more about the collaboration between Maersk and IBM from the "Digitizing Global Trade with Maersk and IBM" blog post by Michael White.
-### Supply Chain - Maersk
+### <a id="ch6c"></a>Supply Chain - Maersk
 Global trade functions much as it has since the introduction of the shipping container in 1956.
 Manual, paper-based processes are still common and information about the status of goods is locked away in organizational silos.
 Today, 90% of goods in global trade are carried by the shipping industry with the supply chain slowed by the complexity and sheer volume of point-to-point communication across a loosely coupled web of land transportation providers, freight forwarders, customs brokers, governments, ports, and ocean carriers.
@@ -2360,7 +2360,7 @@ Reduction of settlement times will improve the flow of money through fintech com
 Swiss Exchange, SIX has a solution that solves the issue in the trade markets of long settlement times. The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can be completed in fractions of a second.
 Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. In a paper from Andrea Frosinini, "Reshaping Trade Finance: Towards a “New” Letter of Credit", he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 Voltron Trade Finance was co-founded by eight member banks including Bangkok Bank, BNP Paribas, CTBC, HSBC, ING, Natwest, SEB and Standard Chartered. The consortium has since grown to more than 50 banks and corporations. The platform is built on Corda blockchain, it solves the problem that most letters of credit are based on paper and take 5 to 10 days. By using blockchain technology, the letters of credit may be efficiently transacted in less than 24 hours. You can learn more about Voltron from the following two articles "Blockchain Based Letter of Credit Processed by HSBC on Voltron Trade Finance Platform" (by JD Alois) and "Trade Finance Solution Voltron Launches Open Platform on Corda Blockchain".
-### Public Sector Solutions Overview
+### <a id="ch6d"></a>Public Sector Solutions Overview
 Blockchain benefits of security, efficiency and speed have government leaders research the far reaching implications that will improve lives and accelerate global blockchain solutions. Public sector can be categorized by, Public Administration, Public Service, Land and Community, and Government. According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’Kelly, "Re-thinking Public Sector through Blockchain", all blockchain public sector project must consider in the design these four factors:
   - Identity management for Governments
   - Interactions (highly regulated transactions)
@@ -2375,7 +2375,7 @@ One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goa
   - Developing and realizing the Human Capital Agenda
  
 Wyoming has now enacted a total of 13 blockchain-enabling laws, making it the only US state to provide a comprehensive, welcoming legal framework that enables blockchain technology to flourish, both for individuals and companies. This effort was led by tireless Caitlin Long.
-### Social Impact Solutions Overview
+### <a id="ch6e"></a>Social Impact Solutions Overview
 The Blockchain for Social Impact Coalition (BSIC) is a not-for-profit organization that incubates, develops, and collaborates on blockchain products and solutions that can address social and environmental challenges across the United Nations Sustainable Development Goals. The aim is to inspire, federate, and create bridges between NGOs, and government agencies, foundations, impact investors, philanthropists and technologists.
  
 According to the "7 Ways Blockchain Can Be Used for Social Good" article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
@@ -2416,7 +2416,7 @@ Hyperledger Greenhouse is a graphical representation of the blockchains tools an
 
 Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger distributed ledgers and libraries on the Hyperledger website.
  
-### Daml
+### <a id="ch6f"></a>Daml
 Daml is:
 "a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
   * Daml Connect
@@ -2453,7 +2453,7 @@ themusicianmarketplace.com was built to establish one profile for each artist, b
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### What is the future of blockchain?
+### <a id="ch6h"></a>What is the future of blockchain?
 That is a big question.
 And unlike everything we have already talked about in this course, this is nothing factual, but just my own opinion.
 I think blockchain is a really, really exciting place right now.
