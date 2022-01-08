@@ -86,15 +86,20 @@ By the end of this chapter, you should be able to:
 ### <a id="ch1a"></a>a.	What is Blockchain
 Blockchain is a peer-to-peer ledger system that allows peers to transact directly with each other eliminating the need for a central authority.
 
-At its core, blockchain is a system for recording information about a transaction in a new decentralized way that makes it difficult or impossible to alter. These transactions are stored on sheets or blocks in a digital ledger that is shared among the participants of the network. Consensus on the transactions, brings the peer-to-peer network into agreement. Once the agreed-upon transactions blocks are recorded in the immutable ledger, trust becomes a fundamental component built into the system.
+At its core, blockchain is a system for recording information about a transaction in a new decentralized way that makes it difficult or impossible to alter.
+These transactions are stored on sheets or blocks in a digital ledger that is shared among the participants of the network. 
+Consensus on the transactions, brings the peer-to-peer network into agreement.
+Once the agreed-upon transactions blocks are recorded in the immutable ledger, trust becomes a fundamental component built into the system.
  
 ### <a id="ch1b"></a>b.	The Early Internet
 What started as a DARPA (Defense Advanced Research Project Agency) experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
 
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
  
-With the birth of the World Wide Web, expanded usages of this new technology arose along with expanded business opportunities. Web servers, people who host and store the documents and web browsers, companies set up to help you view linked documents, help create a household need for this technology and the Internet explosion began.
-The Growth of the Internet
+With the birth of the World Wide Web, expanded usages of this new technology arose along with expanded business opportunities. 
+Web servers, people who host and store the documents and web browsers, companies set up to help you view linked documents, help create a household need for this technology and the Internet explosion began.
+
+#### The Growth of the Internet
 The Internet can be grouped into three distinct segments characterized by the way people interact with this new technology.
   * Web 1.0 - Internet of Connection
   * Web 2.0 - Internet of Information
@@ -110,7 +115,10 @@ Characteristics of Web 1.0:
  * Email was the first widely adopted application on the Internet.
 
 Email, Electronically Transferring Information
-Computers and items for connection became necessities. Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. Companies appeared attempting to cash in on this new technology, most notable was a company called Netscape which developed the first commercial Web browser.
+Computers and items for connection became necessities.
+Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
+Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. 
+Companies appeared attempting to cash in on this new technology, most notable was a company called Netscape which developed the first commercial Web browser.
 
 **[`^        back to top        ^`](#table-of-contents)**
  
@@ -121,18 +129,28 @@ Characteristics of Web 2.0:
   * Information became siloed.
   * Data became a commodity.
 
-Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sellers in a seamless low-cost way. Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. Websites let users generate content, social networks became part of our lives.
+Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sellers in a seamless low-cost way. 
+Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. 
+Websites let users generate content, social networks became part of our lives.
 
   * Social Networking
   * Real World Examples of File Sharing
   * Use Case: Music Sharing Companies
 
-Approach: Music stored on many computers connected peer-to-peer. Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.
-Result: The industry cracks down music sharing companies copyright infringement. Napster is forced to take down its index, shutting down the platform.
+Approach: Music stored on many computers connected peer-to-peer. 
+Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.
+Result: The industry cracks down music sharing companies copyright infringement. 
+Napster is forced to take down its index, shutting down the platform.
 
-Approach: Music stored on many computers connected peer-to-peer. BitTorrent's software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.
-Result: The industry cracks down music sharing companies copyright infringement. BitTorrent is asked to shut down their platform. Since they do not control the software once downloaded to a peer, if two computers are running the software sharing can still occur.
-Music sharing companies gave us the first glimpse into peer-to-peer networking. Besides copyright infringement, the main challenge for the music sharing companies was file integrity. You could never be sure the file you requested was the file you would get and there was no one to complain to. Both Napster and BitTorrent are operating today, with different business models.
+Approach: Music stored on many computers connected peer-to-peer. 
+BitTorrent's software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.
+Result: The industry cracks down music sharing companies copyright infringement. 
+BitTorrent is asked to shut down their platform.
+Since they do not control the software once downloaded to a peer, if two computers are running the software sharing can still occur.
+Music sharing companies gave us the first glimpse into peer-to-peer networking.
+Besides copyright infringement, the main challenge for the music sharing companies was file integrity.
+You could never be sure the file you requested was the file you would get and there was no one to complain to. 
+Both Napster and BitTorrent are operating today, with different business models.
 
 #### Web 3.0 - Internet of Value
 Characteristics of Web 3.0:
@@ -146,7 +164,10 @@ Bitcoin is the first widely accepted application for the Internet of Value (just
 **[`^        back to top        ^`](#table-of-contents)**
 
 Cryptocurrencies, Electronically Transferring Value
-The Internet of Value represents a world where value is exchanged at the speed in which information moves today. The Internet is still the basic platform that these new technologies operate from. The new Web 3.0 browsers are being built to help you manage your cryptocurrency, keys, passwords and other blockchain features. Let’s now dive into blockchain basics.
+The Internet of Value represents a world where value is exchanged at the speed in which information moves today.
+The Internet is still the basic platform that these new technologies operate from. 
+The new Web 3.0 browsers are being built to help you manage your cryptocurrency, keys, passwords and other blockchain features.
+Let’s now dive into blockchain basics.
 #### <a id="ch1c"></a>c.	What Is Blockchain?
 There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
 You've probably heard of it: it's called 'Blockchain!'
@@ -178,11 +199,12 @@ It began when Satoshi Nakamoto, whose true identity is still unknown, released a
 It is here that blockchain technology made its debut.
 Even today people believe Bitcoin and blockchain are one and the same.
 They are not!
-Bitcoin, another alternative currency,  utilize blockchain technology.
+Bitcoin, another alternative currency, utilize blockchain technology.
 While an important one, Bitcoin is only one use case for blockchain.
 Blockchain allows people to exchange assets and perform transactions without a third party.
 Imagine a world where you don't need intermediaries.
-While traditionally we have needed central authorities to trust one another and fulfill contracts, blockchain makes it possible to have our peers guarantee that for us. But how?
+While traditionally we have needed central authorities to trust one another and fulfill contracts, blockchain makes it possible to have our peers guarantee that for us. 
+But how?
 Assets, like we've discussed, are no longer stored in a central place, but distributed across a global ledger, using the highest level of cryptography.
 When a transaction is conducted, it's posted across tens of thousands of computers around the globe.
 These transactions are recorded as blocks.
@@ -212,12 +234,21 @@ Purpose of currency:
   * Store of value over time
   * Accepted as a measure of worth
 
-According to Investopedia, “Fiat currency is money a government issues that is not backed by a commodity like gold. Fiat money is backed by the government and it has value because the government says so and the citizens believe it. The dollar is an example of the United States fiat currency”.
-Apart from the government issuing Fiat, a centralized authority needs to keep track of assets. Banks, credit card companies’ stockbrokers are companies that represent a centralized authority that controls your money.
+According to Investopedia, 
+> “Fiat currency is money a government issues that is not backed by a commodity like gold. 
+> Fiat money is backed by the government and it has value because the government says so and the citizens believe it. 
+> The dollar is an example of the United States fiat currency”.
+Apart from the government issuing Fiat, a centralized authority needs to keep track of assets. 
+Banks, credit card companies’ stockbrokers are companies that represent a centralized authority that controls your money.
 
-Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. If you have an Internet connection and a Bitcoin wallet application, you can receive and send the cryptocurrency Bitcoin. Cryptocurrencies like Bitcoin have value because it can be proven with math. Unlike banks offering centralized services, you are responsible for your cryptocurrency.
+Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. 
+If you have an Internet connection and a Bitcoin wallet application, you can receive and send the cryptocurrency Bitcoin. 
+Cryptocurrencies like Bitcoin have value because it can be proven with math. Unlike banks offering centralized services, you are responsible for your cryptocurrency.
 
-Bitcoin and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology. Some privately run blockchains do not use cryptocurrencies as a function of their blockchains. Blockchain technology can easily transfer anything from property rights, stocks, and even artwork. There are many more use cases that utilize blockchain technology far reaching than currency transfer.
+Bitcoin and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology.
+Some privately run blockchains do not use cryptocurrencies as a function of their blockchains.
+Blockchain technology can easily transfer anything from property rights, stocks, and even artwork. 
+There are many more use cases that utilize blockchain technology far reaching than currency transfer.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
