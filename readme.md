@@ -295,66 +295,118 @@ Blockchain Features
 Blockchain is a combination of several other underlying technologies that have never been combined so successfully. Here are some features that make this new technology so revolutionary.
  
 Blockchain Features: Distributed Ledger
-A ledger is a collection of transactions. It is not a collection of assets. Assets are part of a transaction, but the ledger records the transaction. With a digitally distributed ledger or a blockchain, no one owns the ledger. The ledger is distributed among participants in the network, all running the same blockchain protocols. It is decentralized in that an identical copy of the ledger exists on every node/computer on the network. In 2009 with the publishing of Satoshi Nakamoto’s whitepaper “Bitcoin: A Peer-to-Peer Electronic Cash System” , Bitcoin became the first application to leverage blockchain technology by recording the first asset transfer on a public blockchain ledger.
+A ledger is a collection of transactions. It is not a collection of assets. Assets are part of a transaction, but the ledger records the transaction. With a digitally distributed ledger or a blockchain, no one owns the ledger. The ledger is distributed among participants in the network, all running the same blockchain protocols. 
+It is decentralized in that an identical copy of the ledger exists on every node/computer on the network. 
+In 2009 with the publishing of Satoshi Nakamoto’s whitepaper “Bitcoin: A Peer-to-Peer Electronic Cash System” , Bitcoin became the first application to leverage blockchain technology by recording the first asset transfer on a public blockchain ledger.
 
 Blockchain Features: Peer to Peer Network
-The ledger is stored, updated, and maintained by a peer network. Nodes form the infrastructure of a blockchain network. 
-They store, spread and preserve the blockchain data, so a blockchain exists on nodes. All nodes on a network follow the same rules of operation or protocols, but nodes have different roles. A full node contains a copy of the blockchain protocol, transaction history of the blockchain and aids in the maintenance of the blockchain. User node interacts with the ledger. With blockchain technology, a lack of a centralized authority is replaced with a peer-to-peer network.
+The ledger is stored, updated, and maintained by a peer network. 
+Nodes form the infrastructure of a blockchain network. 
+They store, spread and preserve the blockchain data, so a blockchain exists on nodes. 
+All nodes on a network follow the same rules of operation or protocols, but nodes have different roles. 
+A full node contains a copy of the blockchain protocol, transaction history of the blockchain and aids in the maintenance of the blockchain. 
+User node interacts with the ledger. With blockchain technology, a lack of a centralized authority is replaced with a peer-to-peer network.
  
 Blockchain networks can be public or private. A public blockchain is open to anyone with an internet connection and the appropriate application. A private blockchain grants access and rights to its users before they can interact.
 Blockchain Features: Transparency
-In a blockchain, we can see all the transactions that have occurred on the shared or distributed ledger. A blockchain stores details of every transaction that occurred since the first transfer. This first transfer, along with some system information that we will discuss later, becomes the first block in our chain and is referred to as the genesis block. Since every node shares a copy of the agreed-upon ledger, there is no friction about the transactions, everyone has the same agreed-upon copy. Centralized systems are not transparent, the information about the ledger is controlled by one authority.
+In a blockchain, we can see all the transactions that have occurred on the shared or distributed ledger. 
+A blockchain stores details of every transaction that occurred since the first transfer. 
+This first transfer, along with some system information that we will discuss later, becomes the first block in our chain and is referred to as the genesis block. 
+Since every node shares a copy of the agreed-upon ledger, there is no friction about the transactions, everyone has the same agreed-upon copy. 
+Centralized systems are not transparent, the information about the ledger is controlled by one authority.
 Blockchain Features: Consensus
-Blockchain ledgers are different from centralized ledgers because network participants have an agreement upon what is in the identical ledger. In order for the blocks to be added, all the nodes in the system come to agree as to what transactions are accurate and should be added to the chain of blocks. Since there is no central authority telling the nodes which transactions are valid, a new way to reach agreement or come to consensus is needed.
+Blockchain ledgers are different from centralized ledgers because network participants have an agreement upon what is in the identical ledger. 
+In order for the blocks to be added, all the nodes in the system come to agree as to what transactions are accurate and should be added to the chain of blocks. 
+Since there is no central authority telling the nodes which transactions are valid, a new way to reach agreement or come to consensus is needed.
  
-The way in which each blockchain comes to consensus is built into the protocol, they are the rules built into the code that determine how the nodes will add ledger transactions. The Bitcoin network uses a proof of work consensus model. This process of building agreement among a group of mutually distrusting participants is a benefit of blockchain consensus.
+The way in which each blockchain comes to consensus is built into the protocol, they are the rules built into the code that determine how the nodes will add ledger transactions. 
+The Bitcoin network uses a proof of work consensus model. 
+This process of building agreement among a group of mutually distrusting participants is a benefit of blockchain consensus.
 
 Blockchain Features: Encryption
 Encryption and cryptography are combined with blockchain technology to assure the information on the blockchain is authentic. In our previous real-world example, the music sharing companies not only had legal issues from copyright infringement, they also could not solve the data integrity problem. Music downloaded from these platforms was only as reliable as the anonymous person storing and sending it. The data had no integrity. Cryptography and blockchain offer a secure way to prove something is authentic. Instead of relying on third-party, trust is put into cryptographic algorithms that prove the provenance and authenticity of an attestation.
 
 Blockchain Features: Programable
-Some blockchains offer an additional feature, smart contracts, that impose logic into the system. If you think of the Bitcoin blockchain as a calculator recording financial transactions, you can think of these blockchains as computers. The first of these blockchains is Ethereum, created by Vitalik Buterin, Joe Lubin and team. Ethereum runs the EVM, Ethereum Virtual Machine, which has the ability to impose digital agreements or smart contracts. A smart contract is a program that runs on a blockchain that can impose contractual agreements. Typically, they work as digital agreements that enforce a specific set of rules. These rules are predefined by computer code, which is replicated and executed by all network nodes. Blockchain smart contracts allow for the creation of trustless protocols. This means that two parties can make commitments via blockchain, without having to know or trust each other. They can be sure that if the conditions aren't fulfilled, the contract won't be executed. Other than that, the use of smart contracts can remove the need for intermediaries, reducing operational costs significantly.
+Some blockchains offer an additional feature, smart contracts, that impose logic into the system. 
+If you think of the Bitcoin blockchain as a calculator recording financial transactions, you can think of these blockchains as computers. 
+The first of these blockchains is Ethereum, created by Vitalik Buterin, Joe Lubin and team. 
+Ethereum runs the EVM, Ethereum Virtual Machine, which has the ability to impose digital agreements or smart contracts. 
+A smart contract is a program that runs on a blockchain that can impose contractual agreements. 
+Typically, they work as digital agreements that enforce a specific set of rules. 
+These rules are predefined by computer code, which is replicated and executed by all network nodes. 
+lockchain smart contracts allow for the creation of trustless protocols. 
+This means that two parties can make commitments via blockchain, without having to know or trust each other. 
+They can be sure that if the conditions aren't fulfilled, the contract won't be executed. 
+Other than that, the use of smart contracts can remove the need for intermediaries, reducing operational costs significantly.
 
 ### <a id="ch2d"></a>d. Blockchain Actors
-With new technology comes new opportunities and this holds true for blockchain. As this nascent technology matures, more positions are needed to fill this increased demand. A few of these new positions are listed here:
-Entry Level and Internship Positions
-Mentorship programs and internships include assisting in the designing and developing blockchain distributed ledgers based on both public and private or permissioned blockchains. With open-source, development and success depend on an active community, Working Groups and Hackatons are available for the newcomer. Skills include basic blockchain knowledge and some familiarity with basic programming languages.
+With new technology comes new opportunities and this holds true for blockchain. 
+As this nascent technology matures, more positions are needed to fill this increased demand. 
+A few of these new positions are listed here:
+  - Entry Level and Internship Positions
+Mentorship programs and internships include assisting in the designing and developing blockchain distributed ledgers based on both public and private or permissioned blockchains. 
+With open-source, development and success depend on an active community, Working Groups and Hackatons are available for the newcomer. 
+Skills include basic blockchain knowledge and some familiarity with basic programming languages.
 
-Blockchain Architect
-For a blockchain solution to be functional, it first needs to exist. The blockchain architect is the person or group who designs and implements the backend code of the blockchain. The blockchain architect works with blockchain engineers and technical leaders to identify the blockchain structure for specific use cases. Architects understand consensus mechanisms, cryptography systems, key management techniques and smart contract management. Qualifications include Go, Java, Javascript, or any modern programming language plus project management skills.
+  - Blockchain Architect
+For a blockchain solution to be functional, it first needs to exist. The blockchain architect is the person or group who designs and implements the backend code of the blockchain. 
+The blockchain architect works with blockchain engineers and technical leaders to identify the blockchain structure for specific use cases. 
+Architects understand consensus mechanisms, cryptography systems, key management techniques and smart contract management. 
+Qualifications include Go, Java, Javascript, or any modern programming language plus project management skills.
 
-Blockchain Developer
-Developers design, write and upload smart contracts to the blockchain. Developer design workflows that operate with blockchains and smart contracts. Responsibilities can include project design, smart contract development and implementation, front end applications design and application deployment. Skills a developer needs can include Microsoft SQL Server, Visual Studio, .NET, MVC, AJAX, SQL, C, Python, Solidity, C++, C#, Javascript, Node.js, JQuery, SOAP, REST, FTP, HTML, XML, XSLT, XCOD, Neural-networks, Regression, Agile Scrum, MYSQL. Solutions are developed for Hyperledger Fabric, Ethereum, Quorum Ripple, Corda and other distributed ledger solutions.
+ - Blockchain Developer
+Developers design, write and upload smart contracts to the blockchain. 
+Developer design workflows that operate with blockchains and smart contracts. 
+Responsibilities can include project design, smart contract development and implementation, front end applications design and application deployment. 
+Skills a developer needs can include Microsoft SQL Server, Visual Studio, .NET, MVC, AJAX, SQL, C, Python, Solidity, C++, C#, Javascript, Node.js, JQuery, SOAP, REST, FTP, HTML, XML, XSLT, XCOD, Neural-networks, Regression, Agile Scrum, MYSQL. 
+Solutions are developed for Hyperledger Fabric, Ethereum, Quorum Ripple, Corda and other distributed ledger solutions.
 
-Blockchain Operator
-Once the blockchain solution is designed and built, operators can join to create the peer network mentioned previously. The role of operators (nodes) is to store copies of the ledger and keep their copy up to date by distributing transactions and new blocks throughout their network via peer-to-peer communications.
+  - Blockchain Operator
+Once the blockchain solution is designed and built, operators can join to create the peer network mentioned previously. 
+The role of operators (nodes) is to store copies of the ledger and keep their copy up to date by distributing transactions and new blocks throughout their network via peer-to-peer communications.
 
-Blockchain Regulator
-Many businesses operate under regulations regarding how their data should be stored and processed. This is the same for blockchain solutions. Regulators rarely interact with the blockchain directly, rather oversee regulatory requirements that need to be considered in blockchain development. With governments researching Central Bank Digital Currencies, governing these blockchains will become increasingly more complex.
+  - Blockchain Regulator
+Many businesses operate under regulations regarding how their data should be stored and processed. 
+This is the same for blockchain solutions. 
+Regulators rarely interact with the blockchain directly, rather oversee regulatory requirements that need to be considered in blockchain development. 
+With governments researching Central Bank Digital Currencies, governing these blockchains will become increasingly more complex.
 
-Blockchain Project Managers
-Project managers are the first persons in an organization who are contacted when a company wants to bring blockchain in house and adapt it to their technology platforms. Responsibilities include deciding if a blockchain solution is a good fit for a business situation. If the decision is to move forward, Project Managers would organize key players and resources needed to execute the blockchain project.
+  - Blockchain Project Managers
+Project managers are the first persons in an organization who are contacted when a company wants to bring blockchain in house and adapt it to their technology platforms. Responsibilities include deciding if a blockchain solution is a good fit for a business situation. 
+If the decision is to move forward, Project Managers would organize key players and resources needed to execute the blockchain project.
 
-Data Storage and Processing Managers
-The blockchain provides distributed, immutable storage with built-in integrity checking, but certain limitations exist that have to be managed. Data decisions need to be made dealing with maximum capacity based on the standard block size and block rate. Policies need to address how to provide integrity verification for large amounts of data, should data be stored off-chain with a hash of the data stored on-chain. eMembers of the peer network must execute the code to remain in sync with the current state of the network. If smart contracts commonly require large amounts of processing power to complete, devices external to the peer network may be used to augment the processing power of the network.
+  - Data Storage and Processing Managers
+The blockchain provides distributed, immutable storage with built-in integrity checking, but certain limitations exist that have to be managed. Data decisions need to be made dealing with maximum capacity based on the standard block size and block rate. 
+Policies need to address how to provide integrity verification for large amounts of data, should data be stored off-chain with a hash of the data stored on-chain. eMembers of the peer network must execute the code to remain in sync with the current state of the network. 
+If smart contracts commonly require large amounts of processing power to complete, devices external to the peer network may be used to augment the processing power of the network.
 
-Blockchain Data Scientists
-Blockchain has the ability to collect large amounts of data. The Blockchain Data Scientist collects, interprets, analyzes and manages data. Developing algorithms that can analyze patterns in large data sets, the data scientist provides insight into the data collected.
+  - Blockchain Data Scientists
+Blockchain has the ability to collect large amounts of data. The Blockchain Data Scientist collects, interprets, analyzes and manages data. 
+Developing algorithms that can analyze patterns in large data sets, the data scientist provides insight into the data collected.
 
-Blockchain Quality Engineer
-This position is responsible for ensuring quality in all areas of blockchain development, such as automation frameworks and tests, manual testing and dashboards to support mobile, web and platform engineering. A quality engineer will need to research and advise on blockchain tools and develop quality assurance (QA) automated test standards, as well as define, write and implement test automation strategies for load performance tests. Applicants may also need an engineering management MBA degree.
+  - Blockchain Quality Engineer
+This position is responsible for ensuring quality in all areas of blockchain development, such as automation frameworks and tests, manual testing and dashboards to support mobile, web and platform engineering. 
+A quality engineer will need to research and advise on blockchain tools and develop quality assurance (QA) automated test standards, as well as define, write and implement test automation strategies for load performance tests. 
+Applicants may also need an engineering management MBA degree.
 
-Blockchain Legal Consultant or Attorney
-A blockchain legal consultant is responsible for advising companies on how to structure blockchain endeavors. Advise on how to structure and govern initial coin offerings, some of which are now coming under greater regulatory scrutiny. Attorneys will also be tasked with developing legal partnerships and contracts as blockchain technology offers "smart contracts", which are self-executing based on previously agreed terms. Duties can include designing legal partnerships that would connect the crypto ecosystem with existing financial structures, and supporting various merger-and-acquisition activities, such as negotiating and drafting legal agreements and performing due diligence on blockchain projects.
+  - Blockchain Legal Consultant or Attorney
+A blockchain legal consultant is responsible for advising companies on how to structure blockchain endeavors. 
+Advise on how to structure and govern initial coin offerings, some of which are now coming under greater regulatory scrutiny. 
+Attorneys will also be tasked with developing legal partnerships and contracts as blockchain technology offers "smart contracts", which are self-executing based on previously agreed terms. 
+Duties can include designing legal partnerships that would connect the crypto ecosystem with existing financial structures, and supporting various merger-and-acquisition activities, such as negotiating and drafting legal agreements and performing due diligence on blockchain projects.
 
-Blockchain Web Designer
-A decentralized community needs to keep the community that supports it informed. When including the use of cryptocurrencies in your business and when launching blockchains, there will be a greater need for websites to inform customers what a company is offering. A blockchain web designer will need to come up with original concepts, creative graphics and "mind blowing" user interfaces and dashboards to engage a diverse and inclusive community.
+  - Blockchain Web Designer
+A decentralized community needs to keep the community that supports it informed. 
+When including the use of cryptocurrencies in your business and when launching blockchains, there will be a greater need for websites to inform customers what a company is offering. 
+A blockchain web designer will need to come up with original concepts, creative graphics and "mind blowing" user interfaces and dashboards to engage a diverse and inclusive community.
 
-Blockchain Consultants
+  - Blockchain Consultants
 Blockchain consulting companies and blockchain consultants are tasked with advising companies on designing and implementing blockchain solutions. This includes the documentation and maintenance of solutions, as well as their initial implementations.
 
-NFT Graphics Designer
-NFT stands for a non fungible token, a special token that represents a unique ID that is linked to a piece of crypto art that cannot be replicated and is used to verify ownership of a piece. The collectable world is jumping in head first and creating non fungible tokens that represent art, music, memorializing events, newspaper articles and record releases. Designers are needed to turn these moments/media into art for the thirsty NFT market.
+  - NFT Graphics Designer
+NFT stands for a non fungible token, a special token that represents a unique ID that is linked to a piece of crypto art that cannot be replicated and is used to verify ownership of a piece. 
+The collectable world is jumping in head first and creating non fungible tokens that represent art, music, memorializing events, newspaper articles and record releases. 
+Designers are needed to turn these moments/media into art for the thirsty NFT market.
 
 ### <a id="ch2e"></a>e. Who Is Using Blockchain?
 There are a lot of really interesting use cases being explored with blockchain right now.
