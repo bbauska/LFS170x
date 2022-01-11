@@ -20,12 +20,12 @@
 ## [Table of Contents](#table-of-contents)
 
 ## [**Chapter 1. Introduction to Blockchain**](#ch1)
->### a.	[**Introduction**](#ch1a)
->### b.	[**Introduction to Blockchain and The Early Internet**](#ch1b)
->### c.	[**Blockchain Basics**](#ch1c)
->### d.	[**Career Opportunities in Blockchain**](#ch1d)
->### e.	[**Blockchain Use Cases**](#ch1e)
->### f.	[**Summary**](#ch1f)
+>### 1.1. [**Introduction**](#ch1a)
+>### 1.2. [**Introduction to Blockchain and The Early Internet**](#ch1b)
+>### 1.3. [**Blockchain Basics**](#ch1c)
+>### 1.4. [**Career Opportunities in Blockchain**](#ch1d)
+>### 1.5. [**Blockchain Use Cases**](#ch1e)
+>### 1.6. [**Summary**](#ch1f)
 
 ## [**Chapter 2. Blockchain Mechanics**](#ch2)
 >### a.	[**Introduction**](#ch2a)
