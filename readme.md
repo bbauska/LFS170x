@@ -20,53 +20,53 @@
 ## [Table of Contents](#table-of-contents)
 
 ## [**Chapter 1. Introduction to Blockchain**](#ch1)
->### 1.1. [**Introduction**](#ch1a)
->### 1.2. [**Introduction to Blockchain and The Early Internet**](#ch1b)
->### 1.3. [**Blockchain Basics**](#ch1c)
->### 1.4. [**Career Opportunities in Blockchain**](#ch1d)
->### 1.5. [**Blockchain Use Cases**](#ch1e)
->### 1.6. [**Summary**](#ch1f)
+>### 1.1. [**Introduction**](#ch1-1)
+>### 1.2. [**Introduction to Blockchain and The Early Internet**](#ch1-2)
+>### 1.3. [**Blockchain Basics**](#ch1-3)
+>### 1.4. [**Career Opportunities in Blockchain**](#ch1-4)
+>### 1.5. [**Blockchain Use Cases**](#ch1-5)
+>### 1.6. [**Summary**](#ch1-6)
 
 ## [**Chapter 2. Blockchain Mechanics**](#ch2)
->### a.	[**Introduction**](#ch2a)
->### b.	[**Understanding Ledgers**](#ch2b)
->### c.	[**Cryptography**](#ch2c)
->### d.	[**Transparency and Immutability**](#ch2d)
->### e.	[**Summary**](#ch2e)
+>### 2.1. [**Introduction**](#ch2-1)
+>### 2.2. [**Understanding Ledgers**](#ch2-2)
+>### 2.3. [**Cryptography**](#ch2-3)
+>### 2.4. [**Transparency and Immutability**](#ch2-4)
+>### 2.5. [**Summary**](#ch2-5)
 
 ## [**Chapter 3. Blockchain Functions**](#ch3)
->### a.	[**Introduction**](#ch3a)
->### b.	[**Smart Contracts**](#ch3b)
->### c.	[**Blockchain Security**](#ch3c)
->### d.	[**Public and Permissioned Blockchains**](#ch3d)
->### e.	[**The Blockchain Transaction**](#ch3e)
->### f.	[**Consensus**](#ch3f)
->### g.	[**Summary**](#ch3g)
+>### 3.1. [**Introduction**](#ch3-1)
+>### 3.2. [**Smart Contracts**](#ch3-2)
+>### 3.3. [**Blockchain Security**](#ch3-3)
+>### 3.4. [**Public and Permissioned Blockchains**](#ch3-4)
+>### 3.5. [**The Blockchain Transaction**](#ch3-5)
+>### 3.6. [**Consensus**](#ch3-6)
+>### 3.7. [**Summary**](#ch3-7)
 
 ## [**Chapter 4. Blockchains and Governance**](#ch4)
->### a.	[**Introduction**](#ch4a)
->### b.	[**Open Source Code**](#ch4b)
->### c.	[**Governance**](#ch4c)
->### d.	[**Identity and Anonymity on Blockchain**](#ch4d)
->### e.	[**Summary**](#ch4e)
+>### 4.1. [**Introduction**](#ch4-1)
+>### 4.2. [**Open Source Code**](#ch4-2)
+>### 4.3. [**Governance**](#ch4-3)
+>### 4.4. [**Identity and Anonymity on Blockchain**](#ch4-4)
+>### 4.5. [**Summary**](#ch4-5)
 
 ## [**Chapter 5. Blockchain Problem Solving and Future Trends**](#ch5)
->### a.	[**Introduction**](#ch5a)
->### b.	[**Problems Blockchain Solves**](#ch5b)
->### c.	[**Digital Currencies**](#ch5c)
->### d.	[**Future Trends**](#ch5d)
->### e.	[**Summary**](#ch5e)
+>### 5.1. [**Introduction**](#ch5-1)
+>### 5.2. [**Problems Blockchain Solves**](#ch5-2)
+>### 5.3. [**Digital Currencies**](#ch5-3)
+>### 5.4. [**Future Trends**](#ch5-4)
+>### 5.5. [**Summary**](#ch5-5)
 
 ## [**Chapter 6. Blockchain Use Cases**](#ch6)
->### a.	[**Introduction**](#ch6a)
->### b.	[**Blockchain in Practice**](#ch6b)
->### c.	[**Enterprise Solutions**](#ch6c)
->### d.	[**Public Sector Solutions**](#ch6d)
->### e.	[**Social Impact Solutions**](#ch6e)
->### f.	[**Platform Developer’s Solutions**](#ch6f)
->### g.	[**End User Solutions**](#ch6g)
->### h.	[**Future of Blockchain**](#ch6h)
->### i.	[**Summary**](#ch6i)
+>### 6.1. [**Introduction**](#ch6-1)
+>### 6.2. [**Blockchain in Practice**](#ch6-2)
+>### 6.3. [**Enterprise Solutions**](#ch6-3)
+>### 6.4. [**Public Sector Solutions**](#ch6-4)
+>### 6.5. [**Social Impact Solutions**](#ch6-5)
+>### 6.6. [**Platform Developer’s Solutions**](#ch6-6)
+>### 6.7. [**End User Solutions**](#ch6-7)
+>### 6.8. [**Future of Blockchain**](#ch6-8)
+>### 6.9. [**Summary**](#ch6-9)
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -83,7 +83,7 @@ By the end of this chapter, you should be able to:
   - Discuss about the roles and users in a blockchain community.
   - Discuss use cases for general blockchain solutions.
 
-### <a id="ch1a"></a>a.	What is Blockchain
+### <a id="ch1-1"></a>1.1 What is Blockchain?
 Blockchain is a peer-to-peer ledger system that allows peers to transact directly with each other eliminating the need for a central authority.
 
 At its core, blockchain is a system for recording information about a transaction in a new decentralized way that makes it difficult or impossible to alter.
@@ -408,7 +408,7 @@ NFT stands for a non fungible token, a special token that represents a unique ID
 The collectable world is jumping in head first and creating non fungible tokens that represent art, music, memorializing events, newspaper articles and record releases. 
 Designers are needed to turn these moments/media into art for the thirsty NFT market.
 
-### <a id="ch2e"></a>e. Who Is Using Blockchain?
+### <a id="ch2-##"></a>Who Is Using Blockchain?
 There are a lot of really interesting use cases being explored with blockchain right now.
 When you first get into blockchain, one of the areas you'll see people immediately jump to are healthcare, how can we manage our personal health information on the blockchain, and voting an election reform, and both of these are really, really interesting ideas.
 The goal behind the folks looking at blockchain for healthcare is the idea that it would be great if your medical records could be accessible with your permission to anyone else, anywhere on the planet.
@@ -1168,13 +1168,13 @@ I hope you've learned a little bit more about Proof of Work consensus and how bl
 Lab 2: Blocks
 Next, let's engage with an interactive lab. This lab will give you the chance to examine blocks on the blockchain. Enjoy!
 Start Lab
-### <a id="ch2e"></a>e.	Chapter 2 Summary
+### <a id="ch2-5"></a>2.5 Chapter 2 Summary
 In this chapter, we discussed:
-•	Distributed ledger technology (DLT) and how it differs from previous ledger storage techniques.
-•	Cryptography and how it is used in several different ways in blockchain.
-•	Hashing functions, zero-knowledge proofs (ZKPs) and Merkle tree data structures and how they are used to secure the blockchain.
-•	Public-key cryptography and public/private key pairs to support privacy, authenticity and security.
-•	Ledger immutability and transparency result from combining these technologies for an agreed-upon, append-only distributed ledger system chained together by blocks.
+  • Distributed ledger technology (DLT) and how it differs from previous ledger storage techniques.
+  • Cryptography and how it is used in several different ways in blockchain.
+  • Hashing functions, zero-knowledge proofs (ZKPs) and Merkle tree data structures and how they are used to secure the blockchain.
+  • Public-key cryptography and public/private key pairs to support privacy, authenticity and security.
+  • Ledger immutability and transparency result from combining these technologies for an agreed-upon, append-only distributed ledger system chained together by blocks.
 
 ## <a id="ch3"></a>Chapter 3. Blockchain Functions
 a.	Chapter Overview
