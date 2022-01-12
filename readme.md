@@ -1,4 +1,7 @@
 ## LFS170x - Linux FoundationX - Blockchain: Understanding Its Use Cases and Implications
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------- readme.md in LFS170x.bauska.site -------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" width="400">
 &nbsp;
@@ -91,7 +94,7 @@ These transactions are stored on sheets or blocks in a digital ledger that is sh
 Consensus on the transactions, brings the peer-to-peer network into agreement.
 Once the agreed-upon transactions blocks are recorded in the immutable ledger, trust becomes a fundamental component built into the system.
  
-### <a id="ch1b"></a>b.	The Early Internet
+### <a id="ch1-2"></a>1.2 The Early Internet
 What started as a DARPA (Defense Advanced Research Project Agency) experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
 
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
@@ -168,7 +171,7 @@ The Internet of Value represents a world where value is exchanged at the speed i
 The Internet is still the basic platform that these new technologies operate from. 
 The new Web 3.0 browsers are being built to help you manage your cryptocurrency, keys, passwords and other blockchain features.
 Let’s now dive into blockchain basics.
-#### <a id="ch1c"></a>c.	What Is Blockchain?
+#### <a id="ch1-3"></a>1.3 What Is Blockchain?
 There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
 You've probably heard of it: it's called 'Blockchain!'
 But what is it? How does it work? How does it affect you?
@@ -339,7 +342,7 @@ This means that two parties can make commitments via blockchain, without having 
 They can be sure that if the conditions aren't fulfilled, the contract won't be executed. 
 Other than that, the use of smart contracts can remove the need for intermediaries, reducing operational costs significantly.
 
-### <a id="ch2d"></a>d. Blockchain Actors
+### <a id="ch2-4"></a>2.4 Blockchain Actors
 With new technology comes new opportunities and this holds true for blockchain. 
 As this nascent technology matures, more positions are needed to fill this increased demand. 
 A few of these new positions are listed here:
@@ -408,7 +411,7 @@ NFT stands for a non fungible token, a special token that represents a unique ID
 The collectable world is jumping in head first and creating non fungible tokens that represent art, music, memorializing events, newspaper articles and record releases. 
 Designers are needed to turn these moments/media into art for the thirsty NFT market.
 
-### <a id="ch2-##"></a>Who Is Using Blockchain?
+### <a id="ch2-5"></a>2.5 Who Is Using Blockchain?
 There are a lot of really interesting use cases being explored with blockchain right now.
 When you first get into blockchain, one of the areas you'll see people immediately jump to are healthcare, how can we manage our personal health information on the blockchain, and voting an election reform, and both of these are really, really interesting ideas.
 The goal behind the folks looking at blockchain for healthcare is the idea that it would be great if your medical records could be accessible with your permission to anyone else, anywhere on the planet.
@@ -443,7 +446,7 @@ I have a much more diversified investment, which continues to offer returns, bec
 There are lots of very interesting use cases for blockchain in the real world right now.
 I would encourage all of you to dig in a little bit more, and see some of the interesting things that are going on with blockchain in healthcare, in public sector, in insurance, in supply chain, value chain and more, see what other folks are doing, and then go out and make your own blockchain dreams a reality.
 
-### <a id="ch2f"></a> Blockchain Users: Business to Consumer (B2C)
+### <a id="ch2-6"></a>2.6 Blockchain Users: Business to Consumer (B2C)
 A Business to Consumer (B2C) is business or transactions conducted directly between a company and consumers who are the end-users of its products or services. Services being provided to the consumer is an area of interest to companies. Benefits to the consumer are transparency to the consumer, accountability from suppliers, ethical sourcing validation, labor verification and an immutable shared view.
  
 Vertical markets see the advantage to the transparency feature in blockchain. Financials, logistics, charity funding, agriculture and ethical sourcing tracking are all markets leveraging blockchain to offer new insights to the customer.
@@ -515,7 +518,7 @@ Blockchain is used in supply chains to gain transparency and traceability. This 
 Blockchain is making headway in the global trade markets with transparency and immutability that offer new relationships among distrusting parties. Blockchain makes sure all relevant parties have access to the same information. Trade barriers are reduced, from settlement issues, to compliance and regulation, information is being shared and accessed in new secure ways. A distributed ledger technology (DLT) opens up a new avenue for securely sharing data that guarantees accuracy while removing banks as deal facilitators. Smart contract and microfinancing alternatives allow all size companies to seamlessly trade across borders.
 •	Digital identity (self-sovereign identity and verifiable credentials)
 Users of the Internet were all but unaware that all the information given so freely when interacting with companies online, was being stored and sold. Data became a siloed commodity owned by everyone but you. With new blockchain technology, individuals can reclaim their identity information breaking the need for data silos, endless passwords and hackable databases. Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.
-### <a id="ch1f"></a>f. Chapter Summary
+### <a id="ch1-6"></a>1.6 Chapter Summary
 In this chapter, we discussed:
 •	The history of the Internet and how blockchain technology relies on Internet technology as the foundation for building the future of the blockchain evolution.
 •	The difference between blockchain and Bitcoin.
@@ -2336,7 +2339,7 @@ Interoperability
 To end this section, we must mention interoperability. Interoperability in blockchains deals with creating standards so different types of blockchains can communicate with each other.
 If new emerging blockchains can’t communicate with each other, we will have the same issues with siloed data that created frustration with the Internet of Today. As different blockchains take different approaches to interoperability, standards will emerge that will help regulate the industry and help with widespread adoption. Currently Hyperledger and Ethereum are working together on interoperability projects from Hyperledger Besu (to learn more about Hyperledger Besu enroll into Hyperledger Besu Essentials: Creating a Private Blockchain Network (LFS176x)), an open source Ethereum client for enterprise solutions that can be run on the Ethereum public network or on a private permissioned network. Other projects in the Hyperledger labs that deal with interoperability are working on standards that will make it easier for blockchains to talk to each other.
 When considering how blockchain interoperability can work, consider email and smartphone. Both of these technologies have the ability to interoperate. Outlook email server can receive email from the Gmail server and Verizon cell phone carriers can transfer and accept calls from T-Mobile. These services would not operate efficiently, if these companies couldn't exchange data. With this in mind, blockchain are developing projects that, like smartphones and emails, will transfer value and information across blockchain seamlessly.
-Chapter 5 Summary
+### <a id="ch5-5"></a>5.5 Chapter 5 Summary
 In this chapter, we discussed:
 •	How some features of blockchain are solving real world problems.
 •	How immutability is opening up new cooperation models for business.
@@ -2354,7 +2357,7 @@ Next, we will discuss the impact blockchain is having in developing countries. W
 Then, we will devote some time discussing new technologies and emerging breakthroughs developers are building. Either to enhance existing systems or offering services to help users manage blockchains, these new advances are like nothing we have seen before.
 Finally, we will see use cases designed to improve the individual's experience, decentralized gaming platforms and new marketplaces inventing new worlds to interact in. Blockchains are reshaping the way artists and musicians are benefiting from their creativity by having the royalties delivered directly to them, without agents and middlemen.
 Blockchain will be a part of everyone's future.
-### Learning Objectives
+### <a id="ch6-1"></a>6.1 Learning Objectives
 By the end of this chapter, you should be able to:
 •	Discuss blockchain use cases in business enterprises.
 •	Discuss use cases in the public sector.
@@ -2362,7 +2365,7 @@ By the end of this chapter, you should be able to:
 •	Discuss developing new technologies made possible by blockchain.
 •	Explain how blockchain will improve the human experience.
 
-### <a id="ch6b"></a>Blockchain Use Case Categories
+### <a id="ch6-2"></a>6.2 Blockchain Use Case Categories
 Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. It is showing a new path that will improve the lives of so many. We will see how identity management is key (no pun intended) to all the use cases we discuss. For our discussion, we will categorize use cases by who is developing solutions, starting with large enterprise solutions to smartphone and web browser applications powered by blockchain that put control back in the user's hands:
 •	Enterprise solutions
 Businesses and organizations are implementing blockchain to overcome obstacles in transparency and trust forging new associations with global implications.
@@ -2380,7 +2383,7 @@ Global Supply Chains
 Supply chain data is not always visible or trusted. In recent times of disruption supply chains matter more than ever. Global supply chain and blockchain are working to secure systems to better handle these disruptions. The Covid pandemic shed light on the frailty of our supply chains which accelerated discussion over blockchain solutions. 
  
 Learn more about the collaboration between Maersk and IBM from the "Digitizing Global Trade with Maersk and IBM" blog post by Michael White.
-### <a id="ch6c"></a>Supply Chain - Maersk
+### <a id="ch6-3"></a>6.3 Supply Chain - Maersk
 Global trade functions much as it has since the introduction of the shipping container in 1956.
 Manual, paper-based processes are still common and information about the status of goods is locked away in organizational silos.
 Today, 90% of goods in global trade are carried by the shipping industry with the supply chain slowed by the complexity and sheer volume of point-to-point communication across a loosely coupled web of land transportation providers, freight forwarders, customs brokers, governments, ports, and ocean carriers.
@@ -2459,7 +2462,7 @@ One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goa
   - Developing and realizing the Human Capital Agenda
  
 Wyoming has now enacted a total of 13 blockchain-enabling laws, making it the only US state to provide a comprehensive, welcoming legal framework that enables blockchain technology to flourish, both for individuals and companies. This effort was led by tireless Caitlin Long.
-### <a id="ch6e"></a>Social Impact Solutions Overview
+### <a id="ch6-5"></a>6.5 Social Impact Solutions Overview
 The Blockchain for Social Impact Coalition (BSIC) is a not-for-profit organization that incubates, develops, and collaborates on blockchain products and solutions that can address social and environmental challenges across the United Nations Sustainable Development Goals. The aim is to inspire, federate, and create bridges between NGOs, and government agencies, foundations, impact investors, philanthropists and technologists.
  
 According to the "7 Ways Blockchain Can Be Used for Social Good" article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
@@ -2500,7 +2503,7 @@ Hyperledger Greenhouse is a graphical representation of the blockchains tools an
 
 Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger distributed ledgers and libraries on the Hyperledger website.
  
-### <a id="ch6f"></a>Daml
+### <a id="ch6-6"></a>6.6 Daml
 Daml is:
 "a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
   * Daml Connect
@@ -2510,7 +2513,7 @@ They allow you to deploy your application using distributed ledgers, blockchains
   * Daml Hub
 It is a cloud service that enables rapid distributed application deployment with an always available, easy-to-use, fully managed cloud environment.
  
-### SIMBA Chain
+### <a id="ch6-7"></a>6.7 SIMBA Chain
 SIMBA Chain, Inc. was formed in 2017 from a grant awarded by the Defense Advanced Research Projects Agency (DARPA) to Indiana Technology and Manufacturing Companies (ITAMCO) and the Center for Research Computing (CRC) at the University of Notre Dame in order to develop a secure, unhackable messaging and transaction platform for the United States military.
 SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). These apps allow secure, direct connections between users and providers, eliminating third parties. The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
 SIMBA's Smart Contract Designer allows anyone to quickly and easily create smart contracts. The interface allows users to easily build a graph of the relationships between assets and transactions. This graphical model is then converted to Solidity where each asset and transaction becomes a Solidity Smart Contract method that can be executed on the blockchain.
@@ -2537,7 +2540,7 @@ themusicianmarketplace.com was built to establish one profile for each artist, b
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch6h"></a>What is the future of blockchain?
+### <a id="ch6-8"></a>6.8 What is the future of blockchain?
 That is a big question.
 And unlike everything we have already talked about in this course, this is nothing factual, but just my own opinion.
 I think blockchain is a really, really exciting place right now.
@@ -2558,7 +2561,7 @@ At the closest Earth gets to Mars, it's a 26 minute roundtrip at light speed, an
 Well, think about this: if you run a small pizza shop on Mars, you close out your register for the day, and you need to deposit funds into your bank account, and that is a bank on Wall Street, New York City, and under the best case scenario, that's a 26-minute roundtrip, you can see how centralized models of the Internet aren't going to scale.
 So, if you ask me, I really believe technologies like blockchain and supporting technologies like IPFS are the enabling technologies to allow humans to continue to trade and interact and conduct commerce with each other when we become a multi-planetary society.
 And that's why I think there's a ton of potential in blockchain and it's something really exciting, and hopefully, you're all inspired to stay up-to-date with.
-### Chapter 6 Summary
+### <a id="ch6-9"></a>6.9 Chapter 6 Summary
 In this chapter, we discussed:
   * Blockchain use cases in an enterprise environment.
   * Public sector and how blockchain is important in shaping citizens' futures.
