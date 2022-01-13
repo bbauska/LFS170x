@@ -448,7 +448,7 @@ I have a much more diversified investment, which continues to offer returns, bec
 There are lots of very interesting use cases for blockchain in the real world right now.
 I would encourage all of you to dig in a little bit more, and see some of the interesting things that are going on with blockchain in healthcare, in public sector, in insurance, in supply chain, value chain and more, see what other folks are doing, and then go out and make your own blockchain dreams a reality.
 
-### <a id="ch2-6"></a>2.6 Blockchain Users: Business to Consumer (B2C)
+### Blockchain Users: Business to Consumer (B2C)
 A Business to Consumer (B2C) is business or transactions conducted directly between a company and consumers who are the end-users of its products or services. Services being provided to the consumer is an area of interest to companies. Benefits to the consumer are transparency to the consumer, accountability from suppliers, ethical sourcing validation, labor verification and an immutable shared view.
  
 Vertical markets see the advantage to the transparency feature in blockchain. Financials, logistics, charity funding, agriculture and ethical sourcing tracking are all markets leveraging blockchain to offer new insights to the customer.
@@ -497,8 +497,8 @@ Certainly, it was not the original problem we went to solve with blockchain, but
 Look for blockchain not just to transform the areas that we're aware it might make a difference in, but also to provide some new exciting and unintended benefits.
 Blockchain Users: Government to Consumer (G2C)/Government to Government (G2G)
 The public sector is the part of the economy composed of both public sector and private sector enterprises that are operating on behalf of the public. It is the business of taking care of the people. Public sector includes all government, military, police, public health and welfare, infrastructure, etc. Public sector organizations leverage blockchain technology to move away from siloed and inefficient centralized systems. Current systems are inherently insecure and costly, with duplicated and in-efficient workflows. Blockchain networks offer more secure, agile, and cost-effective structures.
- 
-### Dubai Use Case
+
+### <a id="ch1-5"></a>1.5 Dubai Use Case
 So, when people first start getting into blockchain, one of the areas they really start to look at is where is blockchain being used in the real world, what examples do we have of a blockchain being deployed and at what scale.
 And there's really no better example of this right now than what's going on in Dubai.
 Dubai, the largest city in the United Arab Emirates, is piloting a very ambitious program called smart Dubai 2021.
@@ -509,7 +509,7 @@ Blockchain is becoming the enabling layer for a lot of other Smart Dubai initiat
 So, projects like automated traffic signals, registration of citizens for governmental services, etc. are all being pioneered on blockchain.
 So, if you want to see some of the really exciting use cases in blockchain right now, be sure to check out Dubai and what's going on with their Smart Dubai 2021 initiative.
 Real World Example of Public Sector Government to Government/Citizens
-### <a id="ch1-5"></a>1.5 Use Case: Public Sector - Smart Dubai
+### Use Case: Public Sector - Smart Dubai
   • Approach: To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful. The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership
   • Result: By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. When successful, Dubai will be the first blockchain-powered government driving the future economy.
 More Use Cases
@@ -599,40 +599,44 @@ So, when something occurs on the blockchain, either public blockchains... most p
 This allows end-users, other systems, other users, different components to be able to act off of the events that come from an update on a blockchain.
 Basic Terms
 Some terms that are mentioned in the video we will get familiar with in later chapters, but are worth a brief description for clarification:
-•	Ethereum
-Ethereum, like Bitcoin, is a decentralized open-source blockchain. Unlike the Bitcoin Network, the Ethereum Protocol has the ability to run smart contracts. The cryptocurrency running on the Ethereum network is called Ether.
-•	Smart Contracts
-A smart contract is computer code that can be run on a blockchain that executes the conditions of an agreement.
-•	Public Blockchains
-Public blockchain has no barrier to entry. Anyone with a cell phone and a digital wallet can transact on the blockchain.
-•	Private Blockchains
-Private blockchains or permissioned blockchains have a Membership Services piece that grants access to users before they can interact with the blockchain.
-•	Digital Wallet
-A digital wallet is a computer application that represents a traditional wallet. It gives the user the ability to store and transact cryptocurrencies through the Internet.
-•	Public Key Infrastructure (PKI)
-Public Key Infrastructure is the identity management system for instilling trust into the electronic transfers of information or value. It is the technology used to authenticate users and information by issuing a set of key pairs (public and private).
+  •	Ethereum
+> Ethereum, like Bitcoin, is a decentralized open-source blockchain. Unlike the Bitcoin Network, the Ethereum Protocol has the ability to run smart contracts. 
+> The cryptocurrency running on the Ethereum network is called Ether.
+  •	Smart Contracts
+> A smart contract is computer code that can be run on a blockchain that executes the conditions of an agreement.
+  •	Public Blockchains
+> Public blockchain has no barrier to entry. Anyone with a cell phone and a digital wallet can transact on the blockchain.
+  •	Private Blockchains
+> Private blockchains or permissioned blockchains have a Membership Services piece that grants access to users before they can interact with the blockchain.
+  •	Digital Wallet
+> A digital wallet is a computer application that represents a traditional wallet. 
+> It gives the user the ability to store and transact cryptocurrencies through the Internet.
+  •	Public Key Infrastructure (PKI)
+> Public Key Infrastructure is the identity management system for instilling trust into the electronic transfers of information or value. 
+> It is the technology used to authenticate users and information by issuing a set of key pairs (public and private).
+
 b. Ledgers and Basic Accounting Systems
 To understand how blockchain came about, we must first understand the following key principles:
-•	Ledgers
-•	Basic accounting principles in history
+  •	Ledgers
+  •	Basic accounting principles in history
+
 History of Ledgers
- 
-•	Ledgers first appeared around 3,000 B.C.
-•	Single-entry only.
-•	Chanakya, an Indian leader, creates the first documented accounting standards.
- 
-•	Double-entry ledger appears in 1340 A.D.
-•	Tracks debits and credits.
-•	Tells the story of a transaction from both/all sides.
-•	The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.
- 
-•	Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.
-•	Debits, credits, and an immutable link to all past debits and credits.
-•	Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).
-•	Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.
+  •	Ledgers first appeared around 3,000 B.C.
+  •	Single-entry only.
+  •	Chanakya, an Indian leader, creates the first documented accounting standards.
+  •	Double-entry ledger appears in 1340 A.D.
+  •	Tracks debits and credits.
+  •	Tells the story of a transaction from both/all sides.
+  •	The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.
+  •	Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.
+  •	Debits, credits, and an immutable link to all past debits and credits.
+  •	Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).
+  •	Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.
 History of Ledgers (Triple-Entry Example)
+
 As described in the Reddit post, 
 "A seller books a debit to account for cash received, while a buyer books a credit for cash spent in the same transaction, but in separate sets of accounting records. This is where the blockchain comes in: rather than these entries occurring separately in independent sets of books, they occur in the form of a transfer between wallet addresses in the same distributed, public ledger, which creates an interlocking system of enduring accounting records. Since the entries are distributed and cryptographically sealed, falsifying them in a credible way or destroying them to conceal activity is practically impossible".
+
 Double vs. Triple-Entry Accounting Comparison
  
 Island of Yap
@@ -659,15 +663,13 @@ In this regard, the ledger was fault tolerant and could not be easily changed, c
 The tribe also decided that stones didn't have to be on the island to hold value.
 One day, a stone fell into the ocean and the Yapese decided that this stone, even though it could not be seen, still held value and could still be traded.
 This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.
+
 Island of Yap: Recap
- 
-The group shared the ledger.
- 
-The group agreed to the ledger.
- 
- All changes or transactions to the ledger were announced to the group.
- 
-The group agreed to update all ledgers.
+  >1. The group shared the ledger.
+  >2. The group agreed to the ledger.
+  >4. All changes or transactions to the ledger were announced to the group.
+  >4. The group agreed to update all ledgers.
+
 Let's review an example on Yap Island:
 Alice agrees to trade Bob her stone by the pond in exchange for all of his cattle.
 Alice and Bob announce their transaction to the tribe.
@@ -675,9 +677,10 @@ Everyone updates their mental ledger.
 From this point on, they agree that the stone by the pond is owned by Bob.
 Island of Yap: Corruption Is Near Impossible
 Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never gave up ownership of the stone.
-•	Centralized ledger, only one place to cheat.
-•	Decentralized ledger, Carol will be outvoted by the rest of the tribe, and her version of the ledger will not be accepted.
+  •	Centralized ledger, only one place to cheat.
+  •	Decentralized ledger, Carol will be outvoted by the rest of the tribe, and her version of the ledger will not be accepted.
 If Alice wants to cheat, she will need a way to convince 51% or more of the tribe to accept an alternative ledger.
+
 The Evolution of Distributed Ledgers
 We've gone through history and seen how ledgers have evolved from stone tablets to double entry ledgers.
 We even took a look at the earliest known example of distributed ledgers.
@@ -694,9 +697,11 @@ So, if an audit is necessary, information can be found and deemed reliable.
 This allows blockchain to serve as a truly reliable storage of public records and transactions, and therefore eliminating the need for a centralized authority of database of records.
 Now that we understand the foundational principle of blockchains - distributed ledgers, it's important to understand another important key element that makes blockchain so revolutionary: trust.
 Trust is created through two key principles: collaboration and cryptography, both of which will be discussed shortly.
+
 Decentralized Ledger
 As we can see by looking at the evolution of the ledger, we are entering a new phase where no one centralized authority has control of the details in the ledger, everyone does. Transactions are only added to the ledger if everyone agrees. Once consensus is reached, no one can go back and deny a transaction. So essentially you are not trusting one person or entity to control the ledger, you're trusting everyone. Let's look a little further into how that trust is achieved.
-c. From Distributed Ledger to Cryptography
+
+From Distributed Ledger to Cryptography
 A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
 Blockchain creates a layer of trust between untrusted parties.
 Without blockchain to create trusted records and transactions, a third party intermediary is necessary.
@@ -706,6 +711,7 @@ Now, we will be taking a further look at how cryptography is used in blockchain 
 Information on the blockchain is stored on the ledger using cryptography.
 It can be accessed using keys and cryptographic signatures.
 Now, let's take a look into some of the key concepts of cryptography that are utilized with blockchain.
+
 Rose Greenhow
 So, one of the reoccurring themes in blockchain is that while blockchain itself may be new and cutting-edge, it's built out of nothing more than very old tried-and-true technology.
 And one of the areas this is most true is in cryptography.
@@ -726,22 +732,23 @@ As described in the "Ancient Uses of Cryptography: Four Examples that Pre-Date t
 
 ### Cryptography Key Terms
 Let's explain the key terms used in cryptography:
-•	Cryptography
+  •	Cryptography
 Cryptography is a technique used to secure the communication between two parties from a third. The term cryptography is derived from two ancient greek terms, “kryptos” which means “hidden” and “graphein” which means “to write”.
-•	Secret
+  •	Secret
 The data which we are trying to protect.
-•	Key
+  •	Key
 A piece of data used for encrypting and decrypting the secret.
-•	Function
+  •	Function
 The process or function used to encrypt the secret.
-•	Cipher
+  •	Cipher
 The encrypted secret data, the digital secret, the output of the mathematical function or a cryptographic algorithm.
-•	Encryption
+  •	Encryption
 This is the process from plain text (ordinary text) to cipher text (random sequence of bits).
-•	Decryption
+  •	Decryption
 Encryption is the reverse process of converting ciphertext into plain text.
- 
+
 The Secret and the Key are passed into the Function to create the Cipher.
+
 ### Cryptography Basics
 So, one of the technologies that plays a pivotal role in blockchain and making blockchain secure and immutable is cryptography.
 If you've never heard of cryptography before, cryptography is simply designed defined as the science of sending messages back and forth from one party to another, in the presence of adversaries or bad actors, participants who may wish to corrupt or change the contents of a message.
@@ -767,6 +774,7 @@ We're going to dive in a lot deeper in a later module, to show you exactly throu
 But just understand these two big takeaways:
 Number one, that cryptography is normally a two-way function with four components: the secret, the key, the function, and the cipher, and then finally, there are a subclass of cryptographic functions called cryptographic hash functions, which exist as one-way functions, which can only encrypt the secret, and again, which are mathematically impossible to decrypt the secret in any other method other than randomly guessing input until you're able to recreate that hash output.
 These are key components which enable security and immutability on the blockchain.
+
 Cryptographic Functions
 Simple example function:
 •	Secret = "Blockchain technology is transformative"
