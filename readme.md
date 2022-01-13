@@ -255,9 +255,10 @@ There are many more use cases that utilize blockchain technology far reaching th
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-c.	Blockchain - Let’s Cover the Basics
+Blockchain - Let’s Cover the Basics
 In this section, we're gonna talk about what blockchain is: 
-	a real simple introduction to the basic concepts and principles behind blockchain.
+  * a real simple introduction to the basic concepts and principles behind blockchain.
+
 When you hear about blockchain, you probably think of new, high-emerging tech.
 Well, really, all blockchain is, is a combination of technologies that have existed for a long time.
 They're simply combined in a new and creative way to give us an amazing new platform on which we can start to build solutions.
@@ -295,7 +296,8 @@ If the data is tampered with anywhere in the chain, the links will break in a ve
  
 This provides immutability and security.
 Blockchain Features
-Blockchain is a combination of several other underlying technologies that have never been combined so successfully. Here are some features that make this new technology so revolutionary.
+Blockchain is a combination of several other underlying technologies that have never been combined so successfully.
+Here are some features that make this new technology so revolutionary.
  
 Blockchain Features: Distributed Ledger
 A ledger is a collection of transactions. It is not a collection of assets. Assets are part of a transaction, but the ledger records the transaction. With a digitally distributed ledger or a blockchain, no one owns the ledger. The ledger is distributed among participants in the network, all running the same blockchain protocols. 
@@ -342,7 +344,7 @@ This means that two parties can make commitments via blockchain, without having 
 They can be sure that if the conditions aren't fulfilled, the contract won't be executed. 
 Other than that, the use of smart contracts can remove the need for intermediaries, reducing operational costs significantly.
 
-### <a id="ch2-4"></a>2.4 Blockchain Actors
+### <a id="ch1-4"></a>1.4 Blockchain Actors
 With new technology comes new opportunities and this holds true for blockchain. 
 As this nascent technology matures, more positions are needed to fill this increased demand. 
 A few of these new positions are listed here:
@@ -411,7 +413,7 @@ NFT stands for a non fungible token, a special token that represents a unique ID
 The collectable world is jumping in head first and creating non fungible tokens that represent art, music, memorializing events, newspaper articles and record releases. 
 Designers are needed to turn these moments/media into art for the thirsty NFT market.
 
-### <a id="ch2-5"></a>2.5 Who Is Using Blockchain?
+### Who Is Using Blockchain?
 There are a lot of really interesting use cases being explored with blockchain right now.
 When you first get into blockchain, one of the areas you'll see people immediately jump to are healthcare, how can we manage our personal health information on the blockchain, and voting an election reform, and both of these are really, really interesting ideas.
 The goal behind the folks looking at blockchain for healthcare is the idea that it would be great if your medical records could be accessible with your permission to anyone else, anywhere on the planet.
@@ -507,16 +509,16 @@ Blockchain is becoming the enabling layer for a lot of other Smart Dubai initiat
 So, projects like automated traffic signals, registration of citizens for governmental services, etc. are all being pioneered on blockchain.
 So, if you want to see some of the really exciting use cases in blockchain right now, be sure to check out Dubai and what's going on with their Smart Dubai 2021 initiative.
 Real World Example of Public Sector Government to Government/Citizens
-### Use Case: Public Sector - Smart Dubai
-•	Approach: To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful. The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership
-•	Result: By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. When successful, Dubai will be the first blockchain-powered government driving the future economy.
+### <a id="ch1-5"></a>1.5 Use Case: Public Sector - Smart Dubai
+  • Approach: To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful. The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership
+  • Result: By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. When successful, Dubai will be the first blockchain-powered government driving the future economy.
 More Use Cases
 Blockchain is having far reaching effects in major industries. Let’s take a look at three major industries having a positive influence from this new way to organize our information:
-•	Supply chain
+  • Supply chain
 Blockchain is used in supply chains to gain transparency and traceability. This has a special advantage for global health when used in traceability to the food supply chain. By tracking food on a blockchain, you are building trust into the system through the transparency feature. In the event of a problem, blockchain technology can pinpoint the exact location and cause of a food health issue. By instantly tracing food issues back to the source, all contaminated lots can be tracked and dealt with instantly.
-•	Global trade
+  • Global trade
 Blockchain is making headway in the global trade markets with transparency and immutability that offer new relationships among distrusting parties. Blockchain makes sure all relevant parties have access to the same information. Trade barriers are reduced, from settlement issues, to compliance and regulation, information is being shared and accessed in new secure ways. A distributed ledger technology (DLT) opens up a new avenue for securely sharing data that guarantees accuracy while removing banks as deal facilitators. Smart contract and microfinancing alternatives allow all size companies to seamlessly trade across borders.
-•	Digital identity (self-sovereign identity and verifiable credentials)
+  • Digital identity (self-sovereign identity and verifiable credentials)
 Users of the Internet were all but unaware that all the information given so freely when interacting with companies online, was being stored and sold. Data became a siloed commodity owned by everyone but you. With new blockchain technology, individuals can reclaim their identity information breaking the need for data silos, endless passwords and hackable databases. Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.
 ### <a id="ch1-6"></a>1.6 Chapter Summary
 In this chapter, we discussed:
