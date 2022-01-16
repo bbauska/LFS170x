@@ -2351,10 +2351,10 @@ To end this section, we must mention interoperability. Interoperability in block
 If new emerging blockchains can’t communicate with each other, we will have the same issues with siloed data that created frustration with the Internet of Today. As different blockchains take different approaches to interoperability, standards will emerge that will help regulate the industry and help with widespread adoption. Currently Hyperledger and Ethereum are working together on interoperability projects from Hyperledger Besu (to learn more about Hyperledger Besu enroll into Hyperledger Besu Essentials: Creating a Private Blockchain Network (LFS176x)), an open source Ethereum client for enterprise solutions that can be run on the Ethereum public network or on a private permissioned network. Other projects in the Hyperledger labs that deal with interoperability are working on standards that will make it easier for blockchains to talk to each other.
 When considering how blockchain interoperability can work, consider email and smartphone. Both of these technologies have the ability to interoperate. Outlook email server can receive email from the Gmail server and Verizon cell phone carriers can transfer and accept calls from T-Mobile. These services would not operate efficiently, if these companies couldn't exchange data. With this in mind, blockchain are developing projects that, like smartphones and emails, will transfer value and information across blockchain seamlessly.
 
-### <a id="ch5-5"></a>5.5 Chapter 5 Summary
+### <a id="ch5-5"></a>5.5 Chapter Summary
 In this chapter, we discussed:
- •	How some features of blockchain are solving real world problems.
- •	How immutability is opening up new cooperation models for business.
+ • How some features of blockchain are solving real world problems.
+ • How immutability is opening up new cooperation models for business.
  •	How the concept of autonomy will reduce conflict by eliminating human processes.
  •	New emerging business models as multiparty exchanges, with built in trust, are being developed.
  •	How the double spend accounting issue is solved with blockchain.
@@ -2534,17 +2534,23 @@ It is a cloud service that enables rapid distributed application deployment with
 ### <a id="ch6-7"></a>6.7 SIMBA Chain
 SIMBA Chain, Inc. was formed in 2017 from a grant awarded by the Defense Advanced Research Projects Agency (DARPA) to Indiana Technology and Manufacturing Companies (ITAMCO) and the Center for Research Computing (CRC) at the University of Notre Dame in order to develop a secure, unhackable messaging and transaction platform for the United States military.
 SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). These apps allow secure, direct connections between users and providers, eliminating third parties. The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
-SIMBA's Smart Contract Designer allows anyone to quickly and easily create smart contracts. The interface allows users to easily build a graph of the relationships between assets and transactions. This graphical model is then converted to Solidity where each asset and transaction becomes a Solidity Smart Contract method that can be executed on the blockchain.
+SIMBA's Smart Contract Designer allows anyone to quickly and easily create smart contracts. 
+The interface allows users to easily build a graph of the relationships between assets and transactions. 
+This graphical model is then converted to Solidity where each asset and transaction becomes a Solidity Smart Contract method that can be executed on the blockchain.
 SIMBA Chain also offers management services (Software as a Service) for your blockchain solution that grant use of software solutions or APIs (application programming interface), across several cloud platforms so companies can effectively create blockchain solutions.
+
 ### Identity
 Identity management is vital for blockchain operation. Identifying objects that will interact with a blockchain such as people, places, things (IOT devices), is the first step and consideration when developing a blockchain.
 One solution is the Verifiable Organizations Network (VON) project that enables organizations—and the people running those organizations—to conduct business online in a trusted manner. The core challenge is that on the Internet we can’t tell if we’re talking to you, or someone pretending to be you. We need a reliable way to verify that “you are you” in a manner appropriate for the type of transaction that you want to complete and in a privacy-preserving manner.
 To learn more, we recommend that you listen the "Digital Trust: How the OrgBook Enables the Digital Economy" webinar.
+
 ### Marketplace
 Marketplaces exist to shop renewable energies to make sustainable solutions available on open markets. Everyone knows there are countless inefficiencies in the energy grid, stemming from the highly centralized nature of our utilities systems. With the advent of at-home energy production and storage through affordable solar panels and home batteries, many users are storing energy surpluses at home without a way to “sell” clean energy.
- 
-Power Ledger solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. By increasing the transparency for energy origins, Power Ledger could assist with providing customers more choices for where their energy comes from. They accomplish these goals through peer-to-peer energy trading, carbon product trading, microgrids management, and more.
-Gaming
+Power Ledger solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. 
+By increasing the transparency for energy origins, Power Ledger could assist with providing customers more choices for where their energy comes from. 
+They accomplish these goals through peer-to-peer energy trading, carbon product trading, microgrids management, and more.
+
+### Gaming
 The days of video games being just a form of entertainment are long gone. Most of the new video games have in-app purchases and loot box features in them. These features enable users to use real-life currency to buy new skins for their characters and tools. With the use of DeFi, game developers can implement the newer incentive or reward models with DeFi coins. In fact, gaming and eSports will likely become one of the major markets as the users are more tech-savvy and open to newer technologies.
 To learn more, visit the Game Developers Conference's website.
 Decentraland
@@ -2588,7 +2594,7 @@ Well, think about this: if you run a small pizza shop on Mars, you close out you
 So, if you ask me, I really believe technologies like blockchain and supporting technologies like IPFS are the enabling technologies to allow humans to continue to trade and interact and conduct commerce with each other when we become a multi-planetary society.
 And that's why I think there's a ton of potential in blockchain and it's something really exciting, and hopefully, you're all inspired to stay up-to-date with.
 
-### <a id="ch6-9"></a>6.9 Chapter 6 Summary
+### <a id="ch6-9"></a>6.9 Chapter Summary
 In this chapter, we discussed:
   * Blockchain use cases in an enterprise environment.
   * Public sector and how blockchain is important in shaping citizens' futures.
