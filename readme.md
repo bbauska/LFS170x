@@ -696,14 +696,15 @@ History of Ledgers
   •	Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).
   •	Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.
 
-History of Ledgers (Triple-Entry Example)
-
+#### History of Ledgers (Triple-Entry Example)
 As described in the Reddit post, 
-"A seller books a debit to account for cash received, while a buyer books a credit for cash spent in the same transaction, but in separate sets of accounting records. This is where the blockchain comes in: rather than these entries occurring separately in independent sets of books, they occur in the form of a transfer between wallet addresses in the same distributed, public ledger, which creates an interlocking system of enduring accounting records. Since the entries are distributed and cryptographically sealed, falsifying them in a credible way or destroying them to conceal activity is practically impossible".
+> "A seller books a debit to account for cash received, while a buyer books a credit for cash spent in the same transaction, but in separate sets of accounting records. 
+> This is where the blockchain comes in: rather than these entries occurring separately in independent sets of books, they occur in the form of a transfer between wallet addresses in the same distributed, public ledger, which creates an interlocking system of enduring accounting records. 
+> Since the entries are distributed and cryptographically sealed, falsifying them in a credible way or destroying them to conceal activity is practically impossible".
 
-Double vs. Triple-Entry Accounting Comparison
- 
-Island of Yap
+#### Double vs. Triple-Entry Accounting Comparison
+
+#### Island of Yap
 Idea for the following was obtained from the LinkedIn article "Explaining Blockchain: The Distributed Ledger of the Island of Yap" by Anthony (Tony) Riva.
 The concept of distributed ledge's has been around for hundreds of years.
 To understand the basics of blockchain, it's important to understand how distributed ledgers work.
@@ -728,13 +729,13 @@ The tribe also decided that stones didn't have to be on the island to hold value
 One day, a stone fell into the ocean and the Yapese decided that this stone, even though it could not be seen, still held value and could still be traded.
 This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.
 
-Island of Yap: Recap
+#### Island of Yap: Recap
   >1. The group shared the ledger.
   >2. The group agreed to the ledger.
   >4. All changes or transactions to the ledger were announced to the group.
   >4. The group agreed to update all ledgers.
 
-Let's review an example on Yap Island:
+##### Let's review an example on Yap Island:
 Alice agrees to trade Bob her stone by the pond in exchange for all of his cattle.
 Alice and Bob announce their transaction to the tribe.
 Everyone updates their mental ledger.
@@ -745,7 +746,7 @@ Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never ga
   •	Decentralized ledger, Carol will be outvoted by the rest of the tribe, and her version of the ledger will not be accepted.
 If Alice wants to cheat, she will need a way to convince 51% or more of the tribe to accept an alternative ledger.
 
-The Evolution of Distributed Ledgers
+#### The Evolution of Distributed Ledgers
 We've gone through history and seen how ledgers have evolved from stone tablets to double entry ledgers.
 We even took a look at the earliest known example of distributed ledgers.
 Now, let's discuss the evolution of the ledger in the modern world.
@@ -762,8 +763,12 @@ This allows blockchain to serve as a truly reliable storage of public records an
 Now that we understand the foundational principle of blockchains - distributed ledgers, it's important to understand another important key element that makes blockchain so revolutionary: trust.
 Trust is created through two key principles: collaboration and cryptography, both of which will be discussed shortly.
 
-Decentralized Ledger
-As we can see by looking at the evolution of the ledger, we are entering a new phase where no one centralized authority has control of the details in the ledger, everyone does. Transactions are only added to the ledger if everyone agrees. Once consensus is reached, no one can go back and deny a transaction. So essentially you are not trusting one person or entity to control the ledger, you're trusting everyone. Let's look a little further into how that trust is achieved.
+#### Decentralized Ledger
+As we can see by looking at the evolution of the ledger, we are entering a new phase where no one centralized authority has control of the details in the ledger, everyone does. 
+Transactions are only added to the ledger if everyone agrees. 
+Once consensus is reached, no one can go back and deny a transaction. 
+So essentially you are not trusting one person or entity to control the ledger, you're trusting everyone. 
+Let's look a little further into how that trust is achieved.
 
 ### <a id="ch2-3"></a>2.3 From Distributed Ledger to Cryptography
 A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
@@ -776,23 +781,32 @@ Information on the blockchain is stored on the ledger using cryptography.
 It can be accessed using keys and cryptographic signatures.
 Now, let's take a look into some of the key concepts of cryptography that are utilized with blockchain.
 
-Rose Greenhow
+#### Rose Greenhow
 So, one of the reoccurring themes in blockchain is that while blockchain itself may be new and cutting-edge, it's built out of nothing more than very old tried-and-true technology.
 And one of the areas this is most true is in cryptography.
 When a lot of people first get introduced to cryptography they think it's a very new cutting-edge science.
 And while there are new developments being made everyday, cryptography itself is a very, very old science.
 One great example of this is the story of Rose Greenhow.
+
 Rose Greenhow lived in the Washington DC area during the Civil War, and she was actually an undercover spy for the Confederate Army.
+
 Rose Greenhow was a wealthy socialite, and she threw many fancy, elaborate parties, and was also invited to many, many high-end social events.
+
 Many of these events were attended by members of the Union Army, generals and strategists, who Rose pretended that she didn't know much about military strategy and wasn't too interested in the war in general.
+
 In secret, at all these events she was soaking up all the information she could.
 Rose actually developed her own method of encrypting data.
 She came up with her own encryption scheme and she used this scheme to mail letters down to the Confederate Army, revealing the plans of the Union Army, troop positions, general high-level strategy, etc.
 Rose did this for a number of years, until finally her encryption method was broken and she was actually one of the very first people who were arrested and prosecuted by the Pinkertons, who later went on to form the Secret Service.
+
 So, when you hear about blockchain and all the new cutting-edge things that it's doing, don't forget that it has its roots in very old technology, and we're just combining old technology in new and creative ways to create a brand new solutions development platform.
-Early Use of Cryptography: Caesar Cipher
+
+#### Early Use of Cryptography: Caesar Cipher
 As described in the "Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet" article by Melanie Shapiro,
-"A little over 2,000 years ago, Julius Caesar developed a simple system to send secure information to his troops. It was all about substituting certain letters for others, typically by shifting the letters by a predetermined number. That algorithm is what we would call a cipher, and since Caesar’s invention, cipher keys are much more secure and advanced. If you want to encrypt and decrypt information, you are going to have to choose a kind of cipher to do so".
+> "A little over 2,000 years ago, Julius Caesar developed a simple system to send secure information to his troops. 
+> It was all about substituting certain letters for others, typically by shifting the letters by a predetermined number. 
+> That algorithm is what we would call a cipher, and since Caesar’s invention, cipher keys are much more secure and advanced. 
+> If you want to encrypt and decrypt information, you are going to have to choose a kind of cipher to do so".
 
 ### Cryptography Key Terms
 Let's explain the key terms used in cryptography:
