@@ -55,9 +55,9 @@
 
 ## [**Chapter 5. Blockchain Problem Solving and Future Trends**](#ch5)
 >### 5.1. [**Introduction**](#ch5-1)
->### 5.2. [**Problems Blockchain Solves**](#ch5-2)
+>### 5.2. [**Double Spend Problem**](#ch5-2)
 >### 5.3. [**Digital Currencies**](#ch5-3)
->### 5.4. [**Future Trends**](#ch5-4)
+>### 5.4. [**Non-Fungible Tokens**](#ch5-4)
 >### 5.5. [**Summary**](#ch5-5)
 
 ## [**Chapter 6. Blockchain Use Cases**](#ch6)
@@ -172,19 +172,23 @@ The Internet is still the basic platform that these new technologies operate fro
 The new Web 3.0 browsers are being built to help you manage your cryptocurrency, keys, passwords and other blockchain features.
 Let’s now dive into blockchain basics.
 
-#### <a id="ch1-3"></a>1.3 What Is Blockchain?
+### <a id="ch1-3"></a>1.3 What Is Blockchain? (Blockchain Basics)
 There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
 You've probably heard of it: it's called 'Blockchain!'
+
 But what is it? How does it work? How does it affect you?
 Hearing the word "blockchain" is comparable to hearing the word "internet" in the early 90s.
 It seemed elusive, like something that wasn't going to impact your daily life.
-But here we are, more than 20 years later. Think about how the Internet has transformed businesses, commerce, communication, even music and video.
+But here we are, more than 20 years later.
+Think about how the Internet has transformed businesses, commerce, communication, even music and video.
 And that's not even touching on how the Internet has affected you.
 We all carry the Internet in our pocket.
 We can transfer money at the touch of a button, check the weather, get directions, and even have food delivered to our door.
 The next technology to have that kind of impact isn't some of the buzzwords you hear.
 It's not big data. It's not artificial intelligence. It's not even social media.
-It's BLOCKCHAIN!
+
+It's ***BLOCKCHAIN!***
+
 Now, let's discuss the vast promise blockchain has for every business, every society, and for everyone listening today.
 And let's begin with an example we are all familiar with.
 When you attach a file, a Word document, an Excel sheet, a PDF to an email, you aren't sending an original.
@@ -345,7 +349,7 @@ This means that two parties can make commitments via blockchain, without having 
 They can be sure that if the conditions aren't fulfilled, the contract won't be executed. 
 Other than that, the use of smart contracts can remove the need for intermediaries, reducing operational costs significantly.
 
-### <a id="ch1-4"></a>1.4 Blockchain Actors
+### <a id="ch1-4"></a>1.4 Blockchain Actors (Career Opportunities)
 With new technology comes new opportunities and this holds true for blockchain. 
 As this nascent technology matures, more positions are needed to fill this increased demand. 
 A few of these new positions are listed here:
@@ -414,7 +418,7 @@ NFT stands for a non fungible token, a special token that represents a unique ID
 The collectable world is jumping in head first and creating non fungible tokens that represent art, music, memorializing events, newspaper articles and record releases. 
 Designers are needed to turn these moments/media into art for the thirsty NFT market.
 
-### Who Is Using Blockchain?
+### <a id="ch1-5"></a>1.5 Who is Using Blockchain? (Use Cases)
 There are a lot of really interesting use cases being explored with blockchain right now.
 When you first get into blockchain, one of the areas you'll see people immediately jump to are healthcare, how can we manage our personal health information on the blockchain, and voting an election reform, and both of these are really, really interesting ideas.
 The goal behind the folks looking at blockchain for healthcare is the idea that it would be great if your medical records could be accessible with your permission to anyone else, anywhere on the planet.
@@ -499,7 +503,7 @@ Look for blockchain not just to transform the areas that we're aware it might ma
 Blockchain Users: Government to Consumer (G2C)/Government to Government (G2G)
 The public sector is the part of the economy composed of both public sector and private sector enterprises that are operating on behalf of the public. It is the business of taking care of the people. Public sector includes all government, military, police, public health and welfare, infrastructure, etc. Public sector organizations leverage blockchain technology to move away from siloed and inefficient centralized systems. Current systems are inherently insecure and costly, with duplicated and in-efficient workflows. Blockchain networks offer more secure, agile, and cost-effective structures.
 
-### <a id="ch1-5"></a>1.5 Dubai Use Case
+### Dubai Use Case
 So, when people first start getting into blockchain, one of the areas they really start to look at is where is blockchain being used in the real world, what examples do we have of a blockchain being deployed and at what scale.
 And there's really no better example of this right now than what's going on in Dubai.
 Dubai, the largest city in the United Arab Emirates, is piloting a very ambitious program called smart Dubai 2021.
@@ -510,6 +514,7 @@ Blockchain is becoming the enabling layer for a lot of other Smart Dubai initiat
 So, projects like automated traffic signals, registration of citizens for governmental services, etc. are all being pioneered on blockchain.
 So, if you want to see some of the really exciting use cases in blockchain right now, be sure to check out Dubai and what's going on with their Smart Dubai 2021 initiative.
 Real World Example of Public Sector Government to Government/Citizens
+
 ### Use Case: Public Sector - Smart Dubai
   • Approach: To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful. The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership
   • Result: By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. When successful, Dubai will be the first blockchain-powered government driving the future economy.
@@ -521,6 +526,7 @@ Blockchain is used in supply chains to gain transparency and traceability. This 
 Blockchain is making headway in the global trade markets with transparency and immutability that offer new relationships among distrusting parties. Blockchain makes sure all relevant parties have access to the same information. Trade barriers are reduced, from settlement issues, to compliance and regulation, information is being shared and accessed in new secure ways. A distributed ledger technology (DLT) opens up a new avenue for securely sharing data that guarantees accuracy while removing banks as deal facilitators. Smart contract and microfinancing alternatives allow all size companies to seamlessly trade across borders.
   • Digital identity (self-sovereign identity and verifiable credentials)
 Users of the Internet were all but unaware that all the information given so freely when interacting with companies online, was being stored and sold. Data became a siloed commodity owned by everyone but you. With new blockchain technology, individuals can reclaim their identity information breaking the need for data silos, endless passwords and hackable databases. Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.
+
 ### <a id="ch1-6"></a>1.6 Chapter Summary
 In this chapter, we discussed:
 •	The history of the Internet and how blockchain technology relies on Internet technology as the foundation for building the future of the blockchain evolution.
@@ -529,6 +535,7 @@ In this chapter, we discussed:
 •	Blockchain concepts and characteristics: distributed ledger, peer to peer, transparent, consensus, encryption, immutability, programmable.
 •	Blockchain users and their roles.
 •	Emerging general use cases.
+
 ## <a id="ch2"></a>Chapter 2. Blockchain Mechanics
 Chapter Overview
 In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques. We will gain an understanding of how previous computer technologies like file sharing, data storage and cryptography are wrapped into the blockchain foundations. We will also see how hashing functions and Merkle tree data structures help us immutably store and prove facts without revealing all the details.
@@ -541,7 +548,8 @@ By the end of this chapter, you should be able to:
 •	Explain the concept of zero-knowledge proofs (ZKPs) and Merkle trees and how they are used in blockchain technologies.
 •	Discuss how blockchain utilizes transparency.
 •	Explain what it means for blockchains to be immutable and how chaining provides this capability.
-a.	Introduction to Blockchain Components
+
+### <a id="ch2-1"></a>2.1 Introduction to Blockchain Components
 In this section, we're going to discuss the core components of the blockchain, starting with a high-level view of the blockchain components.
 The first blockchain component that we're going to look at it's the ledger.
 However, before we discuss the ledger, let's discuss briefly the history of the ledger.
@@ -579,16 +587,20 @@ Each blockchain has its own set of protocols that defines not only the nodes, bu
 So, when you hear the term "peer network", that's what we're talking about; we're talking about how that blockchain is put together, what are the protocols that define the peers, and how those peers interact.
 Those peer networks, they store the ledger, they provide the updates, they effectively, they maintain the ledger.
 That's what a peer is on a peer network.
+
 On a public blockchain, it's public, and, by definition, that means that anyone is allowed to join and participate in that public blockchain.
 On the private blockchain, however, the situation is a little different.
 On the private blockchain, we have to control who can access your network.
+
 Just like no company would allow... no company would allow anyone to access their private intranet, in a private blockchain you have to be asked to join, or you have to have permission to join.
 A membership service is a gateway that allows users and components to enter a private blockchain.
 A membership service or a membership service provider provides the services of user authentication, user authorization, component authentication, component authorization, more specifically Identity Management.
+
 If we're talking about a private blockchain, then we have to control who the members are, and not only the members.
 We have to also control the nodes that access the blockchain.
 As we're talking about membership, one of the key components of membership is we have to allow certain users to access the blockchain.
 In order to do that, we have to have a definitive identity for each user.
+
 In the blockchain, that's achieved in two ways.
 One, we use PKI, to provide a public key. And that public key represents the identity of the user.
 But we also need a private key that each user can hold to prove their identity.
@@ -616,7 +628,7 @@ Some terms that are mentioned in the video we will get familiar with in later ch
 > Public Key Infrastructure is the identity management system for instilling trust into the electronic transfers of information or value. 
 > It is the technology used to authenticate users and information by issuing a set of key pairs (public and private).
 
-b. Ledgers and Basic Accounting Systems
+### <a id="ch2-2"></a>2.2 Ledgers and Basic Accounting Systems (Understanding Ledgers)
 To understand how blockchain came about, we must first understand the following key principles:
   •	Ledgers
   •	Basic accounting principles in history
@@ -633,6 +645,7 @@ History of Ledgers
   •	Debits, credits, and an immutable link to all past debits and credits.
   •	Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).
   •	Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.
+
 History of Ledgers (Triple-Entry Example)
 
 As described in the Reddit post, 
@@ -702,7 +715,7 @@ Trust is created through two key principles: collaboration and cryptography, bot
 Decentralized Ledger
 As we can see by looking at the evolution of the ledger, we are entering a new phase where no one centralized authority has control of the details in the ledger, everyone does. Transactions are only added to the ledger if everyone agrees. Once consensus is reached, no one can go back and deny a transaction. So essentially you are not trusting one person or entity to control the ledger, you're trusting everyone. Let's look a little further into how that trust is achieved.
 
-From Distributed Ledger to Cryptography
+### <a id="ch2-3"></a>2.3 From Distributed Ledger to Cryptography
 A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
 Blockchain creates a layer of trust between untrusted parties.
 Without blockchain to create trusted records and transactions, a third party intermediary is necessary.
@@ -887,6 +900,7 @@ However, the blockchain doesn't really need to know or care who is spending the 
 Being able to answer a question of "Does a user have enough money to send to another user" without knowing who the user is, or exactly how much they have, is one of the primary use cases for Zero-Knowledge Proofs in blockchain.
 So, when you hear about zk-SNARKs, don't get intimidated.
 It's not a complex idea. Just think of Zero-Knowledge Proofs and the cave door, think about how important it is in blockchain to be able to prove a claim without actually revealing the information behind that claim, and you'll understand Zero-Knowledge Proofs.
+
 ### Hash Functions in Blockchain
 When using blockchain, the need to trust a central authority to verify the accuracy of data is removed and replaced by trust in a cryptographic hashing function. With data integrity guaranteed by algorithms, trust becomes part of the system.
 Blockchain provides users with data integrity in a trustless environment. This is accomplished using cryptography in a way that moves the burden of trust from data processors to cryptographic algorithms.
@@ -936,6 +950,7 @@ We actually show how cryptographic hashing is used to link together all blocks o
 Lab 1: Hashing
 Next, let's engage with an interactive lab. This lab is an actual hands-on demonstration of taking data and creating a hash output. Enjoy!
 Start Lab
+
 Merkle Tree
 A special type of data storage structure based on hash functions is called a Merkle tree:
 •	It is structured as a binary tree; the leaves contain the values to be stored and each internal node is the hash of its two children.
@@ -967,7 +982,7 @@ Hash functions are at the core of all blockchain technology. One of the primary 
 Zero-knowledge proofs are to increase the privacy of users. Currently, Ethereum is working on a layer 2 solution, where a second layer blockchain would store large amounts of data and only prove the batch of information is valid to layer 1 (mainnet). Hyperledger Fabric has a pluggable cryptographic library that supports ZKP techniques for enhanced privacy measures.
 Merkle trees are a data structure that allows authenticated storage with efficient data retrieval. Both Ethereum and Hyperledger Fabric are smart contract platforms that use a particular type of Merkle tree called the Patricia tree to store the current state of their virtual machine.
  
-d.	Disintermediation - Trust Through Transparency
+#### Disintermediation - Trust Through Transparency
 Now, that we have an understanding of how collaboration and cryptography work together to create a layer of trust, let's discuss how blockchain has a powerful disintermediation effect.
 Nodes on the network are allowed to place data directly onto the database that is shared.
 This eliminates the need for an intermediary to do such task.
@@ -1024,6 +1039,7 @@ Traditional databases do not retain historical information:
 •	Values can be modified or deleted after creation.
 The CRUD update model of databases allows data to be changed or removed from the database. This means that the visible data in a database is not an accurate historical record of the database. The existence of an update operation means that each value in the database is only the most recent version of that value and could have had different values in the past. The delete operation means that values can be removed from the database.
 This limits the transparency of data in the database since values can be modified or deleted after creation.
+
 ### Blockchain Updates
 The blockchain is designed to be a data structure that only allows appending:
 •	The past history of the blockchain is visible and immutable.
@@ -1036,8 +1052,8 @@ The blockchain is designed so that its entire history is visible and unchangeabl
 ### Transparency: Databases vs. Blockchain
 Traditional databases and the blockchain were created for different purposes and have different levels of transparency. Traditional databases have low transparency since values can be modified or deleted; however, this changeability allows them to store data in an efficient manner, with only the most relevant versions of each value retained in storage.
 The blockchain is publicly visible and immutable, meaning that it has very high transparency. Its append-only structure and decentralized storage sacrifice storage efficiency for trustworthiness of the stored data.
- 
-### Transparency
+
+### <a id="ch2-4"></a>2.4 Transparency
 One of the big benefits we get in any blockchain solution, public or private, is the idea of transparency.
 In a public blockchain solution like Bitcoin or Ethereum, because they're anonymous and we have no concept of identity, we have no way of treating users differently.
 And so all data on a public blockchain is transparent and visible to all other participants.
@@ -1065,6 +1081,7 @@ Consumers might value your product more, your offering more, if they're able to 
 If you're manufacturing and distributing clothing, and you can demonstrate to consumers that all of that clothing was sourced from parts of the world with fair labor practices consumers are going to have more trust and faith in the brand and ultimately willing to pay a higher price for it.
 So, these kind of transparency solutions are one of the biggest benefits of blockchain and one of the areas being most explored, because right now there are a lot of consumers who would simply like more visibility into the products and services they purchase.
 And blockchain, both public and private, can be a great solution for doing that.
+
 ### Immutability in the Blockchain
 Blockchain is designed to be an authoritative ledger of the history of the network.
 
@@ -1182,6 +1199,7 @@ I hope you've learned a little bit more about Proof of Work consensus and how bl
 Lab 2: Blocks
 Next, let's engage with an interactive lab. This lab will give you the chance to examine blocks on the blockchain. Enjoy!
 Start Lab
+
 ### <a id="ch2-5"></a>2.5 Chapter 2 Summary
 In this chapter, we discussed:
   • Distributed ledger technology (DLT) and how it differs from previous ledger storage techniques.
@@ -1191,10 +1209,11 @@ In this chapter, we discussed:
   • Ledger immutability and transparency result from combining these technologies for an agreed-upon, append-only distributed ledger system chained together by blocks.
 
 ## <a id="ch3"></a>Chapter 3. Blockchain Functions
-a.	Chapter Overview
+### Chapter Overview
 In this chapter, we will examine some blockchain functions. First, we will discuss smart contracts, how blockchains have the ability to store and run computer code (applications) that can execute the terms of an agreement. These digital promises stored and executed on the blockchains remove intermediaries and ambiguity thereby reducing conflict.
 We will discuss how blockchains secure their information and how these techniques differ from traditional database security. Next, we will discuss different types of blockchains (public, private and hybrid models) and design considerations that need to be made before blockchains can be developed. We will examine the steps in a basic blockchain transaction from start to finish.
 Finally, we will discuss blockchain consensus models and why they are the backbone to the blockchain operations. We will compare Proof of Stake and Proof of Work models and be able to discuss the differences and environmental considerations. Also, we will discuss private blockchain structures and how permissioning mechanisms are the basis for their ConsenSys models.
+
 ### Learning Objectives
 By the end of this chapter, you should be able to:
 •	Explain what smart contracts are and how they work.
@@ -1205,7 +1224,8 @@ By the end of this chapter, you should be able to:
 •	Analyze the flow of a transaction in blockchain.
 •	Discuss consensus mechanism used in blockchain.
 •	Explore different methods of achieving consensus (Proof of Work, Proof of Stake, etc.).
-b.	What Are Smart Contracts?
+
+### <a id="ch3-2"></a>3.2 What Are Smart Contracts?
 When we make a transaction on the blockchain, understand that there are only three types of transactions we can make.
 It's what I refer to as the onion model of blockchain.
 And we're gonna start off with a very outer layer of that onion.
@@ -1289,15 +1309,19 @@ Blockchain and smart contracts puts this power back in the hand of voters and ha
 c.	Blockchain Security vs. Standard Cybersecurity
 Blockchain is commonly called the future of computing. It takes a very different approach to data storage and processing and requires a very different perspective for security.
 In this section, we will discuss some of the ways that security differs in traditional and blockchain environments.
- 
-Introduction to Blockchain Security vs. Standard Cybersecurity
+
+### <a id="ch3-3"></a>3.3 Introduction to Blockchain Security vs. Standard Cybersecurity
 In this section, we're gonna talk a bit about how traditional cybersecurity is different than security concerns on the blockchain.
 In traditional cybersecurity that we're all used to, we're very perimeter-focused meaning that we put trusted data and assets behind a very, very strict perimeter.
+
 We assume that anybody we let inside that perimeter is trusted, either partially or fully, to see that data and access those resources.
+
 And the brunt of our focus goes into making sure that we keep the right people from getting beyond that perimeter,
 that we only let authorized users through, and then we prevent any attackers or strangers from breaching that perimeter and accessing the data and resources we store behind it.
+
 This is very different from blockchain, which runs on a massively decentralized peer-to-peer global network.
 Just by its very definition, you can see that there is no perimeter on blockchain, and so our security has to come from somewhere else.
+
 Our security on blockchain comes from the incredible amount of repetition.
 The fact that we ask every node to keep the same copy of the ledger and periodically to reach consensus, majority consensus, on what the proper data in that ledger should be.
 This makes the amount of work that an attacker would have to do practically impossible, if they wanted to change, hack, or alter the ledger.
@@ -1306,6 +1330,7 @@ We either develop all our own code or application parameters in-house or we rely
 All the code, generally, comes from one place, and if we don't write it ourselves, all we have to have is trust and faith in the third-party organization providing it to us.
 In blockchain, things are a little bit different, because oftentimes in blockchain solutions we're writing smart contracts which call code from other smart contracts, which we may or may not write ourselves.
 And which may come from a variety of different authors.
+
 So, whereas in the traditional cybersecurity space, we really only need to rely on our own due diligence to write secure code or the due diligence of a third-party application provider.
 In blockchain, we have to expend a lot more time and energy, making sure that the code and the contracts we're calling is safe and secure.
 In other words, we want to make sure that we're not inheriting any security vulnerabilities from other smart contracts that have been written by unknown and potentially untrusted parties.
@@ -1313,43 +1338,53 @@ And the final big difference between conventional cybersecurity and blockchain i
 In the blockchain world, all of our code runs on untrusted resources, untrusted hardware that can be owned by anyone, anywhere in the world.
 This means that we must ensure that all the trust in a blockchain solution comes from the protocol and the code layer itself, because it's a much more massively distributed network, and we don't have direct control or access into the hardware that supports it.
 So, there are a lot of differences between conventional cybersecurity and security in the blockchain space that you're going to want to understand before you deploy your own blockchain solutions.
-Blockchain Security Environment
+
+<h4>Blockchain Security Environment</h4>
 One of the primary differences between cybersecurity in a traditional computing environment and on the blockchain is the environment itself and what it is and isn't designed to do.
-Standard Cyber Security
+<h5>Standard Cyber Security
 •	The traditional computing environment is a company network fully or, at least mostly, under the control of the company's computer security staff.
 •	While many organizations are making the shift to cloud-based environments, they still have a high degree of control over the security and configuration of their rented systems.
 •	Traditional networks are highly centralized, and the focus of cybersecurity on these systems is primarily perimeter-focused. All systems and authorized users on the network are trusted or semi-trusted, so the focus is on preventing attackers from entering from outside the network.
-Blockchain Cyber Security
+
+<h5>Blockchain Cyber Security
 •	Blockchains are designed to be decentralized, distributed systems running on untrusted hardware.
 •	While security in traditional environments is designed to provide security by putting all data in one place and building walls around it, security in blockchain is based on ensuring that data is protected from modification by copying data to as many locations as possible to make modification of all copies infeasible.
 •	Traditional infrastructure focuses on confidentiality and integrity, while blockchain is designed to provide integrity and availability.
-Security Attacks
+
+<h5>Security Attacks
 Both traditional computing environments and blockchain have security considerations associated with them. In many cases, the same attack is possible against both paradigms, but the details of how to implement it vary.
 Next, we will discuss how a few different attacks can be launched against traditional computing environments and blockchain.
-Security Attacks: Denial-of-Service (DoS)
+
+<h5>Security Attacks: Denial-of-Service (DoS)
 A denial-of-service (DoS) attack is when an attacker makes it impossible for a system to serve its users as designed. This can be accomplished by exploiting a flaw in the system, but, more commonly, is accomplished by performing legitimate actions at a rate higher than the target can handle. To be effective, denial-of-service attacks typically focus on a system’s weakest link or bottleneck.
 •	In traditional environments, denial-of-service attacks target a company's web server to prevent customers from accessing the company's services. This can be accomplished by making more connection requests than the server is capable of supporting.
 •	In blockchain, a denial-of-service attack involves submitting more transactions to the blockchain than it can handle. Since many blockchains have fixed-size blocks created at a fixed rate and are stored in a distributed fashion, they have a maximum capacity that a determined attacker can exceed, rendering the blockchain unusable.
-Security Attacks: Endpoint Security
+
+<h5>Security Attacks: Endpoint Security
 Traditional infrastructure and blockchain environments also differ with regard to endpoint security. Endpoint security originated to ensure multi-layer prevention against malware, fraud, cyber threats, and attempts to extract private information.
 •	In traditional cyber, endpoints are under the control of the enterprise and have some level of heterogeneity. Heterogeneity can be dangerous because an attacker has more options for finding a vulnerability to exploit.
 •	In blockchain, endpoints are the nodes and may be completely homogeneous. While homogeneity means that a flaw in one system is a flaw in all of the systems, blockchains built in trust and data privacy feature guard against such attacks.
-Security Attacks: Code Vulnerabilities
+
+<h5>Security Attacks: Code Vulnerabilities
 Computer applications are dependent on reliable code. Another way that traditional and blockchain cybersecurity differ is in the level of trust in the code used in a company's applications.
 •	In traditional cyber, the company writes most of the code, and vulnerabilities can arise only from code that the company controls.
 •	In blockchain, anyone can write a smart contract, and a flaw in the smart contract or the underlying platform code can have wide-reaching consequences. But since smart contracts can be vetted and reused, such inconsistency can be edited from the code. We will discuss an example of a vulnerability in a platform's code in a later section covering the Ethereum network.
-Security Attacks: Intentional Misuse
+
+<h5>Security Attacks: Intentional Misuse
 Both traditional and blockchain environments are vulnerable to attacks based on intentional misuse of the system.
 •	In traditional cyber, insider attacks or intentional misuse of the system by clients are possible. In fact, a denial-of-service attack is a specific type of intentional misuse.
 •	Blockchain systems are set up to incentivize network participants, miners or nodes, to do something that is in their best interest. A weakness is, if more than half of the network's processing power is controlled by a single group, the network is controlled by that group.
-Security Attacks: Data Protection
+
+<h5>Security Attacks: Data Protection</h5>
 Finally, traditional infrastructure and blockchain differ in their goals regarding data protection.
 •	In traditional cyber, data is siloed, and access is strictly controlled by the owners, placing responsibility for confidentiality, integrity, and availability in their hands.
 •	In blockchain, data is distributed, and the blockchain is relied upon to provide integrity and availability.
+
 Lab 3: The Blockchain
 Next, let's engage with an interactive lab. In this lab, you will be examining a blockchain containing five blocks, each labeled according to position. Enjoy!
 Start Lab
-Different Types of Blockchains
+
+### <a id="ch3-4"></a>3.4 Different Types of Blockchains (Public & Permissioned Blockchains)
 When we try to understand the main difference between a public and private blockchain, it is important to understand the terminology.
 •	Public Blockchains
 A public blockchain is open to anyone to join. Public blockchains are decentralized where no one has control over the network. These immutable and censorship resistant networks are ideal for participants who don't trust each other, but still interact in a network and take part in consensus. Bitcoin and Ethereum are examples of public, permissionless blockchains.
@@ -1396,7 +1431,8 @@ Anyone can participate by submitting transactions to the blockchain, such as Eth
 Transactions on a public network can be accomplished with an Internet connection and a cell phone.
 •	Secure due to mining (51% rule)
 With Bitcoin, obtaining a majority of network power could potentially enable massive double spending, and the ability to prevent transaction confirmations, among other potentially nefarious acts. This has never been accomplished as the computing power needed to stage such an attack would be too costly.
-Private (Permissioned) Blockchains
+
+<h5>Private (Permissioned) Blockchains</h5>
 The counterpart to a public blockchain is naturally a private blockchain.
 These are platforms like Hyperledger or Hashgraph.
 And private blockchains are more specifically known as permissioned blockchains.
@@ -1442,7 +1478,8 @@ As discussed in "The Difference Between Public and Private Blockchain" article b
 On the other hand, as described in Investopedia, the main difference between a public and private blockchain is related to who is allowed to participate in the network, execute the consensus protocol, and maintain the shared ledger:
 •	A public blockchain network is completely open and anyone can join and participate in the network.
 •	A private blockchain network requires an invitation, and must be validated by either the network starter or by a set of rules. Private blockchains are usually set up as permissioned networks, placing restrictions on who is allowed to participate in the network, and only in certain transactions.
-Public and Private Comparison
+
+<h5>Public and Private Comparison</h5>
 Now that we've talked about public and private blockchains, what those terms mean and again, you can think of that as permission versus permissionless blockchains, 
 We can talk about some of the differences and what each different type of platform aims to provide.
 Public blockchains are really good for scenarios where protecting the anonymity of users is important or adds value to the solution and they're really great platforms for solutions where all users should be treated equally and we can see this because most public blockchains right now are used to support crypto currencies and this is a real great use case with a crypto currency like Bitcoin, Litecoin, ether etc.
@@ -1506,6 +1543,7 @@ That's the same way with blockchain.
 If you are looking at building a solution completely and entirely on the blockchain, without exploring some of the amazing potential that you get by combining blockchain with conventional technology, then you probably got a bad recipe.
 So, when you're thinking about blockchain, and how to add it to your personal and professional life, understand that it's not a meal all by itself.
 It's just a little splash of hot sauce you put on something that already works pretty well.
+
 Blockchain Considerations
 Companies must consider many factors when deciding how blockchain will fit into the business model. There is not a “one size fits all” blockchain but rather a well-thought-out approach that considers many options.
 •	Governance
@@ -1525,7 +1563,8 @@ Overall, blockchain decisions will be made by actors in the blockchain system:
 •	System Developers design the smart contracts for the community to use.
 •	System Operators interact with the software, permissioning and onboarding participants. This includes storing the ledger, creating wallets and managing credentials.
 •	Blockchain Users join a blockchain by setting up a wallet and/or receiving permission to engage in a particular function.
-Blockchain Transaction Flow
+
+### <a id="ch3-5"></a>3.5 Blockchain Transaction Flow
 In this section, we'll discuss the blockchain transaction flow.
 Regardless of the blockchain technology, the flow of data through a blockchain will remain relatively the same, at least at a high level.
 It will all start with a blockchain user performing an operation that should be stored on the chain.
@@ -1669,8 +1708,8 @@ We talk about Proof of Work and Proof of Stake in much greater depth in other mo
 If you're curious about the difference between them, how they work and what the actual implementation differences are, be sure to check out those other modules.
 Proof of Work vs. Proof of Stake
 Let's recap differences between Proof of Work and Proof of Stake:
- 
-Bitcoin Consensus Model
+
+### <a id="ch3-6"></a>3.6 Bitcoin Consensus Model
 Bitcoin, the first blockchain to appear, uses Proof of Work which requires miners to solve a complex cryptographic mathematical puzzle for which they get rewarded. Block rewards are newly minted Bitcoin granted to the miners that solve the puzzle first. Built into the Bitcoin blockchain protocol, is an event called halving. Bitcoin halving happens every four years and Bitcoin’s block reward gets cut in half. The halving occurs when the block height reaches a certain point (210,000 blocks) which is programmed into the protocol. The first halving occurred in November 2012 and the block reward was cut from 50 BTC to 25 BTC. The second occurred July 9, 2016 and the reward was reduced to 12.5 BTC. The third occurred on May 11th 2020, cutting the block reward to 6.25. The next halving is estimated in the year 2024 and the reward will be reduced to 3.125 BTC. The Bitcoin network is programmed to produce only 21 million bitcoin and the halving is what keeps inflation in check by slowing down the distribution. About ⅔ of the 21 million BTC have been mined so far.
 Ethereum Consensus Model
 Ethereum currently uses Proof of Work for a consensus model. Ethereum was introduced in a white paper by Vitaly Dmitriyevich "Vitalik" Buterin, a Russian-Canadian entrepreneur and programmer from Toronto. He envisioned the second-largest cryptocurrency when he “forked” or copied the Bitcoin code, made improvements and created the Ethereum blockchain. This new blockchain was not only a currency exchange system but along with the Ethereum Virtual Machine, an interconnect, turing complete computer, open to programmers to develop. It creates a platform that smart contracts can be executed and applications can be built upon. Ethereum has always planned to move away from a Proof of Work consensus mechanism to a Proof of Stake. Plans for Ethereum to adopt Proof of Stake will occur when Ethereum 2.0 is incorporated, this improvement is expected sometime in the second half of 2021.
@@ -1681,7 +1720,8 @@ As explained by Demiro Massessi,
 Corda Consensus Model
 Corda is a private permissioned blockchain. Each Corda network has a notary service made up of independent parties that approve blocks using any applicable consensus algorithms.
 As mentioned in Jamiel Sheikh's book “Mastering Corda: Blockchain for Java Developers”, R3 provides a set of Corda applications called The Corda Business Network Toolkit to manage one or more Corda networks. Corda does not follow the standard blockchain model of transactions being bundled into blocks and then being finalized by the network as a whole. Instead, a Corda network contains one or more notaries consisting of several independent parties. Transactions in Corda are finalized by a notary with a multiparty digital signature using an algorithm like Raft.
-Chapter 3 Summary
+
+### <a id="ch3-7"></a>3.7 Chapter Summary
 In this chapter, we discussed:
 •	Smart contracts and benefits from using smart contracts.
 •	Differences between blockchain security vs. standard security.
@@ -1690,18 +1730,20 @@ In this chapter, we discussed:
 •	Transaction flow in blockchain.
 •	Consensus mechanisms used in blockchain.
 
-## <a id="ch4"></a>Chapter 4: Blockchains and Governance
+## <a id="ch4"></a>Chapter 4. Blockchains and Governance
 Chapter Overview
 In this section, we will cover blockchain governance. We will start by discussing the cooperative way blockchain companies share the computer code for this technology. We will also explore how this open source environment is fostering new innovations. And then we will examine who really is in charge of blockchains and how the network effect determines the direction a blockchain will take.
 Next, we will take a look at how these trustless systems with open interactions are more secure than past systems. Finally, we will dive into the idea of collaboration among parties who don't trust each other and how blockchain technology is changing how the global community can interact. This new form of world wide collaboration can be the key to solving the world's toughest problems.
-### Learning Objectives
+
+### <a id="ch4-1"></a>4.1 Learning Objectives
 By the end of this chapter, you should be able to:
 •	Discuss open source communities and blockchain source code.
 •	Discuss the different types of governance models and what types of governance are used in public and private blockchains.
 •	Analyze governance types in a blockchain and determine which are used for the more popular blockchains.
 •	Analyze examples of Decentralized Autonomous Organizations (DAOs).
 •	Summarize the advantages and disadvantages of a consortium blockchain.
-What Is Open Source?
+
+### <a id="ch4-2"></a>4.2 What Is Open Source?
 Blockchain technology and the developers who work with it reinforce the basic tenet of decentralization in many ways. Not only by decision making consensus models, but also the way in which it distributes the software code.
 •	Proprietary/closed source code
 Software controlled by the person, team or organization who created it and maintains exclusive rights over it. Only the original authors can legally copy, inspect, and alter the software. Most users of proprietary software sign an agreement giving permission to use the software but not alter it. Microsoft Office is an example of proprietary software.
@@ -1727,7 +1769,8 @@ Humans are tribal by nature, we tend to attract each other and build tribes, vil
 Governance can be undertaken by a government, market, network, organization, social system or family.
 For a governance process to work effectively, the above three principles will need to agree to the rules that govern the behavior. The rules should be aligned with the overall participants' goals, and the leaders should have the ability to enforce positive and negative actions.
 Now that we have a simple understanding of governance, let’s analyze how this is taking place in both the standard world and the blockchain world.
-Governance Explained
+
+### <a id="ch4-3"></a>4.3 Governance Explained
 Every business wants to make sure it's getting the best out of technology spending.
 IT governance is a formal framework that provides a structure for organizations to ensure that technology investments support business objectives.
 Now we all know that, despite our best efforts, things occasionally do go wrong.
@@ -1735,6 +1778,7 @@ A large part of modern governance efforts includes planning for disasters in a w
 Modern decentralized solutions are most often created in a cooperative or consortium format - a shared joint effort business organizations.
 In these initiatives, it is important not only for clear and comprehensive governance to be in place, but for that governance to be consistent across participating organizations.
 These type of cross-organizational governance efforts represent an entirely new type of project initiative, and will require business analysts, solution architects, product and program managers, and executive leaders who understand the incredible potential and massive disruption that decentralized solution architectures bring to focus.
+
 Governance Models
 A basic description of governance can be defined as a system by which behavior is directed. This direction is guided by a set of norms or rules and a way to enforce or keep order. The mechanism to enforce these policies can take many forms from a dictator who has complete control to a democratic governance model where the voice of the majority is recognized.
  
@@ -1749,6 +1793,7 @@ Most governance structures in the blockchain ecosystem are looking to achieve si
 •	Protocol changes and technical upgrades.
 •	Critical bug and vulnerability fixes.
 •	Using pooled funds for research and development.
+
 On-Chain vs. Off-Chain Governance
 These goals can be achieved through many different methods of governance. When designing a blockchain, choices between on-chain and off-chain governance must be balanced.
 In the on-chain governance, rules for instituting changes are encoded into the blockchain protocol. This means that any decision being made is automatically being translated into code (e.g. decisions concerning block size). Developers propose changes through code updates and each node votes on whether to accept or reject the proposed change.
@@ -1757,10 +1802,11 @@ On the other hand, as discussed in the Medium article "Revisiting the On-chain G
 "Off-chain governance can be seen as decision-making that first takes place on a social level and is later actively encoded into the protocol by the developers. For instance, Bitcoin developers share their improvement proposals (BIPs) through a mailing list, whereas Ethereum collects improvement protocols (EIPs) on GitHub.
 Fred Ehrsam (Coinbase co-founder) argues that the Bitcoin governance system resembles the checks and balances system of the US government. Just like the Senate, developers submit a pull request to the community, the miners take the role of the judiciary who decides whether or not proposals are adopted in practice. Lastly, the users are just like citizens in a nation or state and can revolt and switch protocols or sell their tokens".
 
-What Is Blockchain Governance?
+#### What Is Blockchain Governance?
 In the previous chapter, we discussed the decentralized characteristics of blockchains. But if blockchains are decentralized, how are decisions made and by who? Open source software organizations and open source software development projects need a way to manage projects. Most organizations are centralized and have a set leadership team. Before getting into the details of how governance works on the blockchain, it’s important to have a clear definition of what blockchain governance is.
 In order for a blockchain to survive, it must adapt to the needs of its users and advances in technology. The way the changes are debated and decided upon is important for these decisions to be implemented. A decentralized ecosystem is designed not to be under the control of a single source, there is no CEO to take responsibility for issues. This means blockchains need a new strategy for governing the policy it wants to adopt.
 Strategies must include incentives so the members want to be good actors in the system. The efforts of the group must be coordinated to be productive. Both of these elements are necessary in blockchain governance models.
+
 Blockchain Governance Strategies
 Several different blockchain governance strategies have been proposed and implemented for different blockchains. Let's review some blockchain governance strategies sorted from the fewest to the most members directly involved in the decision, as discussed in the "Blockchain Governance In A Nutshell" article by Demiro Massessi:
 •	"Benevolent dictator for life
@@ -1785,12 +1831,14 @@ For a hard fork to be successful, users need to agree to follow it. Users can re
 Despite the official story of who governs the blockchain, in the end, the users are the ones who really make the final decisions of what will or will not be included in the blockchain. With the huge number of potential options, users can abandon a blockchain that makes changes that they disagree with.
 Any major change to a blockchain requires a "hard fork". All this means is that the blockchain protocol has changes that are not backward compatible, so blockchain clients that do not make the switch will not be able to operate on the main blockchain. A soft fork is a change that invalidates previous valid blocks by accepting new blocks, soft forks are backwards compatible. For a hard fork to be successful, users of the blockchain need to make the decision to update their software protocols to incorporate the new changes.
 If not all users decide to make the switch after a hard fork, a divergent blockchain can be created. Since the blockchain is a distributed network, the decision to implement a hard fork doesn’t cause the old version of the blockchain to become non-functional. Users who choose not to follow the fork can decide to maintain the old blockchain, fragmenting the blockchain network".
+
 Bitcoin Network and Governance
 As we mentioned in previous sections, Bitcoin uses a Proof of Work model to encourage miners to add blocks to the network. This governs the operations of the blockchain. But what happens when changes need to be made? How do they get implemented? The Bitcoin community consists of three main players: developers, miners, and users. None of these participants have the ability to make emergency decisions when unexpected situations occur. Bitcoin uses an off-chain governance model where decisions are balanced by the developers, miners and users. In blockchain, developers must write the code to change the blockchain. Without the consent of the miners and users, the developers have no way of enforcing the change. Miners and users must choose to adopt the new software changes.
 Bitcoin Improvement Protocols (BIP)
 When a change to the Bitcoin protocol is needed, developers will share the proposed change with other protocol developers. This improvement sharing could be in the form of an email to the bitcoin-dev mailing list, a formal white paper, and/or a Bitcoin Improvement Proposal (BIP). Code is written and tested that will enact the change. If developers in the community approve the proposals and resulting code, the proposal is put to a vote on chain and the miners decide if the proposal is implemented. This occurs through a hard or soft fork.
 This system is not without faults, as can be seen with the SegWit improvement protocol which alters block size. The vision surrounding blockchains deals with decentralization. By implementing the SegWit changes, a change in how the Bitcoin blockchain protocol operates, a central authority was responsible for enacting the change. To many in the community this decision went against the fundamental tenets of blockchains decentralized philosophy.
 As a result, the Bitcoin community was torn and the Bitcoin Network split into two different chains Bitcoin (BTC) and Bitcoin Classic (BCH). The Bitcoin Foundation is set up to educate and promote the Bitcoin Blockchain.
+
 Governance in Ethereum
 Vitalik Buterin first described the concept of Ethereum through a Whitepaper introduced at the Bitcoin Convention in Miami 2014. It was based on the code for Bitcoin, but included a logic engine that could execute smart contracts. By connecting computers using the Ethereum blockchain, computing power is aggregated creating the Ethereum Virtual Machine. Ethereum is not only a functioning blockchain with smart contract capabilities, but a platform for new blockchains to be built upon. The EVM computing does not come free, a GAS price is charged for the GAS needed to perform the transaction’s computations. This GAS fee can change dramatically depending on network conditions as the current price of Ether is part of the calculation.
 Ethereum Improvement Proposals EIP’s
@@ -1800,8 +1848,10 @@ DAO Hard Fork on Ethereum
 One famous example of this type of fragmentation is the DAO hack on the Ethereum network. The DAO was an Ethereum smart contract that completed a record-breaking crowdfunding campaign on the Ethereum network, with all of this value stored within the DAO smart contract. A flaw in the smart contract’s code allowed an attacker to create another version of the smart contract under their control and siphon off a portion of the DAO contract’s funds, worth roughly 72 million dollars at the time. After much debate, the Ethereum network decided to implement a hard fork that allowed investors of the DAO to reclaim their stolen Ether.
 This was a very contentious decision, because the historical ledger in the blockchain is supposed to be immutable and all transactions are final. Smart contracts are supposed to be their own final authority, so any action that could be performed with a smart contract, including exploiting a programming flaw to drain value from it, is considered fair game. The Ethereum network’s decision to reverse the DAO hack went against the principles of blockchain’s immutability and the supposed self-regulation of smart contracts.
 Some of the Ethereum network refused to follow the DAO hard fork, resulting in a divergent blockchain where the DAO hack was successful. This created the Ethereum Classic cryptocurrency, which shares the same history as Ethereum up to the DAO hack, but is completely independent after that point.
+
 Governance in Hyperledger Frameworks
 Hyperledger was introduced as an open source blockchain project sanctioned by the Linux Foundation. Spearheaded by Brian Behlendorf, its mission is to provide the community with the tools and education to foster distributed ledger technology on an enterprise level. Hyperledger frameworks use an Open Governance model to make technical decisions regarding the Hyperledger environment. The Hyperledger Technical Steering Committee (TSC) is the final authority for technical decisions in Hyperledger. Each year, the Hyperledger Technical Steering Committee is selected from the Hyperledger environment’s active contributors and maintainers. Contributors and maintainers can submit themselves as potential candidates for the fifteen slots, and the slots are filled based on voting by the same group of contributors and maintainers. This model is designed to allow those with an active role in the Hyperledger development community to have a say in how that community is governed.
+
 Governance in Corda
 Corda is an open source blockchain project designed for business. Developed by R3, an enterprise blockchain software firm, in collaboration with over 200 technology and industry partners. The Corda platform was launched in September of 2017. Corda also uses an Open Governance model to make technical decisions regarding the future of the blockchain. The Corda Network Governing Body is selected to represent the interests of all users in the Corda network.
 Working Groups and Special Interest Groups
@@ -1862,6 +1912,7 @@ She saves enough capital to purchase a fully automated vehicle, as well as an AI
 Now, over time, this single vehicle earns enough to fund the purchase of a second automated vehicle.
 The business is able to manage its own operations, forecasting and modeling, and grow with little to no human intervention.
 This is the conceptually ideal model of a DAO.
+
 Governance for Enterprise
 We’re focusing on governance in the consortium space, not governance within an enterprise company. So what is a "consortium"? A consortium is just a grouping of institutions (possibly individuals) getting together to achieve a mutual goal.
 This goal can be setting some standards for their industry (Department of Justice), selling products (Airbus), sharing resources (Universities), etc. In a consortium, the only real obligation you have to others who are taking part would be providing resources for specific tasks and sticking to the rules laid out prior to you joining. Within blockchain, there are many different industries creating their own consortiums, such as financial services, life science and health care, energy, media and telcos, and the public sector.
@@ -1879,7 +1930,7 @@ They seek to develop reusable blockchain platforms based on technical standards 
 Consortiums: Pros and Cons
 Let's see what are some pros and cons of consortiums:
  
-Identity on the Blockchain
+### <a id="ch4-4"></a>4.4 Identity on the Blockchain
 In this section, we're going to discuss identity on the blockchain.
 Let's start by understanding why we even need to have an identity on the blockchain.
 Centralized systems can be coerced by other forms of authority to shut down their network.
@@ -2079,7 +2130,8 @@ Privacy techniques mask details of transactions while still proving they occurre
 The ledger acts as a trust broker when two parties who don’t trust each other want to interact.
   * Transparent code
 Most blockchains are built on open-source software that is transparent, community-driven code that is open for comment.
-#### Chapter 4 Summary
+
+#### <a id="ch4-5"></a>4.5 Chapter Summary
 In this chapter, we discussed:
   * Open source communities and blockchain source code.
   * Governance models for blockchain and who is really in charge.
@@ -2089,10 +2141,27 @@ In this chapter, we discussed:
   * How private/public key cryptography provides anonymity.
 
 ## <a id="ch5"></a>Chapter 5. Blockchain Problem Solving and Future Trends
-Now that we understand the basics of how blockchain works, Chapter 5 will discuss the problems blockchain can solve. We will discuss the concept of immutability and how the append only blockchain brings new trust in shared information. Next, we will take what we learned about smart contracts to see how they are bringing autonomy to systems that previously required human interaction. We will discuss the double-spend issue and how blockchain can solve for it. We will also discuss some popular cryptocurrencies.
-Next, we will discuss the new business trends blockchain makes possible. First, we will discuss the way we manage our identity and information on the Internet and how decentralized identity solutions rooted on a blockchain are fixing what is broken. Next, we will discuss how blockchain is revolutionizing the financial markets by autonomous market solutions that remove middlemen and open markets up to previously excluded clients. We will also join in the conversation around Central Bank Digital currencies and how enacting blockchain solutions can streamline the government's monetary policies.
-Finally, we will discuss the energized world of NFT’s (non-fungible tokens) and how owning unique rights to everything from music, sports collectables and even “captured moments” is turning the collectable world upside down. We end the chapter with a brief discussion on interoperability. In order for this new technology to take hold, blockchains need to be able to communicate and transfer value amongst themselves.
-### Learning Objectives
+Now that we understand the basics of how blockchain works, Chapter 5 will discuss the problems blockchain can solve. 
+
+We will discuss the concept of immutability and how the append only blockchain brings new trust in shared information. 
+
+Next, we will take what we learned about smart contracts to see how they are bringing autonomy to systems that previously required human interaction. 
+
+We will discuss the double-spend issue and how blockchain can solve for it. 
+
+We will also discuss some popular cryptocurrencies.
+Next, we will discuss the new business trends blockchain makes possible. 
+
+First, we will discuss the way we manage our identity and information on the Internet and how decentralized identity solutions rooted on a blockchain are fixing what is broken. 
+
+Next, we will discuss how blockchain is revolutionizing the financial markets by autonomous market solutions that remove middlemen and open markets up to previously excluded clients. 
+
+We will also join in the conversation around Central Bank Digital currencies and how enacting blockchain solutions can streamline the government's monetary policies.
+Finally, we will discuss the energized world of NFT’s (non-fungible tokens) and how owning unique rights to everything from music, sports collectables and even “captured moments” is turning the collectable world upside down. We end the chapter with a brief discussion on interoperability. 
+
+In order for this new technology to take hold, blockchains need to be able to communicate and transfer value amongst themselves.
+
+### <a id="ch5-1"></a>5.1 Learning Objectives
 By the end of this chapter, you should be able to:
  * Discuss immutability in blockchains.
  * Explain what transparency is and review advantages and disadvantages of append-only ledgers.
@@ -2123,8 +2192,7 @@ In addition to recording facts or data points, blockchain also has the capacity 
 Think of the difference between a piece of paper, and a contract.
 A piece of paper can contain any data, true or not.
 A signed contract becomes more than a piece of paper because those signatures represent who agreed with the facts recorded on the paper at the time of signing.
-Blockchain provides a digital implementation of this process,
-and can be an immeasurably valuable tool when you need to capture not only what happened, but who was involved as well.
+Blockchain provides a digital implementation of this process, and can be an immeasurably valuable tool when you need to capture not only what happened, but who was involved as well.
 Imagine the new opportunities that arise when organizations can safely and securely share their most critical data with one another, with the trust that the data they're seeing hasn't been compromised or altered.
 
 Traditional Database Immutability Concept
@@ -2176,7 +2244,8 @@ Take this concept and apply it to two or more parties, all interacting on a mutu
 These "smart" contracts aren’t very smart, at least for now. That’s due to the simple explanation above because these contracts are "if, then, else" statements, which can vary in complexity based on how they’re stacked.
 At the present moment, they can't make decisions without human intervention, or AI, which is a highly debated topic at the moment by many neuroscientists/philosophers. Companies are emerging as reliable Oracles that filter in real world facts to the blockchain. An Oracle is defined as a reliable source of information and blockchain makes that information immutable.
 Anyone is able to create their own smart contracts without a central authority giving the right to do so. These contracts are executed without too much human intervention, and they’re stored on blockchain technology which provides a sense of permanence. These are three of the main attributes that can bring more autonomy to exchanging information between parties. Setting up a pre-agreed upon contract that’s coded into a blockchain and executes automatically when certain actions are taken is one step in the direction of not only improving our autonomy as individuals or companies, but shifting wasted resources (middle men/women) toward more impactful work.
-Smart Contracts
+
+#### Smart Contracts
 The first generation of blockchain platforms, collectively known as the "Blockchain 1.0" networks, were capable of capturing and recording data, but not acting upon it. 
 Bitcoin, the world's first mass-scale blockchain, was designed to capture and record the transfer of Bitcoin from one owner to the next. 
 At the time, nobody was envisioning blockchain as a platform on top of which applications and solutions could be built.
@@ -2190,6 +2259,7 @@ Alice and Bob agree that Alice will take half the purchase price now ($2,500), a
 A Smart Contract could be created between Alice and Bob.
 The Smart Contract would hold the remaining $2,500 in escrow, and if Bob had an issue with the car, he would report it to the Smart Contract. After 1,000 miles the Smart Contract will determine how much of the remaining funds are due to Alice and how much should be returned to Bob using the rules Alice and Bob initially agreed upon.
 All details about the transaction would be recorded on a permanent, decentralized ledger which could be used at any point in the future to answer any questions about the transaction between Alice and Bob.
+
 Multi-Party Transactions
 In our current world of transactions, there’s always a third party to assist with connecting the sender and receiver. This has always been the most efficient way to move something from Point A to Point B. But with a third party making the connection comes the need to trust that they’ll get whatever is being sent in an efficient, economical, and effective way. This trust is open to human and process error. But we’ve discovered through experimentation that certain use cases could be automated via smart contracts.
  
@@ -2202,13 +2272,13 @@ Blockchain technology has been shown to provide many benefits, but one of the mo
 •	Central exchanges (NASDAQ, London Stock Exchange, NYSE, etc.)
 •	Cloud database providers (AWS, Azure, etc.).
 How is the blockchain world removing this middleman? The answer is all around trust. Within the public blockchain world, where everyone is theoretically anonymous, there needs to be trust so we’re able to exchange valuable things without the concern of bad actors. Trust is built into the consensus mechanism that we’ve mentioned multiple times throughout this course. This incentivizes all the participants to help secure and validate good actions throughout the network. With that built-in "trustless" trust, we’re able to remove those middlemen that provide no additional value, plus it could potentially increase the efficiency based on which public blockchain is being used.
- 
-Cross Border Payments and Ledgers
+
+#### Cross Border Payments and Ledgers
 Traditional centralized ledger systems have weaknesses. Accuracy is dependent on intermediaries who can change details of the centralized ledger. Data derived from the ledger is siloed and misused.
  
 Distributed decentralized ledgers are not dependent on intermediaries who can manipulate the data. Data is secure and tamper resistant.
  
-Double Spend
+### <a id="ch5-2"></a>5.2 Double Spend Problem
 Bitcoin, the world's first blockchain, was created as part of an attempt to create the world's first truly viable digital currency.
 Bitcoin was not the first attempt to create a digital currency, but it was the first which was able to successfully solve a long-standing problem - the "Double Spend" problem.
 The Double Spend problem is quite simple.
@@ -2238,23 +2308,26 @@ Other attempts include:
 •	E-gold in 1996 (sunk by continuous money laundering, hacking, and extortion).
 •	Liberty Reserve in 2006 (shut down in 2013 due to this becoming a great hangout spot for cybercriminals).
 
-Digital Currencies Overview
+#### <a id="ch5=3"></a>5.3 Digital Currencies Overview
 Digital currencies are available only in the digital world and not in the physical world. They can be defined as any currency, money, or money-like asset that is primarily managed, stored or exchanged on computer systems. Examples of digital currencies include cryptocurrency, virtual currency and central bank digital currency.
  
-Cryptocurrency Defined
+<h5>Cryptocurrency Defined</h5>
 According to Investopedia,
 "A cryptocurrency, broadly defined, is currency that takes the form of tokens or “coins” and exists on a distributed and decentralized electronic ledger. While a large majority remain completely intangible, some cryptocurrencies have ventured into the physical world by building associations with companies offering traditional payment rails (credit cards and payment processors)".
-Cryptocurrencies Markets 
+
+<h5>Cryptocurrencies Markets </h5>
 To break down the crypto markets, let's start with some basic definitions.
-Crypto Wallet
+
+<h5>Crypto Wallet</h5>
 A cryptocurrency wallet is an application on your computer or smart phone that connects you to a blockchain where you can trade cryptocurrencies. A Bitcoin wallet allows you to trade Bitcoin, an Ethereum wallet accommodates Ether. You can not send Bitcoin to the Ethereum blockchain, each cryptocurrency must transact on its own blockchain.
- 
-Multi-currency Wallets
+
+<h5>Multi-currency Wallets</h5?
 Some wallets allow you to hold multiple cryptocurrencies in the same application. In these wallets, each cryptocurrency will have its own balance. To initiate a transaction, the application will create a cryptographically secure address (specific for the particular blockchain). This address acts as your account number and lets you send and receive the cryptocurrency.
 
-Atomic Swaps
+<h5>Atomic Swaps</h5>
 Additional features in these wallets lets you “swap” one cryptocurrency for another. The application provider acts as the intermediary to secure the transactions from one chain to the other.
-Metamask
+
+>h5>Metamask</h5>
 Metamask is a cryptocurrency wallet used to interact with the Ethereum blockchain and other blockchains issued in accordance with the Ethereum Platform. Tokens issued in accordance with the ERC-20 standard for utility tokens can be stored in a metamask wallet. Metamask not only stores cryptocurrencies but acts as a gateway to blockchain applications. You can access the wallet through a mobile application or a browser extension.
  
 ConsenSys, spearheaded by Joe Lubin, an early Ethereum programmer, is a software engineering company that helps developers build next-generation networks and enable enterprises to launch more powerful financial infrastructure. Consensys Mesh is a playground for entrepreneurs and programmers to build decentralized platforms and projects, Metamask is just one project to come out of the efforts at Consensys.
@@ -2272,7 +2345,7 @@ In keeping with the decentralization nature of the cryptocurrency markets, excha
 Hardware Wallets
 Hardware wallets offer an alternative to storing your cryptocurrency online. These devices plug into a USB port and transfer your private keys (ownership rights to the cryptocurrency) from your “hot wallet” (mobile, computer or web based) to be stored offline. If the device is damaged or lost, so are the cryptocurrencies stored. This is what the ledger wallet looks like:
  
-Self-Sovereign Identity (SSI)
+<h5>Self-Sovereign Identity (SSI)</h5>
 As explained by Drummond Reed,
 "Web 1.0 used centralized identity; Web 2.0 graduated to federated identity; now Web 3.0 is using decentralized digital identity, a model known as "self-sovereign identity" or "SSI" because now individuals control their own portable digital identity credentials in their own digital wallets—just like we prove our identity with physical credentials from our physical wallets every day. The digital signatures on these credentials use blockchain technology for decentralized public key management. Finally we can have a trust layer for the Internet that doesn't require everyone to rely on centralized authorities".
 The concept of self-sovereign identity (SSI) is based on the idea that the Internet was created without a way to properly deal with identifying participants. Innovative minds, such as Drummond Reed and Alex Preukscha, have been working on solutions to this problem. We will start with some key terms taken from the "Self-Sovereign Identity: Decentralized Digital Identity and Verifiable Credentials" book by Reed and Preukscha.
@@ -2289,7 +2362,7 @@ Issuers are the source of credentials—every credential has an issuer. Most iss
 Holders/Provers
 Providers request verifiable credentials from issuers, hold them in the holder’s digital wallet (below), and present proofs of claims from one or more credentials when requested by verifiers (and approved by the holder). Although we most commonly think of individuals as holders/provers, holders/provers can also be organizations using enterprise wallets, or things in the sense of the Internet of Things (IoT). The trust triangle represents the Trust over IP version of how the new relationship will operate.
  
-Decentralized identifiers
+<h5>Decentralized identifiers</h5>
 According to the WC3, decentralized identifiers (DIDs) are a new type of identifier for verifiable, decentralized digital identity credentials. These new identifiers are designed to enable the controller of a DID to prove control over it and to be implemented independently of any centralized registry, identity provider, or certificate authority. WC3 is working on ways to standardize the format for DIDs.
  
 The DID above is structured to identify what type of credential, the issuer and the cryptographic hash of the credential.
@@ -2326,12 +2399,14 @@ Central Bank Digital Currencies are being considered across the globe.
  
 According to the CBDC Tracker, the Sand Dollars, a retail CBDC issued by the Central Bank of the Bahamas is the first nationwide Central Bank Digital Currency. The US Federal Reserve is researching CBDC for the US with the Federal Reserve Bank of Boston and MIT committed to a multi-year collaboration to build a hypothetical currency called the Hamilton.
 Hyperledger created a Capital Market Special Interest Working Group spearheaded by Vipin Bharathan working on standards for CBDC’s. This working group is just one of many discussing CBDC’s and is open for anyone to join.
-Non-Fungible Tokens (NFTs)
+
+### <a id="ch5-4"></a>5.4 Non-Fungible Tokens (NFTs)
 At the beginning of this course we discussed the Internet and the changes it has gone through. We started with Web 1.0 and how it revolutionized the way exchanged value, looking back it is hard to believe we managed without email. Then came Web 2.0 and our social status and personal information flowed on the net as freely as the air we breathe. Web 3.0 started with blockchain and the transfer of value, the first killer application being Bitcoin.
 Now, you may be asking yourself, "What's next?". That's where non-fungible tokens come into play and are set to revolutionize art, music, sports and gaming by offering a new kind of digital ownership and the ability to transfer unique value with digital collectables. We first saw a glimpse of this new market with CryptoKitties but let's look deeper into this phenomenon.
 According to Wikipedia, a non-fungible token:
 "is a unit of data stored on a digital ledger, called blockchain, that certifies a digital asset to be unique and therefore not interchangeable".
 NFTs can represent art, music, videos and other digital files where access to the original file is restricted, limited to the owner proving authenticity and providence. The first standard for issuing NFT’s was based on the Ethereum's ERC-721 that differs from the ERC-20 as ERC-721 tokens are all unique which makes them perfect for the collectibles market. The ECR-1155 aims to improve on the previous token standard by further defining assets.
+
 Let's now take a look at some of the types of non-fungible tokens:
 •	Digital artwork
 By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator. The New York Times reported art entitled "Everydays – The First 5000 Days", by artist Mike Winkelmann, also known as Beeple, sold for $69.3 million USD in 2021.
@@ -2345,7 +2420,8 @@ With NFTs, musicians and filmmakers can now tokenize their work where the artist
 The sports industry has embraced the idea of NFTs from tokenizing memorable sporting moments to trading card collectables. NBA Top Shots being the leader for creating a marketplace for NBA collectible cards and moments.
 •	University research
 In May 2021, UC Berkeley announced it would auction off NFTs for the patent disclosure for two Nobel Prize-winning inventions dealing with gene editing and Cancer Immunotherapies.
-The younger generation of collectors aren’t interested in China sets and linen, but something they can show their friends on their social media accounts. The future of the non-fungible token promises to be one of the more energetic market segment blockchain has seen.
+The younger generation of collectors aren’t interested in China sets and linen, but something they can show their friends on their social media accounts. 
+The future of the non-fungible token promises to be one of the more energetic market segment blockchain has seen.
 Interoperability
 To end this section, we must mention interoperability. Interoperability in blockchains deals with creating standards so different types of blockchains can communicate with each other.
 If new emerging blockchains can’t communicate with each other, we will have the same issues with siloed data that created frustration with the Internet of Today. As different blockchains take different approaches to interoperability, standards will emerge that will help regulate the industry and help with widespread adoption. Currently Hyperledger and Ethereum are working together on interoperability projects from Hyperledger Besu (to learn more about Hyperledger Besu enroll into Hyperledger Besu Essentials: Creating a Private Blockchain Network (LFS176x)), an open source Ethereum client for enterprise solutions that can be run on the Ethereum public network or on a private permissioned network. Other projects in the Hyperledger labs that deal with interoperability are working on standards that will make it easier for blockchains to talk to each other.
