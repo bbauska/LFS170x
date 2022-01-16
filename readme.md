@@ -117,7 +117,7 @@ Characteristics of Web 1.0:
  * Read-only, information was “pushed” to users.
  * Email was the first widely adopted application on the Internet.
 
-Email, Electronically Transferring Information
+<h5>Email, Electronically Transferring Information</h5>
 Computers and items for connection became necessities.
 Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
 Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. 
@@ -166,11 +166,12 @@ Bitcoin is the first widely accepted application for the Internet of Value (just
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-Cryptocurrencies, Electronically Transferring Value
+<h5>Cryptocurrencies, Electronically Transferring Value</h5>
 The Internet of Value represents a world where value is exchanged at the speed in which information moves today.
 The Internet is still the basic platform that these new technologies operate from. 
 The new Web 3.0 browsers are being built to help you manage your cryptocurrency, keys, passwords and other blockchain features.
 Let’s now dive into blockchain basics.
+
 #### <a id="ch1-3"></a>1.3 What Is Blockchain?
 There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
 You've probably heard of it: it's called 'Blockchain!'
@@ -2349,16 +2350,17 @@ Interoperability
 To end this section, we must mention interoperability. Interoperability in blockchains deals with creating standards so different types of blockchains can communicate with each other.
 If new emerging blockchains can’t communicate with each other, we will have the same issues with siloed data that created frustration with the Internet of Today. As different blockchains take different approaches to interoperability, standards will emerge that will help regulate the industry and help with widespread adoption. Currently Hyperledger and Ethereum are working together on interoperability projects from Hyperledger Besu (to learn more about Hyperledger Besu enroll into Hyperledger Besu Essentials: Creating a Private Blockchain Network (LFS176x)), an open source Ethereum client for enterprise solutions that can be run on the Ethereum public network or on a private permissioned network. Other projects in the Hyperledger labs that deal with interoperability are working on standards that will make it easier for blockchains to talk to each other.
 When considering how blockchain interoperability can work, consider email and smartphone. Both of these technologies have the ability to interoperate. Outlook email server can receive email from the Gmail server and Verizon cell phone carriers can transfer and accept calls from T-Mobile. These services would not operate efficiently, if these companies couldn't exchange data. With this in mind, blockchain are developing projects that, like smartphones and emails, will transfer value and information across blockchain seamlessly.
+
 ### <a id="ch5-5"></a>5.5 Chapter 5 Summary
 In this chapter, we discussed:
-•	How some features of blockchain are solving real world problems.
-•	How immutability is opening up new cooperation models for business.
-•	How the concept of autonomy will reduce conflict by eliminating human processes.
-•	New emerging business models as multiparty exchanges, with built in trust, are being developed.
-•	How the double spend accounting issue is solved with blockchain.
-•	Future trends in decentralized finance and Central Bank Digital Currencies.
-•	The importance of interoperability between blockchains.
-•	Non-fungible tokens (NFTs) and their importance to the blockchain ecosystem.
+ •	How some features of blockchain are solving real world problems.
+ •	How immutability is opening up new cooperation models for business.
+ •	How the concept of autonomy will reduce conflict by eliminating human processes.
+ •	New emerging business models as multiparty exchanges, with built in trust, are being developed.
+ •	How the double spend accounting issue is solved with blockchain.
+ •	Future trends in decentralized finance and Central Bank Digital Currencies.
+ •	The importance of interoperability between blockchains.
+ •	Non-fungible tokens (NFTs) and their importance to the blockchain ecosystem.
 
 ## <a id="ch6"></a>Chapter 6. Blockchain Use Cases
 This final section will examine blockchains in action. We will see how blockchain is providing solutions for businesses, governments and social projects. Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and trust among untrusting parties, fostering new business models.
@@ -2367,32 +2369,35 @@ Next, we will discuss the impact blockchain is having in developing countries. W
 Then, we will devote some time discussing new technologies and emerging breakthroughs developers are building. Either to enhance existing systems or offering services to help users manage blockchains, these new advances are like nothing we have seen before.
 Finally, we will see use cases designed to improve the individual's experience, decentralized gaming platforms and new marketplaces inventing new worlds to interact in. Blockchains are reshaping the way artists and musicians are benefiting from their creativity by having the royalties delivered directly to them, without agents and middlemen.
 Blockchain will be a part of everyone's future.
+
 ### <a id="ch6-1"></a>6.1 Learning Objectives
 By the end of this chapter, you should be able to:
-•	Discuss blockchain use cases in business enterprises.
-•	Discuss use cases in the public sector.
-•	Explain the relevance of blockchain in social impact projects.
-•	Discuss developing new technologies made possible by blockchain.
-•	Explain how blockchain will improve the human experience.
+ • Discuss blockchain use cases in business enterprises.
+ • Discuss use cases in the public sector.
+ • Explain the relevance of blockchain in social impact projects.
+ • Discuss developing new technologies made possible by blockchain.
+ • Explain how blockchain will improve the human experience.
 
 ### <a id="ch6-2"></a>6.2 Blockchain Use Case Categories
 Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. It is showing a new path that will improve the lives of so many. We will see how identity management is key (no pun intended) to all the use cases we discuss. For our discussion, we will categorize use cases by who is developing solutions, starting with large enterprise solutions to smartphone and web browser applications powered by blockchain that put control back in the user's hands:
-•	Enterprise solutions
+ • Enterprise solutions
 Businesses and organizations are implementing blockchain to overcome obstacles in transparency and trust forging new associations with global implications.
-•	Public sector solutions
+ • Public sector solutions
 Governments are using blockchain solutions to improve services that they provide to their citizens. Digital identity solutions, central bank digital currencies and transparent workflows are bringing efficiency to the public sector system with an end result that benefits citizens. With that, new laws are needed to regulate this technology.
-•	Social impact solutions
+ • Social impact solutions
 Social impact blockchain solutions address social and environmental challenges. Backed by the 17 United Nations Sustainable Development Goals blockchain developers, investors, philanthropists, government agencies and foundations are developing solutions that tackle these global problems.
-•	Platform developers' solutions
+ • Platform developers' solutions
 Blockchain is a new technology constantly improving and changing. Developers are creating standards and new platforms to bring this technology into the mainstream.
-•	End user solutions
+ • End user solutions
 Everyday solutions emerge that put decentralized blockchains and all the benefits they promise in the hands of individuals from new decentralized marketplaces to new ways to express your music, art, and even let you trade property built inside a game.
-Enterprise Solutions Overview
+
+<h5>Enterprise Solutions Overview</h5>
 Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and workflows, fostering new business models. Problems with how we transact online, to the cost of doing business, are solved with blockchain. Let’s look at an enterprise supply chain solution built with blockchain.
 Global Supply Chains
 Supply chain data is not always visible or trusted. In recent times of disruption supply chains matter more than ever. Global supply chain and blockchain are working to secure systems to better handle these disruptions. The Covid pandemic shed light on the frailty of our supply chains which accelerated discussion over blockchain solutions. 
  
 Learn more about the collaboration between Maersk and IBM from the "Digitizing Global Trade with Maersk and IBM" blog post by Michael White.
+
 ### <a id="ch6-3"></a>6.3 Supply Chain - Maersk
 Global trade functions much as it has since the introduction of the shipping container in 1956.
 Manual, paper-based processes are still common and information about the status of goods is locked away in organizational silos.
@@ -2452,12 +2457,14 @@ Moderna uses blockchain to support smart COVID vaccine management. To learn more
 SAP has an existing solution unrelated to blockchain called Advanced Track and Trace for Pharmaceuticals (ATTP) which generates the unique identifiers. To further explore this solution read the following article by Nicky Morris "SAP Leads Pharma Supply Chain Blockchain" and watch "Verifying Pharmaceutical Products Using Blockchain" video. 
  
 Also, Pfizer has been using blockchain in transparent clinical trials. You can learn more about this project by reading the following blog post, "Clinical Trial Data Should Be Accessible and Transparent".
+
 ### Finance Markets
 Reduction of settlement times will improve the flow of money through fintech companies.
 Swiss Exchange, SIX has a solution that solves the issue in the trade markets of long settlement times. The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can be completed in fractions of a second.
 Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. In a paper from Andrea Frosinini, "Reshaping Trade Finance: Towards a “New” Letter of Credit", he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 Voltron Trade Finance was co-founded by eight member banks including Bangkok Bank, BNP Paribas, CTBC, HSBC, ING, Natwest, SEB and Standard Chartered. The consortium has since grown to more than 50 banks and corporations. The platform is built on Corda blockchain, it solves the problem that most letters of credit are based on paper and take 5 to 10 days. By using blockchain technology, the letters of credit may be efficiently transacted in less than 24 hours. You can learn more about Voltron from the following two articles "Blockchain Based Letter of Credit Processed by HSBC on Voltron Trade Finance Platform" (by JD Alois) and "Trade Finance Solution Voltron Launches Open Platform on Corda Blockchain".
-### <a id="ch6d"></a>Public Sector Solutions Overview
+
+### <a id="ch6-4"></a>6.4 Public Sector Solutions Overview
 Blockchain benefits of security, efficiency and speed have government leaders research the far reaching implications that will improve lives and accelerate global blockchain solutions. Public sector can be categorized by, Public Administration, Public Service, Land and Community, and Government. According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’Kelly, "Re-thinking Public Sector through Blockchain", all blockchain public sector project must consider in the design these four factors:
   - Identity management for Governments
   - Interactions (highly regulated transactions)
@@ -2472,6 +2479,7 @@ One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goa
   - Developing and realizing the Human Capital Agenda
  
 Wyoming has now enacted a total of 13 blockchain-enabling laws, making it the only US state to provide a comprehensive, welcoming legal framework that enables blockchain technology to flourish, both for individuals and companies. This effort was led by tireless Caitlin Long.
+
 ### <a id="ch6-5"></a>6.5 Social Impact Solutions Overview
 The Blockchain for Social Impact Coalition (BSIC) is a not-for-profit organization that incubates, develops, and collaborates on blockchain products and solutions that can address social and environmental challenges across the United Nations Sustainable Development Goals. The aim is to inspire, federate, and create bridges between NGOs, and government agencies, foundations, impact investors, philanthropists and technologists.
  
@@ -2545,8 +2553,11 @@ Watch this video to learn more about Decentraland [Decentraland](https://www.you
 
 ### Music
 Experts from Statista projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
+
 Read "Blockchain for the Music Industry: 9 Possible Use Cases" by Sam Mire to learn more.
-themusicianmarketplace.com was built to establish one profile for each artist, but each artist can list talents for any job they want. For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place. The options on themusicianmarketplace.com are unlimited. Below you can see themusicianmarketplace.com dashboard: 
+themusicianmarketplace.com was built to establish one profile for each artist, but each artist can list talents for any job they want. For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place.
+The options on themusicianmarketplace.com are unlimited. 
+Below you can see themusicianmarketplace.com dashboard: 
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2555,22 +2566,28 @@ That is a big question.
 And unlike everything we have already talked about in this course, this is nothing factual, but just my own opinion.
 I think blockchain is a really, really exciting place right now.
 Blockchain tends to get talked about in the context of a lot of other exciting emerging technologies, things like IoT and smart devices, self-driving cars and autonomous devices, AI, virtual and augmented reality.
+
 The truth is, in my opinion, I see blockchain as an enabling layer for many of these other technological revolutions.
 Everybody is excited about the idea of smart devices.
 Wouldn't it be great if I had a smart refrigerator that automatically reordered more ketchup as it started to get low?
 Everyone gets a little nervous when it comes time to actually talk about implementing something like this, because how do we protect it?
+
 How do we ensure that the data the system uses is immutable and secure?
 Blockchain provides that.
 I think that we are going to see a lot of growth in emerging technologies as blockchain continues to emerge, because it's going to make more and more things possible.
 And if we talk long term, and again, only my opinion, I think blockchain becomes the enabling layer for a multi-planetary human economy.
-You might have seen earlier this year, February 2018, SpaceX put up Falcon Heavy.
+
+You might have seen in February 2018, SpaceX put up Falcon Heavy.
 Because SpaceX and Elon Musk are committed to getting us to Mars.
 And I truly believe in the next 20 to 50 years we are going to see a human colony on Mars.
 Now, one interesting thing about Mars is that it's really really far away.
 At the closest Earth gets to Mars, it's a 26 minute roundtrip at light speed, and there's two weeks out of every March and year, where Earth and Mars can't communicate because the Sun is right in the middle.
+
 Well, think about this: if you run a small pizza shop on Mars, you close out your register for the day, and you need to deposit funds into your bank account, and that is a bank on Wall Street, New York City, and under the best case scenario, that's a 26-minute roundtrip, you can see how centralized models of the Internet aren't going to scale.
+
 So, if you ask me, I really believe technologies like blockchain and supporting technologies like IPFS are the enabling technologies to allow humans to continue to trade and interact and conduct commerce with each other when we become a multi-planetary society.
 And that's why I think there's a ton of potential in blockchain and it's something really exciting, and hopefully, you're all inspired to stay up-to-date with.
+
 ### <a id="ch6-9"></a>6.9 Chapter 6 Summary
 In this chapter, we discussed:
   * Blockchain use cases in an enterprise environment.
