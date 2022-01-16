@@ -1260,20 +1260,25 @@ In this chapter, we discussed:
 
 ## <a id="ch3"></a>Chapter 3. Blockchain Functions
 ### Chapter Overview
-In this chapter, we will examine some blockchain functions. First, we will discuss smart contracts, how blockchains have the ability to store and run computer code (applications) that can execute the terms of an agreement. These digital promises stored and executed on the blockchains remove intermediaries and ambiguity thereby reducing conflict.
-We will discuss how blockchains secure their information and how these techniques differ from traditional database security. Next, we will discuss different types of blockchains (public, private and hybrid models) and design considerations that need to be made before blockchains can be developed. We will examine the steps in a basic blockchain transaction from start to finish.
-Finally, we will discuss blockchain consensus models and why they are the backbone to the blockchain operations. We will compare Proof of Stake and Proof of Work models and be able to discuss the differences and environmental considerations. Also, we will discuss private blockchain structures and how permissioning mechanisms are the basis for their ConsenSys models.
+In this chapter, we will examine some blockchain functions. 
+  * First, we will discuss smart contracts, how blockchains have the ability to store and run computer code (applications) that can execute the terms of an agreement. These digital promises stored and executed on the blockchains remove intermediaries and ambiguity thereby reducing conflict.
+  * We will discuss how blockchains secure their information and how these techniques differ from traditional database security. 
+  * Next, we will discuss different types of blockchains (public, private and hybrid models) and design considerations that need to be made before blockchains can be developed.
+  * We will examine the steps in a basic blockchain transaction from start to finish.
+  * Finally, we will discuss blockchain consensus models and why they are the backbone to the blockchain operations.
+  * We will compare Proof of Stake and Proof of Work models and be able to discuss the differences and environmental considerations. 
+  * Also, we will discuss private blockchain structures and how permissioning mechanisms are the basis for their ConsenSys models.
 
 ### Learning Objectives
 By the end of this chapter, you should be able to:
-•	Explain what smart contracts are and how they work.
-•	Discuss the benefits of using smart contracts.
-•	Compare blockchain security vs. standard security.
-•	Indicate the differences between private and public blockchains.
-•	Understand when to use a public vs. a private blockchain.
-•	Analyze the flow of a transaction in blockchain.
-•	Discuss consensus mechanism used in blockchain.
-•	Explore different methods of achieving consensus (Proof of Work, Proof of Stake, etc.).
+  •	Explain what smart contracts are and how they work.
+  •	Discuss the benefits of using smart contracts.
+  •	Compare blockchain security vs. standard security.
+  •	Indicate the differences between private and public blockchains.
+  •	Understand when to use a public vs. a private blockchain.
+  •	Analyze the flow of a transaction in blockchain.
+  •	Discuss consensus mechanism used in blockchain.
+  •	Explore different methods of achieving consensus (Proof of Work, Proof of Stake, etc.).
 
 ### <a id="ch3-2"></a>3.2 What Are Smart Contracts?
 When we make a transaction on the blockchain, understand that there are only three types of transactions we can make.
@@ -1296,11 +1301,13 @@ And what we're left with is just a single party announcing an important or signi
 And this is the simplest type of blockchain transaction, and also the most powerful.
 If we think about blockchain, perhaps for managing a supply chain scenario, we might have a grower of organic produce announce or commit a record to the blockchain that says they've planted a crop.
 And we might have an organic pesticide company come and treat that organic produce.
+
 We still have a single organization or single entity making the announcement of something they did, and this is really the heart of blockchain.
+
 When you understand that it becomes really easy to understand where smart contracts fit in.
 And smart contracts are just computer code. They're codified logic that we can use to respond to any kind of event that gets captured on the blockchain.
-In that organic produce example, if I want to notify someone when that fresh produce has been treated with organic pesticide, so I can create traceability for the end consumer,
-well, I might have a smart contract that manages that that defines the rules and the steps that get taken when that particular type of event occurs.
+
+In that organic produce example, if I want to notify someone when that fresh produce has been treated with organic pesticide, so I can create traceability for the end consumer, well, I might have a smart contract that manages that that defines the rules and the steps that get taken when that particular type of event occurs.
 And this is all smart contracts are.
 There's oftentimes a misconception when people hear the word contract that they think of a legally binding agreement between two or more parties.
 It's not necessarily the case. Smart contracts don't have to be legally binding and they don't have to involve multiple parties.
@@ -1356,7 +1363,8 @@ And then, we might say as a final step, I get the remaining five hundred dollars
 This would put a lot of power back in the hands of voters and would keep politicians accountable for the promises they make, long after election day.
 While things like this certainly are possible with conventional technology, they're not very practical or feasible.
 Blockchain and smart contracts puts this power back in the hand of voters and has the potential to radically reform campaign finance and campaign donations.
-c.	Blockchain Security vs. Standard Cybersecurity
+
+#### Blockchain Security vs. Standard Cybersecurity
 Blockchain is commonly called the future of computing. It takes a very different approach to data storage and processing and requires a very different perspective for security.
 In this section, we will discuss some of the ways that security differs in traditional and blockchain environments.
 
@@ -1392,14 +1400,14 @@ So, there are a lot of differences between conventional cybersecurity and securi
 <h4>Blockchain Security Environment</h4>
 One of the primary differences between cybersecurity in a traditional computing environment and on the blockchain is the environment itself and what it is and isn't designed to do.
 <h5>Standard Cyber Security
-•	The traditional computing environment is a company network fully or, at least mostly, under the control of the company's computer security staff.
-•	While many organizations are making the shift to cloud-based environments, they still have a high degree of control over the security and configuration of their rented systems.
-•	Traditional networks are highly centralized, and the focus of cybersecurity on these systems is primarily perimeter-focused. All systems and authorized users on the network are trusted or semi-trusted, so the focus is on preventing attackers from entering from outside the network.
+  •	The traditional computing environment is a company network fully or, at least mostly, under the control of the company's computer security staff.
+  •	While many organizations are making the shift to cloud-based environments, they still have a high degree of control over the security and configuration of their rented systems.
+  •	Traditional networks are highly centralized, and the focus of cybersecurity on these systems is primarily perimeter-focused. All systems and authorized users on the network are trusted or semi-trusted, so the focus is on preventing attackers from entering from outside the network.
 
 <h5>Blockchain Cyber Security
-•	Blockchains are designed to be decentralized, distributed systems running on untrusted hardware.
-•	While security in traditional environments is designed to provide security by putting all data in one place and building walls around it, security in blockchain is based on ensuring that data is protected from modification by copying data to as many locations as possible to make modification of all copies infeasible.
-•	Traditional infrastructure focuses on confidentiality and integrity, while blockchain is designed to provide integrity and availability.
+  •	Blockchains are designed to be decentralized, distributed systems running on untrusted hardware.
+  •	While security in traditional environments is designed to provide security by putting all data in one place and building walls around it, security in blockchain is based on ensuring that data is protected from modification by copying data to as many locations as possible to make modification of all copies infeasible.
+  •	Traditional infrastructure focuses on confidentiality and integrity, while blockchain is designed to provide integrity and availability.
 
 <h5>Security Attacks
 Both traditional computing environments and blockchain have security considerations associated with them. In many cases, the same attack is possible against both paradigms, but the details of how to implement it vary.
@@ -1412,23 +1420,23 @@ A denial-of-service (DoS) attack is when an attacker makes it impossible for a s
 
 <h5>Security Attacks: Endpoint Security
 Traditional infrastructure and blockchain environments also differ with regard to endpoint security. Endpoint security originated to ensure multi-layer prevention against malware, fraud, cyber threats, and attempts to extract private information.
-•	In traditional cyber, endpoints are under the control of the enterprise and have some level of heterogeneity. Heterogeneity can be dangerous because an attacker has more options for finding a vulnerability to exploit.
-•	In blockchain, endpoints are the nodes and may be completely homogeneous. While homogeneity means that a flaw in one system is a flaw in all of the systems, blockchains built in trust and data privacy feature guard against such attacks.
+  •	In traditional cyber, endpoints are under the control of the enterprise and have some level of heterogeneity. Heterogeneity can be dangerous because an attacker has more options for finding a vulnerability to exploit.
+  •	In blockchain, endpoints are the nodes and may be completely homogeneous. While homogeneity means that a flaw in one system is a flaw in all of the systems, blockchains built in trust and data privacy feature guard against such attacks.
 
 <h5>Security Attacks: Code Vulnerabilities
 Computer applications are dependent on reliable code. Another way that traditional and blockchain cybersecurity differ is in the level of trust in the code used in a company's applications.
-•	In traditional cyber, the company writes most of the code, and vulnerabilities can arise only from code that the company controls.
-•	In blockchain, anyone can write a smart contract, and a flaw in the smart contract or the underlying platform code can have wide-reaching consequences. But since smart contracts can be vetted and reused, such inconsistency can be edited from the code. We will discuss an example of a vulnerability in a platform's code in a later section covering the Ethereum network.
+  •	In traditional cyber, the company writes most of the code, and vulnerabilities can arise only from code that the company controls.
+  •	In blockchain, anyone can write a smart contract, and a flaw in the smart contract or the underlying platform code can have wide-reaching consequences. But since smart contracts can be vetted and reused, such inconsistency can be edited from the code. We will discuss an example of a vulnerability in a platform's code in a later section covering the Ethereum network.
 
 <h5>Security Attacks: Intentional Misuse
 Both traditional and blockchain environments are vulnerable to attacks based on intentional misuse of the system.
-•	In traditional cyber, insider attacks or intentional misuse of the system by clients are possible. In fact, a denial-of-service attack is a specific type of intentional misuse.
-•	Blockchain systems are set up to incentivize network participants, miners or nodes, to do something that is in their best interest. A weakness is, if more than half of the network's processing power is controlled by a single group, the network is controlled by that group.
+  •	In traditional cyber, insider attacks or intentional misuse of the system by clients are possible. In fact, a denial-of-service attack is a specific type of intentional misuse.
+  •	Blockchain systems are set up to incentivize network participants, miners or nodes, to do something that is in their best interest. A weakness is, if more than half of the network's processing power is controlled by a single group, the network is controlled by that group.
 
 <h5>Security Attacks: Data Protection</h5>
 Finally, traditional infrastructure and blockchain differ in their goals regarding data protection.
-•	In traditional cyber, data is siloed, and access is strictly controlled by the owners, placing responsibility for confidentiality, integrity, and availability in their hands.
-•	In blockchain, data is distributed, and the blockchain is relied upon to provide integrity and availability.
+  •	In traditional cyber, data is siloed, and access is strictly controlled by the owners, placing responsibility for confidentiality, integrity, and availability in their hands.
+  •	In blockchain, data is distributed, and the blockchain is relied upon to provide integrity and availability.
 
 Lab 3: The Blockchain
 Next, let's engage with an interactive lab. In this lab, you will be examining a blockchain containing five blocks, each labeled according to position. Enjoy!
@@ -1436,15 +1444,15 @@ Start Lab
 
 ### <a id="ch3-4"></a>3.4 Different Types of Blockchains (Public & Permissioned Blockchains)
 When we try to understand the main difference between a public and private blockchain, it is important to understand the terminology.
-•	Public Blockchains
+  •	Public Blockchains
 A public blockchain is open to anyone to join. Public blockchains are decentralized where no one has control over the network. These immutable and censorship resistant networks are ideal for participants who don't trust each other, but still interact in a network and take part in consensus. Bitcoin and Ethereum are examples of public, permissionless blockchains.
-•	Permissionless Blockchains
+  •	Permissionless Blockchains
 Public blockchains are permissionless. Anyone effectively can join the blockchain network. No one is prohibited from joining.
-•	Private Blockchains
+  •	Private Blockchains
 Private blockchains define a user's rights on the network prior to admittance. Restrictions are placed on activities such as who can write to the ledger and what transaction they can participate in. Hyperledger and Corda blockchains are examples of private permissioned blockchains.
-•	Permissioned Blockchains
+  •	Permissioned Blockchains
 In a permissioned blockchain, participation is permissioned by an organization or a consortium of organizations. This empowered entity defines who can participate in certain transactions and consensus on the network.
-Public (Permissionless) Blockchains
+  •	Public (Permissionless) Blockchains
 When people get into blockchain, there's a natural discussion about what type of blockchain, because blockchain comes in many different types and flavors.
 And normally, we hear about public versus private blockchains.
 One factor that often gets left out is also the idea of an open versus closed blockchain.
@@ -1453,12 +1461,14 @@ When we talk about public and private, what we're really talking about is who is
 The open versus closed brings in to consideration who's able to read that data.
 And so, we can talk about solutions which are public and open, public and closed, private and open, private and  closed.
 When we talk about public blockchains, what most folks are really talking about is a public open blockchain.
+
 It's a blockchain where anybody can come write data to the blockchain, anybody else can come read that data.
 So, public blockchain platforms like Bitcoin, Ethereum, Litecoin tend to get talked about a lot right now,
 and these are what we also refer to as permissionless blockchain platforms meaning that they really strive to, by design, increase and protect the user's anonymity.
-And, if we don't know who a user is, if we don't have a way of identifying individuals, and we don't have any way of creating permission or access rules around that user,
-and it's what we get, is the system where anybody can commit data to that blockchain and anybody can come along and read data to that blockchain.
+And, if we don't know who a user is, if we don't have a way of identifying individuals, and we don't have any way of creating permission or access rules around that user, and it's what we get, is the system where anybody can commit data to that blockchain and anybody can come along and read data to that blockchain.
+
 There's a perception that public blockchain platforms like Ethereum can't be used to build permission scenarios or to control access to data.
+
 The truth is they can, they just don't give you the built-in tools that a private or permission blockchain platform will.
 You can always use these open public platforms to build a permission solution, but just understand that it's upon you, your architects, and your developers to create that permissioning model, and that all starts with some kind of identity management system.
 When you think of public blockchains, you think about blockchain platforms like Ethereum, understand, by default, by the very nature and design, they're designed to protect anonymity.
@@ -1467,19 +1477,20 @@ In a lot of situations, this is desirable, this is why we see cryptocurrencies b
 And, if a user has a currency, something of value, they should be able to exchange it and spend it, and do what they want with it, just like anybody else.
 We don't want to treat any class of users differently than any others in those scenarios.
 That's a public blockchain, and that's a very different animal from the private permission blockchain.
-Public Blockchain Benefits
+
+#### Public Blockchain Benefits
 In the "Public vs. Private Blockchain In a Nutshell" article by Demiro Massessi, public and private blockchains have different features. The benefits of public blockchain are:
-•	Ledger is distributed
+  •	Ledger is distributed
 The database is not centralized like in a client-server approach, and all nodes in the blockchain participate in the transaction validation.
-•	Immutable
+  •	Immutable
 When something is written to the blockchain, it cannot be changed.
-•	Open Consensus Model
+  •	Open Consensus Model
 No restriction placed on who can operate a node in the network.
-•	Open read and write
+  •	Open read and write
 Anyone can participate by submitting transactions to the blockchain, such as Ethereum or Bitcoin; transactions can be viewed on the blockchain explorer.
-•	Low barrier to entry
+  •	Low barrier to entry
 Transactions on a public network can be accomplished with an Internet connection and a cell phone.
-•	Secure due to mining (51% rule)
+ •	Secure due to mining (51% rule)
 With Bitcoin, obtaining a majority of network power could potentially enable massive double spending, and the ability to prevent transaction confirmations, among other potentially nefarious acts. This has never been accomplished as the computing power needed to stage such an attack would be too costly.
 
 <h5>Private (Permissioned) Blockchains</h5>
