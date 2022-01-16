@@ -237,7 +237,7 @@ There are so many possibilities with blockchain; not just in the now, but with t
 Blockchain Is NOT Bitcoin
 Bitcoin is a digital currency running on top of the Bitcoin blockchain. We will develop the concept of cryptocurrencies in later sections. Bitcoin has no borders and was created as a decentralized payment system, an alternative to currencies issued by governments. Let us look at what it means to be a currency.
 
-Purpose of currency:
+<h5>Purpose of currency:</h5>
   * Medium for exchange
   * Store of value over time
   * Accepted as a measure of worth
@@ -260,7 +260,7 @@ There are many more use cases that utilize blockchain technology far reaching th
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-Blockchain - Let’s Cover the Basics
+<h5>Blockchain - Let’s Cover the Basics</h5>
 In this section, we're gonna talk about what blockchain is: 
   * a real simple introduction to the basic concepts and principles behind blockchain.
 
@@ -284,9 +284,13 @@ It's simply a new and creative way of combining old ideas together to give us an
 And the rest of this series will take a deeper dive into these basic concepts and principles, but if the idea of this unchangeable linked notebook makes sense, congratulations!
 You already understand all the major principles and concepts required to understand what blockchain is and why it's so powerful.
 
-Let’s Review an Analogy
-A block on a blockchain can be thought of much like a page in a notebook. Data is stored on a block, just like data is written on a page of a notebook. Similar to a sheet of paper, the digital ledger doesn't care what kind of information you're putting on it. So, while most of what we're recording today are financial transactions, we could also record things like voting records and results, land titling and medical records, etc. What makes this blockchain notebook incredibly powerful is that all the pages are linked together. So that if you go back and try and change any data on any page anywhere in this notebook, you break a link in a very obvious and easy-to-determine way.
- 
+<h5>Let’s Review an Analogy</h5>
+A block on a blockchain can be thought of much like a page in a notebook. Data is stored on a block, just like data is written on a page of a notebook. 
+
+Similar to a sheet of paper, the digital ledger doesn't care what kind of information you're putting on it. 
+So, while most of what we're recording today are financial transactions, we could also record things like voting records and results, land titling and medical records, etc. What makes this blockchain notebook incredibly powerful is that all the pages are linked together. 
+So that if you go back and try and change any data on any page anywhere in this notebook, you break a link in a very obvious and easy-to-determine way.
+
 Let’s Review an Analogy: Data Stored
 Any data can be stored on the same block. Examples of stored data include:
   - Medical records
@@ -304,12 +308,18 @@ Blockchain Features
 Blockchain is a combination of several other underlying technologies that have never been combined so successfully.
 Here are some features that make this new technology so revolutionary.
  
-Blockchain Features: Distributed Ledger
-A ledger is a collection of transactions. It is not a collection of assets. Assets are part of a transaction, but the ledger records the transaction. With a digitally distributed ledger or a blockchain, no one owns the ledger. The ledger is distributed among participants in the network, all running the same blockchain protocols. 
+<h5>Blockchain Features: Distributed Ledger</h5>
+A ledger is a collection of transactions. 
+It is not a collection of assets. 
+Assets are part of a transaction, but the ledger records the transaction. 
+With a digitally distributed ledger or a blockchain, no one owns the ledger. 
+The ledger is distributed among participants in the network, all running the same blockchain protocols.
+
 It is decentralized in that an identical copy of the ledger exists on every node/computer on the network. 
+
 In 2009 with the publishing of Satoshi Nakamoto’s whitepaper “Bitcoin: A Peer-to-Peer Electronic Cash System” , Bitcoin became the first application to leverage blockchain technology by recording the first asset transfer on a public blockchain ledger.
 
-Blockchain Features: Peer to Peer Network
+<h5>Blockchain Features: Peer to Peer Network</h5>
 The ledger is stored, updated, and maintained by a peer network. 
 Nodes form the infrastructure of a blockchain network. 
 They store, spread and preserve the blockchain data, so a blockchain exists on nodes. 
@@ -317,30 +327,36 @@ All nodes on a network follow the same rules of operation or protocols, but node
 A full node contains a copy of the blockchain protocol, transaction history of the blockchain and aids in the maintenance of the blockchain. 
 User node interacts with the ledger. With blockchain technology, a lack of a centralized authority is replaced with a peer-to-peer network.
  
-Blockchain networks can be public or private. A public blockchain is open to anyone with an internet connection and the appropriate application. A private blockchain grants access and rights to its users before they can interact.
-Blockchain Features: Transparency
+Blockchain networks can be public or private. A public blockchain is open to anyone with an internet connection and the appropriate application. 
+A private blockchain grants access and rights to its users before they can interact.
+
+<h5>Blockchain Features: Transparency</h5>
 In a blockchain, we can see all the transactions that have occurred on the shared or distributed ledger. 
 A blockchain stores details of every transaction that occurred since the first transfer. 
 This first transfer, along with some system information that we will discuss later, becomes the first block in our chain and is referred to as the genesis block. 
 Since every node shares a copy of the agreed-upon ledger, there is no friction about the transactions, everyone has the same agreed-upon copy. 
 Centralized systems are not transparent, the information about the ledger is controlled by one authority.
-Blockchain Features: Consensus
+
+<h5>Blockchain Features: Consensus</h5>
 Blockchain ledgers are different from centralized ledgers because network participants have an agreement upon what is in the identical ledger. 
 In order for the blocks to be added, all the nodes in the system come to agree as to what transactions are accurate and should be added to the chain of blocks. 
 Since there is no central authority telling the nodes which transactions are valid, a new way to reach agreement or come to consensus is needed.
  
-The way in which each blockchain comes to consensus is built into the protocol, they are the rules built into the code that determine how the nodes will add ledger transactions. 
+The way in which each blockchain comes to consensus is built into the protocol, they are the rules built into the code that determine how the nodes will add ledger transactions.
 The Bitcoin network uses a proof of work consensus model. 
 This process of building agreement among a group of mutually distrusting participants is a benefit of blockchain consensus.
 
-Blockchain Features: Encryption
+<h5>Blockchain Features: Encryption</h5>
 Encryption and cryptography are combined with blockchain technology to assure the information on the blockchain is authentic. In our previous real-world example, the music sharing companies not only had legal issues from copyright infringement, they also could not solve the data integrity problem. Music downloaded from these platforms was only as reliable as the anonymous person storing and sending it. The data had no integrity. Cryptography and blockchain offer a secure way to prove something is authentic. Instead of relying on third-party, trust is put into cryptographic algorithms that prove the provenance and authenticity of an attestation.
 
-Blockchain Features: Programable
+<h5>Blockchain Features: Programable</h5>
 Some blockchains offer an additional feature, smart contracts, that impose logic into the system. 
+
 If you think of the Bitcoin blockchain as a calculator recording financial transactions, you can think of these blockchains as computers. 
+
 The first of these blockchains is Ethereum, created by Vitalik Buterin, Joe Lubin and team. 
 Ethereum runs the EVM, Ethereum Virtual Machine, which has the ability to impose digital agreements or smart contracts. 
+
 A smart contract is a program that runs on a blockchain that can impose contractual agreements. 
 Typically, they work as digital agreements that enforce a specific set of rules. 
 These rules are predefined by computer code, which is replicated and executed by all network nodes. 
@@ -352,6 +368,7 @@ Other than that, the use of smart contracts can remove the need for intermediari
 ### <a id="ch1-4"></a>1.4 Blockchain Actors (Career Opportunities)
 With new technology comes new opportunities and this holds true for blockchain. 
 As this nascent technology matures, more positions are needed to fill this increased demand. 
+
 A few of these new positions are listed here:
   - Entry Level and Internship Positions
 Mentorship programs and internships include assisting in the designing and developing blockchain distributed ledgers based on both public and private or permissioned blockchains. 
@@ -420,37 +437,65 @@ Designers are needed to turn these moments/media into art for the thirsty NFT ma
 
 ### <a id="ch1-5"></a>1.5 Who is Using Blockchain? (Use Cases)
 There are a lot of really interesting use cases being explored with blockchain right now.
+
 When you first get into blockchain, one of the areas you'll see people immediately jump to are healthcare, how can we manage our personal health information on the blockchain, and voting an election reform, and both of these are really, really interesting ideas.
+
 The goal behind the folks looking at blockchain for healthcare is the idea that it would be great if your medical records could be accessible with your permission to anyone else, anywhere on the planet.
+
 If you're halfway across the world on vacation and you fall ill and end up in a hospital, wouldn't it be great if the doctor treating you had full insight into your medical records, knew any allergies you had, or knew any prescriptions that you were already on?
+
 That's a very, very big area, and this ties a lot into blockchain and Identity Management.
+
 How do we safely identify and protect people's personal data on blockchain?
+
 A lot of interesting challenges there that are being worked out...
+
 Blockchain for voting and election reform is a big topic right now, especially with all the conversation lately about how do we ensure the integrity of elections and demonstrate that our results haven't been tampered with or altered.
 This is an area where blockchain could add a lot of value.
 And then, of course, we hear a lot about traditional use cases, areas that are getting a lot of traction in blockchain right now.
+
 Probably one of the biggest are supply chain, value chain relationships, which are very, very common in today's economy.
 We have very, very few products or services that are offered completely and solely by one organization, without the involvement of other vendors, partners, suppliers, manufacturers, third-party organizations, etc.
+
 Blockchain to track the supply, the origin of the goods and services that we consume is a big use case.
+
 Walmart is really pioneering this right now with a blockchain solution that they're using to identify the provenance of meat, where does the meat that is sold in a Walmart store come from, and the ultimate goal here is that, when we do have contaminated foods, and we have to issue a recall, currently, because we just don't have good insight into that supply chain, we recall and destroy a lot more food than we really need to, which is tremendously wasteful, especially with all the people on the planet that we could be giving that good food to.
+
 These are some real, real exciting areas that we see being pursued in blockchain right now.
+
 On the public sector, there's a lot of interest in blockchain for law enforcement purposes.
+
 How do we allow different law enforcement agencies at the federal, state, county, city level, all to share data seamlessly, in a safe, secure fashion, which also protects people's personal privacy and anonymity, when appropriate.
 Another area where blockchain is getting explored and is generating a lot of excitement is with artists, with people who produce content.
+
 If you're an author, if you're a musician, if you're an artist, traditionally, you've only been able to get your work out to the public, in the hands of the public, by going through a third-party intermediary.
+
 If I'm an author, traditionally, the only way I've been able to share my creation with the general public has been going to a publishing company and getting my works published.
+
 Blockchain enables lots of interesting scenarios where I can sell that work directly to consumers, create new subscription models, and this is having very interesting effects on the work itself.
+
 One of the things we're seeing is that traditional book publishing, there's anywhere between 12 to 18 months delay between when the author finishes the last word of a book and when it actually ends up into the consumers hands.
+
 Well, if we can use blockchain to enable consumers to purchase this material or subscribe directly to the content creator, we take that lag time completely out of it.
+
 And this allows authors and content creators to do some really interesting things.
+
 You could write a fictional story and have one of your characters respond real-time to a news story that actually happened last week.
+
 It makes for very compelling reading and it's just something we're not able to do today in the traditional publishing world because of that delay.
+
 We also see a lot of interest in blockchain for fractional asset ownership scenarios.
+
 We know we're 10-15 years away from having self-driving cars be a very regular thing, and when we all get our own self-driving car, if we're smart, we're gonna have that car take us to work and then turn around and perform ride-sharing services throughout the day, when we're not using it, in order to recoup some of that investment.
+
 Well, in a blockchain world with coins and tokens, we can fractionalize that asset ownership, and I can take that same money I used to buy one self-driving car which operates in one city, and I could buy one percent of a hundred self-driving cars in the hundred's biggest cities on the planet.
+
 And so, if they're ever weather conditions, where maybe my car couldn't operate locally, that's okay.
+
 I have a much more diversified investment, which continues to offer returns, because I have a virtual guarantee that any major city that I have one percent of my car ownership in is currently in rush-hour right now, in peak times of people needing a ride.
+
 There are lots of very interesting use cases for blockchain in the real world right now.
+
 I would encourage all of you to dig in a little bit more, and see some of the interesting things that are going on with blockchain in healthcare, in public sector, in insurance, in supply chain, value chain and more, see what other folks are doing, and then go out and make your own blockchain dreams a reality.
 
 ### Blockchain Users: Business to Consumer (B2C)
@@ -462,16 +507,21 @@ Use Case: Diamond Tracing
 
 Approach: The blockchain collaboration, known as TrustChainTM, will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.
 Result: The jewelry industry can now track and authenticate diamonds and precious metals through every stage of the supply chain. Blockchain provides physical product verification, process verification and servers as an ethical oversight.
-Blockchain Users: Business to Business (B2B)
-With a decentralized approach, blockchain removes the middleman (such as banks and brokers) to facilitate faster and less expensive payments. The shared ledger approach also eliminates the need for multiple paper copies that need to be verified and updated frequently.
+
+### Blockchain Users: Business to Business (B2B)
+With a decentralized approach, blockchain removes the middleman (such as banks and brokers) to facilitate faster and less expensive payments. 
+The shared ledger approach also eliminates the need for multiple paper copies that need to be verified and updated frequently.
  
 Industries like finance, international trade and commerce, food supply chains are taking a serious look at blockchain.
-Real World Example of Business to Business Transaction
-Use Case: Multi-party Invoicing DLT Labs
- 
-•	Approach: DLT Labs along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
-•	Result: Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
-Unintended Use Cases
+
+### Real World Example of Business to Business Transaction
+
+#### Use Case: Multi-party Invoicing DLT Labs
+
+  •	Approach: DLT Labs along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
+  •	Result: Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
+
+#### Unintended Use Cases
 One of the coolest things about blockchain is some of the unintended consequences a good blockchain solution might have.
 Let's look at an example.
 Right now, there is a lot of attention being given to how blockchain might be used, in general, for supply chain relationships and, specifically, in the food supply chain.
@@ -503,7 +553,7 @@ Look for blockchain not just to transform the areas that we're aware it might ma
 Blockchain Users: Government to Consumer (G2C)/Government to Government (G2G)
 The public sector is the part of the economy composed of both public sector and private sector enterprises that are operating on behalf of the public. It is the business of taking care of the people. Public sector includes all government, military, police, public health and welfare, infrastructure, etc. Public sector organizations leverage blockchain technology to move away from siloed and inefficient centralized systems. Current systems are inherently insecure and costly, with duplicated and in-efficient workflows. Blockchain networks offer more secure, agile, and cost-effective structures.
 
-### Dubai Use Case
+#### Dubai Use Case
 So, when people first start getting into blockchain, one of the areas they really start to look at is where is blockchain being used in the real world, what examples do we have of a blockchain being deployed and at what scale.
 And there's really no better example of this right now than what's going on in Dubai.
 Dubai, the largest city in the United Arab Emirates, is piloting a very ambitious program called smart Dubai 2021.
@@ -515,7 +565,7 @@ So, projects like automated traffic signals, registration of citizens for govern
 So, if you want to see some of the really exciting use cases in blockchain right now, be sure to check out Dubai and what's going on with their Smart Dubai 2021 initiative.
 Real World Example of Public Sector Government to Government/Citizens
 
-### Use Case: Public Sector - Smart Dubai
+#### Use Case: Public Sector - Smart Dubai
   • Approach: To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful. The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership
   • Result: By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. When successful, Dubai will be the first blockchain-powered government driving the future economy.
 More Use Cases
