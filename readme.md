@@ -1194,10 +1194,10 @@ Corda, a multi-party application development platform, relies on its notary serv
 
 ### Hashing and Chaining
 It is important to understand the value of locking in the previous block by including its hash in the next block. As explained in the article “A Gentle Introduction to Immutability of Blockchains” by Antony Lewis,
-•	Creating a ledger of transactions with blocks that refer to previous blocks is a much better idea than numbering the blocks sequentially.
-•	In a book with pages, 1, 2, 3, etc., it would be easy to tear out page 25 and replace it with another page.
-•	The integrity of the book has been manipulated and altered. However, there is nothing about the new page number that ties it (chains it) to the content of the previous page.
-•	Instead, in a blockchain, blocks are referenced by their hash and each block explicitly specifies which block (hash) it is building on.
+  •	Creating a ledger of transactions with blocks that refer to previous blocks is a much better idea than numbering the blocks sequentially.
+  •	In a book with pages, 1, 2, 3, etc., it would be easy to tear out page 25 and replace it with another page.
+  •	The integrity of the book has been manipulated and altered. However, there is nothing about the new page number that ties it (chains it) to the content of the previous page.
+  •	Instead, in a blockchain, blocks are referenced by their hash and each block explicitly specifies which block (hash) it is building on.
  
 ### Hashing and Chaining with Proof of Work
 We will cover the Proof of Work in a later module. However, this demo uses the Proof of Work to show how blocks are chained together and how tampering with information in a past block destroys the integrity of the proceeding blocks.
