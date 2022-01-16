@@ -93,7 +93,14 @@ At its core, blockchain is a system for recording information about a transactio
 These transactions are stored on sheets or blocks in a digital ledger that is shared among the participants of the network. 
 Consensus on the transactions, brings the peer-to-peer network into agreement.
 Once the agreed-upon transactions blocks are recorded in the immutable ledger, trust becomes a fundamental component built into the system.
- 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" width="400" >
+&nbsp;
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" width="400" >
+
 ### <a id="ch1-2"></a>1.2 The Early Internet
 What started as a DARPA (Defense Advanced Research Project Agency) experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
 
@@ -558,12 +565,16 @@ So, when people first start getting into blockchain, one of the areas they reall
 And there's really no better example of this right now than what's going on in Dubai.
 Dubai, the largest city in the United Arab Emirates, is piloting a very ambitious program called smart Dubai 2021.
 And what Smart Dubai 2021 aims to do is to move all governmental operations and record-keeping on the blockchain by the year 2021.
-The goals of this program are increased transparency in the government operations, increased efficiency, and by proxy, providing better service to city residents and constituents and establishing Dubai as a thought leader, an industry leader in the blockchain space.
+The goals of this program are increased transparency in the government operations, increased efficiency, and by proxy, providing better service to city residents and constituents and establishing as a thought leader, an industry leader in the blockchain space.
 There are lots of really cool applications that tie into this.
 Blockchain is becoming the enabling layer for a lot of other Smart Dubai initiatives around creating a smart city.
 So, projects like automated traffic signals, registration of citizens for governmental services, etc. are all being pioneered on blockchain.
 So, if you want to see some of the really exciting use cases in blockchain right now, be sure to check out Dubai and what's going on with their Smart Dubai 2021 initiative.
 Real World Example of Public Sector Government to Government/Citizens
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.png" width="400" "Smart Dubai" >
+&nbsp;
 
 #### Use Case: Public Sector - Smart Dubai
   • Approach: To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful. The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership
@@ -2674,7 +2685,7 @@ Hyperledger is an open source project with blockchains for you to build your sol
  
 ### <a id="ch6-6"></a>6.6 Daml
 Daml is:
-"a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
+> "a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
   * Daml Connect
 It is a complete development and application stack allowing you to build, integrate, deploy, and maintain full-stack multi-party solutions with a minimum of boilerplate code.
   * Daml Drivers
