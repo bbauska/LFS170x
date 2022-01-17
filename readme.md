@@ -99,9 +99,12 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 &nbsp;
 
 ### <a id="ch1-2"></a>1.2 The Early Internet
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------ darpa logo ------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41387907/149683436-9758d7ca-0372-4ad2-9478-9d6b9ddb6eda.jpg" width="400" >
+<img src="https://user-images.githubusercontent.com/41387907/149683436-9758d7ca-0372-4ad2-9478-9d6b9ddb6eda.jpg" "DARPA logo" width="400" >
 &nbsp;
 
 What started as a DARPA (Defense Advanced Research Project Agency) experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
@@ -127,7 +130,7 @@ Characteristics of Web 1.0:
  * Email was the first widely adopted application on the Internet.
 
 <p align="center">
-<img src="![image005](https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" width="400" >
+<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-MAIL" width="400" >
 &nbsp;
 
 <h5>Email, Electronically Transferring Information</h5>
