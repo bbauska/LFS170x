@@ -1284,7 +1284,7 @@ Lab 2: Blocks
 Next, let's engage with an interactive lab. This lab will give you the chance to examine blocks on the blockchain. Enjoy!
 Start Lab
 
-### <a id="ch2-5"></a>2.5 Chapter 2 Summary
+### <a id="ch2-5"></a>2.5 Chapter Summary
 In this chapter, we discussed:
   • Distributed ledger technology (DLT) and how it differs from previous ledger storage techniques.
   • Cryptography and how it is used in several different ways in blockchain.
