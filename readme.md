@@ -126,6 +126,10 @@ Characteristics of Web 1.0:
  * Read-only, information was “pushed” to users.
  * Email was the first widely adopted application on the Internet.
 
+<p align="center">
+<img src="![image005](https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" width="400" >
+&nbsp;
+
 <h5>Email, Electronically Transferring Information</h5>
 Computers and items for connection became necessities.
 Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
