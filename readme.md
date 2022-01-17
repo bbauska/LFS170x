@@ -5,7 +5,7 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" width="400">
 &nbsp;
-<!-- <img src=https://github.com/bbauska/LFS170x/blob/main/images/image001.jpg?raw=true" width="400">  -->
+<!-- <img src=https://github.com/bbauska/LFS170x/blob/main/images/image001.jpg?raw=true" width="200">  -->
 
 </p>
 
@@ -104,7 +104,7 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <!------------------------------------------------------------------------------------------------------------------------->
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41387907/149683436-9758d7ca-0372-4ad2-9478-9d6b9ddb6eda.jpg" "DARPA logo" width="400" >
+<img src="https://user-images.githubusercontent.com/41387907/149683436-9758d7ca-0372-4ad2-9478-9d6b9ddb6eda.jpg" "DARPA logo" width="200" >
 &nbsp;
 
 What started as a DARPA (Defense Advanced Research Project Agency) experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
@@ -130,7 +130,7 @@ Characteristics of Web 1.0:
  * Email was the first widely adopted application on the Internet.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-MAIL" width="400" >
+<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-MAIL" width="200" >
 &nbsp;
 
 <h5>Email, Electronically Transferring Information</h5>
