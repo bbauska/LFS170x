@@ -161,9 +161,15 @@ Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sel
 Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. 
 Websites let users generate content, social networks became part of our lives.
 
-  * Social Networking
-  * Real World Examples of File Sharing
-  * Use Case: Music Sharing Companies
+<p align="center">
+<img src="https://github.com/bbauska/LFS170x/blob/main/images/image006.png?raw=true" "Social Networking" width="200" >
+&nbsp;
+
+Social Networking
+
+Real World Examples of File Sharing
+
+Use Case: Music Sharing Companies
 
 Approach: Music stored on many computers connected peer-to-peer. 
 Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.
