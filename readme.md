@@ -108,7 +108,15 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 What started as a DARPA (Defense Advanced Research Project Agency) experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
 
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
- 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------ darpa logo ------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+
+<p align="center">
+<img src="https://github.com/bbauska/LFS170x/blob/main/images/image003.png?raw=true" "WWW logo" width="200" >
+  
+&nbsp;
+
 With the birth of the World Wide Web, expanded usages of this new technology arose along with expanded business opportunities. 
 Web servers, people who host and store the documents and web browsers, companies set up to help you view linked documents, help create a household need for this technology and the Internet explosion began.
 
