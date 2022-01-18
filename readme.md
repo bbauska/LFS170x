@@ -1985,30 +1985,47 @@ Some of the Ethereum network refused to follow the DAO hard fork, resulting in a
 Governance in Hyperledger Frameworks
 Hyperledger was introduced as an open source blockchain project sanctioned by the Linux Foundation. Spearheaded by Brian Behlendorf, its mission is to provide the community with the tools and education to foster distributed ledger technology on an enterprise level. Hyperledger frameworks use an Open Governance model to make technical decisions regarding the Hyperledger environment. The Hyperledger Technical Steering Committee (TSC) is the final authority for technical decisions in Hyperledger. Each year, the Hyperledger Technical Steering Committee is selected from the Hyperledger environment’s active contributors and maintainers. Contributors and maintainers can submit themselves as potential candidates for the fifteen slots, and the slots are filled based on voting by the same group of contributors and maintainers. This model is designed to allow those with an active role in the Hyperledger development community to have a say in how that community is governed.
 
-Governance in Corda
+#### Governance in Corda
 Corda is an open source blockchain project designed for business. Developed by R3, an enterprise blockchain software firm, in collaboration with over 200 technology and industry partners. The Corda platform was launched in September of 2017. Corda also uses an Open Governance model to make technical decisions regarding the future of the blockchain. The Corda Network Governing Body is selected to represent the interests of all users in the Corda network.
-Working Groups and Special Interest Groups
-Working Groups and Special Interest Groups are consortium-based discussion sessions to complete a task or develop a whitepaper, prototype, platform or project. These collaborations are aimed at developing open source standards and projects to accelerate the acceptance of blockchain.
-Enterprise Ethereum Alliance Working Groups
+
+#### Working Groups and Special Interest Groups
+Working Groups and Special Interest Groups are consortium-based discussion sessions to complete a task or develop a whitepaper, prototype, platform or project. 
+These collaborations are aimed at developing open source standards and projects to accelerate the acceptance of blockchain.
+
+#### Enterprise Ethereum Alliance Working Groups
 There are two types of the EEA working groups:
-Technical which tackles developing standard and resolving specific problems.
-Core Specific Working Groups which ensures quality interoperable implementations.
-Some examples of the EEA’s working Groups include: Client Interoperability Testing, Core Specifications and Cross-Chain Interoperability.
-Interest Groups (IGs)
+  1. Technical which tackles developing standard and resolving specific problems.
+  2. Core Specific Working Groups which ensures quality interoperable implementations.
+Some examples of the EEA’s working Groups include: _Client Interoperability Testing_, _Core Specifications_ and _Cross-Chain Interoperability_.
+
+#### Interest Groups (IGs)
 IG’s are designed to foster information exchange across vertical, industry-centric groups where EEA members in specific industry segments can exchange information.
 Some examples of the EEAs Interest Groups are: A.I. and Blockchain, Ethereum Mainnet, Supply Chain, Financial Services and Tokenization.
-Hyperledger Wiki
+
+#### Hyperledger Wiki
 It is a Linux sponsor environment for projects, Working Groups and Special Interest Groups to exchange ideas and develop projects.
-Working Groups in Hyperledger are developed for specific purposes. For example, the Learning Materials Working Group focus is on supplying templates, assisting the project in developing documentation and collecting and categorizing resources created by the vast Hyperledger community. The LMDWG wiki home page also provides a list of weekly events in and out of the Hyperledger community. Each working group has a wiki home page and a “Join This Group” button.
-Some example the Hyperledger’s Working Groups: Identity, Diversity and Inclusion, Performance and Scale, and Technical Working Group China.
-Special Interest Groups at Hyperledger are designed to tackle cross industry issues by supplying an open environment for information exchange. The Climate Action and Accounting SIG is developing a carbon calculator spearheaded by Si Chen for global consideration. The "Resources" section on the wiki page has current information about the global emergency. Please consider joining this conversation as it affects all humans.
-Some examples of other Special Interest Groups: Capital Markets, Healthcare, Public Sector, Social Impact, Supply Chain, Media and Entertainment, Telecom, and Trade Finance.
-Government Blockchain Association (GBA)
+
+Working Groups in Hyperledger are developed for specific purposes.
+For example, the _Learning Materials Working Group_ focus is on supplying templates, assisting the project in developing documentation and collecting and categorizing resources created by the vast Hyperledger community.
+The LMDWG wiki home page also provides a list of weekly events in and out of the Hyperledger community. 
+Each working group has a wiki home page and a “Join This Group” button.
+
+Some example Hyperledger’s Working Groups: _Identity_, _Diversity and Inclusion_, _Performance and Scale_, and _Technical Working Group China_.
+
+Special Interest Groups at Hyperledger are designed to tackle cross industry issues by supplying an open environment for information exchange. 
+The Climate Action and Accounting SIG is developing a carbon calculator spearheaded by Si Chen for global consideration. 
+The "Resources" section on the wiki page has current information about the global emergency. 
+Please consider joining this conversation as it affects all humans.
+Some examples of other Special Interest Groups: _Capital Markets_, _Healthcare_, _Public Sector_, _Social Impact_, _Supply Chain_, _Media and Entertainment+, _Telecom_, and _Trade Finance_.
+
+#### Government Blockchain Association (GBA)
 The GBA promotes blockchain technology by empowering individuals and organizations to connect, communicate, and collaborate to solve public sector challenges around the world.
-The GBA hosts international events like the Government Blockchain Week at the US Capital where they recognize new blockchain emerging projects with an award ceremony. Spearheaded by a tireless Gerard Dache, the GBA cultivates professional work flows between technologists, public policy makers, application specialists, and those who want to learn about the new and emerging digital currencies. Furthermore, GBA acts as a catalyst in creating a public dialogue around the creative, profitable, and positive leveraging of blockchain technology.
+The GBA hosts international events like the Government Blockchain Week at the US Capital where they recognize new blockchain emerging projects with an award ceremony. Spearheaded by a tireless Gerard Dache, the GBA cultivates professional work flows between technologists, public policy makers, application specialists, and those who want to learn about the new and emerging digital currencies. 
+Furthermore, GBA acts as a catalyst in creating a public dialogue around the creative, profitable, and positive leveraging of blockchain technology.
 You can find examples of the GBA Working Groups here.
 As previously mentioned, blockchain is about community. Become part of a growing community by joining a special interest group or working group and become part of the conversation.
-Governance With Autonomy - Driverless Cars
+
+#### Governance With Autonomy - Driverless Cars
 Let's discuss governance with autonomy.
 Let's jump 20 to 25 years into the future and see where we've gotten with AI and autonomous drive.
 Driverless cars have now evolved to the point where a company can own a fleet of autonomous vehicles all driving in a variety of directions, moving items as well as people.
@@ -2022,11 +2039,19 @@ After repairs are completed, the vehicle heads off to a charging station and the
 This can eventually be applied to blockchain governance.
 More specifically, decentralized autonomous organizations.
 This is a concept that quickly manifested itself after the Bitcoin white paper spread and people began to run through thought exercises.
-Decentralized Autonomous Organization (DAO)
-An organization whose operating rules are encoded into a computer program controlled by its members. It is composed of a complex stack of smart contracts that form a decentralized application (Dapp).
-In simple terms, a DAO is an organization that runs on a stack of computer programs (called smart contracts in the blockchain world) that are all interconnected to maintain a set of pre-programmed rules that have been previously voted upon by a community. When thinking about regular corporations stripped all the way down to their bare bones, they are basically different groups following rules, responsibilities, and duties given from those sitting at the top of the organization. The bigger they are, the more complex these pieces become. At the moment, a DAO's goal is to automate this complex system piece by piece.
-Within each DAO, there is a kind of pooling process for humans to contribute new rules into the system. These rules are then presented to the community and voted upon, based on the DAOs previously created rules. These new rule commitments will need majority agreement (may be different for each DAO) from the community to make this rule real. If this new computer-coded rule is accepted by the community, then it will be placed into the stack of other computer coded rules to improve the overall autonomous organization.
-Decentralized Autonomous Organization (DAO)
+
+#### Decentralized Autonomous Organization (DAO)
+An organization whose operating rules are encoded into a computer program controlled by its members.
+It is composed of a complex stack of smart contracts that form a decentralized application (Dapp).
+In simple terms, a DAO is an organization that runs on a stack of computer programs (called smart contracts in the blockchain world) that are all interconnected to maintain a set of pre-programmed rules that have been previously voted upon by a community. 
+When thinking about regular corporations stripped all the way down to their bare bones, they are basically different groups following rules, responsibilities, and duties given from those sitting at the top of the organization. 
+The bigger they are, the more complex these pieces become. At the moment, a DAO's goal is to automate this complex system piece by piece.
+Within each DAO, there is a kind of pooling process for humans to contribute new rules into the system. 
+These rules are then presented to the community and voted upon, based on the DAOs previously created rules. 
+These new rule commitments will need majority agreement (may be different for each DAO) from the community to make this rule real. 
+If this new computer-coded rule is accepted by the community, then it will be placed into the stack of other computer coded rules to improve the overall autonomous organization.
+  
+#### Decentralized Autonomous Organization (DAO)
 As our technology advances, the world around us becomes more and more automated.
 Take securities trading, for example.
 In the 1950s, experts began designing the algorithm and rules that an automated trading system should follow.
@@ -2039,6 +2064,7 @@ The basic idea behind a DAO is simple.
 Most business processes are governed by a set of well-defined rules and procedures.
 These rules and procedures can be codified as smart contracts on a decentralized network, thus, automating business process.
 This decentralized nature of Web 3.0 technologies like blockchain makes it much more fault-tolerant, as well as providing a built-in layer of redundancy, backup and error correction.
+
 Consider the following example set sometime in the near future, when fully autonomous vehicles and consumer grade artificial narrow intelligence are common.
 An entrepreneur notices a lack of ride-sharing services available in her town and decides to enter the market.
 She saves enough capital to purchase a fully automated vehicle, as well as an AI Deep Learning system to analyze traffic and demand patterns and design optimal routes for the vehicle to cover.
@@ -2046,23 +2072,37 @@ Now, over time, this single vehicle earns enough to fund the purchase of a secon
 The business is able to manage its own operations, forecasting and modeling, and grow with little to no human intervention.
 This is the conceptually ideal model of a DAO.
 
-Governance for Enterprise
-We’re focusing on governance in the consortium space, not governance within an enterprise company. So what is a "consortium"? A consortium is just a grouping of institutions (possibly individuals) getting together to achieve a mutual goal.
-This goal can be setting some standards for their industry (Department of Justice), selling products (Airbus), sharing resources (Universities), etc. In a consortium, the only real obligation you have to others who are taking part would be providing resources for specific tasks and sticking to the rules laid out prior to you joining. Within blockchain, there are many different industries creating their own consortiums, such as financial services, life science and health care, energy, media and telcos, and the public sector.
+#### Governance for Enterprise
+We’re focusing on governance in the consortium space, not governance within an enterprise company.
+
+So what is a "consortium"? 
+A consortium is just a grouping of institutions (possibly individuals) getting together to achieve a mutual goal.
+
+This goal can be setting some standards for their industry (Department of Justice), selling products (Airbus), sharing resources (Universities), etc. 
+
+In a consortium, the only real obligation you have to others who are taking part would be providing resources for specific tasks and sticking to the rules laid out prior to you joining. 
+Within blockchain, there are many different industries creating their own consortiums, such as financial services, life science and health care, energy, media and telcos, and the public sector.
+
 Governance becomes much easier when it’s in a controlled environment, with each member agreeing upon set rules prior to jumping in with everyone else. Governance structures vary by industry and profit vs. non-profit, so there will be no set governance model everyone uses, but there are two we’ve come across in the blockchain space:
-•	One is including the formation of smaller subgroups to work on specific issues.
-•	The second is providing several levels of potential engagement, ranging from participation in monthly calls to active technology development.
+  •	One is including the formation of smaller subgroups to work on specific issues.
+  •	The second is providing several levels of potential engagement, ranging from participation in monthly calls to active technology development.
+
 The point we would like to get across here is that a consortium governance model is currently more efficient than most decentralized blockchains.
-Governance for Enterprise: Consortiums
-Almost all consortiums up to this point have been permissioned and not decentralized permissionless blockchains, which is an opportunity cost most companies make when joining. At a high level, a permissioned blockchain is just that, a chain in which others must have permission to operate on. So, all the nodes operating on a permissioned chain have been verified by the central institution that is the authority of the network and the transactions that are confirmed don’t necessarily have to go through all the nodes.
+
+#### Governance for Enterprise: Consortiums
+Almost all consortiums up to this point have been permissioned and not decentralized permissionless blockchains, which is an opportunity cost most companies make when joining. 
+At a high level, a permissioned blockchain is just that, a chain in which others must have permission to operate on.
+So, all the nodes operating on a permissioned chain have been verified by the central institution that is the authority of the network and the transactions that are confirmed don’t necessarily have to go through all the nodes.
+
 These consortium blockchains have historically taken two approaches:
-•	Business-focused consortia
+  •	Business-focused consortia
 They aim to build and operate blockchain-based business platforms to solve a specific business problem (e.g. Digital Trade Chain – focused on cross-border payments).
-•	Technology-focused consortia
+  •	Technology-focused consortia
 They seek to develop reusable blockchain platforms based on technical standards (e.g. Hyperledger).
-Consortiums: Pros and Cons
+
+#### Consortiums: Pros and Cons
 Let's see what are some pros and cons of consortiums:
- 
+
 ### <a id="ch4-4"></a>4.4 Identity on the Blockchain
 In this section, we're going to discuss identity on the blockchain.
 Let's start by understanding why we even need to have an identity on the blockchain.
@@ -2117,8 +2157,11 @@ Another hard math problem used in public key cryptography is based on exponents 
 Exponents are easy, since it's essentially multiplication, and logarithms are hard, since you're essentially factoring.
 Most public key algorithms that use exponents use a type called modular exponents.
 All this means is that when they're done calculating the exponent, they divide the result by a publicly-known value called the modulus, and they keep only the remainder.
+
 RSA is a commonly known public key cryptography algorithm.
+
 It's based on exponents and logarithms.
+
 RSA uses the power law of exponents.
 What this means is that, if you take a number, you raise that number to a power, and then raise the result to another power, that you'll get the same result as if you simply multiply the two exponents together and then raise the base to the result.
 An RSA user chooses two exponents so that any number raised to the product of the two exponents in a given modulus produces the original number.
@@ -2177,38 +2220,63 @@ For businesses, repeated transactions may indicate business relationships that m
 On basic blockchains, anonymity only goes so far.
 The limited level of anonymity and privacy protections available on the original blockchain has inspired development of enhancements that increase privacy, while still allowing transactions to be verified and validated publicly on the blockchain.
 This is an incomplete list of some of the mechanisms developed and implemented in various blockchains.
+
 We'll start with zero knowledge proofs.
+
 They use cryptography and cryptographic algorithms to allow a user to prove knowledge of a secret without revealing the actual secret.
+
 A common example of this type of proof includes a colorblind person and two objects identical except for the color.
+
 The colorblind person shows one object to the prover, conceals both objects, and then shows one to the prover again.
+
 The prover then says whether or not they are the same object.
+
 Since the only way of determining this reliably is that the objects are different colors, the prover can prove the difference in colors without revealing the color of either object.
 Another approach is stealth addresses.
+
 Stealth addresses involve using one-time addresses to perform transactions on the blockchain.
+
 A stealth address is just a one-time address that makes it impossible to link a transaction to a known account.
+
 What this does is prevents the data mining attacks on privacy that we discussed earlier.
-We mentioned previously that transactions are digitally signed .
+
+We mentioned previously that transactions are digitally signed.
+
 With ring signatures, all that can be determined from a transaction is that a member of a group signed it, but not the particular member.
+
 The ability to see who is performing transactions with whom is dangerous to user privacy and anonymity.
+
 Protocols like CoinJoin mix several transactions together, so that it is difficult to pair senders with recipients.
+
 Confidential transactions take advantage of homomorphic encryption, which makes it possible to perform mathematical operations on encrypted data.
+
 This means that the data contained in a transaction can be hidden from the public, while still allowing the network to verify that the transaction is valid.
+
 Now, let's discuss how different blockchains implement the various privacy and anonymity mechanisms available.
+
 We start with the Ethereum.
+
 Ethereum does not currently implement many real advanced options for privacy or and/or anonymity.
+
 In the current version, user anonymity is limited to the fact that no one can tie a public key to a real-world identity.
+
 This is intended to change in the future though, and the Ethereum roadmap currently includes laying the groundwork for implementing zero knowledge proof.
 Hyperledger (Fabric) provides several options for privacy and anonymity.
+
 At the lowest levels, users can achieve increased anonymity through channels which can further encrypt the data that's stored on the channel using keys only available to members of the channel.
+
 At the next level, Hyperledger Fabric also allows users to perform private transactions.
 In a private transaction, data is stored on the cloud, but the hash of the data is stored on the blockchain.
 This allows users to use the blockchain to ensure data authenticity without storing the actual data publicly on the blockchain.
+
 Finally, Hyperledger supports zero knowledge proof, where a prover can demonstrate possession of some data without revealing the data itself.
 These different levels of privacy and anonymity protection gives users a higher degree of configurability on the Hyperledger Fabric blockchain.
+
 Finally, Corda allows users to perform transactions either as a party or an anonymous party on their blockchain.
 An anonymous party has the same level of anonymity protection as a basic blockchain, relying on the fact that public keys cannot be tied directly to real-world identities.
 A party on the Corda blockchain reveals the real-world identity of the user which intentionally sacrifices anonymity for identity validation.
-Advanced Blockchain Anonymity Techniques
+
+#### Advanced Blockchain Anonymity Techniques
 The following are only some of the mechanisms developed and implemented in various blockchains:
   * Zero-knowledge proofs
 Zero-knowledge proofs use cryptographic algorithms to allow a user to prove knowledge of a secret without revealing the secret. A prover proves knowledge of a secret without revealing it. New technology referred to as SNARK (Succinct Non-interactive - ARgument of Knowledge) are fine tuning privacy issues on blockchains.
@@ -2218,37 +2286,49 @@ Stealth addresses involve using one-time addresses to perform transactions on a 
 We mentioned previously that transactions are digitally signed. With ring signatures, all that can be determined from a transaction is that a member of a group signed it, but not the particular member.
   * CoinJoin
 The ability to see who is performing transactions with whom is dangerous to user privacy and anonymity. Protocols like CoinJoin mix several transactions together so that it is difficult to pair senders with recipients.
-•	Confidential transactions
+  •	Confidential transactions
 Confidential transactions take advantage of homomorphic encryption, which makes it possible to perform mathematical operations on encrypted data. This means that the data contained in a transaction can be hidden from the public, while still allowing the network to verify that the transaction is valid.
+
 Specific Anonymity Implementations
-•	Ethereum
-Ethereum is working on improving the zero-knowledge proofs, mixing and DAPPS (applications developed to improve anonymity) to strengthen privacy. Also ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM, a fork of the Ethereum blockchain which enables users to benefit from the public Ethereum blockchain while enjoying features from a private network. Developed by JPMorgan, it is a permissioned implementation.
-•	Hyperledger
-- Channels: Subsections of the blockchain that make transactions visible only to members.
-- Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.
-- Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.
-•	Hyperledger Besu
-Besu is an Ethereum client that runs on the Ethereum public network, private networks, and test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.
-•	Corda
+  •	Ethereum
+Ethereum is working on improving the zero-knowledge proofs, mixing and DAPPS (applications developed to improve anonymity) to strengthen privacy. 
+Also ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM, a fork of the Ethereum blockchain which enables users to benefit from the public Ethereum blockchain while enjoying features from a private network. Developed by JPMorgan, it is a permissioned implementation.
+  •	Hyperledger
+    - Channels: Subsections of the blockchain that make transactions visible only to members.
+    - Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.
+    - Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.
+  •	Hyperledger Besu
+
+Besu is an Ethereum client that runs on the Ethereum public network, private networks, and test networks such as Rinkeby, Ropsten, and Görli.
+Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.
+  •	Corda
 Parties on the Corda Network can be represented in one of two ways:
-- Party: A public key and name.
-- Anonymous party: Only a public key.
+  - Party: A public key and name.
+  - Anonymous party: Only a public key.
 Trust in Blockchains
-Just as there are benefits with blockchain technology, there are also some challenges. Blockchain is a culmination of technologies that have been blended to provide a trustless platform. Expect some challenges and use case justifications taking the old line of business apps to the blockchain.
+Just as there are benefits with blockchain technology, there are also some challenges. 
+Blockchain is a culmination of technologies that have been blended to provide a trustless platform. 
+Expect some challenges and use case justifications taking the old line of business apps to the blockchain.
+
 Let's recap the features of a blockchain that establishes trust:
-•	Blockchain technology is about storing some kind of data (which are transactions in regards to the Bitcoin blockchain).
-•	Blockchain is essentially transferring trust from an intermediary to technology.
-•	Storing data in the blockchain is through cryptographic functions.
-•	Private key/public key.
-•	Collaboration through consensus.
-Establishing Trust in Blockchains
+  •	Blockchain technology is about storing some kind of data (which are transactions in regards to the Bitcoin blockchain).
+  •	Blockchain is essentially transferring trust from an intermediary to technology.
+  •	Storing data in the blockchain is through cryptographic functions.
+  •	Private key/public key.
+  •	Collaboration through consensus.
+
+#### Establishing Trust in Blockchains
 All transaction data on a chained block is assumed to be trustworthy.
+
 The users base this trust on the fact that:
   1. This data has not been tampered with.
   2. The blockchain is immutable.
-What Do Blockchains Really Do?
+
+#### What Do Blockchains Really Do?
 Blockchains minimize the amount of trust required from any single actor in the system. They do this by distributing trust among different actors in the blockchain as defined by the consensus protocols.
-Blockchains have a shared ledger that gives us the absolute truth of the state of the system. It uses mathematics, economics, and game theory to incentivize all parties in the system to reach a “consensus” (i.e. coming to an agreement on a single state of the ledger).
+
+Blockchains have a shared ledger that gives us the absolute truth of the state of the system.
+It uses mathematics, economics, and game theory to incentivize all parties in the system to reach a “consensus” (i.e. coming to an agreement on a single state of the ledger).
   * Consensus algorithms
 The blockchain is based on a consensus algorithm where all nodes agree that the transaction is valid.
   * Financial transparency
@@ -2296,23 +2376,23 @@ In order for this new technology to take hold, blockchains need to be able to co
 
 ### <a id="ch5-1"></a>5.1 Learning Objectives
 By the end of this chapter, you should be able to:
- * Discuss immutability in blockchains.
- * Explain what transparency is and review advantages and disadvantages of append-only ledgers.
- * Explain how blockchain is looking to be autonomous through smart contracts.
- * Discuss how blockchain removes third party intermediaries.
- * Discuss how blockchain solves the problem of double spending.
- * Distinguish between traditional database vs. blockchain immutability.
- * Discuss central bank digital currencies and how they operate.
- * Explain identity management on a blockchain.
- * Discuss decentralized finance and the implications for the financial industry.
- * Examine Central Bank Digital Currencies (CBDC).
- * Discuss non-fungible tokens and how they will impact society.
- * Examine the importance of interoperability for blockchains.
+  * Discuss immutability in blockchains.
+  * Explain what transparency is and review advantages and disadvantages of append-only ledgers.
+  * Explain how blockchain is looking to be autonomous through smart contracts.
+  * Discuss how blockchain removes third party intermediaries.
+  * Discuss how blockchain solves the problem of double spending.
+  * Distinguish between traditional database vs. blockchain immutability.
+  * Discuss central bank digital currencies and how they operate.
+  * Explain identity management on a blockchain.
+  * Discuss decentralized finance and the implications for the financial industry.
+  * Examine Central Bank Digital Currencies (CBDC).
+  * Discuss non-fungible tokens and how they will impact society.
+  * Examine the importance of interoperability for blockchains.
 
-Immutability Defined
+#### Immutability Defined
 Immutability is when something is unable to be changed.
- 
-Immutability
+
+#### Immutability
 "Immutable" simply refers to the permanence of data.
 Anything we call "immutable" we understand to be permanent and unchanging.
 Your local weather forecast - that's mutable, it changes all the time; the stars in the sky, those are immutable, they seem permanent from our perspective.
@@ -2328,11 +2408,11 @@ A signed contract becomes more than a piece of paper because those signatures re
 Blockchain provides a digital implementation of this process, and can be an immeasurably valuable tool when you need to capture not only what happened, but who was involved as well.
 Imagine the new opportunities that arise when organizations can safely and securely share their most critical data with one another, with the trust that the data they're seeing hasn't been compromised or altered.
 
-Traditional Database Immutability Concept
+#### Traditional Database Immutability Concept
 The very nature of centrally-operated databases can’t be completely immutable, but that’s the case for blockchain as well. A centrally-run database can embed things into it with features that mention immutability (unchangeable). But if there is a central authority, they have all the ability in the world to override that feature.
 Another point to keep in mind is that immutability has been around for many years, just like the majority of the tech used via blockchain; it is the combination of these that makes it unique.
- 
-Blockchain Immutability Concept
+
+#### Blockchain Immutability Concept
 Let's review the aspects of the public blockchain that improve the chances of it being immutable.
 There are many different variables, but the main one is consensus. In a blockchain, it refers to the logs of transactions which are created by consensus among the chain’s participants. The basic notion is that once a blockchain transaction has received a sufficient level of validation and posted on the chain, it can almost never be replaced, reversed or edited.
 If all the nodes within the network (Bitcoin specifically) are working to solve a really hard math problem by running many computers simultaneously, the chances of anyone overriding that are slim to zero.
@@ -2344,7 +2424,7 @@ But, if someone wanted to undermine the immutability of the Bitcoin blockchain, 
 Since the attacker has more mining power than the rest of the network, their branch will contain more Proof of Work than the public one. Every Bitcoin node will therefore switch over since the rules of Bitcoin state that the more difficult branch wins. Any previously confirmed transactions not in the secret branch will be reversed and the Bitcoin they spent could be sent elsewhere. The computing power required to achieve this is enormous and probably only theoretical, but it’s important to consider.
 One other less technical and malicious example would be from the Ethereum hard fork that directly happened after the DAO hack. In this example, the majority of the Ethereum nodes in the network decided to update the software preventing those hackers from withdrawing the cryptocurrency “earned” (stolen). This update could not be enforced, since every Ethereum user controls their own computer. Nonetheless, it was publicly supported by Vitalik Buterin, Ethereum’s founder, as well as many other community leaders. As a result, most users complied, and the blockchain with the new rules kept the name "Ethereum". A minority disagreed with the change and continued the blockchain according to its original rules, earning the title "Ethereum Classic".
 
-Transparency Defined
+#### Transparency Defined
 Anything that is see-through, where there is very little fog or obstruction in the way. Just like immutability, transparency comes on a spectrum. Certain things are more transparent than others. In the context of business/technology, this can be seen as a way of operating that is easy for others to see what actions are being performed.
  
 For example, open source projects where all the source code is available for the masses.
@@ -2359,7 +2439,8 @@ Read: query (e.g. search) and retrieve data from the blockchain.
 Write: add more data onto the blockchain.
 As explained in the "Blockchains vs. Traditional Databases" article by Shaan Ray,
 "(...) if the blockchain has recorded that my Bitcoin wallet has 1 million BTC, that figure is permanently stored in the blockchain. When I spend 200,000 BTC, that transaction is recorded onto the blockchain, bringing my balance to 800,000 BTC. However, since the blockchain can only be appended, my pre-transaction balance of 1 million BTC also remains on the blockchain permanently, for those who care to look. This is why the blockchain is often referred to as an immutable and distributed ledger".
-Autonomy Defined
+  
+#### Autonomy Defined
 Independence or freedom, the ability to make your own decisions without being controlled by anyone else. This sense of freedom can be at the macro level of a country or at the micro level of a person.
  
 As children and adults, we all want a little autonomy in our lives, careers, or relationships, but it’s just a matter of how much autonomy one truly wants and can handle.
