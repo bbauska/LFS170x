@@ -1268,12 +1268,14 @@ It is important to understand the value of locking in the previous block by incl
  
 ### Hashing and Chaining with Proof of Work
 We will cover the Proof of Work in a later module. However, this demo uses the Proof of Work to show how blocks are chained together and how tampering with information in a past block destroys the integrity of the proceeding blocks.
-In this video, we're going to talk about Proof of Work consensus, and how Proof of Work consensus is used to create an immutable chain of block data on the blockchain.
+In this module, we're going to talk about **Proof of Work** consensus, and how Proof of Work consensus is used to create an immutable chain of block data on the blockchain.
+
 Let's take a small example. Let's say we have some block data and, in the interest of simplicity, we will keep this very, very short.
 But understand that in real life a block will most likely contain many more than just three transactions.
 But on this block, we have a full block consisting of three transactions.
 When it's time to validate a full block, all nodes on the network will start to guess a nonce value.
 What we're looking for is a nonce value such that when we take our input transaction data and we combine it with a nonce value, we get a hash output that matches the difficulty.
+  
 In this case, the difficulty is a hash output that begins with four leading zeros.
 Every node on the network will guess a different nonce randomly until they happen to find one that matches the difficulty.
 So, our node may start off by guessing "123", and we see that that does not produce a hash output that matches the difficulty of four leading zeros.
@@ -1326,7 +1328,7 @@ In this chapter, we discussed:
   • Ledger immutability and transparency result from combining these technologies for an agreed-upon, append-only distributed ledger system chained together by blocks.
 
 ## <a id="ch3"></a>Chapter 3. Blockchain Functions
-### <a id="ch3-1"></a>Chapter Overview
+### <a id="ch3-1"></a>3.1 Chapter Overview
 In this chapter, we will examine some blockchain functions. 
   * First, we will discuss smart contracts, how blockchains have the ability to store and run computer code (applications) that can execute the terms of an agreement. These digital promises stored and executed on the blockchains remove intermediaries and ambiguity thereby reducing conflict.
   * We will discuss how blockchains secure their information and how these techniques differ from traditional database security. 
@@ -1391,6 +1393,7 @@ So, don't get too intimidated when you hear smart contracts, and don't get too c
 While they sometimes may be legally binding, they're not necessarily legally binding in the same way a true contract is.
 They're just a way for us to bake our own logic into block chain solutions to ensure that consistency of execution.
 Smart Contracts Recap
+
 Let’s review some basic information about smart contracts:
 •	They are computer programs that execute an action based on terms and conditions.
 •	Can also be known as chain code.
@@ -1402,17 +1405,19 @@ Let’s review some basic information about smart contracts:
  
 What Do Smart Contracts Provide?
 These are some of the features that smart contracts provide:
-•	Accuracy
+  •	Accuracy
 Replacing human intermediaries with executable code ensures the process will always be performed the same.
-•	Cost savings
+  •	Cost savings
 Replacing intermediaries often provides significant cost reduction.
-•	Efficiency
+  •	Efficiency
 Removing process intermediaries often results in significant process efficiency gains.
-•	Backup
+  •	Backup
 A blockchain and smart contract deployed to it can provide a permanent record, allowing for auditing, insight, and traceability, even if the creator is no longer in business.
-•	Autonomy
+  •	Autonomy
+
 Smart contracts can be developed by anyone, no need for intermediaries such as lawyers, brokers, or auditors.
-Campaign Finance
+
+<h4>Campaign Finance</h4>
 One area getting a lot of attention in blockchain right now, is campaign finance and campaign donations.
 There are some really interesting and compelling use cases, ways that we might be able to use blockchain to do new and innovative things around campaign finance that just aren't practical or feasible today.
 Let's say that I'm running for office and you want to support my campaign.
