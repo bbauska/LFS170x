@@ -71,7 +71,7 @@
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-## <a id="ch1"></a>1. Introduction to Blockchain
+## <a id="ch1"></a>Chapter 1. Introduction to Blockchain
 ### Learning Objectives
 By the end of this chapter, you should be able to:
   - Discuss blockchain technologies and the early Internet.
@@ -167,17 +167,20 @@ Websites let users generate content, social networks became part of our lives.
 
 <h5>Social Networking</h5>
 
-<h4>Real World Examples of File Sharing</h4>
+<h3>Real World Examples of File Sharing</h3>
 
-<h5>Use Case: Music Sharing Companies</h5>
+<h4>Use Case: Music Sharing Companies</h4>
 <p align="center">
 <img src="https://github.com/bbauska/LFS170x/blob/main/images/image007.png?raw=true" "Napster" width="200" >
 &nbsp;
 
 Approach: Music stored on many computers connected peer-to-peer. 
 Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.
-Result: The industry cracks down music sharing companies copyright infringement. 
+Result: The industry cracks down music sharing companies copyright infringement.
 Napster is forced to take down its index, shutting down the platform.
+<p align="center">
+<img src="https://github.com/bbauska/LFS170x/blob/main/images/image008.png?raw=true" "Napster" width="200" >
+&nbsp;
 
 Approach: Music stored on many computers connected peer-to-peer. 
 BitTorrent's software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.
@@ -199,6 +202,10 @@ Characteristics of Web 3.0:
 Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
 
 **[`^        back to top        ^`](#table-of-contents)**
+
+<p align="center">
+<img src="https://github.com/bbauska/LFS170x/blob/main/images/image009.png?raw=true" "Crypto, electronically transferring value" width="200" >
+&nbsp;
 
 <h5>Cryptocurrencies, Electronically Transferring Value</h5>
 The Internet of Value represents a world where value is exchanged at the speed in which information moves today.
@@ -268,8 +275,15 @@ A smart contract self-executes and handles enforcement, the management, and perf
 Examples of smart contracts include insurance policies, copyrighted content, escrow and lending, wills, and trusts.
 Smart contracts will revolutionize how we do business.
 There are so many possibilities with blockchain; not just in the now, but with things we haven't begun to think about yet.
-Blockchain Is NOT Bitcoin
-Bitcoin is a digital currency running on top of the Bitcoin blockchain. We will develop the concept of cryptocurrencies in later sections. Bitcoin has no borders and was created as a decentralized payment system, an alternative to currencies issued by governments. Let us look at what it means to be a currency.
+
+<p align="center">
+<img src="https://github.com/bbauska/LFS170x/blob/main/images/image010.png?raw=true" "Bitcoin logo" width="200" >
+&nbsp;
+
+<h5>Blockchain Is NOT Bitcoin</h5>
+Bitcoin is a digital currency running on top of the Bitcoin blockchain. We will develop the concept of cryptocurrencies in later sections. 
+Bitcoin has no borders and was created as a decentralized payment system, an alternative to currencies issued by governments. 
+Let us look at what it means to be a currency.
 
 <h5>Purpose of currency:</h5>
   * Medium for exchange
@@ -280,6 +294,7 @@ According to Investopedia,
 > “Fiat currency is money a government issues that is not backed by a commodity like gold. 
 > Fiat money is backed by the government and it has value because the government says so and the citizens believe it. 
 > The dollar is an example of the United States fiat currency”.
+
 Apart from the government issuing Fiat, a centralized authority needs to keep track of assets. 
 Banks, credit card companies’ stockbrokers are companies that represent a centralized authority that controls your money.
 
@@ -307,13 +322,13 @@ When we talk about blocks and blockchain, all we're really talking about is a pa
 We fill up this page with any kind of data imaginable, and, while most of the time today, we're talking about recording financial transactions on this page, or this ledger, or this block, we can record any kind of data we want.
 In fact, you can think of a block as being exactly like this piece of paper, in that the paper doesn't know or care what kind of information you're recording on it.
 And just like the paper doesn't know or care, neither does the block in a blockchain.
-So, while most of what we're recording today are financial transactions, we could also record things like voting records and results, land titling, medical records, or even the opening notes to a Beethoven symphony.
+While most of what we're recording today are financial transactions, we could also record things like voting records and results, land titling, medical records, or even the opening notes to a Beethoven symphony.
 What makes this blockchain notebook incredibly powerful is that all the pages are linked together.
-So that if I go back and try and change any data on any page anywhere in this notebook, I break a link in a very obvious and easy-to-determine way.
+That if I go back and try and change any data on any page anywhere in this notebook, I break a link in a very obvious and easy-to-determine way.
 This gives blockchain a key property known as immutability.
 And it's what gives blockchain the security that we've come to know and depend on.
 Blockchains also give us an incredible technology called smart contracts, which allow us to programmatically define the rules and steps that should be performed any time a certain type of event is recorded in our blockchain or in our magic notebook.
-So, when you think about blockchain, don't get intimidated thinking it's something high tech, and new, and cutting-edge.
+When you think about blockchain, don't get intimidated thinking it's something high tech, and new, and cutting-edge.
 It's simply a new and creative way of combining old ideas together to give us an incredible new solutions platform.
 And the rest of this series will take a deeper dive into these basic concepts and principles, but if the idea of this unchangeable linked notebook makes sense, congratulations!
 You already understand all the major principles and concepts required to understand what blockchain is and why it's so powerful.
@@ -1311,7 +1326,7 @@ In this chapter, we discussed:
   • Ledger immutability and transparency result from combining these technologies for an agreed-upon, append-only distributed ledger system chained together by blocks.
 
 ## <a id="ch3"></a>Chapter 3. Blockchain Functions
-### Chapter Overview
+### <a id="ch3-1"></a>Chapter Overview
 In this chapter, we will examine some blockchain functions. 
   * First, we will discuss smart contracts, how blockchains have the ability to store and run computer code (applications) that can execute the terms of an agreement. These digital promises stored and executed on the blockchains remove intermediaries and ambiguity thereby reducing conflict.
   * We will discuss how blockchains secure their information and how these techniques differ from traditional database security. 
