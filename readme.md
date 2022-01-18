@@ -136,7 +136,7 @@ Characteristics of Web 1.0:
  * Email was the first widely adopted application on the Internet.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-MAIL" width="200" >
+<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-mail" width="200" >
 
 <h5>Email, Electronically Transferring Information</h5>
 Computers and items for connection became necessities.
@@ -162,14 +162,17 @@ Data became a commodity collected, siloed and sold; we were giving up our inform
 Websites let users generate content, social networks became part of our lives.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image006.png?raw=true" "Social Networking" width="200" >
+<img src="https://github.com/bbauska/LFS170x/blob/main/images/image006.png?raw=true" "Social Networking" width="300" >
 &nbsp;
 
-Social Networking
+<h5>Social Networking</h5>
 
-Real World Examples of File Sharing
+<h4>Real World Examples of File Sharing</h4>
 
-Use Case: Music Sharing Companies
+<h5>Use Case: Music Sharing Companies</h5>
+<p align="center">
+<img src="https://github.com/bbauska/LFS170x/blob/main/images/image007.png?raw=true" "Napster" width="200" >
+&nbsp;
 
 Approach: Music stored on many computers connected peer-to-peer. 
 Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.
