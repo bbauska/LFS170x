@@ -25,22 +25,22 @@
 ## [**Chapter 1. Introduction to Blockchain**](#ch1)
 >### 1.1. [**Introduction**](#ch1-1)
 >### 1.2. [**Introduction to Blockchain and The Early Internet**](#ch1-2)
->### 1.3. [**Blockchain Basics**](#ch1-3)
+>### 1.3. [**What is Blockchain?**](#ch1-3)
 >### 1.4. [**Career Opportunities in Blockchain**](#ch1-4)
->### 1.5. [**Blockchain Use Cases**](#ch1-5)
+>### 1.5. [**Who is Using Blockchain?**](#ch1-5)
 >### 1.6. [**Summary**](#ch1-6)
 
 ## [**Chapter 2. Blockchain Mechanics**](#ch2)
 >### 2.1. [**Introduction**](#ch2-1)
 >### 2.2. [**Understanding Ledgers**](#ch2-2)
->### 2.3. [**Cryptography**](#ch2-3)
+>### 2.3. [**From Distributed Ledgers to Cryptography**](#ch2-3)
 >### 2.4. [**Transparency and Immutability**](#ch2-4)
 >### 2.5. [**Summary**](#ch2-5)
 
 ## [**Chapter 3. Blockchain Functions**](#ch3)
 >### 3.1. [**Introduction**](#ch3-1)
->### 3.2. [**Smart Contracts**](#ch3-2)
->### 3.3. [**Blockchain Security**](#ch3-3)
+>### 3.2. [**What are Smart Contracts?**](#ch3-2)
+>### 3.3. [**Blockchain Security vs Standard Cybersecurity**](#ch3-3)
 >### 3.4. [**Public and Permissioned Blockchains**](#ch3-4)
 >### 3.5. [**The Blockchain Transaction**](#ch3-5)
 >### 3.6. [**Consensus**](#ch3-6)
@@ -48,8 +48,8 @@
 
 ## [**Chapter 4. Blockchains and Governance**](#ch4)
 >### 4.1. [**Introduction**](#ch4-1)
->### 4.2. [**Open Source Code**](#ch4-2)
->### 4.3. [**Governance**](#ch4-3)
+>### 4.2. [**What is Open Source Code?**](#ch4-2)
+>### 4.3. [**Introduction to Governance**](#ch4-3)
 >### 4.4. [**Identity and Anonymity on Blockchain**](#ch4-4)
 >### 4.5. [**Summary**](#ch4-5)
 
@@ -62,18 +62,16 @@
 
 ## [**Chapter 6. Blockchain Use Cases**](#ch6)
 >### 6.1. [**Introduction**](#ch6-1)
->### 6.2. [**Blockchain in Practice**](#ch6-2)
+>### 6.2. [**Blockchain in Practice (Use Cases)**](#ch6-2)
 >### 6.3. [**Enterprise Solutions**](#ch6-3)
 >### 6.4. [**Public Sector Solutions**](#ch6-4)
 >### 6.5. [**Social Impact Solutions**](#ch6-5)
->### 6.6. [**Platform Developer’s Solutions**](#ch6-6)
->### 6.7. [**End User Solutions**](#ch6-7)
->### 6.8. [**Future of Blockchain**](#ch6-8)
->### 6.9. [**Summary**](#ch6-9)
+>### 6.6. [**Future of Blockchain**](#ch6-6)
+>### 6.7. [**Summary**](#ch6-7)
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-## <a id="ch1"></a>Chapter 1. Introduction to Blockchain
+## <a id="ch1"></a>1. Introduction to Blockchain
 ### Learning Objectives
 By the end of this chapter, you should be able to:
   - Discuss blockchain technologies and the early Internet.
