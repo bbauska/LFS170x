@@ -2730,7 +2730,7 @@ Hyperledger Greenhouse is a graphical representation of the blockchains tools an
 
 Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger distributed ledgers and libraries on the Hyperledger website.
  
-### <a id="ch6-6"></a>6.6 Daml
+### Daml
 Daml is:
 > "a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
   * Daml Connect
@@ -2740,7 +2740,7 @@ They allow you to deploy your application using distributed ledgers, blockchains
   * Daml Hub
 It is a cloud service that enables rapid distributed application deployment with an always available, easy-to-use, fully managed cloud environment.
  
-### <a id="ch6-7"></a>6.7 SIMBA Chain
+### SIMBA Chain
 SIMBA Chain, Inc. was formed in 2017 from a grant awarded by the Defense Advanced Research Projects Agency (DARPA) to Indiana Technology and Manufacturing Companies (ITAMCO) and the Center for Research Computing (CRC) at the University of Notre Dame in order to develop a secure, unhackable messaging and transaction platform for the United States military.
 SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). These apps allow secure, direct connections between users and providers, eliminating third parties. The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
 SIMBA's Smart Contract Designer allows anyone to quickly and easily create smart contracts. 
@@ -2776,7 +2776,7 @@ Below you can see themusicianmarketplace.com dashboard:
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch6-8"></a>6.8 What is the future of blockchain?
+### <a id="ch6-6"></a>6.6 What is the future of blockchain?
 That is a big question.
 And unlike everything we have already talked about in this course, this is nothing factual, but just my own opinion.
 I think blockchain is a really, really exciting place right now.
@@ -2803,7 +2803,7 @@ Well, think about this: if you run a small pizza shop on Mars, you close out you
 So, if you ask me, I really believe technologies like blockchain and supporting technologies like IPFS are the enabling technologies to allow humans to continue to trade and interact and conduct commerce with each other when we become a multi-planetary society.
 And that's why I think there's a ton of potential in blockchain and it's something really exciting, and hopefully, you're all inspired to stay up-to-date with.
 
-### <a id="ch6-9"></a>6.9 Chapter Summary
+### <a id="ch6-7"></a>6.7 Chapter Summary
 In this chapter, we discussed:
   * Blockchain use cases in an enterprise environment.
   * Public sector and how blockchain is important in shaping citizens' futures.
