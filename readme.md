@@ -137,7 +137,6 @@ Characteristics of Web 1.0:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-MAIL" width="200" >
-&nbsp;
 
 <h5>Email, Electronically Transferring Information</h5>
 Computers and items for connection became necessities.
@@ -146,6 +145,10 @@ Internet speeds switched from kilobits to tens of megabits per second, to gigabi
 Companies appeared attempting to cash in on this new technology, most notable was a company called Netscape which developed the first commercial Web browser.
 
 **[`^        back to top        ^`](#table-of-contents)**
+
+<p align="center">
+<img src="https://github.com/bbauska/LFS170x/blob/main/images/image005.png?raw=true" "Netscape" width="200" >
+&nbsp;
  
 #### Web 2.0 - Internet of Information
 Characteristics of Web 2.0:
