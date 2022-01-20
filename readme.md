@@ -236,27 +236,36 @@ When you attach a file, a Word document, an Excel sheet, a PDF to an email, you 
 You are actually sending the recipient a copy, and that's a great way to move information around.
 But it's not so great when it comes to things like money, stocks and bonds, music, loyalty points, intellectual property, tickets to a game or concert.
 Then, sending a copy is suddenly a very bad idea.
+
 Let's look at an example.
 If I send you tickets to a concert, it's important that I don't send you a copy.
 You now own the original asset and I can no longer use or sell those tickets.
 Similarly, if I send you $100, it's important that I still don't own the $100, or have the ability to send it to anyone else.
 Both of these examples illustrate a double spend problem, and those can be eliminated with blockchain.
+
 So now, in this exciting time in history, every kind of asset, from tickets, to money, to music, can be stored, moved, exchanged, and transacted without an intermediary.
 People everywhere can transact peer-to-peer and trust each other by using collaboration and cryptography.
 How did we get here, to this place of trust and collaboration?
 It began when Satoshi Nakamoto, whose true identity is still unknown, released a white paper in 2008, introducing a purely peer-to-peer version of electronic cash known as Bitcoin.
+
 It is here that blockchain technology made its debut.
+
 Even today people believe Bitcoin and blockchain are one and the same.
 They are not!
-Bitcoin, another alternative currency, utilize blockchain technology.
-While an important one, Bitcoin is only one use case for blockchain.
+
+Bitcoin, another alternative currency, utilizes blockchain technology.
+
+##### While an important one, Bitcoin is only one use case for blockchain.
+
 Blockchain allows people to exchange assets and perform transactions without a third party.
+
 Imagine a world where you don't need intermediaries.
 While traditionally we have needed central authorities to trust one another and fulfill contracts, blockchain makes it possible to have our peers guarantee that for us. 
 But how?
 Assets, like we've discussed, are no longer stored in a central place, but distributed across a global ledger, using the highest level of cryptography.
 When a transaction is conducted, it's posted across tens of thousands of computers around the globe.
 These transactions are recorded as blocks.
+
 Let's imagine a sheet of paper that has 25 lines.
 When a sheet is filled up with 25 transactions, the block is validated via group consensus.
 Once the page has been validated, it is added to a stack of previously validated sheets.
@@ -264,15 +273,19 @@ Each sheet on the stack can be assumed to be trustworthy because, once a sheet i
 Because at this point, all the sheets are linked together.
 And to link our sheets together, we embed information from the previous sheet of paper into the new, recently validated sheet.
 In blockchain, our sheet of paper is equal to a block.
-The act of embedding a previous block of information into the current block of information is called chaining, hence, the name blockchain.
+
+The act of embedding a previous block of information into the current block of information is called _chaining_, hence, the name blockchain.
 In order to compromise or hack a blockchain network, someone would have to gain control of the majority of computers in that network.
 This is extremely difficult to do.
 There is no longer a single point of failure, and this is what makes blockchain infinitely more secure than what we have today.
 Blockchain isn't just for assets, though. It extends to contracts.
-These are called Smart Contracts.
+These are called _Smart Contracts_.
+
 And what are they exactly? What they sound like.
 A smart contract self-executes and handles enforcement, the management, and performance of agreements between people.
-Examples of smart contracts include insurance policies, copyrighted content, escrow and lending, wills, and trusts.
+
+Examples of smart contracts include *insurance policies*, *copyrighted content*, *escrow and lending*, *wills*, and *trusts*.
+
 Smart contracts will revolutionize how we do business.
 There are so many possibilities with blockchain; not just in the now, but with things we haven't begun to think about yet.
 
