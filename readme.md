@@ -7,7 +7,7 @@
 &nbsp;
 <!-- <img src=https://github.com/bbauska/LFS170x/blob/main/images/image001.jpg?raw=true" width="200">  -->
 
-</p>
+</p>  
 
 <!---- 
 ![Linux Logo](https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png)
@@ -28,7 +28,7 @@
 >### 1.3. [**What is Blockchain?**](#ch1-3)
 >### 1.4. [**Career Opportunities in Blockchain**](#ch1-4)
 >### 1.5. [**Who is Using Blockchain?**](#ch1-5)
->### 1.6. [**Summary**](#ch1-6)
+>### 1.6. [**Summary**](#ch1-6)  
 
 ## [**Chapter 2. Blockchain Mechanics**](#ch2)
 >### 2.1. [**Introduction**](#ch2-1)
@@ -2731,7 +2731,7 @@ By the end of this chapter, you should be able to:
  • Discuss developing new technologies made possible by blockchain.
  • Explain how blockchain will improve the human experience.
 
-### <a id="ch6-2"></a>6.2 Blockchain Use Case Categories
+### <a id="ch6-2"></a>6.2 Blockchain Use Case Categories (Blockchain in Practice)
 Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. It is showing a new path that will improve the lives of so many. We will see how identity management is key (no pun intended) to all the use cases we discuss. For our discussion, we will categorize use cases by who is developing solutions, starting with large enterprise solutions to smartphone and web browser applications powered by blockchain that put control back in the user's hands:
  • Enterprise solutions
 Businesses and organizations are implementing blockchain to overcome obstacles in transparency and trust forging new associations with global implications.
@@ -2751,7 +2751,7 @@ Supply chain data is not always visible or trusted. In recent times of disruptio
  
 Learn more about the collaboration between Maersk and IBM from the "Digitizing Global Trade with Maersk and IBM" blog post by Michael White.
 
-### <a id="ch6-3"></a>6.3 Supply Chain - Maersk
+### <a id="ch6-3"></a>6.3 Supply Chain - Maersk (Enterprise Solutions)
 Global trade functions much as it has since the introduction of the shipping container in 1956.
 Manual, paper-based processes are still common and information about the status of goods is locked away in organizational silos.
 Today, 90% of goods in global trade are carried by the shipping industry with the supply chain slowed by the complexity and sheer volume of point-to-point communication across a loosely coupled web of land transportation providers, freight forwarders, customs brokers, governments, ports, and ocean carriers.
