@@ -2407,7 +2407,7 @@ The ledger acts as a trust broker when two parties who don’t trust each other 
   * Transparent code
 Most blockchains are built on open-source software that is transparent, community-driven code that is open for comment.
 
-#### <a id="ch4-5"></a>4.5 Chapter Summary
+### <a id="ch4-5"></a>4.5 Chapter Summary
 In this chapter, we discussed:
   * Open source communities and blockchain source code.
   * Governance models for blockchain and who is really in charge.
