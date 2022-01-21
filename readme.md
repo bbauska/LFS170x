@@ -2468,6 +2468,11 @@ By the end of this chapter, you should be able to:
 #### Immutability Defined
 Immutability is when something is unable to be changed.
 
+<p align="center" width="100%">
+  <img width="50%" src=""
+    alt=" "</>
+</p>
+  
 #### Immutability
 "Immutable" simply refers to the permanence of data.
 Anything we call "immutable" we understand to be permanent and unchanging.
@@ -2826,8 +2831,20 @@ Also, Pfizer has been using blockchain in transparent clinical trials. You can l
 
 ### Finance Markets
 Reduction of settlement times will improve the flow of money through fintech companies.
+
+<p align="center" width="100%">
+  <img width="50%" src=""
+    alt="Swiss exchange logo (SIX)"</>
+</p>
+
 Swiss Exchange, SIX has a solution that solves the issue in the trade markets of long settlement times. The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can be completed in fractions of a second.
 Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. In a paper from Andrea Frosinini, "Reshaping Trade Finance: Towards a “New” Letter of Credit", he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
+
+<p align="center" width="100%">
+  <img width="50%" src=""
+    alt="Voltron logo"</>
+</p>
+
 Voltron Trade Finance was co-founded by eight member banks including Bangkok Bank, BNP Paribas, CTBC, HSBC, ING, Natwest, SEB and Standard Chartered. The consortium has since grown to more than 50 banks and corporations. The platform is built on Corda blockchain, it solves the problem that most letters of credit are based on paper and take 5 to 10 days. By using blockchain technology, the letters of credit may be efficiently transacted in less than 24 hours. You can learn more about Voltron from the following two articles "Blockchain Based Letter of Credit Processed by HSBC on Voltron Trade Finance Platform" (by JD Alois) and "Trade Finance Solution Voltron Launches Open Platform on Corda Blockchain".
 
 ### <a id="ch6-4"></a>6.4 Public Sector Solutions Overview
@@ -2836,36 +2853,86 @@ Blockchain benefits of security, efficiency and speed have government leaders re
   - Interactions (highly regulated transactions)
   - Regulations
   - Governance
- 
+
+<p align="center" width="100%">
+  <img width="50%" src=""
+    alt="Smart Dubai"</>
+</p>
+
 One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. Watch these additional resources to learn more about the Smart Dubai initiative, "Smart Dubai's Paperless Strategy" and "Happy Cities Forum 2019".
- 
+
+  <p align="center" width="100%">
+  <img width="50%" src=""
+    alt="Dutch blockchain coalition"</>
+</p>
+
 ### Dutch Blockchain Coalition established three pillars of society working together to build a blockchain future:
   - Developing blockchain building blocks - digital identities
   - Realizing the conditions for utilizing blockchain
   - Developing and realizing the Human Capital Agenda
- 
+
+<p align="center" width="100%">
+  <img width="50%" src=""
+    alt="Buffalo on Wyoming flag"</>
+</p>
+
 Wyoming has now enacted a total of 13 blockchain-enabling laws, making it the only US state to provide a comprehensive, welcoming legal framework that enables blockchain technology to flourish, both for individuals and companies. This effort was led by tireless Caitlin Long.
 
 ### <a id="ch6-5"></a>6.5 Social Impact Solutions Overview
 The Blockchain for Social Impact Coalition (BSIC) is a not-for-profit organization that incubates, develops, and collaborates on blockchain products and solutions that can address social and environmental challenges across the United Nations Sustainable Development Goals. The aim is to inspire, federate, and create bridges between NGOs, and government agencies, foundations, impact investors, philanthropists and technologists.
- 
+
+<p align="center" width="100%">
+  <img width="50%" src=""
+    alt="Blockchain for social impact"</>
+</p>
+
 According to the "7 Ways Blockchain Can Be Used for Social Good" article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
   - Philanthropy and remittances
   - Financial empowerment
   - Identity and land rights
   - Governance and democracy
   - Supply chain and environmental protections
+
+<p align="center" width="100%">
+  <img width="50%" src=""
+    alt="Kiva logo"</>
+</p>
  
 More than 1.7 billion people around the world are unbanked and can’t access the financial services they need. Kiva is an international nonprofit, founded in 2005 in San Francisco, with a mission to expand financial access to help underserved communities thrive. Kiva accomplishes this by crowdfunding loans and unlocking capital for the underserved, improving the quality and cost of financial services, and addressing the underlying barriers to financial access around the world. Through Kiva's work, students can pay for tuition, women can start businesses, farmers are able to invest in equipment and families can afford needed emergency care.
- 
+
+<p align="center" width="100%">
+  <img width="50%" src=""
+    alt="Mission of the Rohingya project. How it works"</>
+</p>
+
 The mission of the Rohingya Project is to create the foundation for a viable future for the stateless Rohingya people by connecting them digitally to opportunities to learn, equip and empower themselves. Through the creation of a Financial and Social Inclusion platform, those Rohingya who for years have been sidelined can be given access to a range of virtual services including online education, digital identity and reward tokens.
- 
+
+<p align="center" width="100%">
+  <img width="50%" src=""
+    alt="Rohingya initiative"</>
+</p>
+
 The platform will tap into the potential of the Rohingya community and other marginalized people and offer options to counter their exclusion from the mainstream.
- 
+
+<p align="center" width="100%">
+  <img width="85%" src=""
+    alt="Displaced Rohingya worldwide"</>
+</p>
+
 The Giving Chain is a grassroots Social Impact project designed to improve disaster relief efforts as well as open up new pathways for local charity giving.
- 
+
+<p align="center" width="100%">
+  <img width="50%" src=""
+    alt="Charity logo"</>
+</p>
+
 Created by three local meetup groups, Ledger Academy, Hyperledger Princeton and Blockchain & AI Princeton. The project won the 2021 Government Blockchain Associations Award for Social Impact. The video of the awards ceremony can be viewed on YouTube.
- 
+
+<p align="center" width="100%">
+  <img width="50%" src=""
+    alt="The giving chain"</>
+</p>
+
 The Giving Chain is now moving from a Proof of Concept project to a prototype as it was selected for the 2021 Hyperledger Mentorship program.
 ConsenSys
 ConsenSys Mesh companies offer solutions to help build out the Ethereum Ecosystem. ConsenSys Mesh acts as an incubator for Etherum-based projects:
@@ -2882,11 +2949,26 @@ open source blockchain platforms.
   * Truffle
 Application builder.
 
+<p align="center" width="100%">
+  <img width="75%" src="https://github.com/bbauska/LFS170x/blob/main/images/image116.png?raw=true"
+    alt="ConsenSys Mesh companies"</>
+</p>
+
 ### Hyperledger
 Hyperledger Greenhouse is a graphical representation of the blockchains tools and libraries hosted by the Linux Foundation:
 
+<p align="center" width="100%">
+  <img width="85%" src="https://github.com/bbauska/LFS170x/blob/main/images/image117.jpg?raw=true"
+    alt="Hyperledger Greenhouse"</>
+</p>
+
 Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger distributed ledgers and libraries on the Hyperledger website.
  
+<p align="center" width="100%">
+  <img width="100%" src="https://github.com/bbauska/LFS170x/blob/main/images/image118.jpg?raw=true"
+    alt="Hyperledger website"</>
+</p>
+
 ### Daml
 Daml is:
 > "a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
@@ -2896,13 +2978,30 @@ It is a complete development and application stack allowing you to build, integr
 They allow you to deploy your application using distributed ledgers, blockchains, or databases. Migrate between ledger drivers without any code changes as business needs evolve.
   * Daml Hub
 It is a cloud service that enables rapid distributed application deployment with an always available, easy-to-use, fully managed cloud environment.
- 
+
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/LFS170x/blob/main/images/image119.png?raw=true"
+    alt="A daml logo"</>
+</p>
+
 ### SIMBA Chain
 SIMBA Chain, Inc. was formed in 2017 from a grant awarded by the Defense Advanced Research Projects Agency (DARPA) to Indiana Technology and Manufacturing Companies (ITAMCO) and the Center for Research Computing (CRC) at the University of Notre Dame in order to develop a secure, unhackable messaging and transaction platform for the United States military.
 SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). These apps allow secure, direct connections between users and providers, eliminating third parties. The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
+
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/LFS170x/blob/main/images/image120.png?raw=true"
+    alt="Simba logo"</>
+</p>
+
 SIMBA's Smart Contract Designer allows anyone to quickly and easily create smart contracts. 
 The interface allows users to easily build a graph of the relationships between assets and transactions. 
 This graphical model is then converted to Solidity where each asset and transaction becomes a Solidity Smart Contract method that can be executed on the blockchain.
+
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/LFS170x/blob/main/images/image121.png?raw=true"
+    alt="Simba - Software as a service"</>
+</p>
+
 SIMBA Chain also offers management services (Software as a Service) for your blockchain solution that grant use of software solutions or APIs (application programming interface), across several cloud platforms so companies can effectively create blockchain solutions.
 
 ### Identity
@@ -2912,6 +3011,12 @@ To learn more, we recommend that you listen the "Digital Trust: How the OrgBook 
 
 ### Marketplace
 Marketplaces exist to shop renewable energies to make sustainable solutions available on open markets. Everyone knows there are countless inefficiencies in the energy grid, stemming from the highly centralized nature of our utilities systems. With the advent of at-home energy production and storage through affordable solar panels and home batteries, many users are storing energy surpluses at home without a way to “sell” clean energy.
+
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/LFS170x/blob/main/images/image122.jpg?raw=true"
+    alt="Clean energy logo"</>
+</p>
+
 Power Ledger solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. 
 By increasing the transparency for energy origins, Power Ledger could assist with providing customers more choices for where their energy comes from. 
 They accomplish these goals through peer-to-peer energy trading, carbon product trading, microgrids management, and more.
@@ -2932,6 +3037,11 @@ The options on themusicianmarketplace.com are unlimited.
 Below you can see themusicianmarketplace.com dashboard: 
 
 **[`^        back to top        ^`](#table-of-contents)**
+
+<p align="center" width="100%">
+  <img width="50%" src="https://github.com/bbauska/LFS170x/blob/main/images/image123.jpg?raw=true"
+    alt="musicianmarketplace.com"</>
+</p>
 
 ### <a id="ch6-6"></a>6.6 What is the future of blockchain?
 That is a big question.
