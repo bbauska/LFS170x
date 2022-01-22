@@ -2837,6 +2837,8 @@ Reduction of settlement times will improve the flow of money through fintech com
     alt="Swiss exchange logo (SIX)"</>
 </p>
 
+**[`^        back to top        ^`](#table-of-contents)**
+
 Swiss Exchange, SIX has a solution that solves the issue in the trade markets of long settlement times. The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can be completed in fractions of a second.
 Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. In a paper from Andrea Frosinini, "Reshaping Trade Finance: Towards a “New” Letter of Credit", he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 
@@ -2858,6 +2860,8 @@ Blockchain benefits of security, efficiency and speed have government leaders re
   <img width="50%" src=""
     alt="Smart Dubai"</>
 </p>
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. Watch these additional resources to learn more about the Smart Dubai initiative, "Smart Dubai's Paperless Strategy" and "Happy Cities Forum 2019".
 
@@ -2886,6 +2890,8 @@ The Blockchain for Social Impact Coalition (BSIC) is a not-for-profit organizati
     alt="Blockchain for social impact"</>
 </p>
 
+**[`^        back to top        ^`](#table-of-contents)**
+
 According to the "7 Ways Blockchain Can Be Used for Social Good" article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
   - Philanthropy and remittances
   - Financial empowerment
@@ -2904,6 +2910,8 @@ More than 1.7 billion people around the world are unbanked and can’t access th
   <img width="50%" src=""
     alt="Mission of the Rohingya project. How it works"</>
 </p>
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 The mission of the Rohingya Project is to create the foundation for a viable future for the stateless Rohingya people by connecting them digitally to opportunities to learn, equip and empower themselves. Through the creation of a Financial and Social Inclusion platform, those Rohingya who for years have been sidelined can be given access to a range of virtual services including online education, digital identity and reward tokens.
 
@@ -2932,6 +2940,8 @@ Created by three local meetup groups, Ledger Academy, Hyperledger Princeton and 
   <img width="50%" src=""
     alt="The giving chain"</>
 </p>
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 The Giving Chain is now moving from a Proof of Concept project to a prototype as it was selected for the 2021 Hyperledger Mentorship program.
 ConsenSys
@@ -2969,6 +2979,8 @@ Hyperledger is an open source project with blockchains for you to build your sol
     alt="Hyperledger website"</>
 </p>
 
+**[`^        back to top        ^`](#table-of-contents)**
+  
 ### Daml
 Daml is:
 > "a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
@@ -2993,6 +3005,8 @@ SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enab
     alt="Simba logo"</>
 </p>
 
+**[`^        back to top        ^`](#table-of-contents)**
+
 SIMBA's Smart Contract Designer allows anyone to quickly and easily create smart contracts. 
 The interface allows users to easily build a graph of the relationships between assets and transactions. 
 This graphical model is then converted to Solidity where each asset and transaction becomes a Solidity Smart Contract method that can be executed on the blockchain.
@@ -3016,6 +3030,8 @@ Marketplaces exist to shop renewable energies to make sustainable solutions avai
   <img width="50%" src="https://github.com/bbauska/LFS170x/blob/main/images/image122.jpg?raw=true"
     alt="Clean energy logo"</>
 </p>
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 Power Ledger solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. 
 By increasing the transparency for energy origins, Power Ledger could assist with providing customers more choices for where their energy comes from. 
