@@ -18,6 +18,7 @@
 
 <h3 style="text-align: center;">
 --->
+
 <h3>Blockchain: Understanding Its Use Cases and Implications </h3>
 
 ## [Table of Contents](#table-of-contents)
@@ -299,6 +300,7 @@ Bitcoin has no borders and was created as a decentralized payment system, an alt
 Let us look at what it means to be a currency.
 
 <h5>Purpose of currency:</h5>
+&nbsp;
 &nbsp;
   * Medium for exchange
 &nbsp;
@@ -2679,22 +2681,28 @@ According to the WC3, decentralized identifiers (DIDs) are a new type of identif
 
 <p align="center" width="100%">
   <img width="50%" src="/images/image093.png?raw=true"
-    alt="Decentralized identifiers (DIDs)"</>
+    alt="Decentralized identifiers (DIDs) - public & private keys"</>
 </p>
 
 The DID above is structured to identify what type of credential, the issuer and the cryptographic hash of the credential.
 The Sovrin Foundation and Everynym are leading pioneers in this new emerging sector offering identity solutions in sectors such as Healthcare and Refugee Management.
 
-Decentralized Finance
-According to "The Complete Beginner's Guide to Decentralized Finance (DeFi)" article by Binance Academy, Decentralized Finance or DeFI refers to a system of financial software that enables financial products to be made available to the public on decentralized blockchains. As we have learned, the term decentralized and its ramifications will revolutionize how we interact with each other. These new interactions can have different effects in various sectors. In the financial markets, new interactions will dramatically change the current structure by eliminating the need for intermediaries. Banks, lending institutions, Money Managers, Market Analysts, Hedge Fund Managers, and other positions and functions can now be performed using smart contracts.
+<h5>Decentralized Finance</h5>
+According to "The Complete Beginner's Guide to Decentralized Finance (DeFi)" article by Binance Academy, Decentralized Finance or DeFI refers to a system of financial software that enables financial products to be made available to the public on decentralized blockchains. 
+
+As we have learned, the term decentralized and its ramifications will revolutionize how we interact with each other. 
+These new interactions can have different effects in various sectors. 
+
+In the financial markets, new interactions will dramatically change the current structure by eliminating the need for intermediaries. Banks, lending institutions, Money Managers, Market Analysts, Hedge Fund Managers, and other positions and functions can now be performed using smart contracts.
+
 With new technology platforms, open source projects are fueled by blockchains, incentive models, stablecoins, smart contracts and self hosted wallets that remove financial middlemen. Users' funds that are pooled together for investment advantages are now managed by a series of smart contracts that execute programmed financial trades instead of a third party.
 
 <p align="center" width="100%">
   <img width="50%" src="/images/image094.png?raw=true"
     alt="Components of decentralized finance"</>
 </p>
- 
-Benefits of Decentralized Finance
+
+<h5>Benefits of Decentralized Finance</h5>
 Along with the new decentralized financial model come new innovations that have far reaching ramifications. Microloans, smaller loans made from pools of capital, now are available granting access to these financial vehicles to participants previously excluded. For example, in agriculture, farmers are able to secure small loans to help them get crops to market.
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -2778,34 +2786,40 @@ In this chapter, we discussed:
  •	Non-fungible tokens (NFTs) and their importance to the blockchain ecosystem.
 
 ## <a id="ch6"></a>Chapter 6. Blockchain Use Cases
-This final section will examine blockchains in action. We will see how blockchain is providing solutions for businesses, governments and social projects. Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and trust among untrusting parties, fostering new business models.
-Governments are realizing the best way to serve the population is to develop digital identity management systems where individuals hold their credentials and services can instantly be matched to those in need. We will discuss how governments are using blockchain to tackle document and workflow management issues creating better services for their citizens.
-Next, we will discuss the impact blockchain is having in developing countries. We will look at examples of how philanthropy is offering new transparency and accountability to charity organizations with massive global benefits.
-Then, we will devote some time discussing new technologies and emerging breakthroughs developers are building. Either to enhance existing systems or offering services to help users manage blockchains, these new advances are like nothing we have seen before.
+This final section will examine blockchains in action. 
+We will see how blockchain is providing solutions for businesses, governments and social projects. 
+Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and trust among untrusting parties, fostering new business models.
+Governments are realizing the best way to serve the population is to develop digital identity management systems where individuals hold their credentials and services can instantly be matched to those in need. 
+We will discuss how governments are using blockchain to tackle document and workflow management issues creating better services for their citizens.
+Next, we will discuss the impact blockchain is having in developing countries. 
+We will look at examples of how philanthropy is offering new transparency and accountability to charity organizations with massive global benefits.
+Then, we will devote some time discussing new technologies and emerging breakthroughs developers are building. 
+Either to enhance existing systems or offering services to help users manage blockchains, these new advances are like nothing we have seen before.
 Finally, we will see use cases designed to improve the individual's experience, decentralized gaming platforms and new marketplaces inventing new worlds to interact in. Blockchains are reshaping the way artists and musicians are benefiting from their creativity by having the royalties delivered directly to them, without agents and middlemen.
+
 Blockchain will be a part of everyone's future.
 
 ### <a id="ch6-1"></a>6.1 Learning Objectives
 By the end of this chapter, you should be able to:
- • Discuss blockchain use cases in business enterprises.
- • Discuss use cases in the public sector.
- • Explain the relevance of blockchain in social impact projects.
- • Discuss developing new technologies made possible by blockchain.
- • Explain how blockchain will improve the human experience.
+  • Discuss blockchain use cases in business enterprises.
+  • Discuss use cases in the public sector.
+  • Explain the relevance of blockchain in social impact projects.
+  • Discuss developing new technologies made possible by blockchain.
+  • Explain how blockchain will improve the human experience.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 ### <a id="ch6-2"></a>6.2 Blockchain Use Case Categories (Blockchain in Practice)
 Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. It is showing a new path that will improve the lives of so many. We will see how identity management is key (no pun intended) to all the use cases we discuss. For our discussion, we will categorize use cases by who is developing solutions, starting with large enterprise solutions to smartphone and web browser applications powered by blockchain that put control back in the user's hands:
- • Enterprise solutions
+  • Enterprise solutions
 Businesses and organizations are implementing blockchain to overcome obstacles in transparency and trust forging new associations with global implications.
- • Public sector solutions
+  • Public sector solutions
 Governments are using blockchain solutions to improve services that they provide to their citizens. Digital identity solutions, central bank digital currencies and transparent workflows are bringing efficiency to the public sector system with an end result that benefits citizens. With that, new laws are needed to regulate this technology.
- • Social impact solutions
+  • Social impact solutions
 Social impact blockchain solutions address social and environmental challenges. Backed by the 17 United Nations Sustainable Development Goals blockchain developers, investors, philanthropists, government agencies and foundations are developing solutions that tackle these global problems.
- • Platform developers' solutions
+  • Platform developers' solutions
 Blockchain is a new technology constantly improving and changing. Developers are creating standards and new platforms to bring this technology into the mainstream.
- • End user solutions
+  • End user solutions
 Everyday solutions emerge that put decentralized blockchains and all the benefits they promise in the hands of individuals from new decentralized marketplaces to new ways to express your music, art, and even let you trade property built inside a game.
 
 <h5>Enterprise Solutions Overview</h5>
