@@ -2866,7 +2866,7 @@ Blockchain benefits of security, efficiency and speed have government leaders re
 One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. Watch these additional resources to learn more about the Smart Dubai initiative, "Smart Dubai's Paperless Strategy" and "Happy Cities Forum 2019".
 
   <p align="center" width="100%">
-  <img width="50%" src=""
+  <img width="50%" src="/images/image107.png?raw=true"
     alt="Dutch blockchain coalition"</>
 </p>
 
@@ -2876,7 +2876,7 @@ One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goa
   - Developing and realizing the Human Capital Agenda
 
 <p align="center" width="100%">
-  <img width="50%" src=""
+  <img width="50%" src="/images/image108.jpg?raw=true"
     alt="Buffalo on Wyoming flag"</>
 </p>
 
@@ -2886,7 +2886,7 @@ Wyoming has now enacted a total of 13 blockchain-enabling laws, making it the on
 The Blockchain for Social Impact Coalition (BSIC) is a not-for-profit organization that incubates, develops, and collaborates on blockchain products and solutions that can address social and environmental challenges across the United Nations Sustainable Development Goals. The aim is to inspire, federate, and create bridges between NGOs, and government agencies, foundations, impact investors, philanthropists and technologists.
 
 <p align="center" width="100%">
-  <img width="50%" src=""
+  <img width="50%" src="/images/image109.png?raw=true"
     alt="Blockchain for social impact"</>
 </p>
 
@@ -2900,14 +2900,14 @@ According to the "7 Ways Blockchain Can Be Used for Social Good" article by Kayl
   - Supply chain and environmental protections
 
 <p align="center" width="100%">
-  <img width="50%" src=""
+  <img width="50%" src="/images/image110.jpg?raw=true"
     alt="Kiva logo"</>
 </p>
  
 More than 1.7 billion people around the world are unbanked and can’t access the financial services they need. Kiva is an international nonprofit, founded in 2005 in San Francisco, with a mission to expand financial access to help underserved communities thrive. Kiva accomplishes this by crowdfunding loans and unlocking capital for the underserved, improving the quality and cost of financial services, and addressing the underlying barriers to financial access around the world. Through Kiva's work, students can pay for tuition, women can start businesses, farmers are able to invest in equipment and families can afford needed emergency care.
 
 <p align="center" width="100%">
-  <img width="50%" src=""
+  <img width="50%" src="/images/image111.png?raw=true"
     alt="Mission of the Rohingya project. How it works"</>
 </p>
 
@@ -2916,28 +2916,28 @@ More than 1.7 billion people around the world are unbanked and can’t access th
 The mission of the Rohingya Project is to create the foundation for a viable future for the stateless Rohingya people by connecting them digitally to opportunities to learn, equip and empower themselves. Through the creation of a Financial and Social Inclusion platform, those Rohingya who for years have been sidelined can be given access to a range of virtual services including online education, digital identity and reward tokens.
 
 <p align="center" width="100%">
-  <img width="50%" src=""
-    alt="Rohingya initiative"</>
+  <img width="50%" src="/images/image112.png?raw=true"
+    alt="Rohingya initiative logo"</>
 </p>
 
 The platform will tap into the potential of the Rohingya community and other marginalized people and offer options to counter their exclusion from the mainstream.
 
 <p align="center" width="100%">
-  <img width="85%" src=""
+  <img width="85%" src="/images/image113.png?raw=true"
     alt="Displaced Rohingya worldwide"</>
 </p>
 
 The Giving Chain is a grassroots Social Impact project designed to improve disaster relief efforts as well as open up new pathways for local charity giving.
 
 <p align="center" width="100%">
-  <img width="50%" src=""
+  <img width="50%" src="/images/image114.png?raw=true"
     alt="Charity logo"</>
 </p>
 
 Created by three local meetup groups, Ledger Academy, Hyperledger Princeton and Blockchain & AI Princeton. The project won the 2021 Government Blockchain Associations Award for Social Impact. The video of the awards ceremony can be viewed on YouTube.
 
 <p align="center" width="100%">
-  <img width="50%" src=""
+  <img width="50%" src="/images/image115.jpg?raw=true"
     alt="The giving chain"</>
 </p>
 
