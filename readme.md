@@ -318,6 +318,7 @@ Banks, credit card companies’ stockbrokers are companies that represent a cent
 <p align="center">
 <img src="/images/image012.png?raw=true" "Bank building" width="200" >
 &nbsp;
+  
 
 Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. 
 If you have an Internet connection and a Bitcoin wallet application, you can receive and send the cryptocurrency Bitcoin. 
