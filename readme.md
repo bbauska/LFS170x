@@ -2622,7 +2622,7 @@ Some wallets allow you to hold multiple cryptocurrencies in the same application
 <h5>Atomic Swaps</h5>
 Additional features in these wallets lets you “swap” one cryptocurrency for another. The application provider acts as the intermediary to secure the transactions from one chain to the other.
 
->h5>Metamask</h5>
+<h5>Metamask</h5>
 Metamask is a cryptocurrency wallet used to interact with the Ethereum blockchain and other blockchains issued in accordance with the Ethereum Platform. Tokens issued in accordance with the ERC-20 standard for utility tokens can be stored in a metamask wallet. Metamask not only stores cryptocurrencies but acts as a gateway to blockchain applications. You can access the wallet through a mobile application or a browser extension.
  
 ConsenSys, spearheaded by Joe Lubin, an early Ethereum programmer, is a software engineering company that helps developers build next-generation networks and enable enterprises to launch more powerful financial infrastructure. Consensys Mesh is a playground for entrepreneurs and programmers to build decentralized platforms and projects, Metamask is just one project to come out of the efforts at Consensys.
@@ -2645,29 +2645,58 @@ As explained by Drummond Reed,
 "Web 1.0 used centralized identity; Web 2.0 graduated to federated identity; now Web 3.0 is using decentralized digital identity, a model known as "self-sovereign identity" or "SSI" because now individuals control their own portable digital identity credentials in their own digital wallets—just like we prove our identity with physical credentials from our physical wallets every day. The digital signatures on these credentials use blockchain technology for decentralized public key management. Finally we can have a trust layer for the Internet that doesn't require everyone to rely on centralized authorities".
 The concept of self-sovereign identity (SSI) is based on the idea that the Internet was created without a way to properly deal with identifying participants. Innovative minds, such as Drummond Reed and Alex Preukscha, have been working on solutions to this problem. We will start with some key terms taken from the "Self-Sovereign Identity: Decentralized Digital Identity and Verifiable Credentials" book by Reed and Preukscha.
 The Internet was designed to identify computers, not users. The result is a tangled web of passwords, and usernames, and siloed data that is bought and sold without our consent. With blockchain and cryptographic techniques, solutions are being developed to fix what is broken with identity and the Internet. The W3C Consortium is an international community where members work together to develop web standards. Led by web inventor and Director Tim Berners-Lee and CEO Jeffrey Jaffe, W3C's mission is to lead the Web to its full potential. W3C is working on standards that can be used to define a new paradigm for the Internet and Identity.
-Key Concepts
-Self-sovereign identity (SSI)
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+### Key Concepts
+#### Self-sovereign identity (SSI)
 SSI is relatively new, having only emerged onto the Internet stage in 2016. At one level, SSI is a set of principles about how identity and personal data control should work across digital networks. At another level, SSI is a set of technologies which build upon core concepts in identity management, distributed computing, blockchain or Distributed Ledger Technology (DLT), and cryptography.
 Verifiable credentials
 The essence of decentralized identity is transitioning physical identity credentials (birth certificate, driver licenses, passports, college degrees, medical records, etc.) to a digital twin that the individual can possess in a digital wallet.
-Verifier
+
+#### Verifier
 A verifier is the person, organization or computer program granting verification of an assertion. They request proof that a claim or statement about a credential is true.
-Issuers
+
+#### Issuers
 Issuers are the source of credentials—every credential has an issuer. Most issuers are organizations such as government agencies (passports), financial institutions (credit cards), universities (degrees), corporations (employment credentials), NGOs (membership cards), or churches (awards).
-Holders/Provers
+
+#### Holders/Provers
 Providers request verifiable credentials from issuers, hold them in the holder’s digital wallet (below), and present proofs of claims from one or more credentials when requested by verifiers (and approved by the holder). Although we most commonly think of individuals as holders/provers, holders/provers can also be organizations using enterprise wallets, or things in the sense of the Internet of Things (IoT). The trust triangle represents the Trust over IP version of how the new relationship will operate.
- 
+
+<p align="center" width="100%">
+  <img width="50%" src="/images/image092.png?raw=true"
+    alt="Decentralized identifiers (DIDs)"</>
+</p>
+
 <h5>Decentralized identifiers</h5>
 According to the WC3, decentralized identifiers (DIDs) are a new type of identifier for verifiable, decentralized digital identity credentials. These new identifiers are designed to enable the controller of a DID to prove control over it and to be implemented independently of any centralized registry, identity provider, or certificate authority. WC3 is working on ways to standardize the format for DIDs.
- 
+
+<p align="center" width="100%">
+  <img width="50%" src="/images/image093.png?raw=true"
+    alt="Decentralized identifiers (DIDs)"</>
+</p>
+
 The DID above is structured to identify what type of credential, the issuer and the cryptographic hash of the credential.
 The Sovrin Foundation and Everynym are leading pioneers in this new emerging sector offering identity solutions in sectors such as Healthcare and Refugee Management.
+
 Decentralized Finance
 According to "The Complete Beginner's Guide to Decentralized Finance (DeFi)" article by Binance Academy, Decentralized Finance or DeFI refers to a system of financial software that enables financial products to be made available to the public on decentralized blockchains. As we have learned, the term decentralized and its ramifications will revolutionize how we interact with each other. These new interactions can have different effects in various sectors. In the financial markets, new interactions will dramatically change the current structure by eliminating the need for intermediaries. Banks, lending institutions, Money Managers, Market Analysts, Hedge Fund Managers, and other positions and functions can now be performed using smart contracts.
 With new technology platforms, open source projects are fueled by blockchains, incentive models, stablecoins, smart contracts and self hosted wallets that remove financial middlemen. Users' funds that are pooled together for investment advantages are now managed by a series of smart contracts that execute programmed financial trades instead of a third party.
+
+<p align="center" width="100%">
+  <img width="50%" src="/images/image094.png?raw=true"
+    alt="Components of decentralized finance"</>
+</p>
  
 Benefits of Decentralized Finance
 Along with the new decentralized financial model come new innovations that have far reaching ramifications. Microloans, smaller loans made from pools of capital, now are available granting access to these financial vehicles to participants previously excluded. For example, in agriculture, farmers are able to secure small loans to help them get crops to market.
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<p align="center" width="100%">
+  <img width="50%" src="/images/image095.png?raw=true"
+    alt="Benefits of decentralized finance"</>
+</p>
  
 Regulating these new financial instruments is proving challenging as government agencies wrestle with controlling currencies that do not recognize borders. And have a steep learning curve. A stable price coupled with the benefits of blockchain, new financial markets are emerging that will change the current financial markets making them more inclusive.
 Central Bank Digital Currencies (CBDC)
@@ -2691,7 +2720,12 @@ A wholesale CBCD is a type of currency used by financial institutions to buy and
 •	Retail CBDC
 Retail central bank digital currency would be used as a digital twin for fiat currency. Citizens would use it to pay for things, send money and save it.
 Central Bank Digital Currencies are being considered across the globe.
- 
+
+<p align="center" width="100%">
+  <img width="85%" src="/images/image096.png?raw=true"
+    alt="Central Bank Digital Currency status"</>
+</p>
+  
 According to the CBDC Tracker, the Sand Dollars, a retail CBDC issued by the Central Bank of the Bahamas is the first nationwide Central Bank Digital Currency. The US Federal Reserve is researching CBDC for the US with the Federal Reserve Bank of Boston and MIT committed to a multi-year collaboration to build a hypothetical currency called the Hamilton.
 Hyperledger created a Capital Market Special Interest Working Group spearheaded by Vipin Bharathan working on standards for CBDC’s. This working group is just one of many discussing CBDC’s and is open for anyone to join.
 
@@ -2701,6 +2735,8 @@ Now, you may be asking yourself, "What's next?". That's where non-fungible token
 According to Wikipedia, a non-fungible token:
 "is a unit of data stored on a digital ledger, called blockchain, that certifies a digital asset to be unique and therefore not interchangeable".
 NFTs can represent art, music, videos and other digital files where access to the original file is restricted, limited to the owner proving authenticity and providence. The first standard for issuing NFT’s was based on the Ethereum's ERC-721 that differs from the ERC-20 as ERC-721 tokens are all unique which makes them perfect for the collectibles market. The ECR-1155 aims to improve on the previous token standard by further defining assets.
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 Let's now take a look at some of the types of non-fungible tokens:
 •	Digital artwork
@@ -2721,6 +2757,8 @@ Interoperability
 To end this section, we must mention interoperability. Interoperability in blockchains deals with creating standards so different types of blockchains can communicate with each other.
 If new emerging blockchains can’t communicate with each other, we will have the same issues with siloed data that created frustration with the Internet of Today. As different blockchains take different approaches to interoperability, standards will emerge that will help regulate the industry and help with widespread adoption. Currently Hyperledger and Ethereum are working together on interoperability projects from Hyperledger Besu (to learn more about Hyperledger Besu enroll into Hyperledger Besu Essentials: Creating a Private Blockchain Network (LFS176x)), an open source Ethereum client for enterprise solutions that can be run on the Ethereum public network or on a private permissioned network. Other projects in the Hyperledger labs that deal with interoperability are working on standards that will make it easier for blockchains to talk to each other.
 When considering how blockchain interoperability can work, consider email and smartphone. Both of these technologies have the ability to interoperate. Outlook email server can receive email from the Gmail server and Verizon cell phone carriers can transfer and accept calls from T-Mobile. These services would not operate efficiently, if these companies couldn't exchange data. With this in mind, blockchain are developing projects that, like smartphones and emails, will transfer value and information across blockchain seamlessly.
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### <a id="ch5-5"></a>5.5 Chapter Summary
 In this chapter, we discussed:
@@ -2749,6 +2787,8 @@ By the end of this chapter, you should be able to:
  • Discuss developing new technologies made possible by blockchain.
  • Explain how blockchain will improve the human experience.
 
+**[`^        back to top        ^`](#table-of-contents)**
+
 ### <a id="ch6-2"></a>6.2 Blockchain Use Case Categories (Blockchain in Practice)
 Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. It is showing a new path that will improve the lives of so many. We will see how identity management is key (no pun intended) to all the use cases we discuss. For our discussion, we will categorize use cases by who is developing solutions, starting with large enterprise solutions to smartphone and web browser applications powered by blockchain that put control back in the user's hands:
  • Enterprise solutions
@@ -2766,8 +2806,15 @@ Everyday solutions emerge that put decentralized blockchains and all the benefit
 Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and workflows, fostering new business models. Problems with how we transact online, to the cost of doing business, are solved with blockchain. Let’s look at an enterprise supply chain solution built with blockchain.
 Global Supply Chains
 Supply chain data is not always visible or trusted. In recent times of disruption supply chains matter more than ever. Global supply chain and blockchain are working to secure systems to better handle these disruptions. The Covid pandemic shed light on the frailty of our supply chains which accelerated discussion over blockchain solutions. 
- 
+
+<p align="center" width="100%">
+  <img width="50%" src="/images/image097.png?raw=true"
+    alt="Maersk + IBM"</>
+</p>
+  
 Learn more about the collaboration between Maersk and IBM from the "Digitizing Global Trade with Maersk and IBM" blog post by Michael White.
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### <a id="ch6-3"></a>6.3 Supply Chain - Maersk (Enterprise Solutions)
 Global trade functions much as it has since the introduction of the shipping container in 1956.
@@ -2790,10 +2837,23 @@ Blockchain provides secure data exchange and a tamperproof repository for these 
 This system could significantly reduce delays and fraud saving billions of dollars annually.
 And, according to the WTO, reducing barriers within the international supply chain could increase worldwide GDP by almost 5% and total trade volume by 15%.
 The resulting solution is called TradeLens. You can take the TradeLens tour here.
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<p align="center" width="100%">
+  <img width="50%" src="/images/image098.png?raw=true"
+    alt="Trade made easy"</>
+</p>
  
 ### Farm to Table
 Farms are complicated ecosystems with many moving parts, careful timing, and seasonal financing structures. However, after the food leaves a farm, it becomes part of a wide-reaching supply chain with a lot of parties. Buyers, sellers, distributors, and grocery chains all want to know where the food is along its journey. You also probably want to know where your food has been before you serve it on your dinner table.
 The trend toward blockchain agriculture promises to make each step of growing and distributing food simpler. It will offer all parties involved a single source of truth for the agriculture supply chain. 
+
+<p align="center" width="100%">
+  <img width="50%" src="/images/image099.png?raw=true"
+    alt="Walmart logo"</>
+</p>
+
 To learn more, read Hyperledger's case study "How Walmart Brought Unprecedented Transparency to the Food Supply Chain with Hyperledger Fabric".
 Walmart
 I purchased a pack of mangos, I came into my staff meeting, I put them on the table, and I said: "Your traceback exercise starts right now".
@@ -2819,21 +2879,44 @@ We're excited to be working with IBM on this blockchain initiative, but it's not
 We'll make sure that all stakeholders work together for a safer and better food system.
 •	IBM's Food Trust Solution building faith in food supply chains.
 •	Paramount's Farm to Table creates an inclusive blockchain supply chain solution from the farm all the way to your plate. 
- 
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<p align="center" width="100%">
+  <img width="50%" src="/images/image100.png?raw=true"
+    alt="Farm to table logo"</>
+</p>
+
 ### Healthcare
 Blockchain is transforming the healthcare industry. Some challenges the healthcare industry faces are counterfeit drugs, siloed data, health record management to name a few. Blockchain can solve these issues with interoperability, data integrity and security. Let's look at some solutions.
- 
+
+<p align="center" width="100%">
+  <img width="50%" src="/images/image101.png?raw=true"
+    alt="Moderna logo"</>
+</p>
+  
 Moderna uses blockchain to support smart COVID vaccine management. To learn more see "Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter' Management of COVID-19 Vaccines" article by Tomi Kilgore.
- 
+
+
+<p align="center" width="100%">
+  <img width="50%" src="/images/image102.png?raw=true"
+    alt="SAP logo"</>
+</p>
+
 SAP has an existing solution unrelated to blockchain called Advanced Track and Trace for Pharmaceuticals (ATTP) which generates the unique identifiers. To further explore this solution read the following article by Nicky Morris "SAP Leads Pharma Supply Chain Blockchain" and watch "Verifying Pharmaceutical Products Using Blockchain" video. 
- 
+
+<p align="center" width="100%">
+  <img width="50%" src="/images/image103.png?raw=true"
+    alt="Pfizer logo"</>
+</p>
+
 Also, Pfizer has been using blockchain in transparent clinical trials. You can learn more about this project by reading the following blog post, "Clinical Trial Data Should Be Accessible and Transparent".
 
 ### Finance Markets
 Reduction of settlement times will improve the flow of money through fintech companies.
 
 <p align="center" width="100%">
-  <img width="50%" src=""
+  <img width="50%" src="/images/image104.jpg?raw=true"
     alt="Swiss exchange logo (SIX)"</>
 </p>
 
@@ -2843,7 +2926,7 @@ Swiss Exchange, SIX has a solution that solves the issue in the trade markets of
 Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. In a paper from Andrea Frosinini, "Reshaping Trade Finance: Towards a “New” Letter of Credit", he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 
 <p align="center" width="100%">
-  <img width="50%" src=""
+  <img width="50%" src="/images/image105.png?raw=true"
     alt="Voltron logo"</>
 </p>
 
@@ -2857,7 +2940,7 @@ Blockchain benefits of security, efficiency and speed have government leaders re
   - Governance
 
 <p align="center" width="100%">
-  <img width="50%" src=""
+  <img width="50%" src="/images/image106.jpg?raw=true"
     alt="Smart Dubai"</>
 </p>
 
