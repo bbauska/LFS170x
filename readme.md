@@ -299,8 +299,11 @@ Bitcoin has no borders and was created as a decentralized payment system, an alt
 Let us look at what it means to be a currency.
 
 <h5>Purpose of currency:</h5>
+&nbsp;
   * Medium for exchange
+&nbsp;
   * Store of value over time
+&nbsp;
   * Accepted as a measure of worth
 
 According to Investopedia, 
