@@ -1930,22 +1930,24 @@ Let's recap differences between Proof of Work and Proof of Stake:
 Bitcoin, the first blockchain to appear, uses Proof of Work which requires miners to solve a complex cryptographic mathematical puzzle for which they get rewarded. Block rewards are newly minted Bitcoin granted to the miners that solve the puzzle first. Built into the Bitcoin blockchain protocol, is an event called halving. Bitcoin halving happens every four years and Bitcoin’s block reward gets cut in half. The halving occurs when the block height reaches a certain point (210,000 blocks) which is programmed into the protocol. The first halving occurred in November 2012 and the block reward was cut from 50 BTC to 25 BTC. The second occurred July 9, 2016 and the reward was reduced to 12.5 BTC. The third occurred on May 11th 2020, cutting the block reward to 6.25. The next halving is estimated in the year 2024 and the reward will be reduced to 3.125 BTC. The Bitcoin network is programmed to produce only 21 million bitcoin and the halving is what keeps inflation in check by slowing down the distribution. About ⅔ of the 21 million BTC have been mined so far.
 Ethereum Consensus Model
 Ethereum currently uses Proof of Work for a consensus model. Ethereum was introduced in a white paper by Vitaly Dmitriyevich "Vitalik" Buterin, a Russian-Canadian entrepreneur and programmer from Toronto. He envisioned the second-largest cryptocurrency when he “forked” or copied the Bitcoin code, made improvements and created the Ethereum blockchain. This new blockchain was not only a currency exchange system but along with the Ethereum Virtual Machine, an interconnect, turing complete computer, open to programmers to develop. It creates a platform that smart contracts can be executed and applications can be built upon. Ethereum has always planned to move away from a Proof of Work consensus mechanism to a Proof of Stake. Plans for Ethereum to adopt Proof of Stake will occur when Ethereum 2.0 is incorporated, this improvement is expected sometime in the second half of 2021.
-Hyperledger Fabric Consensus Model
+
+<h4>Hyperledger Fabric Consensus Model</h4>
 Hyperledger Fabric is a private permissioned blockchain platform that breaks consensus into components, allowing users to pick a consensus algorithm for their particular situation. Instead of a predetermined consensus model, Hyperledger has an ordering service that performs consensus related events, this ordering component can pick the consensus model that best suits the blockchains needs. By approaching consensus in this modular fashion, Hyperledger DLT’s can change consensus models without huge overhauls to the code base.
 As explained by Demiro Massessi,
 "Hyperledger Fabric deliberately avoided hard-coding a consensus mechanism into the protocol by defining an “orderer component” that performs all of the consensus-related operations. This allows users of Hyperledger Fabric to select a consensus algorithm that fits their use case without being forced to make large-scale code edits".
-Corda Consensus Model
+
+<h4>Corda Consensus Model</h4>
 Corda is a private permissioned blockchain. Each Corda network has a notary service made up of independent parties that approve blocks using any applicable consensus algorithms.
 As mentioned in Jamiel Sheikh's book “Mastering Corda: Blockchain for Java Developers”, R3 provides a set of Corda applications called The Corda Business Network Toolkit to manage one or more Corda networks. Corda does not follow the standard blockchain model of transactions being bundled into blocks and then being finalized by the network as a whole. Instead, a Corda network contains one or more notaries consisting of several independent parties. Transactions in Corda are finalized by a notary with a multiparty digital signature using an algorithm like Raft.
 
 ### <a id="ch3-7"></a>3.7 Chapter Summary
 In this chapter, we discussed:
-•	Smart contracts and benefits from using smart contracts.
-•	Differences between blockchain security vs. standard security.
-•	Differences between private and public blockchains.
-•	Factors in deciding on blockchain.
-•	Transaction flow in blockchain.
-•	Consensus mechanisms used in blockchain.
+  •	Smart contracts and benefits from using smart contracts.
+  •	Differences between blockchain security vs. standard security.
+  •	Differences between private and public blockchains.
+  •	Factors in deciding on blockchain.
+  •	Transaction flow in blockchain.
+  •	Consensus mechanisms used in blockchain.
 
 ## <a id="ch4"></a>Chapter 4. Blockchains and Governance
 Chapter Overview
@@ -1954,30 +1956,37 @@ Next, we will take a look at how these trustless systems with open interactions 
 
 ### <a id="ch4-1"></a>4.1 Learning Objectives
 By the end of this chapter, you should be able to:
-•	Discuss open source communities and blockchain source code.
-•	Discuss the different types of governance models and what types of governance are used in public and private blockchains.
-•	Analyze governance types in a blockchain and determine which are used for the more popular blockchains.
-•	Analyze examples of Decentralized Autonomous Organizations (DAOs).
-•	Summarize the advantages and disadvantages of a consortium blockchain.
+  •	Discuss open source communities and blockchain source code.
+  •	Discuss the different types of governance models and what types of governance are used in public and private blockchains.
+  •	Analyze governance types in a blockchain and determine which are used for the more popular blockchains.
+  •	Analyze examples of Decentralized Autonomous Organizations (DAOs).
+  •	Summarize the advantages and disadvantages of a consortium blockchain.
 
 ### <a id="ch4-2"></a>4.2 What Is Open Source?
 Blockchain technology and the developers who work with it reinforce the basic tenet of decentralization in many ways. Not only by decision making consensus models, but also the way in which it distributes the software code.
-•	Proprietary/closed source code
+  •	Proprietary/closed source code
 Software controlled by the person, team or organization who created it and maintains exclusive rights over it. Only the original authors can legally copy, inspect, and alter the software. Most users of proprietary software sign an agreement giving permission to use the software but not alter it. Microsoft Office is an example of proprietary software.
-•	Open source code
-Computer code that describes a specific approach to creating software. When describing tools for distributing open source code Discipline Tools states, Open source initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency and community-oriented development. Open source software is code that anyone can inspect, modify and enhance. Much of the Internet was built on open source technologies. Users of the computer software never interact with the source code, rather it's manipulated by programmers who improve and fix it. As with proprietary software, users must accept the terms of the license, but they are dramatically different structurally. Linux and Kubernetes are examples of open source software.
-Open source software fosters collaboration by sharing code and encouraging modifications and improvements. Instead of charging for the software program, software developers find it more lucrative to charge for service around developing and maintaining these open source projects.
-Benefits from Open Source Software
+  •	Open source code
+Computer code that describes a specific approach to creating software.
+When describing tools for distributing open source code Discipline Tools states, Open source initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency and community-oriented development. 
+Open source software is code that anyone can inspect, modify and enhance. 
+Much of the Internet was built on open source technologies. 
+Users of the computer software never interact with the source code, rather it's manipulated by programmers who improve and fix it. As with proprietary software, users must accept the terms of the license, but they are dramatically different structurally. 
+Linux and Kubernetes are examples of open source software.
+Open source software fosters collaboration by sharing code and encouraging modifications and improvements. 
+Instead of charging for the software program, software developers find it more lucrative to charge for service around developing and maintaining these open source projects.
+
+<h4>Benefits from Open Source Software</h4>
 Developing software in an open source environment means a willingness to share and collaborate in a transparent way.
-•	Control
+  •	Control
 To a developer's open source means an individual can contribute to the direction the code takes. This open participation means coders who participate the most have more influence over the direction of the code.
-•	Training
+  •	Training
 The ability to copy code and make your own changes in test environments act as invaluable hands-on training. This also fosters innovation as programmers can devise previously unthought-of functionality and code direction.
-•	Security
+  •	Security
 In open source, software programs are considered more secure because they are open to peer review where errors can be spotted. Coders are encouraged to test code, find errors and develop fixes to bugs as long as they follow the process the network has in place.
-•	Stability
+  •	Stability
 Open source projects have a certain amount of code stability due to the openness for public review. A publicly distributed source code is openly reviewed and can expose situations that may not have otherwise been tested.
-•	Community
+  •	Community
 Open source inspires the community to get involved. When contributing to an open source project, you join a community of people that ultimately affects the software you are interested in.
 The programming code for Bitcoin, Ethereum, Hyperledger and other blockchains is open source.
 Introduction to Governance
@@ -1994,24 +2003,35 @@ Now we all know that, despite our best efforts, things occasionally do go wrong.
 A large part of modern governance efforts includes planning for disasters in a way that ensures business continuity - the ability to remain available to customers no matter what.
 Modern decentralized solutions are most often created in a cooperative or consortium format - a shared joint effort business organizations.
 In these initiatives, it is important not only for clear and comprehensive governance to be in place, but for that governance to be consistent across participating organizations.
+
 These type of cross-organizational governance efforts represent an entirely new type of project initiative, and will require business analysts, solution architects, product and program managers, and executive leaders who understand the incredible potential and massive disruption that decentralized solution architectures bring to focus.
 
-Governance Models
-A basic description of governance can be defined as a system by which behavior is directed. This direction is guided by a set of norms or rules and a way to enforce or keep order. The mechanism to enforce these policies can take many forms from a dictator who has complete control to a democratic governance model where the voice of the majority is recognized.
+<h4>Governance Models</h4>
+A basic description of governance can be defined as a system by which behavior is directed.
+This direction is guided by a set of norms or rules and a way to enforce or keep order.
+The mechanism to enforce these policies can take many forms from a dictator who has complete control to a democratic governance model where the voice of the majority is recognized.
  
 Blockchain governance models reflect a more democratic flavor due to the open source environment. Blockchains are composed of a community of users who work together to strengthen the system. The degree in which the majority rules can vary.
-•	Representative democracy
-This type of governance has a few individuals, empowered by the group, to suggest new rules and guide future direction. The amount of authority the representative has is granted by the majority. The representatives selected reflect the views of the majority and are given authority to guide the community. The control comes from the community and representatives are presumed to act in the best interest of the governed. This type of governance is more efficient as only a few debate the issue and decide on policy. Issues can occur when the majority opinion unevenly reflects the community, causing minority groups to be underserved. Also the assumption is that the representatives are acting on the best behalf of the group and not in their own best interests.
-•	Direct democracy
+  •	Representative democracy
+This type of governance has a few individuals, empowered by the group, to suggest new rules and guide future direction.
+The amount of authority the representative has is granted by the majority.
+The representatives selected reflect the views of the majority and are given authority to guide the community.
+The control comes from the community and representatives are presumed to act in the best interest of the governed. 
+This type of governance is more efficient as only a few debate the issue and decide on policy.
+Issues can occur when the majority opinion unevenly reflects the community, causing minority groups to be underserved. Also the assumption is that the representatives are acting on the best behalf of the group and not in their own best interests.
+  •	Direct democracy
 All decisions regarding the governance of the group are voted on by the entire community. In this form of governance model every vote counts and people have more control over the quality of policies. In this model it is best to have an educated community where everyone is willing to participate for the good of the whole.
-How Does Blockchain Fit Into Governance?
-Each and every blockchain ecosystem that has or is being created will need some kind of governance mechanism in place. As discussed in the “Bitcoin and Blockchain Governance: What It Is and Why It Matters” article by Evan Karnoupakis, traditional systems and laws are made and then enforced. When participants (miners, developers, and users) in the network are interacting, ideally they are acting in a way that’s best for the overall group. Being able to build a governance structure in a decentralized (sometimes anonymous, as well) world has proven to be extremely difficult, but this is a problem that many DLT companies are in the midst of solving.
-Most governance structures in the blockchain ecosystem are looking to achieve similar goals, such as:
-•	Protocol changes and technical upgrades.
-•	Critical bug and vulnerability fixes.
-•	Using pooled funds for research and development.
 
-On-Chain vs. Off-Chain Governance
+<h4>How Does Blockchain Fit Into Governance?</h4>
+Each and every blockchain ecosystem that has or is being created will need some kind of governance mechanism in place. 
+As discussed in the “Bitcoin and Blockchain Governance: What It Is and Why It Matters” article by Evan Karnoupakis, traditional systems and laws are made and then enforced. When participants (miners, developers, and users) in the network are interacting, ideally they are acting in a way that’s best for the overall group. Being able to build a governance structure in a decentralized (sometimes anonymous, as well) world has proven to be extremely difficult, but this is a problem that many DLT companies are in the midst of solving.
+
+Most governance structures in the blockchain ecosystem are looking to achieve similar goals, such as:
+  •	Protocol changes and technical upgrades.
+  •	Critical bug and vulnerability fixes.
+  •	Using pooled funds for research and development.
+
+<h4>On-Chain vs. Off-Chain Governance</h4>
 These goals can be achieved through many different methods of governance. When designing a blockchain, choices between on-chain and off-chain governance must be balanced.
 In the on-chain governance, rules for instituting changes are encoded into the blockchain protocol. This means that any decision being made is automatically being translated into code (e.g. decisions concerning block size). Developers propose changes through code updates and each node votes on whether to accept or reject the proposed change.
  
@@ -2024,50 +2044,82 @@ In the previous chapter, we discussed the decentralized characteristics of block
 In order for a blockchain to survive, it must adapt to the needs of its users and advances in technology. The way the changes are debated and decided upon is important for these decisions to be implemented. A decentralized ecosystem is designed not to be under the control of a single source, there is no CEO to take responsibility for issues. This means blockchains need a new strategy for governing the policy it wants to adopt.
 Strategies must include incentives so the members want to be good actors in the system. The efforts of the group must be coordinated to be productive. Both of these elements are necessary in blockchain governance models.
 
-Blockchain Governance Strategies
+<h4>Blockchain Governance Strategies</h4>
 Several different blockchain governance strategies have been proposed and implemented for different blockchains. Let's review some blockchain governance strategies sorted from the fewest to the most members directly involved in the decision, as discussed in the "Blockchain Governance In A Nutshell" article by Demiro Massessi:
-•	"Benevolent dictator for life
+  •	"Benevolent dictator for life
 The original creator or lead developer of a cryptocurrency has the final say on all decisions. The simplest governance strategy is nicknamed benevolent dictator for life. In this strategy, the creator of the blockchain is the final authority on all decisions regarding the blockchain (...).
-•	Core development team
+  •	Core development team
 A team of the most active developers decides what functionality should or shouldn’t be included. The next step up places control of the blockchain roadmap in the hands of a core development team. This is a strategy commonly used in open source programming projects, where users are able to offer or request features, but developers have the final say on what is or is not included in the official release.
-•	Open governance
+  •	Open governance
 The team making governance decisions for the blockchain is chosen by the users of the blockchain. Some blockchains use the open governance method of handling governance of the blockchain. In this system, the team that makes the final technical decisions for a system is selected by the system’s users.
-•	On-chain governance
+  •	On-chain governance
 The rules for how the blockchain operates are stored on-chain in smart contracts with built-in capability and procedures for modifications. A blockchain-specific governance strategy is on-chain governance. In this form of blockchain governance, the rules describing how the blockchain should operate are stored on the blockchain itself. These regulations typically are implemented as smart contracts on the blockchain with built-in methods for users to modify the rules based upon their needs and the needs of the blockchain".
-Consortium Governance
+
+<h4>Consortium Governance</h4>
 Due to blockchains built in trust and collaboration mechanisms, new pathways are opening up for enterprises to work together. A new form of collaboration fostered by blockchain is consortiums. Consortium, as defined by Webster's dictionary, is
 "an agreement, combination, or group (as of companies) formed to undertake an enterprise beyond the resources of any one member".
 Most enterprise blockchain solutions will be implemented by a "consortium" of enterprises, building one or more applications on top of a "blockchain platform". These consortiums are already forming in many industries to deal with the particular problems of those industries. Alliances in Trade Finance, Carbon Emissions Accounting, Social Impact and Healthcare have working blockchain consortiums solutions.
-Who Really Governs the Blockchain?
+
+<h4>Who Really Governs the Blockchain?</h4>
 Blockchain governance comes down to the users. For a blockchain community to thrive it needs a robust community. Changes to the operation of the blockchain must be accepted by the majority of its users or they will create a new blockchain that does. The process by which changes are made follow these five steps discussed by Pierre Rochard in his article "Bitcoin Governance":
  
 The changes to a blockchain starts with research. Before the problem or situation can be addressed it must be understood. A proposal consists of a problem definition and a proposed solution. Implementation requires a little bit more work as the nodes and user must agree to the change or it can not be enforced.
 As explained in the "Blockchain Governance In A Nutshell" article by Demiro Massessi:
 "Major changes to a blockchain require a hard fork. A hard fork is a change to the blockchain protocol that makes it incompatible with old clients.
 For a hard fork to be successful, users need to agree to follow it. Users can refuse to follow a hard fork, creating a divergent blockchain. The DAO Hard Fork on Ethereum created Ethereum Classic.
+
 Despite the official story of who governs the blockchain, in the end, the users are the ones who really make the final decisions of what will or will not be included in the blockchain. With the huge number of potential options, users can abandon a blockchain that makes changes that they disagree with.
 Any major change to a blockchain requires a "hard fork". All this means is that the blockchain protocol has changes that are not backward compatible, so blockchain clients that do not make the switch will not be able to operate on the main blockchain. A soft fork is a change that invalidates previous valid blocks by accepting new blocks, soft forks are backwards compatible. For a hard fork to be successful, users of the blockchain need to make the decision to update their software protocols to incorporate the new changes.
 If not all users decide to make the switch after a hard fork, a divergent blockchain can be created. Since the blockchain is a distributed network, the decision to implement a hard fork doesn’t cause the old version of the blockchain to become non-functional. Users who choose not to follow the fork can decide to maintain the old blockchain, fragmenting the blockchain network".
 
-Bitcoin Network and Governance
+<h4>Bitcoin Network and Governance</h4>
 As we mentioned in previous sections, Bitcoin uses a Proof of Work model to encourage miners to add blocks to the network. This governs the operations of the blockchain. But what happens when changes need to be made? How do they get implemented? The Bitcoin community consists of three main players: developers, miners, and users. None of these participants have the ability to make emergency decisions when unexpected situations occur. Bitcoin uses an off-chain governance model where decisions are balanced by the developers, miners and users. In blockchain, developers must write the code to change the blockchain. Without the consent of the miners and users, the developers have no way of enforcing the change. Miners and users must choose to adopt the new software changes.
-Bitcoin Improvement Protocols (BIP)
-When a change to the Bitcoin protocol is needed, developers will share the proposed change with other protocol developers. This improvement sharing could be in the form of an email to the bitcoin-dev mailing list, a formal white paper, and/or a Bitcoin Improvement Proposal (BIP). Code is written and tested that will enact the change. If developers in the community approve the proposals and resulting code, the proposal is put to a vote on chain and the miners decide if the proposal is implemented. This occurs through a hard or soft fork.
-This system is not without faults, as can be seen with the SegWit improvement protocol which alters block size. The vision surrounding blockchains deals with decentralization. By implementing the SegWit changes, a change in how the Bitcoin blockchain protocol operates, a central authority was responsible for enacting the change. To many in the community this decision went against the fundamental tenets of blockchains decentralized philosophy.
-As a result, the Bitcoin community was torn and the Bitcoin Network split into two different chains Bitcoin (BTC) and Bitcoin Classic (BCH). The Bitcoin Foundation is set up to educate and promote the Bitcoin Blockchain.
 
-Governance in Ethereum
-Vitalik Buterin first described the concept of Ethereum through a Whitepaper introduced at the Bitcoin Convention in Miami 2014. It was based on the code for Bitcoin, but included a logic engine that could execute smart contracts. By connecting computers using the Ethereum blockchain, computing power is aggregated creating the Ethereum Virtual Machine. Ethereum is not only a functioning blockchain with smart contract capabilities, but a platform for new blockchains to be built upon. The EVM computing does not come free, a GAS price is charged for the GAS needed to perform the transaction’s computations. This GAS fee can change dramatically depending on network conditions as the current price of Ether is part of the calculation.
-Ethereum Improvement Proposals EIP’s
-Like Bitcoin, Ethereum's three main players (developer, miners and users) must update code to improve on functionality. Ethereum Improvement Proposals (EIPs) are standards specifying potential new features or processes for Ethereum. EIPs contain technical specifications for the proposed changes and act as the “source of truth” for the community. A note worth EIP was the code for issuing a token. The Ethereum Request for Comment, ERC-20 introduced the standards for issuing utility tokens on blockchain based on Ethereum protocols. The Beacon Chain introduced the Proof of Stake consensus model and the concept of sharding. Sharding is the concept of running parallel side chains to alleviate congestion of the network. The Berlin Hard fork and the London Fork are improvements to stabilize fees paid to the miners so these fees do not fluctuate with the price of Ether.
-Ultimately, Ethereum uses the benevolent dictator for life mode of blockchain governance. While user input and input from the development team is welcome for Ethereum, Vitalik Buterin is the final authority on decisions regarding the Ethereum roadmap.
-DAO Hard Fork on Ethereum
-One famous example of this type of fragmentation is the DAO hack on the Ethereum network. The DAO was an Ethereum smart contract that completed a record-breaking crowdfunding campaign on the Ethereum network, with all of this value stored within the DAO smart contract. A flaw in the smart contract’s code allowed an attacker to create another version of the smart contract under their control and siphon off a portion of the DAO contract’s funds, worth roughly 72 million dollars at the time. After much debate, the Ethereum network decided to implement a hard fork that allowed investors of the DAO to reclaim their stolen Ether.
-This was a very contentious decision, because the historical ledger in the blockchain is supposed to be immutable and all transactions are final. Smart contracts are supposed to be their own final authority, so any action that could be performed with a smart contract, including exploiting a programming flaw to drain value from it, is considered fair game. The Ethereum network’s decision to reverse the DAO hack went against the principles of blockchain’s immutability and the supposed self-regulation of smart contracts.
-Some of the Ethereum network refused to follow the DAO hard fork, resulting in a divergent blockchain where the DAO hack was successful. This created the Ethereum Classic cryptocurrency, which shares the same history as Ethereum up to the DAO hack, but is completely independent after that point.
+<h4>Bitcoin Improvement Protocols (BIP)</h4>
+When a change to the Bitcoin protocol is needed, developers will share the proposed change with other protocol developers.
+This improvement sharing could be in the form of an email to the bitcoin-dev mailing list, a formal white paper, and/or a Bitcoin Improvement Proposal (BIP).
+Code is written and tested that will enact the change.
+If developers in the community approve the proposals and resulting code, the proposal is put to a vote on chain and the miners decide if the proposal is implemented. This occurs through a hard or soft fork.
+This system is not without faults, as can be seen with the SegWit improvement protocol which alters block size.
+The vision surrounding blockchains deals with decentralization.
+By implementing the SegWit changes, a change in how the Bitcoin blockchain protocol operates, a central authority was responsible for enacting the change.
+To many in the community this decision went against the fundamental tenets of blockchains decentralized philosophy.
+As a result, the Bitcoin community was torn and the Bitcoin Network split into two different chains Bitcoin (BTC) and Bitcoin Classic (BCH).
+The Bitcoin Foundation is set up to educate and promote the Bitcoin Blockchain.
 
-Governance in Hyperledger Frameworks
-Hyperledger was introduced as an open source blockchain project sanctioned by the Linux Foundation. Spearheaded by Brian Behlendorf, its mission is to provide the community with the tools and education to foster distributed ledger technology on an enterprise level. Hyperledger frameworks use an Open Governance model to make technical decisions regarding the Hyperledger environment. The Hyperledger Technical Steering Committee (TSC) is the final authority for technical decisions in Hyperledger. Each year, the Hyperledger Technical Steering Committee is selected from the Hyperledger environment’s active contributors and maintainers. Contributors and maintainers can submit themselves as potential candidates for the fifteen slots, and the slots are filled based on voting by the same group of contributors and maintainers. This model is designed to allow those with an active role in the Hyperledger development community to have a say in how that community is governed.
+<h4>Governance in Ethereum</h4>
+Vitalik Buterin first described the concept of Ethereum through a Whitepaper introduced at the Bitcoin Convention in Miami 2014. 
+It was based on the code for Bitcoin, but included a logic engine that could execute smart contracts. 
+By connecting computers using the Ethereum blockchain, computing power is aggregated creating the Ethereum Virtual Machine. 
+Ethereum is not only a functioning blockchain with smart contract capabilities, but a platform for new blockchains to be built upon. 
+The EVM computing does not come free, a GAS price is charged for the GAS needed to perform the transaction’s computations. 
+This GAS fee can change dramatically depending on network conditions as the current price of Ether is part of the calculation.
+
+<h4>Ethereum Improvement Proposals EIP’s</h4>
+Like Bitcoin, Ethereum's three main players (developer, miners and users) must update code to improve on functionality.
+Ethereum Improvement Proposals (EIPs) are standards specifying potential new features or processes for Ethereum. EIPs contain technical specifications for the proposed changes and act as the “source of truth” for the community. A note worth EIP was the code for issuing a token.
+The Ethereum Request for Comment, ERC-20 introduced the standards for issuing utility tokens on blockchain based on Ethereum protocols.
+The Beacon Chain introduced the Proof of Stake consensus model and the concept of sharding.
+Sharding is the concept of running parallel side chains to alleviate congestion of the network. 
+The Berlin Hard fork and the London Fork are improvements to stabilize fees paid to the miners so these fees do not fluctuate with the price of Ether.
+Ultimately, Ethereum uses the benevolent dictator for life mode of blockchain governance.
+While user input and input from the development team is welcome for Ethereum, Vitalik Buterin is the final authority on decisions regarding the Ethereum roadmap.
+
+<h4>DAO Hard Fork on Ethereum</h4>
+One famous example of this type of fragmentation is the DAO hack on the Ethereum network. The DAO was an Ethereum smart contract that completed a record-breaking crowdfunding campaign on the Ethereum network, with all of this value stored within the DAO smart contract. A flaw in the smart contract’s code allowed an attacker to create another version of the smart contract under their control and siphon off a portion of the DAO contract’s funds, worth roughly 72 million dollars at the time.
+After much debate, the Ethereum network decided to implement a hard fork that allowed investors of the DAO to reclaim their stolen Ether.
+This was a very contentious decision, because the historical ledger in the blockchain is supposed to be immutable and all transactions are final.
+Smart contracts are supposed to be their own final authority, so any action that could be performed with a smart contract, including exploiting a programming flaw to drain value from it, is considered fair game. The Ethereum network’s decision to reverse the DAO hack went against the principles of blockchain’s immutability and the supposed self-regulation of smart contracts.
+Some of the Ethereum network refused to follow the DAO hard fork, resulting in a divergent blockchain where the DAO hack was successful. 
+This created the Ethereum Classic cryptocurrency, which shares the same history as Ethereum up to the DAO hack, but is completely independent after that point.
+
+<h4>Governance in Hyperledger Frameworks</h4>
+Hyperledger was introduced as an open source blockchain project sanctioned by the Linux Foundation. 
+Spearheaded by Brian Behlendorf, its mission is to provide the community with the tools and education to foster distributed ledger technology on an enterprise level. Hyperledger frameworks use an Open Governance model to make technical decisions regarding the Hyperledger environment.
+The Hyperledger Technical Steering Committee (TSC) is the final authority for technical decisions in Hyperledger.
+Each year, the Hyperledger Technical Steering Committee is selected from the Hyperledger environment’s active contributors and maintainers.
+Contributors and maintainers can submit themselves as potential candidates for the fifteen slots, and the slots are filled based on voting by the same group of contributors and maintainers.
+This model is designed to allow those with an active role in the Hyperledger development community to have a say in how that community is governed.
 
 #### Governance in Corda
 Corda is an open source blockchain project designed for business. Developed by R3, an enterprise blockchain software firm, in collaboration with over 200 technology and industry partners. The Corda platform was launched in September of 2017. Corda also uses an Open Governance model to make technical decisions regarding the future of the blockchain. The Corda Network Governing Body is selected to represent the interests of all users in the Corda network.
@@ -3063,7 +3115,7 @@ open source blockchain platforms.
 Application builder.
 
 <p align="center" width="100%">
-  <img width="75%" src="https://github.com/bbauska/LFS170x/blob/main/images/image116.png?raw=true"
+  <img width="75%" src="/images/image116.png?raw=true"
     alt="ConsenSys Mesh companies"</>
 </p>
 
@@ -3071,14 +3123,14 @@ Application builder.
 Hyperledger Greenhouse is a graphical representation of the blockchains tools and libraries hosted by the Linux Foundation:
 
 <p align="center" width="100%">
-  <img width="85%" src="https://github.com/bbauska/LFS170x/blob/main/images/image117.jpg?raw=true"
+  <img width="85%" src="/images/image117.jpg?raw=true"
     alt="Hyperledger Greenhouse"</>
 </p>
 
 Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger distributed ledgers and libraries on the Hyperledger website.
  
 <p align="center" width="100%">
-  <img width="100%" src="https://github.com/bbauska/LFS170x/blob/main/images/image118.jpg?raw=true"
+  <img width="100%" src="/images/image118.jpg?raw=true"
     alt="Hyperledger website"</>
 </p>
 
@@ -3095,7 +3147,7 @@ They allow you to deploy your application using distributed ledgers, blockchains
 It is a cloud service that enables rapid distributed application deployment with an always available, easy-to-use, fully managed cloud environment.
 
 <p align="center" width="100%">
-  <img width="50%" src="https://github.com/bbauska/LFS170x/blob/main/images/image119.png?raw=true"
+  <img width="50%" src="/images/image119.png?raw=true"
     alt="A daml logo"</>
 </p>
 
@@ -3104,7 +3156,7 @@ SIMBA Chain, Inc. was formed in 2017 from a grant awarded by the Defense Advance
 SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). These apps allow secure, direct connections between users and providers, eliminating third parties. The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
 
 <p align="center" width="100%">
-  <img width="50%" src="https://github.com/bbauska/LFS170x/blob/main/images/image120.png?raw=true"
+  <img width="50%" src="/images/image120.png?raw=true"
     alt="Simba logo"</>
 </p>
 
@@ -3115,7 +3167,7 @@ The interface allows users to easily build a graph of the relationships between 
 This graphical model is then converted to Solidity where each asset and transaction becomes a Solidity Smart Contract method that can be executed on the blockchain.
 
 <p align="center" width="100%">
-  <img width="50%" src="https://github.com/bbauska/LFS170x/blob/main/images/image121.png?raw=true"
+  <img width="50%" src="/images/image121.png?raw=true"
     alt="Simba - Software as a service"</>
 </p>
 
@@ -3130,7 +3182,7 @@ To learn more, we recommend that you listen the "Digital Trust: How the OrgBook 
 Marketplaces exist to shop renewable energies to make sustainable solutions available on open markets. Everyone knows there are countless inefficiencies in the energy grid, stemming from the highly centralized nature of our utilities systems. With the advent of at-home energy production and storage through affordable solar panels and home batteries, many users are storing energy surpluses at home without a way to “sell” clean energy.
 
 <p align="center" width="100%">
-  <img width="50%" src="https://github.com/bbauska/LFS170x/blob/main/images/image122.jpg?raw=true"
+  <img width="50%" src="/images/image122.jpg?raw=true"
     alt="Clean energy logo"</>
 </p>
 
@@ -3158,7 +3210,7 @@ Below you can see themusicianmarketplace.com dashboard:
 **[`^        back to top        ^`](#table-of-contents)**
 
 <p align="center" width="100%">
-  <img width="50%" src="https://github.com/bbauska/LFS170x/blob/main/images/image123.jpg?raw=true"
+  <img width="50%" src="/images/image123.jpg?raw=true"
     alt="musicianmarketplace.com"</>
 </p>
 
