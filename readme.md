@@ -171,15 +171,15 @@ Websites let users generate content, social networks became part of our lives.
 
 <h4>Use Case: Music Sharing Companies</h4>
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image007.png?raw=true" "Napster" width="200" >
+<img src="/images/image007.png?raw=true" "Napster" width="200" >
 &nbsp;
 
-Approach: Music stored on many computers connected peer-to-peer. 
+Approach: Music stored on many computers connected peer-to-peer.
 Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.
 Result: The industry cracks down music sharing companies copyright infringement.
 Napster is forced to take down its index, shutting down the platform.
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image008.png?raw=true" "Napster" width="200" >
+<img src="/images/image008.png?raw=true" "Napster" width="200" >
 &nbsp;
 
 Approach: Music stored on many computers connected peer-to-peer. 
@@ -204,7 +204,7 @@ Bitcoin is the first widely accepted application for the Internet of Value (just
 **[`^        back to top        ^`](#table-of-contents)**
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image009.png?raw=true" "Crypto, electronically transferring value" width="200" >
+<img src="/images/image009.png?raw=true" "Crypto, electronically transferring value" width="200" >
 &nbsp;
 
 <h5>Cryptocurrencies, Electronically Transferring Value</h5>
@@ -290,7 +290,7 @@ Smart contracts will revolutionize how we do business.
 There are so many possibilities with blockchain; not just in the now, but with things we haven't begun to think about yet.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image010.png?raw=true" "Bitcoin logo" width="200" >
+<img src="/images/image010.png?raw=true" "Bitcoin logo" width="200" >
 &nbsp;
 
 <h5>Blockchain Is NOT Bitcoin</h5>
@@ -309,14 +309,14 @@ According to Investopedia,
 > The dollar is an example of the United States fiat currency”.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image011.png?raw=true" "Government building" width="200" >
+<img src="/images/image011.png?raw=true" "Government building" width="200" >
 &nbsp;
 
 Apart from the government issuing Fiat, a centralized authority needs to keep track of assets. 
 Banks, credit card companies’ stockbrokers are companies that represent a centralized authority that controls your money.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image012.png?raw=true" "Bank building" width="200" >
+<img src="/images/image012.png?raw=true" "Bank building" width="200" >
 &nbsp;
 
 Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. 
@@ -324,7 +324,7 @@ If you have an Internet connection and a Bitcoin wallet application, you can rec
 Cryptocurrencies like Bitcoin have value because it can be proven with math. Unlike banks offering centralized services, you are responsible for your cryptocurrency.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image013.png?raw=true" "Key, keyboard" width="200" >
+<img src="/images/image013.png?raw=true" "Key, keyboard" width="200" >
 &nbsp;
 
 Bitcoin and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology.
@@ -335,7 +335,7 @@ There are many more use cases that utilize blockchain technology far reaching th
 **[`^        back to top        ^`](#table-of-contents)**
   
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image014.png?raw=true" "Blockchain files" width="200" >
+<img src="/images/image014.png?raw=true" "Blockchain files" width="200" >
 &nbsp;
 
 <h4>Blockchain - Let’s Cover the Basics</h4>
@@ -370,7 +370,7 @@ So, while most of what we're recording today are financial transactions, we coul
 So that if you go back and try and change any data on any page anywhere in this notebook, you break a link in a very obvious and easy-to-determine way.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image015.png?raw=true" "Notebook page, block on a blockchain" width="200" >
+<img src="/images/image015.png?raw=true" "Notebook page, block on a blockchain" width="200" >
 &nbsp;
 
 Let’s Review an Analogy: Data Stored
@@ -380,21 +380,21 @@ Any data can be stored on the same block. Examples of stored data include:
   - Voting
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image016.png?raw=true" "Data stored on block" width="200" >
+<img src="/images/image016.png?raw=true" "Data stored on block" width="200" >
 &nbsp;
 
 Let’s Review an Analogy: Blocks Are Chained Together
 Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image017.png?raw=true" "Blockchains are chained together" width="200" >
+<img src="/images/image017.png?raw=true" "Blockchains are chained together" width="200" >
 &nbsp;
 
 Let’s Review an Analogy: Blockchain Is Immutable
 If the data is tampered with anywhere in the chain, the links will break in a very obvious way:
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image018.png?raw=true" "Blockchain is immutable" width="200" >
+<img src="/image018.png?raw=true" "Blockchain is immutable" width="200" >
 &nbsp;
  
 This provides immutability and security.
@@ -403,7 +403,7 @@ Blockchain is a combination of several other underlying technologies that have n
 Here are some features that make this new technology so revolutionary.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image019.png?raw=true" "Blockchain features - distributed ledger" width="200" >
+<img src="/images/image019.png?raw=true" "Blockchain features - distributed ledger" width="200" >
 &nbsp;
 
 <h5>Blockchain Features: Distributed Ledger</h5>
@@ -426,7 +426,7 @@ A full node contains a copy of the blockchain protocol, transaction history of t
 User node interacts with the ledger. With blockchain technology, a lack of a centralized authority is replaced with a peer-to-peer network.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image020.png?raw=true" "Blockchain networks can be public or private" width="200" >
+<img src="/images/image020.png?raw=true" "Blockchain networks can be public or private" width="200" >
 &nbsp;
 
 Blockchain networks can be public or private. A public blockchain is open to anyone with an internet connection and the appropriate application. 
@@ -445,7 +445,7 @@ In order for the blocks to be added, all the nodes in the system come to agree a
 Since there is no central authority telling the nodes which transactions are valid, a new way to reach agreement or come to consensus is needed.
  
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image021.png?raw=true" "All agree to transaction" width="200" >
+<img src="/images/image021.png?raw=true" "All agree to transaction" width="200" >
 &nbsp;
 
 The way in which each blockchain comes to consensus is built into the protocol, they are the rules built into the code that determine how the nodes will add ledger transactions.
@@ -604,7 +604,7 @@ There are lots of very interesting use cases for blockchain in the real world ri
 
 I would encourage all of you to dig in a little bit more, and see some of the interesting things that are going on with blockchain in healthcare, in public sector, in insurance, in supply chain, value chain and more, see what other folks are doing, and then go out and make your own blockchain dreams a reality.
 
-### Blockchain Users: Business to Consumer (B2C)
+### __Blockchain Users: Business to Consumer (B2C)__
 A Business to Consumer (B2C) is business or transactions conducted directly between a company and consumers who are the end-users of its products or services. Services being provided to the consumer is an area of interest to companies. Benefits to the consumer are transparency to the consumer, accountability from suppliers, ethical sourcing validation, labor verification and an immutable shared view.
 
 <p align="center">
@@ -613,7 +613,8 @@ A Business to Consumer (B2C) is business or transactions conducted directly betw
 
 Vertical markets see the advantage to the transparency feature in blockchain. Financials, logistics, charity funding, agriculture and ethical sourcing tracking are all markets leveraging blockchain to offer new insights to the customer.
 
-### Real World Example of Supply Chain Business to Consumer
+### __Real World Example of Supply Chain Business to Consumer__
+
 #### Use Case: Diamond Tracing
 
 <p align="center">
@@ -623,29 +624,30 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
 Approach: The blockchain collaboration, known as TrustChainTM, will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.
 Result: The jewelry industry can now track and authenticate diamonds and precious metals through every stage of the supply chain. Blockchain provides physical product verification, process verification and servers as an ethical oversight.
 
-### Blockchain Users: Business to Business (B2B)
+### __Blockchain Users: Business to Business (B2B)__
 With a decentralized approach, blockchain removes the middleman (such as banks and brokers) to facilitate faster and less expensive payments. 
 The shared ledger approach also eliminates the need for multiple paper copies that need to be verified and updated frequently.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image024.png?raw=true" "Business benefits from blockchain" width="200" >
+<img src="/images/image024.png?raw=true" "Business benefits from blockchain" width="200" >
 &nbsp;
 
 Industries like finance, international trade and commerce, food supply chains are taking a serious look at blockchain.
 
-### Real World Example of Business to Business Transaction
+### __Real World Example of Business to Business Transaction__
 
 #### Use Case: Multi-party Invoicing DLT Labs
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image025.png?raw=true" "Walmart Canada & DLT Labs logos" width="200" >
+<img src="/images/image025.png?raw=true" "Walmart Canada & DLT Labs logos" width="200" >
 &nbsp;
 
   •	Approach: DLT Labs along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
   •	Result: Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
 
-#### Unintended Use Cases
+#### __Unintended Use Cases__
 One of the coolest things about blockchain is some of the unintended consequences a good blockchain solution might have.
+&nbsp;
 Let's look at an example.
 Right now, there is a lot of attention being given to how blockchain might be used, in general, for supply chain relationships and, specifically, in the food supply chain.
 Let's pretend that you have a very young child and your child has a serious pesticide allergy.
