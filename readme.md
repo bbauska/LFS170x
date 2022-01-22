@@ -113,7 +113,7 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 <!------------------------------------------------------------------------------------------------------------------------->
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image003.png?raw=true" "WWW logo" width="200" >
+<img src="/images/image003.png?raw=true" "WWW logo" width="200" >
   
 &nbsp;
 
@@ -147,7 +147,7 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 **[`^        back to top        ^`](#table-of-contents)**
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image005.png?raw=true" "Netscape" width="200" >
+<img src="/images/image005.png?raw=true" "Netscape" width="200" >
 &nbsp;
  
 #### Web 2.0 - Internet of Information
@@ -162,7 +162,7 @@ Data became a commodity collected, siloed and sold; we were giving up our inform
 Websites let users generate content, social networks became part of our lives.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image006.png?raw=true" "Social Networking" width="300" >
+<img src="/images/image006.png?raw=true" "Social Networking" width="300" >
 &nbsp;
 
 <h5>Social Networking</h5>
