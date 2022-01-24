@@ -301,12 +301,11 @@ Let us look at what it means to be a currency.
 
 <h5>Purpose of currency:</h5>
 &nbsp;
-&nbsp;
-  * Medium for exchange
-&nbsp;
-  * Store of value over time
-&nbsp;
-  * Accepted as a measure of worth
+<ul>
+<li>  * Medium for exchange</li>
+<li>  * Store of value over time</li>
+<li>  * Accepted as a measure of worth</li>
+</ul>
 
 According to Investopedia, 
 > “Fiat currency is money a government issues that is not backed by a commodity like gold. 
@@ -345,13 +344,13 @@ There are many more use cases that utilize blockchain technology far reaching th
 &nbsp;
 
 <h4>Blockchain - Let’s Cover the Basics</h4>
-In this section, we're gonna talk about what blockchain is: 
-  * a real simple introduction to the basic concepts and principles behind blockchain.
+In this section, we're gonna talk about what blockchain is:<br>
+   * a real simple introduction to the basic concepts and principles behind blockchain.
 
 When you hear about blockchain, you probably think of new, high-emerging tech.
 Well, really, all blockchain is, is a combination of technologies that have existed for a long time.
 They're simply combined in a new and creative way to give us an amazing new platform on which we can start to build solutions.
-Blockchains are often referred to as digital decentralized ledgers.
+Blockchains are often referred to as **digital decentralized ledgers**.<br>
 And when you think of that, all you can think of is something we're all familiar with: a simple notebook.
 When we talk about blocks and blockchain, all we're really talking about is a page of data.
 We fill up this page with any kind of data imaginable, and, while most of the time today, we're talking about recording financial transactions on this page, or this ledger, or this block, we can record any kind of data we want.
@@ -817,21 +816,25 @@ Some terms that are mentioned in the video we will get familiar with in later ch
 
 ### <a id="ch2-2"></a>2.2 Ledgers and Basic Accounting Systems (Understanding Ledgers)
 To understand how blockchain came about, we must first understand the following key principles:
-  •	Ledgers
-  •	Basic accounting principles in history
+<ul>
+<li>  •	Ledgers</li>
+<li>  •	Basic accounting principles in history</li>
+</ul>
 
-History of Ledgers
-  •	Ledgers first appeared around 3,000 B.C.
-  •	Single-entry only.
-  •	Chanakya, an Indian leader, creates the first documented accounting standards.
-  •	Double-entry ledger appears in 1340 A.D.
-  •	Tracks debits and credits.
-  •	Tells the story of a transaction from both/all sides.
-  •	The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.
-  •	Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.
-  •	Debits, credits, and an immutable link to all past debits and credits.
-  •	Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).
-  •	Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.
+<h5>History of Ledgers</h5>
+<ul>
+<li>  •	Ledgers first appeared around 3,000 B.C.</li>
+<li>  •	Single-entry only.</li>
+<li>  •	Chanakya, an Indian leader, creates the first documented accounting standards.</li>
+<li>  •	Double-entry ledger appears in 1340 A.D.</li>
+<li>  •	Tracks debits and credits.</li>
+<li>  •	Tells the story of a transaction from both/all sides.</li>
+<li>  •	The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.</li>
+<li>  •	Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
+<li>  •	Debits, credits, and an immutable link to all past debits and credits.</li>
+<li>  •	Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).</li>
+<li>  •	Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.</li>
+</ul>
 
 #### History of Ledgers (Triple-Entry Example)
 As described in the Reddit post, 
