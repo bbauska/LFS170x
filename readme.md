@@ -353,6 +353,7 @@ Well, really, all blockchain is, is a combination of technologies that have exis
 They're simply combined in a new and creative way to give us an amazing new platform on which we can start to build solutions.
 </p>
 <span style="background-color: #FFFF00">Blockchains are often referred to as <b>digital decentralized ledgers</b>.</span>
+<br>
 <p>
 And when you think of that, all you can think of is something we're all familiar with: a simple notebook.
 When we talk about blocks and blockchain, all we're really talking about is a page of data.
@@ -385,31 +386,31 @@ So, while most of what we're recording today are financial transactions, we coul
 So that if you go back and try and change any data on any page anywhere in this notebook, you break a link in a very obvious and easy-to-determine way.
 
 <p align="center">
-<img src="/images/image015.png?raw=true" "Notebook page, block on a blockchain" width="200" >
+<img src="/images/image015.png?raw=true" "Notebook page, block on a blockchain" width="400" >
 &nbsp;
 
-Let’s Review an Analogy: Data Stored
+<b5>Let’s Review an Analogy: Data Stored</b5>
 Any data can be stored on the same block. Examples of stored data include:
   - Medical records
   - Property agreements
   - Voting
 
 <p align="center">
-<img src="/images/image016.png?raw=true" "Data stored on block" width="200" >
+<img src="/images/image016.png?raw=true" "Data stored on block" width="650" >
 &nbsp;
 
-Let’s Review an Analogy: Blocks Are Chained Together
+<h5>Let’s Review an Analogy: Blocks Are Chained Together</h5>
 Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
 
 <p align="center">
 <img src="/images/image017.png?raw=true" "Blockchains are chained together" width="400" >
 &nbsp;
 
-Let’s Review an Analogy: Blockchain Is Immutable
-If the data is tampered with anywhere in the chain, the links will break in a very obvious way:
+<h5>Let’s Review an Analogy: Blockchain Is Immutable</h5>
+If the data is tampered with anywhere in the chain, the links will break in a very obvious way.
 
 <p align="center">
-<img src="/image018.png?raw=true" "Blockchain is immutable" width="400" >
+<img src="/image018.png?raw=true" "Blockchain is immutable" width="650" >
 &nbsp;
  
 This provides immutability and security.
@@ -460,7 +461,7 @@ In order for the blocks to be added, all the nodes in the system come to agree a
 Since there is no central authority telling the nodes which transactions are valid, a new way to reach agreement or come to consensus is needed.
  
 <p align="center">
-<img src="/images/image021.png?raw=true" "All agree to transaction" width="200" >
+<img src="/images/image021.png?raw=true" "All agree to transaction" width="400" >
 &nbsp;
 
 The way in which each blockchain comes to consensus is built into the protocol, they are the rules built into the code that determine how the nodes will add ledger transactions.
