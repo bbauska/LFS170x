@@ -352,7 +352,7 @@ When you hear about blockchain, you probably think of new, high-emerging tech.
 Well, really, all blockchain is, is a combination of technologies that have existed for a long time.
 They're simply combined in a new and creative way to give us an amazing new platform on which we can start to build solutions.
 </p>
-<h5>Blockchains are often referred to as **digital decentralized ledgers**.<br></h5>
+<span style="background-color: #FFFF00">Blockchains are often referred to as <b>digital decentralized ledgers</b>.</span>
 <p>
 And when you think of that, all you can think of is something we're all familiar with: a simple notebook.
 When we talk about blocks and blockchain, all we're really talking about is a page of data.
@@ -402,14 +402,14 @@ Let’s Review an Analogy: Blocks Are Chained Together
 Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
 
 <p align="center">
-<img src="/images/image017.png?raw=true" "Blockchains are chained together" width="200" >
+<img src="/images/image017.png?raw=true" "Blockchains are chained together" width="400" >
 &nbsp;
 
 Let’s Review an Analogy: Blockchain Is Immutable
 If the data is tampered with anywhere in the chain, the links will break in a very obvious way:
 
 <p align="center">
-<img src="/image018.png?raw=true" "Blockchain is immutable" width="200" >
+<img src="/image018.png?raw=true" "Blockchain is immutable" width="400" >
 &nbsp;
  
 This provides immutability and security.
@@ -418,7 +418,7 @@ Blockchain is a combination of several other underlying technologies that have n
 Here are some features that make this new technology so revolutionary.
 
 <p align="center">
-<img src="/images/image019.png?raw=true" "Blockchain features - distributed ledger" width="200" >
+<img src="/images/image019.png?raw=true" "Blockchain features - distributed ledger" width="400" >
 &nbsp;
 
 <h5>Blockchain Features: Distributed Ledger</h5>
@@ -441,7 +441,7 @@ A full node contains a copy of the blockchain protocol, transaction history of t
 User node interacts with the ledger. With blockchain technology, a lack of a centralized authority is replaced with a peer-to-peer network.
 
 <p align="center">
-<img src="/images/image020.png?raw=true" "Blockchain networks can be public or private" width="200" >
+<img src="/images/image020.png?raw=true" "Blockchain networks can be public or private" width="400" >
 &nbsp;
 
 Blockchain networks can be public or private. A public blockchain is open to anyone with an internet connection and the appropriate application. 
@@ -623,7 +623,7 @@ I would encourage all of you to dig in a little bit more, and see some of the in
 A Business to Consumer (B2C) is business or transactions conducted directly between a company and consumers who are the end-users of its products or services. Services being provided to the consumer is an area of interest to companies. Benefits to the consumer are transparency to the consumer, accountability from suppliers, ethical sourcing validation, labor verification and an immutable shared view.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image022.png?raw=true" "Consumer benefits from blockchain" width="200" >
+<img src="/images/image022.png?raw=true" "Consumer benefits from blockchain" width="400" >
 &nbsp;
 
 Vertical markets see the advantage to the transparency feature in blockchain. Financials, logistics, charity funding, agriculture and ethical sourcing tracking are all markets leveraging blockchain to offer new insights to the customer.
@@ -633,7 +633,7 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
 #### Use Case: Diamond Tracing
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image023.png?raw=true" "Trustchain logo" width="200" >
+<img src="/images/image023.png?raw=true" "Trustchain logo" width="400" >
 &nbsp;
 
 Approach: The blockchain collaboration, known as TrustChainTM, will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.
@@ -644,7 +644,7 @@ With a decentralized approach, blockchain removes the middleman (such as banks a
 The shared ledger approach also eliminates the need for multiple paper copies that need to be verified and updated frequently.
 
 <p align="center">
-<img src="/images/image024.png?raw=true" "Business benefits from blockchain" width="200" >
+<img src="/images/image024.png?raw=true" "Business benefits from blockchain" width="400" >
 &nbsp;
 
 Industries like finance, international trade and commerce, food supply chains are taking a serious look at blockchain.
@@ -654,7 +654,7 @@ Industries like finance, international trade and commerce, food supply chains ar
 #### Use Case: Multi-party Invoicing DLT Labs
 
 <p align="center">
-<img src="/images/image025.png?raw=true" "Walmart Canada & DLT Labs logos" width="200" >
+<img src="/images/image025.png?raw=true" "Walmart Canada & DLT Labs logos" width="400" >
 &nbsp;
 
   •	Approach: DLT Labs along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
@@ -694,7 +694,7 @@ Blockchain Users: Government to Consumer (G2C)/Government to Government (G2G)
 The public sector is the part of the economy composed of both public sector and private sector enterprises that are operating on behalf of the public. It is the business of taking care of the people. Public sector includes all government, military, police, public health and welfare, infrastructure, etc. Public sector organizations leverage blockchain technology to move away from siloed and inefficient centralized systems. Current systems are inherently insecure and costly, with duplicated and in-efficient workflows. Blockchain networks offer more secure, agile, and cost-effective structures.
 
 <p align="center">
-<img src="https://github.com/bbauska/LFS170x/blob/main/images/image026.png?raw=true" "Government benefits from blockchain" width="200" >
+<img src="/images/image026.png?raw=true" "Government benefits from blockchain" width="400" >
 &nbsp;
 
 #### Dubai Use Case
@@ -3031,7 +3031,8 @@ Blockchain benefits of security, efficiency and speed have government leaders re
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. Watch these additional resources to learn more about the Smart Dubai initiative, "Smart Dubai's Paperless Strategy" and "Happy Cities Forum 2019".
+One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. 
+Watch these additional resources to learn more about the Smart Dubai initiative, "Smart Dubai's Paperless Strategy" and "Happy Cities Forum 2019".
 
   <p align="center" width="100%">
   <img width="50%" src="/images/image107.png?raw=true"
