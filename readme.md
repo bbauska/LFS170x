@@ -300,7 +300,6 @@ Bitcoin has no borders and was created as a decentralized payment system, an alt
 Let us look at what it means to be a currency.
 
 <h5>Purpose of currency:</h5>
-&nbsp;
 <ul>
 <li>  * Medium for exchange</li>
 <li>  * Store of value over time</li>
@@ -345,27 +344,38 @@ There are many more use cases that utilize blockchain technology far reaching th
 
 <h4>Blockchain - Let’s Cover the Basics</h4>
 In this section, we're gonna talk about what blockchain is:<br>
-   * a real simple introduction to the basic concepts and principles behind blockchain.
-
+<ul>
+<li>* a real simple introduction to the basic concepts and principles behind blockchain.</li>
+</ul>
+<p>
 When you hear about blockchain, you probably think of new, high-emerging tech.
 Well, really, all blockchain is, is a combination of technologies that have existed for a long time.
 They're simply combined in a new and creative way to give us an amazing new platform on which we can start to build solutions.
-Blockchains are often referred to as **digital decentralized ledgers**.<br>
+</p>
+<h5>Blockchains are often referred to as **digital decentralized ledgers**.<br></h5>
+<p>
 And when you think of that, all you can think of is something we're all familiar with: a simple notebook.
 When we talk about blocks and blockchain, all we're really talking about is a page of data.
 We fill up this page with any kind of data imaginable, and, while most of the time today, we're talking about recording financial transactions on this page, or this ledger, or this block, we can record any kind of data we want.
 In fact, you can think of a block as being exactly like this piece of paper, in that the paper doesn't know or care what kind of information you're recording on it.
 And just like the paper doesn't know or care, neither does the block in a blockchain.
+</p>
+<p>
 While most of what we're recording today are financial transactions, we could also record things like voting records and results, land titling, medical records, or even the opening notes to a Beethoven symphony.
 What makes this blockchain notebook incredibly powerful is that all the pages are linked together.
 That if I go back and try and change any data on any page anywhere in this notebook, I break a link in a very obvious and easy-to-determine way.
 This gives blockchain a key property known as immutability.
 And it's what gives blockchain the security that we've come to know and depend on.
+</p>
+<p>
 Blockchains also give us an incredible technology called smart contracts, which allow us to programmatically define the rules and steps that should be performed any time a certain type of event is recorded in our blockchain or in our magic notebook.
 When you think about blockchain, don't get intimidated thinking it's something high tech, and new, and cutting-edge.
 It's simply a new and creative way of combining old ideas together to give us an incredible new solutions platform.
+</p>
+<p>
 And the rest of this series will take a deeper dive into these basic concepts and principles, but if the idea of this unchangeable linked notebook makes sense, congratulations!
 You already understand all the major principles and concepts required to understand what blockchain is and why it's so powerful.
+</p>
 
 <h5>Let’s Review an Analogy</h5>
 A block on a blockchain can be thought of much like a page in a notebook. Data is stored on a block, just like data is written on a page of a notebook. 
