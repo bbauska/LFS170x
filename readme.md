@@ -3034,7 +3034,7 @@ We'll make sure that all stakeholders work together for a safer and better food 
 Blockchain is transforming the healthcare industry. Some challenges the healthcare industry faces are counterfeit drugs, siloed data, health record management to name a few. Blockchain can solve these issues with interoperability, data integrity and security. Let's look at some solutions.
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image101.png?raw=true"
+  <img width="25%" src="/images/image101.jpg?raw=true"
     alt="Moderna logo"</>
 </p>
   
@@ -3042,14 +3042,14 @@ Moderna uses blockchain to support smart COVID vaccine management. To learn more
 
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image102.png?raw=true"
+  <img width="25%" src="/images/image102.png?raw=true"
     alt="SAP logo"</>
 </p>
 
 SAP has an existing solution unrelated to blockchain called Advanced Track and Trace for Pharmaceuticals (ATTP) which generates the unique identifiers. To further explore this solution read the following article by Nicky Morris "SAP Leads Pharma Supply Chain Blockchain" and watch "Verifying Pharmaceutical Products Using Blockchain" video. 
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image103.png?raw=true"
+  <img width="25%" src="/images/image103.png?raw=true"
     alt="Pfizer logo"</>
 </p>
 
@@ -3059,7 +3059,7 @@ Also, Pfizer has been using blockchain in transparent clinical trials. You can l
 Reduction of settlement times will improve the flow of money through fintech companies.
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image104.jpg?raw=true"
+  <img width="25%" src="/images/image104.jpg?raw=true"
     alt="Swiss exchange logo (SIX)"</>
 </p>
 
@@ -3069,7 +3069,7 @@ Swiss Exchange, SIX has a solution that solves the issue in the trade markets of
 Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. In a paper from Andrea Frosinini, "Reshaping Trade Finance: Towards a “New” Letter of Credit", he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image105.png?raw=true"
+  <img width="25%" src="/images/image105.png?raw=true"
     alt="Voltron logo"</>
 </p>
 
@@ -3127,7 +3127,7 @@ According to the "7 Ways Blockchain Can Be Used for Social Good" article by Kayl
   - Supply chain and environmental protections
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image110.jpg?raw=true"
+  <img width="25%" src="/images/image110.jpg?raw=true"
     alt="Kiva logo"</>
 </p>
  
@@ -3157,7 +3157,7 @@ The platform will tap into the potential of the Rohingya community and other mar
 The Giving Chain is a grassroots Social Impact project designed to improve disaster relief efforts as well as open up new pathways for local charity giving.
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image114.png?raw=true"
+  <img width="25%" src="/images/image114.png?raw=true"
     alt="Charity logo"</>
 </p>
 
@@ -3219,7 +3219,7 @@ They allow you to deploy your application using distributed ledgers, blockchains
 It is a cloud service that enables rapid distributed application deployment with an always available, easy-to-use, fully managed cloud environment.
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image119.png?raw=true"
+  <img width="25%" src="/images/image119.png?raw=true"
     alt="A daml logo"</>
 </p>
 
@@ -3228,7 +3228,7 @@ SIMBA Chain, Inc. was formed in 2017 from a grant awarded by the Defense Advance
 SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). These apps allow secure, direct connections between users and providers, eliminating third parties. The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image120.png?raw=true"
+  <img width="25%" src="/images/image120.png?raw=true"
     alt="Simba logo"</>
 </p>
 
@@ -3239,7 +3239,7 @@ The interface allows users to easily build a graph of the relationships between 
 This graphical model is then converted to Solidity where each asset and transaction becomes a Solidity Smart Contract method that can be executed on the blockchain.
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image121.png?raw=true"
+  <img width="75%" src="/images/image121.png?raw=true"
     alt="Simba - Software as a service"</>
 </p>
 
@@ -3254,7 +3254,7 @@ To learn more, we recommend that you listen the "Digital Trust: How the OrgBook 
 Marketplaces exist to shop renewable energies to make sustainable solutions available on open markets. Everyone knows there are countless inefficiencies in the energy grid, stemming from the highly centralized nature of our utilities systems. With the advent of at-home energy production and storage through affordable solar panels and home batteries, many users are storing energy surpluses at home without a way to “sell” clean energy.
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image122.jpg?raw=true"
+  <img width="25%" src="/images/image122.jpg?raw=true"
     alt="Clean energy logo"</>
 </p>
 
@@ -3274,7 +3274,7 @@ In fact, gaming and eSports will likely become one of the major markets as the u
 </p>
 
 To learn more, visit the Game Developers Conference's website.
-Decentraland [Developers Conference website](https://gdconf.com/)
+[Developers Conference website](https://gdconf.com/)
 
 Decentraland is a virtual world built on top of the Ethereum blockchain. A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br> 
 Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).<br>
@@ -3284,15 +3284,18 @@ Watch this video to learn more about Decentraland [Decentraland](https://www.you
 ### Music
 Experts from Statista projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
 
-Read <blockquote>"Blockchain for the Music Industry: 9 Possible Use Cases"</blockquote> by Sam Mire to learn more.
-<i>themusicianmarketplace.com</i> was built to establish one profile for each artist, but each artist can list talents for any job they want. For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place.
+Read <blockquote>"Blockchain for the Music Industry: 9 Possible Use Cases"</blockquote> by Sam Mire to learn more.<br>
+<i>themusicianmarketplace.com</i> was built to establish one profile for each artist, but each artist can list talents for any job they want. <br>
+For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place.
+
 The options on themusicianmarketplace.com are unlimited. 
+
 Below you can see themusicianmarketplace.com dashboard: 
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image123.jpg?raw=true"
+  <img width="85%" src="/images/image123.jpg?raw=true"
     alt="musicianmarketplace.com"</>
 </p>
 
