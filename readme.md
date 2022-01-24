@@ -396,7 +396,7 @@ Any data can be stored on the same block. Examples of stored data include:
   - Voting
 
 <p align="center">
-<img src="/images/image016.png?raw=true" "Data stored on block" width="650" >
+<img src="/images/image016.png?raw=true" "Data stored on block" width="400" >
 &nbsp;
 
 <h5>Let’s Review an Analogy: Blocks Are Chained Together</h5>
@@ -410,7 +410,7 @@ Each block is chained or tied to the previous block by embedding the block with 
 If the data is tampered with anywhere in the chain, the links will break in a very obvious way.
 
 <p align="center">
-<img src="/image018.png?raw=true" "Blockchain is immutable" width="650" >
+<img src="/image18.png?raw=true" "Blockchain is immutable" width="650" >
 &nbsp;
  
 This provides immutability and security.
@@ -419,7 +419,7 @@ Blockchain is a combination of several other underlying technologies that have n
 Here are some features that make this new technology so revolutionary.
 
 <p align="center">
-<img src="/images/image019.png?raw=true" "Blockchain features - distributed ledger" width="400" >
+<img src="/images/image019.png?raw=true" "Blockchain Features - distributed ledger" width="400" >
 &nbsp;
 
 <h5>Blockchain Features: Distributed Ledger</h5>
@@ -645,7 +645,7 @@ With a decentralized approach, blockchain removes the middleman (such as banks a
 The shared ledger approach also eliminates the need for multiple paper copies that need to be verified and updated frequently.
 
 <p align="center">
-<img src="/images/image024.png?raw=true" "Business benefits from blockchain" width="400" >
+<img src="/images/image024.png?raw=true" "Business benefits from blockchain" width="200" >
 &nbsp;
 
 Industries like finance, international trade and commerce, food supply chains are taking a serious look at blockchain.
@@ -713,25 +713,27 @@ Real World Example of Public Sector Government to Government/Citizens
 #### Use Case: Public Sector - Smart Dubai
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.png" width="400" "Smart Dubai" >
-  • Approach: To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful. The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership
-  • Result: By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. When successful, Dubai will be the first blockchain-powered government driving the future economy.
+&nbsp;
+
+   • Approach: To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful. The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership
+   • Result: By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. When successful, Dubai will be the first blockchain-powered government driving the future economy.
 More Use Cases
 Blockchain is having far reaching effects in major industries. Let’s take a look at three major industries having a positive influence from this new way to organize our information:
-  • Supply chain
+   • Supply chain
 Blockchain is used in supply chains to gain transparency and traceability. This has a special advantage for global health when used in traceability to the food supply chain. By tracking food on a blockchain, you are building trust into the system through the transparency feature. In the event of a problem, blockchain technology can pinpoint the exact location and cause of a food health issue. By instantly tracing food issues back to the source, all contaminated lots can be tracked and dealt with instantly.
-  • Global trade
+   • Global trade
 Blockchain is making headway in the global trade markets with transparency and immutability that offer new relationships among distrusting parties. Blockchain makes sure all relevant parties have access to the same information. Trade barriers are reduced, from settlement issues, to compliance and regulation, information is being shared and accessed in new secure ways. A distributed ledger technology (DLT) opens up a new avenue for securely sharing data that guarantees accuracy while removing banks as deal facilitators. Smart contract and microfinancing alternatives allow all size companies to seamlessly trade across borders.
-  • Digital identity (self-sovereign identity and verifiable credentials)
+   • Digital identity (self-sovereign identity and verifiable credentials)
 Users of the Internet were all but unaware that all the information given so freely when interacting with companies online, was being stored and sold. Data became a siloed commodity owned by everyone but you. With new blockchain technology, individuals can reclaim their identity information breaking the need for data silos, endless passwords and hackable databases. Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.
 
 ### <a id="ch1-6"></a>1.6 Chapter Summary
-In this chapter, we discussed:
-•	The history of the Internet and how blockchain technology relies on Internet technology as the foundation for building the future of the blockchain evolution.
-•	The difference between blockchain and Bitcoin.
-•	How blockchain functions.
-•	Blockchain concepts and characteristics: distributed ledger, peer to peer, transparent, consensus, encryption, immutability, programmable.
-•	Blockchain users and their roles.
-•	Emerging general use cases.
+In this chapter, we discussed:   
+   • The history of the Internet and how blockchain technology relies on Internet technology as the foundation for building the future of the blockchain evolution.
+   • The difference between blockchain and Bitcoin.
+   • How blockchain functions.
+   • Blockchain concepts and characteristics: distributed ledger, peer to peer, transparent, consensus, encryption, immutability, programmable.
+   • Blockchain users and their roles.
+   • Emerging general use cases.
 
 ## <a id="ch2"></a>Chapter 2. Blockchain Mechanics
 Chapter Overview
@@ -739,42 +741,44 @@ In this chapter, we will discuss distributed ledger technology, some of its basi
 Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure. We will examine how this agreed-upon, append-only distributed ledger guarantees transparency and immutability, where trust in the information contained in the ledger is a given.
 ### Learning Objectives
 By the end of this chapter, you should be able to:
-•	Discuss how cryptography allows for distributed ledgers to work on a global scale.
-•	Explain how blockchain is using cryptography.
-•	Define key terms of cryptography and understand basic concepts.
-•	Explain the concept of zero-knowledge proofs (ZKPs) and Merkle trees and how they are used in blockchain technologies.
-•	Discuss how blockchain utilizes transparency.
-•	Explain what it means for blockchains to be immutable and how chaining provides this capability.
+   • Discuss how cryptography allows for distributed ledgers to work on a global scale.<br>
+   • Explain how blockchain is using cryptography.<br>
+   • Define key terms of cryptography and understand basic concepts.<br>
+   • Explain the concept of zero-knowledge proofs (ZKPs) and Merkle trees and how they are used in blockchain technologies.<br>
+   • Discuss how blockchain utilizes transparency.
+   • Explain what it means for blockchains to be immutable and how chaining provides this capability.
 
 ### <a id="ch2-1"></a>2.1 Introduction to Blockchain Components
-In this section, we're going to discuss the core components of the blockchain, starting with a high-level view of the blockchain components.
-The first blockchain component that we're going to look at it's the ledger.
-However, before we discuss the ledger, let's discuss briefly the history of the ledger.
-The story of blockchain is tightly coupled with the story of accounting.
-Historically, humans started off with no way to prove ownership and we began with a single entry accounting system.
-The single entry accounting system for the first time in human history allowed us to prove ownership of the asset.
-The ledger was associated with an owner.
-The single entry accounting worked for centuries.
-The issue with single entry accounting is that it mandated that there was a single authority, which is the reason why there was the necessity for a king or a queen to control the ledger.
-In order to have trade, right, at the international level, we needed to have at least two authorities.
-For instance, for England to do trade with France, we had the owner of the ledger, the single entry ledger, in England for instance, doing trade with the king or queen of France, who also had their ledger.
-And so, we needed a new form of accounting, and that's where double entry accounting came in, which was in use up until very recently, now, within the last 40 years.
-What blockchain is? Blockchain is the very first implementation of triple entry accounting, where we have an asset being recorded on the ledger in the context of a transaction.
-The third entry and triple entry accounting is cryptography, where we have a cryptographic account of the transaction stored permanently and immutably on the ledger.
-That's what the ledger is. A ledger is a collection of transactions.
-It is not a collection of assets. Assets are part of a transaction, but the ledger records the transaction.
-In blockchain, the differentiator is that no one owns the ledger, or all of the participants own the ledger.
-The ledger is distributed. It is, in other words, it's decentralized. So, there's a copy of the ledger that exists on every node that exists on the network.
-Said simply, the ledger is a distributed immutable record of a collection of transactions.
-Bitcoin is the most popular asset.
+In this section, we're going to discuss the core components of the blockchain, starting with a high-level view of the blockchain components.<br>
+The first blockchain component that we're going to look at it's the ledger.<br>
+However, before we discuss the ledger, let's discuss briefly the history of the ledger.<br>
+The story of blockchain is tightly coupled with the story of accounting.<br>
+Historically, humans started off with no way to prove ownership and we began with a single entry accounting system.<br>
+The single entry accounting system for the first time in human history allowed us to prove ownership of the asset.<br>
+The ledger was associated with an owner.<br>
+The single entry accounting worked for centuries.<br>
+The issue with single entry accounting is that it mandated that there was a single authority, which is the reason why there was the necessity for a king or a queen to control the ledger.<br>
+In order to have trade, right, at the international level, we needed to have at least two authorities.<br>
+For instance, for England to do trade with France, we had the owner of the ledger, the single entry ledger, in England for instance, doing trade with the king or queen of France, who also had their ledger.<br>
+And so, we needed a new form of accounting, and that's where double entry accounting came in, which was in use up until very recently, now, within the last 40 years.<br>
+What blockchain is? Blockchain is the very first implementation of triple entry accounting, where we have an asset being recorded on the ledger in the context of a transaction.<br>
+The third entry and triple entry accounting is cryptography, where we have a cryptographic account of the transaction stored permanently and immutably on the ledger.<br>
+That's what the ledger is. A ledger is a collection of transactions.<br>
+It is not a collection of assets. Assets are part of a transaction, but the ledger records the transaction.<br>
+In blockchain, the differentiator is that no one owns the ledger, or all of the participants own the ledger.<br>
+The ledger is distributed. It is, in other words, it's decentralized. So, there's a copy of the ledger that exists on every node that exists on the network.<br>
+Said simply, the ledger is a distributed immutable record of a collection of transactions.<br>
+Bitcoin is the most popular asset.<br>
 It was the first asset to be recorded as a transaction on a blockchain ledger, and it remains the most popular, at least in terms of market share.
-That's what the ledger is.
+That's what the ledger is.<br>
+<p>
 As we move to more modern blockchains, we start to look at blockchains such as Ethereum, which not only records the asset on the blockchain,
 Ethereum and other public blockchains like Ethereum, they also allow you to have a permanent and immutable collection of code, also known as a smart contract, that runs on the blockchain.
-The ledger stores the assets, the transactions that are on the blockchain, and it also holds the code.
-The code that's stored on the blockchain is a smart contract.
-Again, a smart contract is a program that runs on the blockchain.
-The blockchain is a network.
+The ledger stores the assets, the transactions that are on the blockchain, and it also holds the code.<br>
+The code that's stored on the blockchain is a smart contract.<br>
+Again, a smart contract is a program that runs on the blockchain.<br>
+</p>
+<h5>The blockchain is a network.</h5>
 The blockchain is a ... A public blockchain is equivalent to the Internet, complete with its own set of protocols, etc.
 Private blockchains are more synonymous with an intranet.
 It is... just like we have a use case for public blockchains and public internet, we also have use cases for private blockchains and an intranet, if we're gonna stay with that analogy.
