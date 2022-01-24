@@ -143,7 +143,7 @@ Characteristics of Web 1.0:
 Computers and items for connection became necessities.
 Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
 Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. 
-Companies appeared attempting to cash in on this new technology, most notable was a company called Netscape which developed the first commercial Web browser.
+Companies appeared attempting to cash in on this new technology, most notable was a company called <b>Netscape</b> which developed the first commercial Web browser.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -166,7 +166,7 @@ Websites let users generate content, social networks became part of our lives.
 <img src="/images/image006.png?raw=true" "Social Networking" width="300" >
 &nbsp;
 
-<h5>Social Networking</h5>
+<h5 align="center">>Social Networking</h5>
 
 <h3>Real World Examples of File Sharing</h3>
 
@@ -175,30 +175,34 @@ Websites let users generate content, social networks became part of our lives.
 <img src="/images/image007.png?raw=true" "Napster" width="200" >
 &nbsp;
 
-Approach: Music stored on many computers connected peer-to-peer.
-Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.
-Result: The industry cracks down music sharing companies copyright infringement.
+<b>Approach:</b> Music stored on many computers connected peer-to-peer.
+Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.<br>
+<b>Result:</b> The industry cracks down music sharing companies copyright infringement.
 Napster is forced to take down its index, shutting down the platform.
 <p align="center">
-<img src="/images/image008.png?raw=true" "Napster" width="200" >
+<img src="/images/image008.png?raw=true" "BitTorrent" width="200" >
 &nbsp;
 
-Approach: Music stored on many computers connected peer-to-peer. 
-BitTorrent's software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.
-Result: The industry cracks down music sharing companies copyright infringement. 
+<b>Approach:</b> Music stored on many computers connected peer-to-peer. 
+BitTorrent's software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.<br>
+<b>Result:</b> The industry cracks down music sharing companies copyright infringement. 
+<p>
 BitTorrent is asked to shut down their platform.
 Since they do not control the software once downloaded to a peer, if two computers are running the software sharing can still occur.
 Music sharing companies gave us the first glimpse into peer-to-peer networking.
 Besides copyright infringement, the main challenge for the music sharing companies was file integrity.
+
 You could never be sure the file you requested was the file you would get and there was no one to complain to. 
+
 Both Napster and BitTorrent are operating today, with different business models.
+</p>
 
 #### Web 3.0 - Internet of Value
 Characteristics of Web 3.0:
-  * Community interaction.
-  * More connected, open, and intelligent.
-  * Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.
-  * Identity and information will be held by the individual, breaking data silos.
+   * Community interaction.
+   * More connected, open, and intelligent.
+   * Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.
+   * Identity and information will be held by the individual, breaking data silos.
 
 Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
 
@@ -218,21 +222,21 @@ Let’s now dive into blockchain basics.
 There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
 You've probably heard of it: it's called 'Blockchain!'
 
-But what is it? How does it work? How does it affect you?
-Hearing the word "blockchain" is comparable to hearing the word "internet" in the early 90s.
-It seemed elusive, like something that wasn't going to impact your daily life.
+But what is it? How does it work? How does it affect you?<br>
+Hearing the word "blockchain" is comparable to hearing the word "internet" in the early 90s.<br>
+It seemed elusive, like something that wasn't going to impact your daily life.<br>
 But here we are, more than 20 years later.
 Think about how the Internet has transformed businesses, commerce, communication, even music and video.
 And that's not even touching on how the Internet has affected you.
-We all carry the Internet in our pocket.
-We can transfer money at the touch of a button, check the weather, get directions, and even have food delivered to our door.
-The next technology to have that kind of impact isn't some of the buzzwords you hear.
-It's not big data. It's not artificial intelligence. It's not even social media.
+We all carry the Internet in our pocket.<br>
+We can transfer money at the touch of a button, check the weather, get directions, and even have food delivered to our door.<br>
+The next technology to have that kind of impact isn't some of the buzzwords you hear.<br>
+It's not big data. It's not artificial intelligence. It's not even social media.<br>
 
 It's ***BLOCKCHAIN!***
 
-Now, let's discuss the vast promise blockchain has for every business, every society, and for everyone listening today.
-And let's begin with an example we are all familiar with.
+Now, let's discuss the vast promise blockchain has for every business, every society, and for everyone listening today.<br>
+And let's begin with an example we are all familiar with.<br>
 When you attach a file, a Word document, an Excel sheet, a PDF to an email, you aren't sending an original.
 You are actually sending the recipient a copy, and that's a great way to move information around.
 But it's not so great when it comes to things like money, stocks and bonds, music, loyalty points, intellectual property, tickets to a game or concert.
@@ -3261,17 +3265,27 @@ By increasing the transparency for energy origins, Power Ledger could assist wit
 They accomplish these goals through peer-to-peer energy trading, carbon product trading, microgrids management, and more.
 
 ### Gaming
-The days of video games being just a form of entertainment are long gone. Most of the new video games have in-app purchases and loot box features in them. These features enable users to use real-life currency to buy new skins for their characters and tools. With the use of DeFi, game developers can implement the newer incentive or reward models with DeFi coins. In fact, gaming and eSports will likely become one of the major markets as the users are more tech-savvy and open to newer technologies.
+The days of video games being just a form of entertainment are long gone.>br> 
+Most of the new video games have in-app purchases and loot box features in them. <br>
+These features enable users to use real-life currency to buy new skins for their characters and tools. <br>
+<p>
+With the use of <i>DeFi</i>, game developers can implement the newer incentive or reward models with DeFi coins. 
+In fact, gaming and eSports will likely become one of the major markets as the users are more tech-savvy and open to newer technologies.
+</p>
+
 To learn more, visit the Game Developers Conference's website.
-Decentraland
-Decentraland is a virtual world built on top of the Ethereum blockchain. A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland). Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).
+Decentraland [Developers Conference website](https://gdconf.com/)
+
+Decentraland is a virtual world built on top of the Ethereum blockchain. A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br> 
+Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).<br>
+
 Watch this video to learn more about Decentraland [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).
 
 ### Music
 Experts from Statista projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
 
-Read "Blockchain for the Music Industry: 9 Possible Use Cases" by Sam Mire to learn more.
-themusicianmarketplace.com was built to establish one profile for each artist, but each artist can list talents for any job they want. For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place.
+Read <blockquote>"Blockchain for the Music Industry: 9 Possible Use Cases"</blockquote> by Sam Mire to learn more.
+<i>themusicianmarketplace.com</i> was built to establish one profile for each artist, but each artist can list talents for any job they want. For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place.
 The options on themusicianmarketplace.com are unlimited. 
 Below you can see themusicianmarketplace.com dashboard: 
 
@@ -3317,8 +3331,9 @@ In this chapter, we discussed:
   * Developing new blockchain platforms emerging as the ecosystem evolves.
   * Blockchain and how it will improve human experience.
 
+<pre>
 The end . . .
-© 2021 edX Inc. All rights reserved.
-深圳市恒宇博科技有限公司 粤ICP备17044299号-2
-
+   © 2021 edX Inc. All rights reserved.
+   深圳市恒宇博科技有限公司 粤ICP备17044299号-2
+</pre>
 **[`^        back to top        ^`](#table-of-contents)**
