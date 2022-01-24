@@ -354,6 +354,8 @@ They're simply combined in a new and creative way to give us an amazing new plat
 </p>
 <span style="background-color: #FFFF00">Blockchains are often referred to as <b>digital decentralized ledgers</b>.</span>
 <br>
+&nbsp;
+
 <p>
 And when you think of that, all you can think of is something we're all familiar with: a simple notebook.
 When we talk about blocks and blockchain, all we're really talking about is a page of data.
@@ -403,14 +405,14 @@ Any data can be stored on the same block. Examples of stored data include:
 Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
 
 <p align="center">
-<img src="/images/image017.png?raw=true" "Blockchains are chained together" width="400" >
+<img src="/images/image017.png?raw=true" "Blockchains are chained together" width="650" >
 &nbsp;
 
 <h5>Let’s Review an Analogy: Blockchain Is Immutable</h5>
 If the data is tampered with anywhere in the chain, the links will break in a very obvious way.
 
 <p align="center">
-<img src="/image18.png?raw=true" "Blockchain is immutable" width="650" >
+<img src="/images/image018.png?raw=true" "Blockchain is immutable" width="400" >
 &nbsp;
  
 This provides immutability and security.
@@ -419,7 +421,7 @@ Blockchain is a combination of several other underlying technologies that have n
 Here are some features that make this new technology so revolutionary.
 
 <p align="center">
-<img src="/images/image019.png?raw=true" "Blockchain Features - distributed ledger" width="400" >
+<img src="/images/image019.png?raw=true" "Blockchain Features - distributed ledger" width="650" >
 &nbsp;
 
 <h5>Blockchain Features: Distributed Ledger</h5>
