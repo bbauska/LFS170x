@@ -636,7 +636,7 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
 #### Use Case: Diamond Tracing
 
 <p align="center">
-<img src="/images/image023.png?raw=true" "Trustchain logo" width="400" >
+<img src="/images/image023.png?raw=true" "Trustchain logo" width="200" >
 &nbsp;
 
 Approach: The blockchain collaboration, known as TrustChainTM, will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.
@@ -647,7 +647,7 @@ With a decentralized approach, blockchain removes the middleman (such as banks a
 The shared ledger approach also eliminates the need for multiple paper copies that need to be verified and updated frequently.
 
 <p align="center">
-<img src="/images/image024.png?raw=true" "Business benefits from blockchain" width="200" >
+<img src="/images/image024.png?raw=true" "Business benefits from blockchain" width="400" >
 &nbsp;
 
 Industries like finance, international trade and commerce, food supply chains are taking a serious look at blockchain.
@@ -660,19 +660,26 @@ Industries like finance, international trade and commerce, food supply chains ar
 <img src="/images/image025.png?raw=true" "Walmart Canada & DLT Labs logos" width="400" >
 &nbsp;
 
-  •	Approach: DLT Labs along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
-  •	Result: Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
+   • <b>Approach:</b> DLT Labs along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
+  The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. 
+  The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
+&nbsp;
+   • <b>Result:</b> Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
 
 #### __Unintended Use Cases__
 One of the coolest things about blockchain is some of the unintended consequences a good blockchain solution might have.
 &nbsp;
-Let's look at an example.
+Let's look at an example.<br>
+<p>
 Right now, there is a lot of attention being given to how blockchain might be used, in general, for supply chain relationships and, specifically, in the food supply chain.
 Let's pretend that you have a very young child and your child has a serious pesticide allergy.
 Of course, when you go to the grocery store, you make sure that you only buy the produce in the produce section that has the USDA organic label.
 It's just a little sticker that goes on the produce.
 You buy your produce and you stand in the checkout line, and you feel pretty good that the produce you're buying actually is organic and has been treated with all-natural pesticides, and won't make your young child sick.
-But sometimes you wonder, standing in line, how do I really know? How do I really know that someone didn't just print up a bunch of these stickers in their basement and apply them at the last minute?
+But sometimes you wonder, standing in line, how do I really know? 
+How do I really know that someone didn't just print up a bunch of these stickers in their basement and apply them at the last minute?
+</p>
+
 The blockchain can go a long way to solving that problem and providing much greater insight.
 Let's say, you're standing in the grocery store one day, and instead of the easily forged stickers, you're able to pull out your phone and scan a QR code.
 When you scan that QR code, instantly on your phone the entire lifecycle of that piece of produce pops up.
@@ -680,8 +687,10 @@ You can see the date that it was planted on the orchard.
 You can see after it was planted that an organic pesticide company came along and treated it with an all-natural pesticide.
 You can even verify that the pesticide is natural by seeing the ingredient list in that pesticide.
 And finally, you may see who actually delivered that produce to the store.
-Let's say that there's a new green electric trucking company out there - Ed's Electric Trucking.
-Ed has seen all the fancy new Tesla semis. He thinks they're great and he is committed to providing a transportation and logistics company which is also environmentally friendly.
+
+Let's say that there's a new green electric trucking company out there - <b>Ed's Electric Trucking</b>.<br>
+Ed has seen all the fancy new Tesla semis.
+He thinks they're great and he is committed to providing a transportation and logistics company which is also environmentally friendly.
 Now, in today's world, you don't have a way of knowing about someone like Ed and his electric trucking company.
 There just aren't good ways for folks in the B2B space to communicate their business value directly to consumers.
 This is an interesting potential byproduct of using blockchain and smart contracts as a business solution.
@@ -701,46 +710,66 @@ The public sector is the part of the economy composed of both public sector and 
 &nbsp;
 
 #### Dubai Use Case
-So, when people first start getting into blockchain, one of the areas they really start to look at is where is blockchain being used in the real world, what examples do we have of a blockchain being deployed and at what scale.
+So, when people first start getting into blockchain, one of the areas they really start to look at is where is blockchain being used in the real world, what examples do we have of a blockchain being deployed and at what scale.<br>
 And there's really no better example of this right now than what's going on in Dubai.
-Dubai, the largest city in the United Arab Emirates, is piloting a very ambitious program called smart Dubai 2021.
-And what Smart Dubai 2021 aims to do is to move all governmental operations and record-keeping on the blockchain by the year 2021.
-The goals of this program are increased transparency in the government operations, increased efficiency, and by proxy, providing better service to city residents and constituents and establishing as a thought leader, an industry leader in the blockchain space.
-There are lots of really cool applications that tie into this.
-Blockchain is becoming the enabling layer for a lot of other Smart Dubai initiatives around creating a smart city.
-So, projects like automated traffic signals, registration of citizens for governmental services, etc. are all being pioneered on blockchain.
-So, if you want to see some of the really exciting use cases in blockchain right now, be sure to check out Dubai and what's going on with their Smart Dubai 2021 initiative.
-Real World Example of Public Sector Government to Government/Citizens
+<p>
+Dubai, the largest city in the United Arab Emirates, is piloting a very ambitious program called smart Dubai 2021.<br>
+And what Smart Dubai 2021 aims to do is to move all governmental operations and record-keeping on the blockchain by the year 2021.<br>
+The goals of this program are increased transparency in the government operations, increased efficiency, and by proxy, providing better service to city residents and constituents and establishing as a thought leader, an industry leader in the blockchain space.<br>
+There are lots of really cool applications that tie into this.<br>
+Blockchain is becoming the enabling layer for a lot of other Smart Dubai initiatives around creating a smart city.<br>
+So, projects like automated traffic signals, registration of citizens for governmental services, etc. are all being pioneered on blockchain.<br>
+So, if you want to see some of the really exciting use cases in blockchain right now, be sure to check out Dubai and what's going on with their Smart Dubai 2021 initiative.<br>
+
+<h5>Real World Example of Public Sector Government to Government/Citizens</h5>
 
 #### Use Case: Public Sector - Smart Dubai
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.png" width="400" "Smart Dubai" >
 &nbsp;
 
-   • Approach: To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful. The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership
-   • Result: By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. When successful, Dubai will be the first blockchain-powered government driving the future economy.
-More Use Cases
-Blockchain is having far reaching effects in major industries. Let’s take a look at three major industries having a positive influence from this new way to organize our information:
-   • Supply chain
-Blockchain is used in supply chains to gain transparency and traceability. This has a special advantage for global health when used in traceability to the food supply chain. By tracking food on a blockchain, you are building trust into the system through the transparency feature. In the event of a problem, blockchain technology can pinpoint the exact location and cause of a food health issue. By instantly tracing food issues back to the source, all contaminated lots can be tracked and dealt with instantly.
-   • Global trade
-Blockchain is making headway in the global trade markets with transparency and immutability that offer new relationships among distrusting parties. Blockchain makes sure all relevant parties have access to the same information. Trade barriers are reduced, from settlement issues, to compliance and regulation, information is being shared and accessed in new secure ways. A distributed ledger technology (DLT) opens up a new avenue for securely sharing data that guarantees accuracy while removing banks as deal facilitators. Smart contract and microfinancing alternatives allow all size companies to seamlessly trade across borders.
-   • Digital identity (self-sovereign identity and verifiable credentials)
-Users of the Internet were all but unaware that all the information given so freely when interacting with companies online, was being stored and sold. Data became a siloed commodity owned by everyone but you. With new blockchain technology, individuals can reclaim their identity information breaking the need for data silos, endless passwords and hackable databases. Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.
+   • <b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.<br>
+   The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership.<br>
+   • <b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br>
+   When successful, Dubai will be the first blockchain-powered government driving the future economy.
+
+<h5>More Use Cases</h5>
+Blockchain is having far reaching effects in major industries.
+Let’s take a look at three major industries having a positive influence from this new way to organize our information:
+   - Supply chain
+Blockchain is used in supply chains to gain transparency and traceability. This has a special advantage for global health when used in traceability to the food supply chain. 
+By tracking food on a blockchain, you are building trust into the system through the transparency feature. 
+In the event of a problem, blockchain technology can pinpoint the exact location and cause of a food health issue. 
+By instantly tracing food issues back to the source, all contaminated lots can be tracked and dealt with instantly.
+   - Global trade
+Blockchain is making headway in the global trade markets with transparency and immutability that offer new relationships among distrusting parties. 
+Blockchain makes sure all relevant parties have access to the same information. 
+Trade barriers are reduced, from settlement issues, to compliance and regulation, information is being shared and accessed in new secure ways. 
+A distributed ledger technology (DLT) opens up a new avenue for securely sharing data that guarantees accuracy while removing banks as deal facilitators. 
+Smart contract and microfinancing alternatives allow all size companies to seamlessly trade across borders.
+   - Digital identity (self-sovereign identity and verifiable credentials)
+Users of the Internet were all but unaware that all the information given so freely when interacting with companies online, was being stored and sold. 
+Data became a siloed commodity owned by everyone but you. 
+With new blockchain technology, individuals can reclaim their identity information breaking the need for data silos, endless passwords and hackable databases. 
+Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.
 
 ### <a id="ch1-6"></a>1.6 Chapter Summary
-In this chapter, we discussed:   
-   • The history of the Internet and how blockchain technology relies on Internet technology as the foundation for building the future of the blockchain evolution.
-   • The difference between blockchain and Bitcoin.
-   • How blockchain functions.
-   • Blockchain concepts and characteristics: distributed ledger, peer to peer, transparent, consensus, encryption, immutability, programmable.
-   • Blockchain users and their roles.
-   • Emerging general use cases.
+In this chapter, we discussed:
+   * The history of the Internet and how blockchain technology relies on Internet technology as the foundation for building the future of the blockchain evolution.
+   * The difference between blockchain and Bitcoin.
+   * How blockchain functions.
+   * Blockchain concepts and characteristics: distributed ledger, peer to peer, transparent, consensus, encryption, immutability, programmable.
+   * Blockchain users and their roles.
+   * Emerging general use cases.
 
 ## <a id="ch2"></a>Chapter 2. Blockchain Mechanics
 Chapter Overview
-In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques. We will gain an understanding of how previous computer technologies like file sharing, data storage and cryptography are wrapped into the blockchain foundations. We will also see how hashing functions and Merkle tree data structures help us immutably store and prove facts without revealing all the details.
-Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure. We will examine how this agreed-upon, append-only distributed ledger guarantees transparency and immutability, where trust in the information contained in the ledger is a given.
+In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques. 
+We will gain an understanding of how previous computer technologies like file sharing, data storage and cryptography are wrapped into the blockchain foundations. 
+We will also see how hashing functions and Merkle tree data structures help us immutably store and prove facts without revealing all the details.
+Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure. 
+We will examine how this agreed-upon, append-only distributed ledger guarantees transparency and immutability, where trust in the information contained in the ledger is a given.
+
 ### Learning Objectives
 By the end of this chapter, you should be able to:
    • Discuss how cryptography allows for distributed ledgers to work on a global scale.<br>
@@ -1338,30 +1367,48 @@ And, if I ever went back and tried to change any information or prior transactio
 When you hear about immutability, just understand that all we're talking about is the virtual impossibility of anyone ever being able to come along and change any data on the blockchain.
 And also, along with that, understand that we only have two possible operations on blockchain: we can only read data and we can only add new data.
 There's no concept of an edit or delete, and this is what we talk about when we talk about immutability on the blockchain.
-Immutability in the Blockchain Is Essential
-The blockchain needs to be immutable. If someone can change the blockchain after the fact, then it is no longer a trusted historical ledger. The blockchain is designed so that immutability is cumulative; each piece is linked to every other piece, creating a cohesive whole that is more difficult for an attacker to modify.
-•	At the bottom level, transactions are digitally signed by their creators. An attacker can’t forge a transaction unless they steal a private key.
-•	A block structure is predefined. Attackers can’t modify it to suit their purposes.
-•	The chain part of the blockchain is achieved using hash functions. Each block includes the hash of the previous block, creating a clear link between each block in the blockchain.
-•	Each block is digitally signed by its creator. The creator is selected through the blockchain’s consensus protocol, making it difficult for an attacker to be a legitimate creator.
+
+<h5>Immutability in the Blockchain Is Essential</h5>
+The blockchain needs to be immutable. If someone can change the blockchain after the fact, then it is no longer a trusted historical ledger. 
+The blockchain is designed so that immutability is cumulative; each piece is linked to every other piece, creating a cohesive whole that is more difficult for an attacker to modify.
+   * At the bottom level, transactions are digitally signed by their creators. An attacker can’t forge a transaction unless they steal a private key.
+   * A block structure is predefined. Attackers can’t modify it to suit their purposes.
+   * The chain part of the blockchain is achieved using hash functions. Each block includes the hash of the previous block, creating a clear link between each block in the blockchain.
+   * Each block is digitally signed by its creator. The creator is selected through the blockchain’s consensus protocol, making it difficult for an attacker to be a legitimate creator.
 All four of these features help to make the blockchain resistant against changes occurring after the fact.
 
 ### Why Is the Blockchain Immutable?
-Each transaction cannot be forged or modified because it is mathematically infeasible to forge a digital signature. The structure of blocks is publicly defined, and invalid blocks will be publicly rejected.
-Each block “locks in” the value of previous blocks by including their hash. Attackers cannot find another block that will produce the same hash.
-A block cannot be forged or modified, because it is digitally signed by the creator. The creator of a block is either publicly known (Proof of Stake) or difficult to become (Proof of Work), making masquerading as the real creator difficult or impossible.
+Each transaction cannot be forged or modified because it is mathematically infeasible to forge a digital signature. 
+The structure of blocks is publicly defined, and invalid blocks will be publicly rejected.
+Each block “locks in” the value of previous blocks by including their hash. 
+Attackers cannot find another block that will produce the same hash.
+A block cannot be forged or modified, because it is digitally signed by the creator. 
+The creator of a block is either publicly known (Proof of Stake) or difficult to become (Proof of Work), making masquerading as the real creator difficult or impossible.
 Now, let’s take a moment to discuss how each of the features mentioned contribute to the immutability of the blockchain.
 At the bottom level, each transaction is digitally signed. This means two things about transactions:
-•	Existing transactions can’t be changed after the fact, because the signature will no longer match.
-•	Fake transactions can’t be created since an attacker can’t create a valid digital signature for a transaction between other parties.
-Both of these contribute to the immutability of the blockchain since they limit the range of transactions that an attacker has to work with if he wants to create a fake but valid blockchain.
-Next, the block structure is publicly defined in the protocol. This limits the types of modifications that an attacker can make to a block when trying to modify the blockchain.
-Third, each block contains the hash of the previous block. This is what ties the blocks of the chain together. Remember from earlier that one of the properties of a hash function is that it is extremely difficult to find two inputs to a hash function that create the same output. Since a block contains the hash of the previous block, it’s difficult to find a different version of the ledger’s history that matches the most recent block, as that would require finding two different versions of the previous block that have the same hash.
-Finally, each block is digitally signed by its creator. Since the creator of a block is selected via a consensus algorithm, it’s difficult for an attacker to become the legitimate creator of a given block. If an attacker is not the legitimate creator of a block, it’s impossible for them to create a digital signature that others would accept.
-Immutability Mechanisms
-Now, let’s look at how different blockchains implement immutability.
-In Ethereum and Hyperledger, the immutability mechanism is the one that we’ve described previously. Each transaction and block is digitally signed and are linked using cryptographic hashes.
-Corda, a multi-party application development platform, relies on its notary service for immutability. Each Corda network has one or more notary services that verify transactions. Each transaction is considered separately and, if approved, is signed by the notary service. Transactions signed by a notary are finalized and cannot be modified after the fact.
+   * Existing transactions can’t be changed after the fact, because the signature will no longer match.
+   * Fake transactions can’t be created since an attacker can’t create a valid digital signature for a transaction between other parties.
+
+   1. Both of these contribute to the immutability of the blockchain since they limit the range of transactions that an attacker has to work with if he wants to create a fake but valid blockchain.
+   2. Next, the block structure is publicly defined in the protocol. This limits the types of modifications that an attacker can make to a block when trying to modify the blockchain.
+   3. Third, each block contains the hash of the previous block. This is what ties the blocks of the chain together. 
+
+<p>
+Remember from earlier that one of the properties of a hash function is that it is extremely difficult to find two inputs to a hash function that create the same output. 
+Since a block contains the hash of the previous block, it’s difficult to find a different version of the ledger’s history that matches the most recent block, as that would require finding two different versions of the previous block that have the same hash.
+Finally, each block is digitally signed by its creator. 
+Since the creator of a block is selected via a consensus algorithm, it’s difficult for an attacker to become the legitimate creator of a given block. 
+If an attacker is not the legitimate creator of a block, it’s impossible for them to create a digital signature that others would accept.
+
+<h5>Immutability Mechanisms</h5>
+Now, let’s look at how different blockchains implement immutability.<br>
+<p>
+In Ethereum and Hyperledger, the immutability mechanism is the one that we’ve described previously. 
+Each transaction and block is digitally signed and are linked using cryptographic hashes.
+Corda, a multi-party application development platform, relies on its notary service for immutability. 
+Each Corda network has one or more notary services that verify transactions. 
+Each transaction is considered separately and, if approved, is signed by the notary service. 
+Transactions signed by a notary are finalized and cannot be modified after the fact.
 
 ### Hashing and Chaining
 It is important to understand the value of locking in the previous block by including its hash in the next block. As explained in the article “A Gentle Introduction to Immutability of Blockchains” by Antony Lewis,
