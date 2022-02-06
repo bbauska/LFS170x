@@ -99,11 +99,11 @@ What started as a DARPA (Defense Advanced Research Project Agency) experiment in
 
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------ darpa logo ------------------------------------------------------->
+<!------------------------------------------------------- www logo -------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 
 <p align="center">
-<img src="/images/image003.png?raw=true" "WWW logo" width="2in" height="3in" >
+<img src="/images/image003.png?raw=true" "WWW logo" {width="2.0in" height="2.0in"} >
   
 &nbsp;
 
