@@ -2937,59 +2937,76 @@ The younger generation of collectors aren’t interested in China sets and linen
 The future of the non-fungible token promises to be one of the more energetic market segment blockchain has seen.
 Interoperability
 To end this section, we must mention interoperability. Interoperability in blockchains deals with creating standards so different types of blockchains can communicate with each other.
-If new emerging blockchains can’t communicate with each other, we will have the same issues with siloed data that created frustration with the Internet of Today. As different blockchains take different approaches to interoperability, standards will emerge that will help regulate the industry and help with widespread adoption. Currently Hyperledger and Ethereum are working together on interoperability projects from Hyperledger Besu (to learn more about Hyperledger Besu enroll into Hyperledger Besu Essentials: Creating a Private Blockchain Network (LFS176x)), an open source Ethereum client for enterprise solutions that can be run on the Ethereum public network or on a private permissioned network. Other projects in the Hyperledger labs that deal with interoperability are working on standards that will make it easier for blockchains to talk to each other.
+If new emerging blockchains can’t communicate with each other, we will have the same issues with siloed data that created frustration with the Internet of Today. 
+
+As different blockchains take different approaches to interoperability, standards will emerge that will help regulate the industry and help with widespread adoption. 
+
+Currently Hyperledger and Ethereum are working together on interoperability projects from Hyperledger Besu (to learn more about Hyperledger Besu enroll into Hyperledger Besu Essentials: Creating a Private Blockchain Network (LFS176x)), an open source Ethereum client for enterprise solutions that can be run on the Ethereum public network or on a private permissioned network. Other projects in the Hyperledger labs that deal with interoperability are working on standards that will make it easier for blockchains to talk to each other.
 When considering how blockchain interoperability can work, consider email and smartphone. Both of these technologies have the ability to interoperate. Outlook email server can receive email from the Gmail server and Verizon cell phone carriers can transfer and accept calls from T-Mobile. These services would not operate efficiently, if these companies couldn't exchange data. With this in mind, blockchain are developing projects that, like smartphones and emails, will transfer value and information across blockchain seamlessly.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 ### <a id="ch5-5"></a>5.5 Chapter Summary
 In this chapter, we discussed:
- • How some features of blockchain are solving real world problems.
- • How immutability is opening up new cooperation models for business.
- •	How the concept of autonomy will reduce conflict by eliminating human processes.
- •	New emerging business models as multiparty exchanges, with built in trust, are being developed.
- •	How the double spend accounting issue is solved with blockchain.
- •	Future trends in decentralized finance and Central Bank Digital Currencies.
- •	The importance of interoperability between blockchains.
- •	Non-fungible tokens (NFTs) and their importance to the blockchain ecosystem.
+  - How some features of blockchain are solving real world problems.
+  - How immutability is opening up new cooperation models for business.
+  - How the concept of autonomy will reduce conflict by eliminating human processes.
+  - New emerging business models as multiparty exchanges, with built in trust, are being developed.
+  - How the double spend accounting issue is solved with blockchain.
+  - Future trends in decentralized finance and Central Bank Digital Currencies.
+  - The importance of interoperability between blockchains.
+  - Non-fungible tokens (NFTs) and their importance to the blockchain ecosystem.
 
 ## <a id="ch6"></a>Chapter 6. Blockchain Use Cases
-<p>
+
 This final section will examine blockchains in action.
-We will see how blockchain is providing solutions for businesses, governments and social projects. 
-Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and trust among untrusting parties, fostering new business models.
-Governments are realizing the best way to serve the population is to develop digital identity management systems where individuals hold their credentials and services can instantly be matched to those in need. 
-We will discuss how governments are using blockchain to tackle document and workflow management issues creating better services for their citizens.
-Next, we will discuss the impact blockchain is having in developing countries.
-We will look at examples of how philanthropy is offering new transparency and accountability to charity organizations with massive global benefits.
-Then, we will devote some time discussing new technologies and emerging breakthroughs developers are building. 
+
+  - We will see how blockchain is providing solutions for businesses, governments and social projects. 
+
+  - Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and trust among untrusting parties, fostering new business models.
+
+  - Governments are realizing the best way to serve the population is to develop digital identity management systems where individuals hold their credentials and services can instantly be matched to those in need. 
+
+  - We will discuss how governments are using blockchain to tackle document and workflow management issues creating better services for their citizens.
+
+  - Next, we will discuss the impact blockchain is having in developing countries.
+
+  - We will look at examples of how philanthropy is offering new transparency and accountability to charity organizations with massive global benefits.
+
+  - Then, we will devote some time discussing new technologies and emerging breakthroughs developers are building. 
 Either to enhance existing systems or offering services to help users manage blockchains, these new advances are like nothing we have seen before.
-Finally, we will see use cases designed to improve the individual's experience, decentralized gaming platforms and new marketplaces inventing new worlds to interact in. Blockchains are reshaping the way artists and musicians are benefiting from their creativity by having the royalties delivered directly to them, without agents and middlemen.
-</p>
+
+  - Finally, we will see use cases designed to improve the individual's experience, decentralized gaming platforms and new marketplaces inventing new worlds to interact in. 
+
+Blockchains are reshaping the way artists and musicians are benefiting from their creativity by having the royalties delivered directly to them, without agents and middlemen.
+
 
 Blockchain will be a part of everyone's future.
 
 ### <a id="ch6-1"></a>6.1 Learning Objectives
 By the end of this chapter, you should be able to:
-  • Discuss blockchain use cases in business enterprises.
-  • Discuss use cases in the public sector.
-  • Explain the relevance of blockchain in social impact projects.
-  • Discuss developing new technologies made possible by blockchain.
-  • Explain how blockchain will improve the human experience.
+  - Discuss blockchain use cases in business enterprises.
+  - Discuss use cases in the public sector.
+  - Explain the relevance of blockchain in social impact projects.
+  - Discuss developing new technologies made possible by blockchain.
+  - Explain how blockchain will improve the human experience.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 ### <a id="ch6-2"></a>6.2 Blockchain Use Case Categories (Blockchain in Practice)
-Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. It is showing a new path that will improve the lives of so many. We will see how identity management is key (no pun intended) to all the use cases we discuss. For our discussion, we will categorize use cases by who is developing solutions, starting with large enterprise solutions to smartphone and web browser applications powered by blockchain that put control back in the user's hands:
-  • Enterprise solutions
+Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. 
+
+It is showing a new path that will improve the lives of so many. We will see how identity management is key (no pun intended) to all the use cases we discuss.
+For our discussion, we will categorize use cases by who is developing solutions, starting with large enterprise solutions to smartphone and web browser applications powered by blockchain that put control back in the user's hands:
+  - Enterprise solutions
 Businesses and organizations are implementing blockchain to overcome obstacles in transparency and trust forging new associations with global implications.
-  • Public sector solutions
+  - Public sector solutions
 Governments are using blockchain solutions to improve services that they provide to their citizens. Digital identity solutions, central bank digital currencies and transparent workflows are bringing efficiency to the public sector system with an end result that benefits citizens. With that, new laws are needed to regulate this technology.
-  • Social impact solutions
+  - Social impact solutions
 Social impact blockchain solutions address social and environmental challenges. Backed by the 17 United Nations Sustainable Development Goals blockchain developers, investors, philanthropists, government agencies and foundations are developing solutions that tackle these global problems.
-  • Platform developers' solutions
+  - Platform developers' solutions
 Blockchain is a new technology constantly improving and changing. Developers are creating standards and new platforms to bring this technology into the mainstream.
-  • End user solutions
+  - End user solutions
 Everyday solutions emerge that put decentralized blockchains and all the benefits they promise in the hands of individuals from new decentralized marketplaces to new ways to express your music, art, and even let you trade property built inside a game.
 
 <h5>Enterprise Solutions Overview</h5>
@@ -3045,30 +3062,39 @@ The trend toward blockchain agriculture promises to make each step of growing an
 </p>
 
 To learn more, read Hyperledger's case study "How Walmart Brought Unprecedented Transparency to the Food Supply Chain with Hyperledger Fabric".
-Walmart
+<h5>Walmart</h5>
 I purchased a pack of mangos, I came into my staff meeting, I put them on the table, and I said: "Your traceback exercise starts right now".
 And we timed how long it took them to get the information for each point in the food system all the way back to the farm.
 And I'm not gonna give you the results.
 After the pilot, but it's gonna be good.
+
 When a customer shops in our stores, we know they expect great prices, we know they expect fast, clean, and friendly service, but an unspoken expectation is that they expect the products that they buy in our stores to be safe.
 You know, when there's a food event or a food scare what you want to do is you want to be fast, but you want to be right.
 That food product is guilty until proven innocent.
+
 We at Walmart, will actually pull all the product until we know what is the implicated product and can put then the safe product back out.
 And imagine, if we could pinpoint with certainty, within minutes not days, that it was the implicated product.
+
 Walmart and IBM are working to make that a reality.
 If you think about the food system, it's pretty complex.
 It involves farmers, processors, distributors, and the way traceability is done today, each segment of the food system does it their own way.
 Most actually do it on paper or on systems that don't speak to each other, and so you can never have a full view of what's happening in the food system.
+
 What we hope to do with blockchain is bring all food safety system stakeholders and collaborate so that we do it one best way, we can do it very quickly, and efficiently.
+
 Blockchain is a digital ledger that allows different segments of the food system to capture information about the product, what they've done to it, where that product has been.
 If we're linking that data with other data points, the Internet of Things, all that information will yield to insights that will allow us to have a safer, more affordable and sustainable food system.
-But we don't believe traceability is the goal. We believe that transparency is the ultimate goal.
+But we don't believe traceability is the goal. 
+We believe that transparency is the ultimate goal.
+
 Blockchain will give us the ability to not only track where food came from, but how it was produced, was it produced safely, was it produced responsibly, is it sustainably grown, how many dates of shelf life are left on that product.
+
 The food system is a shared responsibility and for blockchain, and traceability, and transparency to work we need a lot of people working together.
 We're excited to be working with IBM on this blockchain initiative, but it's not just Walmart and IBM, we actually have some of our suppliers participating in this pilot, we've got some universities also participating in the pilot.
+
 We'll make sure that all stakeholders work together for a safer and better food system.
-•	IBM's Food Trust Solution building faith in food supply chains.
-•	Paramount's Farm to Table creates an inclusive blockchain supply chain solution from the farm all the way to your plate. 
+  - IBM's Food Trust Solution building faith in food supply chains.
+  - Paramount's Farm to Table creates an inclusive blockchain supply chain solution from the farm all the way to your plate.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -3085,7 +3111,8 @@ Blockchain is transforming the healthcare industry. Some challenges the healthca
     alt="Moderna logo"</>
 </p>
   
-Moderna uses blockchain to support smart COVID vaccine management. To learn more see "Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter' Management of COVID-19 Vaccines" article by Tomi Kilgore.
+Moderna uses blockchain to support smart COVID vaccine management. 
+To learn more see "Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter' Management of COVID-19 Vaccines" article by Tomi Kilgore.
 
 
 <p align="center" width="100%">
@@ -3093,7 +3120,8 @@ Moderna uses blockchain to support smart COVID vaccine management. To learn more
     alt="SAP logo"</>
 </p>
 
-SAP has an existing solution unrelated to blockchain called Advanced Track and Trace for Pharmaceuticals (ATTP) which generates the unique identifiers. To further explore this solution read the following article by Nicky Morris "SAP Leads Pharma Supply Chain Blockchain" and watch "Verifying Pharmaceutical Products Using Blockchain" video. 
+SAP has an existing solution unrelated to blockchain called Advanced Track and Trace for Pharmaceuticals (ATTP) which generates the unique identifiers. 
+To further explore this solution read the following article by Nicky Morris "SAP Leads Pharma Supply Chain Blockchain" and watch "Verifying Pharmaceutical Products Using Blockchain" video. 
 
 <p align="center" width="100%">
   <img width="25%" src="/images/image103.png?raw=true"
@@ -3112,18 +3140,27 @@ Reduction of settlement times will improve the flow of money through fintech com
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-Swiss Exchange, SIX has a solution that solves the issue in the trade markets of long settlement times. The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can be completed in fractions of a second.
-Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. In a paper from Andrea Frosinini, "Reshaping Trade Finance: Towards a “New” Letter of Credit", he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
+Swiss Exchange, SIX has a solution that solves the issue in the trade markets of long settlement times. 
+The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. 
+Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can be completed in fractions of a second.
+Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. 
+In a paper from Andrea Frosinini, "Reshaping Trade Finance: Towards a “New” Letter of Credit", he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 
 <p align="center" width="100%">
   <img width="25%" src="/images/image105.png?raw=true"
     alt="Voltron logo"</>
 </p>
 
-Voltron Trade Finance was co-founded by eight member banks including Bangkok Bank, BNP Paribas, CTBC, HSBC, ING, Natwest, SEB and Standard Chartered. The consortium has since grown to more than 50 banks and corporations. The platform is built on Corda blockchain, it solves the problem that most letters of credit are based on paper and take 5 to 10 days. By using blockchain technology, the letters of credit may be efficiently transacted in less than 24 hours. You can learn more about Voltron from the following two articles "Blockchain Based Letter of Credit Processed by HSBC on Voltron Trade Finance Platform" (by JD Alois) and "Trade Finance Solution Voltron Launches Open Platform on Corda Blockchain".
+Voltron Trade Finance was co-founded by eight member banks including Bangkok Bank, BNP Paribas, CTBC, HSBC, ING, Natwest, SEB and Standard Chartered. 
+The consortium has since grown to more than 50 banks and corporations. 
+The platform is built on Corda blockchain, it solves the problem that most letters of credit are based on paper and take 5 to 10 days. 
+By using blockchain technology, the letters of credit may be efficiently transacted in less than 24 hours. 
+You can learn more about Voltron from the following two articles "Blockchain Based Letter of Credit Processed by HSBC on Voltron Trade Finance Platform" (by JD Alois) and "Trade Finance Solution Voltron Launches Open Platform on Corda Blockchain".
 
 ### <a id="ch6-4"></a>6.4 Public Sector Solutions Overview
-Blockchain benefits of security, efficiency and speed have government leaders research the far reaching implications that will improve lives and accelerate global blockchain solutions. Public sector can be categorized by, Public Administration, Public Service, Land and Community, and Government. According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’Kelly, "Re-thinking Public Sector through Blockchain", all blockchain public sector project must consider in the design these four factors:
+Blockchain benefits of security, efficiency and speed have government leaders research the far reaching implications that will improve lives and accelerate global blockchain solutions. 
+Public sector can be categorized by, Public Administration, Public Service, Land and Community, and Government. 
+According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’Kelly, "Re-thinking Public Sector through Blockchain", all blockchain public sector project must consider in the design these four factors:
   - Identity management for Governments
   - Interactions (highly regulated transactions)
   - Regulations
