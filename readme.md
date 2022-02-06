@@ -2918,17 +2918,17 @@ NFTs can represent art, music, videos and other digital files where access to th
 **[`^        back to top        ^`](#table-of-contents)**
 
 Let's now take a look at some of the types of non-fungible tokens:
-•	Digital artwork
+   * Digital artwork
 By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator. The New York Times reported art entitled "Everydays – The First 5000 Days", by artist Mike Winkelmann, also known as Beeple, sold for $69.3 million USD in 2021.
-•	Collectables
+   * Collectables
 As we saw with CryptoKitties, non-fungible tokens create unique items. One of the more popular collectables are CryptoPunks, a collection of 10,000 uniquely generated characters each having a unique owner registered on the Ethereum blockchain. A crypto punk, Punk 1651 sold for 78 ETH or $136,850.22 USD.
-•	Games
+   * Games
 NFTs can be used to represent assets in computerized games. With the ability to trade assets created in a gaming platform, users and creators of assets in the digital game can trade assets on a third party marketplaces and store them in a wallet where the private keys are controlled by the gamer, taking control away from the game developer.
-•	Music and film
+   * Music and film
 With NFTs, musicians and filmmakers can now tokenize their work where the artist monetizes and profits from their content. When artists release music or film as NFT, they retain control and realize royalties in a more equitable way. Musicians can join in decentralized marketplace such as Mediachain a Ujo to ensure artists are paid fairly, musicians enter into smart contracts that state royalty stipulations without the need of a third party.
-•	Sports
+   * Sports
 The sports industry has embraced the idea of NFTs from tokenizing memorable sporting moments to trading card collectables. NBA Top Shots being the leader for creating a marketplace for NBA collectible cards and moments.
-•	University research
+   * University research
 In May 2021, UC Berkeley announced it would auction off NFTs for the patent disclosure for two Nobel Prize-winning inventions dealing with gene editing and Cancer Immunotherapies.
 The younger generation of collectors aren’t interested in China sets and linen, but something they can show their friends on their social media accounts. 
 The future of the non-fungible token promises to be one of the more energetic market segment blockchain has seen.
@@ -2951,16 +2951,18 @@ In this chapter, we discussed:
  •	Non-fungible tokens (NFTs) and their importance to the blockchain ecosystem.
 
 ## <a id="ch6"></a>Chapter 6. Blockchain Use Cases
-This final section will examine blockchains in action. 
+<p>
+This final section will examine blockchains in action.
 We will see how blockchain is providing solutions for businesses, governments and social projects. 
 Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and trust among untrusting parties, fostering new business models.
 Governments are realizing the best way to serve the population is to develop digital identity management systems where individuals hold their credentials and services can instantly be matched to those in need. 
 We will discuss how governments are using blockchain to tackle document and workflow management issues creating better services for their citizens.
-Next, we will discuss the impact blockchain is having in developing countries. 
+Next, we will discuss the impact blockchain is having in developing countries.
 We will look at examples of how philanthropy is offering new transparency and accountability to charity organizations with massive global benefits.
 Then, we will devote some time discussing new technologies and emerging breakthroughs developers are building. 
 Either to enhance existing systems or offering services to help users manage blockchains, these new advances are like nothing we have seen before.
 Finally, we will see use cases designed to improve the individual's experience, decentralized gaming platforms and new marketplaces inventing new worlds to interact in. Blockchains are reshaping the way artists and musicians are benefiting from their creativity by having the royalties delivered directly to them, without agents and middlemen.
+</p>
 
 Blockchain will be a part of everyone's future.
 
