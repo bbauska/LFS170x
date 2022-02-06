@@ -2789,7 +2789,7 @@ To break down the crypto markets, let's start with some basic definitions.
 <h5>Crypto Wallet</h5>
 A cryptocurrency wallet is an application on your computer or smart phone that connects you to a blockchain where you can trade cryptocurrencies. A Bitcoin wallet allows you to trade Bitcoin, an Ethereum wallet accommodates Ether. You can not send Bitcoin to the Ethereum blockchain, each cryptocurrency must transact on its own blockchain.
 
-<h5>Multi-currency Wallets</h5?
+  <h5>Multi-currency Wallets</h5>
 Some wallets allow you to hold multiple cryptocurrencies in the same application. In these wallets, each cryptocurrency will have its own balance. To initiate a transaction, the application will create a cryptographically secure address (specific for the particular blockchain). This address acts as your account number and lets you send and receive the cryptocurrency.
 
 <h5>Atomic Swaps</h5>
@@ -2878,13 +2878,16 @@ Along with the new decentralized financial model come new innovations that have 
 </p>
  
 Regulating these new financial instruments is proving challenging as government agencies wrestle with controlling currencies that do not recognize borders. And have a steep learning curve. A stable price coupled with the benefits of blockchain, new financial markets are emerging that will change the current financial markets making them more inclusive.
-Central Bank Digital Currencies (CBDC)
+
+  <h5>Central Bank Digital Currencies (CBDC)</h5>
 Enterprise blockchain solutions are successfully creating efficient micro-economies that are decentralized, immutable and efficient. The success of these projects are forcing governments to take a look at blockchain technology through the lens of streamlining current financial systems. More specifically, studying how blockchain can improve the way governments handle their central banking systems.
-Central Bank Digital currencies are a digital form of central bank money that is issued by the central bank as part of its overall monetary policy. In the Ledger Insights article titled "IMF Outlines Pros and Cons of Central Bank Digital Currency" it is estimated that 80% of central banks are exploring CBDC.
+Central Bank Digital currencies are a digital form of central bank money that is issued by the central bank as part of its overall monetary policy. 
+In the Ledger Insights article titled "IMF Outlines Pros and Cons of Central Bank Digital Currency" it is estimated that 80% of central banks are exploring CBDC.
+
 Some of the benefits of Central Bank Digital Currencies include:
-•	Transparent monetary policy
+  * Transparent monetary policy
 Due to the distributed ledger technology’s feature of transparency, creating a digital currency will bring clarity to the government's monetary system, where policy can be recorded on the blockchain and remain immutable.
-•	Combat money laundering
+  •	Combat money laundering
 Money laundering is converting illegal funds into legal payments systems. Blockchain can eliminate this practice with a shared ledger that keeps a complete transaction history, making it impossible to erase. Like with all money transfers, certain safeguards are in place to identify wallets or accounts to users. Anti Money Laundering (AML) policies like Know Your Customer (KYC) further ensure citizens are following laws in their countries.
 •	Cross-border payments
 Blockchain technology eliminates middlemen in cross-border payments, reducing transfer fees, and making interactions faster and frictionless while keeping the integrity of the underlying asset.
