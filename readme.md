@@ -103,7 +103,7 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 <!------------------------------------------------------------------------------------------------------------------------->
 
 <p align="center">
-<img src="/images/image003.png?raw=true" "WWW logo" width="200" >
+<img src="/images/image003.png?raw=true" "WWW logo" width="2in" height="3in" >
   
 &nbsp;
 
