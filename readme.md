@@ -103,8 +103,7 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 <!------------------------------------------------------------------------------------------------------------------------->
 
 <p align="center">
-<img src="/images/image003.png?raw=true" "WWW logo" {width="2.0in" height="2.0in"} >
-  
+<img src="/images/image003.png?raw=true" "WWW logo" width="200" >
 &nbsp;
 
 With the birth of the World Wide Web, expanded usages of this new technology arose along with expanded business opportunities. 
