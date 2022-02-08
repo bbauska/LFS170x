@@ -755,21 +755,25 @@ In this chapter, we discussed:
    * Emerging general use cases.
 
 ## <a id="ch2"></a>Chapter 2. Blockchain Mechanics
-Chapter Overview
+### Chapter Overview
 In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques.
+
 We will gain an understanding of how previous computer technologies like file sharing, data storage and cryptography are wrapped into the blockchain foundations.
+
 We will also see how hashing functions and Merkle tree data structures help us immutably store and prove facts without revealing all the details.
+
 Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure.
+
 We will examine how this agreed-upon, append-only distributed ledger guarantees transparency and immutability, where trust in the information contained in the ledger is a given.
 
 ### Learning Objectives
 By the end of this chapter, you should be able to:
-   • Discuss how cryptography allows for distributed ledgers to work on a global scale.<br>
-   • Explain how blockchain is using cryptography.<br>
-   • Define key terms of cryptography and understand basic concepts.<br>
-   • Explain the concept of zero-knowledge proofs (ZKPs) and Merkle trees and how they are used in blockchain technologies.<br>
-   • Discuss how blockchain utilizes transparency.
-   • Explain what it means for blockchains to be immutable and how chaining provides this capability.
+   - Discuss how cryptography allows for distributed ledgers to work on a global scale.<br>
+   - Explain how blockchain is using cryptography.<br>
+   - Define key terms of cryptography and understand basic concepts.<br>
+   - Explain the concept of zero-knowledge proofs (ZKPs) and Merkle trees and how they are used in blockchain technologies.<br>
+   - Discuss how blockchain utilizes transparency.
+   - Explain what it means for blockchains to be immutable and how chaining provides this capability.
 
 ### <a id="ch2-1"></a>2.1 Introduction to Blockchain Components
 In this section, we're going to discuss the core components of the blockchain, starting with a high-level view of the blockchain components.<br>
@@ -802,13 +806,16 @@ The code that's stored on the blockchain is a smart contract.<br>
 Again, a smart contract is a program that runs on the blockchain.<br>
 </p>
 <h5>The blockchain is a network.</h5>
-The blockchain is a ... A public blockchain is equivalent to the Internet, complete with its own set of protocols, etc.
-Private blockchains are more synonymous with an intranet.
+The blockchain is a ... A **public blockchain** is equivalent to the Internet, complete with its own set of protocols, etc.
+**Private blockchains** are more synonymous with an intranet.
+
 It is... just like we have a use case for public blockchains and public internet, we also have use cases for private blockchains and an intranet, if we're gonna stay with that analogy.
+
 On each of these networks there are nodes. The nodes are going to be synonymous with the computers that make up the network.
 On the nodes, they are put together by a collection of protocols.
 Each blockchain has its own set of protocols that defines not only the nodes, but how those nodes communicate with each other.
 So, when you hear the term "peer network", that's what we're talking about; we're talking about how that blockchain is put together, what are the protocols that define the peers, and how those peers interact.
+
 Those peer networks, they store the ledger, they provide the updates, they effectively, they maintain the ledger.
 That's what a peer is on a peer network.
 
@@ -836,42 +843,42 @@ So, when something occurs on the blockchain, either public blockchains... most p
 This allows end-users, other systems, other users, different components to be able to act off of the events that come from an update on a blockchain.
 Basic Terms
 Some terms that are mentioned in the video we will get familiar with in later chapters, but are worth a brief description for clarification:
-  •	Ethereum
+  - Ethereum
 > Ethereum, like Bitcoin, is a decentralized open-source blockchain. Unlike the Bitcoin Network, the Ethereum Protocol has the ability to run smart contracts. 
 > The cryptocurrency running on the Ethereum network is called Ether.
-  •	Smart Contracts
+  - Smart Contracts
 > A smart contract is computer code that can be run on a blockchain that executes the conditions of an agreement.
-  •	Public Blockchains
+  - Public Blockchains
 > Public blockchain has no barrier to entry. Anyone with a cell phone and a digital wallet can transact on the blockchain.
-  •	Private Blockchains
+  - Private Blockchains
 > Private blockchains or permissioned blockchains have a Membership Services piece that grants access to users before they can interact with the blockchain.
-  •	Digital Wallet
+  - Digital Wallet
 > A digital wallet is a computer application that represents a traditional wallet. 
 > It gives the user the ability to store and transact cryptocurrencies through the Internet.
-  •	Public Key Infrastructure (PKI)
+  - Public Key Infrastructure (PKI)
 > Public Key Infrastructure is the identity management system for instilling trust into the electronic transfers of information or value. 
 > It is the technology used to authenticate users and information by issuing a set of key pairs (public and private).
 
 ### <a id="ch2-2"></a>2.2 Ledgers and Basic Accounting Systems (Understanding Ledgers)
 To understand how blockchain came about, we must first understand the following key principles:
 <ul>
-<li>  •	Ledgers</li>
-<li>  •	Basic accounting principles in history</li>
+<li> Ledgers</li>
+<li> Basic accounting principles in history</li>
 </ul>
 
 <h5>History of Ledgers</h5>
 <ul>
-<li>  •	Ledgers first appeared around 3,000 B.C.</li>
-<li>  •	Single-entry only.</li>
-<li>  •	Chanakya, an Indian leader, creates the first documented accounting standards.</li>
-<li>  •	Double-entry ledger appears in 1340 A.D.</li>
-<li>  •	Tracks debits and credits.</li>
-<li>  •	Tells the story of a transaction from both/all sides.</li>
-<li>  •	The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.</li>
-<li>  •	Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
-<li>  •	Debits, credits, and an immutable link to all past debits and credits.</li>
-<li>  •	Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).</li>
-<li>  •	Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.</li>
+<li> Ledgers first appeared around 3,000 B.C.</li>
+<li> Single-entry only.</li>
+<li> Chanakya, an Indian leader, creates the first documented accounting standards.</li>
+<li> Double-entry ledger appears in 1340 A.D.</li>
+<li> Tracks debits and credits.</li>
+<li> Tells the story of a transaction from both/all sides.</li>
+<li> The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.</li>
+<li> Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
+<li> Debits, credits, and an immutable link to all past debits and credits.</li>
+<li> Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).</li>
+<li> Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.</li>
 </ul>
 
 #### History of Ledgers (Triple-Entry Example)
@@ -883,29 +890,29 @@ As described in the Reddit post,
 #### Double vs. Triple-Entry Accounting Comparison
 
 #### Island of Yap
-Idea for the following was obtained from the LinkedIn article "Explaining Blockchain: The Distributed Ledger of the Island of Yap" by Anthony (Tony) Riva.
-The concept of distributed ledge's has been around for hundreds of years.
-To understand the basics of blockchain, it's important to understand how distributed ledgers work.
-A distributed ledger is a collection of data with no central administrator that has been agreed upon by consensus.
-To understand more details, let's take a trip way back, back into 500 AD on the island of Yap.
-The Yapese people used a very unique form of currency: the Rai stone.
-Each of these stones weighed around 200 kilos, making them difficult to move.
-To exchange them as money for goods or services, they divided the stones into sections and then, they would announce to every adult on the island who owned what part of each stone.
-Each adult had to keep a mental ledger of ownership.
-Every time any Yapese conducted a trade, an announcement was made to the entire tribe.
-Each member of the tribe would then update their mental ledger.
-In today's description, this would be called a distributed ledger.
-All Rai stone ownership was known to everyone, and that knowledge was updated whenever a transaction was made.
-So why didn't just one member of the tribe keep track of the Rai stones?
-What if that main recordkeeper was sick, unable to do their job, or was found to be dishonest?
-If the only copy of the ledger was changed by any means, wealth would be lost or gained unfairly.
-The Yapese knew their distributed ledger system safeguarded it from tampering.
-Since all the Yapese knew who owned what, it would be very difficult to fool everyone on the island.
-Even if one tribe member moved away, the tribe still had multiple copies of their mental ledger.
-In this regard, the ledger was fault tolerant and could not be easily changed, corrupted, or lost.
-The tribe also decided that stones didn't have to be on the island to hold value.
-One day, a stone fell into the ocean and the Yapese decided that this stone, even though it could not be seen, still held value and could still be traded.
-This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.
+Idea for the following was obtained from the LinkedIn article "Explaining Blockchain: The Distributed Ledger of the Island of Yap" by Anthony (Tony) Riva.<br>
+The concept of distributed ledger's has been around for hundreds of years.<br>
+To understand the basics of blockchain, it's important to understand how distributed ledgers work.<br>
+A distributed ledger is a collection of data with no central administrator that has been agreed upon by consensus.<br>
+To understand more details, let's take a trip way back, back into 500 AD on the island of Yap.<br>
+The Yapese people used a very unique form of currency: the Rai stone.<br>
+Each of these stones weighed around 200 kilos, making them difficult to move.<br>
+To exchange them as money for goods or services, they divided the stones into sections and then, they would announce to every adult on the island who owned what part of each stone.<br>
+Each adult had to keep a mental ledger of ownership.<br>
+Every time any Yapese conducted a trade, an announcement was made to the entire tribe.<br>
+Each member of the tribe would then update their mental ledger.<br>
+In today's description, this would be called a distributed ledger.<br>
+All Rai stone ownership was known to everyone, and that knowledge was updated whenever a transaction was made.<br>
+So why didn't just one member of the tribe keep track of the Rai stones?<br>
+What if that main recordkeeper was sick, unable to do their job, or was found to be dishonest?<br>
+If the only copy of the ledger was changed by any means, wealth would be lost or gained unfairly.<br>
+The Yapese knew their distributed ledger system safeguarded it from tampering.<br>
+Since all the Yapese knew who owned what, it would be very difficult to fool everyone on the island.<br>
+Even if one tribe member moved away, the tribe still had multiple copies of their mental ledger.<br>
+In this regard, the ledger was fault tolerant and could not be easily changed, corrupted, or lost.<br>
+The tribe also decided that stones didn't have to be on the island to hold value.<br>
+One day, a stone fell into the ocean and the Yapese decided that this stone, even though it could not be seen, still held value and could still be traded.<br>
+This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.<br>
 
 #### Island of Yap: Recap
   >1. The group shared the ledger.
@@ -926,28 +933,28 @@ Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never ga
 If Alice wants to cheat, she will need a way to convince 51% or more of the tribe to accept an alternative ledger.
 
 #### The Evolution of Distributed Ledgers
-We've gone through history and seen how ledgers have evolved from stone tablets to double entry ledgers.
-We even took a look at the earliest known example of distributed ledgers.
-Now, let's discuss the evolution of the ledger in the modern world.
-Over the last few decades, ledgers have moved from the written form to the digital form, also known as computers and digitalized databases.
-This has allowed us to be interconnected - a truly global economy.
-Today, this recordkeeping system is being revolutionized again, going from the digital realm or centralized databases keeping track of transactions to information being stored across different locations across the globe.
-This system of record, information across a global network, is what we call decentralized ledgers.
-A decentralized ledger can be described as a ledger of any transactions or contracts supported by a decentralized network from across different locations and people, eliminating the need of a central authority.
-When a recording is made, every participant is notified of that recording.
-They now own an identical copy of the record of transactions, identical to every other node on that network.
-Every piece of information on a blockchain can be traced back to the exact moment when it was created.
-So, if an audit is necessary, information can be found and deemed reliable.
-This allows blockchain to serve as a truly reliable storage of public records and transactions, and therefore eliminating the need for a centralized authority of database of records.
-Now that we understand the foundational principle of blockchains - distributed ledgers, it's important to understand another important key element that makes blockchain so revolutionary: trust.
-Trust is created through two key principles: collaboration and cryptography, both of which will be discussed shortly.
+We've gone through history and seen how ledgers have evolved from stone tablets to double entry ledgers.<br>
+We even took a look at the earliest known example of distributed ledgers.<br>
+Now, let's discuss the evolution of the ledger in the modern world.<br>
+Over the last few decades, ledgers have moved from the written form to the digital form, also known as computers and digitalized databases.<br>
+This has allowed us to be interconnected - a truly global economy.<br>
+Today, this recordkeeping system is being revolutionized again, going from the digital realm or centralized databases keeping track of transactions to information being stored across different locations across the globe.<br>
+This system of record, information across a global network, is what we call decentralized ledgers.<br>
+A decentralized ledger can be described as a ledger of any transactions or contracts supported by a decentralized network from across different locations and people, eliminating the need of a central authority.<br>
+When a recording is made, every participant is notified of that recording.<br>
+They now own an identical copy of the record of transactions, identical to every other node on that network.<br>
+Every piece of information on a blockchain can be traced back to the exact moment when it was created.<br>
+So, if an audit is necessary, information can be found and deemed reliable.<br>
+This allows blockchain to serve as a truly reliable storage of public records and transactions, and therefore eliminating the need for a centralized authority of database of records.<br>
+Now that we understand the foundational principle of blockchains - distributed ledgers, it's important to understand another important key element that makes blockchain so revolutionary: trust.<br>
+Trust is created through two key principles: collaboration and cryptography, both of which will be discussed shortly.<br>
 
 #### Decentralized Ledger
-As we can see by looking at the evolution of the ledger, we are entering a new phase where no one centralized authority has control of the details in the ledger, everyone does. 
-Transactions are only added to the ledger if everyone agrees. 
-Once consensus is reached, no one can go back and deny a transaction. 
-So essentially you are not trusting one person or entity to control the ledger, you're trusting everyone. 
-Let's look a little further into how that trust is achieved.
+As we can see by looking at the evolution of the ledger, we are entering a new phase where no one centralized authority has control of the details in the ledger, everyone does.<br>
+Transactions are only added to the ledger if everyone agrees.<br>
+Once consensus is reached, no one can go back and deny a transaction.<br>
+Essentially you are not trusting one person or entity to control the ledger, you're trusting everyone.<br>
+Let's look a little further into how that trust is achieved.<br>
 
 ### <a id="ch2-3"></a>2.3 From Distributed Ledger to Cryptography
 A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
