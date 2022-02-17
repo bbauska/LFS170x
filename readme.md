@@ -123,7 +123,9 @@ Characteristics of Web 1.0:
  * Managed by a central authority.
  * Read-only, information was “pushed” to users.
  * Email was the first widely adopted application on the Internet.
-
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------- email logo -------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-mail" width="200" >
 
@@ -134,6 +136,10 @@ Internet speeds switched from kilobits to tens of megabits per second, to gigabi
 Companies appeared attempting to cash in on this new technology, most notable was a company called <b>Netscape</b> which developed the first commercial Web browser.
 
 **[`^        back to top        ^`](#table-of-contents)**
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------- netscape logo -------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 
 <p align="center">
 <img src="/images/image005.png?raw=true" "Netscape" width="200" >
@@ -150,6 +156,9 @@ Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sel
 Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. 
 Websites let users generate content, social networks became part of our lives.
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------- social networking ---------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image006.png?raw=true" "Social Networking" width="300" >
 &nbsp;
@@ -157,7 +166,9 @@ Websites let users generate content, social networks became part of our lives.
 <h5 align="center">>Social Networking</h5>
 
 <h3>Real World Examples of File Sharing</h3>
-
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------- napster logo -------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <h4>Use Case: Music Sharing Companies</h4>
 <p align="center">
 <img src="/images/image007.png?raw=true" "Napster" width="200" >
@@ -167,6 +178,10 @@ Websites let users generate content, social networks became part of our lives.
 Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.<br>
 <b>Result:</b> The industry cracks down music sharing companies copyright infringement.
 Napster is forced to take down its index, shutting down the platform.
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------- bittorrent logo -------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image008.png?raw=true" "BitTorrent" width="200" >
 &nbsp;
