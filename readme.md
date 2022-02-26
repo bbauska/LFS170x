@@ -101,7 +101,6 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------- www logo -------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
-
 <p align="center">
 <img src="/images/image003.png?raw=true" "WWW logo" width="200" >
 &nbsp;
@@ -124,10 +123,10 @@ Characteristics of Web 1.0:
  * Read-only, information was “pushed” to users.
  * Email was the first widely adopted application on the Internet.
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------- email logo -------------------------------------------------------->
+<!------------------------------------------------------ email logo ------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-mail" width="200" >
+<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-mail logo" width="200" >
 
 <h5>Email, Electronically Transferring Information</h5>
 Computers and items for connection became necessities.
@@ -138,11 +137,10 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------- netscape logo -------------------------------------------------------->
+<!---------------------------------------------------- netscape logo ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------->
-
 <p align="center">
-<img src="/images/image005.png?raw=true" "Netscape" width="200" >
+<img src="/images/image005.png?raw=true" "Netscape logo" width="200" >
 &nbsp;
  
 #### Web 2.0 - Internet of Information
@@ -157,21 +155,21 @@ Data became a commodity collected, siloed and sold; we were giving up our inform
 Websites let users generate content, social networks became part of our lives.
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!-------------------------------------------------- social networking ---------------------------------------------------->
+<!----------------------------------------------- social networking logo -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image006.png?raw=true" "Social Networking" width="300" >
+<img src="/images/image006.png?raw=true" "Social Networking logo" width="300" >
 &nbsp;
 
 <h5 align="center">>Social Networking</h5>
 
 <h3>Real World Examples of File Sharing</h3>
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------- napster logo -------------------------------------------------------->
+<!----------------------------------------------------- napster logo ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------->
 <h4>Use Case: Music Sharing Companies</h4>
 <p align="center">
-<img src="/images/image007.png?raw=true" "Napster" width="200" >
+<img src="/images/image007.png?raw=true" "Napster logo" width="200" >
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer.
@@ -180,10 +178,10 @@ Napster software supplied its users with a centralized index of all music files 
 Napster is forced to take down its index, shutting down the platform.
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------- bittorrent logo -------------------------------------------------------->
+<!--------------------------------------------------- bittorrent logo ----------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image008.png?raw=true" "BitTorrent" width="200" >
+<img src="/images/image008.png?raw=true" "BitTorrent logo" width="200" >
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer. 
@@ -211,6 +209,9 @@ Bitcoin is the first widely accepted application for the Internet of Value (just
 
 **[`^        back to top        ^`](#table-of-contents)**
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------- crypto, electronically transferring value ----------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image009.png?raw=true" "Crypto, electronically transferring value" width="200" >
 &nbsp;
@@ -297,6 +298,9 @@ Examples of smart contracts include *insurance policies*, *copyrighted content*,
 Smart contracts will revolutionize how we do business.
 There are so many possibilities with blockchain; not just in the now, but with things we haven't begun to think about yet.
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------- bitcoin logo ------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image010.png?raw=true" "Bitcoin logo" width="200" >
 &nbsp;
@@ -318,6 +322,9 @@ According to Investopedia,
 > Fiat money is backed by the government and it has value because the government says so and the citizens believe it. 
 > The dollar is an example of the United States fiat currency”.
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------ government building ---------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image011.png?raw=true" "Government building" width="200" >
 &nbsp;
@@ -325,15 +332,20 @@ According to Investopedia,
 Apart from the government issuing Fiat, a centralized authority needs to keep track of assets. 
 Banks, credit card companies’ stockbrokers are companies that represent a centralized authority that controls your money.
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------- bank building ------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image012.png?raw=true" "Bank building" width="200" >
 &nbsp;
-  
 
 Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. 
 If you have an Internet connection and a Bitcoin wallet application, you can receive and send the cryptocurrency Bitcoin. 
 Cryptocurrencies like Bitcoin have value because it can be proven with math. Unlike banks offering centralized services, you are responsible for your cryptocurrency.
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------- key, keyboard ------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image013.png?raw=true" "Key, keyboard" width="200" >
 &nbsp;
@@ -344,7 +356,10 @@ Blockchain technology can easily transfer anything from property rights, stocks,
 There are many more use cases that utilize blockchain technology far reaching than currency transfer.
 
 **[`^        back to top        ^`](#table-of-contents)**
-  
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------- blockchain files ---------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image014.png?raw=true" "Blockchain files" width="200" >
 &nbsp;
@@ -404,6 +419,9 @@ Any data can be stored on the same block. Examples of stored data include:
   - Property agreements
   - Voting
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------ data stored on block --------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image016.png?raw=true" "Data stored on block" width="400" >
 &nbsp;
@@ -411,11 +429,19 @@ Any data can be stored on the same block. Examples of stored data include:
 <h5>Let’s Review an Analogy: Blocks Are Chained Together</h5>
 Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------- bittorrent logo ----------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image017.png?raw=true" "Blockchains are chained together" width="650" >
 &nbsp;
+<!------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------- bittorrent logo ----------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 
-<h5>Let’s Review an Analogy: Blockchain Is Immutable</h5>
+
+<h5>Le
+t’s Review an Analogy: Blockchain Is Immutable</h5>
 If the data is tampered with anywhere in the chain, the links will break in a very obvious way.
 
 <p align="center">
