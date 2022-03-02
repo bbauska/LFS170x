@@ -3095,7 +3095,7 @@ The resulting solution is called TradeLens. You can take the TradeLens tour here
 **[`^        back to top        ^`](#table-of-contents)**
 
 <p align="center" width="100%">
-  <img width="50%" src="/images/image098.png?raw=true"
+  <img width="50%" src="/images/image098.jpg?raw=true"
     alt="Trade made easy"</>
 </p>
  
