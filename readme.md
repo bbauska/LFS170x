@@ -158,7 +158,7 @@ Websites let users generate content, social networks became part of our lives.
 <!----------------------------------------------- social networking logo -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image006.png?raw=true" Social Networking logo" width="300" >
+<img src="/images/image006.png?raw=true" "Social Networking logo" width="300" >
 &nbsp;
 
 <h5 align="center">>Social Networking</h5>
