@@ -1,5 +1,5 @@
 ## LFS170x - Linux FoundationX - Blockchain: Understanding Its Use Cases and Implications
-<!------------------------------------------------------------------------------------------------------------------------->cb
+<!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------- readme.md in LFS170x.bauska.site -------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
@@ -158,7 +158,7 @@ Websites let users generate content, social networks became part of our lives.
 <!----------------------------------------------- social networking logo -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image006.png?raw=true" "Social Networking logo" width="300" >
+<img src="/images/image006.png?raw=true" Social Networking logo" width="300" >
 &nbsp;
 
 <h5 align="center">>Social Networking</h5>
@@ -216,22 +216,28 @@ Bitcoin is the first widely accepted application for the Internet of Value (just
 <img src="/images/image009.png?raw=true" "Crypto, electronically transferring value" width="200" >
 &nbsp;
 
-<h5>Cryptocurrencies, Electronically Transferring Value</h5>
+<h5 align="center">Cryptocurrencies, Electronically Transferring Value</h5>
 The Internet of Value represents a world where value is exchanged at the speed in which information moves today.
-The Internet is still the basic platform that these new technologies operate from. 
+
+The Internet is still the basic platform that these new technologies operate from.
+
 The new Web 3.0 browsers are being built to help you manage your cryptocurrency, keys, passwords and other blockchain features.
+
 Let’s now dive into blockchain basics.
 
 ### <a id="ch1-3"></a>1.3 What Is Blockchain? (Blockchain Basics)
 There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
-You've probably heard of it: it's called 'Blockchain!'
+You've probably heard of it:<br>
+   <b>it's called 'Blockchain!'</b>
 
-But what is it? How does it work? How does it affect you?<br>
+But what is it?<br>
+How does it work?<br>
+How does it affect you?<br>
 Hearing the word "blockchain" is comparable to hearing the word "internet" in the early 90s.<br>
 It seemed elusive, like something that wasn't going to impact your daily life.<br>
-But here we are, more than 20 years later.
-Think about how the Internet has transformed businesses, commerce, communication, even music and video.
-And that's not even touching on how the Internet has affected you.
+But here we are, more than 20 years later.<br>
+Think about how the Internet has transformed businesses, commerce, communication, even music and video.<br>
+And that's not even touching on how the Internet has affected you.<br>
 We all carry the Internet in our pocket.<br>
 We can transfer money at the touch of a button, check the weather, get directions, and even have food delivered to our door.<br>
 The next technology to have that kind of impact isn't some of the buzzwords you hear.<br>
@@ -438,10 +444,7 @@ Each block is chained or tied to the previous block by embedding the block with 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!--------------------------------------------------- bittorrent logo ----------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
-
-
-<h5>Le
-t’s Review an Analogy: Blockchain Is Immutable</h5>
+<h5>Let’s Review an Analogy: Blockchain Is Immutable</h5>
 If the data is tampered with anywhere in the chain, the links will break in a very obvious way.
 
 <p align="center">
