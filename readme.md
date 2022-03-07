@@ -1,4 +1,5 @@
-## LFS170x - Linux FoundationX - Blockchain: Understanding Its Use Cases and Implications
+## LFS170x - Linux FoundationX - 
+## Blockchain: Understanding Its Use Cases and Implications
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------- readme.md in LFS170x.bauska.site -------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -3427,12 +3428,17 @@ The options on themusicianmarketplace.com are unlimited.
 Below you can see themusicianmarketplace.com dashboard: 
 
 **[`^        back to top        ^`](#table-of-contents)**
-
+<!---
 <p align="center" width="100%">
   <img width="85%" src="/images/image123.jpg?raw=true"
     alt="musicianmarketplace.com"</>
 </p>
+--->
 
+<p align="center">
+<img src="/images/image123.png?raw=true" "musicianmarketplace.com" width="650" >
+&nbsp;
+  
 ### <a id="ch6-6"></a>6.6 What is the future of blockchain?
 That is a big question.
 And unlike everything we have already talked about in this course, this is nothing factual, but just my own opinion.
