@@ -1,6 +1,8 @@
 <h2 align="center">
 LFS170x - Linux FoundationX - 
 &nbsp;
+<h2 align="center">
+
 Blockchain: Understanding Its Use Cases and Implications
 &nbsp;
 <!------------------------------------------------------------------------------------------------------------------------->
