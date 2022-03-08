@@ -1,5 +1,8 @@
-## LFS170x - Linux FoundationX - 
-## Blockchain: Understanding Its Use Cases and Implications
+<h2 align="center">
+LFS170x - Linux FoundationX - 
+&nbsp;
+Blockchain: Understanding Its Use Cases and Implications
+&nbsp;
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------- readme.md in LFS170x.bauska.site -------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
