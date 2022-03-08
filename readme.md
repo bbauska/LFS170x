@@ -114,6 +114,8 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 With the birth of the World Wide Web, expanded usages of this new technology arose along with expanded business opportunities. 
 Web servers, people who host and store the documents and web browsers, companies set up to help you view linked documents, help create a household need for this technology and the Internet explosion began.
 
+**[`^        back to top        ^`](#table-of-contents)**
+
 #### The Growth of the Internet
 The Internet can be grouped into three distinct segments characterized by the way people interact with this new technology.
   * Web 1.0 - Internet of Connection
