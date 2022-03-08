@@ -12,9 +12,8 @@ Blockchain: Understanding Its Use Cases and Implications
 <img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" width="400">
 &nbsp;
 
-</p>  
-
-<h3>Blockchain: Understanding Its Use Cases and Implications </h3>
+</p>
+<h4>Welcome to LFS170x: Blockchain - Understanding Its Use Cases and Implications </h4>
 
 ## [Table of Contents](#table-of-contents)
 
