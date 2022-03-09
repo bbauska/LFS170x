@@ -1,8 +1,65 @@
-**LFS170x - Linux FoundationX **
+## **LFS170x - Linux FoundationX **
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------- readme.md in LFS170x.bauska.site -------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" width="400">
+&nbsp;
 
-Blockchain: Understanding Its Use Cases and Implications
+</p>
 
-![](media/image1.png){width="3.0in" height="1.0625in"}
+<h3>Blockchain: Understanding Its Use Cases and Implications</h3>
+
+## [Table of Contents](#table-of-contents)
+
+## [**Chapter 1. Introduction to Blockchain**](#ch1)
+>### 1.1. [**Introduction**](#ch1-1)
+>### 1.2. [**Introduction to Blockchain and The Early Internet**](#ch1-2)
+>### 1.3. [**What is Blockchain?**](#ch1-3)
+>### 1.4. [**Career Opportunities in Blockchain**](#ch1-4)
+>### 1.5. [**Who is Using Blockchain?**](#ch1-5)
+>### 1.6. [**Summary**](#ch1-6)  
+
+## [**Chapter 2. Blockchain Mechanics**](#ch2)
+>### 2.1. [**Introduction**](#ch2-1)
+>### 2.2. [**Understanding Ledgers**](#ch2-2)
+>### 2.3. [**From Distributed Ledgers to Cryptography**](#ch2-3)
+>### 2.4. [**Transparency and Immutability**](#ch2-4)
+>### 2.5. [**Summary**](#ch2-5)
+
+## [**Chapter 3. Blockchain Functions**](#ch3)
+>### 3.1. [**Introduction**](#ch3-1)
+>### 3.2. [**What are Smart Contracts?**](#ch3-2)
+>### 3.3. [**Blockchain Security vs Standard Cybersecurity**](#ch3-3)
+>### 3.4. [**Public and Permissioned Blockchains**](#ch3-4)
+>### 3.5. [**The Blockchain Transaction**](#ch3-5)
+>### 3.6. [**Consensus**](#ch3-6)
+>### 3.7. [**Summary**](#ch3-7)
+
+## [**Chapter 4. Blockchains and Governance**](#ch4)
+>### 4.1. [**Introduction**](#ch4-1)
+>### 4.2. [**What is Open Source Code?**](#ch4-2)
+>### 4.3. [**Introduction to Governance**](#ch4-3)
+>### 4.4. [**Identity and Anonymity on Blockchain**](#ch4-4)
+>### 4.5. [**Summary**](#ch4-5)
+
+## [**Chapter 5. Blockchain Problem Solving and Future Trends**](#ch5)
+>### 5.1. [**Introduction**](#ch5-1)
+>### 5.2. [**Double Spend Problem**](#ch5-2)
+>### 5.3. [**Digital Currencies**](#ch5-3)
+>### 5.4. [**Non-Fungible Tokens**](#ch5-4)
+>### 5.5. [**Summary**](#ch5-5)
+
+## [**Chapter 6. Blockchain Use Cases**](#ch6)
+>### 6.1. [**Introduction**](#ch6-1)
+>### 6.2. [**Blockchain in Practice (Use Cases)**](#ch6-2)
+>### 6.3. [**Enterprise Solutions**](#ch6-3)
+>### 6.4. [**Public Sector Solutions**](#ch6-4)
+>### 6.5. [**Social Impact Solutions**](#ch6-5)
+>### 6.6. [**Future of Blockchain**](#ch6-6)
+>### 6.7. [**Summary**](#ch6-7)
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 Welcome to LFS170x: Blockchain - Understanding Its Use Cases and
 Implications
