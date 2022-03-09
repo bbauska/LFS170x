@@ -5,12 +5,12 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" width="400">
 &nbsp;
-# Some markdown
-*click below*
+<b/>
 <a href="https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/" target="_blank">Decentraland</a>
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
 
 </p>  
+<b/>
 
 <h3>Blockchain: Understanding Its Use Cases and Implications </h3>
 
