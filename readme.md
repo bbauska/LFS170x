@@ -6,7 +6,6 @@
 <img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" width="400">
 &nbsp;
 <b/>
-<a href="https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/" target="_blank">Decentraland</a>
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
 
 </p>  
@@ -2701,19 +2700,27 @@ Immutability is when something is unable to be changed.
 </p>
   
 #### Immutability
-"Immutable" simply refers to the permanence of data.
-Anything we call "immutable" we understand to be permanent and unchanging.
-Your local weather forecast - that's mutable, it changes all the time; the stars in the sky, those are immutable, they seem permanent from our perspective.
-One of the benefits of blockchain and many other Web 3.0 technologies is the promise of immutability.
-The data recorded on a blockchain system can never be altered, edited, changed, or deleted once it has been recorded.
+"Immutable" simply refers to the permanence of data. <b/>
+
+Anything we call "immutable" we understand to be permanent and unchanging. <b/>
+
+Your local weather forecast - that's mutable, it changes all the time; the stars in the sky, those are immutable, they seem permanent from our perspective. <b/>
+
+One of the benefits of blockchain and many other Web 3.0 technologies is the promise of immutability. <b/>
+
+The data recorded on a blockchain system can never be altered, edited, changed, or deleted once it has been recorded.<b/>
+
 As this data is stored in many different locations,
-changing or removing a copy of the data in one single place, or in a limited number of places poses no threat.
-Blockchain goes further than this though.
-In addition to recording facts or data points, blockchain also has the capacity to record who endorses or agrees with those recorded facts.
-Think of the difference between a piece of paper, and a contract.
-A piece of paper can contain any data, true or not.
-A signed contract becomes more than a piece of paper because those signatures represent who agreed with the facts recorded on the paper at the time of signing.
-Blockchain provides a digital implementation of this process, and can be an immeasurably valuable tool when you need to capture not only what happened, but who was involved as well.
+changing or removing a copy of the data in one single place, or in a limited number of places poses no threat. <b/>
+
+Blockchain goes further than this though. <b/>
+
+In addition to recording facts or data points, blockchain also has the capacity to record who endorses or agrees with those recorded facts. <b/>
+
+Think of the difference between a piece of paper, and a contract. <b/>
+A piece of paper can contain any data, true or not. <b/>
+A signed contract becomes more than a piece of paper because those signatures represent who agreed with the facts recorded on the paper at the time of signing. <b/>
+Blockchain provides a digital implementation of this process, and can be an immeasurably valuable tool when you need to capture not only what happened, but who was involved as well. <b/>
 Imagine the new opportunities that arise when organizations can safely and securely share their most critical data with one another, with the trust that the data they're seeing hasn't been compromised or altered.
 
 #### Traditional Database Immutability Concept
@@ -3417,7 +3424,8 @@ To learn more, visit the Game Developers Conference's website.
 Decentraland is a virtual world built on top of the Ethereum blockchain. A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br> 
 Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).<br>
 
-Watch this video to learn more about [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).
+Watch this video to learn more about <a href="https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/" target="_blank">Decentraland</a>
+<!--- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/). -->
 
 ### Music
 Experts from Statista projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
