@@ -5,6 +5,10 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" width="400">
 &nbsp;
+# Some markdown
+*click below*
+<a href="https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/" target="_blank">Decentraland</a>
+<!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
 
 </p>  
 
@@ -3413,7 +3417,7 @@ To learn more, visit the Game Developers Conference's website.
 Decentraland is a virtual world built on top of the Ethereum blockchain. A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br> 
 Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).<br>
 
-Watch this video to learn more about Decentraland [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).
+Watch this video to learn more about [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).
 
 ### Music
 Experts from Statista projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
