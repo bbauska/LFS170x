@@ -2842,26 +2842,27 @@ Other attempts include:
 •	E-gold in 1996 (sunk by continuous money laundering, hacking, and extortion).
 •	Liberty Reserve in 2006 (shut down in 2013 due to this becoming a great hangout spot for cybercriminals).
 
-#### <a id="ch5=3"></a>5.3 Digital Currencies Overview
+### <a id="ch5-3"></a>5.3 Digital Currencies Overview
 Digital currencies are available only in the digital world and not in the physical world. They can be defined as any currency, money, or money-like asset that is primarily managed, stored or exchanged on computer systems. Examples of digital currencies include cryptocurrency, virtual currency and central bank digital currency.
+ picture here centered
  
-<h5>Cryptocurrency Defined</h5>
+<h4>Cryptocurrency Defined</h4>
 According to Investopedia,
 "A cryptocurrency, broadly defined, is currency that takes the form of tokens or “coins” and exists on a distributed and decentralized electronic ledger. While a large majority remain completely intangible, some cryptocurrencies have ventured into the physical world by building associations with companies offering traditional payment rails (credit cards and payment processors)".
 
-<h5>Cryptocurrencies Markets </h5>
+<h4>Cryptocurrencies Markets </h4>
 To break down the crypto markets, let's start with some basic definitions.
 
-<h5>Crypto Wallet</h5>
+<h4>Crypto Wallet</h4>
 A cryptocurrency wallet is an application on your computer or smart phone that connects you to a blockchain where you can trade cryptocurrencies. A Bitcoin wallet allows you to trade Bitcoin, an Ethereum wallet accommodates Ether. You can not send Bitcoin to the Ethereum blockchain, each cryptocurrency must transact on its own blockchain.
 
-<h5>Multi-currency Wallets</h5>
+<h4>Multi-currency Wallets</h4>
 Some wallets allow you to hold multiple cryptocurrencies in the same application. In these wallets, each cryptocurrency will have its own balance. To initiate a transaction, the application will create a cryptographically secure address (specific for the particular blockchain). This address acts as your account number and lets you send and receive the cryptocurrency.
 
-<h5>Atomic Swaps</h5>
+<h4>Atomic Swaps</h4>
 Additional features in these wallets lets you “swap” one cryptocurrency for another. The application provider acts as the intermediary to secure the transactions from one chain to the other.
 
-<h5>Metamask</h5>
+<h4>Metamask</h4>
 Metamask is a cryptocurrency wallet used to interact with the Ethereum blockchain and other blockchains issued in accordance with the Ethereum Platform. Tokens issued in accordance with the ERC-20 standard for utility tokens can be stored in a metamask wallet. Metamask not only stores cryptocurrencies but acts as a gateway to blockchain applications. You can access the wallet through a mobile application or a browser extension.
  
 ConsenSys, spearheaded by Joe Lubin, an early Ethereum programmer, is a software engineering company that helps developers build next-generation networks and enable enterprises to launch more powerful financial infrastructure. Consensys Mesh is a playground for entrepreneurs and programmers to build decentralized platforms and projects, Metamask is just one project to come out of the efforts at Consensys.
