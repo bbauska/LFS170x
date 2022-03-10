@@ -2729,12 +2729,17 @@ Another point to keep in mind is that immutability has been around for many year
 
 #### Blockchain Immutability Concept
 Let's review the aspects of the public blockchain that improve the chances of it being immutable.
-There are many different variables, but the main one is consensus. In a blockchain, it refers to the logs of transactions which are created by consensus among the chain’s participants. The basic notion is that once a blockchain transaction has received a sufficient level of validation and posted on the chain, it can almost never be replaced, reversed or edited.
+
+There are many different variables, but the main one is consensus. 
+
+In a blockchain, it refers to the logs of transactions which are created by consensus among the chain’s participants. The basic notion is that once a blockchain transaction has received a sufficient level of validation and posted on the chain, it can almost never be replaced, reversed or edited.
+
 If all the nodes within the network (Bitcoin specifically) are working to solve a really hard math problem by running many computers simultaneously, the chances of anyone overriding that are slim to zero.
+
 But, if someone wanted to undermine the immutability of the Bitcoin blockchain, here’s how they would do it:
-  * First, they would install more mining capacity than the rest of the network put together, creating a so-called “51% attack”.
-  * Second, instead of openly participating in the mining process, they would mine their own “secret branch", containing whichever transactions they approve and censoring the rest.
-  * Finally, when the desired amount of time has passed, they would anonymously broadcast their secret branch to the network.
+  * __First__, they would install more mining capacity than the rest of the network put together, creating a so-called “51% attack”,
+  * __Second__, instead of openly participating in the mining process, they would mine their own “secret branch", containing whichever transactions they approve and censoring the rest,
+  * __Finally__, when the desired amount of time has passed, they would anonymously broadcast their secret branch to the network.
 
 Since the attacker has more mining power than the rest of the network, their branch will contain more Proof of Work than the public one. Every Bitcoin node will therefore switch over since the rules of Bitcoin state that the more difficult branch wins. Any previously confirmed transactions not in the secret branch will be reversed and the Bitcoin they spent could be sent elsewhere. The computing power required to achieve this is enormous and probably only theoretical, but it’s important to consider.
 One other less technical and malicious example would be from the Ethereum hard fork that directly happened after the DAO hack. In this example, the majority of the Ethereum nodes in the network decided to update the software preventing those hackers from withdrawing the cryptocurrency “earned” (stolen). This update could not be enforced, since every Ethereum user controls their own computer. Nonetheless, it was publicly supported by Vitalik Buterin, Ethereum’s founder, as well as many other community leaders. As a result, most users complied, and the blockchain with the new rules kept the name "Ethereum". A minority disagreed with the change and continued the blockchain according to its original rules, earning the title "Ethereum Classic".
@@ -2850,7 +2855,7 @@ To break down the crypto markets, let's start with some basic definitions.
 <h5>Crypto Wallet</h5>
 A cryptocurrency wallet is an application on your computer or smart phone that connects you to a blockchain where you can trade cryptocurrencies. A Bitcoin wallet allows you to trade Bitcoin, an Ethereum wallet accommodates Ether. You can not send Bitcoin to the Ethereum blockchain, each cryptocurrency must transact on its own blockchain.
 
-  <h5>Multi-currency Wallets</h5>
+<h5>Multi-currency Wallets</h5>
 Some wallets allow you to hold multiple cryptocurrencies in the same application. In these wallets, each cryptocurrency will have its own balance. To initiate a transaction, the application will create a cryptographically secure address (specific for the particular blockchain). This address acts as your account number and lets you send and receive the cryptocurrency.
 
 <h5>Atomic Swaps</h5>
@@ -2974,9 +2979,13 @@ Hyperledger created a Capital Market Special Interest Working Group spearheaded 
 
 ### <a id="ch5-4"></a>5.4 Non-Fungible Tokens (NFTs)
 At the beginning of this course we discussed the Internet and the changes it has gone through. We started with Web 1.0 and how it revolutionized the way exchanged value, looking back it is hard to believe we managed without email. Then came Web 2.0 and our social status and personal information flowed on the net as freely as the air we breathe. Web 3.0 started with blockchain and the transfer of value, the first killer application being Bitcoin.
+
 Now, you may be asking yourself, "What's next?". That's where non-fungible tokens come into play and are set to revolutionize art, music, sports and gaming by offering a new kind of digital ownership and the ability to transfer unique value with digital collectables. We first saw a glimpse of this new market with CryptoKitties but let's look deeper into this phenomenon.
+
 According to Wikipedia, a non-fungible token:
+<blockquote>
 "is a unit of data stored on a digital ledger, called blockchain, that certifies a digital asset to be unique and therefore not interchangeable".
+</blockquote>
 NFTs can represent art, music, videos and other digital files where access to the original file is restricted, limited to the owner proving authenticity and providence. The first standard for issuing NFT’s was based on the Ethereum's ERC-721 that differs from the ERC-20 as ERC-721 tokens are all unique which makes them perfect for the collectibles market. The ECR-1155 aims to improve on the previous token standard by further defining assets.
 
 **[`^        back to top        ^`](#table-of-contents)**
