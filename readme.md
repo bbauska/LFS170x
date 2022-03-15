@@ -147,7 +147,7 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 <img src="/images/image005.png?raw=true" "Netscape logo" width="200" >
 &nbsp;
  
-#### Web 2.0 - Internet of Information
+### Web 2.0 - Internet of Information
 Characteristics of Web 2.0:
   * User-generated content.
   * Read-write, individuals can interact with information.
@@ -165,7 +165,7 @@ Websites let users generate content, social networks became part of our lives.
 <img src="/images/image006.png?raw=true" "Social Networking logo" width="300" >
 &nbsp;
 
-<h5 align="center">>Social Networking</h5>
+<h5 align="center">Social Networking</h5>
 
 <h3>Real World Examples of File Sharing</h3>
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -202,7 +202,7 @@ You could never be sure the file you requested was the file you would get and th
 Both Napster and BitTorrent are operating today, with different business models.
 </p>
 
-#### Web 3.0 - Internet of Value
+### Web 3.0 - Internet of Value
 Characteristics of Web 3.0:
    * Community interaction.
    * More connected, open, and intelligent.
