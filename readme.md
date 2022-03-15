@@ -111,14 +111,14 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 With the birth of the World Wide Web, expanded usages of this new technology arose along with expanded business opportunities. 
 Web servers, people who host and store the documents and web browsers, companies set up to help you view linked documents, help create a household need for this technology and the Internet explosion began.
 
-#### The Growth of the Internet
+### The Growth of the Internet
 The Internet can be grouped into three distinct segments characterized by the way people interact with this new technology.
   * Web 1.0 - Internet of Connection
   * Web 2.0 - Internet of Information
   * Web 3.0 - Internet of Value
 Let’s discuss them in more detail.
 
-#### Web 1.0 - Internet of Connection
+### Web 1.0 - Internet of Connection
 Characteristics of Web 1.0:
  * Development of a host of web-based applications, which fostered in online services, such as email.
  * Content from administrator.
@@ -129,9 +129,10 @@ Characteristics of Web 1.0:
 <!------------------------------------------------------ email logo ------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-mail logo" width="400" >
+<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-mail logo" width="300" >
 
-<h5>Email, Electronically Transferring Information</h5>
+<h5 align="center">
+Email, Electronically Transferring Information</h5>
 Computers and items for connection became necessities.
 Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
 Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. 
