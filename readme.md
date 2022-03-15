@@ -725,23 +725,24 @@ Industries like finance, international trade and commerce, food supply chains ar
 <p align="center">
 <img src="/images/image025.png?raw=true" "Walmart Canada & DLT Labs logos" width="400" >
 &nbsp;
-
-   • <b>Approach:</b> DLT Labs along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
+</p>
+   • <b>Approach:</b> <i>DLT Labs</i> along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
   The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. 
   The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
-&nbsp;
+&nbsp;<b/>
    • <b>Result:</b> Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
 
-#### __Unintended Use Cases__
+### __Unintended Use Cases__
 One of the coolest things about blockchain is some of the unintended consequences a good blockchain solution might have.
 &nbsp;
+<b/>
 Let's look at an example.<br>
 <p>
-Right now, there is a lot of attention being given to how blockchain might be used, in general, for supply chain relationships and, specifically, in the food supply chain.
-Let's pretend that you have a very young child and your child has a serious pesticide allergy.
-Of course, when you go to the grocery store, you make sure that you only buy the produce in the produce section that has the USDA organic label.
-It's just a little sticker that goes on the produce.
-You buy your produce and you stand in the checkout line, and you feel pretty good that the produce you're buying actually is organic and has been treated with all-natural pesticides, and won't make your young child sick.
+Right now, there is a lot of attention being given to how blockchain might be used, in general, for supply chain relationships and, specifically, in the food supply chain.</p>
+<p>Let's pretend that you have a very young child and your child has a serious pesticide allergy.</p>
+Of course, when you go to the grocery store, you make sure that you only buy the produce in the produce section that has the USDA organic label.</p>
+<p>It's just a little sticker that goes on the produce.</p>
+<p>You buy your produce and you stand in the checkout line, and you feel pretty good that the produce you're buying actually is organic and has been treated with all-natural pesticides, and won't make your young child sick.
 But sometimes you wonder, standing in line, how do I really know? 
 How do I really know that someone didn't just print up a bunch of these stickers in their basement and apply them at the last minute?
 </p>
