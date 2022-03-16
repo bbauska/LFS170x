@@ -929,8 +929,8 @@ The code that's stored on the blockchain is a smart contract.<br>
 Again, a smart contract is a program that runs on the blockchain.<br>
 </p>
 The blockchain is a network.
-The blockchain is a ... A ==***public blockchain***== is equivalent to the Internet, complete with its own set of protocols, etc.
-==***Private blockchains***== are more synonymous with an intranet.
+The blockchain is a ... A **_public blockchain_** is equivalent to the Internet, complete with its own set of protocols, etc.
+**_Private blockchains_** are more synonymous with an intranet.
 
 It is... just like we have a use case for public blockchains and public internet, we also have use cases for private blockchains and an intranet, if we're gonna stay with that analogy.
 
@@ -966,7 +966,7 @@ So, when something occurs on the blockchain, either public blockchains... most p
 This allows end-users, other systems, other users, different components to be able to act off of the events that come from an update on a blockchain.
 Basic Terms
 Some terms that are mentioned in the video we will get familiar with in later chapters, but are worth a brief description for clarification:
-  - Ethereum
+  - <p><em>Ethereum</em></p>
 > Ethereum, like Bitcoin, is a decentralized open-source blockchain. Unlike the Bitcoin Network, the Ethereum Protocol has the ability to run smart contracts. 
 > The cryptocurrency running on the Ethereum network is called Ether.
   - Smart Contracts
