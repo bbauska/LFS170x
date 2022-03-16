@@ -131,18 +131,18 @@ Web servers, people who host and store the documents and web browsers, companies
 
 ### The Growth of the Internet
 The Internet can be grouped into three distinct segments characterized by the way people interact with this new technology.
-  * Web 1.0 - Internet of Connection
-  * Web 2.0 - Internet of Information
-  * Web 3.0 - Internet of Value
+   * Web 1.0 - Internet of Connection
+   * Web 2.0 - Internet of Information
+   * Web 3.0 - Internet of Value<b/>
 Let’s discuss them in more detail.
 
 ### Web 1.0 - Internet of Connection
 Characteristics of Web 1.0:
- * Development of a host of web-based applications, which fostered in online services, such as email.
- * Content from administrator.
- * Managed by a central authority.
- * Read-only, information was “pushed” to users.
- * Email was the first widely adopted application on the Internet.
+   * Development of a host of web-based applications, which fostered in online services, such as email.
+   * Content from administrator.
+   * Managed by a central authority.
+   * Read-only, information was “pushed” to users.
+   * Email was the first widely adopted application on the Internet.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------ Email logo ------------------------------------------------------->
@@ -157,7 +157,7 @@ Email, Electronically Transferring Information</h5>
 Computers and items for connection became necessities.
 Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
 Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. 
-Companies appeared attempting to cash in on this new technology, most notable was a company called <b>Netscape</b> which developed the first commercial Web browser.
+Companies appeared attempting to cash in on this new technology, most notable was a company called **Netscape** which developed the first commercial Web browser.
 <b/>
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -173,10 +173,10 @@ Companies appeared attempting to cash in on this new technology, most notable wa
  
 ### Web 2.0 - Internet of Information
 Characteristics of Web 2.0:
-  * User-generated content.
-  * Read-write, individuals can interact with information.
-  * Information became siloed.
-  * Data became a commodity.
+   * User-generated content.
+   * Read-write, individuals can interact with information.
+   * Information became siloed.
+   * Data became a commodity.
 
 Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sellers in a seamless low-cost way. 
 Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. 
@@ -228,7 +228,7 @@ Music sharing companies gave us the first glimpse into peer-to-peer networking.
 Besides copyright infringement, the main challenge for the music sharing companies was file integrity.
 
 You could never be sure the file you requested was the file you would get and there was no one to complain to. 
-
+<b/>
 Both Napster and BitTorrent are operating today, with different business models.
 </p>
 
