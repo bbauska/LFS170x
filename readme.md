@@ -1,9 +1,13 @@
 ## LFS170x - Linux FoundationX - Blockchain: Understanding Its Use Cases and Implications
+
 <!------------------------------------------------------------------------------------------------------------------------->
 <!-------------------------------------------- readme.md in LFS170x.bauska.org -------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------ linux logo ------------------------------------------------------->
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" width="400">
+<img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" 
+	alt="Linux logo"
+	width="400">
 &nbsp;
 <b/>
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
@@ -87,17 +91,26 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 
 **[`^        back to top        ^`](#table-of-contents)**
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------ dots and lines ------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="![image002](https://user-images.githubusercontent.com/41387907/149683304-fdd70838-e28e-41af-9966-cefb9ec57e54.png" width="400" >
+<img src="/images/image002.png?raw=true"
+	alt="Connect the dots"
+	width="30%" >
+<!-- <img src="![image002](https://user-images.githubusercontent.com/41387907/149683304-fdd70838-e28e-41af-9966-cefb9ec57e54.png" width="400" >  --->
 &nbsp;
 
 ### <a id="ch1-2"></a>1.2 The Early Internet
+
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------ darpa logo ------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
-
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41387907/149683436-9758d7ca-0372-4ad2-9478-9d6b9ddb6eda.jpg" "DARPA logo" width="400" >
+<img src="/images/darpa-logo.jpg?raw=true"
+<!-- <img src="https://user-images.githubusercontent.com/41387907/149683436-9758d7ca-0372-4ad2-9478-9d6b9ddb6eda.jpg" -->
+	alt-"DARPA logo" 
+	width="35%" >
 &nbsp;
 
 What started as a DARPA (Defense Advanced Research Project Agency) experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
@@ -109,6 +122,7 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 <p align="center">
 <img src="/images/image003.png?raw=true" "WWW logo" width="200" >
 &nbsp;
+**[`^        back to top        ^`](#table-of-contents)**
 
 With the birth of the World Wide Web, expanded usages of this new technology arose along with expanded business opportunities. 
 Web servers, people who host and store the documents and web browsers, companies set up to help you view linked documents, help create a household need for this technology and the Internet explosion began.
@@ -457,20 +471,24 @@ Any data can be stored on the same block. Examples of stored data include:
 Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------  ----------------------------------------------------->
+<!----------------------------------------- Blockchains are chained together ---------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image017.png?raw=true" "Blockchains are chained together" width="650" >
+<img src="/images/image017.png?raw=true" 
+	alt="Blockchains are chained together" 
+	width="650" >
 &nbsp;
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------  ----------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
 <h5>Let’s Review an Analogy: Blockchain Is Immutable</h5>
 If the data is tampered with anywhere in the chain, the links will break in a very obvious way.
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------- Blockchain is Immutable -------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image018.png?raw=true" "Blockchain is immutable" width="400" >
+<img src="/images/image018.png?raw=true" 
+	alt="Blockchain is immutable" 
+	width="400" >
 &nbsp;
  
 This provides immutability and security.
@@ -479,10 +497,12 @@ Blockchain is a combination of several other underlying technologies that have n
 Here are some features that make this new technology so revolutionary.
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------  ----------------------------------------------------->
+<!------------------------------------ Blockchain Features - distributed ledger ------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image019.png?raw=true" "Blockchain Features - distributed ledger" width="650" >
+<img src="/images/image019.png?raw=true" 
+	alt="Blockchain Features - distributed ledger" 
+	width="650" >
 &nbsp;
 
 <h5>Blockchain Features: Distributed Ledger</h5>
@@ -505,10 +525,12 @@ A full node contains a copy of the blockchain protocol, transaction history of t
 User node interacts with the ledger. With blockchain technology, a lack of a centralized authority is replaced with a peer-to-peer network.
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------  ----------------------------------------------------->
+<!-------------------------------- Blockchain networks can be public or private ------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image020.png?raw=true" "Blockchain networks can be public or private" width="400" >
+<img src="/images/image020.png?raw=true" 
+	alt="Blockchain networks can be public or private" 
+	width="400" >
 &nbsp;
 
 Blockchain networks can be public or private. A public blockchain is open to anyone with an internet connection and the appropriate application. 
