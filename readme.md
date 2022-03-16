@@ -1,6 +1,6 @@
 ## LFS170x - Linux FoundationX - Blockchain: Understanding Its Use Cases and Implications
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------- readme.md in LFS170x.bauska.site -------------------------------------------->
+<!-------------------------------------------- readme.md in LFS170x.bauska.org -------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" width="400">
@@ -164,7 +164,9 @@ Websites let users generate content, social networks became part of our lives.
 <!----------------------------------------------- social networking logo -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image006.png?raw=true" "Social Networking logo" width="300" >
+<img src="/images/image006.png?raw=true" 
+	alt="Social Networking logo" 
+	width="300" >
 &nbsp;
 
 <h5 align="center">Social Networking</h5>
@@ -175,7 +177,9 @@ Websites let users generate content, social networks became part of our lives.
 <!------------------------------------------------------------------------------------------------------------------------->
 <h4>Use Case: Music Sharing Companies</h4>
 <p align="center">
-<img src="/images/image007.png?raw=true" "Napster logo" width="200" >
+<img src="/images/image007.png?raw=true" 
+	alt="Napster logo" 
+	width="200" >
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer.
@@ -187,7 +191,9 @@ Napster is forced to take down its index, shutting down the platform.
 <!--------------------------------------------------- bittorrent logo ----------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image008.png?raw=true" "BitTorrent logo" width="200" >
+<img src="/images/image008.png?raw=true" 
+	alt="BitTorrent logo" 
+	width="200" >
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer. 
@@ -219,7 +225,9 @@ Bitcoin is the first widely accepted application for the Internet of Value (just
 <!------------------------------------- crypto, electronically transferring value ----------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image009.png?raw=true" "Crypto, electronically transferring value" width="400" >
+<img src="/images/image009.png?raw=true" 
+	alt="Crypto, electronically transferring value" 
+	width="400" >
 &nbsp;
 
 <h5 align="center">Cryptocurrencies, Electronically Transferring Value</h5>
