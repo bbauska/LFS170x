@@ -5,7 +5,7 @@
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------ linux logo ------------------------------------------------------->
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41387907/140652577-b35f58fe-77bf-436f-91b5-2c923d39ed94.png" 
+<img src="/images/image001.jpg?raw=true"
 	alt="Linux logo"
 	width="400">
 &nbsp;
@@ -110,7 +110,8 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 	alt-"DARPA logo" 
 	width="30%" >
 &nbsp;
-What started as a <span style="color:dark blue">DARPA (Defense Advanced Research Project Agency)</span> experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
+
+What started as a **DARPA (Defense Advanced Research Project Agency)** experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
 
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
 
@@ -144,10 +145,10 @@ Characteristics of Web 1.0:
  * Email was the first widely adopted application on the Internet.
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------ email logo ------------------------------------------------------->
+<!------------------------------------------------------ Email logo ------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" 
+<img src="/images/image004.png?raw=true" 
      alt="E-mail logo" 
      width="300" >
 
