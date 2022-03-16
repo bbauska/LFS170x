@@ -859,26 +859,26 @@ If you want to see some of the really exciting use cases in blockchain right now
 <img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.png" width="400" "Smart Dubai" >
 &nbsp;
 
-   • <b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.<br>
+  * <b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.<br>
    The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership.<br>
-   • <b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br>
+  * <b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br>
    When successful, Dubai will be the first blockchain-powered government driving the future economy.
 
-<h5>More Use Cases</h5>
+### More Use Cases
 Blockchain is having far reaching effects in major industries.
 Let’s take a look at three major industries having a positive influence from this new way to organize our information:
-   - Supply chain
+  - Supply chain
 Blockchain is used in supply chains to gain transparency and traceability. This has a special advantage for global health when used in traceability to the food supply chain. 
 By tracking food on a blockchain, you are building trust into the system through the transparency feature. 
 In the event of a problem, blockchain technology can pinpoint the exact location and cause of a food health issue. 
 By instantly tracing food issues back to the source, all contaminated lots can be tracked and dealt with instantly.
-   - Global trade
+  - Global trade
 Blockchain is making headway in the global trade markets with transparency and immutability that offer new relationships among distrusting parties. 
 Blockchain makes sure all relevant parties have access to the same information. 
 Trade barriers are reduced, from settlement issues, to compliance and regulation, information is being shared and accessed in new secure ways. 
 A distributed ledger technology (DLT) opens up a new avenue for securely sharing data that guarantees accuracy while removing banks as deal facilitators. 
 Smart contract and microfinancing alternatives allow all size companies to seamlessly trade across borders.
-   - Digital identity (self-sovereign identity and verifiable credentials)
+  - Digital identity (self-sovereign identity and verifiable credentials)
 Users of the Internet were all but unaware that all the information given so freely when interacting with companies online, was being stored and sold. 
 Data became a siloed commodity owned by everyone but you. 
 With new blockchain technology, individuals can reclaim their identity information breaking the need for data silos, endless passwords and hackable databases. 
@@ -985,16 +985,16 @@ Some terms that are mentioned in the video we will get familiar with in later ch
   - <p><em>Ethereum</em></p>
 > Ethereum, like Bitcoin, is a decentralized open-source blockchain. Unlike the Bitcoin Network, the Ethereum Protocol has the ability to run smart contracts. 
 > The cryptocurrency running on the Ethereum network is called Ether.
-  - Smart Contracts
+  - <p><em>Smart Contracts</p></em>
 > A smart contract is computer code that can be run on a blockchain that executes the conditions of an agreement.
-  - Public Blockchains
+  - <p><em>Public Blockchains</p></em>
 > Public blockchain has no barrier to entry. Anyone with a cell phone and a digital wallet can transact on the blockchain.
-  - Private Blockchains
+  - <p><em>Private Blockchains</p></em>
 > Private blockchains or permissioned blockchains have a Membership Services piece that grants access to users before they can interact with the blockchain.
-  - Digital Wallet
+  - <p><em>Digital Wallet</p></em>
 > A digital wallet is a computer application that represents a traditional wallet. 
 > It gives the user the ability to store and transact cryptocurrencies through the Internet.
-  - Public Key Infrastructure (PKI)
+  - <p><em>Public Key Infrastructure (PKI)</p></em>
 > Public Key Infrastructure is the identity management system for instilling trust into the electronic transfers of information or value. 
 > It is the technology used to authenticate users and information by issuing a set of key pairs (public and private).
 
