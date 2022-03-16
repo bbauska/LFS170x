@@ -110,8 +110,7 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 	alt-"DARPA logo" 
 	width="30%" >
 &nbsp;
-
-What started as a DARPA (Defense Advanced Research Project Agency) experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
+What started as a <span style="color:dark blue">DARPA (Defense Advanced Research Project Agency)</span> experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
 
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
 
@@ -143,6 +142,7 @@ Characteristics of Web 1.0:
  * Managed by a central authority.
  * Read-only, information was “pushed” to users.
  * Email was the first widely adopted application on the Internet.
+
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------ email logo ------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -157,14 +157,17 @@ Computers and items for connection became necessities.
 Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
 Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. 
 Companies appeared attempting to cash in on this new technology, most notable was a company called <b>Netscape</b> which developed the first commercial Web browser.
+<b/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------- netscape logo ------------------------------------------------------>
+<!---------------------------------------------------- Netscape logo ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image005.png?raw=true" "Netscape logo" width="200" >
+<img src="/images/image005.png?raw=true" 
+	alt="Netscape logo" 
+	width="200" >
 &nbsp;
  
 ### Web 2.0 - Internet of Information
