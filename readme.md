@@ -92,13 +92,12 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------ dots and lines ------------------------------------------------------->
+<!----------------------------------------------------- Connect Dots ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image002.png?raw=true"
-	alt="Connect the dots"
-	width="30%" >
-<!-- <img src="![image002](https://user-images.githubusercontent.com/41387907/149683304-fdd70838-e28e-41af-9966-cefb9ec57e54.png" width="400" >  --->
+	alt="Connect the Dots"
+	width="40%" >
 &nbsp;
 
 ### <a id="ch1-2"></a>1.2 The Early Internet
@@ -108,9 +107,8 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/darpa-logo.jpg?raw=true"
-<!-- <img src="https://user-images.githubusercontent.com/41387907/149683436-9758d7ca-0372-4ad2-9478-9d6b9ddb6eda.jpg" -->
 	alt-"DARPA logo" 
-	width="35%" >
+	width="30%" >
 &nbsp;
 
 What started as a DARPA (Defense Advanced Research Project Agency) experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
