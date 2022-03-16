@@ -899,9 +899,9 @@ By the end of this chapter, you should be able to:
    - Explain what it means for blockchains to be immutable and how chaining provides this capability.
 
 ### <a id="ch2-1"></a>2.1 Introduction to Blockchain Components
-In this section, we're going to discuss the core components of the blockchain, starting with a high-level view of the blockchain components.<br>
-The first blockchain component that we're going to look at it's the ledger.<br>
-However, before we discuss the ledger, let's discuss briefly the history of the ledger.<br>
+In this section, we're going to discuss the core components of the blockchain, starting with a high-level view of the blockchain components.<br/>
+The first blockchain component that we're going to look at is the ledger.<br/>
+However, before we discuss the ledger, let's discuss briefly the history of the ledger.<br/>
 The story of blockchain is tightly coupled with the story of accounting.<br>
 Historically, humans started off with no way to prove ownership and we began with a single entry accounting system.<br>
 The single entry accounting system for the first time in human history allowed us to prove ownership of the asset.<br>
@@ -919,8 +919,8 @@ In blockchain, the differentiator is that no one owns the ledger, or all of the 
 The ledger is distributed. It is, in other words, it's decentralized. So, there's a copy of the ledger that exists on every node that exists on the network.<br>
 Said simply, the ledger is a distributed immutable record of a collection of transactions.<br>
 Bitcoin is the most popular asset.<br>
-It was the first asset to be recorded as a transaction on a blockchain ledger, and it remains the most popular, at least in terms of market share.
-That's what the ledger is.<br>
+It was the first asset to be recorded as a transaction on a blockchain ledger, and it remains the most popular, at least in terms of market share.<br/>
+That's what the ledger is.
 <p>
 As we move to more modern blockchains, we start to look at blockchains such as Ethereum, which not only records the asset on the blockchain,
 Ethereum and other public blockchains like Ethereum, they also allow you to have a permanent and immutable collection of code, also known as a smart contract, that runs on the blockchain.
@@ -928,9 +928,9 @@ The ledger stores the assets, the transactions that are on the blockchain, and i
 The code that's stored on the blockchain is a smart contract.<br>
 Again, a smart contract is a program that runs on the blockchain.<br>
 </p>
-<h5>The blockchain is a network.</h5>
-The blockchain is a ... A **public blockchain** is equivalent to the Internet, complete with its own set of protocols, etc.
-**Private blockchains** are more synonymous with an intranet.
+The blockchain is a network.
+The blockchain is a ... A ==***public blockchain***== is equivalent to the Internet, complete with its own set of protocols, etc.
+==***Private blockchains***== are more synonymous with an intranet.
 
 It is... just like we have a use case for public blockchains and public internet, we also have use cases for private blockchains and an intranet, if we're gonna stay with that analogy.
 
