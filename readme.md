@@ -129,7 +129,9 @@ Characteristics of Web 1.0:
 <!------------------------------------------------------ email logo ------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" "E-mail logo" width="300" >
+<img src="https://user-images.githubusercontent.com/41387907/149683547-23ad2732-5472-4ed2-852a-fa5fae6c3fd9.png" 
+     alt="E-mail logo" 
+     width="300" >
 
 <h5 align="center">
 Email, Electronically Transferring Information</h5>
