@@ -205,7 +205,7 @@ Websites let users generate content, social networks became part of our lives.
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer.
-Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.<br>
+Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.<br/>
 <b>Result:</b> The industry cracks down music sharing companies copyright infringement.
 Napster is forced to take down its index, shutting down the platform.
 
@@ -219,7 +219,7 @@ Napster is forced to take down its index, shutting down the platform.
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer. 
-BitTorrent's software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.<br>
+BitTorrent's software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.<br/>
 <b>Result:</b> The industry cracks down music sharing companies copyright infringement. 
 <p>
 BitTorrent is asked to shut down their platform.
@@ -266,36 +266,36 @@ There's a new technology that has the power to revolutionize how you, businesses
 <br/>
 You've probably heard of it: it's called **'Blockchain!'**
 
-But what is it?  How does it work?  How does it affect you?<br>
-Hearing the word "blockchain" is comparable to hearing the word "internet" in the early 90s.<br>
-It seemed elusive, like something that wasn't going to impact your daily life.<br>
-But here we are, more than 20 years later.<br>
-Think about how the Internet has transformed businesses, commerce, communication, even music and video.<br>
-And that's not even touching on how the Internet has affected you.<br>
-We all carry the Internet in our pocket.<br>
-We can transfer money at the touch of a button, check the weather, get directions, and even have food delivered to our door.<br>
-The next technology to have that kind of impact isn't some of the buzzwords you hear.<br>
-It's not big data. It's not artificial intelligence. It's not even social media.<br>
+But what is it?  How does it work?  How does it affect you?<br/>
+Hearing the word "blockchain" is comparable to hearing the word "internet" in the early 90s.<br/>
+It seemed elusive, like something that wasn't going to impact your daily life.<br/>
+But here we are, more than 20 years later.<br/>
+Think about how the Internet has transformed businesses, commerce, communication, even music and video.<br/>
+And that's not even touching on how the Internet has affected you.<br/>
+We all carry the Internet in our pocket.<br/>
+We can transfer money at the touch of a button, check the weather, get directions, and even have food delivered to our door.<br/>
+The next technology to have that kind of impact isn't some of the buzzwords you hear.<br/>
+It's not big data. It's not artificial intelligence. It's not even social media.<br/>
 
 It's **BLOCKCHAIN!**
 
-Now, let's discuss the vast promise blockchain has for every business, every society, and for everyone listening today.<br>
-And let's begin with an example we are all familiar with.<br>
-When you attach a file, a Word document, an Excel sheet, a PDF to an email, you aren't sending an original.<br>
-You are actually sending the recipient a copy, and that's a great way to move information around.<br>
-But it's not so great when it comes to things like money, stocks and bonds, music, loyalty points, intellectual property, tickets to a game or concert.<br>
+Now, let's discuss the vast promise blockchain has for every business, every society, and for everyone listening today.<br/>
+And let's begin with an example we are all familiar with.<br/>
+When you attach a file, a Word document, an Excel sheet, a PDF to an email, you aren't sending an original.<br/>
+You are actually sending the recipient a copy, and that's a great way to move information around.<br/>
+But it's not so great when it comes to things like money, stocks and bonds, music, loyalty points, intellectual property, tickets to a game or concert.<br/>
 Then, sending a copy is suddenly a very bad idea.
 
-Let's look at an example.<br>
-If I send you tickets to a concert, it's important that I don't send you a copy.<br>
-You now own the original asset and I can no longer use or sell those tickets.<br>
-Similarly, if I send you $100, it's important that I still don't own the $100, or have the ability to send it to anyone else.<br>
+Let's look at an example.<br/>
+If I send you tickets to a concert, it's important that I don't send you a copy.<br/>
+You now own the original asset and I can no longer use or sell those tickets.<br/>
+Similarly, if I send you $100, it's important that I still don't own the $100, or have the ability to send it to anyone else.<br/>
 Both of these examples illustrate a double spend problem, and those can be eliminated with blockchain.
 
-Now, in this exciting time in history, every kind of asset, from tickets, to money, to music, can be stored, moved, exchanged, and transacted without an intermediary.<br>
-People everywhere can transact peer-to-peer and trust each other by using collaboration and cryptography.<br>
-How did we get here, to this place of trust and collaboration?<br>
-It began when Satoshi Nakamoto, whose true identity is still unknown, released a white paper in 2008, introducing a purely peer-to-peer version of electronic cash known as Bitcoin.<br>
+Now, in this exciting time in history, every kind of asset, from tickets, to money, to music, can be stored, moved, exchanged, and transacted without an intermediary.<br/>
+People everywhere can transact peer-to-peer and trust each other by using collaboration and cryptography.<br/>
+How did we get here, to this place of trust and collaboration?<br/>
+It began when Satoshi Nakamoto, whose true identity is still unknown, released a white paper in 2008, introducing a purely peer-to-peer version of electronic cash known as Bitcoin.<br/>
 
 It is here that blockchain technology made its debut.
 
@@ -423,7 +423,7 @@ There are many more use cases that utilize blockchain technology far reaching th
 &nbsp;
 
 <h4>Blockchain - Let’s Cover the Basics</h4>
-In this section, we're gonna talk about what blockchain is:<br>
+In this section, we're gonna talk about what blockchain is:<br/>
 <ul>
 <li>a real simple introduction to the basic concepts and principles behind blockchain.</li>
 </ul>
@@ -433,7 +433,7 @@ Well, really, all blockchain is, is a combination of technologies that have exis
 They're simply combined in a new and creative way to give us an amazing new platform on which we can start to build solutions.
 </p>
 <span style="background-color: #FFFF00">Blockchains are often referred to as <b>digital decentralized ledgers</b>.</span>
-<br>
+<br/>
 &nbsp;
 
 <p>
@@ -793,7 +793,7 @@ Industries like finance, international trade and commerce, food supply chains ar
 One of the coolest things about blockchain is some of the unintended consequences a good blockchain solution might have.
 &nbsp;
 <b/>
-Let's look at an example.<br>
+Let's look at an example.<br/>
 <p>
 Right now, there is a lot of attention being given to how blockchain might be used, in general, for supply chain relationships and, specifically, in the food supply chain.</p>
 <p>Let's pretend that you have a very young child and your child has a serious pesticide allergy.</p>
@@ -812,7 +812,7 @@ You can see after it was planted that an organic pesticide company came along an
 You can even verify that the pesticide is natural by seeing the ingredient list in that pesticide.
 And finally, you may see who actually delivered that produce to the store.
 
-Let's say that there's a new green electric trucking company out there - <b>Ed's Electric Trucking</b>.<br>
+Let's say that there's a new green electric trucking company out there - <b>Ed's Electric Trucking</b>.<br/>
 Ed has seen all the fancy new Tesla semis.
 He thinks they're great and he is committed to providing a transportation and logistics company which is also environmentally friendly.
 Now, in today's world, you don't have a way of knowing about someone like Ed and his electric trucking company.
@@ -837,16 +837,15 @@ The public sector is the part of the economy composed of both public sector and 
 &nbsp;
 
 #### Dubai Use Case
-So, when people first start getting into blockchain, one of the areas they really start to look at is where is blockchain being used in the real world, what examples do we have of a blockchain being deployed and at what scale.<br>
+When people first start getting into blockchain, one of the areas they really start to look at is where is blockchain being used in the real world, what examples do we have of a blockchain being deployed and at what scale.<br/>
 And there's really no better example of this right now than what's going on in Dubai.
-<p>
-Dubai, the largest city in the United Arab Emirates, is piloting a very ambitious program called smart Dubai 2021.<br>
-And what Smart Dubai 2021 aims to do is to move all governmental operations and record-keeping on the blockchain by the year 2021.<br>
-The goals of this program are increased transparency in the government operations, increased efficiency, and by proxy, providing better service to city residents and constituents and establishing as a thought leader, an industry leader in the blockchain space.<br>
-There are lots of really cool applications that tie into this.<br>
-Blockchain is becoming the enabling layer for a lot of other Smart Dubai initiatives around creating a smart city.<br>
-Projects like automated traffic signals, registration of citizens for governmental services, etc. are all being pioneered on blockchain.<br>
-If you want to see some of the really exciting use cases in blockchain right now, be sure to check out Dubai and what's going on with their Smart Dubai 2021 initiative.<br>
+Dubai, the largest city in the United Arab Emirates, is piloting a very ambitious program called smart Dubai 2021.<br/>
+And what Smart Dubai 2021 aims to do is to move all governmental operations and record-keeping on the blockchain by the year 2021.<br/>
+The goals of this program are increased transparency in the government operations, increased efficiency, and by proxy, providing better service to city residents and constituents and establishing as a thought leader, an industry leader in the blockchain space.<br/>
+There are lots of really cool applications that tie into this.<br/>
+Blockchain is becoming the enabling layer for a lot of other Smart Dubai initiatives around creating a smart city.<br/>
+Projects like automated traffic signals, registration of citizens for governmental services, etc. are all being pioneered on blockchain.<br/>
+If you want to see some of the really exciting use cases in blockchain right now, be sure to check out Dubai and what's going on with their Smart Dubai 2021 initiative.<br/>
 
 <h5>Real World Example of Public Sector Government to Government/Citizens</h5>
 
@@ -859,9 +858,9 @@ If you want to see some of the really exciting use cases in blockchain right now
 <img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.png" width="400" "Smart Dubai" >
 &nbsp;
 
-  * <b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.<br>
-   The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership.<br>
-  * <b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br>
+  * <b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.<br/>
+   The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership.<br/>
+  * <b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br/>
    When successful, Dubai will be the first blockchain-powered government driving the future economy.
 
 ### More Use Cases
@@ -907,10 +906,10 @@ We will examine how this agreed-upon, append-only distributed ledger guarantees 
 
 ### Learning Objectives
 By the end of this chapter, you should be able to:
-   - Discuss how cryptography allows for distributed ledgers to work on a global scale.<br>
-   - Explain how blockchain is using cryptography.<br>
-   - Define key terms of cryptography and understand basic concepts.<br>
-   - Explain the concept of zero-knowledge proofs (ZKPs) and Merkle trees and how they are used in blockchain technologies.<br>
+   - Discuss how cryptography allows for distributed ledgers to work on a global scale.<br/>
+   - Explain how blockchain is using cryptography.<br/>
+   - Define key terms of cryptography and understand basic concepts.<br/>
+   - Explain the concept of zero-knowledge proofs (ZKPs) and Merkle trees and how they are used in blockchain technologies.<br/>
    - Discuss how blockchain utilizes transparency.
    - Explain what it means for blockchains to be immutable and how chaining provides this capability.
 
@@ -918,31 +917,31 @@ By the end of this chapter, you should be able to:
 In this section, we're going to discuss the core components of the blockchain, starting with a high-level view of the blockchain components.<br/>
 The first blockchain component that we're going to look at is the ledger.<br/>
 However, before we discuss the ledger, let's discuss briefly the history of the ledger.<br/>
-The story of blockchain is tightly coupled with the story of accounting.<br>
-Historically, humans started off with no way to prove ownership and we began with a single entry accounting system.<br>
-The single entry accounting system for the first time in human history allowed us to prove ownership of the asset.<br>
-The ledger was associated with an owner.<br>
-The single entry accounting worked for centuries.<br>
-The issue with single entry accounting is that it mandated that there was a single authority, which is the reason why there was the necessity for a king or a queen to control the ledger.<br>
-In order to have trade, right, at the international level, we needed to have at least two authorities.<br>
-For instance, for England to do trade with France, we had the owner of the ledger, the single entry ledger, in England for instance, doing trade with the king or queen of France, who also had their ledger.<br>
-And so, we needed a new form of accounting, and that's where double entry accounting came in, which was in use up until very recently, now, within the last 40 years.<br>
-What blockchain is? Blockchain is the very first implementation of triple entry accounting, where we have an asset being recorded on the ledger in the context of a transaction.<br>
-The third entry and triple entry accounting is cryptography, where we have a cryptographic account of the transaction stored permanently and immutably on the ledger.<br>
-That's what the ledger is. A ledger is a collection of transactions.<br>
-It is not a collection of assets. Assets are part of a transaction, but the ledger records the transaction.<br>
-In blockchain, the differentiator is that no one owns the ledger, or all of the participants own the ledger.<br>
-The ledger is distributed. It is, in other words, it's decentralized. So, there's a copy of the ledger that exists on every node that exists on the network.<br>
-Said simply, the ledger is a distributed immutable record of a collection of transactions.<br>
-Bitcoin is the most popular asset.<br>
+The story of blockchain is tightly coupled with the story of accounting.<br/>
+Historically, humans started off with no way to prove ownership and we began with a single entry accounting system.<br/>
+The single entry accounting system for the first time in human history allowed us to prove ownership of the asset.<br/>
+The ledger was associated with an owner.<br/>
+The single entry accounting worked for centuries.<br/>
+The issue with single entry accounting is that it mandated that there was a single authority, which is the reason why there was the necessity for a king or a queen to control the ledger.<br/>
+In order to have trade, right, at the international level, we needed to have at least two authorities.<br/>
+For instance, for England to do trade with France, we had the owner of the ledger, the single entry ledger, in England for instance, doing trade with the king or queen of France, who also had their ledger.<br/>
+And so, we needed a new form of accounting, and that's where double entry accounting came in, which was in use up until very recently, now, within the last 40 years.<br/>
+What blockchain is? Blockchain is the very first implementation of triple entry accounting, where we have an asset being recorded on the ledger in the context of a transaction.<br/>
+The third entry and triple entry accounting is cryptography, where we have a cryptographic account of the transaction stored permanently and immutably on the ledger.<br/>
+That's what the ledger is. A ledger is a collection of transactions.<br/>
+It is not a collection of assets. Assets are part of a transaction, but the ledger records the transaction.<br/>
+In blockchain, the differentiator is that no one owns the ledger, or all of the participants own the ledger.<br/>
+The ledger is distributed. It is, in other words, it's decentralized. So, there's a copy of the ledger that exists on every node that exists on the network.<br/>
+Said simply, the ledger is a distributed immutable record of a collection of transactions.<br/>
+Bitcoin is the most popular asset.<br/>
 It was the first asset to be recorded as a transaction on a blockchain ledger, and it remains the most popular, at least in terms of market share.<br/>
 That's what the ledger is.
 <p>
 As we move to more modern blockchains, we start to look at blockchains such as Ethereum, which not only records the asset on the blockchain,
 Ethereum and other public blockchains like Ethereum, they also allow you to have a permanent and immutable collection of code, also known as a smart contract, that runs on the blockchain.
-The ledger stores the assets, the transactions that are on the blockchain, and it also holds the code.<br>
-The code that's stored on the blockchain is a smart contract.<br>
-Again, a smart contract is a program that runs on the blockchain.<br>
+The ledger stores the assets, the transactions that are on the blockchain, and it also holds the code.<br/>
+The code that's stored on the blockchain is a smart contract.<br/>
+Again, a smart contract is a program that runs on the blockchain.<br/>
 </p>
 The blockchain is a network.
 The blockchain is a ... A **_public blockchain_** is equivalent to the Internet, complete with its own set of protocols, etc.
@@ -1029,29 +1028,29 @@ As described in the Reddit post,
 #### Double vs. Triple-Entry Accounting Comparison
 
 #### Island of Yap
-Idea for the following was obtained from the LinkedIn article "Explaining Blockchain: The Distributed Ledger of the Island of Yap" by Anthony (Tony) Riva.<br>
-The concept of distributed ledger's has been around for hundreds of years.<br>
-To understand the basics of blockchain, it's important to understand how distributed ledgers work.<br>
-A distributed ledger is a collection of data with no central administrator that has been agreed upon by consensus.<br>
-To understand more details, let's take a trip way back, back into 500 AD on the island of Yap.<br>
-The Yapese people used a very unique form of currency: the Rai stone.<br>
-Each of these stones weighed around 200 kilos, making them difficult to move.<br>
-To exchange them as money for goods or services, they divided the stones into sections and then, they would announce to every adult on the island who owned what part of each stone.<br>
-Each adult had to keep a mental ledger of ownership.<br>
-Every time any Yapese conducted a trade, an announcement was made to the entire tribe.<br>
-Each member of the tribe would then update their mental ledger.<br>
-In today's description, this would be called a distributed ledger.<br>
-All Rai stone ownership was known to everyone, and that knowledge was updated whenever a transaction was made.<br>
-So why didn't just one member of the tribe keep track of the Rai stones?<br>
-What if that main recordkeeper was sick, unable to do their job, or was found to be dishonest?<br>
-If the only copy of the ledger was changed by any means, wealth would be lost or gained unfairly.<br>
-The Yapese knew their distributed ledger system safeguarded it from tampering.<br>
-Since all the Yapese knew who owned what, it would be very difficult to fool everyone on the island.<br>
-Even if one tribe member moved away, the tribe still had multiple copies of their mental ledger.<br>
-In this regard, the ledger was fault tolerant and could not be easily changed, corrupted, or lost.<br>
-The tribe also decided that stones didn't have to be on the island to hold value.<br>
-One day, a stone fell into the ocean and the Yapese decided that this stone, even though it could not be seen, still held value and could still be traded.<br>
-This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.<br>
+Idea for the following was obtained from the LinkedIn article "Explaining Blockchain: The Distributed Ledger of the Island of Yap" by Anthony (Tony) Riva.<br/>
+The concept of distributed ledger's has been around for hundreds of years.<br/>
+To understand the basics of blockchain, it's important to understand how distributed ledgers work.<br/>
+A distributed ledger is a collection of data with no central administrator that has been agreed upon by consensus.<br/>
+To understand more details, let's take a trip way back, back into 500 AD on the island of Yap.<br/>
+The Yapese people used a very unique form of currency: the Rai stone.<br/>
+Each of these stones weighed around 200 kilos, making them difficult to move.<br/>
+To exchange them as money for goods or services, they divided the stones into sections and then, they would announce to every adult on the island who owned what part of each stone.<br/>
+Each adult had to keep a mental ledger of ownership.<br/>
+Every time any Yapese conducted a trade, an announcement was made to the entire tribe.<br/>
+Each member of the tribe would then update their mental ledger.<br/>
+In today's description, this would be called a distributed ledger.<br/>
+All Rai stone ownership was known to everyone, and that knowledge was updated whenever a transaction was made.<br/>
+So why didn't just one member of the tribe keep track of the Rai stones?<br/>
+What if that main recordkeeper was sick, unable to do their job, or was found to be dishonest?<br/>
+If the only copy of the ledger was changed by any means, wealth would be lost or gained unfairly.<br/>
+The Yapese knew their distributed ledger system safeguarded it from tampering.<br/>
+Since all the Yapese knew who owned what, it would be very difficult to fool everyone on the island.<br/>
+Even if one tribe member moved away, the tribe still had multiple copies of their mental ledger.<br/>
+In this regard, the ledger was fault tolerant and could not be easily changed, corrupted, or lost.<br/>
+The tribe also decided that stones didn't have to be on the island to hold value.<br/>
+One day, a stone fell into the ocean and the Yapese decided that this stone, even though it could not be seen, still held value and could still be traded.<br/>
+This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.<br/>
 
 #### Island of Yap: Recap
   >1. The group shared the ledger.
@@ -1072,28 +1071,28 @@ Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never ga
 If Alice wants to cheat, she will need a way to convince 51% or more of the tribe to accept an alternative ledger.
 
 #### The Evolution of Distributed Ledgers
-We've gone through history and seen how ledgers have evolved from stone tablets to double entry ledgers.<br>
-We even took a look at the earliest known example of distributed ledgers.<br>
-Now, let's discuss the evolution of the ledger in the modern world.<br>
-Over the last few decades, ledgers have moved from the written form to the digital form, also known as computers and digitalized databases.<br>
-This has allowed us to be interconnected - a truly global economy.<br>
-Today, this recordkeeping system is being revolutionized again, going from the digital realm or centralized databases keeping track of transactions to information being stored across different locations across the globe.<br>
-This system of record, information across a global network, is what we call decentralized ledgers.<br>
-A decentralized ledger can be described as a ledger of any transactions or contracts supported by a decentralized network from across different locations and people, eliminating the need of a central authority.<br>
-When a recording is made, every participant is notified of that recording.<br>
-They now own an identical copy of the record of transactions, identical to every other node on that network.<br>
-Every piece of information on a blockchain can be traced back to the exact moment when it was created.<br>
-So, if an audit is necessary, information can be found and deemed reliable.<br>
-This allows blockchain to serve as a truly reliable storage of public records and transactions, and therefore eliminating the need for a centralized authority of database of records.<br>
-Now that we understand the foundational principle of blockchains - distributed ledgers, it's important to understand another important key element that makes blockchain so revolutionary: trust.<br>
-Trust is created through two key principles: collaboration and cryptography, both of which will be discussed shortly.<br>
+We've gone through history and seen how ledgers have evolved from stone tablets to double entry ledgers.<br/>
+We even took a look at the earliest known example of distributed ledgers.<br/>
+Now, let's discuss the evolution of the ledger in the modern world.<br/>
+Over the last few decades, ledgers have moved from the written form to the digital form, also known as computers and digitalized databases.<br/>
+This has allowed us to be interconnected - a truly global economy.<br/>
+Today, this recordkeeping system is being revolutionized again, going from the digital realm or centralized databases keeping track of transactions to information being stored across different locations across the globe.<br/>
+This system of record, information across a global network, is what we call decentralized ledgers.<br/>
+A decentralized ledger can be described as a ledger of any transactions or contracts supported by a decentralized network from across different locations and people, eliminating the need of a central authority.<br/>
+When a recording is made, every participant is notified of that recording.<br/>
+They now own an identical copy of the record of transactions, identical to every other node on that network.<br/>
+Every piece of information on a blockchain can be traced back to the exact moment when it was created.<br/>
+So, if an audit is necessary, information can be found and deemed reliable.<br/>
+This allows blockchain to serve as a truly reliable storage of public records and transactions, and therefore eliminating the need for a centralized authority of database of records.<br/>
+Now that we understand the foundational principle of blockchains - distributed ledgers, it's important to understand another important key element that makes blockchain so revolutionary: trust.<br/>
+Trust is created through two key principles: collaboration and cryptography, both of which will be discussed shortly.<br/>
 
 #### Decentralized Ledger
-As we can see by looking at the evolution of the ledger, we are entering a new phase where no one centralized authority has control of the details in the ledger, everyone does.<br>
-Transactions are only added to the ledger if everyone agrees.<br>
-Once consensus is reached, no one can go back and deny a transaction.<br>
-Essentially you are not trusting one person or entity to control the ledger, you're trusting everyone.<br>
-Let's look a little further into how that trust is achieved.<br>
+As we can see by looking at the evolution of the ledger, we are entering a new phase where no one centralized authority has control of the details in the ledger, everyone does.<br/>
+Transactions are only added to the ledger if everyone agrees.<br/>
+Once consensus is reached, no one can go back and deny a transaction.<br/>
+Essentially you are not trusting one person or entity to control the ledger, you're trusting everyone.<br/>
+Let's look a little further into how that trust is achieved.<br/>
 
 ### <a id="ch2-3"></a>2.3 From Distributed Ledger to Cryptography
 A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
@@ -1592,7 +1591,7 @@ Since the creator of a block is selected via a consensus algorithm, it’s diffi
 If an attacker is not the legitimate creator of a block, it’s impossible for them to create a digital signature that others would accept.
 
 <h5>Immutability Mechanisms</h5>
-Now, let’s look at how different blockchains implement immutability.<br>
+Now, let’s look at how different blockchains implement immutability.<br/>
 <p>
 In Ethereum and Hyperledger, the immutability mechanism is the one that we’ve described previously. 
 Each transaction and block is digitally signed and are linked using cryptographic hashes.
@@ -2783,7 +2782,7 @@ By the end of this chapter, you should be able to:
   * Discuss non-fungible tokens and how they will impact society.
   * Examine the importance of interoperability for blockchains.
 
-#### Immutability Defined
+### Immutability Defined
 Immutability is when something is unable to be changed.
 
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -2794,7 +2793,7 @@ Immutability is when something is unable to be changed.
     alt="Immutability Defined - No Changes Allowed...Ever"</>
 </p>
   
-#### Immutability
+### Immutability
 "Immutable" simply refers to the permanence of data. <b/>
 
 Anything we call "immutable" we understand to be permanent and unchanging. <b/>
@@ -2813,16 +2812,20 @@ Blockchain goes further than this though. <b/>
 In addition to recording facts or data points, blockchain also has the capacity to record who endorses or agrees with those recorded facts. <b/>
 
 Think of the difference between a piece of paper, and a contract. <b/>
+
 A piece of paper can contain any data, true or not. <b/>
+
 A signed contract becomes more than a piece of paper because those signatures represent who agreed with the facts recorded on the paper at the time of signing. <b/>
+
 Blockchain provides a digital implementation of this process, and can be an immeasurably valuable tool when you need to capture not only what happened, but who was involved as well. <b/>
+
 Imagine the new opportunities that arise when organizations can safely and securely share their most critical data with one another, with the trust that the data they're seeing hasn't been compromised or altered.
 
-#### Traditional Database Immutability Concept
+### Traditional Database Immutability Concept
 The very nature of centrally-operated databases can’t be completely immutable, but that’s the case for blockchain as well. A centrally-run database can embed things into it with features that mention immutability (unchangeable). But if there is a central authority, they have all the ability in the world to override that feature.
 Another point to keep in mind is that immutability has been around for many years, just like the majority of the tech used via blockchain; it is the combination of these that makes it unique.
 
-#### Blockchain Immutability Concept
+### Blockchain Immutability Concept
 Let's review the aspects of the public blockchain that improve the chances of it being immutable.
 
 There are many different variables, but the main one is consensus. 
@@ -2839,7 +2842,7 @@ But, if someone wanted to undermine the immutability of the Bitcoin blockchain, 
 Since the attacker has more mining power than the rest of the network, their branch will contain more Proof of Work than the public one. Every Bitcoin node will therefore switch over since the rules of Bitcoin state that the more difficult branch wins. Any previously confirmed transactions not in the secret branch will be reversed and the Bitcoin they spent could be sent elsewhere. The computing power required to achieve this is enormous and probably only theoretical, but it’s important to consider.
 One other less technical and malicious example would be from the Ethereum hard fork that directly happened after the DAO hack. In this example, the majority of the Ethereum nodes in the network decided to update the software preventing those hackers from withdrawing the cryptocurrency “earned” (stolen). This update could not be enforced, since every Ethereum user controls their own computer. Nonetheless, it was publicly supported by Vitalik Buterin, Ethereum’s founder, as well as many other community leaders. As a result, most users complied, and the blockchain with the new rules kept the name "Ethereum". A minority disagreed with the change and continued the blockchain according to its original rules, earning the title "Ethereum Classic".
 
-#### Transparency Defined
+### Transparency Defined
 Anything that is see-through, where there is very little fog or obstruction in the way. Just like immutability, transparency comes on a spectrum. Certain things are more transparent than others. In the context of business/technology, this can be seen as a way of operating that is easy for others to see what actions are being performed.
  
 For example, open source projects where all the source code is available for the masses.
@@ -2855,7 +2858,7 @@ Write: add more data onto the blockchain.
 As explained in the "Blockchains vs. Traditional Databases" article by Shaan Ray,
 "(...) if the blockchain has recorded that my Bitcoin wallet has 1 million BTC, that figure is permanently stored in the blockchain. When I spend 200,000 BTC, that transaction is recorded onto the blockchain, bringing my balance to 800,000 BTC. However, since the blockchain can only be appended, my pre-transaction balance of 1 million BTC also remains on the blockchain permanently, for those who care to look. This is why the blockchain is often referred to as an immutable and distributed ledger".
   
-#### Autonomy Defined
+### Autonomy Defined
 Independence or freedom, the ability to make your own decisions without being controlled by anyone else. This sense of freedom can be at the macro level of a country or at the micro level of a person.
  
 As children and adults, we all want a little autonomy in our lives, careers, or relationships, but it’s just a matter of how much autonomy one truly wants and can handle.
@@ -2874,7 +2877,7 @@ These "smart" contracts aren’t very smart, at least for now. That’s due to t
 At the present moment, they can't make decisions without human intervention, or AI, which is a highly debated topic at the moment by many neuroscientists/philosophers. Companies are emerging as reliable Oracles that filter in real world facts to the blockchain. An Oracle is defined as a reliable source of information and blockchain makes that information immutable.
 Anyone is able to create their own smart contracts without a central authority giving the right to do so. These contracts are executed without too much human intervention, and they’re stored on blockchain technology which provides a sense of permanence. These are three of the main attributes that can bring more autonomy to exchanging information between parties. Setting up a pre-agreed upon contract that’s coded into a blockchain and executes automatically when certain actions are taken is one step in the direction of not only improving our autonomy as individuals or companies, but shifting wasted resources (middle men/women) toward more impactful work.
 
-#### Smart Contracts
+### Smart Contracts
 The first generation of blockchain platforms, collectively known as the "Blockchain 1.0" networks, were capable of capturing and recording data, but not acting upon it. 
 Bitcoin, the world's first mass-scale blockchain, was designed to capture and record the transfer of Bitcoin from one owner to the next. 
 At the time, nobody was envisioning blockchain as a platform on top of which applications and solutions could be built.
@@ -2902,7 +2905,7 @@ Blockchain technology has been shown to provide many benefits, but one of the mo
 •	Cloud database providers (AWS, Azure, etc.).
 How is the blockchain world removing this middleman? The answer is all around trust. Within the public blockchain world, where everyone is theoretically anonymous, there needs to be trust so we’re able to exchange valuable things without the concern of bad actors. Trust is built into the consensus mechanism that we’ve mentioned multiple times throughout this course. This incentivizes all the participants to help secure and validate good actions throughout the network. With that built-in "trustless" trust, we’re able to remove those middlemen that provide no additional value, plus it could potentially increase the efficiency based on which public blockchain is being used.
 
-#### Cross Border Payments and Ledgers
+### Cross Border Payments and Ledgers
 Traditional centralized ledger systems have weaknesses. Accuracy is dependent on intermediaries who can change details of the centralized ledger. Data derived from the ledger is siloed and misused.
  
 Distributed decentralized ledgers are not dependent on intermediaries who can manipulate the data. Data is secure and tamper resistant.
@@ -2969,10 +2972,10 @@ Cryptocurrency exchanges vary in complexities and user experience.
 Beginners
 To start off, it is advantageous to deal with a centralized solution to store your cryptocurrency. These larger exchanges act as a bank for your cryptocurrencies. Offering features like loans and staking rewards (rewards for being an active part in a network).They vet the currencies they allow you to trade and store, while controlling the private keys for you, so accessing your currencies is as easy as a username and password. Such examples of these organizations are Coinbase and Gemini. Below you can see a screenshot of the Gemini Custodial Crypto Account Dashboard:
  
-Advanced
+### Advanced
 In keeping with the decentralization nature of the cryptocurrency markets, exchanges exist where you are the custodian of your accounts and trading is done from your computer or smartphone. This is where the term Decentralized Finance was born. It gives you the ability to apply smart contracts to govern your trades and access to markets previously only for accredited investors. Such examples of decentralized exchanges are Liquid, SushiSwap and Uniswap. Below is the screenshot of the Liquid Exchange:
  
-Hardware Wallets
+### Hardware Wallets
 Hardware wallets offer an alternative to storing your cryptocurrency online. These devices plug into a USB port and transfer your private keys (ownership rights to the cryptocurrency) from your “hot wallet” (mobile, computer or web based) to be stored offline. If the device is damaged or lost, so are the cryptocurrencies stored. This is what the ledger wallet looks like:
  
 <h5>Self-Sovereign Identity (SSI)</h5>
@@ -3604,9 +3607,9 @@ By increasing the transparency for energy origins, Power Ledger could assist wit
 They accomplish these goals through peer-to-peer energy trading, carbon product trading, microgrids management, and more.
 
 ### Gaming
-The days of video games being just a form of entertainment are long gone.>br> 
-Most of the new video games have in-app purchases and loot box features in them. <br>
-These features enable users to use real-life currency to buy new skins for their characters and tools. <br>
+The days of video games being just a form of entertainment are long gone.>br/> 
+Most of the new video games have in-app purchases and loot box features in them. <br/>
+These features enable users to use real-life currency to buy new skins for their characters and tools. <br/>
 <p>
 With the use of <i>DeFi</i>, game developers can implement the newer incentive or reward models with DeFi coins. 
 In fact, gaming and eSports will likely become one of the major markets as the users are more tech-savvy and open to newer technologies.
@@ -3615,8 +3618,8 @@ In fact, gaming and eSports will likely become one of the major markets as the u
 To learn more, visit the Game Developers Conference's website.
 [Developers Conference website](https://gdconf.com/)
 
-Decentraland is a virtual world built on top of the Ethereum blockchain. A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br> 
-Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).<br>
+Decentraland is a virtual world built on top of the Ethereum blockchain. A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br/> 
+Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).<br/>
 
 Watch this video to learn more about <a href="https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/" target="_blank">Decentraland</a>
 <!--- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/). -->
@@ -3624,8 +3627,8 @@ Watch this video to learn more about <a href="https://www.youtube.com/watch?app=
 ### Music
 Experts from Statista projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
 
-Read <blockquote>"Blockchain for the Music Industry: 9 Possible Use Cases"</blockquote> by Sam Mire to learn more.<br>
-<i>themusicianmarketplace.com</i> was built to establish one profile for each artist, but each artist can list talents for any job they want. <br>
+Read <blockquote>"Blockchain for the Music Industry: 9 Possible Use Cases"</blockquote> by Sam Mire to learn more.<br/>
+<i>themusicianmarketplace.com</i> was built to establish one profile for each artist, but each artist can list talents for any job they want. <br/>
 For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place.
 
 The options on themusicianmarketplace.com are unlimited. 
@@ -3666,7 +3669,7 @@ At the closest Earth gets to Mars, it's a 26 minute roundtrip at light speed, an
 
 Well, think about this: if you run a small pizza shop on Mars, you close out your register for the day, and you need to deposit funds into your bank account, and that is a bank on Wall Street, New York City, and under the best case scenario, that's a 26-minute roundtrip, you can see how centralized models of the Internet aren't going to scale.
 
-So, if you ask me, I really believe technologies like blockchain and supporting technologies like IPFS are the enabling technologies to allow humans to continue to trade and interact and conduct commerce with each other when we become a multi-planetary society.
+If you ask me, I really believe technologies like blockchain and supporting technologies like IPFS are the enabling technologies to allow humans to continue to trade and interact and conduct commerce with each other when we become a multi-planetary society.
 And that's why I think there's a ton of potential in blockchain and it's something really exciting, and hopefully, you're all inspired to stay up-to-date with.
 
 ### <a id="ch6-7"></a>6.7 Chapter Summary
