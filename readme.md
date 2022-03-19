@@ -9,11 +9,11 @@
 	alt="Linux logo"
 	width="40%">
 &nbsp;
-<b/>
+<br/>
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
 
 </p>  
-<b/>
+<br/>
 
 <h3>Blockchain: Understanding Its Use Cases and Implications </h3>
 
@@ -133,16 +133,16 @@ Web servers, people who host and store the documents and web browsers, companies
 The Internet can be grouped into three distinct segments characterized by the way people interact with this new technology.
    * Web 1.0 - Internet of Connection
    * Web 2.0 - Internet of Information
-   * Web 3.0 - Internet of Value<b/>
+   * Web 3.0 - Internet of Value<br/>
 Let’s discuss them in more detail.
 
 <h3>Web 1.0 - Internet of Connection</h3>
-Characteristics of Web 1.0:<b/>
-   - Development of a host of web-based applications, which fostered in online services, such as email.<b/>
-   - Content from administrator.<b/>
-   - Managed by a central authority.<b/>
-   - Read-only, information was “pushed” to users.<b/>
-   - Email was the first widely adopted application on the Internet.<b/>
+Characteristics of Web 1.0:<br/>
+   - Development of a host of web-based applications, which fostered in online services, such as email.<br/>
+   - Content from administrator.<br/>
+   - Managed by a central authority.<br/>
+   - Read-only, information was “pushed” to users.<br/>
+   - Email was the first widely adopted application on the Internet.<br/>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------ Email logo ------------------------------------------------------->
@@ -158,7 +158,7 @@ Computers and items for connection became necessities.
 Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
 Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. 
 Companies appeared attempting to cash in on this new technology, most notable was a company called **Netscape** which developed the first commercial Web browser.
-<b/>
+<br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -172,11 +172,11 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 &nbsp;
  
 <h3>Web 2.0 - Internet of Information</h3>
-Characteristics of Web 2.0:<b/><b/>
-   - User-generated content.<b/>
-   - Read-write, individuals can interact with information.<b/>
-   - Information became siloed.<b/>
-   - Data became a commodity.<b/>
+Characteristics of Web 2.0:<br/>
+   - User-generated content.<br/>
+   - Read-write, individuals can interact with information.<br/>
+   - Information became siloed.<br/>
+   - Data became a commodity.<br/>
 
 Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sellers in a seamless low-cost way. 
 Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. 
@@ -228,16 +228,16 @@ Music sharing companies gave us the first glimpse into peer-to-peer networking.
 Besides copyright infringement, the main challenge for the music sharing companies was file integrity.
 
 You could never be sure the file you requested was the file you would get and there was no one to complain to. 
-<b/>
+<br/>
 Both Napster and BitTorrent are operating today, with different business models.
 </p>
 
 <h3>Web 3.0 - Internet of Value</h3>
-Characteristics of Web 3.0:<b/><b/>
-   - Community interaction.<b/>
-   - More connected, open, and intelligent.<b/>
-   - Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.<b/>
-   - Identity and information will be held by the individual, breaking data silos.<b/>
+Characteristics of Web 3.0:<br/>
+   - Community interaction.<br/>
+   - More connected, open, and intelligent.<br/>
+   - Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.<br/>
+   - Identity and information will be held by the individual, breaking data silos.<br/>
 
 Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
 
@@ -790,13 +790,13 @@ Industries like finance, international trade and commerce, food supply chains ar
    • <b>Approach:</b> <i>DLT Labs</i> along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
   The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. 
   The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
-&nbsp;<b/>
+&nbsp;<br/>
    • <b>Result:</b> Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
 
 <h3>__Unintended Use Cases__</h3>
 One of the coolest things about blockchain is some of the unintended consequences a good blockchain solution might have.
 &nbsp;
-<b/>
+<br/>
 Let's look at an example.<br/>
 <p>
 Right now, there is a lot of attention being given to how blockchain might be used, in general, for supply chain relationships and, specifically, in the food supply chain.</p>
@@ -2225,7 +2225,7 @@ By the end of this chapter, you should be able to:
   •	Summarize the advantages and disadvantages of a consortium blockchain.
 
 <h3 id="ch4-2">4.2 What Is Open Source?</h3>
-Blockchain technology and the developers who work with it reinforce the basic tenet of decentralization in many ways. Not only by decision making consensus models, but also the way in which it distributes the software code.<b/>
+Blockchain technology and the developers who work with it reinforce the basic tenet of decentralization in many ways. Not only by decision making consensus models, but also the way in which it distributes the software code.<br/>
 
    • Proprietary/closed source code
 Software controlled by the person, team or organization who created it and maintains exclusive rights over it. Only the original authors can legally copy, inspect, and alter the software. Most users of proprietary software sign an agreement giving permission to use the software but not alter it. Microsoft Office is an example of proprietary software.
@@ -2535,7 +2535,7 @@ This begs the question "Why didn't point-to-point networks like torrents attain 
 
 Because there's no guarantee that the nodes would do the right thing.
 
-Nobody could guarantee that the nodes would cooperate with each other.<b/>
+Nobody could guarantee that the nodes would cooperate with each other.<br/>
 
 This leads to an extremely important question.
 
@@ -2615,19 +2615,19 @@ RSA is a commonly known public key cryptography algorithm.
 
 It's based on exponents and logarithms.
 
-RSA uses the power law of exponents.<b/>
+RSA uses the power law of exponents.<br/>
 
-What this means is that, if you take a number, you raise that number to a power, and then raise the result to another power, that you'll get the same result as if you simply multiply the two exponents together and then raise the base to the result.<b/>
+What this means is that, if you take a number, you raise that number to a power, and then raise the result to another power, that you'll get the same result as if you simply multiply the two exponents together and then raise the base to the result.<br/>
 
-An RSA user chooses two exponents so that any number raised to the product of the two exponents in a given modulus produces the original number.<b/>
+An RSA user chooses two exponents so that any number raised to the product of the two exponents in a given modulus produces the original number.<br/>
 
-One of these is called the public key and that public key is distributed freely, while the other is the private key, which is intended to be kept secret.<b/>
+One of these is called the public key and that public key is distributed freely, while the other is the private key, which is intended to be kept secret.<br/>
 
-If someone wants to send a private message to the user, they convert it to an integer using a publicly-known method.<b/>
+If someone wants to send a private message to the user, they convert it to an integer using a publicly-known method.<br/>
 
-They raise it to the power of the user's public exponent and they send the result to the user.<b/>
+They raise it to the power of the user's public exponent and they send the result to the user.<br/>
 
-The user raises the received value to their private exponent producing the original message.<b/>
+The user raises the received value to their private exponent producing the original message.<br/>
 
 RSA is secure because an attacker must be able to calculate a logarithm to determine the secret message.
 
@@ -2635,61 +2635,57 @@ Since this takes guessing every possible value until the correct one is found,
 
 RSA is designed to make the number of potential values so large that finding the right one is pretty close to impossible.
 
-Another public key algorithm uses different math behind the scenes, but the basics are effectively the same.<b/>
+Another public key algorithm uses different math behind the scenes, but the basics are effectively the same.<br/>
 
-A user creates a public key and the private key that can be used together for either encryption or signing, which we'll talk about later.<b/>
+A user creates a public key and the private key that can be used together for either encryption or signing, which we'll talk about later.<br/>
 
-The algorithms are designed so that an authorized user only has to do the, quote, "easy calculations", while an attacker has to perform the hard calculations, and the algorithm is designed to make attacking so that the hard algorithms are close to impossible.<b/>
+The algorithms are designed so that an authorized user only has to do the, quote, "easy calculations", while an attacker has to perform the hard calculations, and the algorithm is designed to make attacking so that the hard algorithms are close to impossible.<br/>
 
-Public key cryptography is how identity is handled on the blockchain.<b/>
+Public key cryptography is how identity is handled on the blockchain.<br/>
+A user's address on the blockchain it's their public key.<br/>
+This has several useful properties.<br/>
+Users do not need to reveal their identity on the blockchain, but they can positively identify themselves, since determining their private keys requires solving a quote, "hard problem".<br/>
+Anyone can send a user an encrypted message, since they have easy access to their public key.<br/>
 
-A user's address on the blockchain it's their public key.<b/>
+Users can verify the validity of their transactions using digital signatures.<br/>
 
-This has several useful properties.<b/>
+You can think of a digital signature as the opposite of an encrypted message.<br/>
 
-Users do not need to reveal their identity on the blockchain, but they can positively identify themselves, since determining their private keys requires solving a quote, "hard problem".<b/>
+In RSA, anyone can send an encrypted message to a user by converting it to a number, raising it to their public exponent, and sending the result to them.<br/>
 
-Anyone can send a user an encrypted message, since they have easy access to their public key.<b/>
+The user's public and private keys are designed so that the users can retrieve the original message by raising the received message to their private exponent.<br/>
 
-Users can verify the validity of their transactions using digital signatures.<b/>
+RSA digital signatures involve the opposite process.<br/>
 
-You can think of a digital signature as the opposite of an encrypted message.<b/>
+A user writes a message and raises a condensed form of the message to the power of their private exponent to create a signature, then they publish that signature.<br/>
 
-In RSA, anyone can send an encrypted message to a user by converting it to a number, raising it to their public exponent, and sending the result to them.<b/>
+Their public key and their message are both published together.<br/>
 
-The user's public and private keys are designed so that the users can retrieve the original message by raising the received message to their private exponent.<b/>
+Anyone can verify the signature using a simple three-step process, condense the attached message using the same method as the message writer, the message originator, raising that attached signature to the user's public key, then verifying that the results of the previous two steps are identical.<br/>
 
-RSA digital signatures involve the opposite process.<b/>
+Digital signatures work for the same reason that encryption works in RSA.<br/>
 
-A user writes a message and raises a condensed form of the message to the power of their private exponent to create a signature, then they publish that signature.<b/>
-
-Their public key and their message are both published together.<b/>
-
-Anyone can verify the signature using a simple three-step process, condense the attached message using the same method as the message writer, the message originator, raising that attached signature to the user's public key, then verifying that the results of the previous two steps are identical.<b/>
-
-Digital signatures work for the same reason that encryption works in RSA.<b/>
-
-An attacker needs to know the user's private key to perform either operation, and the algorithm is designed to make that process difficult or very close to impossible.<b/>
+An attacker needs to know the user's private key to perform either operation, and the algorithm is designed to make that process difficult or very close to impossible.<br/>
 
 This means that identity on the blockchain boils down to the possession of a user's private key.
 
-It is absolutely important that that private key be kept safe.<b/>
+It is absolutely important that that private key be kept safe.<br/>
 
-In Ethereum, a user's identity is managed using a public key or address, and the user can use the corresponding private key to sign transactions and read encrypted messages that are sent to them.<b/>
+In Ethereum, a user's identity is managed using a public key or address, and the user can use the corresponding private key to sign transactions and read encrypted messages that are sent to them.<br/>
 
-In Hyperledger (Fabric) and Corda, identity is encoded in x.509 certificates, which include the user's public key.<b/>
+In Hyperledger (Fabric) and Corda, identity is encoded in x.509 certificates, which include the user's public key.<br/>
 
-In Corda, specifically, certificates can either be public, which means that they are published to the blockchain, or confidential, meaning that they are only shared with the parties that the owner performs transactions with.<b/>
+In Corda, specifically, certificates can either be public, which means that they are published to the blockchain, or confidential, meaning that they are only shared with the parties that the owner performs transactions with.<br/>
 
 <h3>Identity</h3>
 Self-sovereign identity and blockchain solutions introduce identity management in a way that can improve a system considered broken. This topic will be examined in the next chapter. In this section, we will cover identity as seen through transactions and how and if you want your identity tied to a transaction.
 
 <h3>Anonymity in the Blockchain</h3>
-In this section, we'll discuss anonymity on the blockchain.<b/>
+In this section, we'll discuss anonymity on the blockchain.<br/>
 
-Privacy and anonymity on the blockchain are a crucial part of its success in some applications.<b/>
+Privacy and anonymity on the blockchain are a crucial part of its success in some applications.<br/>
 
-If individuals or organizations are performing transactions on the blockchain, they may not wish this to be public knowledge.<b/>
+If individuals or organizations are performing transactions on the blockchain, they may not wish this to be public knowledge.<br/>
 
 Different blockchains have different levels of anonymity and privacy built into the protocol.
 
@@ -2783,37 +2779,37 @@ Finally, Hyperledger supports zero knowledge proof, where a prover can demonstra
 
 These different levels of privacy and anonymity protection gives users a higher degree of configurability on the Hyperledger Fabric blockchain.
 
-Finally, Corda allows users to perform transactions either as a party or an anonymous party on their blockchain.<b/>
+Finally, Corda allows users to perform transactions either as a party or an anonymous party on their blockchain.<br/>
 
-An anonymous party has the same level of anonymity protection as a basic blockchain, relying on the fact that public keys cannot be tied directly to real-world identities.<b/>
+An anonymous party has the same level of anonymity protection as a basic blockchain, relying on the fact that public keys cannot be tied directly to real-world identities.<br/>
 
 A party on the Corda blockchain reveals the real-world identity of the user which intentionally sacrifices anonymity for identity validation.
 
 <h3>Advanced Blockchain Anonymity Techniques</h3>
 The following are only some of the mechanisms developed and implemented in various blockchains:
-   * Zero-knowledge proofs<b/><b/>   
+   * Zero-knowledge proofs<br/>   
 Zero-knowledge proofs use cryptographic algorithms to allow a user to prove knowledge of a secret without revealing the secret. A prover proves knowledge of a secret without revealing it. New technology referred to as SNARK (Succinct Non-interactive - ARgument of Knowledge) are fine tuning privacy issues on blockchains.
-   * Stealth addresses<b/><b/>   
+   * Stealth addresses<br/>   
 Stealth addresses involve using one-time addresses to perform transactions on a blockchain. A stealth address is just a one-time address that makes it impossible to link a transaction to a known account. This prevents the data mining attacks on privacy that we discussed earlier.
-   * Ring signatures<b/><b/>   
+   * Ring signatures<br/>   
 We mentioned previously that transactions are digitally signed. With ring signatures, all that can be determined from a transaction is that a member of a group signed it, but not the particular member.
-   * CoinJoin<b/><b/>   
+   * CoinJoin<br/>   
 The ability to see who is performing transactions with whom is dangerous to user privacy and anonymity. Protocols like CoinJoin mix several transactions together so that it is difficult to pair senders with recipients.
-   •	Confidential transactions<b/><b/>
+   •	Confidential transactions<br/>
 Confidential transactions take advantage of homomorphic encryption, which makes it possible to perform mathematical operations on encrypted data. This means that the data contained in a transaction can be hidden from the public, while still allowing the network to verify that the transaction is valid.
 
 <h3>Specific Anonymity Implementations</h3>
-   * Ethereum<b/><b/>   
+   * Ethereum<br/>   
 Ethereum is working on improving the zero-knowledge proofs, mixing and DAPPS (applications developed to improve anonymity) to strengthen privacy. 
-Also ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM, a fork of the Ethereum blockchain which enables users to benefit from the public Ethereum blockchain while enjoying features from a private network. Developed by JPMorgan, it is a permissioned implementation.<b/>
-   * Hyperledger<b/><b/>   
-    - Channels: Subsections of the blockchain that make transactions visible only to members.<b/><b/>  
-    - Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.<b/><b/>  
-    - Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.<b/>
-   * Hyperledger Besu<b/><b/>
+Also ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM, a fork of the Ethereum blockchain which enables users to benefit from the public Ethereum blockchain while enjoying features from a private network. Developed by JPMorgan, it is a permissioned implementation.<br/>
+   * Hyperledger<br/>   
+    - Channels: Subsections of the blockchain that make transactions visible only to members.<br/>  
+    - Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.<br/>  
+    - Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.<br/>
+   * Hyperledger Besu<br/>
 Besu is an Ethereum client that runs on the Ethereum public network, private networks, and test networks such as Rinkeby, Ropsten, and Görli.
-Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.<b/>
-   * Corda<b/><b/>
+Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.<br/>
+   * Corda<br/>
 Parties on the Corda Network can be represented in one of two ways:
       - Party: A public key and name.
       - Anonymous party: Only a public key.
@@ -2823,7 +2819,7 @@ Just as there are benefits with blockchain technology, there are also some chall
 Blockchain is a culmination of technologies that have been blended to provide a trustless platform. 
 Expect some challenges and use case justifications taking the old line of business apps to the blockchain.
 
-Let's recap the features of a blockchain that establishes trust:<b/>
+Let's recap the features of a blockchain that establishes trust:<br/>
 
    * Blockchain technology is about storing some kind of data (which are transactions in regards to the Bitcoin blockchain).
    * Blockchain is essentially transferring trust from an intermediary to technology.
@@ -2844,19 +2840,19 @@ Blockchains minimize the amount of trust required from any single actor in the s
 Blockchains have a shared ledger that gives us the absolute truth of the state of the system.
 It uses mathematics, economics, and game theory to incentivize all parties in the system to reach a “consensus” (i.e. coming to an agreement on a single state of the ledger).
 
-  * Consensus algorithms<b/><b/>
+  * Consensus algorithms<br/>
 The blockchain is based on a consensus algorithm where all nodes agree that the transaction is valid.
-  * Financial transparency<b/><b/>
+  * Financial transparency<br/>
 Financial transparency can reduce the need for intermediaries.
-  * Smart contracts<b/><b/>
+  * Smart contracts<br/>
 Smart contracts reduce the need for accountants, lawyers, bankers, etc., as computer code can replace some basic functions. Trust shifts to technology.
-  * Trust in technology<b/><b/>
+  * Trust in technology<br/>
 Trustless blockchains is a transfer of trust to technology from organizations, governments and corporations.
-  * Confidential transactions<b/><b/>
+  * Confidential transactions<br/>
 Privacy techniques mask details of transactions while still proving they occurred.
-  * Decentralized ledger<b/><b/>
+  * Decentralized ledger<br/>
 The ledger acts as a trust broker when two parties who don’t trust each other want to interact.
-  * Transparent code<b/><b/>
+  * Transparent code<br/>
 Most blockchains are built on open-source software that is transparent, community-driven code that is open for comment.
 
 <h3 id="ch4-5">4.5 Chapter Summary</h3>
@@ -2919,30 +2915,30 @@ Immutability is when something is unable to be changed.
 </p>
   
 <h3>Immutability</h3>
-"Immutable" simply refers to the permanence of data. <b/>
+"Immutable" simply refers to the permanence of data.<br/>
 
-Anything we call "immutable" we understand to be permanent and unchanging. <b/>
+Anything we call "immutable" we understand to be permanent and unchanging. <br/>
 
-Your local weather forecast - that's mutable, it changes all the time; the stars in the sky, those are immutable, they seem permanent from our perspective. <b/>
+Your local weather forecast - that's mutable, it changes all the time; the stars in the sky, those are immutable, they seem permanent from our perspective. <br/>
 
-One of the benefits of blockchain and many other Web 3.0 technologies is the promise of immutability. <b/>
+One of the benefits of blockchain and many other Web 3.0 technologies is the promise of immutability. <br/>
 
-The data recorded on a blockchain system can never be altered, edited, changed, or deleted once it has been recorded.<b/>
+The data recorded on a blockchain system can never be altered, edited, changed, or deleted once it has been recorded.<br/>
 
 As this data is stored in many different locations,
-changing or removing a copy of the data in one single place, or in a limited number of places poses no threat. <b/>
+changing or removing a copy of the data in one single place, or in a limited number of places poses no threat. <br/>
 
-Blockchain goes further than this though. <b/>
+Blockchain goes further than this though. <br/>
 
-In addition to recording facts or data points, blockchain also has the capacity to record who endorses or agrees with those recorded facts. <b/>
+In addition to recording facts or data points, blockchain also has the capacity to record who endorses or agrees with those recorded facts. <br/>
 
-Think of the difference between a piece of paper, and a contract. <b/>
+Think of the difference between a piece of paper, and a contract. <br/>
 
-A piece of paper can contain any data, true or not. <b/>
+A piece of paper can contain any data, true or not. <br/>
 
-A signed contract becomes more than a piece of paper because those signatures represent who agreed with the facts recorded on the paper at the time of signing. <b/>
+A signed contract becomes more than a piece of paper because those signatures represent who agreed with the facts recorded on the paper at the time of signing. <br/>
 
-Blockchain provides a digital implementation of this process, and can be an immeasurably valuable tool when you need to capture not only what happened, but who was involved as well. <b/>
+Blockchain provides a digital implementation of this process, and can be an immeasurably valuable tool when you need to capture not only what happened, but who was involved as well. <br/>
 
 Imagine the new opportunities that arise when organizations can safely and securely share their most critical data with one another, with the trust that the data they're seeing hasn't been compromised or altered.
 
@@ -3354,22 +3350,22 @@ Central Bank Digital currencies are a digital form of central bank money that is
 In the Ledger Insights article titled "IMF Outlines Pros and Cons of Central Bank Digital Currency" it is estimated that 80% of central banks are exploring CBDC.
 
 Some of the benefits of Central Bank Digital Currencies include:
-   * Transparent monetary policy<b/><b/>
+   * Transparent monetary policy<br/>
 Due to the distributed ledger technology’s feature of transparency, creating a digital currency will bring clarity to the government's monetary system, where policy can be recorded on the blockchain and remain immutable.
-   * Combat money laundering<b/><b/>
+   * Combat money laundering<br/>
 Money laundering is converting illegal funds into legal payments systems. Blockchain can eliminate this practice with a shared ledger that keeps a complete transaction history, making it impossible to erase. Like with all money transfers, certain safeguards are in place to identify wallets or accounts to users. Anti Money Laundering (AML) policies like Know Your Customer (KYC) further ensure citizens are following laws in their countries.
-   * Cross-border payments<b/><b/>
+   * Cross-border payments<br/>
 Blockchain technology eliminates middlemen in cross-border payments, reducing transfer fees, and making interactions faster and frictionless while keeping the integrity of the underlying asset.
-   * Government efficiency<b/><b/>
+   * Government efficiency<br/>
 A huge benefit for governments to research CBDC is to overcome existing problems inherent in the existing antiquated systems. By moving to the digital realm, governments can enjoy the cost reductions blockchain offers.
-   * Banking the unbanked<b/><b/>
+   * Banking the unbanked<br/>
 To be unbanked describes a person who does not have a checking or savings account. Being unbanked puts individuals at an extreme dis-advantage as they do not have access to financial services like loans and usually pay more for check cashing. By creating a digital currency governments can include this market segment, onboarding people with mobile phones.
 
 <h3>Types of Central Bank Digital Currencies</h3>
 According to the "What Is Retail Central Bank Digital Currency?" article by Matthieu Saint Olive, there are two types of central bank digital currencies:
-   • Wholesale CBDC<b/><b/>
+   • Wholesale CBDC<br/>
 A wholesale CBCD is a type of currency used by financial institutions to buy and sell financial assets. It would replace real time settlement systems used today.
-   • Retail CBDC<b/><b/>
+   • Retail CBDC<br/>
 Retail central bank digital currency would be used as a digital twin for fiat currency. Citizens would use it to pay for things, send money and save it.
 
 Central Bank Digital Currencies are being considered across the globe.
@@ -3400,23 +3396,23 @@ NFTs can represent art, music, videos and other digital files where access to th
 **[`^        back to top        ^`](#table-of-contents)**
 
 Let's now take a look at some of the types of non-fungible tokens:
-   * Digital artwork<b/><b/>
+   * Digital artwork<br/>
 By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator. The New York Times reported art entitled "Everydays – The First 5000 Days", by artist Mike Winkelmann, also known as Beeple, sold for $69.3 million USD in 2021.
-   * Collectables<b/><b/>
+   * Collectables<br/>
 As we saw with CryptoKitties, non-fungible tokens create unique items. One of the more popular collectables are CryptoPunks, a collection of 10,000 uniquely generated characters each having a unique owner registered on the Ethereum blockchain. A crypto punk, Punk 1651 sold for 78 ETH or $136,850.22 USD.
-   * Games<b/><b/>
+   * Games<br/>
 NFTs can be used to represent assets in computerized games. With the ability to trade assets created in a gaming platform, users and creators of assets in the digital game can trade assets on a third party marketplaces and store them in a wallet where the private keys are controlled by the gamer, taking control away from the game developer.
-   * Music and film<b/><b/>
+   * Music and film<br/>
 With NFTs, musicians and filmmakers can now tokenize their work where the artist monetizes and profits from their content. When artists release music or film as NFT, they retain control and realize royalties in a more equitable way. Musicians can join in decentralized marketplace such as Mediachain a Ujo to ensure artists are paid fairly, musicians enter into smart contracts that state royalty stipulations without the need of a third party.
-   * Sports<b/><b/>
+   * Sports<br/>
 The sports industry has embraced the idea of NFTs from tokenizing memorable sporting moments to trading card collectables. NBA Top Shots being the leader for creating a marketplace for NBA collectible cards and moments.
-   * University research<b/><b/>
-In May 2021, UC Berkeley announced it would auction off NFTs for the patent disclosure for two Nobel Prize-winning inventions dealing with gene editing and Cancer Immunotherapies.<b/><b/>
+   * University research<br/>
+In May 2021, UC Berkeley announced it would auction off NFTs for the patent disclosure for two Nobel Prize-winning inventions dealing with gene editing and Cancer Immunotherapies.<br/>
 The younger generation of collectors aren’t interested in China sets and linen, but something they can show their friends on their social media accounts. 
 The future of the non-fungible token promises to be one of the more energetic market segment blockchain has seen.
 
 <h3>Interoperability</h3>
-To end this section, we must mention interoperability. Interoperability in blockchains deals with creating standards so different types of blockchains can communicate with each other.<b/>
+To end this section, we must mention interoperability. Interoperability in blockchains deals with creating standards so different types of blockchains can communicate with each other.<br/>
 
 If new emerging blockchains can’t communicate with each other, we will have the same issues with siloed data that created frustration with the Internet of Today. 
 
@@ -3473,15 +3469,15 @@ Blockchain technology promises sound extremely lofty. Let's take a look at how t
 
 It is showing a new path that will improve the lives of so many. We will see how identity management is key (no pun intended) to all the use cases we discuss.
 For our discussion, we will categorize use cases by who is developing solutions, starting with large enterprise solutions to smartphone and web browser applications powered by blockchain that put control back in the user's hands:
-  - Enterprise solutions<b/><b/>
+  - Enterprise solutions<br/>
 Businesses and organizations are implementing blockchain to overcome obstacles in transparency and trust forging new associations with global implications.
-  - Public sector solutions<b/><b/>
+  - Public sector solutions<br/>
 Governments are using blockchain solutions to improve services that they provide to their citizens. Digital identity solutions, central bank digital currencies and transparent workflows are bringing efficiency to the public sector system with an end result that benefits citizens. With that, new laws are needed to regulate this technology.
-  - Social impact solutions<b/><b/>
+  - Social impact solutions<br/>
 Social impact blockchain solutions address social and environmental challenges. Backed by the 17 United Nations Sustainable Development Goals blockchain developers, investors, philanthropists, government agencies and foundations are developing solutions that tackle these global problems.
-  - Platform developers' solutions<b/><b/>
+  - Platform developers' solutions<br/>
 Blockchain is a new technology constantly improving and changing. Developers are creating standards and new platforms to bring this technology into the mainstream.
-  - End user solutions<b/><b/>
+  - End user solutions<br/>
 Everyday solutions emerge that put decentralized blockchains and all the benefits they promise in the hands of individuals from new decentralized marketplaces to new ways to express your music, art, and even let you trade property built inside a game.
 
 <h3>Enterprise Solutions Overview</h3>
