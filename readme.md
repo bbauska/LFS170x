@@ -2594,11 +2594,17 @@ Factoring on the other hand, it's hard.
 The best way to factor a large number is to try every possible factor until you find the right one.
 
 Well, this approach works well if the number to be factored is small.
+
 It quickly becomes virtually impossible with a sufficiently large factor.
+
 Some public key cryptography algorithms are designed so that breaking the algorithm requires factoring very large, usually prime numbers.
+
 Another hard math problem used in public key cryptography is based on exponents and logarithms.
+
 Exponents are easy, since it's essentially multiplication, and logarithms are hard, since you're essentially factoring.
+
 Most public key algorithms that use exponents use a type called modular exponents.
+
 All this means is that when they're done calculating the exponent, they divide the result by a publicly-known value called the modulus, and they keep only the remainder.
 
 RSA is a commonly known public key cryptography algorithm.
@@ -2606,37 +2612,69 @@ RSA is a commonly known public key cryptography algorithm.
 It's based on exponents and logarithms.
 
 RSA uses the power law of exponents.<b/>
+
 What this means is that, if you take a number, you raise that number to a power, and then raise the result to another power, that you'll get the same result as if you simply multiply the two exponents together and then raise the base to the result.<b/>
+
 An RSA user chooses two exponents so that any number raised to the product of the two exponents in a given modulus produces the original number.<b/>
+
 One of these is called the public key and that public key is distributed freely, while the other is the private key, which is intended to be kept secret.<b/>
+
 If someone wants to send a private message to the user, they convert it to an integer using a publicly-known method.<b/>
+
 They raise it to the power of the user's public exponent and they send the result to the user.<b/>
+
 The user raises the received value to their private exponent producing the original message.<b/>
+
 RSA is secure because an attacker must be able to calculate a logarithm to determine the secret message.
+
 Since this takes guessing every possible value until the correct one is found,
+
 RSA is designed to make the number of potential values so large that finding the right one is pretty close to impossible.
+
 Another public key algorithm uses different math behind the scenes, but the basics are effectively the same.<b/>
+
 A user creates a public key and the private key that can be used together for either encryption or signing, which we'll talk about later.<b/>
+
 The algorithms are designed so that an authorized user only has to do the, quote, "easy calculations", while an attacker has to perform the hard calculations, and the algorithm is designed to make attacking so that the hard algorithms are close to impossible.<b/>
+
 Public key cryptography is how identity is handled on the blockchain.<b/>
+
 A user's address on the blockchain it's their public key.<b/>
+
 This has several useful properties.<b/>
+
 Users do not need to reveal their identity on the blockchain, but they can positively identify themselves, since determining their private keys requires solving a quote, "hard problem".<b/>
+
 Anyone can send a user an encrypted message, since they have easy access to their public key.<b/>
+
 Users can verify the validity of their transactions using digital signatures.<b/>
+
 You can think of a digital signature as the opposite of an encrypted message.<b/>
+
 In RSA, anyone can send an encrypted message to a user by converting it to a number, raising it to their public exponent, and sending the result to them.<b/>
+
 The user's public and private keys are designed so that the users can retrieve the original message by raising the received message to their private exponent.<b/>
+
 RSA digital signatures involve the opposite process.<b/>
+
 A user writes a message and raises a condensed form of the message to the power of their private exponent to create a signature, then they publish that signature.<b/>
+
 Their public key and their message are both published together.<b/>
+
 Anyone can verify the signature using a simple three-step process, condense the attached message using the same method as the message writer, the message originator, raising that attached signature to the user's public key, then verifying that the results of the previous two steps are identical.<b/>
+
 Digital signatures work for the same reason that encryption works in RSA.<b/>
+
 An attacker needs to know the user's private key to perform either operation, and the algorithm is designed to make that process difficult or very close to impossible.<b/>
+
 This means that identity on the blockchain boils down to the possession of a user's private key.
+
 It is absolutely important that that private key be kept safe.<b/>
+
 In Ethereum, a user's identity is managed using a public key or address, and the user can use the corresponding private key to sign transactions and read encrypted messages that are sent to them.<b/>
+
 In Hyperledger (Fabric) and Corda, identity is encoded in x.509 certificates, which include the user's public key.<b/>
+
 In Corda, specifically, certificates can either be public, which means that they are published to the blockchain, or confidential, meaning that they are only shared with the parties that the owner performs transactions with.<b/>
 
 ### Identity
@@ -2644,26 +2682,46 @@ Self-sovereign identity and blockchain solutions introduce identity management i
 
 ### Anonymity in the Blockchain
 In this section, we'll discuss anonymity on the blockchain.<b/>
+
 Privacy and anonymity on the blockchain are a crucial part of its success in some applications.<b/>
+
 If individuals or organizations are performing transactions on the blockchain, they may not wish this to be public knowledge.<b/>
+
 Different blockchains have different levels of anonymity and privacy built into the protocol.
+
 As discussed earlier, public key cryptography is at the center of maintaining identity on the blockchain.
+
 It uses a pair of public and private keys to make encryption and digital signatures possible.
+
 At this point, we need to take a look a bit more into the relationship between a user's keys and a user's actual identity.
+
 The first thing to consider is that there is nothing about a public key that ties it to its corresponding private key.
+
 We've said that a digital signature verifies that an owner of the corresponding private key created the signature, but that is all that it says.
+
 Since private keys are secret, obviously it can't be possible for someone to determine a private key from a public key, at least it shouldn't.
+
 If you know a user's private key, you can calculate the public one, but the reverse is not true.
 The other thing to keep in mind is that private keys are just numbers, and can't be tied to a person's actual identity, their real-world identity.
+
 Identity on the blockchain is just possession of the relevant private key, and even if someone guesses or steals that private key, they can't learn its owner's actual identity from it directly.
+
 The original blockchains did not have much in the way of privacy and anonymity protection.
+
 You can't tie public keys to private keys or private keys to real-world identities, which means that blockchain users have a limited amount of built-in privacy.
+
 However, every transaction on the blockchain is public and stored there forever.
+
 This means that a lot of information about the users' identity could be learned through sifting through the data stored on the blockchain to obtain the metadata.
+
 Based on the repeated transactions to places like a coffee shop or a market, someone could get an idea of where an individual lives and their habits.
+
 For businesses, repeated transactions may indicate business relationships that may lead to a loss of a competitive advantage if leaked.
+
 On basic blockchains, anonymity only goes so far.
+
 The limited level of anonymity and privacy protections available on the original blockchain has inspired development of enhancements that increase privacy, while still allowing transactions to be verified and validated publicly on the blockchain.
+
 This is an incomplete list of some of the mechanisms developed and implemented in various blockchains.
 
 We'll start with zero knowledge proofs.
@@ -2677,6 +2735,7 @@ The colorblind person shows one object to the prover, conceals both objects, and
 The prover then says whether or not they are the same object.
 
 Since the only way of determining this reliably is that the objects are different colors, the prover can prove the difference in colors without revealing the color of either object.
+
 Another approach is stealth addresses.
 
 Stealth addresses involve using one-time addresses to perform transactions on the blockchain.
@@ -2706,47 +2765,51 @@ Ethereum does not currently implement many real advanced options for privacy or 
 In the current version, user anonymity is limited to the fact that no one can tie a public key to a real-world identity.
 
 This is intended to change in the future though, and the Ethereum roadmap currently includes laying the groundwork for implementing zero knowledge proof.
+
 Hyperledger (Fabric) provides several options for privacy and anonymity.
 
 At the lowest levels, users can achieve increased anonymity through channels which can further encrypt the data that's stored on the channel using keys only available to members of the channel.
 
 At the next level, Hyperledger Fabric also allows users to perform private transactions.
+
 In a private transaction, data is stored on the cloud, but the hash of the data is stored on the blockchain.
 This allows users to use the blockchain to ensure data authenticity without storing the actual data publicly on the blockchain.
 
 Finally, Hyperledger supports zero knowledge proof, where a prover can demonstrate possession of some data without revealing the data itself.
+
 These different levels of privacy and anonymity protection gives users a higher degree of configurability on the Hyperledger Fabric blockchain.
 
 Finally, Corda allows users to perform transactions either as a party or an anonymous party on their blockchain.<b/>
+
 An anonymous party has the same level of anonymity protection as a basic blockchain, relying on the fact that public keys cannot be tied directly to real-world identities.<b/>
+
 A party on the Corda blockchain reveals the real-world identity of the user which intentionally sacrifices anonymity for identity validation.
 
-#### Advanced Blockchain Anonymity Techniques
+### Advanced Blockchain Anonymity Techniques
 The following are only some of the mechanisms developed and implemented in various blockchains:
-   * Zero-knowledge proofs<b/>
+   * Zero-knowledge proofs<b/><b/>   
 Zero-knowledge proofs use cryptographic algorithms to allow a user to prove knowledge of a secret without revealing the secret. A prover proves knowledge of a secret without revealing it. New technology referred to as SNARK (Succinct Non-interactive - ARgument of Knowledge) are fine tuning privacy issues on blockchains.
-   * Stealth addresses<b/>
+   * Stealth addresses<b/><b/>   
 Stealth addresses involve using one-time addresses to perform transactions on a blockchain. A stealth address is just a one-time address that makes it impossible to link a transaction to a known account. This prevents the data mining attacks on privacy that we discussed earlier.
-   * Ring signatures<b/>
+   * Ring signatures<b/><b/>   
 We mentioned previously that transactions are digitally signed. With ring signatures, all that can be determined from a transaction is that a member of a group signed it, but not the particular member.
-   * CoinJoin<b/>
+   * CoinJoin<b/><b/>   
 The ability to see who is performing transactions with whom is dangerous to user privacy and anonymity. Protocols like CoinJoin mix several transactions together so that it is difficult to pair senders with recipients.
-   •	Confidential transactions<b/>
+   •	Confidential transactions<b/><b/>
 Confidential transactions take advantage of homomorphic encryption, which makes it possible to perform mathematical operations on encrypted data. This means that the data contained in a transaction can be hidden from the public, while still allowing the network to verify that the transaction is valid.
 
 ### Specific Anonymity Implementations
-   * Ethereum<b/>
+   * Ethereum<b/><b/>   
 Ethereum is working on improving the zero-knowledge proofs, mixing and DAPPS (applications developed to improve anonymity) to strengthen privacy. 
 Also ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM, a fork of the Ethereum blockchain which enables users to benefit from the public Ethereum blockchain while enjoying features from a private network. Developed by JPMorgan, it is a permissioned implementation.<b/>
-   * Hyperledger<b/>
+   * Hyperledger<b/><b/>   
     - Channels: Subsections of the blockchain that make transactions visible only to members.
     - Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.
     - Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.<b/>
-   * Hyperledger Besu<b/>
-
+   * Hyperledger Besu<b/><b/>
 Besu is an Ethereum client that runs on the Ethereum public network, private networks, and test networks such as Rinkeby, Ropsten, and Görli.
 Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.<b/>
-   * Corda<b/>
+   * Corda<b/><b/>
 Parties on the Corda Network can be represented in one of two ways:
       - Party: A public key and name.
       - Anonymous party: Only a public key.
