@@ -7,7 +7,7 @@
 <p align="center">
 <img src="/images/image001.jpg?raw=true"
 	alt="Linux logo"
-	width="400">
+	width="40%">
 &nbsp;
 <b/>
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
@@ -121,7 +121,7 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 <p align="center">
 <img src="/images/image003.png?raw=true" 
 	ALT="WWW logo" 
-	width="200" >
+	width="20%" >
 &nbsp;
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -137,12 +137,12 @@ The Internet can be grouped into three distinct segments characterized by the wa
 Let’s discuss them in more detail.
 
 <h3>Web 1.0 - Internet of Connection</h3>
-Characteristics of Web 1.0:
-   * Development of a host of web-based applications, which fostered in online services, such as email.
-   * Content from administrator.
-   * Managed by a central authority.
-   * Read-only, information was “pushed” to users.
-   * Email was the first widely adopted application on the Internet.
+Characteristics of Web 1.0:<b/>
+   - Development of a host of web-based applications, which fostered in online services, such as email.<b/>
+   - Content from administrator.<b/>
+   - Managed by a central authority.<b/>
+   - Read-only, information was “pushed” to users.<b/>
+   - Email was the first widely adopted application on the Internet.<b/>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------ Email logo ------------------------------------------------------->
@@ -173,10 +173,10 @@ Companies appeared attempting to cash in on this new technology, most notable wa
  
 <h3>Web 2.0 - Internet of Information</h3>
 Characteristics of Web 2.0:<b/><b/>
-   - User-generated content.
-   - Read-write, individuals can interact with information.
-   - Information became siloed.
-   - Data became a commodity.
+   - User-generated content.<b/>
+   - Read-write, individuals can interact with information.<b/>
+   - Information became siloed.<b/>
+   - Data became a commodity.<b/>
 
 Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sellers in a seamless low-cost way. 
 Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. 
@@ -234,10 +234,10 @@ Both Napster and BitTorrent are operating today, with different business models.
 
 <h3>Web 3.0 - Internet of Value</h3>
 Characteristics of Web 3.0:<b/><b/>
-   - Community interaction.
-   - More connected, open, and intelligent.
-   - Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.
-   - Identity and information will be held by the individual, breaking data silos.
+   - Community interaction.<b/>
+   - More connected, open, and intelligent.<b/>
+   - Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.<b/>
+   - Identity and information will be held by the individual, breaking data silos.<b/>
 
 Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
 
@@ -3037,7 +3037,7 @@ The blockchain world is looking to solve all of this complexity with autonomy fr
 <!----------------------------------- Red X ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="24%" src="./images/image-ex.png"
+  <img width="20%" src="./images/image-ex.png"
     alt="Red X"</>
 </p>
 
