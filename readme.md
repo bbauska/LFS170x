@@ -150,7 +150,7 @@ Characteristics of Web 1.0:
 <p align="center">
 <img src="/images/image004.png?raw=true" 
      alt="E-mail logo" 
-     width="300" >
+     width="30%" >
 
 <h4 align="center">
 Email, Electronically Transferring Information</h4>
@@ -168,15 +168,15 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 <p align="center">
 <img src="/images/image005.png?raw=true" 
 	alt="Netscape logo" 
-	width="200" >
+	width="20%" >
 &nbsp;
  
 <h3>Web 2.0 - Internet of Information</h3>
-Characteristics of Web 2.0:
-   * User-generated content.
-   * Read-write, individuals can interact with information.
-   * Information became siloed.
-   * Data became a commodity.
+Characteristics of Web 2.0:<b/><b/>
+   - User-generated content.
+   - Read-write, individuals can interact with information.
+   - Information became siloed.
+   - Data became a commodity.
 
 Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sellers in a seamless low-cost way. 
 Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. 
@@ -188,7 +188,7 @@ Websites let users generate content, social networks became part of our lives.
 <p align="center">
 <img src="/images/image006.png?raw=true" 
 	alt="Social Networking logo" 
-	width="300" >
+	width="30%" >
 &nbsp;
 
 <h5 align="center">Social Networking</h5>
@@ -201,7 +201,7 @@ Websites let users generate content, social networks became part of our lives.
 <p align="center">
 <img src="/images/image007.png?raw=true" 
 	alt="Napster logo" 
-	width="200" >
+	width="20%" >
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer.
@@ -215,7 +215,7 @@ Napster is forced to take down its index, shutting down the platform.
 <p align="center">
 <img src="/images/image008.png?raw=true" 
 	alt="BitTorrent logo" 
-	width="200" >
+	width="20%" >
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer. 
@@ -233,11 +233,11 @@ Both Napster and BitTorrent are operating today, with different business models.
 </p>
 
 <h3>Web 3.0 - Internet of Value</h3>
-Characteristics of Web 3.0:
-   * Community interaction.
-   * More connected, open, and intelligent.
-   * Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.
-   * Identity and information will be held by the individual, breaking data silos.
+Characteristics of Web 3.0:<b/><b/>
+   - Community interaction.
+   - More connected, open, and intelligent.
+   - Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.
+   - Identity and information will be held by the individual, breaking data silos.
 
 Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
 
@@ -249,10 +249,11 @@ Bitcoin is the first widely accepted application for the Internet of Value (just
 <p align="center">
 <img src="/images/image009.png?raw=true" 
 	alt="Crypto, electronically transferring value" 
-	width="400" >
+	width="40%" >
 &nbsp;
 
 <h5 align="center">Cryptocurrencies, Electronically Transferring Value</h5>
+
 The Internet of Value represents a world where value is exchanged at the speed in which information moves today.
 
 The Internet is still the basic platform that these new technologies operate from.
