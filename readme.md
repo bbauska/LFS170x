@@ -2498,6 +2498,8 @@ They seek to develop reusable blockchain platforms based on technical standards 
 #### Consortiums: Pros and Cons
 Let's see what are some pros and cons of consortiums:
 
+picture here
+
 ### <a id="ch4-4"></a>4.4 Identity on the Blockchain
 In this section, we're going to discuss identity on the blockchain.
 Let's start by understanding why we even need to have an identity on the blockchain.
@@ -2557,45 +2559,47 @@ RSA is a commonly known public key cryptography algorithm.
 
 It's based on exponents and logarithms.
 
-RSA uses the power law of exponents.
-What this means is that, if you take a number, you raise that number to a power, and then raise the result to another power, that you'll get the same result as if you simply multiply the two exponents together and then raise the base to the result.
-An RSA user chooses two exponents so that any number raised to the product of the two exponents in a given modulus produces the original number.
-One of these is called the public key and that public key is distributed freely, while the other is the private key, which is intended to be kept secret.
-If someone wants to send a private message to the user, they convert it to an integer using a publicly-known method.
-They raise it to the power of the user's public exponent and they send the result to the user.
-The user raises the received value to their private exponent producing the original message.
+RSA uses the power law of exponents.<b/>
+What this means is that, if you take a number, you raise that number to a power, and then raise the result to another power, that you'll get the same result as if you simply multiply the two exponents together and then raise the base to the result.<b/>
+An RSA user chooses two exponents so that any number raised to the product of the two exponents in a given modulus produces the original number.<b/>
+One of these is called the public key and that public key is distributed freely, while the other is the private key, which is intended to be kept secret.<b/>
+If someone wants to send a private message to the user, they convert it to an integer using a publicly-known method.<b/>
+They raise it to the power of the user's public exponent and they send the result to the user.<b/>
+The user raises the received value to their private exponent producing the original message.<b/>
 RSA is secure because an attacker must be able to calculate a logarithm to determine the secret message.
 Since this takes guessing every possible value until the correct one is found,
 RSA is designed to make the number of potential values so large that finding the right one is pretty close to impossible.
-Another public key algorithm uses different math behind the scenes, but the basics are effectively the same.
-A user creates a public key and the private key that can be used together for either encryption or signing, which we'll talk about later.
-The algorithms are designed so that an authorized user only has to do the, quote, "easy calculations", while an attacker has to perform the hard calculations, and the algorithm is designed to make attacking so that the hard algorithms are close to impossible.
-Public key cryptography is how identity is handled on the blockchain.
-A user's address on the blockchain it's their public key.
-This has several useful properties.
-Users do not need to reveal their identity on the blockchain, but they can positively identify themselves, since determining their private keys requires solving a quote, "hard problem".
-Anyone can send a user an encrypted message, since they have easy access to their public key.
-Users can verify the validity of their transactions using digital signatures.
-You can think of a digital signature as the opposite of an encrypted message.
-In RSA, anyone can send an encrypted message to a user by converting it to a number, raising it to their public exponent, and sending the result to them.
-The user's public and private keys are designed so that the users can retrieve the original message by raising the received message to their private exponent.
-RSA digital signatures involve the opposite process.
-A user writes a message and raises a condensed form of the message to the power of their private exponent to create a signature, then they publish that signature.
-Their public key and their message are both published together.
-Anyone can verify the signature using a simple three-step process, condense the attached message using the same method as the message writer, the message originator, raising that attached signature to the user's public key, then verifying that the results of the previous two steps are identical.
-Digital signatures work for the same reason that encryption works in RSA.
-An attacker needs to know the user's private key to perform either operation, and the algorithm is designed to make that process difficult or very close to impossible.
+Another public key algorithm uses different math behind the scenes, but the basics are effectively the same.<b/>
+A user creates a public key and the private key that can be used together for either encryption or signing, which we'll talk about later.<b/>
+The algorithms are designed so that an authorized user only has to do the, quote, "easy calculations", while an attacker has to perform the hard calculations, and the algorithm is designed to make attacking so that the hard algorithms are close to impossible.<b/>
+Public key cryptography is how identity is handled on the blockchain.<b/>
+A user's address on the blockchain it's their public key.<b/>
+This has several useful properties.<b/>
+Users do not need to reveal their identity on the blockchain, but they can positively identify themselves, since determining their private keys requires solving a quote, "hard problem".<b/>
+Anyone can send a user an encrypted message, since they have easy access to their public key.<b/>
+Users can verify the validity of their transactions using digital signatures.<b/>
+You can think of a digital signature as the opposite of an encrypted message.<b/>
+In RSA, anyone can send an encrypted message to a user by converting it to a number, raising it to their public exponent, and sending the result to them.<b/>
+The user's public and private keys are designed so that the users can retrieve the original message by raising the received message to their private exponent.<b/>
+RSA digital signatures involve the opposite process.<b/>
+A user writes a message and raises a condensed form of the message to the power of their private exponent to create a signature, then they publish that signature.<b/>
+Their public key and their message are both published together.<b/>
+Anyone can verify the signature using a simple three-step process, condense the attached message using the same method as the message writer, the message originator, raising that attached signature to the user's public key, then verifying that the results of the previous two steps are identical.<b/>
+Digital signatures work for the same reason that encryption works in RSA.<b/>
+An attacker needs to know the user's private key to perform either operation, and the algorithm is designed to make that process difficult or very close to impossible.<b/>
 This means that identity on the blockchain boils down to the possession of a user's private key.
-So, it is absolutely important that that private key be kept safe.
-In Ethereum, a user's identity is managed using a public key or address, and the user can use the corresponding private key to sign transactions and read encrypted messages that are sent to them.
-In Hyperledger (Fabric) and Corda, identity is encoded in x.509 certificates, which include the user's public key.
-In Corda, specifically, certificates can either be public, which means that they are published to the blockchain, or confidential, meaning that they are only shared with the parties that the owner performs transactions with.
-Identity
+It is absolutely important that that private key be kept safe.<b/>
+In Ethereum, a user's identity is managed using a public key or address, and the user can use the corresponding private key to sign transactions and read encrypted messages that are sent to them.<b/>
+In Hyperledger (Fabric) and Corda, identity is encoded in x.509 certificates, which include the user's public key.<b/>
+In Corda, specifically, certificates can either be public, which means that they are published to the blockchain, or confidential, meaning that they are only shared with the parties that the owner performs transactions with.<b/>
+
+### Identity
 Self-sovereign identity and blockchain solutions introduce identity management in a way that can improve a system considered broken. This topic will be examined in the next chapter. In this section, we will cover identity as seen through transactions and how and if you want your identity tied to a transaction.
-Anonymity in the Blockchain
-In this section, we'll discuss anonymity on the blockchain.
-Privacy and anonymity on the blockchain are a crucial part of its success in some applications.
-If individuals or organizations are performing transactions on the blockchain, they may not wish this to be public knowledge.
+
+### Anonymity in the Blockchain
+In this section, we'll discuss anonymity on the blockchain.<b/>
+Privacy and anonymity on the blockchain are a crucial part of its success in some applications.<b/>
+If individuals or organizations are performing transactions on the blockchain, they may not wish this to be public knowledge.<b/>
 Different blockchains have different levels of anonymity and privacy built into the protocol.
 As discussed earlier, public key cryptography is at the center of maintaining identity on the blockchain.
 It uses a pair of public and private keys to make encryption and digital signatures possible.
@@ -2667,76 +2671,79 @@ This allows users to use the blockchain to ensure data authenticity without stor
 Finally, Hyperledger supports zero knowledge proof, where a prover can demonstrate possession of some data without revealing the data itself.
 These different levels of privacy and anonymity protection gives users a higher degree of configurability on the Hyperledger Fabric blockchain.
 
-Finally, Corda allows users to perform transactions either as a party or an anonymous party on their blockchain.
-An anonymous party has the same level of anonymity protection as a basic blockchain, relying on the fact that public keys cannot be tied directly to real-world identities.
+Finally, Corda allows users to perform transactions either as a party or an anonymous party on their blockchain.<b/>
+An anonymous party has the same level of anonymity protection as a basic blockchain, relying on the fact that public keys cannot be tied directly to real-world identities.<b/>
 A party on the Corda blockchain reveals the real-world identity of the user which intentionally sacrifices anonymity for identity validation.
 
 #### Advanced Blockchain Anonymity Techniques
 The following are only some of the mechanisms developed and implemented in various blockchains:
-  * Zero-knowledge proofs
+   * Zero-knowledge proofs<b/>
 Zero-knowledge proofs use cryptographic algorithms to allow a user to prove knowledge of a secret without revealing the secret. A prover proves knowledge of a secret without revealing it. New technology referred to as SNARK (Succinct Non-interactive - ARgument of Knowledge) are fine tuning privacy issues on blockchains.
-  * Stealth addresses
+   * Stealth addresses<b/>
 Stealth addresses involve using one-time addresses to perform transactions on a blockchain. A stealth address is just a one-time address that makes it impossible to link a transaction to a known account. This prevents the data mining attacks on privacy that we discussed earlier.
-  * Ring signatures
+   * Ring signatures<b/>
 We mentioned previously that transactions are digitally signed. With ring signatures, all that can be determined from a transaction is that a member of a group signed it, but not the particular member.
-  * CoinJoin
+   * CoinJoin<b/>
 The ability to see who is performing transactions with whom is dangerous to user privacy and anonymity. Protocols like CoinJoin mix several transactions together so that it is difficult to pair senders with recipients.
-  •	Confidential transactions
+   •	Confidential transactions<b/>
 Confidential transactions take advantage of homomorphic encryption, which makes it possible to perform mathematical operations on encrypted data. This means that the data contained in a transaction can be hidden from the public, while still allowing the network to verify that the transaction is valid.
 
-Specific Anonymity Implementations
-  •	Ethereum
+### Specific Anonymity Implementations
+   * Ethereum<b/>
 Ethereum is working on improving the zero-knowledge proofs, mixing and DAPPS (applications developed to improve anonymity) to strengthen privacy. 
-Also ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM, a fork of the Ethereum blockchain which enables users to benefit from the public Ethereum blockchain while enjoying features from a private network. Developed by JPMorgan, it is a permissioned implementation.
-  •	Hyperledger
+Also ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM, a fork of the Ethereum blockchain which enables users to benefit from the public Ethereum blockchain while enjoying features from a private network. Developed by JPMorgan, it is a permissioned implementation.<b/>
+   * Hyperledger<b/>
     - Channels: Subsections of the blockchain that make transactions visible only to members.
     - Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.
-    - Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.
-  •	Hyperledger Besu
+    - Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.<b/>
+   * Hyperledger Besu<b/>
 
 Besu is an Ethereum client that runs on the Ethereum public network, private networks, and test networks such as Rinkeby, Ropsten, and Görli.
-Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.
-  •	Corda
+Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.<b/>
+   * Corda<b/>
 Parties on the Corda Network can be represented in one of two ways:
-  - Party: A public key and name.
-  - Anonymous party: Only a public key.
-Trust in Blockchains
+      - Party: A public key and name.
+      - Anonymous party: Only a public key.
+
+### Trust in Blockchains
 Just as there are benefits with blockchain technology, there are also some challenges. 
 Blockchain is a culmination of technologies that have been blended to provide a trustless platform. 
 Expect some challenges and use case justifications taking the old line of business apps to the blockchain.
 
-Let's recap the features of a blockchain that establishes trust:
-  •	Blockchain technology is about storing some kind of data (which are transactions in regards to the Bitcoin blockchain).
-  •	Blockchain is essentially transferring trust from an intermediary to technology.
-  •	Storing data in the blockchain is through cryptographic functions.
-  •	Private key/public key.
-  •	Collaboration through consensus.
+Let's recap the features of a blockchain that establishes trust:<b/>
 
-#### Establishing Trust in Blockchains
+   * Blockchain technology is about storing some kind of data (which are transactions in regards to the Bitcoin blockchain).
+   * Blockchain is essentially transferring trust from an intermediary to technology.
+   * Storing data in the blockchain is through cryptographic functions.
+   * Private key/public key.
+   * Collaboration through consensus.
+
+### Establishing Trust in Blockchains
 All transaction data on a chained block is assumed to be trustworthy.
 
 The users base this trust on the fact that:
   1. This data has not been tampered with.
   2. The blockchain is immutable.
 
-#### What Do Blockchains Really Do?
+### What Do Blockchains Really Do?
 Blockchains minimize the amount of trust required from any single actor in the system. They do this by distributing trust among different actors in the blockchain as defined by the consensus protocols.
 
 Blockchains have a shared ledger that gives us the absolute truth of the state of the system.
 It uses mathematics, economics, and game theory to incentivize all parties in the system to reach a “consensus” (i.e. coming to an agreement on a single state of the ledger).
-  * Consensus algorithms
+
+  * Consensus algorithms<b/>
 The blockchain is based on a consensus algorithm where all nodes agree that the transaction is valid.
-  * Financial transparency
+  * Financial transparency<b/>
 Financial transparency can reduce the need for intermediaries.
-  * Smart contracts
+  * Smart contracts<b/>
 Smart contracts reduce the need for accountants, lawyers, bankers, etc., as computer code can replace some basic functions. Trust shifts to technology.
-  * Trust in technology
+  * Trust in technology<b/>
 Trustless blockchains is a transfer of trust to technology from organizations, governments and corporations.
-  * Confidential transactions
+  * Confidential transactions<b/>
 Privacy techniques mask details of transactions while still proving they occurred.
-  * Decentralized ledger
+  * Decentralized ledger<b/>
 The ledger acts as a trust broker when two parties who don’t trust each other want to interact.
-  * Transparent code
+  * Transparent code<b/>
 Most blockchains are built on open-source software that is transparent, community-driven code that is open for comment.
 
 ### <a id="ch4-5"></a>4.5 Chapter Summary
@@ -2836,7 +2843,7 @@ Another point to keep in mind is that immutability has been around for many year
 <!----------------------------------- Immutability Example ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="40%" src="./images/image-immutability-example.png"
+  <img width="60%" src="./images/image-immutability-example.png"
     alt="Immutability Example"</>
 </p>
 
@@ -2864,7 +2871,7 @@ Anything that is see-through, where there is very little fog or obstruction in t
 <!----------------------------------- Transparency in Blockchain ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="40%" src="./images/image-transparency.png"
+  <img width="25%" src="./images/image-transparency.png"
     alt="Transparency in Blockchain"</>
 </p>
 
@@ -2908,7 +2915,7 @@ The blockchain world is looking to solve all of this complexity with autonomy fr
 <!----------------------------------- Red X ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="40%" src="./images/image-ex.png"
+  <img width="24%" src="./images/image-ex.png"
     alt="Red X"</>
 </p>
 
@@ -2964,7 +2971,7 @@ How is the blockchain world removing this middleman? The answer is all around tr
 <!----------------------------------- Cross Border Payments  ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="40%" src="./images/image-cross-border.png"
+  <img width="60%" src="./images/image-cross-border.png"
     alt="Cross Border Payments and Ledgers"</>
 </p>
 
@@ -2975,7 +2982,7 @@ Traditional centralized ledger systems have weaknesses. Accuracy is dependent on
 <!----------------------------------- Multi-Party Transactions - Centralized Ledgers  ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="75%" src="./images/image-multi-party-trans-centralized-ledger.png"
+  <img width="60%" src="./images/image-multi-party-trans-centralized-ledger.png"
     alt="Multi-Party Transactions - Centralized Ledgers"</>
 </p>
 
@@ -2985,7 +2992,7 @@ Distributed decentralized ledgers are not dependent on intermediaries who can ma
 <!----------------------------------- Multi-Party Transactions - Decentralized Ledgers  ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="75%" src="./images/image-multi-party-trans-decentralized-ledger.png"
+  <img width="60%" src="./images/image-multi-party-trans-decentralized-ledger.png"
     alt="Multi-Party Transactions - Decentralized Ledgers"</>
 </p>
 
@@ -3012,7 +3019,7 @@ Back in the early 1990’s, developers, cryptographers, and different groups of 
 <!----------------------------------- Double Spend ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="40%" src="./images/image-double-spend.png"
+  <img width="60%" src="./images/image-double-spend.png"
     alt="Double Spend"</>
 </p>
 
@@ -3026,7 +3033,7 @@ There were many other attempts to create digital cash over the years, but many f
 <!----------------------------------- Adoption Security Fraud ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="40%" src="./images/image-adoption-security-fraud.png"
+  <img width="50%" src="./images/image-adoption-security-fraud.png"
     alt="Adoption Security Fraud"</>
 </p>
 
@@ -3042,7 +3049,7 @@ Digital currencies are available only in the digital world and not in the physic
 <!----------------------------------- Digital Currency ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="40%" src="./images/image-digital-currency.png"
+  <img width="50%" src="./images/image-digital-currency.png"
     alt="Digital Currency"</>
 </p>
  
@@ -3071,7 +3078,7 @@ Some wallets allow you to hold multiple cryptocurrencies in the same application
 <!----------------------------------- Multi-Currency Wallets ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="30%" src="./images/image-multi-currency-wallets.png"
+  <img width="30%" src="./images/image-multi-currency-wallets.jpg"
     alt="Multi-Currency Wallets"</>
 </p>
 
@@ -3085,7 +3092,7 @@ Metamask is a cryptocurrency wallet used to interact with the Ethereum blockchai
 <!----------------------------------- Consensys ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="30%" src="./images/image-consensys.png"
+  <img width="30%" src="./images/image-consensys.jpg"
     alt="Consensys"</>
 </p>
 
@@ -3110,7 +3117,7 @@ To start off, it is advantageous to deal with a centralized solution to store yo
 <!----------------------------------- Gemini Custodial Crypto Account Dashboard ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="100%" src="./images/image-advanced.png"
+  <img width="100%" src="./images/image-advanced.jpg"
     alt="Gemini Custodial Crypto Account Dashboard"</>
 </p>
 
@@ -3121,7 +3128,7 @@ In keeping with the decentralization nature of the cryptocurrency markets, excha
 <!----------------------------------- Liquid Exchange ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="100%" src="./images/image-liquid-exchange.png"
+  <img width="100%" src="./images/image-liquid-exchange.jpg"
     alt="Liquid Exchange"</>
 </p>
  
@@ -3205,7 +3212,7 @@ Along with the new decentralized financial model come new innovations that have 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------- Components of Decentralized Finance) ---------------------------------------------->
+<!----------------------------------------- Benefits of Decentralized Finance) ---------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
   <img width="50%" src="/images/image095.png?raw=true"
