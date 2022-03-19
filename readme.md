@@ -2202,12 +2202,12 @@ As mentioned in Jamiel Sheikh's book “Mastering Corda: Blockchain for Java Dev
 
 <h3 id="ch3-7">3.7 Chapter Summary</h3>
 In this chapter, we discussed:
-  •	Smart contracts and benefits from using smart contracts.
-  •	Differences between blockchain security vs. standard security.
-  •	Differences between private and public blockchains.
-  •	Factors in deciding on blockchain.
-  •	Transaction flow in blockchain.
-  •	Consensus mechanisms used in blockchain.
+   • Smart contracts and benefits from using smart contracts.
+   * Differences between blockchain security vs. standard security.
+   * Differences between private and public blockchains.
+   * Factors in deciding on blockchain.
+   * Transaction flow in blockchain.
+   * Consensus mechanisms used in blockchain.
 
 <h2 id="ch4">Chapter 4. Blockchains and Governance</h2>
 <h3>Chapter Overview</h3>
@@ -2222,11 +2222,12 @@ By the end of this chapter, you should be able to:
   •	Analyze examples of Decentralized Autonomous Organizations (DAOs).
   •	Summarize the advantages and disadvantages of a consortium blockchain.
 
-<h3 id="ch4-2">44.2 What Is Open Source?</h3>
-Blockchain technology and the developers who work with it reinforce the basic tenet of decentralization in many ways. Not only by decision making consensus models, but also the way in which it distributes the software code.
-  •	Proprietary/closed source code
+<h3 id="ch4-2">4.2 What Is Open Source?</h3>
+Blockchain technology and the developers who work with it reinforce the basic tenet of decentralization in many ways. Not only by decision making consensus models, but also the way in which it distributes the software code.<b/>
+
+   • Proprietary/closed source code
 Software controlled by the person, team or organization who created it and maintains exclusive rights over it. Only the original authors can legally copy, inspect, and alter the software. Most users of proprietary software sign an agreement giving permission to use the software but not alter it. Microsoft Office is an example of proprietary software.
-  •	Open source code
+   • Open source code
 Computer code that describes a specific approach to creating software.
 When describing tools for distributing open source code Discipline Tools states, Open source initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency and community-oriented development. 
 Open source software is code that anyone can inspect, modify and enhance. 
@@ -3453,7 +3454,7 @@ Either to enhance existing systems or offering services to help users manage blo
 
 Blockchains are reshaping the way artists and musicians are benefiting from their creativity by having the royalties delivered directly to them, without agents and middlemen.
 
-<p font-style: italic;>Blockchain will be a part of everyone's future.</p>
+*Blockchain will be a part of everyone's future.*
 
 ### <a id="ch6-1"></a>6.1 Learning Objectives
 By the end of this chapter, you should be able to:
@@ -3588,7 +3589,7 @@ We'll make sure that all stakeholders work together for a safer and better food 
     alt="Farm to Table logo"</>
 </p>
 
-### Healthcare
+<h3>Healthcare</h3>
 Blockchain is transforming the healthcare industry. Some challenges the healthcare industry faces are counterfeit drugs, siloed data, health record management to name a few. Blockchain can solve these issues with interoperability, data integrity and security. Let's look at some solutions.
 
 <!------------------------------------------------------------------------------------------------------------------------->
