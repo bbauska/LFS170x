@@ -2803,8 +2803,8 @@ Confidential transactions take advantage of homomorphic encryption, which makes 
 Ethereum is working on improving the zero-knowledge proofs, mixing and DAPPS (applications developed to improve anonymity) to strengthen privacy. 
 Also ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM, a fork of the Ethereum blockchain which enables users to benefit from the public Ethereum blockchain while enjoying features from a private network. Developed by JPMorgan, it is a permissioned implementation.<b/>
    * Hyperledger<b/><b/>   
-    - Channels: Subsections of the blockchain that make transactions visible only to members.
-    - Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.
+    - Channels: Subsections of the blockchain that make transactions visible only to members.<b/><b/>  
+    - Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.<b/><b/>  
     - Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.<b/>
    * Hyperledger Besu<b/><b/>
 Besu is an Ethereum client that runs on the Ethereum public network, private networks, and test networks such as Rinkeby, Ropsten, and Görli.
@@ -2840,19 +2840,19 @@ Blockchains minimize the amount of trust required from any single actor in the s
 Blockchains have a shared ledger that gives us the absolute truth of the state of the system.
 It uses mathematics, economics, and game theory to incentivize all parties in the system to reach a “consensus” (i.e. coming to an agreement on a single state of the ledger).
 
-  * Consensus algorithms<b/>
+  * Consensus algorithms<b/><b/>
 The blockchain is based on a consensus algorithm where all nodes agree that the transaction is valid.
-  * Financial transparency<b/>
+  * Financial transparency<b/><b/>
 Financial transparency can reduce the need for intermediaries.
-  * Smart contracts<b/>
+  * Smart contracts<b/><b/>
 Smart contracts reduce the need for accountants, lawyers, bankers, etc., as computer code can replace some basic functions. Trust shifts to technology.
-  * Trust in technology<b/>
+  * Trust in technology<b/><b/>
 Trustless blockchains is a transfer of trust to technology from organizations, governments and corporations.
-  * Confidential transactions<b/>
+  * Confidential transactions<b/><b/>
 Privacy techniques mask details of transactions while still proving they occurred.
-  * Decentralized ledger<b/>
+  * Decentralized ledger<b/><b/>
 The ledger acts as a trust broker when two parties who don’t trust each other want to interact.
-  * Transparent code<b/>
+  * Transparent code<b/><b/>
 Most blockchains are built on open-source software that is transparent, community-driven code that is open for comment.
 
 ### <a id="ch4-5"></a>4.5 Chapter Summary
@@ -2971,21 +2971,23 @@ But, if someone wanted to undermine the immutability of the Bitcoin blockchain, 
   * __Finally__, when the desired amount of time has passed, they would anonymously broadcast their secret branch to the network.
 
 Since the attacker has more mining power than the rest of the network, their branch will contain more Proof of Work than the public one. Every Bitcoin node will therefore switch over since the rules of Bitcoin state that the more difficult branch wins. Any previously confirmed transactions not in the secret branch will be reversed and the Bitcoin they spent could be sent elsewhere. The computing power required to achieve this is enormous and probably only theoretical, but it’s important to consider.
+
 One other less technical and malicious example would be from the Ethereum hard fork that directly happened after the DAO hack. In this example, the majority of the Ethereum nodes in the network decided to update the software preventing those hackers from withdrawing the cryptocurrency “earned” (stolen). This update could not be enforced, since every Ethereum user controls their own computer. Nonetheless, it was publicly supported by Vitalik Buterin, Ethereum’s founder, as well as many other community leaders. As a result, most users complied, and the blockchain with the new rules kept the name "Ethereum". A minority disagreed with the change and continued the blockchain according to its original rules, earning the title "Ethereum Classic".
 
 ### Transparency Defined
 Anything that is see-through, where there is very little fog or obstruction in the way. Just like immutability, transparency comes on a spectrum. Certain things are more transparent than others. In the context of business/technology, this can be seen as a way of operating that is easy for others to see what actions are being performed.
  
 <!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Transparency in Blockchain ----------------------------------->
+<!----------------------------------- Transparency of a Blockchain ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
   <img width="25%" src="./images/image-transparency.png"
-    alt="Transparency in Blockchain"</>
+    alt="Transparency of a Blockchain"</>
 </p>
 
 For example, open source projects where all the source code is available for the masses.
-Traditional CRUD Explanation
+
+### Traditional CRUD Explanation
 Before we jump into how blockchain technology can be seen as transparent in certain aspects, let’s review the traditional CRUD method used by most databases.
  
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -2997,13 +2999,20 @@ Before we jump into how blockchain technology can be seen as transparent in cert
 </p>
 
 In a traditional database, a client can perform four functions on data: create, read, update, delete. In a traditional database, there is usually an administrator, the authority giver who allows certain known participants in the database to do more than read/create; it allows them to update (change) and/or delete.
+
 Due to the fact that the administrator is controlling who has access and who doesn’t, it’s easier to track these changes and prevent actors from tampering. In the public blockchain world, this isn’t necessarily the case.
-Blockchain Append-Only
+
+### Blockchain Append-Only
 Within the public blockchain world, every full node on the network is its own administrator, where it can create (e.g. add) and read; this is also known as read/write access (e.g. append-only). These nodes only add more data over time in the form of blocks, but all previous data is permanently stored and cannot be altered.
+
 Read: query (e.g. search) and retrieve data from the blockchain.
+
 Write: add more data onto the blockchain.
+
 As explained in the "Blockchains vs. Traditional Databases" article by Shaan Ray,
+<blockquote>
 "(...) if the blockchain has recorded that my Bitcoin wallet has 1 million BTC, that figure is permanently stored in the blockchain. When I spend 200,000 BTC, that transaction is recorded onto the blockchain, bringing my balance to 800,000 BTC. However, since the blockchain can only be appended, my pre-transaction balance of 1 million BTC also remains on the blockchain permanently, for those who care to look. This is why the blockchain is often referred to as an immutable and distributed ledger".
+</blockquote>
   
 ### Autonomy Defined
 Independence or freedom, the ability to make your own decisions without being controlled by anyone else. This sense of freedom can be at the macro level of a country or at the micro level of a person.
@@ -3030,13 +3039,18 @@ The blockchain world is looking to solve all of this complexity with autonomy fr
 
 Depending on how complex a transaction is between two parties, designated specialists can make the process more efficient. Many players are involved in the process, from contract drafters, signatories, and regulators. If a dispute over the contract occurs, many parties can be involved, including the courts.
 This complexity can be seen within many areas of life. Take a moment to dissect the backend of certain services or products you use and this concept will become exposed very quickly.
-Autonomy with Smart Contracts
+
+### Autonomy with Smart Contracts
 Autonomy in the blockchain world can be seen from many different angles. We are going to focus solely on smart contracts in this section, due to the amount of autonomy they provide everyone involved. The concept of smart contracts has been around for a long time and was first proposed by Nick Szabo, who coined the term in 1994.
+
 The most simplified explanation is:
 "IF THEN ELSE" statement, which means IF X happens, THEN do Y, ELSE do Z.
+
 Take this concept and apply it to two or more parties, all interacting on a mutually agreed upon contract that executes based on their actions (or non-actions). An example of a smart contract could be,
 "if this happens before the end of the year, then you pay me, else I pay you".
+
 These "smart" contracts aren’t very smart, at least for now. That’s due to the simple explanation above because these contracts are "if, then, else" statements, which can vary in complexity based on how they’re stacked.
+
 At the present moment, they can't make decisions without human intervention, or AI, which is a highly debated topic at the moment by many neuroscientists/philosophers. Companies are emerging as reliable Oracles that filter in real world facts to the blockchain. An Oracle is defined as a reliable source of information and blockchain makes that information immutable.
 Anyone is able to create their own smart contracts without a central authority giving the right to do so. These contracts are executed without too much human intervention, and they’re stored on blockchain technology which provides a sense of permanence. These are three of the main attributes that can bring more autonomy to exchanging information between parties. Setting up a pre-agreed upon contract that’s coded into a blockchain and executes automatically when certain actions are taken is one step in the direction of not only improving our autonomy as individuals or companies, but shifting wasted resources (middle men/women) toward more impactful work.
 
@@ -3055,7 +3069,7 @@ A Smart Contract could be created between Alice and Bob.
 The Smart Contract would hold the remaining $2,500 in escrow, and if Bob had an issue with the car, he would report it to the Smart Contract. After 1,000 miles the Smart Contract will determine how much of the remaining funds are due to Alice and how much should be returned to Bob using the rules Alice and Bob initially agreed upon.
 All details about the transaction would be recorded on a permanent, decentralized ledger which could be used at any point in the future to answer any questions about the transaction between Alice and Bob.
 
-Multi-Party Transactions
+### Multi-Party Transactions
 In our current world of transactions, there’s always a third party to assist with connecting the sender and receiver. This has always been the most efficient way to move something from Point A to Point B. But with a third party making the connection comes the need to trust that they’ll get whatever is being sent in an efficient, economical, and effective way. This trust is open to human and process error. But we’ve discovered through experimentation that certain use cases could be automated via smart contracts.
  
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -3330,28 +3344,30 @@ Along with the new decentralized financial model come new innovations that have 
  
 Regulating these new financial instruments is proving challenging as government agencies wrestle with controlling currencies that do not recognize borders. And have a steep learning curve. A stable price coupled with the benefits of blockchain, new financial markets are emerging that will change the current financial markets making them more inclusive.
 
-  <h5>Central Bank Digital Currencies (CBDC)</h5>
+### Central Bank Digital Currencies (CBDC)
 Enterprise blockchain solutions are successfully creating efficient micro-economies that are decentralized, immutable and efficient. The success of these projects are forcing governments to take a look at blockchain technology through the lens of streamlining current financial systems. More specifically, studying how blockchain can improve the way governments handle their central banking systems.
 Central Bank Digital currencies are a digital form of central bank money that is issued by the central bank as part of its overall monetary policy. 
 In the Ledger Insights article titled "IMF Outlines Pros and Cons of Central Bank Digital Currency" it is estimated that 80% of central banks are exploring CBDC.
 
 Some of the benefits of Central Bank Digital Currencies include:
-  * Transparent monetary policy
+   * Transparent monetary policy<b/><b/>
 Due to the distributed ledger technology’s feature of transparency, creating a digital currency will bring clarity to the government's monetary system, where policy can be recorded on the blockchain and remain immutable.
-  •	Combat money laundering
+   * Combat money laundering<b/><b/>
 Money laundering is converting illegal funds into legal payments systems. Blockchain can eliminate this practice with a shared ledger that keeps a complete transaction history, making it impossible to erase. Like with all money transfers, certain safeguards are in place to identify wallets or accounts to users. Anti Money Laundering (AML) policies like Know Your Customer (KYC) further ensure citizens are following laws in their countries.
-•	Cross-border payments
+   * Cross-border payments<b/><b/>
 Blockchain technology eliminates middlemen in cross-border payments, reducing transfer fees, and making interactions faster and frictionless while keeping the integrity of the underlying asset.
-•	Government efficiency
+   * Government efficiency<b/><b/>
 A huge benefit for governments to research CBDC is to overcome existing problems inherent in the existing antiquated systems. By moving to the digital realm, governments can enjoy the cost reductions blockchain offers.
-•	Banking the unbanked
+   * Banking the unbanked<b/><b/>
 To be unbanked describes a person who does not have a checking or savings account. Being unbanked puts individuals at an extreme dis-advantage as they do not have access to financial services like loans and usually pay more for check cashing. By creating a digital currency governments can include this market segment, onboarding people with mobile phones.
-Types of Central Bank Digital Currencies
+
+### Types of Central Bank Digital Currencies
 According to the "What Is Retail Central Bank Digital Currency?" article by Matthieu Saint Olive, there are two types of central bank digital currencies:
-•	Wholesale CBDC
+   • Wholesale CBDC<b/><b/>
 A wholesale CBCD is a type of currency used by financial institutions to buy and sell financial assets. It would replace real time settlement systems used today.
-•	Retail CBDC
+   • Retail CBDC<b/><b/>
 Retail central bank digital currency would be used as a digital twin for fiat currency. Citizens would use it to pay for things, send money and save it.
+
 Central Bank Digital Currencies are being considered across the globe.
 
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -3363,6 +3379,7 @@ Central Bank Digital Currencies are being considered across the globe.
 </p>
   
 According to the CBDC Tracker, the Sand Dollars, a retail CBDC issued by the Central Bank of the Bahamas is the first nationwide Central Bank Digital Currency. The US Federal Reserve is researching CBDC for the US with the Federal Reserve Bank of Boston and MIT committed to a multi-year collaboration to build a hypothetical currency called the Hamilton.
+
 Hyperledger created a Capital Market Special Interest Working Group spearheaded by Vipin Bharathan working on standards for CBDC’s. This working group is just one of many discussing CBDC’s and is open for anyone to join.
 
 ### <a id="ch5-4"></a>5.4 Non-Fungible Tokens (NFTs)
