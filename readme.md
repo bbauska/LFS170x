@@ -120,7 +120,7 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image003.png?raw=true" 
-	ALT="WWW logo" 
+	alt="WWW logo" 
 	width="20%" >
 &nbsp;
 
@@ -131,19 +131,22 @@ Web servers, people who host and store the documents and web browsers, companies
 
 <h3>The Growth of the Internet</h3>
 The Internet can be grouped into three distinct segments characterized by the way people interact with this new technology.
-   * Web 1.0 - Internet of Connection
-   * Web 2.0 - Internet of Information
-   * Web 3.0 - Internet of Value<br/>
+<ul type="disc">
+   <li>Web 1.0 - Internet of Connection</li>
+   <li>Web 2.0 - Internet of Information</li>
+   <li>Web 3.0 - Internet of Value<br/></li>
+   </ul>
 Let’s discuss them in more detail.
 
 <h3>Web 1.0 - Internet of Connection</h3>
 Characteristics of Web 1.0:<br/>
-   - Development of a host of web-based applications, which fostered in online services, such as email.<br/>
-   - Content from administrator.<br/>
-   - Managed by a central authority.<br/>
-   - Read-only, information was “pushed” to users.<br/>
-   - Email was the first widely adopted application on the Internet.<br/>
-
+<ul type="disc">
+   <li>	Development of a host of web-based applications, which fostered in online services, such as email.
+   <li>	Content from administrator.</li>
+   <li>	Managed by a central authority.</li>
+   <li>	Read-only, information was “pushed” to users.</li>
+   <li>	Email was the first widely adopted application on the Internet.</li>
+</ul>
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------ Email logo ------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -173,10 +176,12 @@ Companies appeared attempting to cash in on this new technology, most notable wa
  
 <h3>Web 2.0 - Internet of Information</h3>
 Characteristics of Web 2.0:<br/>
-   - User-generated content.<br/>
-   - Read-write, individuals can interact with information.<br/>
-   - Information became siloed.<br/>
-   - Data became a commodity.<br/>
+<ul type="disc">
+   <li> User-generated content.</li>
+   <li> Read-write, individuals can interact with information.</li>
+   <li> Information became siloed.</li>
+   <li>Data became a commodity.</li>
+</ul>
 
 Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sellers in a seamless low-cost way. 
 Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. 
