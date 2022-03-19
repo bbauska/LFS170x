@@ -71,15 +71,17 @@
 <h2 id="ch1">Chapter 1. Introduction to Blockchain</h2>
 <h3>Learning Objectives</h3>
 By the end of this chapter, you should be able to:
-  - Discuss blockchain technologies and the early Internet.
-  - Explain the difference between blockchain and the cryptocurrency Bitcoin.
-  - Discuss blockchain characteristics.
-  - Explain blockchain components.
-  - Explain what the block in blockchain is.
-  - Explain how blocks are chained together.
-  - Discuss the concept of immutability in a blockchain.
-  - Discuss about the roles and users in a blockchain community.
-  - Discuss use cases for general blockchain solutions.
+<ul type="disc">
+   <li>Discuss blockchain technologies and the early Internet.</li>
+   <li>Explain the difference between blockchain and the cryptocurrency Bitcoin.</li>
+   <li>Discuss blockchain characteristics.</li>
+   <li>Explain blockchain components.</li>
+   <li>Explain what the block in blockchain is.</li>
+   <li>Explain how blocks are chained together.</li>
+   <li>Discuss the concept of immutability in a blockchain.</li>
+   <li>Discuss about the roles and users in a blockchain community.</li>
+   <li>Discuss use cases for general blockchain solutions.</li>
+</ul>
 
 <h3 id="ch1-1">1.1 What is Blockchain?</h3>
 Blockchain is a peer-to-peer ledger system that allows peers to transact directly with each other eliminating the need for a central authority.
@@ -141,11 +143,11 @@ Let’s discuss them in more detail.
 <h3>Web 1.0 - Internet of Connection</h3>
 Characteristics of Web 1.0:<br/>
 <ul type="disc">
-   <li>	Development of a host of web-based applications, which fostered in online services, such as email.
-   <li>	Content from administrator.</li>
-   <li>	Managed by a central authority.</li>
-   <li>	Read-only, information was “pushed” to users.</li>
-   <li>	Email was the first widely adopted application on the Internet.</li>
+   <li>Development of a host of web-based applications, which fostered in online services, such as email.
+   <li>Content from administrator.</li>
+   <li>Managed by a central authority.</li>
+   <li>Read-only, information was “pushed” to users.</li>
+   <li>Email was the first widely adopted application on the Internet.</li>
 </ul>
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------ Email logo ------------------------------------------------------->
@@ -177,9 +179,9 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 <h3>Web 2.0 - Internet of Information</h3>
 Characteristics of Web 2.0:<br/>
 <ul type="disc">
-   <li> User-generated content.</li>
-   <li> Read-write, individuals can interact with information.</li>
-   <li> Information became siloed.</li>
+   <li>User-generated content.</li>
+   <li>Read-write, individuals can interact with information.</li>
+   <li>Information became siloed.</li>
    <li>Data became a commodity.</li>
 </ul>
 
@@ -240,10 +242,10 @@ Both Napster and BitTorrent are operating today, with different business models.
 <h3>Web 3.0 - Internet of Value</h3>
 Characteristics of Web 3.0:<br/>
 <ul type="disc">
-   <li> Community interaction.</li>
-   <li> More connected, open, and intelligent.</li>
-   <li> Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.</li>
-   <li> Identity and information will be held by the individual, breaking data silos.<li/>
+   <li>Community interaction.</li>
+   <li>More connected, open, and intelligent.</li>
+   <li>Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.</li>
+   <li>Identity and information will be held by the individual, breaking data silos.<li/>
 </ul>
 Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
 
@@ -489,9 +491,9 @@ If you go back and try and change any data on any page anywhere in this notebook
 Any data can be stored on the same block.<br/>
 Examples of stored data include:
 <ul type="disc">
-   <li> Medical records</li>
-   <li> Property agreements</li>
-   <li> Voting</li>
+   <li>Medical records</li>
+   <li>Property agreements</li>
+   <li>Voting</li>
 </ul>
 
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -586,7 +588,9 @@ Since there is no central authority telling the nodes which transactions are val
 <!---------------------------------------------- All agree to transaction ------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image021.png?raw=true" "All agree to transaction" width="400" >
+<img src="/images/image021.png?raw=true" 
+   alt="All agree to transaction" 
+   width="40%" >
 &nbsp;
 
 The way in which each blockchain comes to consensus is built into the protocol, they are the rules built into the code that determine how the nodes will add ledger transactions.
@@ -618,55 +622,55 @@ As this nascent technology matures, more positions are needed to fill this incre
 
 A few of these new positions are listed here:
 <ul type="disc">
-   <li> Entry Level and Internship Positions
+   <li><b>Entry Level and Internship Positions</b><br/>
 Mentorship programs and internships include assisting in the designing and developing blockchain distributed ledgers based on both public and private or permissioned blockchains. 
 With open-source, development and success depend on an active community, Working Groups and Hackatons are available for the newcomer. 
 Skills include basic blockchain knowledge and some familiarity with basic programming languages.</li>
-   <li> Blockchain Architect
+   <li><b>Blockchain Architect</b><br/>
 For a blockchain solution to be functional, it first needs to exist. The blockchain architect is the person or group who designs and implements the backend code of the blockchain. 
 The blockchain architect works with blockchain engineers and technical leaders to identify the blockchain structure for specific use cases. 
 Architects understand consensus mechanisms, cryptography systems, key management techniques and smart contract management. 
 Qualifications include Go, Java, Javascript, or any modern programming language plus project management skills.</li>
-   <li> Blockchain Developer
+   <li><b>Blockchain Developer</b><br/>
 Developers design, write and upload smart contracts to the blockchain. 
 Developer design workflows that operate with blockchains and smart contracts. 
 Responsibilities can include project design, smart contract development and implementation, front end applications design and application deployment. 
 Skills a developer needs can include Microsoft SQL Server, Visual Studio, .NET, MVC, AJAX, SQL, C, Python, Solidity, C++, C#, Javascript, Node.js, JQuery, SOAP, REST, FTP, HTML, XML, XSLT, XCOD, Neural-networks, Regression, Agile Scrum, MYSQL. 
 Solutions are developed for Hyperledger Fabric, Ethereum, Quorum Ripple, Corda and other distributed ledger solutions.</li>
-   <li> Blockchain Operator
+   <li><b>Blockchain Operator</b><br/>
 Once the blockchain solution is designed and built, operators can join to create the peer network mentioned previously. 
 The role of operators (nodes) is to store copies of the ledger and keep their copy up to date by distributing transactions and new blocks throughout their network via peer-to-peer communications.</li>
-   <li> Blockchain Regulator
+   <li><b>Blockchain Regulator</b><br/>
 Many businesses operate under regulations regarding how their data should be stored and processed. 
 This is the same for blockchain solutions. 
 Regulators rarely interact with the blockchain directly, rather oversee regulatory requirements that need to be considered in blockchain development. 
 With governments researching Central Bank Digital Currencies, governing these blockchains will become increasingly more complex.</li>
-   <li> Blockchain Project Managers
+   <li><b>Blockchain Project Managers</b><br/>
 Project managers are the first persons in an organization who are contacted when a company wants to bring blockchain in house and adapt it to their technology platforms. Responsibilities include deciding if a blockchain solution is a good fit for a business situation. 
 If the decision is to move forward, Project Managers would organize key players and resources needed to execute the blockchain project.</li>
-   <li> Data Storage and Processing Managers
+   <li><b>Data Storage and Processing Managers</b><br/>
 The blockchain provides distributed, immutable storage with built-in integrity checking, but certain limitations exist that have to be managed. Data decisions need to be made dealing with maximum capacity based on the standard block size and block rate. 
 Policies need to address how to provide integrity verification for large amounts of data, should data be stored off-chain with a hash of the data stored on-chain. eMembers of the peer network must execute the code to remain in sync with the current state of the network. 
 If smart contracts commonly require large amounts of processing power to complete, devices external to the peer network may be used to augment the processing power of the network.</li>
-   <li> Blockchain Data Scientists
+   <li><b>Blockchain Data Scientists</b><br/>
 Blockchain has the ability to collect large amounts of data. The Blockchain Data Scientist collects, interprets, analyzes and manages data. 
 Developing algorithms that can analyze patterns in large data sets, the data scientist provides insight into the data collected.</li>
-   <li> Blockchain Quality Engineer
+   <li><b>Blockchain Quality Engineer</b><br/>
 This position is responsible for ensuring quality in all areas of blockchain development, such as automation frameworks and tests, manual testing and dashboards to support mobile, web and platform engineering. 
 A quality engineer will need to research and advise on blockchain tools and develop quality assurance (QA) automated test standards, as well as define, write and implement test automation strategies for load performance tests. 
 Applicants may also need an engineering management MBA degree.</li>
-   <li> Blockchain Legal Consultant or Attorney
+   <li><b>Blockchain Legal Consultant or Attorney</b><br/>
 A blockchain legal consultant is responsible for advising companies on how to structure blockchain endeavors. 
 Advise on how to structure and govern initial coin offerings, some of which are now coming under greater regulatory scrutiny. 
 Attorneys will also be tasked with developing legal partnerships and contracts as blockchain technology offers "smart contracts", which are self-executing based on previously agreed terms. 
 Duties can include designing legal partnerships that would connect the crypto ecosystem with existing financial structures, and supporting various merger-and-acquisition activities, such as negotiating and drafting legal agreements and performing due diligence on blockchain projects.</li>
-   <li> Blockchain Web Designer
+   <li><b> Blockchain Web Designer</b><br/>
 A decentralized community needs to keep the community that supports it informed. 
 When including the use of cryptocurrencies in your business and when launching blockchains, there will be a greater need for websites to inform customers what a company is offering. 
 A blockchain web designer will need to come up with original concepts, creative graphics and "mind blowing" user interfaces and dashboards to engage a diverse and inclusive community.</li>
-   <li> Blockchain Consultants
+   <li><b>Blockchain Consultants</b><br/>
 Blockchain consulting companies and blockchain consultants are tasked with advising companies on designing and implementing blockchain solutions. This includes the documentation and maintenance of solutions, as well as their initial implementations.</li>
-   <li> NFT Graphics Designer
+   <li><b>NFT Graphics Designer</b><br/>
 NFT stands for a non fungible token, a special token that represents a unique ID that is linked to a piece of crypto art that cannot be replicated and is used to verify ownership of a piece. 
 The collectable world is jumping in head first and creating non fungible tokens that represent art, music, memorializing events, newspaper articles and record releases. 
 Designers are needed to turn these moments/media into art for the thirsty NFT market.</li>
@@ -739,10 +743,12 @@ I would encourage all of you to dig in a little bit more, and see some of the in
 A Business to Consumer (B2C) is business or transactions conducted directly between a company and consumers who are the end-users of its products or services. Services being provided to the consumer is an area of interest to companies. Benefits to the consumer are transparency to the consumer, accountability from suppliers, ethical sourcing validation, labor verification and an immutable shared view.
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------  ----------------------------------------------------->
+<!----------------------------------------- Consumer benefits from blockchain --------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image022.png?raw=true" "Consumer benefits from blockchain" width="400" >
+<img src="/images/image022.png?raw=true" 
+   alt="Consumer Benefits from Blockchain" 
+   width="40%" >
 &nbsp;
 
 Vertical markets see the advantage to the transparency feature in blockchain. Financials, logistics, charity funding, agriculture and ethical sourcing tracking are all markets leveraging blockchain to offer new insights to the customer.
@@ -755,7 +761,9 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
 <!-------------------------------------------------- Trustchain logo ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image023.png?raw=true" "Trustchain logo" width="200" >
+<img src="/images/image023.png?raw=true" 
+   alt="Trustchain logo" 
+   width="20%" >
 &nbsp;
 
 Approach: The blockchain collaboration, known as TrustChainTM, will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.
@@ -766,10 +774,12 @@ With a decentralized approach, blockchain removes the middleman (such as banks a
 The shared ledger approach also eliminates the need for multiple paper copies that need to be verified and updated frequently.
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------  ----------------------------------------------------->
+<!---------------------------------------- Business Benefits from Blockchain  --------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image024.png?raw=true" "Business Benefits from Blockchain" width="400" >
+<img src="/images/image024.png?raw=true" 
+   alt="Business Benefits from Blockchain" 
+   width="40%" >
 &nbsp;
 
 Industries like finance, international trade and commerce, food supply chains are taking a serious look at blockchain.
@@ -779,10 +789,10 @@ Industries like finance, international trade and commerce, food supply chains ar
 <h3>Use Case: Multi-party Invoicing DLT Labs</h3>
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------  ----------------------------------------------------->
+<!------------------------------------------- Walmart Canada & DLT Labs logos --------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image025.png?raw=true" "Walmart Canada & DLT Labs logos" width="400" >
+<img src="/images/image025.png?raw=true" "Walmart Canada & DLT Labs logos" width="40%" >
 &nbsp;
 </p>
    • <b>Approach:</b> <i>DLT Labs</i> along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
@@ -832,10 +842,12 @@ Blockchain Users: Government to Consumer (G2C)/Government to Government (G2G)
 The public sector is the part of the economy composed of both public sector and private sector enterprises that are operating on behalf of the public. It is the business of taking care of the people. Public sector includes all government, military, police, public health and welfare, infrastructure, etc. Public sector organizations leverage blockchain technology to move away from siloed and inefficient centralized systems. Current systems are inherently insecure and costly, with duplicated and in-efficient workflows. Blockchain networks offer more secure, agile, and cost-effective structures.
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------  ----------------------------------------------------->
+<!------------------------------------------- Government Benefits from Blockchain ----------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image026.png?raw=true" "Government Benefits from Blockchain" width="400" >
+<img src="/images/image026.png?raw=true" 
+   alt="Government Benefits from Blockchain" 
+   width="40%" >
 &nbsp;
 
 <h3>Dubai Use Case</h3>
@@ -1003,23 +1015,23 @@ Some terms that are mentioned in the video we will get familiar with in later ch
 <h3 id="ch2-2">2.2 Ledgers and Basic Accounting Systems (Understanding Ledgers)</h3>
 To understand how blockchain came about, we must first understand the following key principles:
 <ul>
-<li> Ledgers</li>
-<li> Basic accounting principles in history</li>
+<li>Ledgers</li>
+<li>Basic accounting principles in history</li>
 </ul>
 
 <h3>History of Ledgers</h3>
 <ul>
-<li> Ledgers first appeared around 3,000 B.C.</li>
-<li> Single-entry only.</li>
-<li> Chanakya, an Indian leader, creates the first documented accounting standards.</li>
-<li> Double-entry ledger appears in 1340 A.D.</li>
-<li> Tracks debits and credits.</li>
-<li> Tells the story of a transaction from both/all sides.</li>
-<li> The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.</li>
-<li> Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
-<li> Debits, credits, and an immutable link to all past debits and credits.</li>
-<li> Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).</li>
-<li> Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.</li>
+<li>Ledgers first appeared around 3,000 B.C.</li>
+<li>Single-entry only.</li>
+<li>Chanakya, an Indian leader, creates the first documented accounting standards.</li>
+<li>Double-entry ledger appears in 1340 A.D.</li>
+<li>Tracks debits and credits.</li>
+<li>Tells the story of a transaction from both/all sides.</li>
+<li>The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.</li>
+<li>Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
+<li>Debits, credits, and an immutable link to all past debits and credits.</li>
+<li>Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).</li>
+<li>Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.</li>
 </ul>
 
 <h3>History of Ledgers (Triple-Entry Example)</h3>
@@ -3827,15 +3839,17 @@ Hyperledger is an open source project with blockchains for you to build your sol
 <h3>Daml</h3>
 Daml is:
 > "a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
-  * Daml Connect
-It is a complete development and application stack allowing you to build, integrate, deploy, and maintain full-stack multi-party solutions with a minimum of boilerplate code.
-  * Daml Drivers
-They allow you to deploy your application using distributed ledgers, blockchains, or databases. Migrate between ledger drivers without any code changes as business needs evolve.
-  * Daml Hub
-It is a cloud service that enables rapid distributed application deployment with an always available, easy-to-use, fully managed cloud environment.
+<ul type="disc">
+   <li>Daml Connect<br/>
+It is a complete development and application stack allowing you to build, integrate, deploy, and maintain full-stack multi-party solutions with a minimum of boilerplate code.</li>
+   <li>Daml Drivers<br/>
+They allow you to deploy your application using distributed ledgers, blockchains, or databases. Migrate between ledger drivers without any code changes as business needs evolve.</li>
+   <li>Daml Hub<br/>
+It is a cloud service that enables rapid distributed application deployment with an always available, easy-to-use, fully managed cloud environment.</li?
+</ul>
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------    -------------------------------------------------------->
+<!---------------------------------------------------- A DAML logo -------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
   <img width="25%" src="/images/image119.png?raw=true"
@@ -3847,7 +3861,7 @@ SIMBA Chain, Inc. was formed in 2017 from a grant awarded by the Defense Advance
 SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). These apps allow secure, direct connections between users and providers, eliminating third parties. The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------    -------------------------------------------------------->
+<!---------------------------------------------------- Simba logo --------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
   <img width="25%" src="/images/image120.png?raw=true"
@@ -3879,7 +3893,7 @@ To learn more, we recommend that you listen the "Digital Trust: How the OrgBook 
 Marketplaces exist to shop renewable energies to make sustainable solutions available on open markets. Everyone knows there are countless inefficiencies in the energy grid, stemming from the highly centralized nature of our utilities systems. With the advent of at-home energy production and storage through affordable solar panels and home batteries, many users are storing energy surpluses at home without a way to “sell” clean energy.
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------ Clean Energu logo ------------------------------------------------------>
+<!------------------------------------------------ Clean Energy logo ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
   <img width="25%" src="/images/image122.jpg?raw=true"
@@ -3960,11 +3974,13 @@ And that's why I think there's a ton of potential in blockchain and it's somethi
 
 <h3 id="ch6-7">6.7 Chapter Summary</h3>
 In this chapter, we discussed:
-  * Blockchain use cases in an enterprise environment.
-  * Public sector and how blockchain is important in shaping citizens' futures.
-  * The relevance of blockchain in social impact projects.
-  * Developing new blockchain platforms emerging as the ecosystem evolves.
-  * Blockchain and how it will improve human experience.
+<ul type="disc">
+   <li>Blockchain use cases in an enterprise environment.</li>
+   <li>Public sector and how blockchain is important in shaping citizens' futures.</li>
+   <li>The relevance of blockchain in social impact projects.</li>
+   <li>Developing new blockchain platforms emerging as the ecosystem evolves.</li>
+   <li>Blockchain and how it will improve human experience.</li>
+</ul>
 
 <pre>
 The end . . .
