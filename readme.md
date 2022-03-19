@@ -2502,51 +2502,97 @@ picture here
 
 ### <a id="ch4-4"></a>4.4 Identity on the Blockchain
 In this section, we're going to discuss identity on the blockchain.
+
 Let's start by understanding why we even need to have an identity on the blockchain.
+
 Centralized systems can be coerced by other forms of authority to shut down their network.
+
 Let's take Napster for example.
+
 Napster had a decentralized network architecture, but they maintained the centralized authority.
+
 Therefore, the central authority could be attacked and, by taking out the central authority, could effectively control Napster.
+
 This is because Napster relied on that mix of centralized control over a decentralized network.
+
 This impacted identity because you need an identity to control.
+
 Torrents on the other hand, they do not operate in the same fashion.
+
 Torrents provide a decentralized network with decentralized authority.
+
 This allows the nodes to manage identity differently.
+
 It's also the reason why torrents are still being used today, in spite of the entertainment industry's best efforts to stop it.
+
 Torrents remove the central authority.
-So, this begs the question "Why didn't point-to-point networks like torrents attain the same level of acclaim as blockchain?"
+
+This begs the question "Why didn't point-to-point networks like torrents attain the same level of acclaim as blockchain?"
+
 Because there's no guarantee that the nodes would do the right thing.
-Nobody could guarantee that the nodes would cooperate with each other.
+
+Nobody could guarantee that the nodes would cooperate with each other.<b/>
+
 This leads to an extremely important question.
+
 How do you incentivize the nodes on the network to follow the rules?
+
 In a torrent system, anyone can download and share a file, but there's not a real incentive to be a good actor on the network.
+
 What happens when people do something dishonorable on a torrent for instance, and stop seeding the files that ate up bandwidth or occupied space on their computers?
+
 Instead of music going to the network or other files, what if it were money going through a point-to-point network, through a bank network, let's say?
+
 Your transactions would never be processed reliably.
+
 You couldn't trust that the processing was not messed up, either deliberately or accidentally.
+
 Further, because of anonymity and the way that identity works in the blockchain, you wouldn't have a way to punish or reward the actors.
+
 Blockchain solved this problem.
+
 It perfectly incentivized how to create a decentralized self-contained network using crypto economics.
+
 This differed from earlier point-to-point networks because it offered economic incentives to the nodes that followed the rules.
+
 Nodes are given money for following the rules.
+
 This money is in the form of cryptocurrency.
+
 The nodes were punished for tampering with the system or with past transactions, or submitting a bad transaction.
+
 This is why all public blockchains can operate without an authority.
+
 It is also the reason why cryptocurrency is mandatory for a public blockchain, and not needed for a private blockchain.
+
 Because you need a way to incentivize the actors on the network.
+
 Consider how these rewards and these punishments work and how a system without a central authority can determine what is valid and what is invalid.
+
 On the blockchain, identity is important.
+
 You have to be able to prove that your assets actually belong to you.
+
 Different blockchains they use different systems for tracking identity and identity information, but most are based on the principles of public key cryptography.
+
 Before we get into the details of how identity works on the blockchain, we need to discuss the basics of public key cryptography.
+
 The security of a public key cryptography it's based on let's call them hard math problems.
-So, by that, I mean a hard math problem is one where it's easy for someone to calculate it, but it's hard for someone to reverse that calculation.
+
+By that, I mean a hard math problem is one where it's easy for someone to calculate it, but it's hard for someone to reverse that calculation.
+
 Take multiplication, for example.
+
 All things considered, multiplication is easy.
+
 If you have a little bit of time, something to write with, you can pretty much multiply any two numbers and get the right answer.
+
 A computer can do can do that even more quickly.
+
 Factoring on the other hand, it's hard.
+
 The best way to factor a large number is to try every possible factor until you find the right one.
+
 Well, this approach works well if the number to be factored is small.
 It quickly becomes virtually impossible with a sufficiently large factor.
 Some public key cryptography algorithms are designed so that breaking the algorithm requires factoring very large, usually prime numbers.
