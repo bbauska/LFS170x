@@ -17,6 +17,14 @@
 
 <h3>Blockchain: Understanding Its Use Cases and Implications </h3>
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------ linux blockchain logo -------------------------------------------------->
+<p align="center">
+<img src="/images/image-logo.png?raw=true"
+	alt="Linux Blockchain logo"
+	width="50%">
+&nbsp;
+
 ## [Table of Contents](#table-of-contents)
 
 ## [**Chapter 1. Introduction to Blockchain**](#ch1)
