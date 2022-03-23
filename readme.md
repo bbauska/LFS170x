@@ -15,7 +15,7 @@
 </p>  
 <br/>
 
-<h3>Blockchain: Understanding Its Use Cases and Implications </h3>
+<h3 align="center">Blockchain: Understanding Its Use Cases and Implications </h3>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------ linux blockchain logo -------------------------------------------------->
@@ -28,9 +28,9 @@
 ## [Table of Contents](#table-of-contents)
 
 ## [**Chapter 1. Introduction to Blockchain**](#ch1)
->### 1.1. [**Introduction**](#ch1-1)
+>### 1.1. [**Intro: What is Blockchain?**](#ch1-1)
 >### 1.2. [**Introduction to Blockchain and The Early Internet**](#ch1-2)
->### 1.3. [**What is Blockchain?**](#ch1-3)
+>### 1.3. [**Blockchain Basics**](#ch1-3)
 >### 1.4. [**Career Opportunities in Blockchain**](#ch1-4)
 >### 1.5. [**Who is Using Blockchain?**](#ch1-5)
 >### 1.6. [**Summary**](#ch1-6)  
@@ -283,17 +283,23 @@ Let’s now dive into blockchain basics.
 <h3 id="ch1-3">1.3 What Is Blockchain? (Blockchain Basics)</h3>
 There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
 <br/>
+
 You've probably heard of it: it's called **'Blockchain!'**
 
 But what is it?  How does it work?  How does it affect you?<br/>
+
 Hearing the word "blockchain" is comparable to hearing the word "internet" in the early 90s.<br/>
 
 It seemed elusive, like something that wasn't going to impact your daily life.<br/>
+
 But here we are, more than 20 years later.<br/>
 
 Think about how the Internet has transformed businesses, commerce, communication, even music and video.<br/>
+
 And that's not even touching on how the Internet has affected you.<br/>
+
 We all carry the Internet in our pocket.<br/>
+
 We can transfer money at the touch of a button, check the weather, get directions, and even have food delivered to our door.<br/>
 
 The next technology to have that kind of impact isn't some of the buzzwords you hear.<br/>
@@ -305,21 +311,31 @@ It's **BLOCKCHAIN!**
 Now, let's discuss the vast promise blockchain has for every business, every society, and for everyone listening today.<br/>
 
 And let's begin with an example we are all familiar with.<br/>
+
 When you attach a file, a Word document, an Excel sheet, a PDF to an email, you aren't sending an original.<br/>
+
 You are actually sending the recipient a copy, and that's a great way to move information around.<br/>
+
 But it's not so great when it comes to things like money, stocks and bonds, music, loyalty points, intellectual property, tickets to a game or concert.<br/>
 
 Then, sending a copy is suddenly a very bad idea.
 
 Let's look at an example.<br/>
+
 If I send you tickets to a concert, it's important that I don't send you a copy.<br/>
+
 You now own the original asset and I can no longer use or sell those tickets.<br/>
+
 Similarly, if I send you $100, it's important that I still don't own the $100, or have the ability to send it to anyone else.<br/>
+
 Both of these examples illustrate a double spend problem, and those can be eliminated with blockchain.
 
 Now, in this exciting time in history, every kind of asset, from tickets, to money, to music, can be stored, moved, exchanged, and transacted without an intermediary.<br/>
+
 People everywhere can transact peer-to-peer and trust each other by using collaboration and cryptography.<br/>
+
 How did we get here, to this place of trust and collaboration?<br/>
+
 It began when Satoshi Nakamoto, whose true identity is still unknown, released a white paper in 2008, introducing a purely peer-to-peer version of electronic cash known as Bitcoin.<br/>
 
 It is here that blockchain technology made its debut.
@@ -388,10 +404,13 @@ There are so many possibilities with blockchain; not just in the now, but with t
 <img src="/images/image010.png?raw=true" "Bitcoin logo" width="20%" >
 &nbsp;
 <p>
-<i>Blockchain Is **NOT** Bitcoin</i><br/>
+
+<b><i>Blockchain Is **NOT** Bitcoin</i></b><br/>
 
 Bitcoin is a digital currency running on top of the Bitcoin blockchain. We will develop the concept of cryptocurrencies in later sections. 
+
 Bitcoin has no borders and was created as a decentralized payment system, an alternative to currencies issued by governments. 
+
 Let us look at what it means to be a currency.
 </p>
 
