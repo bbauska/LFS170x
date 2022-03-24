@@ -3880,20 +3880,31 @@ As different blockchains take different approaches to interoperability, standard
 Currently Hyperledger and Ethereum are working together on interoperability projects from Hyperledger Besu (to learn more about Hyperledger Besu enroll into Hyperledger Besu Essentials: Creating a Private Blockchain Network (LFS176x)), an open source Ethereum client for enterprise solutions that can be run on the Ethereum public network or on a private permissioned network. 
 
 Other projects in the Hyperledger labs that deal with interoperability are working on standards that will make it easier for blockchains to talk to each other.
-When considering how blockchain interoperability can work, consider email and smartphone. Both of these technologies have the ability to interoperate. Outlook email server can receive email from the Gmail server and Verizon cell phone carriers can transfer and accept calls from T-Mobile. These services would not operate efficiently, if these companies couldn't exchange data. With this in mind, blockchain are developing projects that, like smartphones and emails, will transfer value and information across blockchain seamlessly.
+
+When considering how blockchain interoperability can work, consider email and smartphone. 
+
+Both of these technologies have the ability to interoperate. 
+
+Outlook email server can receive email from the Gmail server and Verizon cell phone carriers can transfer and accept calls from T-Mobile. 
+
+These services would not operate efficiently, if these companies couldn't exchange data. 
+
+With this in mind, blockchain are developing projects that, like smartphones and emails, will transfer value and information across blockchain seamlessly.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch5-5">5.5 Chapter Summary</h3>
 In this chapter, we discussed:
-  - How some features of blockchain are solving real world problems.
-  - How immutability is opening up new cooperation models for business.
-  - How the concept of autonomy will reduce conflict by eliminating human processes.
-  - New emerging business models as multiparty exchanges, with built in trust, are being developed.
-  - How the double spend accounting issue is solved with blockchain.
-  - Future trends in decentralized finance and Central Bank Digital Currencies.
-  - The importance of interoperability between blockchains.
-  - Non-fungible tokens (NFTs) and their importance to the blockchain ecosystem.
+<ul>
+<li>How some features of blockchain are solving real world problems.</li>
+<li>How immutability is opening up new cooperation models for business.</li>
+<li>How the concept of autonomy will reduce conflict by eliminating human processes.</li>
+<li>New emerging business models as multiparty exchanges, with built in trust, are being developed.</li>
+<li>How the double spend accounting issue is solved with blockchain.</li>
+<li>Future trends in decentralized finance and Central Bank Digital Currencies.</li>
+<li>The importance of interoperability between blockchains.</li>
+<li>Non-fungible tokens (NFTs) and their importance to the blockchain ecosystem.</li>
+</ul>
 
 ## <a id="ch6"></a>Chapter 6. Blockchain Use Cases
 
@@ -3915,11 +3926,13 @@ Blockchains are reshaping the way artists and musicians are benefiting from thei
 
 <h3 id="ch6-1">6.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
-  - Discuss blockchain use cases in business enterprises.
-  - Discuss use cases in the public sector.
-  - Explain the relevance of blockchain in social impact projects.
-  - Discuss developing new technologies made possible by blockchain.
-  - Explain how blockchain will improve the human experience.
+<ul>
+<li>Discuss blockchain use cases in business enterprises.</li>
+<li>Discuss use cases in the public sector.</li>
+<li>Explain the relevance of blockchain in social impact projects.</li>
+<li>Discuss developing new technologies made possible by blockchain.</li>
+<li>Explain how blockchain will improve the human experience.</li>
+</ul>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
