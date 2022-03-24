@@ -121,7 +121,7 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 	width="30%" >
 &nbsp;
 
-What started as a **DARPA (Defense Advanced Research Project Agency)** experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
+What started as a **[DARPA (Defense Advanced Research Project Agency)]("https://www.darpa.mil")** experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
 
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
 
@@ -1235,7 +1235,7 @@ To understand how blockchain came about, we must first understand the following 
 <p align="center">
 <img src="/images/image028.png?raw=true"
 	alt="Single-Entry Accounting Ledger"
-	width="80%" >
+	width="65%" >
 &nbsp;
 
 <ul>
@@ -1249,7 +1249,7 @@ To understand how blockchain came about, we must first understand the following 
 <p align="center">
 <img src="/images/image029.png?raw=true"
 	alt="Double-Entry Accounting Ledger"
-	width="80%" >
+	width="65%" >
 &nbsp;
 
 <li>Double-entry ledger appears in 1340 A.D.</li>
@@ -1263,7 +1263,7 @@ To understand how blockchain came about, we must first understand the following 
 <p align="center">
 <img src="/images/image030.png?raw=true"
 	alt="Triple-Entry Accounting Ledger"
-	width="80%" >
+	width="65%" >
 &nbsp;
 
 <li>Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
@@ -1286,7 +1286,7 @@ To understand how blockchain came about, we must first understand the following 
 <p align="center">
 <img src="/images/image-double vs triple accounting.png?raw=true"
 	alt="Double vs. Triple-Entry Accounting Comparison"
-	width="80%" >
+	width="65%" >
 &nbsp;
 
 <h3>Island of Yap</h3>
