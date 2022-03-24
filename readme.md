@@ -165,8 +165,7 @@ Characteristics of Web 1.0:<br/>
      alt="E-mail logo" 
      width="30%" >
 
-<h4 align="center">
-Email, Electronically Transferring Information</h4>
+<h4 align="center">Email, Electronically Transferring Information</h4>
 Computers and items for connection became necessities.
 Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
 Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. 
@@ -568,7 +567,7 @@ Each block is chained or tied to the previous block by embedding the block with 
 	width="65%" >
 &nbsp;
 
-<h4>Let’s Review an Analogy: Blockchain Is Immutable</h4>
+<h3>Let’s Review an Analogy: Blockchain Is Immutable</h3>
 If the data is tampered with anywhere in the chain, the links will break in a very obvious way.
 
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -994,7 +993,7 @@ If you want to see some of the really exciting use cases in blockchain right now
 
 <h3>Real World Example of Public Sector Government to Government/Citizens</h3>
 
-<h4>Use Case: Public Sector - Smart Dubai</h4>
+<h3>Use Case: Public Sector - Smart Dubai</h3>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------------  ----------------------------------------------------->
@@ -1291,7 +1290,7 @@ Information on the blockchain is stored on the ledger using cryptography.
 It can be accessed using keys and cryptographic signatures.
 Now, let's take a look into some of the key concepts of cryptography that are utilized with blockchain.
 
-<h4>Rose Greenhow</h4>
+<h3>Rose Greenhow</h3>
 One of the reoccurring themes in blockchain is that while blockchain itself may be new and cutting-edge, it's built out of nothing more than very old tried-and-true technology.
 
 And one of the areas this is most true is in cryptography.
@@ -1318,7 +1317,7 @@ Rose did this for a number of years, until finally her encryption method was bro
 
 When you hear about blockchain and all the new cutting-edge things that it's doing, don't forget that it has its roots in very old technology, and we're just combining old technology in new and creative ways to create a brand new solutions development platform.
 
-<h4>Early Use of Cryptography: Caesar Cipher</h4>
+<h3>Early Use of Cryptography: Caesar Cipher</h3>
 As described in the "Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet" article by Melanie Shapiro,
 > "A little over 2,000 years ago, Julius Caesar developed a simple system to send secure information to his troops. 
 > It was all about substituting certain letters for others, typically by shifting the letters by a predetermined number. 
@@ -1396,12 +1395,14 @@ But just understand these two big takeaways:
 
 These are key components which enable security and immutability on the blockchain.
 
-<h4>Cryptographic Functions</h4>
+<h3>Cryptographic Functions</h3>
 Simple example function:
-   * Secret = "Blockchain technology is transformative"
-   * Function = Swap each letter in the secret with a new letter according to the Key
-   * Key = "+2"
-   * Cipher = "Dnqemejckp vgejpqnqia ku vtcpuhqtocvkxg".
+<ul>
+<li>Secret = "Blockchain technology is transformative"</li>
+<li>Function = Swap each letter in the secret with a new letter according to the Key</li>
+<li>Key = "+2"</li>
+<li>Cipher = "Dnqemejckp vgejpqnqia ku vtcpuhqtocvkxg".</li>
+</ul>
 
 As mentioned in the "Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet" article by Melanie Shapiro,
 > "(...), in the 1970s cryptologists Whitfield Diffie and Martin Hellman made a landmark invention: asymmetric key encryption. 
@@ -1410,7 +1411,7 @@ As mentioned in the "Ancient Uses of Cryptography: Four Examples that Pre-Date t
 > With this invention, in order to share a secret message, you no longer even have to know the person you are sending it to.
 > Most importantly, for people like us who care deeply about safe authentication and identity protection, the private key itself is never communicated at all, and that means no more shared secrets".
 
-<h4>Byzantine Fault Tolerance</h4>
+<h3>Byzantine Fault Tolerance</h3>
 As you start to get more and more into blockchain, one term that you're gonna hear a lot is Byzantine Fault Tolerance.
 
 And if you're wondering what that means, that very strange, cryptic sounding term, that can be explained with a story.
@@ -1616,7 +1617,7 @@ Hash functions are at the core of all blockchain technology. One of the primary 
 Zero-knowledge proofs are to increase the privacy of users. Currently, Ethereum is working on a layer 2 solution, where a second layer blockchain would store large amounts of data and only prove the batch of information is valid to layer 1 (mainnet). Hyperledger Fabric has a pluggable cryptographic library that supports ZKP techniques for enhanced privacy measures.
 Merkle trees are a data structure that allows authenticated storage with efficient data retrieval. Both Ethereum and Hyperledger Fabric are smart contract platforms that use a particular type of Merkle tree called the Patricia tree to store the current state of their virtual machine.
  
-<h4>Disintermediation - Trust Through Transparency</h4>
+<h3>Disintermediation - Trust Through Transparency</h3>
 Now, that we have an understanding of how collaboration and cryptography work together to create a layer of trust, let's discuss how blockchain has a powerful disintermediation effect.
 Nodes on the network are allowed to place data directly onto the database that is shared.
 This eliminates the need for an intermediary to do such task.
@@ -1997,7 +1998,7 @@ While they sometimes may be legally binding, they're not necessarily legally bin
 
 They're just a way for us to bake our own logic into block chain solutions to ensure that consistency of execution.
 
-<h4>Smart Contracts Recap</h4>
+<h3>Smart Contracts Recap</h3>
 Let’s review some basic information about smart contracts:
 <ul>
 <li>They are computer programs that execute an action based on terms and conditions.</li>
@@ -2117,14 +2118,14 @@ Computer applications are dependent on reliable code. Another way that tradition
 <li>In blockchain, anyone can write a smart contract, and a flaw in the smart contract or the underlying platform code can have wide-reaching consequences. But since smart contracts can be vetted and reused, such inconsistency can be edited from the code. We will discuss an example of a vulnerability in a platform's code in a later section covering the Ethereum network.</li>
 </ul>
 
-<h4>Security Attacks: Intentional Misuse</h4>
+<h3>Security Attacks: Intentional Misuse</h3>
 Both traditional and blockchain environments are vulnerable to attacks based on intentional misuse of the system.
 <ul>
 <li>In traditional cyber, insider attacks or intentional misuse of the system by clients are possible. In fact, a denial-of-service attack is a specific type of intentional misuse.</li>
 <li>Blockchain systems are set up to incentivize network participants, miners or nodes, to do something that is in their best interest. A weakness is, if more than half of the network's processing power is controlled by a single group, the network is controlled by that group.</li>
 </ul>
 
-<h4>Security Attacks: Data Protection</h4>
+<h3>Security Attacks: Data Protection</h3>
 Finally, traditional infrastructure and blockchain differ in their goals regarding data protection.
 <ul>
 <li>In traditional cyber, data is siloed, and access is strictly controlled by the owners, placing responsibility for confidentiality, integrity, and availability in their hands.</li>
@@ -2188,7 +2189,7 @@ And, if a user has a currency, something of value, they should be able to exchan
 We don't want to treat any class of users differently than any others in those scenarios.
 That's a public blockchain, and that's a very different animal from the private permission blockchain.
 
-<h4>Public Blockchain Benefits</h4>
+<h3>Public Blockchain Benefits</h3>
 In the "Public vs. Private Blockchain In a Nutshell" article by Demiro Massessi, public and private blockchains have different features. The benefits of public blockchain are:
 <ul>
 <li>Ledger is distributed
@@ -2205,7 +2206,7 @@ Transactions on a public network can be accomplished with an Internet connection
 With Bitcoin, obtaining a majority of network power could potentially enable massive double spending, and the ability to prevent transaction confirmations, among other potentially nefarious acts. This has never been accomplished as the computing power needed to stage such an attack would be too costly.</li>
 </ul>
 
-<h4>Private (Permissioned) Blockchains</h4>
+<h3>Private (Permissioned) Blockchains</h3>
 The counterpart to a public blockchain is naturally a private blockchain.
 
 These are platforms like Hyperledger or Hashgraph.
@@ -2250,7 +2251,7 @@ A lot of people make the impression, get the impression that they compete with o
 
 They just serve to provide different types of solutions and enable different kinds of products and offerings to be built on top of them.
 
-<h4>Private Blockchain Benefits</h4>
+<h3>Private Blockchain Benefits</h3>
 The following benefits of a private blockchain have been described in the "Public vs. Private Blockchain In a Nutshell" article by Demiro Massessi:
 <ul>
 <li>Ledger is distributed/immutable
@@ -2380,7 +2381,7 @@ The block operators will spread the block through the peer network to update the
 And this results in the block operators again executing code included in transactions within the block to update their own copy of the internal state of the blockchain.
 The users will be notified of an event from a blockchain creation via an event.
 
-<h4>Blockchain Transactions</h4>
+<h3>Blockchain Transactions</h3>
 Although blockchains can differ in form and function, all follow a basic transaction flow.
 
 Step 1: Operation Initiated
@@ -2398,12 +2399,16 @@ This block is spread throughout the network through the same peer-to-peer commun
 Step 6: Transaction Completed
 The user’s wallet monitors for the creation of new blocks that include transactions associated with the user. When a block containing the completed code from the user’s operation is received, an event is created to notify the user that the operation is complete. When the block containing Alicia’s Bitcoin transfer to Billy is added to the blockchain, an alert will be sent to the affected wallets that the transaction was accepted and completed.
 
-<h4>Consensus in Blockchain</h4>
-Consensus in blockchain is moving away from a centralized system where one entity keeps track of the ledger towards a decentralized system where trust does not rest with one entity but all entities and what they decide together. The blockchain is a distributed and decentralized system, which means that it needs to have a way of tracking the official current state of the system. Since the blockchain can include financial transactions and business agreements, it is important that all parties involved are in sync regarding the terms of the agreement.
+<h3>Consensus in Blockchain</h3>
+Consensus in blockchain is moving away from a centralized system where one entity keeps track of the ledger towards a decentralized system where trust does not rest with one entity but all entities and what they decide together. 
+
+The blockchain is a distributed and decentralized system, which means that it needs to have a way of tracking the official current state of the system. 
+
+Since the blockchain can include financial transactions and business agreements, it is important that all parties involved are in sync regarding the terms of the agreement.
  
 In this section, we will discuss the details of how a blockchain network comes to agreement on the contents of the blockchain.
 
-<h4>Consensus</h4>
+<h3>Consensus</h3>
 One of the most important components to blockchain is this idea of group consensus.
 
 As we talked about in an earlier module, blockchain is inherently a very inefficient system.
@@ -2444,15 +2449,15 @@ If you're curious about any of the details of how these consensus mechanisms are
 But the takeaway point to understand is that, it's this consensus, it is this idea of asking all of these nodes, potentially tens of thousands of nodes, to all repeat the same work and then periodically come together and agree on whatever the majority select the right version of the truth to be.
 That gives blockchain that high level of trust and that makes it such a secure record store.
 
-<h4>Introduction to Consensus in the Blockchain</h4>
+<h3>Introduction to Consensus in the Blockchain</h3>
 As discussed in the "Blockchain Consensus and Fault Tolerance In a Nutshell" article by Demiro Massessi,
 "The blockchain is designed to be a shared, synchronized historical ledger, meaning that there needs to be a final decision at some point on what should and shouldn’t be included in the official record. Since blockchain is decentralized, there is no "higher authority" that can rubber-stamp and finalize the contents of a blockchain block.
 The method that Satoshi Nakamoto, creator of the Bitcoin network, invented to achieve consensus is based on scarcity. In one way or another, blockchain consensus algorithms boil down to some kind of vote where the number of votes that a user has is tied to the amount of a limited resource that is under the user’s control. Based on the economic law of supply and demand, collecting enough of an asset to have a controlling share will drive up the price of the asset enough to make achieving that level of control unfeasibly expensive".
 
-<h4>Consensus Mechanisms</h4>
+<h3>Consensus Mechanisms</h3>
 In order to ensure no one spent the same Bitcoin twice, Satoshi Nakamoto created the consensus algorithm called Proof of Work for the Bitcoin network. Since then, several other consensus algorithms have been invented to fit different use cases. These include Proof of Stake, Delegated Proof of Stake, Practical Byzantine Fault Tolerance, and Proof of Elapsed Time. The most commonly used consensus algorithms are Proof of Work and Proof of Stake.
  
-<h4>Proof of Work</h4>
+<h3>Proof of Work</h3>
 As explained in the "Blockchain Consensus and Fault Tolerance In a Nutshell" article by Demiro Massessi,
 "In Proof of Work, users in the blockchain network who want to create the next block (and win the associated reward) are called miners. To win the right to mine a block, miners race to find an acceptable solution to a “hard” cryptographic problem. (...), “hard” mathematical problems can only be solved by random guessing. When a miner finds an acceptable solution, they create a block and broadcast it to the network, finalizing that block.
 Proof of Work exploits the scarcity of computational resources by choosing a problem that can only be solved by guessing. There is no limit on the number of guesses that a miner can make at once. Proof of Work, therefore, incentivizes miners to run as many mining machines as possible to maximize the probability that they are the first to find a solution to the problem. Since mining computers take money to purchase and money to run, the amount of control that a user can exert over the blockchain is limited by the amount of money they have available to invest in mining equipment".
@@ -2460,19 +2465,19 @@ Also, the process of mining requires computing power that runs on electricity. S
  
 The security of the Proof of Work consensus is based on the assumption that no one controls more than half of the computational resources of a blockchain’s mining network. If one entity controls 51% of the mining effort, they control consensus. To take control would require a huge investment in equipment and energy, more than would be gained by defrauding the system.
 
-<h4>Proof of Stake</h4>
+<h3>Proof of Stake</h3>
 Proof of Stake comes with a number of improvements to Proof of Work systems, it requires less energy and has a lower barrier to entry since no specialized hardware is required to create blocks.
 In the same article that we mentioned on a previous page, the author explains,
 "Users in a Proof of Stake blockchain can "stake" or promise not to use the tokens they own. This gives them the opportunity to be selected as the next user to create or "forge" a new block and earn the reward. A block forger is pseudo-randomly selected from all of the users who have staked some of their assets, and the selection process is biased based on the size of the stake.
 For example, imagine that a wheel is divided into sections where the size of a section is proportional to the size of a user’s stake. The next block creator would be chosen by spinning the wheel and seeing whose section comes out on top. In Proof of Stake, each user has a copy of the wheel and they are all synchronized so that each person can independently determine the selection and get the same result. This is why Proof of Stake uses a pseudo-random instead of a random selection process".
 In Proof of Stake, an attacker needs to control enough of the staked currency to guarantee they will be selected to create every block. Since cryptocurrency is a limited asset, buying up enough of it to do this is expensive, making attacks on Proof of Stake systems economically infeasible.
 
-<h4>Fault Tolerance in the Blockchain</h4>
+<h3>Fault Tolerance in the Blockchain</h3>
 In blockchain, it is essential all participants agree to the state of the ledger. Shared decentralized ledgers arrive at network agreement or the state of the ledger by consensus algorithms. But what happens if all participants in the network don’t agree? Let's discuss the concept of Fault tolerance and why it is an important blockchain concept.
 As described by Demiro Massessi,
 "Blockchain is a distributed, decentralized system that maintains a shared state. While consensus algorithms are designed to make it possible for the network to agree on the state, there is the possibility that agreement does not occur. Fault tolerance is an important aspect of blockchain technology".
 
-<h4>Fault Tolerance</h4>
+<h3>Fault Tolerance</h3>
 One of the things we've talked about extensively in this series is how inefficient and redundant blockchain is and that is by design.
 That's what gives us immutability.
 And another thing it gives us is an extreme level of fault tolerance.
@@ -3144,21 +3149,25 @@ The ability to see who is performing transactions with whom is dangerous to user
 Confidential transactions take advantage of homomorphic encryption, which makes it possible to perform mathematical operations on encrypted data. This means that the data contained in a transaction can be hidden from the public, while still allowing the network to verify that the transaction is valid.
 
 <h3>Specific Anonymity Implementations</h3>
-   * Ethereum<br/>   
+<ul>
+<li>Ethereum<br/>   
 Ethereum is working on improving the zero-knowledge proofs, mixing and DAPPS (applications developed to improve anonymity) to strengthen privacy. 
-Also ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM, a fork of the Ethereum blockchain which enables users to benefit from the public Ethereum blockchain while enjoying features from a private network. Developed by JPMorgan, it is a permissioned implementation.<br/>
-   * Hyperledger<br/>   
-    - Channels: Subsections of the blockchain that make transactions visible only to members.<br/>  
-    - Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.<br/>  
-    - Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.<br/>
-   * Hyperledger Besu<br/>
+Also ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM, a fork of the Ethereum blockchain which enables users to benefit from the public Ethereum blockchain while enjoying features from a private network. Developed by JPMorgan, it is a permissioned implementation.</li><br/>
+<li>Hyperledger<br/>   
+   <ul>
+   <li>Channels: Subsections of the blockchain that make transactions visible only to members.</li><br/>  
+   <li>Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.</li><br/>
+   <li>Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.</li></li><br/>
+<li>Hyperledger Besu<br/>
 Besu is an Ethereum client that runs on the Ethereum public network, private networks, and test networks such as Rinkeby, Ropsten, and Görli.
-Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.<br/>
-   * Corda<br/>
+Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.</li><br/>
+<li>Corda<br/>
 Parties on the Corda Network can be represented in one of two ways:
-      - Party: A public key and name.
-      - Anonymous party: Only a public key.
-
+   <ul>
+   <li>Party: A public key and name.</li><br/>
+   <li>Anonymous party: Only a public key.</i></li><br/>
+   </ul>
+</ul>
 <h3>Trust in Blockchains</h3>
 Just as there are benefits with blockchain technology, there are also some challenges. 
 Blockchain is a culmination of technologies that have been blended to provide a trustless platform. 
@@ -3184,30 +3193,33 @@ Blockchains minimize the amount of trust required from any single actor in the s
 
 Blockchains have a shared ledger that gives us the absolute truth of the state of the system.
 It uses mathematics, economics, and game theory to incentivize all parties in the system to reach a “consensus” (i.e. coming to an agreement on a single state of the ledger).
-
-  * Consensus algorithms<br/>
-The blockchain is based on a consensus algorithm where all nodes agree that the transaction is valid.
-  * Financial transparency<br/>
-Financial transparency can reduce the need for intermediaries.
-  * Smart contracts<br/>
-Smart contracts reduce the need for accountants, lawyers, bankers, etc., as computer code can replace some basic functions. Trust shifts to technology.
-  * Trust in technology<br/>
-Trustless blockchains is a transfer of trust to technology from organizations, governments and corporations.
-  * Confidential transactions<br/>
-Privacy techniques mask details of transactions while still proving they occurred.
-  * Decentralized ledger<br/>
-The ledger acts as a trust broker when two parties who don’t trust each other want to interact.
-  * Transparent code<br/>
-Most blockchains are built on open-source software that is transparent, community-driven code that is open for comment.
+<ul>
+<li>Consensus algorithms<br/>
+The blockchain is based on a consensus algorithm where all nodes agree that the transaction is valid.</li>
+<li>Financial transparency<br/>
+Financial transparency can reduce the need for intermediaries.</li>
+<li>Smart contracts<br/>
+Smart contracts reduce the need for accountants, lawyers, bankers, etc., as computer code can replace some basic functions. Trust shifts to technology.</li>
+<li>Trust in technology<br/>
+Trustless blockchains is a transfer of trust to technology from organizations, governments and corporations.</li>
+<li>Confidential transactions<br/>
+Privacy techniques mask details of transactions while still proving they occurred.</li>
+<li>Decentralized ledger<br/>
+The ledger acts as a trust broker when two parties who don’t trust each other want to interact.</li>
+<li>Transparent code<br/>
+Most blockchains are built on open-source software that is transparent, community-driven code that is open for comment.</li>
+</ul>
 
 <h3 id="ch4-5">4.5 Chapter Summary</h3>
 In this chapter, we discussed:
-  * Open source communities and blockchain source code.
-  * Governance models for blockchain and who is really in charge.
-  * How a blockchain is “trustless”.
-  * Why a trustless system is more secure than a system that requires trust.
-  * Why anonymity is required in public blockchains.
-  * How private/public key cryptography provides anonymity.
+<ul>
+<li>Open source communities and blockchain source code.</li>
+<li>Governance models for blockchain and who is really in charge.</li>
+<li>How a blockchain is “trustless”.</li>
+<li>Why a trustless system is more secure than a system that requires trust.</li>
+<li>Why anonymity is required in public blockchains.</li>
+<li>How private/public key cryptography provides anonymity.</li>
+</ul>
 
 <h2 id="ch5">Chapter 5. Blockchain Problem Solving and Future Trends</h2>
 Now that we understand the basics of how blockchain works, Chapter 5 will discuss the problems blockchain can solve. 
@@ -3235,18 +3247,20 @@ In order for this new technology to take hold, blockchains need to be able to co
 
 <h3 id="ch5-1">5.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
-  * Discuss immutability in blockchains.
-  * Explain what transparency is and review advantages and disadvantages of append-only ledgers.
-  * Explain how blockchain is looking to be autonomous through smart contracts.
-  * Discuss how blockchain removes third party intermediaries.
-  * Discuss how blockchain solves the problem of double spending.
-  * Distinguish between traditional database vs. blockchain immutability.
-  * Discuss central bank digital currencies and how they operate.
-  * Explain identity management on a blockchain.
-  * Discuss decentralized finance and the implications for the financial industry.
-  * Examine Central Bank Digital Currencies (CBDC).
-  * Discuss non-fungible tokens and how they will impact society.
-  * Examine the importance of interoperability for blockchains.
+<ul>
+<li>Discuss immutability in blockchains.</li>
+<li>Explain what transparency is and review advantages and disadvantages of append-only ledgers.</li>
+<li>Explain how blockchain is looking to be autonomous through smart contracts.</li>
+<li>Discuss how blockchain removes third party intermediaries.</li>
+<li>Discuss how blockchain solves the problem of double spending.</li>
+<li>Distinguish between traditional database vs. blockchain immutability.</li>
+<li>Discuss central bank digital currencies and how they operate.</li>
+<li>Explain identity management on a blockchain.</li>
+<li>Discuss decentralized finance and the implications for the financial industry.</li>
+<li>Examine Central Bank Digital Currencies (CBDC).</li>
+<li>Discuss non-fungible tokens and how they will impact society.</li>
+<li>Examine the importance of interoperability for blockchains.</li>
+</ul>
 
 <h3>Immutability Defined</h3>
 Immutability is when something is unable to be changed.
@@ -3334,7 +3348,7 @@ Anything that is see-through, where there is very little fog or obstruction in t
 
 For example, open source projects where all the source code is available for the masses.
 
-###Traditional CRUD Explanation
+<h3>Traditional CRUD Explanation</h3>
 Before we jump into how blockchain technology can be seen as transparent in certain aspects, let’s review the traditional CRUD method used by most databases.
  
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -3375,7 +3389,8 @@ Independence or freedom, the ability to make your own decisions without being co
 </p>
 
 As children and adults, we all want a little autonomy in our lives, careers, or relationships, but it’s just a matter of how much autonomy one truly wants and can handle.
-Autonomy: Human Process-Driven Complexity
+
+<h3>Autonomy: Human Process-Driven Complexity</h3>
 The blockchain world is looking to solve all of this complexity with autonomy from intermediaries via automated smart contracts. In the traditional world of doing any kind of transaction with another party, there tends to be a lot of administrative paperwork, with third parties intervening every step of the way. Some of this is needed, but most of it becomes wasted time and effort which could be spent elsewhere.
  
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -3399,47 +3414,93 @@ The most simplified explanation is:
 Take this concept and apply it to two or more parties, all interacting on a mutually agreed upon contract that executes based on their actions (or non-actions). An example of a smart contract could be,
 "if this happens before the end of the year, then you pay me, else I pay you".
 
-These "smart" contracts aren’t very smart, at least for now. That’s due to the simple explanation above because these contracts are "if, then, else" statements, which can vary in complexity based on how they’re stacked.
+These "smart" contracts aren’t very smart, at least for now. 
 
-At the present moment, they can't make decisions without human intervention, or AI, which is a highly debated topic at the moment by many neuroscientists/philosophers. Companies are emerging as reliable Oracles that filter in real world facts to the blockchain. An Oracle is defined as a reliable source of information and blockchain makes that information immutable.
-Anyone is able to create their own smart contracts without a central authority giving the right to do so. These contracts are executed without too much human intervention, and they’re stored on blockchain technology which provides a sense of permanence. These are three of the main attributes that can bring more autonomy to exchanging information between parties. Setting up a pre-agreed upon contract that’s coded into a blockchain and executes automatically when certain actions are taken is one step in the direction of not only improving our autonomy as individuals or companies, but shifting wasted resources (middle men/women) toward more impactful work.
+That’s due to the simple explanation above because these contracts are "if, then, else" statements, which can vary in complexity based on how they’re stacked.
+
+At the present moment, they can't make decisions without human intervention, or AI, which is a highly debated topic at the moment by many neuroscientists/philosophers. 
+
+Companies are emerging as reliable Oracles that filter in real world facts to the blockchain. 
+
+An Oracle is defined as a reliable source of information and blockchain makes that information immutable.
+
+Anyone is able to create their own smart contracts without a central authority giving the right to do so. 
+
+These contracts are executed without too much human intervention, and they’re stored on blockchain technology which provides a sense of permanence. 
+
+These are three of the main attributes that can bring more autonomy to exchanging information between parties. 
+Setting up a pre-agreed upon contract that’s coded into a blockchain and executes automatically when certain actions are taken is one step in the direction of not only improving our autonomy as individuals or companies, but shifting wasted resources (middle men/women) toward more impactful work.
 
 <h3>Smart Contracts</h3>
 The first generation of blockchain platforms, collectively known as the "Blockchain 1.0" networks, were capable of capturing and recording data, but not acting upon it. 
 Bitcoin, the world's first mass-scale blockchain, was designed to capture and record the transfer of Bitcoin from one owner to the next. 
+
 At the time, nobody was envisioning blockchain as a platform on top of which applications and solutions could be built.
+
 The release of Ethereum in 2015 changed this model. "Blockchain 2.0" was born, and now blockchain networks could not only capture data, they could act upon it as well. 
+
 All of this was made possible by the introduction of a technology called "Smart Contracts".
 Put quite simply, a Smart Contract is some computer code deployed to a blockchain network.
+
 Users can transact with the Smart Contract just as they would another user, except when transacting with a Smart Contract, the rules defined in the code are used to process the transaction. 
 This advancement now allows blockchain solutions to manage and automate processes, and record their results on a permanent, immutable, secure ledger shared with all relevant parties.
+
 Consider the sale of a used car. Alice lists her car for sale, and offers a guarantee to any buyer that the car will be trouble-free for 1,000 miles. Bob looks at Alice's car and makes her an offer of $5,000.
+
 Alice and Bob agree that Alice will take half the purchase price now ($2,500), and the other half if the car has had no major issues in the first 1,000 miles of Bob's ownership.
+
 A Smart Contract could be created between Alice and Bob.
+
 The Smart Contract would hold the remaining $2,500 in escrow, and if Bob had an issue with the car, he would report it to the Smart Contract. After 1,000 miles the Smart Contract will determine how much of the remaining funds are due to Alice and how much should be returned to Bob using the rules Alice and Bob initially agreed upon.
+
 All details about the transaction would be recorded on a permanent, decentralized ledger which could be used at any point in the future to answer any questions about the transaction between Alice and Bob.
 
 <h3>Multi-Party Transactions</h3>
-In our current world of transactions, there’s always a third party to assist with connecting the sender and receiver. This has always been the most efficient way to move something from Point A to Point B. But with a third party making the connection comes the need to trust that they’ll get whatever is being sent in an efficient, economical, and effective way. This trust is open to human and process error. But we’ve discovered through experimentation that certain use cases could be automated via smart contracts.
+In our current world of transactions, there’s always a third party to assist with connecting the sender and receiver. 
+
+This has always been the most efficient way to move something from Point A to Point B. But with a third party making the connection comes the need to trust that they’ll get whatever is being sent in an efficient, economical, and effective way. This trust is open to human and process error. 
+
+But we’ve discovered through experimentation that certain use cases could be automated via smart contracts.
  
 <!------------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------- Cross Border Payment  ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-<img width="40%" 
+<img width="65%" 
    src="./images/image-cross-border-payment.png"
    alt="Cross Border Payments and Ledgers"</>
 </p>
 
-One example is cross-border payments. Sending money from one country (border) to another country (different border). The major issue with how this is traditionally done today (e.g. correspondent banking) is that certain transactions end up stopping off at 7–10 different checkpoint banks. This constant stopping is making the money movement more expensive (each bank takes a fee), slower, and less reliable (sometimes it might never make it). This type of transaction is heavily reliant upon third parties to facilitate the movement of information and money.
-Blockchain Multi-Party Sync (Removing Middlemen)
+One example is cross-border payments. 
+
+Sending money from one country (border) to another country (different border). 
+
+The major issue with how this is traditionally done today (e.g. correspondent banking) is that certain transactions end up stopping off at 7–10 different checkpoint banks. 
+
+This constant stopping is making the money movement more expensive (each bank takes a fee), slower, and less reliable (sometimes it might never make it). 
+
+This type of transaction is heavily reliant upon third parties to facilitate the movement of information and money.
+
+<h3>Blockchain Multi-Party Sync (Removing Middlemen)</h3>
 Blockchain technology has been shown to provide many benefits, but one of the most prominent and immediate benefits is removing middlemen (third parties) from a variety of processes. There is a long list of examples for middlemen currently being removed, such as:
-•	Energy distributors
-•	Payment networks (Visa and Mastercard)
-•	Content distributors (YouTube, Facebook, Medium, etc.)
-•	Central exchanges (NASDAQ, London Stock Exchange, NYSE, etc.)
-•	Cloud database providers (AWS, Azure, etc.).
-How is the blockchain world removing this middleman? The answer is all around trust. Within the public blockchain world, where everyone is theoretically anonymous, there needs to be trust so we’re able to exchange valuable things without the concern of bad actors. Trust is built into the consensus mechanism that we’ve mentioned multiple times throughout this course. This incentivizes all the participants to help secure and validate good actions throughout the network. With that built-in "trustless" trust, we’re able to remove those middlemen that provide no additional value, plus it could potentially increase the efficiency based on which public blockchain is being used.
+<ul>
+<li>Energy distributors</li>
+<li>Payment networks (Visa and Mastercard)</li>
+<li>Content distributors (YouTube, Facebook, Medium, etc.)</li>
+<li>Central exchanges (NASDAQ, London Stock Exchange, NYSE, etc.)</li>
+<li>Cloud database providers (AWS, Azure, etc.).</li>
+</ul>
+How is the blockchain world removing this middleman? 
+
+The answer is all around trust. 
+
+Within the public blockchain world, where everyone is theoretically anonymous, there needs to be trust so we’re able to exchange valuable things without the concern of bad actors. 
+
+Trust is built into the consensus mechanism that we’ve mentioned multiple times throughout this course. 
+
+This incentivizes all the participants to help secure and validate good actions throughout the network. 
+
+With that built-in "trustless" trust, we’re able to remove those middlemen that provide no additional value, plus it could potentially increase the efficiency based on which public blockchain is being used.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------- Cross Border Payments  ----------------------------------->
@@ -3462,7 +3523,9 @@ Traditional centralized ledger systems have weaknesses. Accuracy is dependent on
    alt="Multi-Party Transactions - Centralized Ledgers"</>
 </p>
 
-Distributed decentralized ledgers are not dependent on intermediaries who can manipulate the data. Data is secure and tamper resistant.
+Distributed decentralized ledgers are not dependent on intermediaries who can manipulate the data. 
+
+Data is secure and tamper resistant.
  
 <!------------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------- Multi-Party Transactions - Decentralized Ledgers  ----------------------------------->
@@ -3474,9 +3537,10 @@ Distributed decentralized ledgers are not dependent on intermediaries who can ma
 </p>
 
 <h3 id="ch5-2">5.2 Double Spend Problem</h3>
-Bitcoin, the world's first blockchain, was created as part of an attempt to create the world's first truly viable digital currency.
+Bitcoin, the world's first blockchain, was created as part of an attempt to create the world's first truly viable digital currency.<br/>
 
 Bitcoin was not the first attempt to create a digital currency, but it was the first which was able to successfully solve a long-standing problem - the "Double Spend" problem.
+
 The Double Spend problem is quite simple.
 
 Let's say Alice owes a debt of $5 to both Bob and Carol.
@@ -3514,10 +3578,21 @@ Back in the early 1990’s, developers, cryptographers, and different groups of 
    alt="Double Spend"</>
 </p>
 
-If I buy an apple for $1, I cannot spend that same $1 to buy an orange. If I could, money would be worthless since everyone would have unlimited amounts and the scarcity that gives the currency value would disappear. The network protects against double-spending by verifying each recorded transaction within the blockchain utilizing a consensus mechanism (explained in the previous section).
+If I buy an apple for $1, I cannot spend that same $1 to buy an orange. 
+
+If I could, money would be worthless since everyone would have unlimited amounts and the scarcity that gives the currency value would disappear. 
+
+The network protects against double-spending by verifying each recorded transaction within the blockchain utilizing a consensus mechanism (explained in the previous section).
+
 Bitcoin was the first decentralized protocol to solve this problem and now more protocols are following, such as: Proof of Stake (PoS), Delegated Proof of Stake (DPoS), Directed Acyclic Graphs (DAG) structures, Proof of Authority (PoA), etc.
-Digital Currency Difficulties
-Today, when someone mentions digital currency, usually Bitcoin or crypto is the first thing that comes to mind, but digital currency had a long history before Bitcoin popularized it. This history goes all the way back to 1983, when David Chaum introduced the idea of digital cash in a research paper. Then, in 1992, he founded DigiCash, an electronic cash company, which eventually went bankrupt in 1998 due to adoption (buyout by another financial institution). Today, David is a leading pioneer of blockchain companies such as Elixxir and Praxxis to provide scalable digital sovereignty.
+
+<h3>Digital Currency Difficulties</h3>
+Today, when someone mentions digital currency, usually Bitcoin or crypto is the first thing that comes to mind, but digital currency had a long history before Bitcoin popularized it. 
+
+This history goes all the way back to 1983, when David Chaum introduced the idea of digital cash in a research paper. 
+
+Then, in 1992, he founded DigiCash, an electronic cash company, which eventually went bankrupt in 1998 due to adoption (buyout by another financial institution). Today, David is a leading pioneer of blockchain companies such as Elixxir and Praxxis to provide scalable digital sovereignty.
+
 There were many other attempts to create digital cash over the years, but many failed due to a variety of reasons, such as:
  
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -3530,9 +3605,11 @@ There were many other attempts to create digital cash over the years, but many f
 </p>
 
 Other attempts include:
-•	CyberCash in 1994 (failed after the Y2K bug of 2000).
-•	E-gold in 1996 (sunk by continuous money laundering, hacking, and extortion).
-•	Liberty Reserve in 2006 (shut down in 2013 due to this becoming a great hangout spot for cybercriminals).
+<ul>
+<li>CyberCash in 1994 (failed after the Y2K bug of 2000).</li>
+<li>E-gold in 1996 (sunk by continuous money laundering, hacking, and extortion).</li>
+<li>Liberty Reserve in 2006 (shut down in 2013 due to this becoming a great hangout spot for cybercriminals).</li>
+</ul>
 
 <h3 id="ch5-3">5.3 Digital Currencies Overview</h3>
 Digital currencies are available only in the digital world and not in the physical world. They can be defined as any currency, money, or money-like asset that is primarily managed, stored or exchanged on computer systems. Examples of digital currencies include cryptocurrency, virtual currency and central bank digital currency.
@@ -3546,14 +3623,14 @@ Digital currencies are available only in the digital world and not in the physic
    alt="Digital Currency"</>
 </p>
  
-<h4>Cryptocurrency Defined</h4>
+<h3>Cryptocurrency Defined</h3>
 According to Investopedia,
 "A cryptocurrency, broadly defined, is currency that takes the form of tokens or “coins” and exists on a distributed and decentralized electronic ledger. While a large majority remain completely intangible, some cryptocurrencies have ventured into the physical world by building associations with companies offering traditional payment rails (credit cards and payment processors)".
 
-<h4>Cryptocurrencies Markets </h4>
+<h3>Cryptocurrencies Markets </h3>
 To break down the crypto markets, let's start with some basic definitions.
 
-<h4>Crypto Wallet</h4>
+<h3>Crypto Wallet</h3>
 A cryptocurrency wallet is an application on your computer or smart phone that connects you to a blockchain where you can trade cryptocurrencies. A Bitcoin wallet allows you to trade Bitcoin, an Ethereum wallet accommodates Ether. You can not send Bitcoin to the Ethereum blockchain, each cryptocurrency must transact on its own blockchain.
 
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -3565,7 +3642,7 @@ A cryptocurrency wallet is an application on your computer or smart phone that c
    alt="Smart Phone"</>
 </p>
 
-<h4>Multi-currency Wallets</h4>
+<h3>Multi-currency Wallets</h3>
 Some wallets allow you to hold multiple cryptocurrencies in the same application. In these wallets, each cryptocurrency will have its own balance. To initiate a transaction, the application will create a cryptographically secure address (specific for the particular blockchain). This address acts as your account number and lets you send and receive the cryptocurrency.
 
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -3577,10 +3654,10 @@ Some wallets allow you to hold multiple cryptocurrencies in the same application
    alt="Multi-Currency Wallets"</>
 </p>
 
-<h4>Atomic Swaps</h4>
+<h3>Atomic Swaps</h3>
 Additional features in these wallets lets you “swap” one cryptocurrency for another. The application provider acts as the intermediary to secure the transactions from one chain to the other.
 
-<h4>Metamask</h4>
+<h3>Metamask</h3>
 Metamask is a cryptocurrency wallet used to interact with the Ethereum blockchain and other blockchains issued in accordance with the Ethereum Platform. Tokens issued in accordance with the ERC-20 standard for utility tokens can be stored in a metamask wallet. Metamask not only stores cryptocurrencies but acts as a gateway to blockchain applications. You can access the wallet through a mobile application or a browser extension.
  
 <!------------------------------------------------------------------------------------------------------------------------->
