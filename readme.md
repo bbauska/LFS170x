@@ -970,7 +970,7 @@ Blockchain networks offer more secure, agile, and cost-effective structures.<br/
 <p align="center" width="100%">
 <img src="/images/image026.png?raw=true" 
    alt="Government Benefits from Blockchain" 
-   width="40%" >
+   width="65%" >
 &nbsp;
 
 <h3>Dubai Use Case</h3>
@@ -1291,11 +1291,15 @@ Information on the blockchain is stored on the ledger using cryptography.
 It can be accessed using keys and cryptographic signatures.
 Now, let's take a look into some of the key concepts of cryptography that are utilized with blockchain.
 
-#### Rose Greenhow
-So, one of the reoccurring themes in blockchain is that while blockchain itself may be new and cutting-edge, it's built out of nothing more than very old tried-and-true technology.
+<h4>Rose Greenhow</h4>
+One of the reoccurring themes in blockchain is that while blockchain itself may be new and cutting-edge, it's built out of nothing more than very old tried-and-true technology.
+
 And one of the areas this is most true is in cryptography.
+
 When a lot of people first get introduced to cryptography they think it's a very new cutting-edge science.
+
 And while there are new developments being made everyday, cryptography itself is a very, very old science.
+
 One great example of this is the story of Rose Greenhow.
 
 Rose Greenhow lived in the Washington DC area during the Civil War, and she was actually an undercover spy for the Confederate Army.
@@ -1305,20 +1309,23 @@ Rose Greenhow was a wealthy socialite, and she threw many fancy, elaborate parti
 Many of these events were attended by members of the Union Army, generals and strategists, who Rose pretended that she didn't know much about military strategy and wasn't too interested in the war in general.
 
 In secret, at all these events she was soaking up all the information she could.
+
 Rose actually developed her own method of encrypting data.
+
 She came up with her own encryption scheme and she used this scheme to mail letters down to the Confederate Army, revealing the plans of the Union Army, troop positions, general high-level strategy, etc.
+
 Rose did this for a number of years, until finally her encryption method was broken and she was actually one of the very first people who were arrested and prosecuted by the Pinkertons, who later went on to form the Secret Service.
 
-So, when you hear about blockchain and all the new cutting-edge things that it's doing, don't forget that it has its roots in very old technology, and we're just combining old technology in new and creative ways to create a brand new solutions development platform.
+When you hear about blockchain and all the new cutting-edge things that it's doing, don't forget that it has its roots in very old technology, and we're just combining old technology in new and creative ways to create a brand new solutions development platform.
 
-#### Early Use of Cryptography: Caesar Cipher
+<h4>Early Use of Cryptography: Caesar Cipher</h4>
 As described in the "Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet" article by Melanie Shapiro,
 > "A little over 2,000 years ago, Julius Caesar developed a simple system to send secure information to his troops. 
 > It was all about substituting certain letters for others, typically by shifting the letters by a predetermined number. 
 > That algorithm is what we would call a cipher, and since Caesar’s invention, cipher keys are much more secure and advanced. 
 > If you want to encrypt and decrypt information, you are going to have to choose a kind of cipher to do so".
 
-### Cryptography Key Terms
+<h3>Cryptography Key Terms</h3>
 Let's explain the key terms used in cryptography:
    * Cryptography
 Cryptography is a technique used to secure the communication between two parties from a third. The term cryptography is derived from two ancient greek terms, “kryptos” which means “hidden” and “graphein” which means “to write”.
@@ -1337,7 +1344,7 @@ Encryption is the reverse process of converting ciphertext into plain text.
 
 The Secret and the Key are passed into the Function to create the Cipher.
 
-### Cryptography Basics
+<h3>Cryptography Basics</h3>
 So, one of the technologies that plays a pivotal role in blockchain and making blockchain secure and immutable is cryptography.
 If you've never heard of cryptography before, cryptography is simply designed defined as the science of sending messages back and forth from one party to another, in the presence of adversaries or bad actors, participants who may wish to corrupt or change the contents of a message.
 And there's some key concepts you should understand about cryptography before we really dive in and talk about how cryptography protects the data on the blockchain.
@@ -1389,7 +1396,7 @@ But just understand these two big takeaways:
 
 These are key components which enable security and immutability on the blockchain.
 
-##### Cryptographic Functions
+<h4>Cryptographic Functions</h4>
 Simple example function:
    * Secret = "Blockchain technology is transformative"
    * Function = Swap each letter in the secret with a new letter according to the Key
@@ -1403,7 +1410,7 @@ As mentioned in the "Ancient Uses of Cryptography: Four Examples that Pre-Date t
 > With this invention, in order to share a secret message, you no longer even have to know the person you are sending it to.
 > Most importantly, for people like us who care deeply about safe authentication and identity protection, the private key itself is never communicated at all, and that means no more shared secrets".
 
-##### Byzantine Fault Tolerance
+<h4>Byzantine Fault Tolerance</h4>
 As you start to get more and more into blockchain, one term that you're gonna hear a lot is Byzantine Fault Tolerance.
 
 And if you're wondering what that means, that very strange, cryptic sounding term, that can be explained with a story.
@@ -1439,7 +1446,8 @@ Solutions like Ethereum, 16,000 plus nodes, or Bitcoin, the largest blockchain n
 And if someone ever were to, chances are the economics behind it would be such that they would spend more to simultaneously harness all that computing power, than they could possibly stand to gain.
 And so, this is Byzantine Fault Tolerance.
 It is the root of cryptography, which is simply the study of how do we send information back and forth securely in the presence of adversaries and bad actors, and it's what underlies all the security and immutability that we get in blockchain.
-### Types of Cryptography in Blockchain
+
+<h3>Types of Cryptography in Blockchain</h3>
 To understand cryptography in blockchain, you must be able to differentiate between various cryptographic techniques used. There are four main ways blockchain leverages cryptography:
 •	Public Key Cryptography
 This encryption method uses a pair of keys: an encryption key, and a decryption key, named public key and private key, respectively. The key pair generated by this algorithm consists of a private key and a unique public key that is generated using the same algorithm.
@@ -1455,8 +1463,8 @@ Transactions on the blockchain include their public key and are digitally signed
 •	A digital signature verifies that someone in possession of the private key authorized the transaction.
 •	Digital signatures can be easily verified using the corresponding public key, which is included in the transaction.
  
-### Identity: RSA Public Key Cryptography
- 
+<h3>Identity: RSA Public Key Cryptography</h3>
+
 Identity: Specific Identity Implementations
 Ethereum is a public blockchain that anyone can participate in. Hyperledger is an example of an enterprise blockchain where participants must be granted access to engage in the blockchain.
 •	Ethereum
@@ -1474,8 +1482,8 @@ Step 1:
  
  Step 3:
 
-### Private/Public Key Cryptography
-So, I want to talk a little bit about cryptography and some cryptography principles.
+<h3>Private/Public Key Cryptography</h3>
+I want to talk a little bit about cryptography and some cryptography principles.
 The first is easy and hard problems, and this is really what public - private key cryptography is based off of.
 There are some problems that are very easy one way, but difficult another way.
 And a great example of this is multiplication.
@@ -1500,15 +1508,15 @@ And this is how we trade cryptocurrencies back and forth, and that's what makes 
 If I happen to lose this, I haven't lost the money that's in it, because there's no money ever in it.
 All that money is is just a record on the blockchain, and, as long as I can recover that private key somehow, I can just get a new device, start using my private key again and keep right on trading.
 
-So, that's how public and private keys fit into blockchain; a very key component just to understand that they're used to sign and verify any transactions that you make.
+That's how public and private keys fit into blockchain; a very key component just to understand that they're used to sign and verify any transactions that you make.
 
-##### Zero-Knowledge Proof (ZKP)
+<h4>Zero-Knowledge Proof (ZKP)</h4>
 Zero-knowledge proofs authenticate parties without the need to widely transmit private information online. A zero-knowledge proof (ZKP) is a cryptographic method that allows a party (the prover) to prove to another party (the verifier) that a given statement is true, without conveying any additional information.
 
 Let's review an example. 
 Let's say there are two toy cars, identical in shape and size, except, one is red and one is blue. Jerry, who is color-blind, holds the toy cars behind his back. Jerry then shows one of the cars to Sam. Jerry then hides that car behind his back and shows Sam the other car. Sam can consistently detect the switch because the cars are different colors, but he never has to reveal the color of the cars to Jerry in order to prove the secret.
 
-##### Zero-Knowledge Proof (Cave Example)
+<h4>Zero-Knowledge Proof (Cave Example)</h4>
 In this section, we're going to talk about a cybersecurity idea in blockchain known as **"Zero-Knowledge Proofs"**.
 Zero-Knowledge Proofs are exactly what the name implies - they allow me to prove to another party that I have a certain piece of knowledge without revealing what that knowledge is.
 Zero-Knowledge Proofs are often referred to as zk-SNARKs, which stand for "Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge", or zk-SNARKs for short,
@@ -1527,7 +1535,7 @@ Being able to answer a question of "Does a user have enough money to send to ano
 So, when you hear about zk-SNARKs, don't get intimidated.
 It's not a complex idea. Just think of Zero-Knowledge Proofs and the cave door, think about how important it is in blockchain to be able to prove a claim without actually revealing the information behind that claim, and you'll understand Zero-Knowledge Proofs.
 
-### Hash Functions in Blockchain
+<h3>Hash Functions in Blockchain</h3>
 When using blockchain, the need to trust a central authority to verify the accuracy of data is removed and replaced by trust in a cryptographic hashing function. With data integrity guaranteed by algorithms, trust becomes part of the system.
 Blockchain provides users with data integrity in a trustless environment. This is accomplished using cryptography in a way that moves the burden of trust from data processors to cryptographic algorithms.
 Hash functions are featured heavily in blockchain. A hash function is a mathematical equation with four important properties:
@@ -1536,7 +1544,7 @@ Hash functions are featured heavily in blockchain. A hash function is a mathemat
    3. Inputs that differ by a single bit produce hashes that differ by half of their bits on average. This prevents someone from finding a desired hash input using a “hill climbing”.
    4. It is infeasible to find two inputs that produce the same output when hashed. Since a hash can take any input and produce a fixed output, it makes sense that multiple different inputs will create the same output. A good hash function will make it so that you have to try a large number of inputs before finding two that produce the same output.
  
-### Cryptographic Hashing Demo
+<h3>Cryptographic Hashing Demo</h3>
 In this section, we're going to talk about cryptographic hashing.
 A cryptographic hash is a special kind of cryptographic function known as a one-way function, whereas most cryptographic functions are two-way, meaning that data cannot only be encrypted, but can be decrypted at the other end.
 Hashes, or cryptographic hashes, are very unique in that once data is encoded, it can never be decoded.
@@ -1577,7 +1585,7 @@ Lab 1: Hashing
 Next, let's engage with an interactive lab. This lab is an actual hands-on demonstration of taking data and creating a hash output. Enjoy!
 Start Lab
 
-Merkle Tree
+<h4>Merkle Tree</h4>
 A special type of data storage structure based on hash functions is called a Merkle tree:
 •	It is structured as a binary tree; the leaves contain the values to be stored and each internal node is the hash of its two children.
 •	It provides efficient lookups and protection against forgery since verifying a transaction is included in the tree. Can be accomplished by sending only the transaction, the hash contained in each node between the transaction leaf node and the root, and the hash values used to create each hash sent.
@@ -1608,7 +1616,7 @@ Hash functions are at the core of all blockchain technology. One of the primary 
 Zero-knowledge proofs are to increase the privacy of users. Currently, Ethereum is working on a layer 2 solution, where a second layer blockchain would store large amounts of data and only prove the batch of information is valid to layer 1 (mainnet). Hyperledger Fabric has a pluggable cryptographic library that supports ZKP techniques for enhanced privacy measures.
 Merkle trees are a data structure that allows authenticated storage with efficient data retrieval. Both Ethereum and Hyperledger Fabric are smart contract platforms that use a particular type of Merkle tree called the Patricia tree to store the current state of their virtual machine.
  
-#### Disintermediation - Trust Through Transparency
+<h4>Disintermediation - Trust Through Transparency</h4>
 Now, that we have an understanding of how collaboration and cryptography work together to create a layer of trust, let's discuss how blockchain has a powerful disintermediation effect.
 Nodes on the network are allowed to place data directly onto the database that is shared.
 This eliminates the need for an intermediary to do such task.
@@ -1666,7 +1674,7 @@ Traditional databases do not retain historical information:
 The CRUD update model of databases allows data to be changed or removed from the database. This means that the visible data in a database is not an accurate historical record of the database. The existence of an update operation means that each value in the database is only the most recent version of that value and could have had different values in the past. The delete operation means that values can be removed from the database.
 This limits the transparency of data in the database since values can be modified or deleted after creation.
 
-### Blockchain Updates
+<h3>Blockchain Updates</h3>
 The blockchain is designed to be a data structure that only allows appending:
 •	The past history of the blockchain is visible and immutable.
 •	Updates to the blockchain can be performed by including them in new blocks added to the blockchain.
@@ -1675,11 +1683,11 @@ The entire history of the blockchain is publicly visible and stored in a distrib
 Transparency of a Blockchain
 The blockchain is designed so that its entire history is visible and unchangeable. Transactions in the blockchain cannot be modified after creation, and their complete history is publicly visible. This means that the blockchain is a completely transparent data structure with the useful property that the integrity of the blockchain is easily verifiable by any user.
 
-### Transparency: Databases vs. Blockchain
+<h3>Transparency: Databases vs. Blockchain</h3>
 Traditional databases and the blockchain were created for different purposes and have different levels of transparency. Traditional databases have low transparency since values can be modified or deleted; however, this changeability allows them to store data in an efficient manner, with only the most relevant versions of each value retained in storage.
 The blockchain is publicly visible and immutable, meaning that it has very high transparency. Its append-only structure and decentralized storage sacrifice storage efficiency for trustworthiness of the stored data.
 
-### <a id="ch2-4"></a>2.4 Transparency
+<h3 id="ch2-4"></a>2.4 Transparency</h3>
 One of the big benefits we get in any blockchain solution, public or private, is the idea of transparency.
 In a public blockchain solution like Bitcoin or Ethereum, because they're anonymous and we have no concept of identity, we have no way of treating users differently.
 And so all data on a public blockchain is transparent and visible to all other participants.
@@ -1708,7 +1716,7 @@ If you're manufacturing and distributing clothing, and you can demonstrate to co
 So, these kind of transparency solutions are one of the biggest benefits of blockchain and one of the areas being most explored, because right now there are a lot of consumers who would simply like more visibility into the products and services they purchase.
 And blockchain, both public and private, can be a great solution for doing that.
 
-### Immutability in the Blockchain
+<h3>Immutability in the Blockchain</h3>
 Blockchain is designed to be an authoritative ledger of the history of the network.
 
 This history may include financial transactions and business agreements where modifications to the ledger may have wide-reaching business impacts. Blockchain is based on an untrusted network, so trust that the blockchain has not been modified needs to arise from the structure of the blockchain itself, rather than from trust in the organization storing a certain copy.
@@ -1753,7 +1761,7 @@ The blockchain is designed so that immutability is cumulative; each piece is lin
    * Each block is digitally signed by its creator. The creator is selected through the blockchain’s consensus protocol, making it difficult for an attacker to be a legitimate creator.
 All four of these features help to make the blockchain resistant against changes occurring after the fact.
 
-### Why Is the Blockchain Immutable?
+<h3>Why Is the Blockchain Immutable?</h3>
 Each transaction cannot be forged or modified because it is mathematically infeasible to forge a digital signature. 
 The structure of blocks is publicly defined, and invalid blocks will be publicly rejected.
 Each block “locks in” the value of previous blocks by including their hash. 
@@ -1786,64 +1794,109 @@ Each Corda network has one or more notary services that verify transactions.
 Each transaction is considered separately and, if approved, is signed by the notary service. 
 Transactions signed by a notary are finalized and cannot be modified after the fact.
 
-### Hashing and Chaining
+<h3>Hashing and Chaining</h3>
 It is important to understand the value of locking in the previous block by including its hash in the next block. As explained in the article “A Gentle Introduction to Immutability of Blockchains” by Antony Lewis,
   •	Creating a ledger of transactions with blocks that refer to previous blocks is a much better idea than numbering the blocks sequentially.
   •	In a book with pages, 1, 2, 3, etc., it would be easy to tear out page 25 and replace it with another page.
   •	The integrity of the book has been manipulated and altered. However, there is nothing about the new page number that ties it (chains it) to the content of the previous page.
   •	Instead, in a blockchain, blocks are referenced by their hash and each block explicitly specifies which block (hash) it is building on.
  
-### Hashing and Chaining with Proof of Work
+<h3>Hashing and Chaining with Proof of Work</h3>
 We will cover the Proof of Work in a later module. However, this demo uses the Proof of Work to show how blocks are chained together and how tampering with information in a past block destroys the integrity of the proceeding blocks.
+
 In this module, we're going to talk about **Proof of Work** consensus, and how Proof of Work consensus is used to create an immutable chain of block data on the blockchain.
 
 Let's take a small example. Let's say we have some block data and, in the interest of simplicity, we will keep this very, very short.
+
 But understand that in real life a block will most likely contain many more than just three transactions.
+
 But on this block, we have a full block consisting of three transactions.
+
 When it's time to validate a full block, all nodes on the network will start to guess a nonce value.
+
 What we're looking for is a nonce value such that when we take our input transaction data and we combine it with a nonce value, we get a hash output that matches the difficulty.
   
 In this case, the difficulty is a hash output that begins with four leading zeros.
+
 Every node on the network will guess a different nonce randomly until they happen to find one that matches the difficulty.
-So, our node may start off by guessing "123", and we see that that does not produce a hash output that matches the difficulty of four leading zeros.
+
+Our node may start off by guessing "123", and we see that that does not produce a hash output that matches the difficulty of four leading zeros.
+
 Let's try again. Let's try "973321". Once again, that does not give us a hash output that matches the desired difficulty.
+
 [So], rather than guess over and over and over, let's go ahead and ask a computer to do our work for us.
+
 The computer is now guessing different nonce values randomly until it happens to guess "22294", which you see produces a hash that begins with four leading zeros.
+
 Because this hash is the output of input to a hash function consisting not only of the transaction data, but also of the nonce, changing either one will result in a new hash output which does not match the difficulty.
+
 If I change "22294" to "22295", you'll see I get a hash output which no longer meets the difficulty criteria.
+
 However, if I change any of my transaction data, I'm also altering the input to the hash function, and thus generating an output which is completely different from the desired outcome.
+
 In this way, nodes or miners on a network can validate they have the same transaction data.
+
 If we all start randomly guessing nonce values for this set of data and my node guesses "22294" first, all it has to do is simply share this nonce value with every other node on the network.
+
 Each node can then try this value "22294" on their copy of the transaction data.
+
 If any of the data has been altered or changed in any way, no matter how insignificant, or the node in question simply did not record the data correctly, this nonce value will not work for them.
+
 For example, if we change "4.2 bitcoin" to "4.9 bitcoin", you'll see that the proposed nonce does not work.
+
 In this way, all nodes can come to consensus or agreement on what the right set of transaction data should be.
+
 When a node thinks it's guessed the right nonce, it simply shares that value with the rest of the network.
+
 If the majority of the network, 51% or more, agree with this nonce, because they have the same transaction data on their copy of the block, then the miner who guessed this number first, will be rewarded and the network will come to consensus or agree that this is the correct version of the block data.
+
 Any nodes which have different data for the current block will then discard the copy of the current block they have and replace it with a copy that the rest of the network has agreed upon.
+
 This method is used to create blocks of data chained together.
+
 Let's say, that we have some transaction data here on the blockchain.
+
 We're gonna go ahead and mine our first block.
+
 Now, you'll notice what we've added in this demo is the hash of the previous block, which is something we store in the header of every block on the blockchain.
+
 Because this is the first block, I simply get a previous hash value of zero.
+
 Combining zero with the current transaction data on the block and the proposed nonce gives me a hash that meets the output difficulty.
+
 When it's time to validate the second block, the process repeats itself.
+
 I simply take the hash of the previous block stored in the header of the current block, combine it with the transaction data in the current block, and try to guess the correct nonce.
+
 In this case, it's "12314"
+
 As discussed in our video on cryptographic hashing, changing any of the input data, no matter how slight, will result in an entirely different hash.
+
 If I try and change "2.3" to "2.9", I no longer get an output which matches the current difficulty.
+
 This new output is also reflected in the header of the next subsequent block.
+
 If I have a series of blocks that have all been mined and linked together, then you can see that going and changing data on any block will break every subsequent block after it.
-So, if I try to alter this record "David pays Charlie 2.3 bitcoin" and I want to change it to "5.3 bitcoin", I change the hash output of the current block.
+
+If I try to alter this record "David pays Charlie 2.3 bitcoin" and I want to change it to "5.3 bitcoin", I change the hash output of the current block.
+
 This is reflected in the current block and also in the next block.
+
 Now, the nonce proposed for the next block does not work when combined with that block's transaction data and with the hash of the previous block.
+
 This means that if I want to alter data on the blockchain, not only do I need to remind the block that I changed the data on, I also need to remind every subsequent block in the blockchain.
+
 This is no trivial task when you consider that major blockchain such as Bitcoin and Ethereum contain millions of blocks.
+
 And this process must be repeated on tens of thousands of nodes worldwide in a very short amount of time.
+
 This ability to link together blocks in an immutable fashion and to cause attackers to have to undertake so much work, repeated so many times is what gives blockchain its security and immutability.
+
 I hope you've learned a little bit more about Proof of Work consensus and how blocks on the blockchain are linked together through watching this video.
 Lab 2: Blocks
+
 Next, let's engage with an interactive lab. This lab will give you the chance to examine blocks on the blockchain. Enjoy!
+
 Start Lab
 
 <h3> id="ch2-5">2.5 Chapter Summary</h3>
@@ -1878,13 +1931,21 @@ By the end of this chapter, you should be able to:
 
 <h3 id="ch3-2">3.2 What Are Smart Contracts?</h3>
 When we make a transaction on the blockchain, understand that there are only three types of transactions we can make.
+
 It's what I refer to as the onion model of blockchain.
+
 And we're gonna start off with a very outer layer of that onion.
+
 The thing that most people are familiar with when they get into blockchain.
+
 The thing we do all the time when we trade cryptocurrency back and forth.
+
 That is two or more parties coming together and using the blockchain to record an announcement of the exchange of monetary value.
-So, we might use blockchain to record the fact that I paid you three Bitcoin for your used car or I paid you twelve blockchain for your vacation home.
+
+We might use blockchain to record the fact that I paid you three Bitcoin for your used car or I paid you twelve blockchain for your vacation home.
+
 This is the model that many of us start off with in blockchain and again, it's the one that's most familiar and gets talked about the most right now.
+
 But if we peel away that outer layer, and we take away the idea of a monetary transaction or exchange, well, then we're left with two or more parties using blockchain to record an important announcement.
 And we see many valid use cases around this. Let's say, that I go to the doctor for my annual physical.
 My doctor checks me out and he says: "Hey Kris, I want to put you on a new prescription for XYZ".
@@ -1901,26 +1962,42 @@ And we might have an organic pesticide company come and treat that organic produ
 We still have a single organization or single entity making the announcement of something they did, and this is really the heart of blockchain.
 
 When you understand that it becomes really easy to understand where smart contracts fit in.
+
 And smart contracts are just computer code. They're codified logic that we can use to respond to any kind of event that gets captured on the blockchain.
 
-In that organic produce example, if I want to notify someone when that fresh produce has been treated with organic pesticide, so I can create traceability for the end consumer, well, I might have a smart contract that manages that that defines the rules and the steps that get taken when that particular type of event occurs.
+In that organic produce example, if I want to notify someone when that fresh produce has been treated with organic pesticide, so I can create traceability for the end consumer, 
+well, I might have a smart contract that manages that that defines the rules and the steps that get taken when that particular type of event occurs.
+
 And this is all smart contracts are.
+
 There's oftentimes a misconception when people hear the word contract that they think of a legally binding agreement between two or more parties.
+
 It's not necessarily the case. Smart contracts don't have to be legally binding and they don't have to involve multiple parties.
+
 In fact, if you come from a programming or development background you can think of a smart contract easily enough as a "class".
+
 If you're not a programmer or don't come from a developing background, you can just think of a smart contract as a set of rules that get executed every time a certain type of event happens.
+
 And this is where the real power of blockchain comes in that not only do we have a permanent, unchangeable record of all the different events that have occurred,
 we can also write computer code, very, very non-subjective computer code, that defines exactly how that process is going to be managed and what steps are going to be taken when that event occurs.
-This allows us to ensure process consistency.
-It allows us to ensure that processes that are normally fulfilled by intermediaries or middlemen can now be satisfied on their own without the need for human intervention.
-And this leads to much more lean and efficient organizations in way of organizing human effort.
-So, when you hear smart contract just think about computer code that you write to respond to certain types of significant events.
-If you've ever worked with workflow or business process automation or management tools, you can think of smart contract is just being another workflow tool, albeit one that has the power to work with money.
-So, don't get too intimidated when you hear smart contracts, and don't get too caught up in the language.
-While they sometimes may be legally binding, they're not necessarily legally binding in the same way a true contract is.
-They're just a way for us to bake our own logic into block chain solutions to ensure that consistency of execution.
-Smart Contracts Recap
 
+This allows us to ensure process consistency.
+
+It allows us to ensure that processes that are normally fulfilled by intermediaries or middlemen can now be satisfied on their own without the need for human intervention.
+
+And this leads to much more lean and efficient organizations in way of organizing human effort.
+
+When you hear smart contract just think about computer code that you write to respond to certain types of significant events.
+
+If you've ever worked with workflow or business process automation or management tools, you can think of smart contract is just being another workflow tool, albeit one that has the power to work with money.
+
+Don't get too intimidated when you hear smart contracts, and don't get too caught up in the language.
+
+While they sometimes may be legally binding, they're not necessarily legally binding in the same way a true contract is.
+
+They're just a way for us to bake our own logic into block chain solutions to ensure that consistency of execution.
+
+<h4>Smart Contracts Recap</h4>
 Let’s review some basic information about smart contracts:
 •	They are computer programs that execute an action based on terms and conditions.
 •	Can also be known as chain code.
@@ -2237,7 +2314,8 @@ In most blockchains, this is the job of the miner and is the output of the minin
 The block operators will spread the block through the peer network to update the ledger copies once consensus has been achieved.
 And this results in the block operators again executing code included in transactions within the block to update their own copy of the internal state of the blockchain.
 The users will be notified of an event from a blockchain creation via an event.
-Blockchain Transactions
+
+<h4>Blockchain Transactions</h4>
 Although blockchains can differ in form and function, all follow a basic transaction flow.
 
 Step 1: Operation Initiated
@@ -2254,61 +2332,82 @@ Step 5: Spread The New Block
 This block is spread throughout the network through the same peer-to-peer communications we used for the transaction. When block operators receive a copy of the new block, they add it to their copy of the distributed ledger. This guarantees that all members of the peer network agree on the current state of the blockchain’s distributed ledger.
 Step 6: Transaction Completed
 The user’s wallet monitors for the creation of new blocks that include transactions associated with the user. When a block containing the completed code from the user’s operation is received, an event is created to notify the user that the operation is complete. When the block containing Alicia’s Bitcoin transfer to Billy is added to the blockchain, an alert will be sent to the affected wallets that the transaction was accepted and completed.
-Consensus in Blockchain
+
+<h4>Consensus in Blockchain</h4>
 Consensus in blockchain is moving away from a centralized system where one entity keeps track of the ledger towards a decentralized system where trust does not rest with one entity but all entities and what they decide together. The blockchain is a distributed and decentralized system, which means that it needs to have a way of tracking the official current state of the system. Since the blockchain can include financial transactions and business agreements, it is important that all parties involved are in sync regarding the terms of the agreement.
  
 In this section, we will discuss the details of how a blockchain network comes to agreement on the contents of the blockchain.
-Consensus
+
+<h4>Consensus</h4>
 One of the most important components to blockchain is this idea of group consensus.
+
 As we talked about in an earlier module, blockchain is inherently a very inefficient system.
+
 We're asking multiple nodes, sometimes tens of thousands of computer nodes, to all repeat the same work: they're all keeping a copy of the same data.
+
 And the reason we agree to this tremendous inefficiency is because if we can get all or most of those nodes to agree on what the truth is.
+
 We can have a lot of trust that that's actually the truth, that that record hasn't been tampered or altered or changed in any way.
+
 Consensus is one of the underpinnings of blockchain.
+
 There are several different methods we use right now to have all these nodes reach consensus.
+
 Essentially, when we talk about consensus, you can think of every block in a blockchain as being like a sheet of paper.
+
 It's got a fixed amount of space. We write a transaction on every line, and when that sheet of paper is full, it's important that we all, as a group, come together and compare our different sheets and select the sheet or the version of paper that the majority agree with.
+
 And so, there are several different methods that we use to come to consensus on a block.
+
 The oldest and most widespread method is what's called Proof of Work.
+
 And you'll see in another module, we actually dive into Proof of Work hands-on, and show you live what Proof of Work looks like and how it actually works.
+
 Proof of Work has served us well for the past nine, almost ten years, got its start in Bitcoin, and it's used in every major public and most private blockchain offerings.
+
 But we're also starting to see some of the limitations of Proof of Work.
+
 One of the big limitations behind Proof of Work right now is how big and how fast it can scale.
+
 Currently on Proof of Work blockchains, we're able to process somewhere between 50 and 20 transactions worldwide per second, which may sound like a lot until you realize that modern payment processing networks like Visa can scale up to over 70,000 transactions a second.
-So, in order to compete with conventional technology, blockchain really needs to add a few more orders of magnitude to that transaction rate.
+
+In order to compete with conventional technology, blockchain really needs to add a few more orders of magnitude to that transaction rate.
 There are many proposed alternative consensus methods for how we might be able to reach that kind of scale.
 There are things in production right now like Tangle which use a blockless solution, and they're also new and emerging consensus methods like Proof of Stake, or Proof of Activity that we're currently examining to take the work out of Proof of Work.
 We also have another module in this course where we talk about Proof of Stake, and then another one where we compare Proof of Work versus Proof of Stake.
 If you're curious about any of the details of how these consensus mechanisms are actually implemented, be sure to check out those modules.
 But the takeaway point to understand is that, it's this consensus, it is this idea of asking all of these nodes, potentially tens of thousands of nodes, to all repeat the same work and then periodically come together and agree on whatever the majority select the right version of the truth to be.
 That gives blockchain that high level of trust and that makes it such a secure record store.
-Introduction to Consensus in the Blockchain
+
+<h4>Introduction to Consensus in the Blockchain</h4>
 As discussed in the "Blockchain Consensus and Fault Tolerance In a Nutshell" article by Demiro Massessi,
 "The blockchain is designed to be a shared, synchronized historical ledger, meaning that there needs to be a final decision at some point on what should and shouldn’t be included in the official record. Since blockchain is decentralized, there is no "higher authority" that can rubber-stamp and finalize the contents of a blockchain block.
 The method that Satoshi Nakamoto, creator of the Bitcoin network, invented to achieve consensus is based on scarcity. In one way or another, blockchain consensus algorithms boil down to some kind of vote where the number of votes that a user has is tied to the amount of a limited resource that is under the user’s control. Based on the economic law of supply and demand, collecting enough of an asset to have a controlling share will drive up the price of the asset enough to make achieving that level of control unfeasibly expensive".
-Consensus Mechanisms
+
+<h4>Consensus Mechanisms</h4>
 In order to ensure no one spent the same Bitcoin twice, Satoshi Nakamoto created the consensus algorithm called Proof of Work for the Bitcoin network. Since then, several other consensus algorithms have been invented to fit different use cases. These include Proof of Stake, Delegated Proof of Stake, Practical Byzantine Fault Tolerance, and Proof of Elapsed Time. The most commonly used consensus algorithms are Proof of Work and Proof of Stake.
  
-Proof of Work
+<h4>Proof of Work</h4>
 As explained in the "Blockchain Consensus and Fault Tolerance In a Nutshell" article by Demiro Massessi,
 "In Proof of Work, users in the blockchain network who want to create the next block (and win the associated reward) are called miners. To win the right to mine a block, miners race to find an acceptable solution to a “hard” cryptographic problem. (...), “hard” mathematical problems can only be solved by random guessing. When a miner finds an acceptable solution, they create a block and broadcast it to the network, finalizing that block.
 Proof of Work exploits the scarcity of computational resources by choosing a problem that can only be solved by guessing. There is no limit on the number of guesses that a miner can make at once. Proof of Work, therefore, incentivizes miners to run as many mining machines as possible to maximize the probability that they are the first to find a solution to the problem. Since mining computers take money to purchase and money to run, the amount of control that a user can exert over the blockchain is limited by the amount of money they have available to invest in mining equipment".
 Also, the process of mining requires computing power that runs on electricity. Some argue the Bitcoin network is not sustainable because of its increasing need for electricity. The argument against this assumes Bitcoin miners are out to make a profit and by using renewable energy sources to power the mining operations they will be more profitable. As a result of seeking out carbon-friendly energy sources, mining companies will bring new renewable energy solutions to the power grids.
  
 The security of the Proof of Work consensus is based on the assumption that no one controls more than half of the computational resources of a blockchain’s mining network. If one entity controls 51% of the mining effort, they control consensus. To take control would require a huge investment in equipment and energy, more than would be gained by defrauding the system.
-Proof of Stake
+
+<h4>Proof of Stake</h4>
 Proof of Stake comes with a number of improvements to Proof of Work systems, it requires less energy and has a lower barrier to entry since no specialized hardware is required to create blocks.
 In the same article that we mentioned on a previous page, the author explains,
 "Users in a Proof of Stake blockchain can "stake" or promise not to use the tokens they own. This gives them the opportunity to be selected as the next user to create or "forge" a new block and earn the reward. A block forger is pseudo-randomly selected from all of the users who have staked some of their assets, and the selection process is biased based on the size of the stake.
 For example, imagine that a wheel is divided into sections where the size of a section is proportional to the size of a user’s stake. The next block creator would be chosen by spinning the wheel and seeing whose section comes out on top. In Proof of Stake, each user has a copy of the wheel and they are all synchronized so that each person can independently determine the selection and get the same result. This is why Proof of Stake uses a pseudo-random instead of a random selection process".
 In Proof of Stake, an attacker needs to control enough of the staked currency to guarantee they will be selected to create every block. Since cryptocurrency is a limited asset, buying up enough of it to do this is expensive, making attacks on Proof of Stake systems economically infeasible.
 
-Fault Tolerance in the Blockchain
+<h4>Fault Tolerance in the Blockchain</h4>
 In blockchain, it is essential all participants agree to the state of the ledger. Shared decentralized ledgers arrive at network agreement or the state of the ledger by consensus algorithms. But what happens if all participants in the network don’t agree? Let's discuss the concept of Fault tolerance and why it is an important blockchain concept.
 As described by Demiro Massessi,
 "Blockchain is a distributed, decentralized system that maintains a shared state. While consensus algorithms are designed to make it possible for the network to agree on the state, there is the possibility that agreement does not occur. Fault tolerance is an important aspect of blockchain technology".
 
-Fault Tolerance
+<h4>Fault Tolerance</h4>
 One of the things we've talked about extensively in this series is how inefficient and redundant blockchain is and that is by design.
 That's what gives us immutability.
 And another thing it gives us is an extreme level of fault tolerance.
@@ -3281,7 +3380,7 @@ How is the blockchain world removing this middleman? The answer is all around tr
 <!----------------------------------- Cross Border Payments  ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-<img width="60%" 
+<img width="65%" 
    src="./images/image-cross-border.png"
    alt="Cross Border Payments and Ledgers"</>
 </p>
@@ -3293,7 +3392,7 @@ Traditional centralized ledger systems have weaknesses. Accuracy is dependent on
 <!----------------------------------- Multi-Party Transactions - Centralized Ledgers  ----------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-<img width="60%" 
+<img width="65%" 
    src="./images/image-multi-party-trans-centralized-ledger.png"
    alt="Multi-Party Transactions - Centralized Ledgers"</>
 </p>
@@ -3311,21 +3410,34 @@ Distributed decentralized ledgers are not dependent on intermediaries who can ma
 
 <h3 id="ch5-2">5.2 Double Spend Problem</h3>
 Bitcoin, the world's first blockchain, was created as part of an attempt to create the world's first truly viable digital currency.
+
 Bitcoin was not the first attempt to create a digital currency, but it was the first which was able to successfully solve a long-standing problem - the "Double Spend" problem.
 The Double Spend problem is quite simple.
+
 Let's say Alice owes a debt of $5 to both Bob and Carol.
+
 Alice's total debt is $10, but let's assume she only has $5 currently.
+
 If Alice's transactions were recorded on two separate ledgers, it is possible that one ledger would show she paid $5 to Bob, while the second ledger may show she paid $5 to Carol.
+
 It would be impossible to tell who actually got paid.
+
 This is the double spend problem - any financial ledger MUST prevent Alice from spending her $5 more than once.
+
 Digital assets are particularly vulnerable to the double spend problem as we generally design them to be easy to copy and distribute.
+
 If you've got a great picture you took with your phone, it's easy to post one copy to
 Facebook, another copy to Instagram, then you might text a copy to your spouse, and email a copy to your parents.
+
 We live in a world where digital assets are easy to copy and distribute, by design.
+
 A digital currency should NOT be easy to copy and distribute though.
+
 It was overcoming this technical challenge that lead to so many failed attempts at digital currency before Bitcoin, and the innovations that the solution to this problem has delivered are now being leveraged to track and manage many different types of assets and data that we never could easily manage before.
+
 It is this possibility of building tools and solutions that were never before thought possible that has so many people excited about the blockchain revolution!
-Blockchain Solves The Double Spend Problem
+
+<h3>Blockchain Solves The Double Spend Problem</h3>
 Back in the early 1990’s, developers, cryptographers, and different groups of people were trying to solve the double-spend problem as it related to digital cash, previously known also as electronic cash. Double spending within Bitcoin is the act of using the same bitcoins (digital money files) more than once.
  
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -3527,7 +3639,7 @@ With new technology platforms, open source projects are fueled by blockchains, i
 <!----------------------------------------- Components of Decentralized Finance ------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-<img width="50%" 
+<img width="65%" 
    src="/images/image094.png?raw=true"
    alt="Components of Decentralized Finance"</>
 </p>
@@ -3541,7 +3653,7 @@ Along with the new decentralized financial model come new innovations that have 
 <!----------------------------------------- Benefits of Decentralized Finance) ---------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-<img width="50%" 
+<img width="65%" 
    src="/images/image095.png?raw=true"
    alt="Benefits of Decentralized Finance"</>
 </p>
@@ -3816,7 +3928,7 @@ To learn more see "Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter'
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="25%" 
-   src="/images/image102.png?raw=true"
+   src="/images/image101.png?raw=true"
    alt="SAP logo"</>
 </p>
 
@@ -3897,14 +4009,16 @@ Watch these additional resources to learn more about the Smart Dubai initiative,
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="50%" 
-   src="/images/image107.png?raw=true"
+   src="/images/image105.png?raw=true"
    alt="Dutch blockchain coalition"</>
 </p>
 
-<h3>Dutch Blockchain Coalition established three pillars of society working together to build a blockchain future:</h3>
-  - Developing blockchain building blocks - digital identities
-  - Realizing the conditions for utilizing blockchain
-  - Developing and realizing the Human Capital Agenda
+<b>Dutch Blockchain Coalition</b> established three pillars of society working together to build a blockchain future:
+<ul>
+<li>Developing blockchain building blocks - digital identities</li>
+<li>Realizing the conditions for utilizing blockchain</li>
+<li>Developing and realizing the Human Capital Agenda</li>
+</ul>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!--------------------------------------------- Buffalo on Wyoming Flag --------------------------------------------------->
@@ -3932,11 +4046,13 @@ The Blockchain for Social Impact Coalition (BSIC) is a not-for-profit organizati
 **[`^        back to top        ^`](#table-of-contents)**
 
 According to the "7 Ways Blockchain Can Be Used for Social Good" article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
-  - Philanthropy and remittances
-  - Financial empowerment
-  - Identity and land rights
-  - Governance and democracy
-  - Supply chain and environmental protections
+<ul>
+<li>Philanthropy and remittances</li>
+<li>Financial empowerment</li>
+<li>Identity and land rights</li>
+<li>Governance and democracy</li>
+<li>Supply chain and environmental protections</li>
+</ul>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------- Kiva logo ------------------------------------------------------------->
@@ -4008,18 +4124,20 @@ Created by three local meetup groups, Ledger Academy, Hyperledger Princeton and 
 The Giving Chain is now moving from a Proof of Concept project to a prototype as it was selected for the 2021 Hyperledger Mentorship program.
 ConsenSys
 ConsenSys Mesh companies offer solutions to help build out the Ethereum Ecosystem. ConsenSys Mesh acts as an incubator for Etherum-based projects:
-  * Codefi
-Finance and commerce blockchain applications.
-  * Diligence
-Ethereum smart contract audits.
-  * INFURA
-Scaling and performance issues.
-  * Metamask
-Wallet application.
-  * Quorum
-open source blockchain platforms.
-  * Truffle
-Application builder.
+<ul>
+<li>Codefi
+Finance and commerce blockchain applications.</li>
+<li>Diligence
+Ethereum smart contract audits.</li>
+<li>INFURA
+Scaling and performance issues.</li>
+<li>Metamask
+Wallet application.</li>
+<li>Quorum
+open source blockchain platforms.</li>
+<li>Truffle
+Application builder.</li>
+</ul>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------    -------------------------------------------------------->
