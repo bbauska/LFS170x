@@ -400,7 +400,9 @@ There are so many possibilities with blockchain; not just in the now, but with t
 <!----------------------------------------------------- bitcoin logo ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image010.png?raw=true" "Bitcoin logo" width="20%" >
+<img src="/images/image010.png?raw=true" 
+   alt="Bitcoin logo" 
+   width="20%" >
 &nbsp;
 <p>
 
@@ -413,7 +415,7 @@ Bitcoin has no borders and was created as a decentralized payment system, an alt
 Let us look at what it means to be a currency.
 </p>
 
-<h3>Purpose of currency:</h3>
+<h4>Purpose of currency:</h4>
 <ul type="disc">
    <li>Medium for exchange</li>
    <li>Store of value over time</li>
@@ -429,7 +431,9 @@ According to Investopedia,
 <!------------------------------------------------ government building ---------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image011.png?raw=true" "Government building" width="20%" >
+<img src="/images/image011.png?raw=true" 
+   alt= "Government building" 
+   width="20%" >
 &nbsp;
 
 Apart from the government issuing Fiat, a centralized authority needs to keep track of assets. 
@@ -439,7 +443,9 @@ Banks, credit card companies’ stockbrokers are companies that represent a cent
 <!---------------------------------------------------- bank building ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image012.png?raw=true" "Bank building" width="200" >
+<img src="/images/image012.png?raw=true" 
+   "Bank building" 
+   width="20%" >
 &nbsp;
 
 Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. 
@@ -450,9 +456,12 @@ Cryptocurrencies like Bitcoin have value because it can be proven with math. Unl
 <!---------------------------------------------------- key, keyboard ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image013.png?raw=true" "Key, keyboard" width="200" >
+<img src="/images/image013.png?raw=true" 
+   alt="Key, keyboard" 
+   width="20%" >
 &nbsp;
 
+<shortcut to bitcoinfoundation.org>
 Bitcoin and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology.
 Some privately run blockchains do not use cryptocurrencies as a function of their blockchains.
 Blockchain technology can easily transfer anything from property rights, stocks, and even artwork. 
@@ -464,7 +473,9 @@ There are many more use cases that utilize blockchain technology far reaching th
 <!--------------------------------------------------- blockchain files ---------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image014.png?raw=true" "Blockchain files" width="200" >
+<img src="/images/image014.png?raw=true" 
+   alt="Blockchain files" 
+   width="20%" >
 &nbsp;
 
 <h3>Blockchain - Let’s Cover the Basics</h3>
@@ -996,7 +1007,7 @@ If you want to see some of the really exciting use cases in blockchain right now
 <h3>Use Case: Public Sector - Smart Dubai</h3>
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------  ----------------------------------------------------->
+<!--------------------------------------------------- smart dubai ----------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.png" 
@@ -1022,14 +1033,14 @@ By tracking food on a blockchain, you are building trust into the system through
 In the event of a problem, blockchain technology can pinpoint the exact location and cause of a food health issue. 
 By instantly tracing food issues back to the source, all contaminated lots can be tracked and dealt with instantly.</li>
 
-<li>Global trade<br/>
+<li><b>Global trade</b><br/>
 Blockchain is making headway in the global trade markets with transparency and immutability that offer new relationships among distrusting parties. 
 Blockchain makes sure all relevant parties have access to the same information. 
 Trade barriers are reduced, from settlement issues, to compliance and regulation, information is being shared and accessed in new secure ways. 
 A distributed ledger technology (DLT) opens up a new avenue for securely sharing data that guarantees accuracy while removing banks as deal facilitators. 
 Smart contract and microfinancing alternatives allow all size companies to seamlessly trade across borders.</li>
 
-<li>Digital identity (self-sovereign identity and verifiable credentials)<br/>
+<li><b>Digital identity</b> (self-sovereign identity and verifiable credentials)<br/>
 Users of the Internet were all but unaware that all the information given so freely when interacting with companies online, was being stored and sold. 
 Data became a siloed commodity owned by everyone but you. 
 With new blockchain technology, individuals can reclaim their identity information breaking the need for data silos, endless passwords and hackable databases. 
@@ -1050,15 +1061,17 @@ In this chapter, we discussed:
 <h2 id="ch2">Chapter 2. Blockchain Mechanics</h2>
 
 <h3>Chapter Overview</h3>
+<p>
 In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques.<br/>
 
-We will gain an understanding of how previous computer technologies like file sharing, data storage and cryptography are wrapped into the blockchain foundations.
+We will gain an understanding of how previous computer technologies like file sharing, data storage and cryptography are wrapped into the blockchain foundations.<br/>
 
-We will also see how hashing functions and Merkle tree data structures help us immutably store and prove facts without revealing all the details.
+We will also see how hashing functions and Merkle tree data structures help us immutably store and prove facts without revealing all the details.<br/>
 
-Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure.
+Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure.<br/>
 
-We will examine how this agreed-upon, append-only distributed ledger guarantees transparency and immutability, where trust in the information contained in the ledger is a given.
+We will examine how this agreed-upon, append-only distributed ledger guarantees transparency and immutability, where trust in the information contained in the ledger is a given.<br/>
+</p>
 
 <h3>Learning Objectives</h3>
 By the end of this chapter, you should be able to:
@@ -1072,6 +1085,7 @@ By the end of this chapter, you should be able to:
 </ul>
 
 <h3 id="ch2-1">2.1 Introduction to Blockchain Components</h3>
+<p>
 In this section, we're going to discuss the core components of the blockchain, starting with a high-level view of the blockchain components.<br/>
 
 The first blockchain component that we're going to look at is the ledger.<br/>
@@ -1115,7 +1129,7 @@ Bitcoin is the most popular asset.<br/>
 It was the first asset to be recorded as a transaction on a blockchain ledger, and it remains the most popular, at least in terms of market share.<br/>
 
 That's what the ledger is.
-<p>
+
 As we move to more modern blockchains, we start to look at blockchains such as Ethereum, which not only records the asset on the blockchain,
 
 Ethereum and other public blockchains like Ethereum, they also allow you to have a permanent and immutable collection of code, also known as a smart contract, that runs on the blockchain.
@@ -1125,8 +1139,7 @@ The ledger stores the assets, the transactions that are on the blockchain, and i
 The code that's stored on the blockchain is a smart contract.<br/>
 
 Again, a smart contract is a program that runs on the blockchain.<br/>
-</p>
-<p>
+
 The blockchain is a network.
 
 The blockchain is a ... <b><i>public blockchain</i></b> is equivalent to the Internet, complete with its own set of protocols, etc.
@@ -1216,14 +1229,43 @@ To understand how blockchain came about, we must first understand the following 
 </ul>
 
 <h3>History of Ledgers</h3>
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------ single-entry accounting ledger --------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image028.png?raw=true"
+	alt="Single-Entry Accounting Ledger"
+	width="80%" >
+&nbsp;
+
 <ul>
 <li>Ledgers first appeared around 3,000 B.C.</li>
 <li>Single-entry only.</li>
 <li>Chanakya, an Indian leader, creates the first documented accounting standards.</li>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------ double-entry accounting ledger --------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image029.png?raw=true"
+	alt="Double-Entry Accounting Ledger"
+	width="80%" >
+&nbsp;
+
 <li>Double-entry ledger appears in 1340 A.D.</li>
 <li>Tracks debits and credits.</li>
 <li>Tells the story of a transaction from both/all sides.</li>
 <li>The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.</li>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------- triple-entry accounting ledger ---------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image030.png?raw=true"
+	alt="Triple-Entry Accounting Ledger"
+	width="80%" >
+&nbsp;
+
 <li>Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
 <li>Debits, credits, and an immutable link to all past debits and credits.</li>
 <li>Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).</li>
@@ -1231,12 +1273,21 @@ To understand how blockchain came about, we must first understand the following 
 </ul>
 
 <h3>History of Ledgers (Triple-Entry Example)</h3>
-As described in the Reddit post, 
+[As described in the Reddit post](https://www.reddit.com/r/Accounting/comments/2biy4h/triple_entry_bookkeeping_using_cryptocurrencies/),
 > "A seller books a debit to account for cash received, while a buyer books a credit for cash spent in the same transaction, but in separate sets of accounting records. 
 > This is where the blockchain comes in: rather than these entries occurring separately in independent sets of books, they occur in the form of a transfer between wallet addresses in the same distributed, public ledger, which creates an interlocking system of enduring accounting records. 
 > Since the entries are distributed and cryptographically sealed, falsifying them in a credible way or destroying them to conceal activity is practically impossible".
 
 <h3>Double vs. Triple-Entry Accounting Comparison</h3>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------ double vs triple-entry accounting comparison --------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-double vs triple accounting.png?raw=true"
+	alt="Double vs. Triple-Entry Accounting Comparison"
+	width="80%" >
+&nbsp;
 
 <h3>Island of Yap</h3>
 <p>
