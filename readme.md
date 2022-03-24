@@ -1126,42 +1126,68 @@ The code that's stored on the blockchain is a smart contract.<br/>
 
 Again, a smart contract is a program that runs on the blockchain.<br/>
 </p>
+<p>
 The blockchain is a network.
-The blockchain is a ... A **_public blockchain_** is equivalent to the Internet, complete with its own set of protocols, etc.
-**_Private blockchains_** are more synonymous with an intranet.
+
+The blockchain is a ... <b><i>public blockchain</i></b> is equivalent to the Internet, complete with its own set of protocols, etc.
+
+<b><i>Private blockchains</i></b> are more synonymous with an intranet.
 
 It is... just like we have a use case for public blockchains and public internet, we also have use cases for private blockchains and an intranet, if we're gonna stay with that analogy.
 
-On each of these networks there are nodes. The nodes are going to be synonymous with the computers that make up the network.
+On each of these networks there are nodes. 
+
+The nodes are going to be synonymous with the computers that make up the network.
+
 On the nodes, they are put together by a collection of protocols.
+
 Each blockchain has its own set of protocols that defines not only the nodes, but how those nodes communicate with each other.
-So, when you hear the term "peer network", that's what we're talking about; we're talking about how that blockchain is put together, what are the protocols that define the peers, and how those peers interact.
+
+When you hear the term "peer network", that's what we're talking about; we're talking about how that blockchain is put together, what are the protocols that define the peers, and how those peers interact.
 
 Those peer networks, they store the ledger, they provide the updates, they effectively, they maintain the ledger.
+
 That's what a peer is on a peer network.
 
 On a public blockchain, it's public, and, by definition, that means that anyone is allowed to join and participate in that public blockchain.
+
 On the private blockchain, however, the situation is a little different.
+
 On the private blockchain, we have to control who can access your network.
 
 Just like no company would allow... no company would allow anyone to access their private intranet, in a private blockchain you have to be asked to join, or you have to have permission to join.
+
 A membership service is a gateway that allows users and components to enter a private blockchain.
+
 A membership service or a membership service provider provides the services of user authentication, user authorization, component authentication, component authorization, more specifically Identity Management.
 
 If we're talking about a private blockchain, then we have to control who the members are, and not only the members.
+
 We have to also control the nodes that access the blockchain.
+
 As we're talking about membership, one of the key components of membership is we have to allow certain users to access the blockchain.
+
 In order to do that, we have to have a definitive identity for each user.
 
 In the blockchain, that's achieved in two ways.
+
 One, we use PKI, to provide a public key. And that public key represents the identity of the user.
+
 But we also need a private key that each user can hold to prove their identity.
+
 That private key is stored in a wallet. And a wallet is a collection of the user credentials. It is effectively ... it encapsulates private keys.
+
 Additionally, in the blockchain... blockchains are self-contained, or they should be self-contained.
-And so, one of the key aspects for developing on a blockchain or using a blockchain is we have to have a way to interact with the blockchain.
+
+One of the key aspects for developing on a blockchain or using a blockchain is we have to have a way to interact with the blockchain.
+
 And one of the ways that we do that is through events.
-So, when something occurs on the blockchain, either public blockchains... most public blockchains anyway, and certainly all private blockchains, they have events that are fired when certain key actions are triggered.
+
+When something occurs on the blockchain, either public blockchains... most public blockchains anyway, and certainly all private blockchains, they have events that are fired when certain key actions are triggered.
+
 This allows end-users, other systems, other users, different components to be able to act off of the events that come from an update on a blockchain.
+
+</p>
 
 <h3>Basic Terms</h3>
 Some terms that are mentioned in the video we will get familiar with in later chapters, but are worth a brief description for clarification:
@@ -1213,17 +1239,28 @@ As described in the Reddit post,
 <h3>Double vs. Triple-Entry Accounting Comparison</h3>
 
 <h3>Island of Yap</h3>
+<p>
 Idea for the following was obtained from the LinkedIn article "Explaining Blockchain: The Distributed Ledger of the Island of Yap" by Anthony (Tony) Riva.<br/>
+
 The concept of distributed ledger's has been around for hundreds of years.<br/>
+
 To understand the basics of blockchain, it's important to understand how distributed ledgers work.<br/>
+
 A distributed ledger is a collection of data with no central administrator that has been agreed upon by consensus.<br/>
+
 To understand more details, let's take a trip way back, back into 500 AD on the island of Yap.<br/>
+
 The Yapese people used a very unique form of currency: the Rai stone.<br/>
+
 Each of these stones weighed around 200 kilos, making them difficult to move.<br/>
+
 To exchange them as money for goods or services, they divided the stones into sections and then, they would announce to every adult on the island who owned what part of each stone.<br/>
 Each adult had to keep a mental ledger of ownership.<br/>
+
 Every time any Yapese conducted a trade, an announcement was made to the entire tribe.<br/>
+
 Each member of the tribe would then update their mental ledger.<br/>
+
 In today's description, this would be called a distributed ledger.<br/>
 All Rai stone ownership was known to everyone, and that knowledge was updated whenever a transaction was made.<br/>
 So why didn't just one member of the tribe keep track of the Rai stones?<br/>
@@ -1238,10 +1275,10 @@ One day, a stone fell into the ocean and the Yapese decided that this stone, eve
 This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.<br/>
 
 <h3>Island of Yap: Recap</h3>
-  >1. The group shared the ledger.
-  >2. The group agreed to the ledger.
-  >4. All changes or transactions to the ledger were announced to the group.
-  >4. The group agreed to update all ledgers.
+>1. The group shared the ledger.
+>2. The group agreed to the ledger.
+>3. All changes or transactions to the ledger were announced to the group.
+>4. The group agreed to update all ledgers.
 
 <h3>Let's review an example on Yap Island:</h3>
 Alice agrees to trade Bob her stone by the pond in exchange for all of his cattle.
