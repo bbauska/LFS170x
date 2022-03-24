@@ -280,10 +280,11 @@ The new Web 3.0 browsers are being built to help you manage your cryptocurrency,
 Let’s now dive into blockchain basics.
 
 <h3 id="ch1-3">1.3 What Is Blockchain? (Blockchain Basics)</h3>
+<p>
 There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
 <br/>
 
-You've probably heard of it: it's called **'Blockchain!'**
+You've probably heard of it: it's called **Blockchain!**
 
 But what is it?  How does it work?  How does it affect you?<br/>
 
@@ -396,6 +397,15 @@ Smart contracts will revolutionize how we do business.
 
 There are so many possibilities with blockchain; not just in the now, but with things we haven't begun to think about yet.
 
+<b><i>Blockchain Is **NOT** Bitcoin</i></b><br/>
+
+Bitcoin is a digital currency running on top of the Bitcoin blockchain. We will develop the concept of cryptocurrencies in later sections. 
+
+Bitcoin has no borders and was created as a decentralized payment system, an alternative to currencies issued by governments. 
+
+Let us look at what it means to be a currency.
+</p>
+
 <!------------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------------------------- bitcoin logo ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -406,15 +416,6 @@ There are so many possibilities with blockchain; not just in the now, but with t
 &nbsp;
 <p>
 
-<b><i>Blockchain Is **NOT** Bitcoin</i></b><br/>
-
-Bitcoin is a digital currency running on top of the Bitcoin blockchain. We will develop the concept of cryptocurrencies in later sections. 
-
-Bitcoin has no borders and was created as a decentralized payment system, an alternative to currencies issued by governments. 
-
-Let us look at what it means to be a currency.
-</p>
-
 <h4>Purpose of currency:</h4>
 <ul type="disc">
    <li>Medium for exchange</li>
@@ -422,7 +423,7 @@ Let us look at what it means to be a currency.
    <li>Accepted as a measure of worth</li>
 </ul>
 
-According to Investopedia, 
+According to [Investopedia](https://www.investopedia.com/terms/f/fiatmoney.asp), 
 > “Fiat currency is money a government issues that is not backed by a commodity like gold. 
 > Fiat money is backed by the government and it has value because the government says so and the citizens believe it. 
 > The dollar is an example of the United States fiat currency”.
@@ -461,8 +462,7 @@ Cryptocurrencies like Bitcoin have value because it can be proven with math. Unl
    width="20%" >
 &nbsp;
 
-<shortcut to bitcoinfoundation.org>
-Bitcoin and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology.
+[Bitcoin](https://bitcoinfoundation.org/) and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology.
 Some privately run blockchains do not use cryptocurrencies as a function of their blockchains.
 Blockchain technology can easily transfer anything from property rights, stocks, and even artwork. 
 There are many more use cases that utilize blockchain technology far reaching than currency transfer.
@@ -618,9 +618,10 @@ The ledger is distributed among participants in the network, all running the sam
 
 It is decentralized in that an identical copy of the ledger exists on every node/computer on the network. 
 
-In 2009 with the publishing of Satoshi Nakamoto’s whitepaper “Bitcoin: A Peer-to-Peer Electronic Cash System” , Bitcoin became the first application to leverage blockchain technology by recording the first asset transfer on a public blockchain ledger.
+In 2009 with the publishing of Satoshi Nakamoto’s whitepaper [“Bitcoin: A Peer-to-Peer Electronic Cash System”](https://bitcoin.org/bitcoin.pdf) ,[Bitcoin](https://bitcoinfoundation.org/) became the first application to leverage blockchain technology by recording the first asset transfer on a public blockchain ledger.
 
 <h3>Blockchain Features: Peer to Peer Network</h3>
+<p>
 The ledger is stored, updated, and maintained by a peer network. <br/>
 
 Nodes form the infrastructure of a blockchain network. 
@@ -632,6 +633,7 @@ All nodes on a network follow the same rules of operation or protocols, but node
 A full node contains a copy of the blockchain protocol, transaction history of the blockchain and aids in the maintenance of the blockchain. 
 
 User node interacts with the ledger. With blockchain technology, a lack of a centralized authority is replaced with a peer-to-peer network.
+</p>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!-------------------------------- Blockchain networks can be public or private ------------------------------------------->
@@ -642,7 +644,10 @@ User node interacts with the ledger. With blockchain technology, a lack of a cen
 	width="40%" >
 &nbsp;
 
-Blockchain networks can be public or private. A public blockchain is open to anyone with an internet connection and the appropriate application. 
+Blockchain networks can be <i>public</i> or <i>private</i>. 
+
+A public blockchain is open to anyone with an internet connection and the appropriate application. 
+
 A private blockchain grants access and rights to its users before they can interact.
 
 <h3>Blockchain Features: Transparency</h3>
@@ -657,11 +662,13 @@ Since every node shares a copy of the agreed-upon ledger, there is no friction a
 Centralized systems are not transparent, the information about the ledger is controlled by one authority.
 
 <h3>Blockchain Features: Consensus</h3>
+<p>
 Blockchain ledgers are different from centralized ledgers because network participants have an agreement upon what is in the identical ledger. <br/>
 
 In order for the blocks to be added, all the nodes in the system come to agree as to what transactions are accurate and should be added to the chain of blocks. 
 
 Since there is no central authority telling the nodes which transactions are valid, a new way to reach agreement or come to consensus is needed.
+</p>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------- All agree to transaction ------------------------------------------------->
@@ -679,6 +686,7 @@ The Bitcoin network uses a proof of work consensus model.
 This process of building agreement among a group of mutually distrusting participants is a benefit of blockchain consensus.
 
 <h3>Blockchain Features: Encryption</h3>
+<p>
 Encryption and cryptography are combined with blockchain technology to assure the information on the blockchain is authentic. <br/>
 
 In our previous real-world example, the music sharing companies not only had legal issues from copyright infringement, they also could not solve the data integrity problem. 
@@ -690,13 +698,14 @@ The data had no integrity.
 Cryptography and blockchain offer a secure way to prove something is authentic. 
 
 Instead of relying on third-party, trust is put into cryptographic algorithms that prove the provenance and authenticity of an attestation.
+</p>
 
 <h3>Blockchain Features: Programable</h3>
 Some blockchains offer an additional feature, <i>smart contracts</i>, that impose logic into the system. <br/>
 
 If you think of the Bitcoin blockchain as a calculator recording financial transactions, you can think of these blockchains as computers. 
 
-The first of these blockchains is <b><i>Ethereum</i></b>, created by Vitalik Buterin, Joe Lubin and team. 
+The first of these blockchains is <b><i>[Ethereum](https://ethereum.org/en/)</i></b>, created by Vitalik Buterin, Joe Lubin and team. 
 
 Ethereum runs the EVM, Ethereum Virtual Machine, which has the ability to impose digital agreements or smart contracts. 
 
@@ -776,6 +785,7 @@ Designers are needed to turn these moments/media into art for the thirsty NFT ma
 </ul>
 
 <h3 id="ch1-5">1.5 Who is Using Blockchain? (Use Cases)</h3>
+<p>
 There are a lot of really interesting use cases being explored with blockchain right now.<br/>
 
 When you first get into blockchain, one of the areas you'll see people immediately jump to are healthcare, how can we manage our personal health information on the blockchain, and voting an election reform, and both of these are really, really interesting ideas.<br/>
@@ -862,7 +872,7 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
 
 <h3>Real World Example of Supply Chain Business to Consumer</h3>
 
-<h3>Use Case: Diamond Tracing</h3>
+<h4>Use Case: Diamond Tracing</h4>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!-------------------------------------------------- Trustchain logo ------------------------------------------------------>
@@ -874,7 +884,7 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
 &nbsp;
 
 <ul>
-<li><b>Approach:</b> The blockchain collaboration, known as TrustChainTM, will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.</li><br/>
+<li><b>Approach:</b> The blockchain collaboration, known as [TrustChainTM](https://www.trustchainjewelry.com/), will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.</li><br/>
 
 <li><b>Result:</b> The jewelry industry can now track and authenticate diamonds and precious metals through every stage of the supply chain. 
 Blockchain provides physical product verification, process verification and servers as an ethical oversight.</li><br/>
@@ -898,7 +908,7 @@ Industries like finance, international trade and commerce, food supply chains ar
 
 <h3>Real World Example of Business to Business Transaction</h3>
 
-<h3>Use Case: Multi-party Invoicing DLT Labs</h3>
+<h4>Use Case: Multi-party Invoicing DLT Labs</h4>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------- Walmart Canada & DLT Labs logos --------------------------------------------->
@@ -909,6 +919,7 @@ Industries like finance, international trade and commerce, food supply chains ar
    width="40%" >
 &nbsp;
 </p>
+
 <ul>
 <li><b>Approach:</b> <i>DLT Labs</i> along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
   The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. 
@@ -918,52 +929,71 @@ Industries like finance, international trade and commerce, food supply chains ar
 </ul>
 
 <h3>Unintended Use Cases</h3>
-One of the coolest things about blockchain is some of the unintended consequences a good blockchain solution might have.
-&nbsp;
-<br/>
+<p>
+One of the coolest things about blockchain is some of the unintended consequences a good blockchain solution might have.<br/>
 
 Let's look at an example.<br/>
+</p>
+<p>
+Right now, there is a lot of attention being given to how blockchain might be used, in general, for supply chain relationships and, specifically, in the food supply chain.
 
-<p>
-Right now, there is a lot of attention being given to how blockchain might be used, in general, for supply chain relationships and, specifically, in the food supply chain.</p>
-<p>Let's pretend that you have a very young child and your child has a serious pesticide allergy.</p>
-Of course, when you go to the grocery store, you make sure that you only buy the produce in the produce section that has the USDA organic label.</p>
-<p>It's just a little sticker that goes on the produce.</p>
-<p>You buy your produce and you stand in the checkout line, and you feel pretty good that the produce you're buying actually is organic and has been treated with all-natural pesticides, and won't make your young child sick.
+Let's pretend that you have a very young child and your child has a serious pesticide allergy.
+
+Of course, when you go to the grocery store, you make sure that you only buy the produce in the produce section that has the USDA organic label.
+
+It's just a little sticker that goes on the produce.</p>
+
+You buy your produce and you stand in the checkout line, and you feel pretty good that the produce you're buying actually is organic and has been treated with all-natural pesticides, and won't make your young child sick.
+
 But sometimes you wonder, standing in line, how do I really know? 
+
 How do I really know that someone didn't just print up a bunch of these stickers in their basement and apply them at the last minute?
-</p>
-<p>
+
 The blockchain can go a long way to solving that problem and providing much greater insight.
+
 Let's say, you're standing in the grocery store one day, and instead of the easily forged stickers, you're able to pull out your phone and scan a QR code.
+
 When you scan that QR code, instantly on your phone the entire lifecycle of that piece of produce pops up.
+
 You can see the date that it was planted on the orchard.
+
 You can see after it was planted that an organic pesticide company came along and treated it with an all-natural pesticide.
+
 You can even verify that the pesticide is natural by seeing the ingredient list in that pesticide.
+
 And finally, you may see who actually delivered that produce to the store.
-</p>
-<p>
+
 Let's say that there's a new green electric trucking company out there - <b>Ed's Electric Trucking</b>.<br/>
+
 Ed has seen all the fancy new Tesla semis.
+
 He thinks they're great and he is committed to providing a transportation and logistics company which is also environmentally friendly.
+
 Now, in today's world, you don't have a way of knowing about someone like Ed and his electric trucking company.
+
 There just aren't good ways for folks in the B2B space to communicate their business value directly to consumers.
+
 This is an interesting potential byproduct of using blockchain and smart contracts as a business solution.
+
 Not only would I, as a consumer, have greater insight into the origin of that produce and feel much better standing in the checkout line, but maybe what Ed's doing resonates with me personally.
 
 Maybe I'm a very green-conscious consumer.
 
 I didn't know there was such an organization as Ed's.
+
 And I have to buy a few more things while I'm at the store, besides produce. I have to buy some deodorant, some shaving cream, and some laundry detergent.
+
 When I buy that deodorant, shaving cream, laundry detergent, I only buy the ones that were delivered by Ed's Electric Trucking.
+
 This gives Ed and other B2B players a new and exciting way to establish brand and gain mindshare with the consumer that they currently don't have.
+
 Certainly, it was not the original problem we went to solve with blockchain, but many times, when we apply blockchain to a real-world problem, we find out there are a lot of unexpected benefits just like this.
-</p>
-<p>
+
 Look for blockchain not just to transform the areas that we're aware it might make a difference in, but also to provide some new exciting and unintended benefits.
 </p>
 
 <h3>Blockchain Users: Government to Consumer (G2C)/Government to Government (G2G)</h3>
+<p>
 The public sector is the part of the economy composed of both public sector and private sector enterprises that are operating on behalf of the public.<br/>
 
 It is the business of taking care of the people. Public sector includes all government, military, police, public health and welfare, infrastructure, etc. <br/>
@@ -973,6 +1003,7 @@ Public sector organizations leverage blockchain technology to move away from sil
 Current systems are inherently insecure and costly, with duplicated and in-efficient workflows. <br/>
 
 Blockchain networks offer more secure, agile, and cost-effective structures.<br/>
+</p>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------- Government Benefits from Blockchain ----------------------------------------->
@@ -1004,7 +1035,7 @@ If you want to see some of the really exciting use cases in blockchain right now
 
 <h3>Real World Example of Public Sector Government to Government/Citizens</h3>
 
-<h3>Use Case: Public Sector - Smart Dubai</h3>
+<h4>Use Case: Public Sector - Smart Dubai</h4>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!--------------------------------------------------- smart dubai ----------------------------------------------------->
