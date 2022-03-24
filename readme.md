@@ -20,8 +20,8 @@
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------ linux blockchain logo -------------------------------------------------->
 <p align="center">
-<img src="/images/image-logo.png?raw=true"
-	alt="Linux Blockchain logo"
+<img src="/images/image-lfs170x-logo.png?raw=true"
+	alt="Linux LFS170x logo"
 	width="50%">
 &nbsp;
 
