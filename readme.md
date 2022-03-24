@@ -483,7 +483,6 @@ They're simply combined in a new and creative way to give us an amazing new plat
 <span style="background-color: #FFFF00">Blockchains are often referred to as <b>digital decentralized ledgers</b>.</span>
 <br/>
 &nbsp;
-
 <p>
 And when you think of that, all you can think of is something we're all familiar with: a simple notebook.
 
@@ -521,11 +520,13 @@ You already understand all the major principles and concepts required to underst
 </p>
 
 <h3>Let’s Review an Analogy</h3>
-A block on a blockchain can be thought of much like a page in a notebook. Data is stored on a block, just like data is written on a page of a notebook. 
+A block on a blockchain can be thought of much like a page in a notebook. Data is stored on a block, just like data is written on a page of a notebook. <br/>
 
 Similar to a sheet of paper, the digital ledger doesn't care what kind of information you're putting on it. 
 
-While most of what we're recording today are financial transactions, we could also record things like voting records and results, land titling and medical records, etc. What makes this blockchain notebook incredibly powerful is that all the pages are linked together. 
+While most of what we're recording today are financial transactions, we could also record things like voting records and results, land titling and medical records, etc. 
+
+What makes this blockchain notebook incredibly powerful is that all the pages are linked together. 
 
 If you go back and try and change any data on any page anywhere in this notebook, you break a link in a very obvious and easy-to-determine way.
 
@@ -557,7 +558,7 @@ Examples of stored data include:
    width="40%" >
 &nbsp;
 
-<h4>Let’s Review an Analogy: Blocks Are Chained Together</h4>
+<h3>Let’s Review an Analogy: Blocks Are Chained Together</h3>
 Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
 
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -578,11 +579,12 @@ If the data is tampered with anywhere in the chain, the links will break in a ve
 <p align="center" width="100%">
 <img src="/images/image018.png?raw=true" 
 	alt="Blockchain is immutable" 
-	width="40%" >
+	width="65%" >
 &nbsp;
  
 This provides immutability and security.
-Blockchain Features
+
+<h3>Blockchain Features</h3>
 Blockchain is a combination of several other underlying technologies that have never been combined so successfully.
 Here are some features that make this new technology so revolutionary.
 
@@ -595,8 +597,8 @@ Here are some features that make this new technology so revolutionary.
 	width="65%" >
 &nbsp;
 
-<h4>Blockchain Features: Distributed Ledger</h4>
-A ledger is a collection of transactions. 
+<h3>Blockchain Features: Distributed Ledger</h3>
+A ledger is a collection of transactions. <br/>
 
 It is not a collection of assets. 
 
@@ -610,8 +612,8 @@ It is decentralized in that an identical copy of the ledger exists on every node
 
 In 2009 with the publishing of Satoshi Nakamoto’s whitepaper “Bitcoin: A Peer-to-Peer Electronic Cash System” , Bitcoin became the first application to leverage blockchain technology by recording the first asset transfer on a public blockchain ledger.
 
-<h4>Blockchain Features: Peer to Peer Network</h4>
-The ledger is stored, updated, and maintained by a peer network. 
+<h3>Blockchain Features: Peer to Peer Network</h3>
+The ledger is stored, updated, and maintained by a peer network. <br/>
 
 Nodes form the infrastructure of a blockchain network. 
 
@@ -635,8 +637,8 @@ User node interacts with the ledger. With blockchain technology, a lack of a cen
 Blockchain networks can be public or private. A public blockchain is open to anyone with an internet connection and the appropriate application. 
 A private blockchain grants access and rights to its users before they can interact.
 
-<h4>Blockchain Features: Transparency</h4>
-In a blockchain, we can see all the transactions that have occurred on the shared or distributed ledger. 
+<h3>Blockchain Features: Transparency</h3>
+In a blockchain, we can see all the transactions that have occurred on the shared or distributed ledger. <br/>
 
 A blockchain stores details of every transaction that occurred since the first transfer. 
 
@@ -646,8 +648,8 @@ Since every node shares a copy of the agreed-upon ledger, there is no friction a
 
 Centralized systems are not transparent, the information about the ledger is controlled by one authority.
 
-<h4>Blockchain Features: Consensus</h4>
-Blockchain ledgers are different from centralized ledgers because network participants have an agreement upon what is in the identical ledger. 
+<h3>Blockchain Features: Consensus</h3>
+Blockchain ledgers are different from centralized ledgers because network participants have an agreement upon what is in the identical ledger. <br/>
 
 In order for the blocks to be added, all the nodes in the system come to agree as to what transactions are accurate and should be added to the chain of blocks. 
 
@@ -668,15 +670,26 @@ The Bitcoin network uses a proof of work consensus model.
 
 This process of building agreement among a group of mutually distrusting participants is a benefit of blockchain consensus.
 
-<h4>Blockchain Features: Encryption</h4>
-Encryption and cryptography are combined with blockchain technology to assure the information on the blockchain is authentic. In our previous real-world example, the music sharing companies not only had legal issues from copyright infringement, they also could not solve the data integrity problem. Music downloaded from these platforms was only as reliable as the anonymous person storing and sending it. The data had no integrity. Cryptography and blockchain offer a secure way to prove something is authentic. Instead of relying on third-party, trust is put into cryptographic algorithms that prove the provenance and authenticity of an attestation.
+<h3>Blockchain Features: Encryption</h3>
+Encryption and cryptography are combined with blockchain technology to assure the information on the blockchain is authentic. <br/>
 
-<h4>Blockchain Features: Programable</h4>
-Some blockchains offer an additional feature, smart contracts, that impose logic into the system. 
+In our previous real-world example, the music sharing companies not only had legal issues from copyright infringement, they also could not solve the data integrity problem. 
+
+Music downloaded from these platforms was only as reliable as the anonymous person storing and sending it. 
+
+The data had no integrity. 
+
+Cryptography and blockchain offer a secure way to prove something is authentic. 
+
+Instead of relying on third-party, trust is put into cryptographic algorithms that prove the provenance and authenticity of an attestation.
+
+<h3>Blockchain Features: Programable</h3>
+Some blockchains offer an additional feature, <i>smart contracts</i>, that impose logic into the system. <br/>
 
 If you think of the Bitcoin blockchain as a calculator recording financial transactions, you can think of these blockchains as computers. 
 
-The first of these blockchains is Ethereum, created by Vitalik Buterin, Joe Lubin and team. 
+The first of these blockchains is <b><i>Ethereum</i></b>, created by Vitalik Buterin, Joe Lubin and team. 
+
 Ethereum runs the EVM, Ethereum Virtual Machine, which has the ability to impose digital agreements or smart contracts. 
 
 A smart contract is a program that runs on a blockchain that can impose contractual agreements. 
@@ -685,7 +698,7 @@ Typically, they work as digital agreements that enforce a specific set of rules.
 
 These rules are predefined by computer code, which is replicated and executed by all network nodes. 
 
-lockchain smart contracts allow for the creation of trustless protocols. 
+Lockchain smart contracts allow for the creation of trustless protocols. 
 
 This means that two parties can make commitments via blockchain, without having to know or trust each other. 
 
@@ -788,6 +801,7 @@ These are some real, real exciting areas that we see being pursued in blockchain
 On the public sector, there's a lot of interest in blockchain for law enforcement purposes.
 
 How do we allow different law enforcement agencies at the federal, state, county, city level, all to share data seamlessly, in a safe, secure fashion, which also protects people's personal privacy and anonymity, when appropriate.
+
 Another area where blockchain is getting explored and is generating a lot of excitement is with artists, with people who produce content.
 
 If you're an author, if you're a musician, if you're an artist, traditionally, you've only been able to get your work out to the public, in the hands of the public, by going through a third-party intermediary.
@@ -833,7 +847,7 @@ Benefits to the consumer are transparency to the consumer, accountability from s
 <p align="center">
 <img src="/images/image022.png?raw=true" 
    alt="Consumer Benefits from Blockchain" 
-   width="40%" >
+   width="65%" >
 &nbsp;
 
 Vertical markets see the advantage to the transparency feature in blockchain. Financials, logistics, charity funding, agriculture and ethical sourcing tracking are all markets leveraging blockchain to offer new insights to the customer.
@@ -851,10 +865,12 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
    width="20%" >
 &nbsp;
 
-<b>Approach:</b> The blockchain collaboration, known as TrustChainTM, will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.<br/>
+<ul>
+<li><b>Approach:</b> The blockchain collaboration, known as TrustChainTM, will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.</li><br/>
 
-Result: The jewelry industry can now track and authenticate diamonds and precious metals through every stage of the supply chain. 
-Blockchain provides physical product verification, process verification and servers as an ethical oversight.<br/>
+<li><b>Result:</b> The jewelry industry can now track and authenticate diamonds and precious metals through every stage of the supply chain. 
+Blockchain provides physical product verification, process verification and servers as an ethical oversight.</li><br/>
+</ul>
 
 <h3>Blockchain Users: Business to Business (B2B)</h3>
 With a decentralized approach, blockchain removes the middleman (such as banks and brokers) to facilitate faster and less expensive payments. <br/>
@@ -867,7 +883,7 @@ The shared ledger approach also eliminates the need for multiple paper copies th
 <p align="center">
 <img src="/images/image024.png?raw=true" 
    alt="Business Benefits from Blockchain" 
-   width="40%" >
+   width="65%" >
 &nbsp;
 
 Industries like finance, international trade and commerce, food supply chains are taking a serious look at blockchain.
@@ -885,11 +901,13 @@ Industries like finance, international trade and commerce, food supply chains ar
    width="40%" >
 &nbsp;
 </p>
-   • <b>Approach:</b> <i>DLT Labs</i> along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
+<ul>
+<li><b>Approach:</b> <i>DLT Labs</i> along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
   The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. 
-  The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
+  The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.</li>
 &nbsp;<br/>
-   • <b>Result:</b> Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
+<li><b>Result:</b> Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.</li>
+</ul>
 
 <h3>Unintended Use Cases</h3>
 One of the coolest things about blockchain is some of the unintended consequences a good blockchain solution might have.
@@ -989,40 +1007,36 @@ If you want to see some of the really exciting use cases in blockchain right now
    alt="Smart Dubai" >
 &nbsp;
 
-  * <b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.<br/>
-   The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership.<br/>
-  * <b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br/>
-   When successful, Dubai will be the first blockchain-powered government driving the future economy.
+<ul>
+<li><b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.
+The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership.</li><br/>
+
+<li><b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br/>
+When successful, Dubai will be the first blockchain-powered government driving the future economy.</li>
+</ul>
 
 <h3>More Use Cases</h3>
 Blockchain is having far reaching effects in major industries.
 Let’s take a look at three major industries having a positive influence from this new way to organize our information:<br/>
 <ul>
-<li>Supply chain<br/>
-<p>
+<li><b>Supply chain</b><br/>
 Blockchain is used in supply chains to gain transparency and traceability. This has a special advantage for global health when used in traceability to the food supply chain. 
 By tracking food on a blockchain, you are building trust into the system through the transparency feature. 
 In the event of a problem, blockchain technology can pinpoint the exact location and cause of a food health issue. 
 By instantly tracing food issues back to the source, all contaminated lots can be tracked and dealt with instantly.</li>
-</p>
 
 <li>Global trade<br/>
-<p>
 Blockchain is making headway in the global trade markets with transparency and immutability that offer new relationships among distrusting parties. 
 Blockchain makes sure all relevant parties have access to the same information. 
 Trade barriers are reduced, from settlement issues, to compliance and regulation, information is being shared and accessed in new secure ways. 
 A distributed ledger technology (DLT) opens up a new avenue for securely sharing data that guarantees accuracy while removing banks as deal facilitators. 
 Smart contract and microfinancing alternatives allow all size companies to seamlessly trade across borders.</li>
-</p>
 
-</li>Digital identity (self-sovereign identity and verifiable credentials)<br/>
-<p>
+<li>Digital identity (self-sovereign identity and verifiable credentials)<br/>
 Users of the Internet were all but unaware that all the information given so freely when interacting with companies online, was being stored and sold. 
 Data became a siloed commodity owned by everyone but you. 
 With new blockchain technology, individuals can reclaim their identity information breaking the need for data silos, endless passwords and hackable databases. 
-Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.
-</p>
-</li>
+Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.</li>
 </ul>
 
 <h3 id="ch1-6">1.6 Chapter Summary</h3>
@@ -1039,7 +1053,7 @@ In this chapter, we discussed:
 <h2 id="ch2">Chapter 2. Blockchain Mechanics</h2>
 
 <h3>Chapter Overview</h3>
-In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques.
+In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques.<br/>
 
 We will gain an understanding of how previous computer technologies like file sharing, data storage and cryptography are wrapped into the blockchain foundations.
 
