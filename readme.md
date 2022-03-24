@@ -481,8 +481,6 @@ They're simply combined in a new and creative way to give us an amazing new plat
 </p>
 
 <span style="background-color: #FFFF00">Blockchains are often referred to as <b>digital decentralized ledgers</b>.</span>
-<br/>
-&nbsp;
 <p>
 And when you think of that, all you can think of is something we're all familiar with: a simple notebook.
 
