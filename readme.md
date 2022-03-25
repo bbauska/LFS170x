@@ -1281,7 +1281,7 @@ To understand how blockchain came about, we must first understand the following 
 <ul>
 <li>Ledgers first appeared around 3,000 B.C.</li>
 <li>Single-entry only.</li>
-<li>Chanakya, an Indian leader, creates the first documented accounting standards.</li>
+<li>Chanakya, an Indian leader, creates the first documented accounting standards.</li><br/>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------ double-entry accounting ledger --------------------------------------->
@@ -1295,7 +1295,7 @@ To understand how blockchain came about, we must first understand the following 
 <li>Double-entry ledger appears in 1340 A.D.</li>
 <li>Tracks debits and credits.</li>
 <li>Tells the story of a transaction from both/all sides.</li>
-<li>The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.</li>
+<li>The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.</li><br/>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------- triple-entry accounting ledger ---------------------------------------------->
@@ -1314,7 +1314,7 @@ To understand how blockchain came about, we must first understand the following 
 
 <h3>History of Ledgers (Triple-Entry Example)</h3>
 
-[As described in the Reddit post](https://www.reddit.com/r/Accounting/comments/2biy4h/triple_entry_bookkeeping_using_cryptocurrencies/),
+<b>As described in the</b>[Reddit post](https://www.reddit.com/r/Accounting/comments/2biy4h/triple_entry_bookkeeping_using_cryptocurrencies/),
 <blockquote>
 "A seller books a debit to account for cash received, while a buyer books a credit for cash spent in the same transaction, but in separate sets of accounting records. 
 This is where the blockchain comes in: rather than these entries occurring separately in independent sets of books, they occur in the form of a transfer between wallet addresses in the same distributed, public ledger, which creates an interlocking system of enduring accounting records. 
