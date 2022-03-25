@@ -1509,28 +1509,43 @@ Rose did this for a number of years, until finally her encryption method was bro
 When you hear about blockchain and all the new cutting-edge things that it's doing, don't forget that it has its roots in very old technology, and we're just combining old technology in new and creative ways to create a brand new solutions development platform.
 
 <h3>Early Use of Cryptography: Caesar Cipher</h3>
-As described in the "Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet" article by Melanie Shapiro,
-> "A little over 2,000 years ago, Julius Caesar developed a simple system to send secure information to his troops. 
-> It was all about substituting certain letters for others, typically by shifting the letters by a predetermined number. 
-> That algorithm is what we would call a cipher, and since Caesar’s invention, cipher keys are much more secure and advanced. 
-> If you want to encrypt and decrypt information, you are going to have to choose a kind of cipher to do so".
+
+As described in the ["Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet"](https://medium.com/tokenring/ancient-uses-of-cryptography-four-examples-that-pre-date-the-internet-14679ae4f509) article by Melanie Shapiro,
+<blockquote>
+"A little over 2,000 years ago, Julius Caesar developed a simple system to send secure information to his troops. 
+It was all about substituting certain letters for others, typically by shifting the letters by a predetermined number. 
+That algorithm is what we would call a cipher, and since Caesar’s invention, cipher keys are much more secure and advanced. 
+If you want to encrypt and decrypt information, you are going to have to choose a kind of cipher to do so".
+</blockquote>
 
 <h3>Cryptography Key Terms</h3>
 Let's explain the key terms used in cryptography:
-   * Cryptography
-Cryptography is a technique used to secure the communication between two parties from a third. The term cryptography is derived from two ancient greek terms, “kryptos” which means “hidden” and “graphein” which means “to write”.
-   * Secret
-The data which we are trying to protect.
-   * Key
-A piece of data used for encrypting and decrypting the secret.
-   * Function
-The process or function used to encrypt the secret.
-   * Cipher
-The encrypted secret data, the digital secret, the output of the mathematical function or a cryptographic algorithm.
-   * Encryption
-This is the process from plain text (ordinary text) to cipher text (random sequence of bits).
-   * Decryption
-Encryption is the reverse process of converting ciphertext into plain text.
+<ul>
+<li>Cryptography<br/>
+Cryptography is a technique used to secure the communication between two parties from a third. The term cryptography is derived from two ancient greek terms, “kryptos” which means “hidden” and “graphein” which means “to write”.</li>
+<li>Secret<br/>
+The data which we are trying to protect.</li>
+<li>Key<br/>
+A piece of data used for encrypting and decrypting the secret.</li>
+<li>Function<br/>
+The process or function used to encrypt the secret.</li>
+<li>Cipher<br/>
+The encrypted secret data, the digital secret, the output of the mathematical function or a cryptographic algorithm.</li>
+<li>Encryption<br/>
+This is the process from plain text (ordinary text) to cipher text (random sequence of bits).</li>
+<li>Decryption<br/>
+Encryption is the reverse process of converting ciphertext into plain text.</li>
+</ul>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------- Cryptography key terms --------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-cryptography-key-terms.png?raw=true"
+	alt="Cryptography Key Terms"
+	width="50%" >
+&nbsp;
+<br/>
 
 The Secret and the Key are passed into the Function to create the Cipher.
 
@@ -1556,12 +1571,13 @@ Now again, most cryptographic functions are two-way, meaning it doesn't do me a 
 
 And oftentimes, all this involves is using the same key or a reverse key into the same function, with the cipher's input to get the secret back out.
 
-So, when we talk about cryptography, keep in mind those four basic components: 
-   1. the secret, 
-   2. the key, 
-   3. the function, and 
-   4. the cipher.
-
+When we talk about cryptography, keep in mind those four basic components: 
+<ol>
+<li>the secret, </li>
+<li>the key, </li>
+<li>the function, and </li>
+<li>the cipher.</li>
+</ol>
 Then, understand that cryptographic hashing is a very special class of cryptographic functions, which, unlike all their cousins, are only one way, meaning that in a cryptographic hash I can put information or a secret into it, the key and the function are contained as one entity, and what I get back out is encoded data.
 
 I get what's called a hash or a hash result, that is an encryption based on the data that I put in.
@@ -1599,11 +1615,13 @@ Simple example function:
 </ul>
 
 As mentioned in the "Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet" article by Melanie Shapiro,
-> "(...), in the 1970s cryptologists Whitfield Diffie and Martin Hellman made a landmark invention: asymmetric key encryption. 
-> It’s the concept that both HTTPS (the popular protocol used to access a secure web server discussed previously) and the secure element within a token rely on to keep your information completely private.
-> The principles behind it are genius. Instead of a shared key that codes and decodes information, the key for encrypting the information is different from the key that decrypts it — that way there is no longer a shared, secret key. 
-> With this invention, in order to share a secret message, you no longer even have to know the person you are sending it to.
-> Most importantly, for people like us who care deeply about safe authentication and identity protection, the private key itself is never communicated at all, and that means no more shared secrets".
+<blockquote>
+"(...), in the 1970s cryptologists Whitfield Diffie and Martin Hellman made a landmark invention: asymmetric key encryption. 
+It’s the concept that both HTTPS (the popular protocol used to access a secure web server discussed previously) and the secure element within a token rely on to keep your information completely private.
+The principles behind it are genius. Instead of a shared key that codes and decodes information, the key for encrypting the information is different from the key that decrypts it — that way there is no longer a shared, secret key. 
+With this invention, in order to share a secret message, you no longer even have to know the person you are sending it to.
+Most importantly, for people like us who care deeply about safe authentication and identity protection, the private key itself is never communicated at all, and that means no more shared secrets".
+</blockquote>
 
 <h3>Byzantine Fault Tolerance</h3>
 As you start to get more and more into blockchain, one term that you're gonna hear a lot is Byzantine Fault Tolerance.
