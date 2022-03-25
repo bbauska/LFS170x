@@ -1543,11 +1543,9 @@ Encryption is the reverse process of converting ciphertext into plain text.</li>
 <p align="center">
 <img src="/images/image-cryptography-key-terms.png?raw=true"
 	alt="Cryptography Key Terms"
-	width="50%" >
+	width="65%" >
 &nbsp;
-<br/>
-
-The Secret and the Key are passed into the Function to create the Cipher.
+<p align="center">The Secret and the Key are passed into the Function to create the Cipher.</p>
 
 <h3>Cryptography Basics</h3>
 One of the technologies that plays a pivotal role in blockchain and making blockchain secure and immutable is cryptography.
