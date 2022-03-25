@@ -1327,7 +1327,7 @@ Since the entries are distributed and cryptographically sealed, falsifying them 
 &nbsp;
 
 <h3>Island of Yap</h3>
-<p>
+
 Idea for the following was obtained from the LinkedIn article ["Explaining Blockchain: The Distributed Ledger of the Island of Yap"](https://www.linkedin.com/pulse/explaining-blockchain-distributed-ledger-island-yap-riva/) by Anthony (Tony) Riva.
 
 The concept of distributed ledger's has been around for hundreds of years.<br/>
@@ -1385,8 +1385,8 @@ This system of consensus by the majority of the adults on the island with no cen
 	alt="All Tribe Members Keep Copy in Their Head"
 	width="50%" >
 &nbsp;
-1. The group shared the ledger.
-
+<br/>
+   1. The group shared the ledger.
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------- All Tribe Members Who owned the Rai Stone ----------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -1395,8 +1395,8 @@ This system of consensus by the majority of the adults on the island with no cen
 	alt="All Tribe Members Keep Copy in Their Head"
 	width="50%" >
 &nbsp;
-2. The group agreed to the ledger.
-
+<br/>
+   2. The group agreed to the ledger.
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------- All Tribe Members Who owned the Rai Stone ----------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -1405,7 +1405,8 @@ This system of consensus by the majority of the adults on the island with no cen
 	alt="All Tribe Members Keep Copy in Their Head"
 	width="50%" >
 &nbsp;
-3. All changes or transactions to the ledger were announced to the group.
+<br/>
+   3. All changes or transactions to the ledger were announced to the group.
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------- All Tribe Members Who owned the Rai Stone ----------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -1414,7 +1415,8 @@ This system of consensus by the majority of the adults on the island with no cen
 	alt="All Tribe Members Keep Copy in Their Head"
 	width="50%" >
 &nbsp;
-4. The group agreed to update all ledgers.
+<br/>
+   4. The group agreed to update all ledgers.
 </p>
 
 <h3>Let's review an example on Yap Island:</h3>
