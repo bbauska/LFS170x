@@ -1386,7 +1386,7 @@ This system of consensus by the majority of the adults on the island with no cen
 	width="50%" >
 &nbsp;
 <br/>
-   1. The group shared the ledger.
+<p align="left">   1. The group shared the ledger.</p>
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------- All Tribe Members Who owned the Rai Stone ----------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -1396,7 +1396,7 @@ This system of consensus by the majority of the adults on the island with no cen
 	width="50%" >
 &nbsp;
 <br/>
-   2. The group agreed to the ledger.
+<p align="left">   2. The group agreed to the ledger.</p>
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------- All Tribe Members Who owned the Rai Stone ----------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -1406,7 +1406,7 @@ This system of consensus by the majority of the adults on the island with no cen
 	width="50%" >
 &nbsp;
 <br/>
-   3. All changes or transactions to the ledger were announced to the group.
+<p align="left">   3. All changes or transactions to the ledger were announced to the group.</p>
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------- All Tribe Members Who owned the Rai Stone ----------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -1416,19 +1416,24 @@ This system of consensus by the majority of the adults on the island with no cen
 	width="50%" >
 &nbsp;
 <br/>
-   4. The group agreed to update all ledgers.
+<p align="left">   4. The group agreed to update all ledgers.</p>
 </p>
 
-<h3>Let's review an example on Yap Island:</h3>
+<h4>Let's review an example on Yap Island:</h4>
 Alice agrees to trade Bob her stone by the pond in exchange for all of his cattle.
-Alice and Bob announce their transaction to the tribe.
-Everyone updates their mental ledger.
-From this point on, they agree that the stone by the pond is owned by Bob.
-Island of Yap: Corruption Is Near Impossible
-Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never gave up ownership of the stone.
-   * Centralized ledger, only one place to cheat.
-   * Decentralized ledger, Carol will be outvoted by the rest of the tribe, and her version of the ledger will not be accepted.
 
+Alice and Bob announce their transaction to the tribe.
+
+Everyone updates their mental ledger.
+
+From this point on, they agree that the stone by the pond is owned by Bob.
+
+<h4>Island of Yap: Corruption Is Near Impossible</h4>
+Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never gave up ownership of the stone.
+<ul>
+<li>Centralized ledger, only one place to cheat.</li>
+<li>Decentralized ledger, Carol will be outvoted by the rest of the tribe, and her version of the ledger will not be accepted.</li>
+</ul>
 If Alice wants to cheat, she will need a way to convince 51% or more of the tribe to accept an alternative ledger.
 
 <h3>The Evolution of Distributed Ledgers</h3>
