@@ -895,9 +895,9 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
 
    * <b>Approach:</b> The blockchain collaboration, known as [TrustChainTM](https://www.trustchainjewelry.com/), will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.</li><br/>
 
-<li><b>Result:</b> The jewelry industry can now track and authenticate diamonds and precious metals through every stage of the supply chain. 
-Blockchain provides physical product verification, process verification and servers as an ethical oversight.</li><br/>
-</ul>
+   * <b>Result:</b> The jewelry industry can now track and authenticate diamonds and precious metals through every stage of the supply chain. 
+Blockchain provides physical product verification, process verification and servers as an ethical oversight.
+
 
 <h3>Blockchain Users: Business to Business (B2B)</h3>
 With a decentralized approach, blockchain removes the middleman (such as banks and brokers) to facilitate faster and less expensive payments. <br/>
@@ -928,13 +928,12 @@ Industries like finance, international trade and commerce, food supply chains ar
    width="40%" >
 &nbsp;
 </p>
-<ul>
-<li><b>Approach:</b> <i>[DLT Labs](https://www.dltlabs.com/)</i> along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
+
+   * <b>Approach:</b> <i>[DLT Labs](https://www.dltlabs.com/)</i> along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
   The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. 
-  The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.</li>
+  The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
 &nbsp;<br/>
-<li><b>Result:</b> Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.</li>
-</ul>
+   * <b>Result:</b> Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
 
 <h3>Unintended Use Cases</h3>
 <p>
