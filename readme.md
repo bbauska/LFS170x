@@ -479,17 +479,16 @@ There are many more use cases that utilize blockchain technology far reaching th
 &nbsp;
 
 <h3>Blockchain - Let’s Cover the Basics</h3>
+<p>
 In this section, we're gonna talk about what blockchain is:<br/>
 a real simple introduction to the basic concepts and principles behind blockchain.
 
-<p>
 When you hear about blockchain, you probably think of new, high-emerging tech.
 
 Well, really, all blockchain is, is a combination of technologies that have existed for a long time.
 
 They're simply combined in a new and creative way to give us an amazing new platform on which we can start to build solutions.
 </p>
-
 <span style="background-color: #FFFF00">Blockchains are often referred to as <b>digital decentralized ledgers</b>.</span>
 <p>
 And when you think of that, all you can think of is something we're all familiar with: a simple notebook.
@@ -528,6 +527,7 @@ You already understand all the major principles and concepts required to underst
 </p>
 
 <h3>Let’s Review an Analogy</h3>
+<p>
 A block on a blockchain can be thought of much like a page in a notebook. Data is stored on a block, just like data is written on a page of a notebook. <br/>
 
 Similar to a sheet of paper, the digital ledger doesn't care what kind of information you're putting on it. 
@@ -537,6 +537,7 @@ While most of what we're recording today are financial transactions, we could al
 What makes this blockchain notebook incredibly powerful is that all the pages are linked together. 
 
 If you go back and try and change any data on any page anywhere in this notebook, you break a link in a very obvious and easy-to-determine way.
+</p>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!--------------------------------------- Notebook page, block on a blockchain -------------------------------------------->
@@ -548,6 +549,7 @@ If you go back and try and change any data on any page anywhere in this notebook
 &nbsp;
 
 <h3>Let’s Review an Analogy: Data Stored</h3>
+<p>
 Any data can be stored on the same block.<br/>
 
 Examples of stored data include:
@@ -556,6 +558,7 @@ Examples of stored data include:
    <li>Property agreements</li>
    <li>Voting</li>
 </ul>
+</p>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------ data stored on block --------------------------------------------------->
@@ -606,6 +609,7 @@ Here are some features that make this new technology so revolutionary.
 &nbsp;
 
 <h3>Blockchain Features: Distributed Ledger</h3>
+<p>
 A ledger is a collection of transactions. <br/>
 
 It is not a collection of assets. 
@@ -619,6 +623,7 @@ The ledger is distributed among participants in the network, all running the sam
 It is decentralized in that an identical copy of the ledger exists on every node/computer on the network. 
 
 In 2009 with the publishing of Satoshi Nakamoto’s whitepaper [“Bitcoin: A Peer-to-Peer Electronic Cash System”](https://bitcoin.org/bitcoin.pdf) ,[Bitcoin](https://bitcoinfoundation.org/) became the first application to leverage blockchain technology by recording the first asset transfer on a public blockchain ledger.
+</p>
 
 <h3>Blockchain Features: Peer to Peer Network</h3>
 <p>
@@ -651,6 +656,7 @@ A public blockchain is open to anyone with an internet connection and the approp
 A private blockchain grants access and rights to its users before they can interact.
 
 <h3>Blockchain Features: Transparency</h3>
+<p>
 In a blockchain, we can see all the transactions that have occurred on the shared or distributed ledger. <br/>
 
 A blockchain stores details of every transaction that occurred since the first transfer. 
@@ -660,7 +666,7 @@ This first transfer, along with some system information that we will discuss lat
 Since every node shares a copy of the agreed-upon ledger, there is no friction about the transactions, everyone has the same agreed-upon copy. 
 
 Centralized systems are not transparent, the information about the ledger is controlled by one authority.
-
+</p>
 <h3>Blockchain Features: Consensus</h3>
 <p>
 Blockchain ledgers are different from centralized ledgers because network participants have an agreement upon what is in the identical ledger. <br/>
@@ -701,6 +707,7 @@ Instead of relying on third-party, trust is put into cryptographic algorithms th
 </p>
 
 <h3>Blockchain Features: Programable</h3>
+<p>
 Some blockchains offer an additional feature, <i>smart contracts</i>, that impose logic into the system. <br/>
 
 If you think of the Bitcoin blockchain as a calculator recording financial transactions, you can think of these blockchains as computers. 
@@ -722,6 +729,7 @@ This means that two parties can make commitments via blockchain, without having 
 They can be sure that if the conditions aren't fulfilled, the contract won't be executed. 
 
 Other than that, the use of smart contracts can remove the need for intermediaries, reducing operational costs significantly.
+</p>
 
 <h3 id="ch1-4">1.4 Blockchain Actors (Career Opportunities)</h3>
 With new technology comes new opportunities and this holds true for blockchain. 
@@ -1304,10 +1312,13 @@ To understand how blockchain came about, we must first understand the following 
 </ul>
 
 <h3>History of Ledgers (Triple-Entry Example)</h3>
+
 [As described in the Reddit post](https://www.reddit.com/r/Accounting/comments/2biy4h/triple_entry_bookkeeping_using_cryptocurrencies/),
-> "A seller books a debit to account for cash received, while a buyer books a credit for cash spent in the same transaction, but in separate sets of accounting records. 
-> This is where the blockchain comes in: rather than these entries occurring separately in independent sets of books, they occur in the form of a transfer between wallet addresses in the same distributed, public ledger, which creates an interlocking system of enduring accounting records. 
-> Since the entries are distributed and cryptographically sealed, falsifying them in a credible way or destroying them to conceal activity is practically impossible".
+<blockquote>
+"A seller books a debit to account for cash received, while a buyer books a credit for cash spent in the same transaction, but in separate sets of accounting records. 
+This is where the blockchain comes in: rather than these entries occurring separately in independent sets of books, they occur in the form of a transfer between wallet addresses in the same distributed, public ledger, which creates an interlocking system of enduring accounting records. 
+Since the entries are distributed and cryptographically sealed, falsifying them in a credible way or destroying them to conceal activity is practically impossible".
+</blockquote>
 
 <h3>Double vs. Triple-Entry Accounting Comparison</h3>
 
@@ -1322,7 +1333,7 @@ To understand how blockchain came about, we must first understand the following 
 
 <h3>Island of Yap</h3>
 <p>
-Idea for the following was obtained from the LinkedIn article "Explaining Blockchain: The Distributed Ledger of the Island of Yap" by Anthony (Tony) Riva.<br/>
+Idea for the following was obtained from the LinkedIn article ["Explaining Blockchain: The Distributed Ledger of the Island of Yap"](https://www.linkedin.com/pulse/explaining-blockchain-distributed-ledger-island-yap-riva/)  by Anthony (Tony) Riva].<br/> 
 
 The concept of distributed ledger's has been around for hundreds of years.<br/>
 
