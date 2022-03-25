@@ -481,7 +481,7 @@ There are many more use cases that utilize blockchain technology far reaching th
 <h3>Blockchain - Let’s Cover the Basics</h3>
 <p>
 In this section, we're gonna talk about what blockchain is:<br/>
-a real simple introduction to the basic concepts and principles behind blockchain.
+   a real simple introduction to the basic concepts and principles behind blockchain.
 
 When you hear about blockchain, you probably think of new, high-emerging tech.
 
@@ -491,6 +491,7 @@ They're simply combined in a new and creative way to give us an amazing new plat
 </p>
 <span style="background-color: #FFFF00">Blockchains are often referred to as <b>digital decentralized ledgers</b>.</span>
 <p>
+
 And when you think of that, all you can think of is something we're all familiar with: a simple notebook.
 
 When we talk about blocks and blockchain, all we're really talking about is a page of data.
@@ -861,12 +862,13 @@ There are lots of very interesting use cases for blockchain in the real world ri
 I would encourage all of you to dig in a little bit more, and see some of the interesting things that are going on with blockchain in healthcare, in public sector, in insurance, in supply chain, value chain and more, see what other folks are doing, and then go out and make your own blockchain dreams a reality.
 
 <h3>Blockchain Users: Business to Consumer (B2C)</h3>
+<p>
 A Business to Consumer (B2C) is business or transactions conducted directly between a company and consumers who are the end-users of its products or services.<br/>
 
 Services being provided to the consumer is an area of interest to companies. <br/>
 
 Benefits to the consumer are transparency to the consumer, accountability from suppliers, ethical sourcing validation, labor verification and an immutable shared view.
-
+</p>
 <!------------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------------- Consumer benefits from blockchain --------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -927,9 +929,8 @@ Industries like finance, international trade and commerce, food supply chains ar
    width="40%" >
 &nbsp;
 </p>
-
 <ul>
-<li><b>Approach:</b> <i>DLT Labs</i> along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
+<li><b>Approach:</b> <i>[DLT Labs](https://www.dltlabs.com/)</i> along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
   The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. 
   The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.</li>
 &nbsp;<br/>
@@ -1056,7 +1057,7 @@ If you want to see some of the really exciting use cases in blockchain right now
 
 <ul>
 <li><b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.
-The Smart Dubai strategy will be using three essential pillars: government efficiency, industry creation and international leadership.</li><br/>
+The [Smart Dubai](https://www.digitaldubai.ae/) strategy will be using three essential pillars: government efficiency, industry creation and international leadership.</li><br/>
 
 <li><b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br/>
 When successful, Dubai will be the first blockchain-powered government driving the future economy.</li>
@@ -1133,25 +1134,25 @@ However, before we discuss the ledger, let's discuss briefly the history of the 
 
 The story of blockchain is tightly coupled with the story of accounting.<br/>
 
-Historically, humans started off with no way to prove ownership and we began with a single entry accounting system.<br/>
+Historically, humans started off with no way to prove ownership and we began with a single-entry accounting system.<br/>
 
-The single entry accounting system for the first time in human history allowed us to prove ownership of the asset.<br/>
+The single-entry accounting system for the first time in human history allowed us to prove ownership of the asset.<br/>
 
 The ledger was associated with an owner.<br/>
 
-The single entry accounting worked for centuries.<br/>
+The single-entry accounting worked for centuries.<br/>
 
-The issue with single entry accounting is that it mandated that there was a single authority, which is the reason why there was the necessity for a king or a queen to control the ledger.<br/>
+The issue with single-entry accounting is that it mandated that there was a single authority, which is the reason why there was the necessity for a king or a queen to control the ledger.<br/>
 
 In order to have trade, right, at the international level, we needed to have at least two authorities.<br/>
 
-For instance, for England to do trade with France, we had the owner of the ledger, the single entry ledger, in England for instance, doing trade with the king or queen of France, who also had their ledger.<br/>
+For instance, for England to do trade with France, we had the owner of the ledger, the single-entry ledger, in England for instance, doing trade with the king or queen of France, who also had their ledger.<br/>
 
-And so, we needed a new form of accounting, and that's where double entry accounting came in, which was in use up until very recently, now, within the last 40 years.<br/>
+And so, we needed a new form of accounting, and that's where double-entry accounting came in, which was in use up until very recently, now, within the last 40 years.<br/>
 
-What blockchain is? Blockchain is the very first implementation of triple entry accounting, where we have an asset being recorded on the ledger in the context of a transaction.<br/>
+What blockchain is? Blockchain is the very first implementation of triple-entry accounting, where we have an asset being recorded on the ledger in the context of a transaction.<br/>
 
-The third entry and triple entry accounting is cryptography, where we have a cryptographic account of the transaction stored permanently and immutably on the ledger.<br/>
+The third entry and triple-entry accounting is cryptography, where we have a cryptographic account of the transaction stored permanently and immutably on the ledger.<br/>
 
 That's what the ledger is. A ledger is a collection of transactions.<br/>
 
@@ -1333,7 +1334,7 @@ Since the entries are distributed and cryptographically sealed, falsifying them 
 
 <h3>Island of Yap</h3>
 <p>
-Idea for the following was obtained from the LinkedIn article ["Explaining Blockchain: The Distributed Ledger of the Island of Yap"](https://www.linkedin.com/pulse/explaining-blockchain-distributed-ledger-island-yap-riva/)  by Anthony (Tony) Riva].<br/> 
+Idea for the following was obtained from the LinkedIn article ["Explaining Blockchain: The Distributed Ledger of the Island of Yap"](https://www.linkedin.com/pulse/explaining-blockchain-distributed-ledger-island-yap-riva/) by Anthony (Tony) Riva.
 
 The concept of distributed ledger's has been around for hundreds of years.<br/>
 
@@ -1355,20 +1356,33 @@ Every time any Yapese conducted a trade, an announcement was made to the entire 
 Each member of the tribe would then update their mental ledger.<br/>
 
 In today's description, this would be called a distributed ledger.<br/>
+
 All Rai stone ownership was known to everyone, and that knowledge was updated whenever a transaction was made.<br/>
-So why didn't just one member of the tribe keep track of the Rai stones?<br/>
+
+Why didn't just one member of the tribe keep track of the Rai stones?<br/>
+
 What if that main recordkeeper was sick, unable to do their job, or was found to be dishonest?<br/>
+
 If the only copy of the ledger was changed by any means, wealth would be lost or gained unfairly.<br/>
+
 The Yapese knew their distributed ledger system safeguarded it from tampering.<br/>
+
 Since all the Yapese knew who owned what, it would be very difficult to fool everyone on the island.<br/>
+
 Even if one tribe member moved away, the tribe still had multiple copies of their mental ledger.<br/>
+
 In this regard, the ledger was fault tolerant and could not be easily changed, corrupted, or lost.<br/>
+
 The tribe also decided that stones didn't have to be on the island to hold value.<br/>
+
 One day, a stone fell into the ocean and the Yapese decided that this stone, even though it could not be seen, still held value and could still be traded.<br/>
+
 This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.<br/>
+</p>
 
 <h3>Island of Yap: Recap</h3>
->1. The group shared the ledger.
+<ol>
+<li>The group shared the ledger.
 >2. The group agreed to the ledger.
 >3. All changes or transactions to the ledger were announced to the group.
 >4. The group agreed to update all ledgers.
@@ -1386,7 +1400,7 @@ Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never ga
 If Alice wants to cheat, she will need a way to convince 51% or more of the tribe to accept an alternative ledger.
 
 <h3>The Evolution of Distributed Ledgers</h3>
-We've gone through history and seen how ledgers have evolved from stone tablets to double entry ledgers.<br/>
+We've gone through history and seen how ledgers have evolved from stone tablets to double-entry ledgers.<br/>
 We even took a look at the earliest known example of distributed ledgers.<br/>
 Now, let's discuss the evolution of the ledger in the modern world.<br/>
 Over the last few decades, ledgers have moved from the written form to the digital form, also known as computers and digitalized databases.<br/>
@@ -2581,14 +2595,16 @@ That gives blockchain that high level of trust and that makes it such a secure r
 
 <h3>Introduction to Consensus in the Blockchain</h3>
 As discussed in the "Blockchain Consensus and Fault Tolerance In a Nutshell" article by Demiro Massessi,
+<blockquote>
 "The blockchain is designed to be a shared, synchronized historical ledger, meaning that there needs to be a final decision at some point on what should and shouldn’t be included in the official record. Since blockchain is decentralized, there is no "higher authority" that can rubber-stamp and finalize the contents of a blockchain block.
-The method that Satoshi Nakamoto, creator of the Bitcoin network, invented to achieve consensus is based on scarcity. In one way or another, blockchain consensus algorithms boil down to some kind of vote where the number of votes that a user has is tied to the amount of a limited resource that is under the user’s control. Based on the economic law of supply and demand, collecting enough of an asset to have a controlling share will drive up the price of the asset enough to make achieving that level of control unfeasibly expensive".
+The method that [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto), creator of the Bitcoin network, invented to achieve consensus is based on scarcity. In one way or another, blockchain consensus algorithms boil down to some kind of vote where the number of votes that a user has is tied to the amount of a limited resource that is under the user’s control. Based on the economic law of supply and demand, collecting enough of an asset to have a controlling share will drive up the price of the asset enough to make achieving that level of control unfeasibly expensive".
+</blockquote>
 
 <h3>Consensus Mechanisms</h3>
 In order to ensure no one spent the same Bitcoin twice, Satoshi Nakamoto created the consensus algorithm called Proof of Work for the Bitcoin network. Since then, several other consensus algorithms have been invented to fit different use cases. These include Proof of Stake, Delegated Proof of Stake, Practical Byzantine Fault Tolerance, and Proof of Elapsed Time. The most commonly used consensus algorithms are Proof of Work and Proof of Stake.
  
 <h3>Proof of Work</h3>
-As explained in the "Blockchain Consensus and Fault Tolerance In a Nutshell" article by Demiro Massessi,
+As explained in the ["Blockchain Consensus and Fault Tolerance In a Nutshell"](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) article by Demiro Massessi,
 "In Proof of Work, users in the blockchain network who want to create the next block (and win the associated reward) are called miners. To win the right to mine a block, miners race to find an acceptable solution to a “hard” cryptographic problem. (...), “hard” mathematical problems can only be solved by random guessing. When a miner finds an acceptable solution, they create a block and broadcast it to the network, finalizing that block.
 Proof of Work exploits the scarcity of computational resources by choosing a problem that can only be solved by guessing. There is no limit on the number of guesses that a miner can make at once. Proof of Work, therefore, incentivizes miners to run as many mining machines as possible to maximize the probability that they are the first to find a solution to the problem. Since mining computers take money to purchase and money to run, the amount of control that a user can exert over the blockchain is limited by the amount of money they have available to invest in mining equipment".
 Also, the process of mining requires computing power that runs on electricity. Some argue the Bitcoin network is not sustainable because of its increasing need for electricity. The argument against this assumes Bitcoin miners are out to make a profit and by using renewable energy sources to power the mining operations they will be more profitable. As a result of seeking out carbon-friendly energy sources, mining companies will bring new renewable energy solutions to the power grids.
