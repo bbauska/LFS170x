@@ -893,8 +893,7 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
    width="20%" >
 &nbsp;
 
-<ul>
-<li><b>Approach:</b> The blockchain collaboration, known as [TrustChainTM](https://www.trustchainjewelry.com/), will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.</li><br/>
+   * <b>Approach:</b> The blockchain collaboration, known as [TrustChainTM](https://www.trustchainjewelry.com/), will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.</li><br/>
 
 <li><b>Result:</b> The jewelry industry can now track and authenticate diamonds and precious metals through every stage of the supply chain. 
 Blockchain provides physical product verification, process verification and servers as an ethical oversight.</li><br/>
@@ -1314,7 +1313,7 @@ To understand how blockchain came about, we must first understand the following 
 
 <h3>History of Ledgers (Triple-Entry Example)</h3>
 
-<b>As described in the</b>[Reddit post](https://www.reddit.com/r/Accounting/comments/2biy4h/triple_entry_bookkeeping_using_cryptocurrencies/),
+<b>As described in the </b>[Reddit post](https://www.reddit.com/r/Accounting/comments/2biy4h/triple_entry_bookkeeping_using_cryptocurrencies/),
 <blockquote>
 "A seller books a debit to account for cash received, while a buyer books a credit for cash spent in the same transaction, but in separate sets of accounting records. 
 This is where the blockchain comes in: rather than these entries occurring separately in independent sets of books, they occur in the form of a transfer between wallet addresses in the same distributed, public ledger, which creates an interlocking system of enduring accounting records. 
