@@ -1825,7 +1825,8 @@ Hash functions are featured heavily in blockchain. A hash function is a mathemat
    2. It’s easy to calculate a hash, but hard to determine a hash input from the output. The best option is to keep trying inputs until one produces the desired output.
    3. Inputs that differ by a single bit produce hashes that differ by half of their bits on average. This prevents someone from finding a desired hash input using a “hill climbing”.
    4. It is infeasible to find two inputs that produce the same output when hashed. Since a hash can take any input and produce a fixed output, it makes sense that multiple different inputs will create the same output. A good hash function will make it so that you have to try a large number of inputs before finding two that produce the same output.
-
+&nbsp;
+<br/>
 <!------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------- Cryptographic Hashing -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -1833,7 +1834,6 @@ Hash functions are featured heavily in blockchain. A hash function is a mathemat
 <img src="/images/image-hash.png?raw=true"
 	alt="Cryptographic Hashing"
 	width="100%" >
-&nbsp;
  
 <h3>Cryptographic Hashing Demo</h3>
 In this section, we're going to talk about cryptographic hashing.
@@ -1909,102 +1909,191 @@ Merkle trees are a data structure that allows authenticated storage with efficie
  
 <h3>Disintermediation - Trust Through Transparency</h3>
 Now, that we have an understanding of how collaboration and cryptography work together to create a layer of trust, let's discuss how blockchain has a powerful disintermediation effect.
+
 Nodes on the network are allowed to place data directly onto the database that is shared.
+
 This eliminates the need for an intermediary to do such task.
+
 As we discussed, developers can create a distributed ledger on a blockchain,
 and use cryptography to give people secure storage space on that ledger.
+
 This creates a very different world than what we have come to know today, because for the first time in the digital world, people are allowed to own their own data.
+
 You may be asking yourself: "How is this different from the current technology?".
+
 Today, organizations use our data, sell our data, store our data, and exchange our data.
+
 Data is an extremely powerful asset and to own your own data is a vast change to the current system.
+
 In a world powered by blockchain, having ownership of your database is truly empowering.
+
 You can now share the information that you choose with any organization that you desire.
+
 The power of blockchain and owning your own data is the ability to transact peer-to-peer.
+
 With the current system of intermediaries, when you go out to eat at a restaurant, and you pay with your credit or debit card, you're not paying the restaurant directly.
+
 Instead, a database record at your bank is being debited and the database record at their bank is being credited.
+
 In this example, the value and data in the database belong to the intermediary, and not the individual.
+
 You are then dependent upon them to secure and validate your transaction, which shifts the power to the intermediary.
+
 But in a blockchain world, the individual has their own ledger record, and the secure key that allows them to access it.
+
 You no longer need an intermediary.
+
 A transaction is simply debited from your record and credited directly to somebody else's record.
+
 Blockchain allows you to have the power to control more than financial transactions.
+
 Later, we'll take a deeper dive into how the healthcare industry may utilize blockchain to allow people to own their own health records.
+
 And with blockchain, you can determine who can access those records.
+
 We talked about how cryptography and collaboration create trust.
+
 Now, let's examine how peer-to-peer transactions with blockchain create transparency which can lead to even another layer of trust.
+
 This layer of trust can aid to curb corruption and even create cost savings.
+
 Currently, the data and records owned at centralized organizations are stored and hidden within a database.
+
+
 These databases for the most part are inaccessible and do not communicate in an effective manner with other systems.
+
 This also makes it easier for a corrupt individual or persons within the centralized organization to manipulate these records.
+
 Because of the possibility for manipulation and foul play, there are many flawed and expensive safeguards put into place.
+
 These safeguards are done through regulations and legal requirements creating expensive overhead and delays.
+
 Besides the mounting cost to safeguard these internally, there are also many necessary safeguards from external forces, because they are individual points of critical data storage, bad actors have to identify only one point of failure to access.
+
 The combination of one central point of storage and the storage of valuable data make these centralized databases a very enticing target for malicious persons.
+
 With blockchain, these malicious actors would have to identify and target numerous points of failure until they control more than 51% or what's known as consensus.
+
 In most blockchains, it could be up to hundreds of thousands of points of weakness that would have to be exposed to be corrupted.
+
 It's nearly an insurmountable task.
+
 Not only must a centralized organization worry about bad actors, but they must do so, while still allowing access and synchronizing with other centralized organizations.
+
 Having to constantly update and synchronize data across many centralized databases is not efficient.
+
 The cost is high and the vulnerability to bad actors is amplified.
+
 All the more reason blockchain solutions are so exciting.
+
 Blockchain offers efficiency. It also creates trust and financial benefit through transparency, security, immutability, and accessibility through ownership.
+
 Traditional Database Updates
+
 A database is a collection of interrelated data organized so that individual records or groups of records can be retrieved to satisfy various criteria.
  
 Traditional databases use the CRUD method which has four main operations:
-•	Create - add a new value to the database.
-•	Read - read a value from the database.
-•	Update - change an existing value in the database.
-•	Delete - remove the value from the database.
-Transparency of Traditional Databases
+<ul>
+<li>Create - add a new value to the database.</li>
+<li>Read - read a value from the database.</li>
+<li>Update - change an existing value in the database.</li>
+<li>Delete - remove the value from the database.</li>
+</ul>
+<h3>Transparency of Traditional Databases</h3>
 Traditional databases do not retain historical information:
-•	Only the most recent versions of each value are visible.
-•	Deleted values are not visible in the database.
-•	This limits the transparency of data contained in the database.
-•	Values can be modified or deleted after creation.
-The CRUD update model of databases allows data to be changed or removed from the database. This means that the visible data in a database is not an accurate historical record of the database. The existence of an update operation means that each value in the database is only the most recent version of that value and could have had different values in the past. The delete operation means that values can be removed from the database.
+<ul>
+<li>Only the most recent versions of each value are visible.</li>
+<li>Deleted values are not visible in the database.</li>
+<li>This limits the transparency of data contained in the database.</li>
+<li>Values can be modified or deleted after creation.</li>
+</ul>
+The CRUD update model of databases allows data to be changed or removed from the database. 
+This means that the visible data in a database is not an accurate historical record of the database. 
+The existence of an update operation means that each value in the database is only the most recent version of that value and could have had different values in the past. 
+The delete operation means that values can be removed from the database.
 This limits the transparency of data in the database since values can be modified or deleted after creation.
 
 <h3>Blockchain Updates</h3>
 The blockchain is designed to be a data structure that only allows appending:
-•	The past history of the blockchain is visible and immutable.
-•	Updates to the blockchain can be performed by including them in new blocks added to the blockchain.
-The blockchain is designed as a data structure where each block in the chain locks in the value of the previous block and so on, back to the first or genesis block. This means that the blockchain is an append-only data structure without support for modification or deletion.
-The entire history of the blockchain is publicly visible and stored in a distributed and decentralized fashion. Values in the blockchain can be “updated” by appending a new version of that value in a later block, but the complete history of the value is preserved.
-Transparency of a Blockchain
-The blockchain is designed so that its entire history is visible and unchangeable. Transactions in the blockchain cannot be modified after creation, and their complete history is publicly visible. This means that the blockchain is a completely transparent data structure with the useful property that the integrity of the blockchain is easily verifiable by any user.
+<ul>
+<li>The past history of the blockchain is visible and immutable.</li>
+<li>Updates to the blockchain can be performed by including them in new blocks added to the blockchain.</li>
+</ul>
+The blockchain is designed as a data structure where each block in the chain locks in the value of the previous block and so on, back to the first or genesis block. 
+
+This means that the blockchain is an append-only data structure without support for modification or deletion.
+
+The entire history of the blockchain is publicly visible and stored in a distributed and decentralized fashion.
+ 
+Values in the blockchain can be “updated” by appending a new version of that value in a later block, but the complete history of the value is preserved.
+
+<h3>Transparency of a Blockchain</h3>
+The blockchain is designed so that its entire history is visible and unchangeable. 
+
+Transactions in the blockchain cannot be modified after creation, and their complete history is publicly visible. 
+
+This means that the blockchain is a completely transparent data structure with the useful property that the integrity of the blockchain is easily verifiable by any user.
 
 <h3>Transparency: Databases vs. Blockchain</h3>
-Traditional databases and the blockchain were created for different purposes and have different levels of transparency. Traditional databases have low transparency since values can be modified or deleted; however, this changeability allows them to store data in an efficient manner, with only the most relevant versions of each value retained in storage.
-The blockchain is publicly visible and immutable, meaning that it has very high transparency. Its append-only structure and decentralized storage sacrifice storage efficiency for trustworthiness of the stored data.
+Traditional databases and the blockchain were created for different purposes and have different levels of transparency. 
+
+Traditional databases have low transparency since values can be modified or deleted; however, this changeability allows them to store data in an efficient manner, with only the most relevant versions of each value retained in storage.
+
+The blockchain is publicly visible and immutable, meaning that it has very high transparency. 
+Its append-only structure and decentralized storage sacrifice storage efficiency for trustworthiness of the stored data.
 
 <h3 id="ch2-4"></a>2.4 Transparency</h3>
 One of the big benefits we get in any blockchain solution, public or private, is the idea of transparency.
+
 In a public blockchain solution like Bitcoin or Ethereum, because they're anonymous and we have no concept of identity, we have no way of treating users differently.
+
 And so all data on a public blockchain is transparent and visible to all other participants.
+
 And this is really important. It adds a lot of value, when we're talking about exchanging currency or tokens of monetary value, because as long as we can protect the anonymity of the participants, it gives us a great way for anybody to validate the details of any transaction on a ledger that is immutable, permanent, can't be changed and offers a high degree of trust.
+
 This also has a lot of other really interesting potential use cases that we're starting to explore with public blockchain technology, voting and voter registration, tracking election results.
+
 These kinds of things are really, really great use cases for having that level of public transparency.
+
 On public blockchains, there's another kind of transparency, which adds a lot of value as well, and that is full transparency into the smart contracts that execute on that blockchain.
+
 These, oftentimes, are smart contracts which have the potential of working with other people's money, sometimes large amounts of other people's money, and if you're going to entrust your hard-earned money into someone else's smart contract, it's really nice to have the ability to be able to go and review the source code of that smart contract, either yourself or by hiring a developer to audit that smart contract, to make sure it's written fair, that there are no security vulnerabilities, and that it does what it claims to do.
+
 On the private blockchain side, what we have [is] permissioning.
+
 And we can control how open or closed our data is.
+
 We still have a lot of benefits of being able to share data in shared infrastructure that private blockchain creates.
+
 There are a lot of business networks and value chain relationships where the participants would love to be able to share more data and more information with consumers about the business processes and the steps that go into delivering the goods and services we consume.
+
 What has traditionally prevented solutions like this is the lack of any kind of shared infrastructure.
+
 While technically conventional technology may be able to address these concerns,
 it is oftentimes human beings not being able to come to consensus on questions of who owns the platform, who builds the platform, who maintains the platform.
+
 And, if a participant leaves the ecosystem, do they take all or part of the platform with them.
+
 That have prevented us from using conventional technology in these respects.
+
 Using private blockchain solutions like Hyperledger, can help alleviate many of these concerns and create a truly shared technical infrastructure between organizations.
+
 This allows participants in a supply chain or value chain to track data and to share that data about how goods and services are produced, created, consumed, and distributed into the open market, that we haven't really been able to do practically before.
+
 It's estimated that over 1/3 of the food we produce goes to waste, because we don't have this kind of clarity into our supply chain with food or into the supply chain with other types of products.
+
 Think about if a meat gets recalled because it might be contaminated, how much perfectly good meat gets thrown away just to err on the side of caution.
+
 Where if we just had greater resolution and visibility into where that product originated from and how it went all the way from production to our plate.
+
 Then, we could issue more accurate recalls and reduce the amount of food waste.
+
 Consumers might value your product more, your offering more, if they're able to see where it comes from.
+
 If you're manufacturing and distributing clothing, and you can demonstrate to consumers that all of that clothing was sourced from parts of the world with fair labor practices consumers are going to have more trust and faith in the brand and ultimately willing to pay a higher price for it.
+
 So, these kind of transparency solutions are one of the biggest benefits of blockchain and one of the areas being most explored, because right now there are a lot of consumers who would simply like more visibility into the products and services they purchase.
+
 And blockchain, both public and private, can be a great solution for doing that.
 
 <h3>Immutability in the Blockchain</h3>
@@ -2012,44 +2101,79 @@ Blockchain is designed to be an authoritative ledger of the history of the netwo
 
 This history may include financial transactions and business agreements where modifications to the ledger may have wide-reaching business impacts. Blockchain is based on an untrusted network, so trust that the blockchain has not been modified needs to arise from the structure of the blockchain itself, rather than from trust in the organization storing a certain copy.
 Immutability
-So, one of the big benefits of blockchain is what's known as immutability.
+
+One of the big benefits of blockchain is what's known as immutability.
+
 The idea that once a record gets committed to the blockchain or to the ledger, it's there permanently.
+
 In blockchain, it's a little bit different than a database, and we'll talk about this in another module, in a lot more depth, but in a traditional database we're used to being able to edit records and delete records, and that's not the case in a blockchain.
+
 In a blockchain, there are only two possible operations: we can create a new record, and we can go back and we can read existing records.
+
 And this contributes to this idea of immutability - once data is written to the blockchain it can't be edited, it can't be deleted.
+
 All you can do is add another record to the blockchain indicating that something about that data has changed.
+
 This immutability is what makes blockchain such a secure solution, and it's what makes it a trustless solution.
+
 Meaning, I don't have to trust anybody that I'm interacting with and trading with, as long as we both trust in the blockchain and the data on the blockchain.
+
 Then, we can transact back and forth seamlessly.
+
 The way immutability works is blockchain is, by design, a very, very inefficient solution.
+
 We are asking a large number of nodes, all the nodes on a network, to perform exactly the same work as every other node.
+
 Essentially, we are duplicating work over and over and over again.
+
 The reason we do this, is because the only way to potentially change data on a blockchain, is by changing the record on that blockchain for 51% or more of the nodes, or the miners, or the participants trying to come to consensus on the blockchain.
+
 And when you get to very, very large-scale networks, Ethereum with its 16,000 plus nodes, Bitcoin with over 30,000 nodes, this becomes a very, very, very tall order.
+
 Trying to hack or change a record on over 15,000 of those Bitcoin nodes would be quite a bit of work.
-So, it's not impossible to change the record on a blockchain, but it is impossible from a practical standpoint.
+
+It's not impossible to change the record on a blockchain, but it is impossible from a practical standpoint.
+
 Now, one thing that should be noted when we talk about immutability is: all that blockchain gives us is an accurate recording of what was posted.
+
 It is still up to whoever is posting that information on the blockchain to make sure it's accurate and true.
+
 In other words, blockchain doesn't do anything to validate that the information on it is correct.
+
 All it validates is that that information hasn't been changed since it was originally written.
+
 Another way to think about that is, I could post a record on blockchain that says: "The sky is orange".
+
 That doesn't make the sky orange.
+
 We all know the sky is blue. All that does is that means I can't ever come back later and claim I didn't say that or I said it was blue, and someone changed the record.
+
 That immutability that blockchain gives us is that that data was captured as it was originally written and hasn't been changed.
+
 Another part of this immutability is cryptographic hashing, and the way that we chain all these blocks together.
+
 If you haven't watched the module on Proof of Work, I would suggest you go watch that now, to see a really in-depth overview, a hands-on demo of how blocks are actually linked together in such a way.
+
 And, if I ever went back and tried to change any information or prior transaction on the blockchain, I would break that chaining in a very obvious way that anyone would immediately spot if they came and querried that data off the blockchain.
+
 When you hear about immutability, just understand that all we're talking about is the virtual impossibility of anyone ever being able to come along and change any data on the blockchain.
+
 And also, along with that, understand that we only have two possible operations on blockchain: we can only read data and we can only add new data.
+
 There's no concept of an edit or delete, and this is what we talk about when we talk about immutability on the blockchain.
 
 <h3>Immutability in the Blockchain Is Essential</h3>
-The blockchain needs to be immutable. If someone can change the blockchain after the fact, then it is no longer a trusted historical ledger. 
+The blockchain needs to be immutable. 
+
+If someone can change the blockchain after the fact, then it is no longer a trusted historical ledger. 
+
 The blockchain is designed so that immutability is cumulative; each piece is linked to every other piece, creating a cohesive whole that is more difficult for an attacker to modify.
-   * At the bottom level, transactions are digitally signed by their creators. An attacker can’t forge a transaction unless they steal a private key.
-   * A block structure is predefined. Attackers can’t modify it to suit their purposes.
-   * The chain part of the blockchain is achieved using hash functions. Each block includes the hash of the previous block, creating a clear link between each block in the blockchain.
-   * Each block is digitally signed by its creator. The creator is selected through the blockchain’s consensus protocol, making it difficult for an attacker to be a legitimate creator.
+<ul>
+<li>At the bottom level, transactions are digitally signed by their creators. An attacker can’t forge a transaction unless they steal a private key.</li>
+<li>A block structure is predefined. Attackers can’t modify it to suit their purposes.</li>
+<li>The chain part of the blockchain is achieved using hash functions. Each block includes the hash of the previous block, creating a clear link between each block in the blockchain.</li>
+<li>Each block is digitally signed by its creator. The creator is selected through the blockchain’s consensus protocol, making it difficult for an attacker to be a legitimate creator.</li>
+</ul>
 All four of these features help to make the blockchain resistant against changes occurring after the fact.
 
 <h3>Why Is the Blockchain Immutable?</h3>
@@ -2192,34 +2316,37 @@ Start Lab
 
 <h3> id="ch2-5">2.5 Chapter Summary</h3>
 In this chapter, we discussed:
-  • Distributed ledger technology (DLT) and how it differs from previous ledger storage techniques.
-  • Cryptography and how it is used in several different ways in blockchain.
-  • Hashing functions, zero-knowledge proofs (ZKPs) and Merkle tree data structures and how they are used to secure the blockchain.
-  • Public-key cryptography and public/private key pairs to support privacy, authenticity and security.
-  • Ledger immutability and transparency result from combining these technologies for an agreed-upon, append-only distributed ledger system chained together by blocks.
-
+<ul>
+<li>Distributed ledger technology (DLT) and how it differs from previous ledger storage techniques.</li>
+<li>Cryptography and how it is used in several different ways in blockchain.</li>
+<li>Hashing functions, zero-knowledge proofs (ZKPs) and Merkle tree data structures and how they are used to secure the blockchain.</li>
+<li>Public-key cryptography and public/private key pairs to support privacy, authenticity and security.</li>
+<li>Ledger immutability and transparency result from combining these technologies for an agreed-upon, append-only distributed ledger system chained together by blocks.</li>
+</ul>
 <h2 id="ch3">Chapter 3. Blockchain Functions</h2>
 <h3 id="ch3-1">3.1 Chapter Overview</h3>
 In this chapter, we will examine some blockchain functions. 
-  * First, we will discuss smart contracts, how blockchains have the ability to store and run computer code (applications) that can execute the terms of an agreement. These digital promises stored and executed on the blockchains remove intermediaries and ambiguity thereby reducing conflict.
-  * We will discuss how blockchains secure their information and how these techniques differ from traditional database security. 
-  * Next, we will discuss different types of blockchains (public, private and hybrid models) and design considerations that need to be made before blockchains can be developed.
-  * We will examine the steps in a basic blockchain transaction from start to finish.
-  * Finally, we will discuss blockchain consensus models and why they are the backbone to the blockchain operations.
-  * We will compare Proof of Stake and Proof of Work models and be able to discuss the differences and environmental considerations. 
-  * Also, we will discuss private blockchain structures and how permissioning mechanisms are the basis for their ConsenSys models.
-
+<ul>
+<li>First, we will discuss smart contracts, how blockchains have the ability to store and run computer code (applications) that can execute the terms of an agreement. These digital promises stored and executed on the blockchains remove intermediaries and ambiguity thereby reducing conflict.</li>
+<li>We will discuss how blockchains secure their information and how these techniques differ from traditional database security. </li>
+<li>Next, we will discuss different types of blockchains (public, private and hybrid models) and design considerations that need to be made before blockchains can be developed.</li>
+<li>We will examine the steps in a basic blockchain transaction from start to finish.</li>
+<li>Finally, we will discuss blockchain consensus models and why they are the backbone to the blockchain operations.</li>
+<li>We will compare Proof of Stake and Proof of Work models and be able to discuss the differences and environmental considerations. </li>
+<li>Also, we will discuss private blockchain structures and how permissioning mechanisms are the basis for their ConsenSys models.</li>
+</ul>
 <h3>Learning Objectives</h3>
 By the end of this chapter, you should be able to:
-  •	Explain what smart contracts are and how they work.
-  •	Discuss the benefits of using smart contracts.
-  •	Compare blockchain security vs. standard security.
-  •	Indicate the differences between private and public blockchains.
-  •	Understand when to use a public vs. a private blockchain.
-  •	Analyze the flow of a transaction in blockchain.
-  •	Discuss consensus mechanism used in blockchain.
-  •	Explore different methods of achieving consensus (Proof of Work, Proof of Stake, etc.).
-
+<ul>
+<li>Explain what smart contracts are and how they work.</li>
+<li>Discuss the benefits of using smart contracts.</li>
+<li>Compare blockchain security vs. standard security.</li>
+<li>Indicate the differences between private and public blockchains.</li>
+<li>Understand when to use a public vs. a private blockchain.</li>
+<li>Analyze the flow of a transaction in blockchain.</li>
+<li>Discuss consensus mechanism used in blockchain.</li>
+<li>Explore different methods of achieving consensus (Proof of Work, Proof of Stake, etc.).</li>
+</ul>
 <h3 id="ch3-2">3.2 What Are Smart Contracts?</h3>
 When we make a transaction on the blockchain, understand that there are only three types of transactions we can make.
 
