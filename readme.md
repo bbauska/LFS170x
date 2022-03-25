@@ -1381,11 +1381,47 @@ This system of consensus by the majority of the adults on the island with no cen
 </p>
 
 <h3>Island of Yap: Recap</h3>
-<ol>
-<li>The group shared the ledger.
->2. The group agreed to the ledger.
->3. All changes or transactions to the ledger were announced to the group.
->4. The group agreed to update all ledgers.
+<p>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------ All Tribe Members Keep Copy in Their Head --------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-yap-1.png?raw=true"
+	alt="All Tribe Members Keep Copy in Their Head"
+	width="50%" >
+&nbsp;
+1. The group shared the ledger.
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------- All Tribe Members Who owned the Rai Stone ----------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-yap-2.png?raw=true"
+	alt="All Tribe Members Keep Copy in Their Head"
+	width="50%" >
+&nbsp;
+2. The group agreed to the ledger.
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------- All Tribe Members Who owned the Rai Stone ----------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-yap-3.png?raw=true"
+	alt="All Tribe Members Keep Copy in Their Head"
+	width="50%" >
+&nbsp;
+3. All changes or transactions to the ledger were announced to the group.
+<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------- All Tribe Members Who owned the Rai Stone ----------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-yap-4.png?raw=true"
+	alt="All Tribe Members Keep Copy in Their Head"
+	width="50%" >
+&nbsp;
+4. The group agreed to update all ledgers.
+</p>
 
 <h3>Let's review an example on Yap Island:</h3>
 Alice agrees to trade Bob her stone by the pond in exchange for all of his cattle.
@@ -1424,15 +1460,25 @@ Essentially you are not trusting one person or entity to control the ledger, you
 Let's look a little further into how that trust is achieved.<br/>
 
 <h3 id="ch2-3">2.3 From Distributed Ledger to Cryptography</h3>
+<p>
 A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
+
 Blockchain creates a layer of trust between untrusted parties.
+
 Without blockchain to create trusted records and transactions, a third party intermediary is necessary.
+
 Blockchain eliminates the need for a centralized institution to act as intermediary, and instead uses cryptography and collaboration to create that trust.
+
 In an earlier chapter of this course we spoke about collaboration through distributed ledgers.
+	
 Now, we will be taking a further look at how cryptography is used in blockchain to create the second element necessary for blockchain to be a source of trust.
+
 Information on the blockchain is stored on the ledger using cryptography.
+
 It can be accessed using keys and cryptographic signatures.
+	
 Now, let's take a look into some of the key concepts of cryptography that are utilized with blockchain.
+</p>
 
 <h3>Rose Greenhow</h3>
 One of the reoccurring themes in blockchain is that while blockchain itself may be new and cutting-edge, it's built out of nothing more than very old tried-and-true technology.
@@ -1488,9 +1534,12 @@ Encryption is the reverse process of converting ciphertext into plain text.
 The Secret and the Key are passed into the Function to create the Cipher.
 
 <h3>Cryptography Basics</h3>
-So, one of the technologies that plays a pivotal role in blockchain and making blockchain secure and immutable is cryptography.
+One of the technologies that plays a pivotal role in blockchain and making blockchain secure and immutable is cryptography.
+
 If you've never heard of cryptography before, cryptography is simply designed defined as the science of sending messages back and forth from one party to another, in the presence of adversaries or bad actors, participants who may wish to corrupt or change the contents of a message.
+
 And there's some key concepts you should understand about cryptography before we really dive in and talk about how cryptography protects the data on the blockchain.
+
 Most cryptographic functions are what we refer to as two-way functions, meaning that we can take a secret and we can encrypt it, and then we can use that same process to decrypt the secret at the other end.
 
 Some of the key objects or concepts to be aware of in cryptography:
@@ -1522,7 +1571,7 @@ If you put any data into a cryptographic hash and you share that hash with me, t
 
 Cryptographic hashes are used in scenarios where we want to prove a piece of data without sharing that data.
 
-So, password management systems use this all the time.
+Password management systems use this all the time.
 
 We don't want to store a username and password…we want to store a username and the hash output of a password.
 
@@ -1531,7 +1580,7 @@ That way, I don't know what any of my users' passwords are, but I do know that i
 We're going to dive in a lot deeper in a later module, to show you exactly through a demo how cryptographic hashing works, and how it provides security and immutability on the blockchain.
 
 But just understand these two big takeaways:
-   Number one, that cryptography is normally a two-way function with four components: 
+Number one, that cryptography is normally a two-way function with four components: 
    the secret, the key, the function, and the cipher, 
    and then finally, there are a subclass of cryptographic functions called **cryptographic hash functions**, which exist as one-way functions, which can only
    encrypt the secret, and again, which are mathematically impossible to decrypt the secret in any other method other than randomly guessing input until you're 
@@ -1579,17 +1628,20 @@ Essentially, what the solution entails is all of the generals hiring as many mat
 
 When we talk about Byzantine Fault Tolerance, we're talking about the generals having more access, having more mathematicians, or more computing power on their side than the empire within the city.
 
-So, if I'm the generals and I can hire more mathematicians, then that means that I can encrypt my messages going through the city with greater and greater complexity, and if the balance of power becomes greatly tipped in the favor of the generals outside the city, they can use encryption methods which are so complex, that there really is no real chance, or a very small chance that any of the mathematicians inside the city will be able to intercept that message, decrypt it, change the contents, re-encrypt it, and do so in a time quick enough that the generals don't notice anything has happened.
+If I'm the generals and I can hire more mathematicians, then that means that I can encrypt my messages going through the city with greater and greater complexity, and if the balance of power becomes greatly tipped in the favor of the generals outside the city, they can use encryption methods which are so complex, that there really is no real chance, or a very small chance that any of the mathematicians inside the city will be able to intercept that message, decrypt it, change the contents, re-encrypt it, and do so in a time quick enough that the generals don't notice anything has happened.
 
-And so, this is **Byzantine Fault Tolerance**.
+This is **Byzantine Fault Tolerance**.
 
 This is the fault tolerance mechanism that we see used in most public blockchain solutions right now, including Bitcoin, including Ethereum, although Ethereum is working on transitioning to a system called Proof of Stake, which we'll talk about in a later section.
 
 But, when you hear Byzantine Fault Tolerance, often abbreviated as BFT, all we're talking about is this idea that blockchains become secure if they have more computing power, more hash power in the chain than off the chain.
 
 Solutions like Ethereum, 16,000 plus nodes, or Bitcoin, the largest blockchain network that there is, with over 30,000 nodes, offer us a high degree of security and immutability, because the computing power on those networks is so great that there's really no reasonable chance that an adversary could ever control as much or more computing power to attack the data on that blockchain.
+
 And if someone ever were to, chances are the economics behind it would be such that they would spend more to simultaneously harness all that computing power, than they could possibly stand to gain.
-And so, this is Byzantine Fault Tolerance.
+
+This is Byzantine Fault Tolerance.
+
 It is the root of cryptography, which is simply the study of how do we send information back and forth securely in the presence of adversaries and bad actors, and it's what underlies all the security and immutability that we get in blockchain.
 
 <h3>Types of Cryptography in Blockchain</h3>
