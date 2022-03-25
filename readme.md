@@ -1051,13 +1051,11 @@ If you want to see some of the really exciting use cases in blockchain right now
    alt="Smart Dubai" >
 &nbsp;
 
-<ul>
-<li><b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.
-The [Smart Dubai](https://www.digitaldubai.ae/) strategy will be using three essential pillars: government efficiency, industry creation and international leadership.</li><br/>
+   * <b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.
+The [Smart Dubai](https://www.digitaldubai.ae/) strategy will be using three essential pillars: government efficiency, industry creation and international leadership.
+   * <b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br/>
 
-<li><b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br/>
-When successful, Dubai will be the first blockchain-powered government driving the future economy.</li>
-</ul>
+When successful, Dubai will be the first blockchain-powered government driving the future economy.
 
 <h3>More Use Cases</h3>
 Blockchain is having far reaching effects in major industries.
