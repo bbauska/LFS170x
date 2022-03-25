@@ -1517,6 +1517,14 @@ It was all about substituting certain letters for others, typically by shifting 
 That algorithm is what we would call a cipher, and since Caesar’s invention, cipher keys are much more secure and advanced. 
 If you want to encrypt and decrypt information, you are going to have to choose a kind of cipher to do so".
 </blockquote>
+<!------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------- Cryptography by the romans --------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-cryptography-romans.png?raw=true"
+	alt="Cryptography By Julius Caesar: Caesar Cipher"
+	width="65%" >
+&nbsp;
 
 <h3>Cryptography Key Terms</h3>
 Let's explain the key terms used in cryptography:
