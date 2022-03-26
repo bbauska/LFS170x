@@ -4863,7 +4863,7 @@ The easy-to-use platform is tailored for users, developers, government, and ente
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-SIMBA's Smart Contract Designer allows anyone to quickly and easily create smart contracts. 
+[SIMBA's Smart Contract Designer](https://info.simbachain.com/smart-contract-designer-landing-page) allows anyone to quickly and easily create smart contracts. 
 
 The interface allows users to easily build a graph of the relationships between assets and transactions. 
 
@@ -4878,14 +4878,14 @@ This graphical model is then converted to Solidity where each asset and transact
    alt="Simba - Software as a Service (SaaS)"</>
 </p>
 
-SIMBA Chain also offers management services (Software as a Service) for your blockchain solution that grant use of software solutions or APIs (application programming interface), across several cloud platforms so companies can effectively create blockchain solutions.
+SIMBA Chain also offers management services [(Software as a Service)](https://simbachain.com/enterprise/) for your blockchain solution that grant use of software solutions or APIs (application programming interface), across several cloud platforms so companies can effectively create blockchain solutions.
 
 <h3>Identity</h3>
-Identity management is vital for blockchain operation. Identifying objects that will interact with a blockchain such as people, places, things (IOT devices), is the first step and consideration when developing a blockchain.
+Identity management is vital for blockchain operation. Identifying objects that will interact with a blockchain such as people, places, things [(IOT devices)](https://www.blockchain-council.org/blockchain/blockchain-and-iot-a-solid-technological-duo/), is the first step and consideration when developing a blockchain.
 
 One solution is the Verifiable Organizations Network (VON) project that enables organizations—and the people running those organizations—to conduct business online in a trusted manner. The core challenge is that on the Internet we can’t tell if we’re talking to you, or someone pretending to be you. We need a reliable way to verify that “you are you” in a manner appropriate for the type of transaction that you want to complete and in a privacy-preserving manner.
 
-To learn more, we recommend that you listen the "Digital Trust: How the OrgBook Enables the Digital Economy" webinar.
+To learn more, we recommend that you listen the ["Digital Trust: How the OrgBook Enables the Digital Economy"](https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4) webinar.
 
 <h3>Marketplace</h3>
 Marketplaces exist to shop renewable energies to make sustainable solutions available on open markets. Everyone knows there are countless inefficiencies in the energy grid, stemming from the highly centralized nature of our utilities systems. With the advent of at-home energy production and storage through affordable solar panels and home batteries, many users are storing energy surpluses at home without a way to “sell” clean energy.
@@ -4901,7 +4901,7 @@ Marketplaces exist to shop renewable energies to make sustainable solutions avai
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-Power Ledger solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. 
+[Power Ledger](https://www.powerledger.io/) solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. 
 
 By increasing the transparency for energy origins, Power Ledger could assist with providing customers more choices for where their energy comes from. 
 
@@ -4921,7 +4921,8 @@ In fact, gaming and eSports will likely become one of the major markets as the u
 To learn more, visit the [Game Developers Conference's website](https://gdconf.com/).
 
 <h3>Decentraland</h3>
-Decentraland is a virtual world built on top of the Ethereum blockchain. 
+
+[Decentraland](https://decentraland.org/) is a virtual world built on top of the Ethereum blockchain. 
 
 A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br/> 
 
