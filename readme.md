@@ -4914,7 +4914,7 @@ Most of the new video games have in-app purchases and loot box features in them.
 
 These features enable users to use real-life currency to buy new skins for their characters and tools. <br/>
 <p>
-With the use of <i>DeFi</i>, game developers can implement the newer incentive or reward models with DeFi coins. 
+With the use of [DeFi](https://101blockchains.com/defi-use-cases/), game developers can implement the newer incentive or reward models with DeFi coins. 
 
 In fact, gaming and eSports will likely become one of the major markets as the users are more tech-savvy and open to newer technologies.
 </p>
@@ -4933,6 +4933,7 @@ Watch this video to learn more about <a href="https://www.youtube.com/watch?app=
 <!--- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/). -->
 
 <h3>Music</h3>
+
 Experts from [Statista](https://www.statista.com/statistics/239276/growth-of-the-global-music-revenue-by-type/) projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
 
 Read ["Blockchain for the Music Industry: 9 Possible Use Cases"](https://www.disruptordaily.com/blockchain-use-cases-music/) by Sam Mire to learn more.<br/>
