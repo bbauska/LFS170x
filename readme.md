@@ -2314,7 +2314,7 @@ Next, let's engage with an interactive lab. This lab will give you the chance to
 
 Start Lab
 
-<h3> id="ch2-5">2.5 Chapter Summary</h3>
+<h3 id="ch2-5">2.5 Chapter Summary</h3>
 In this chapter, we discussed:
 <ul>
 <li>Distributed ledger technology (DLT) and how it differs from previous ledger storage techniques.</li>
