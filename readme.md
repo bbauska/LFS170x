@@ -25,9 +25,9 @@
 	width="50%">
 &nbsp;
 
-## [Table of Contents](#table-of-contents)
+<h2 align="center">[Table of Contents](#table-of-contents)</h2>
 
-## [**Chapter 1. Introduction to Blockchain**](#ch1)
+<h2 align="left">[**Chapter 1. Introduction to Blockchain**](#ch1)</h2>
 >### 1.1. [**Intro: What is Blockchain?**](#ch1-1)
 >### 1.2. [**Introduction to Blockchain and The Early Internet**](#ch1-2)
 >### 1.3. [**Blockchain Basics**](#ch1-3)
@@ -4497,7 +4497,7 @@ The resulting solution is called TradeLens. You can take the TradeLens tour here
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="50%" 
-   src="/images/image097.jpeg?raw=true"
+   src="/images/image098.jpg?raw=true"
    alt="Trade Made Easy"</>
 </p>
  
@@ -4510,7 +4510,7 @@ The trend toward blockchain agriculture promises to make each step of growing an
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="50%" 
-   src="/images/image098.png?raw=true"
+   src="/images/image-walmart-logo.png?raw=true"
    alt="Walmart logo"</>
 </p>
 
@@ -4547,8 +4547,8 @@ The food system is a shared responsibility and for blockchain, and traceability,
 We're excited to be working with IBM on this blockchain initiative, but it's not just Walmart and IBM, we actually have some of our suppliers participating in this pilot, we've got some universities also participating in the pilot.
 
 We'll make sure that all stakeholders work together for a safer and better food system.
-  - IBM's Food Trust Solution building faith in food supply chains.
-  - Paramount's Farm to Table creates an inclusive blockchain supply chain solution from the farm all the way to your plate.
+  - IBM's [Food Trust Solution](https://www.ibm.com/blockchain/resources/food-trust/manufacturing/?mhsrc=ibmsearch_a&mhq=Food%20Trust%20Solution) building faith in food supply chains.
+  - Paramount's [Farm to Table](https://www.farmtoplate.io/) creates an inclusive blockchain supply chain solution [from the farm all the way to your plate](https://www.producebluebook.com/2021/05/21/paramount-software-solutions-launches-farm-to-plate-blockchain-platform/#modal).
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -4559,6 +4559,7 @@ We'll make sure that all stakeholders work together for a safer and better food 
 <img width="50%" 
    src="/images/image100.png?raw=true"
    alt="Farm to Table logo"</>
+   <!---- connected dots ---->
 </p>
 
 <h3>Healthcare</h3>
@@ -4574,7 +4575,7 @@ Blockchain is transforming the healthcare industry. Some challenges the healthca
 </p>
   
 Moderna uses blockchain to support smart COVID vaccine management. 
-To learn more see "Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter' Management of COVID-19 Vaccines" article by Tomi Kilgore.
+To learn more see ["Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter' Management of COVID-19 Vaccines"](https://www.marketwatch.com/story/moderna-ibm-explore-blockchain-tech-ai-to-support-smarter-management-of-covid-19-vaccines-2021-03-04) article by Tomi Kilgore.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------------- SAP logo ----------------------------------------------------------->
@@ -4586,7 +4587,7 @@ To learn more see "Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter'
 </p>
 
 SAP has an existing solution unrelated to blockchain called Advanced Track and Trace for Pharmaceuticals (ATTP) which generates the unique identifiers. 
-To further explore this solution read the following article by Nicky Morris "SAP Leads Pharma Supply Chain Blockchain" and watch "Verifying Pharmaceutical Products Using Blockchain" video. 
+To further explore this solution read the following article by Nicky Morris ["SAP Leads Pharma Supply Chain Blockchain"](https://www.ledgerinsights.com/sap-pharma-supply-chain/) and watch ["Verifying Pharmaceutical Products Using Blockchain"](https://www.sap.com/assetdetail/2018/05/c48ee5c2-047d-0010-87a3-c30de2ffd8ff.html) video. 
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!-------------------------------------------------   Pfizer logo --------------------------------------------------------->
@@ -4597,7 +4598,7 @@ To further explore this solution read the following article by Nicky Morris "SAP
    alt="Pfizer logo"</>
 </p>
 
-Also, Pfizer has been using blockchain in transparent clinical trials. You can learn more about this project by reading the following blog post, "Clinical Trial Data Should Be Accessible and Transparent".
+Also, Pfizer has been using blockchain in transparent [clinical trials](https://www.pfizer.com/science/clinical-trials/guide). You can learn more about this project by reading the following blog post, ["Clinical Trial Data Should Be Accessible and Transparent"](https://www.pfizer.com/science/clinical-trials/data-and-results).
 
 <h3>Finance Markets</h3>
 Reduction of settlement times will improve the flow of money through fintech companies.
@@ -4757,7 +4758,7 @@ The Giving Chain is a grassroots Social Impact project designed to improve disas
 <!---------------------------------------------------- Charity logo ------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-<img width="25%" 
+<img width="85%" 
    src="/images/image114.png?raw=true"
    alt="Charity logo"</>
 </p>
@@ -4768,7 +4769,7 @@ Created by three local meetup groups, Ledger Academy, Hyperledger Princeton and 
 <!------------------------------------------------    -------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="50%" src="/images/image115.jpg?raw=true"
+  <img width="65%" src="/images/image115.jpg?raw=true"
     alt="The Giving Chain"</>
 </p>
 
