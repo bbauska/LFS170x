@@ -4933,10 +4933,10 @@ Watch this video to learn more about <a href="https://www.youtube.com/watch?app=
 <!--- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/). -->
 
 <h3>Music</h3>
-Experts from Statista projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
+Experts from [Statista](https://www.statista.com/statistics/239276/growth-of-the-global-music-revenue-by-type/) projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
 
-Read <blockquote>"Blockchain for the Music Industry: 9 Possible Use Cases"</blockquote> by Sam Mire to learn more.<br/>
-<i>themusicianmarketplace.com</i> was built to establish one profile for each artist, but each artist can list talents for any job they want. <br/>
+Read ["Blockchain for the Music Industry: 9 Possible Use Cases"](https://www.disruptordaily.com/blockchain-use-cases-music/) by Sam Mire to learn more.<br/>
+[themusicianmarketplace.com](https://www.themusicianmarketplace.com/) was built to establish one profile for each artist, but each artist can list talents for any job they want. <br/>
 For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place.
 
 The options on themusicianmarketplace.com are unlimited. 
