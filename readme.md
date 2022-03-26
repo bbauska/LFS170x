@@ -2015,7 +2015,7 @@ This limits the transparency of data in the database since values can be modifie
 
 <h3>Blockchain Updates</h3>
 The blockchain is designed to be a data structure that only allows appending:
-<ul>
+<ul list-style-type: disc>
 <li>The past history of the blockchain is visible and immutable.</li>
 <li>Updates to the blockchain can be performed by including them in new blocks added to the blockchain.</li>
 </ul>
@@ -2035,14 +2035,18 @@ Transactions in the blockchain cannot be modified after creation, and their comp
 This means that the blockchain is a completely transparent data structure with the useful property that the integrity of the blockchain is easily verifiable by any user.
 
 <h3>Transparency: Databases vs. Blockchain</h3>
+<p>
 Traditional databases and the blockchain were created for different purposes and have different levels of transparency. 
 
 Traditional databases have low transparency since values can be modified or deleted; however, this changeability allows them to store data in an efficient manner, with only the most relevant versions of each value retained in storage.
 
 The blockchain is publicly visible and immutable, meaning that it has very high transparency. 
+
 Its append-only structure and decentralized storage sacrifice storage efficiency for trustworthiness of the stored data.
+</p>
 
 <h3 id="ch2-4"></a>2.4 Transparency</h3>
+<p>
 One of the big benefits we get in any blockchain solution, public or private, is the idea of transparency.
 
 In a public blockchain solution like Bitcoin or Ethereum, because they're anonymous and we have no concept of identity, we have no way of treating users differently.
@@ -2092,9 +2096,10 @@ Consumers might value your product more, your offering more, if they're able to 
 
 If you're manufacturing and distributing clothing, and you can demonstrate to consumers that all of that clothing was sourced from parts of the world with fair labor practices consumers are going to have more trust and faith in the brand and ultimately willing to pay a higher price for it.
 
-So, these kind of transparency solutions are one of the biggest benefits of blockchain and one of the areas being most explored, because right now there are a lot of consumers who would simply like more visibility into the products and services they purchase.
+These kind of transparency solutions are one of the biggest benefits of blockchain and one of the areas being most explored, because right now there are a lot of consumers who would simply like more visibility into the products and services they purchase.
 
 And blockchain, both public and private, can be a great solution for doing that.
+</p>
 
 <h3>Immutability in the Blockchain</h3>
 Blockchain is designed to be an authoritative ledger of the history of the network.
@@ -4163,19 +4168,26 @@ The Internet was designed to identify computers, not users. The result is a tang
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Key Concepts</h3>
-<h3>Self-sovereign identity (SSI)</h3>
-SSI is relatively new, having only emerged onto the Internet stage in 2016. At one level, SSI is a set of principles about how identity and personal data control should work across digital networks. At another level, SSI is a set of technologies which build upon core concepts in identity management, distributed computing, blockchain or Distributed Ledger Technology (DLT), and cryptography.
-Verifiable credentials
+
+<h4>Self-sovereign identity (SSI)</h4>
+SSI is relatively new, having only emerged onto the Internet stage in 2016. 
+At one level, SSI is a set of principles about how identity and personal data control should work across digital networks. 
+At another level, SSI is a set of technologies which build upon core concepts in identity management, distributed computing, blockchain or Distributed Ledger Technology (DLT), and cryptography.
+
+<h4>Verifiable credentials</h4>
 The essence of decentralized identity is transitioning physical identity credentials (birth certificate, driver licenses, passports, college degrees, medical records, etc.) to a digital twin that the individual can possess in a digital wallet.
 
-Verifier
-A verifier is the person, organization or computer program granting verification of an assertion. They request proof that a claim or statement about a credential is true.
+<h4>Verifier</h4>
+A verifier is the person, organization or computer program granting verification of an assertion. 
+They request proof that a claim or statement about a credential is true.
 
-<h3>Issuers</h3>
+<h4>Issuers</h4>
 Issuers are the source of credentials—every credential has an issuer. Most issuers are organizations such as government agencies (passports), financial institutions (credit cards), universities (degrees), corporations (employment credentials), NGOs (membership cards), or churches (awards).
 
-<h3>Holders/Provers</h3>
-Providers request verifiable credentials from issuers, hold them in the holder’s digital wallet (below), and present proofs of claims from one or more credentials when requested by verifiers (and approved by the holder). Although we most commonly think of individuals as holders/provers, holders/provers can also be organizations using enterprise wallets, or things in the sense of the Internet of Things (IoT). The trust triangle represents the Trust over IP version of how the new relationship will operate.
+<h4>Holders/Provers</h4>
+Providers request verifiable credentials from issuers, hold them in the holder’s digital wallet (below), and present proofs of claims from one or more credentials when requested by verifiers (and approved by the holder). 
+Although we most commonly think of individuals as holders/provers, holders/provers can also be organizations using enterprise wallets, or things in the sense of the Internet of Things (IoT). 
+The trust triangle represents the Trust over IP version of how the new relationship will operate.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------------- Decentralized Identifiers (DIDs) ---------------------------------------------->
@@ -4187,7 +4199,11 @@ Providers request verifiable credentials from issuers, hold them in the holder�
 </p>
 
 <h3>Decentralized identifiers</h3>
-According to the WC3, decentralized identifiers (DIDs) are a new type of identifier for verifiable, decentralized digital identity credentials. These new identifiers are designed to enable the controller of a DID to prove control over it and to be implemented independently of any centralized registry, identity provider, or certificate authority. WC3 is working on ways to standardize the format for DIDs.
+According to the WC3, [decentralized identifiers (DIDs)](https://www.windley.com/archives/2020/11/didcomm_and_the_self-sovereign_internet.shtml) are a new type of identifier for verifiable, decentralized digital identity credentials. 
+
+These new identifiers are designed to enable the controller of a DID to prove control over it and to be implemented independently of any centralized registry, identity provider, or certificate authority. 
+
+WC3 is working on ways to standardize the format for DIDs.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------ Decentralized Identifiers (DIDs) - Public  & Private Keys -------------------------------->
@@ -4199,17 +4215,23 @@ According to the WC3, decentralized identifiers (DIDs) are a new type of identif
 </p>
 
 The DID above is structured to identify what type of credential, the issuer and the cryptographic hash of the credential.
-The Sovrin Foundation and Everynym are leading pioneers in this new emerging sector offering identity solutions in sectors such as Healthcare and Refugee Management.
+
+The [Sovrin Foundation](https://sovrin.org/) and [Everynym](https://sovrin.org/) are leading pioneers in this new emerging sector offering identity solutions in sectors such as Healthcare and Refugee Management.
 
 <h3>Decentralized Finance</h3>
-According to "The Complete Beginner's Guide to Decentralized Finance (DeFi)" article by Binance Academy, Decentralized Finance or DeFI refers to a system of financial software that enables financial products to be made available to the public on decentralized blockchains. 
+According to ["The Complete Beginner's Guide to Decentralized Finance (DeFi)"](https://academy.binance.com/en/articles/the-complete-beginners-guide-to-decentralized-finance-defi) article by Binance Academy, Decentralized Finance or DeFI refers to a system of financial software that enables financial products to be made available to the public on decentralized blockchains. 
 
 As we have learned, the term decentralized and its ramifications will revolutionize how we interact with each other. 
+
 These new interactions can have different effects in various sectors. 
 
-In the financial markets, new interactions will dramatically change the current structure by eliminating the need for intermediaries. Banks, lending institutions, Money Managers, Market Analysts, Hedge Fund Managers, and other positions and functions can now be performed using smart contracts.
+In the financial markets, new interactions will dramatically change the current structure by eliminating the need for intermediaries. 
 
-With new technology platforms, open source projects are fueled by blockchains, incentive models, stablecoins, smart contracts and self hosted wallets that remove financial middlemen. Users' funds that are pooled together for investment advantages are now managed by a series of smart contracts that execute programmed financial trades instead of a third party.
+Banks, lending institutions, Money Managers, Market Analysts, Hedge Fund Managers, and other positions and functions can now be performed using smart contracts.
+
+With new technology platforms, open source projects are fueled by blockchains, incentive models, stablecoins, smart contracts and self hosted wallets that remove financial middlemen. 
+
+Users' funds that are pooled together for investment advantages are now managed by a series of smart contracts that execute programmed financial trades instead of a third party.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------------- Components of Decentralized Finance ------------------------------------------->
@@ -4221,7 +4243,11 @@ With new technology platforms, open source projects are fueled by blockchains, i
 </p>
 
 <h3>Benefits of Decentralized Finance</h3>
-Along with the new decentralized financial model come new innovations that have far reaching ramifications. Microloans, smaller loans made from pools of capital, now are available granting access to these financial vehicles to participants previously excluded. For example, in agriculture, farmers are able to secure small loans to help them get crops to market.
+Along with the new decentralized financial model come new innovations that have far reaching ramifications. 
+
+Microloans, smaller loans made from pools of capital, now are available granting access to these financial vehicles to participants previously excluded. 
+
+For example, in agriculture, farmers are able to secure small loans to help them get crops to market.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -4234,12 +4260,22 @@ Along with the new decentralized financial model come new innovations that have 
    alt="Benefits of Decentralized Finance"</>
 </p>
  
-Regulating these new financial instruments is proving challenging as government agencies wrestle with controlling currencies that do not recognize borders. And have a steep learning curve. A stable price coupled with the benefits of blockchain, new financial markets are emerging that will change the current financial markets making them more inclusive.
+Regulating these new financial instruments is proving challenging as government agencies wrestle with controlling currencies that do not recognize borders. 
+
+And have a steep learning curve. 
+
+A stable price coupled with the benefits of blockchain, new financial markets are emerging that will change the current financial markets making them more inclusive.
 
 <h3>Central Bank Digital Currencies (CBDC)</h3>
-Enterprise blockchain solutions are successfully creating efficient micro-economies that are decentralized, immutable and efficient. The success of these projects are forcing governments to take a look at blockchain technology through the lens of streamlining current financial systems. More specifically, studying how blockchain can improve the way governments handle their central banking systems.
+Enterprise blockchain solutions are successfully creating efficient micro-economies that are decentralized, immutable and efficient. 
+
+The success of these projects are forcing governments to take a look at blockchain technology through the lens of streamlining current financial systems. 
+
+More specifically, studying how blockchain can improve the way governments handle their central banking systems.
+
 Central Bank Digital currencies are a digital form of central bank money that is issued by the central bank as part of its overall monetary policy. 
-In the Ledger Insights article titled "IMF Outlines Pros and Cons of Central Bank Digital Currency" it is estimated that 80% of central banks are exploring CBDC.
+
+In the Ledger Insights article titled ["IMF Outlines Pros and Cons of Central Bank Digital Currency"](https://www.ledgerinsights.com/imf-pros-cons-central-bank-digital-currency-cbdc/) it is estimated that 80% of central banks are exploring CBDC.
 
 Some of the benefits of Central Bank Digital Currencies include:
 <ul>
@@ -4304,7 +4340,9 @@ With NFTs, musicians and filmmakers can now tokenize their work where the artist
 The sports industry has embraced the idea of NFTs from tokenizing memorable sporting moments to trading card collectables. NBA Top Shots being the leader for creating a marketplace for NBA collectible cards and moments.
    * University research<br/>
 In May 2021, UC Berkeley announced it would auction off NFTs for the patent disclosure for two Nobel Prize-winning inventions dealing with gene editing and Cancer Immunotherapies.<br/>
+
 The younger generation of collectors aren’t interested in China sets and linen, but something they can show their friends on their social media accounts. 
+
 The future of the non-fungible token promises to be one of the more energetic market segment blockchain has seen.
 
 <h3>Interoperability</h3>
@@ -4377,7 +4415,10 @@ By the end of this chapter, you should be able to:
 <h3 id="ch6-2">6.2 Blockchain Use Case Categories (Blockchain in Practice)</h3>
 Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. 
 
-It is showing a new path that will improve the lives of so many. We will see how identity management is key (no pun intended) to all the use cases we discuss.
+It is showing a new path that will improve the lives of so many. 
+
+We will see how identity management is key (no pun intended) to all the use cases we discuss.
+
 For our discussion, we will categorize use cases by who is developing solutions, starting with large enterprise solutions to smartphone and web browser applications powered by blockchain that put control back in the user's hands:
   - Enterprise solutions<br/>
 Businesses and organizations are implementing blockchain to overcome obstacles in transparency and trust forging new associations with global implications.
@@ -4410,24 +4451,43 @@ Learn more about the collaboration between Maersk and IBM from the "Digitizing G
 
 <h3 id="ch6-3">6.3 Supply Chain - Maersk (Enterprise Solutions)</h3>
 Global trade functions much as it has since the introduction of the shipping container in 1956.
+
 Manual, paper-based processes are still common and information about the status of goods is locked away in organizational silos.
+
 Today, 90% of goods in global trade are carried by the shipping industry with the supply chain slowed by the complexity and sheer volume of point-to-point communication across a loosely coupled web of land transportation providers, freight forwarders, customs brokers, governments, ports, and ocean carriers.
+
 IBM and Maersk are addressing this problem with a distributed permission platform accessible by the supply chain ecosystem designed to exchange event data and handle document workflows.
+
 Maersk and IBM are employing blockchain technology to create a global tamperproof system for digitizing trade workflow and tracking shipments end-to-end, eliminating frictions including costly point-to-point communications.
+
 The collaboration will launch with the potential ability to track millions of container journeys per year and integrate with customs authorities on selected trade lanes.
+
 In a recent test by Maersk, shipping a single container of flowers from Kenya to the port of Rotterdam resulted in a stack of nearly 200 communications.
+
 Using this example, we will examine how blockchain has been implemented to create trust and security in the digitized document workflow and improve the efficiency of global supply chains.
+
 Here we can see each distinct entity involved in the transaction: the growers, export authorities, ports, customs, and importers.
+
 Shipping from the port of Mombasa requires signatures from three different agencies approving the export and six documents that describe the origin, chemical treatments, quality of the produce, and customs duties.
+
 Firstly, using a PC or mobile device the Kenyan farm submits a packing list that becomes visible to all participants.
+
 This action initiates a smart contract that enforces an export approval workflow between the three agencies.
+
 As each agency signs, the status is updated for all to see.
+
 Simultaneously, information about the inspection of the flowers, the sealing of the refrigerated container, the pickup by the trucker, and the approval from customs is communicated to the port of Mombasa allowing them to prepare for the container.
+
 All actions relating to the documents and the physical goods are captured and shared: which documents were submitted, when and by whom, where the flowers are, and who is in possession of them, and the next steps in their journey.
+
 Flowers are perishable, so it's crucial that there are no delays or missed steps .
+
 Blockchain provides secure data exchange and a tamperproof repository for these documents and shipping events.
+
 This system could significantly reduce delays and fraud saving billions of dollars annually.
+
 And, according to the WTO, reducing barriers within the international supply chain could increase worldwide GDP by almost 5% and total trade volume by 15%.
+
 The resulting solution is called TradeLens. You can take the TradeLens tour here.
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -4785,7 +4845,12 @@ It is a cloud service that enables rapid distributed application deployment with
 
 <h3>SIMBA Chain</h3>
 SIMBA Chain, Inc. was formed in 2017 from a grant awarded by the Defense Advanced Research Projects Agency (DARPA) to Indiana Technology and Manufacturing Companies (ITAMCO) and the Center for Research Computing (CRC) at the University of Notre Dame in order to develop a secure, unhackable messaging and transaction platform for the United States military.
-SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). These apps allow secure, direct connections between users and providers, eliminating third parties. The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
+
+SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). 
+
+These apps allow secure, direct connections between users and providers, eliminating third parties. 
+
+The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------------- Simba logo --------------------------------------------------------->
@@ -4799,7 +4864,9 @@ SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enab
 **[`^        back to top        ^`](#table-of-contents)**
 
 SIMBA's Smart Contract Designer allows anyone to quickly and easily create smart contracts. 
+
 The interface allows users to easily build a graph of the relationships between assets and transactions. 
+
 This graphical model is then converted to Solidity where each asset and transaction becomes a Solidity Smart Contract method that can be executed on the blockchain.
 
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -4815,7 +4882,9 @@ SIMBA Chain also offers management services (Software as a Service) for your blo
 
 <h3>Identity</h3>
 Identity management is vital for blockchain operation. Identifying objects that will interact with a blockchain such as people, places, things (IOT devices), is the first step and consideration when developing a blockchain.
+
 One solution is the Verifiable Organizations Network (VON) project that enables organizations—and the people running those organizations—to conduct business online in a trusted manner. The core challenge is that on the Internet we can’t tell if we’re talking to you, or someone pretending to be you. We need a reliable way to verify that “you are you” in a manner appropriate for the type of transaction that you want to complete and in a privacy-preserving manner.
+
 To learn more, we recommend that you listen the "Digital Trust: How the OrgBook Enables the Digital Economy" webinar.
 
 <h3>Marketplace</h3>
@@ -4833,22 +4902,30 @@ Marketplaces exist to shop renewable energies to make sustainable solutions avai
 **[`^        back to top        ^`](#table-of-contents)**
 
 Power Ledger solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. 
+
 By increasing the transparency for energy origins, Power Ledger could assist with providing customers more choices for where their energy comes from. 
+
 They accomplish these goals through peer-to-peer energy trading, carbon product trading, microgrids management, and more.
 
 <h3>Gaming</h3>
 The days of video games being just a form of entertainment are long gone.>br/> 
+
 Most of the new video games have in-app purchases and loot box features in them. <br/>
+
 These features enable users to use real-life currency to buy new skins for their characters and tools. <br/>
 <p>
 With the use of <i>DeFi</i>, game developers can implement the newer incentive or reward models with DeFi coins. 
+
 In fact, gaming and eSports will likely become one of the major markets as the users are more tech-savvy and open to newer technologies.
 </p>
 
 To learn more, visit the Game Developers Conference's website.
+
 [Developers Conference website](https://gdconf.com/)
 
-Decentraland is a virtual world built on top of the Ethereum blockchain. A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br/> 
+Decentraland is a virtual world built on top of the Ethereum blockchain. 
+A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br/> 
+
 Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).<br/>
 
 Watch this video to learn more about <a href="https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/" target="_blank">Decentraland</a>
@@ -4878,24 +4955,37 @@ Below you can see themusicianmarketplace.com dashboard:
 
 <h3 id="ch6-6">6.6 What is the future of blockchain?</h3>
 That is a big question.
+
 And unlike everything we have already talked about in this course, this is nothing factual, but just my own opinion.
+
 I think blockchain is a really, really exciting place right now.
+
 Blockchain tends to get talked about in the context of a lot of other exciting emerging technologies, things like IoT and smart devices, self-driving cars and autonomous devices, AI, virtual and augmented reality.
 
 The truth is, in my opinion, I see blockchain as an enabling layer for many of these other technological revolutions.
+
 Everybody is excited about the idea of smart devices.
+
 Wouldn't it be great if I had a smart refrigerator that automatically reordered more ketchup as it started to get low?
+
 Everyone gets a little nervous when it comes time to actually talk about implementing something like this, because how do we protect it?
 
 How do we ensure that the data the system uses is immutable and secure?
+
 Blockchain provides that.
+
 I think that we are going to see a lot of growth in emerging technologies as blockchain continues to emerge, because it's going to make more and more things possible.
+
 And if we talk long term, and again, only my opinion, I think blockchain becomes the enabling layer for a multi-planetary human economy.
 
 You might have seen in February 2018, SpaceX put up Falcon Heavy.
+
 Because SpaceX and Elon Musk are committed to getting us to Mars.
+
 And I truly believe in the next 20 to 50 years we are going to see a human colony on Mars.
+
 Now, one interesting thing about Mars is that it's really really far away.
+
 At the closest Earth gets to Mars, it's a 26 minute roundtrip at light speed, and there's two weeks out of every March and year, where Earth and Mars can't communicate because the Sun is right in the middle.
 
 Well, think about this: if you run a small pizza shop on Mars, you close out your register for the day, and you need to deposit funds into your bank account, and that is a bank on Wall Street, New York City, and under the best case scenario, that's a 26-minute roundtrip, you can see how centralized models of the Internet aren't going to scale.
