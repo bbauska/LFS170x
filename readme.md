@@ -4908,7 +4908,7 @@ By increasing the transparency for energy origins, Power Ledger could assist wit
 They accomplish these goals through peer-to-peer energy trading, carbon product trading, microgrids management, and more.
 
 <h3>Gaming</h3>
-The days of video games being just a form of entertainment are long gone.>br/> 
+The days of video games being just a form of entertainment are long gone.<br/> 
 
 Most of the new video games have in-app purchases and loot box features in them. <br/>
 
@@ -4924,6 +4924,7 @@ To learn more, visit the Game Developers Conference's website.
 [Developers Conference website](https://gdconf.com/)
 
 Decentraland is a virtual world built on top of the Ethereum blockchain. 
+
 A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br/> 
 
 Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).<br/>
