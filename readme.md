@@ -76,14 +76,14 @@
 <h3>Learning Objectives</h3>
 By the end of this chapter, you should be able to:
 <ul type="disc">
-   <li>Discuss blockchain technologies and the early Internet.</li>
-   <li>Explain the difference between blockchain and the cryptocurrency Bitcoin.</li>
-   <li>Discuss blockchain characteristics.</li>
-   <li>Explain blockchain components.</li>
-   <li>Explain what the block in blockchain is.</li>
+   <li>Discuss blockchain technologies and the early Internet,</li>
+   <li>Explain the difference between blockchain and the cryptocurrency Bitcoin,</li>
+   <li>Discuss blockchain characteristics,</li>
+   <li>Explain blockchain components,</li>
+   <li>Explain what the block in blockchain is,</li>
    <li>Explain how blocks are chained together.</li>
-   <li>Discuss the concept of immutability in a blockchain.</li>
-   <li>Discuss about the roles and users in a blockchain community.</li>
+   <li>Discuss the concept of immutability in a blockchain,</li>
+   <li>Discuss about the roles and users in a blockchain community,</li>
    <li>Discuss use cases for general blockchain solutions.</li>
 </ul>
 
@@ -147,10 +147,10 @@ Let’s discuss them in more detail.
 <h3>Web 1.0 - Internet of Connection</h3>
 Characteristics of Web 1.0:<br/>
 <ul type="disc">
-   <li>Development of a host of web-based applications, which fostered in online services, such as email.
-   <li>Content from administrator.</li>
-   <li>Managed by a central authority.</li>
-   <li>Read-only, information was “pushed” to users.</li>
+   <li>Development of a host of web-based applications, which fostered in online services, such as email,</li>
+   <li>Content from administrator,</li>
+   <li>Managed by a central authority,</li>
+   <li>Read-only, information was “pushed” to users,</li>
    <li>Email was the first widely adopted application on the Internet.</li>
 </ul>
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -168,7 +168,6 @@ Internet speeds switched from kilobits to tens of megabits per second, to gigabi
 Companies appeared attempting to cash in on this new technology, most notable was a company called **Netscape** which developed the first commercial Web browser.
 <br/>
 
-
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -183,9 +182,9 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 <h3>Web 2.0 - Internet of Information</h3>
 Characteristics of Web 2.0:<br/>
 <ul type="disc">
-   <li>User-generated content.</li>
-   <li>Read-write, individuals can interact with information.</li>
-   <li>Information became siloed.</li>
+   <li>User-generated content,</li>
+   <li>Read-write, individuals can interact with information,</li>
+   <li>Information became siloed,</li>
    <li>Data became a commodity.</li>
 </ul>
 
@@ -246,9 +245,9 @@ Both Napster and BitTorrent are operating today, with different business models.
 <h3>Web 3.0 - Internet of Value</h3>
 Characteristics of Web 3.0:<br/>
 <ul type="disc">
-   <li>Community interaction.</li>
-   <li>More connected, open, and intelligent.</li>
-   <li>Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence.</li>
+   <li>Community interaction,</li>
+   <li>More connected, open, and intelligent,</li>
+   <li>Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence,</li>
    <li>Identity and information will be held by the individual, breaking data silos.</li>
 </ul>
 Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
@@ -414,9 +413,9 @@ Let us look at what it means to be a currency.
 
 <h4>Purpose of currency:</h4>
 <ul type="disc">
-   <li>Medium for exchange</li>
-   <li>Store of value over time</li>
-   <li>Accepted as a measure of worth</li>
+   <li>Medium for exchange,</li>
+   <li>Store of value over time,</li>
+   <li>Accepted as a measure of worth.</li>
 </ul>
 
 According to [Investopedia](https://www.investopedia.com/terms/f/fiatmoney.asp), 
