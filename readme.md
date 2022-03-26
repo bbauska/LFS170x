@@ -21,7 +21,7 @@
 	width="50%">
 &nbsp;
 
-##[Table of Contents](#table-of-contents)
+## [Table of Contents](#table-of-contents)
 
 ## [**Chapter 1. Introduction to Blockchain**](#ch1)
 >### 1.1. [**Intro: What is Blockchain?**](#ch1-1)
