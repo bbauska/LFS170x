@@ -4694,7 +4694,7 @@ The [Blockchain for Social Impact Coalition (BSIC)](https://blockchainforsociali
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="50%" 
-   src="/images/image109.png?raw=true"
+   src="/images/image-blockchain-for-social-impact.png?raw=true"
    alt="Blockchain for Social Impact"</>
 </p>
 
@@ -4714,7 +4714,7 @@ According to the ["7 Ways Blockchain Can Be Used for Social Good"](https://innot
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="25%" 
-   src="/images/image110.jpg?raw=true"
+   src="/images/image-kiva.png?raw=true"
    alt="Kiva logo"</>
 </p>
  
@@ -4725,7 +4725,7 @@ More than 1.7 billion people around the world are unbanked and can’t access th
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="50%" 
-   src="/images/image111.png?raw=true"
+   src="/images/image-rohingya-howitworks.png?raw=true"
    alt="Mission of the Rohingya Project. How it works"</>
 </p>
 
@@ -4738,7 +4738,7 @@ The mission of the Rohingya Project is to create the foundation for a viable fut
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="50%" 
-   src="/images/image112.png?raw=true"
+   src="/images/image-rohingya-project.png?raw=true"
    alt="Rohingya Initiative logo"</>
 </p>
 
@@ -4749,7 +4749,7 @@ The platform will tap into the potential of the Rohingya community and other mar
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="85%" 
-   src="/images/image113.png?raw=true"
+   src="/images/image-displaced.png?raw=true"
    alt="Displaced Rohingya Worldwide"</>
 </p>
 
@@ -4795,10 +4795,10 @@ Application builder.</li>
 </ul>
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------    -------------------------------------------------------->
+<!----------------------------------------- Consensys mesh companies ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="75%" src="/images/image116.png?raw=true"
+  <img width="75%" src="/images/image114.png?raw=true"
     alt="ConsenSys Mesh Companies"</>
 </p>
 
@@ -4806,21 +4806,21 @@ Application builder.</li>
 Hyperledger Greenhouse is a graphical representation of the blockchains tools and libraries hosted by the Linux Foundation:
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------    -------------------------------------------------------->
+<!------------------------------------------ hyperledger green 'house' ---------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="85%" src="/images/image117.jpg?raw=true"
+  <img width="85%" src="/images/image-hyperledger-house.png?raw=true"
     alt="Hyperledger Greenhouse"</>
 </p>
 
 Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger distributed ledgers and libraries on the Hyperledger website.
  
 <!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------    -------------------------------------------------------->
+<!------------------------ Hyperledger Websites: aries, besu, fabric, indy, iroha, and sawtooth --------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="100%" src="/images/image118.jpg?raw=true"
-    alt="Hyperledger Website"</>
+  <img width="100%" src="/images/image-hyperledgers.jpg?raw=true"
+    alt="Hyperledger Websites: aries, besu, fabric, indy, iroha, and sawtooth"</>
 </p>
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -4841,7 +4841,7 @@ It is a cloud service that enables rapid distributed application deployment with
 <!---------------------------------------------------- A DAML logo -------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
-  <img width="25%" src="/images/image119.png?raw=true"
+  <img width="25%" src="/images/image117.png?raw=true"
     alt="A DAML logo"</>
 </p>
 
@@ -4859,7 +4859,7 @@ The easy-to-use platform is tailored for users, developers, government, and ente
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="25%" 
-   src="/images/image120.png?raw=true"
+   src="/images/image118.png?raw=true"
    alt="Simba logo"</>
 </p>
 
@@ -4876,7 +4876,7 @@ This graphical model is then converted to Solidity where each asset and transact
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="75%" 
-   src="/images/image121.png?raw=true"
+   src="/images/image119.png?raw=true"
    alt="Simba - Software as a Service (SaaS)"</>
 </p>
 
