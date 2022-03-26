@@ -4514,7 +4514,7 @@ The trend toward blockchain agriculture promises to make each step of growing an
    alt="Walmart logo"</>
 </p>
 
-To learn more, read Hyperledger's case study "How Walmart Brought Unprecedented Transparency to the Food Supply Chain with Hyperledger Fabric".
+To learn more, read Hyperledger's case study ["How Walmart Brought Unprecedented Transparency to the Food Supply Chain with Hyperledger Fabric"](https://www.hyperledger.org/learn/publications/walmart-case-study).
 
 <h3>Walmart</h3>
 I purchased a pack of mangos, I came into my staff meeting, I put them on the table, and I said: "Your traceback exercise starts right now".
@@ -4614,11 +4614,11 @@ Reduction of settlement times will improve the flow of money through fintech com
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-Swiss Exchange, SIX has a solution that solves the issue in the trade markets of long settlement times. 
+Swiss Exchange, [SIX](https://tokenist.com/swiss-exchange-six-to-incorporate-blockchain-and-launch-sto/) has a solution that solves the issue in the trade markets of long settlement times. 
 The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. 
 Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can be completed in fractions of a second.
 Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. 
-In a paper from Andrea Frosinini, "Reshaping Trade Finance: Towards a “New” Letter of Credit", he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
+In a paper from [Andrea Frosinini](https://www.tradefinanceglobal.com/posts/author/andrea-frosinini/), ["Reshaping Trade Finance: Towards a “New” Letter of Credit"](https://wiki.hyperledger.org/display/TFSIG/Reshaping+Trade+Finance.+Towards+a+new+Letter+of+Credit?preview=/29035705/29035706/Reshaping%20Trade%20Finance%20(towards%20a%20new%20Letter%20of%20Credit).pdf), he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!-----------------------------------------=------- Voltron logo ---------------------------------------------------------->
@@ -4656,7 +4656,7 @@ According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’K
 **[`^        back to top        ^`](#table-of-contents)**
 
 One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. 
-Watch these additional resources to learn more about the Smart Dubai initiative, "Smart Dubai's Paperless Strategy" and "Happy Cities Forum 2019".
+Watch these additional resources to learn more about the Smart Dubai initiative, ["Smart Dubai's Paperless Strategy"](https://www.digitaldubai.ae/initiatives/paperless) and ["Happy Cities Forum 2019"](https://www.digitaldubai.ae/initiatives/happiness-agenda).
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------- Dutch Blockchain logo ---------------------------------------------------->
@@ -4667,7 +4667,7 @@ Watch these additional resources to learn more about the Smart Dubai initiative,
    alt="Dutch blockchain coalition"</>
 </p>
 
-<b>Dutch Blockchain Coalition</b> established three pillars of society working together to build a blockchain future:
+[Dutch Blockchain Coalition](https://dutchblockchaincoalition.org/) established three pillars of society working together to build a blockchain future:
 <ul>
 <li>Developing blockchain building blocks - digital identities</li>
 <li>Realizing the conditions for utilizing blockchain</li>
@@ -4683,10 +4683,11 @@ Watch these additional resources to learn more about the Smart Dubai initiative,
    alt="Buffalo on Wyoming flag"</>
 </p>
 
-Wyoming has now enacted a total of 13 blockchain-enabling laws, making it the only US state to provide a comprehensive, welcoming legal framework that enables blockchain technology to flourish, both for individuals and companies. This effort was led by tireless Caitlin Long.
+Wyoming has now enacted a total of [13 blockchain-enabling laws](https://caitlin-long.com/what-do-wyomings-blockchain-laws-mean/), making it the only US state to provide a comprehensive, welcoming legal framework that enables blockchain technology to flourish, both for individuals and companies. This effort was led by tireless [Caitlin Long](https://caitlin-long.com/).
 
 <h3 id="ch6-5">6.5 Social Impact Solutions Overview</h3>
-The Blockchain for Social Impact Coalition (BSIC) is a not-for-profit organization that incubates, develops, and collaborates on blockchain products and solutions that can address social and environmental challenges across the United Nations Sustainable Development Goals. The aim is to inspire, federate, and create bridges between NGOs, and government agencies, foundations, impact investors, philanthropists and technologists.
+
+The [Blockchain for Social Impact Coalition (BSIC)](https://blockchainforsocialimpact.com/) is a not-for-profit organization that incubates, develops, and collaborates on blockchain products and solutions that can address social and environmental challenges across the United Nations Sustainable Development Goals. The aim is to inspire, federate, and create bridges between NGOs, and government agencies, foundations, impact investors, philanthropists and technologists.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------- Blockchain for Social Impact ------------------------------------------------>
@@ -4699,7 +4700,7 @@ The Blockchain for Social Impact Coalition (BSIC) is a not-for-profit organizati
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-According to the "7 Ways Blockchain Can Be Used for Social Good" article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
+According to the ["7 Ways Blockchain Can Be Used for Social Good"](https://innotechtoday.com/blockchain-social-good/) article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
 <ul>
 <li>Philanthropy and remittances</li>
 <li>Financial empowerment</li>
@@ -4717,7 +4718,7 @@ According to the "7 Ways Blockchain Can Be Used for Social Good" article by Kayl
    alt="Kiva logo"</>
 </p>
  
-More than 1.7 billion people around the world are unbanked and can’t access the financial services they need. Kiva is an international nonprofit, founded in 2005 in San Francisco, with a mission to expand financial access to help underserved communities thrive. Kiva accomplishes this by crowdfunding loans and unlocking capital for the underserved, improving the quality and cost of financial services, and addressing the underlying barriers to financial access around the world. Through Kiva's work, students can pay for tuition, women can start businesses, farmers are able to invest in equipment and families can afford needed emergency care.
+More than 1.7 billion people around the world are unbanked and can’t access the financial services they need. [Kiva](https://www.kiva.org/) is an international nonprofit, founded in 2005 in San Francisco, with a mission to expand financial access to help underserved communities thrive. Kiva accomplishes this by crowdfunding loans and unlocking capital for the underserved, improving the quality and cost of financial services, and addressing the underlying barriers to financial access around the world. Through Kiva's work, students can pay for tuition, women can start businesses, farmers are able to invest in equipment and families can afford needed emergency care.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------- Mission of the Rohingya Project. How it works --------------------------------------->
@@ -4752,7 +4753,7 @@ The platform will tap into the potential of the Rohingya community and other mar
    alt="Displaced Rohingya Worldwide"</>
 </p>
 
-The Giving Chain is a grassroots Social Impact project designed to improve disaster relief efforts as well as open up new pathways for local charity giving.
+The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social Impact project designed to improve disaster relief efforts as well as open up new pathways for local charity giving.
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------------- Charity logo ------------------------------------------------------->
@@ -4763,7 +4764,7 @@ The Giving Chain is a grassroots Social Impact project designed to improve disas
    alt="Charity logo"</>
 </p>
 
-Created by three local meetup groups, Ledger Academy, Hyperledger Princeton and Blockchain & AI Princeton. The project won the 2021 Government Blockchain Associations Award for Social Impact. The video of the awards ceremony can be viewed on YouTube.
+Created by three local meetup groups, [Ledger Academy](https://ledgeracademy.com/index.html), [Hyperledger Princeton](https://www.meetup.com/Hyperledger-Princeton/) and [Blockchain & AI Princeton](https://www.meetup.com/Blockchain-Princeton/). The project won the 2021 Government Blockchain Associations Award for Social Impact. The video of the awards ceremony can be viewed on [YouTube](https://www.youtube.com/watch?v=41DYKpLSvrs).
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------    -------------------------------------------------------->
