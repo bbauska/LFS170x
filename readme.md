@@ -4913,16 +4913,14 @@ The days of video games being just a form of entertainment are long gone.<br/>
 Most of the new video games have in-app purchases and loot box features in them. <br/>
 
 These features enable users to use real-life currency to buy new skins for their characters and tools. <br/>
-<p>
+
 With the use of [DeFi](https://101blockchains.com/defi-use-cases/), game developers can implement the newer incentive or reward models with DeFi coins. 
 
 In fact, gaming and eSports will likely become one of the major markets as the users are more tech-savvy and open to newer technologies.
-</p>
 
-To learn more, visit the Game Developers Conference's website.
+To learn more, visit the [Game Developers Conference's website](https://gdconf.com/).
 
-[Developers Conference website](https://gdconf.com/)
-
+<h3>Decentraland</h3>
 Decentraland is a virtual world built on top of the Ethereum blockchain. 
 
 A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br/> 
