@@ -9,12 +9,8 @@
 	alt="Linux logo"
 	width="40%">
 &nbsp;
-<br/>
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
-
 </p>  
-<br/>
-
 <h3 align="center">Blockchain: Understanding Its Use Cases and Implications </h3>
 
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -25,9 +21,9 @@
 	width="50%">
 &nbsp;
 
-<h2 align="center">[Table of Contents](#table-of-contents)</h2>
+##[Table of Contents](#table-of-contents)
 
-<h2 align="left">[**Chapter 1. Introduction to Blockchain**](#ch1)</h2>
+## [**Chapter 1. Introduction to Blockchain**](#ch1)
 >### 1.1. [**Intro: What is Blockchain?**](#ch1-1)
 >### 1.2. [**Introduction to Blockchain and The Early Internet**](#ch1-2)
 >### 1.3. [**Blockchain Basics**](#ch1-3)
