@@ -1960,7 +1960,8 @@ We actually show how cryptographic hashing is used to link together all blocks o
 </p>
 Lab 1: Hashing
 Next, let's engage with an interactive lab. This lab is an actual hands-on demonstration of taking data and creating a hash output. Enjoy!
-Start Lab
+
+[Start Lab](https://blockchaintrainingalliance.com/pages/lab-hash)
 
 <h3>Merkle Tree</h3>
 A special type of data storage structure based on hash functions is called a Merkle tree:
@@ -2751,7 +2752,8 @@ Finally, traditional infrastructure and blockchain differ in their goals regardi
 
 <h3>Lab 3: The Blockchain</h3>
 Next, let's engage with an interactive lab. In this lab, you will be examining a blockchain containing five blocks, each labeled according to position. Enjoy!
-Start Lab
+
+[Start Lab](https://blockchaintrainingalliance.com/pages/lab-distributed)
 
 <h3 id="ch3-4">3.4 Different Types of Blockchains (Public & Permissioned Blockchains)</h3>
 When we try to understand the main difference between a public and private blockchain, it is important to understand the terminology.
