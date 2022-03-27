@@ -1868,7 +1868,7 @@ This is accomplished using cryptography in a way that moves the burden of trust 
 Hash functions are featured heavily in blockchain. 
 
 A hash function is a mathematical equation with four important properties:
-<ol>
+<ol type="1">
 <li>Hash functions can take anything as input and create an output with a fixed size. This makes it possible to condense anything into a piece of data of a fixed size and is how messages are condensed for digital signatures,</li>
 <li>It’s easy to calculate a hash, but hard to determine a hash input from the output. The best option is to keep trying inputs until one produces the desired output,</li>
 <li>Inputs that differ by a single bit produce hashes that differ by half of their bits on average. This prevents someone from finding a desired hash input using a “hill climbing”,</li>
