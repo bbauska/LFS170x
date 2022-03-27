@@ -1572,8 +1572,8 @@ Now again, most cryptographic functions are two-way, meaning it doesn't do me a 
 
 And oftentimes, all this involves is using the same key or a reverse key into the same function, with the cipher's input to get the secret back out.
 
-When we talk about cryptography, keep in mind those four basic components: 
-<ol>
+When we talk about cryptography, keep in mind those <b>four</b> basic components: 
+<ol type="1">
 <li>the secret, </li>
 <li>the key, </li>
 <li>the function, and </li>
@@ -1622,7 +1622,6 @@ It’s the concept that both HTTPS (the popular protocol used to access a secure
 The principles behind it are genius. Instead of a shared key that codes and decodes information, the key for encrypting the information is different from the key that decrypts it — that way there is no longer a shared, secret key. 
 With this invention, in order to share a secret message, you no longer even have to know the person you are sending it to.
 Most importantly, for people like us who care deeply about safe authentication and identity protection, the private key itself is never communicated at all, and that means no more shared secrets".
-
 
 <h3>Byzantine Fault Tolerance</h3>
 As you start to get more and more into blockchain, one term that you're gonna hear a lot is Byzantine Fault Tolerance.
@@ -1867,7 +1866,7 @@ This is accomplished using cryptography in a way that moves the burden of trust 
 
 Hash functions are featured heavily in blockchain. 
 
-A hash function is a mathematical equation with four important properties:
+A hash function is a mathematical equation with <b>four</b> important properties:
 <ol type="1">
 <li>Hash functions can take anything as input and create an output with a fixed size. This makes it possible to condense anything into a piece of data of a fixed size and is how messages are condensed for digital signatures,</li>
 <li>It’s easy to calculate a hash, but hard to determine a hash input from the output. The best option is to keep trying inputs until one produces the desired output,</li>
@@ -1964,33 +1963,65 @@ Start Lab
 
 <h4>Merkle Tree</h4>
 A special type of data storage structure based on hash functions is called a Merkle tree:
-•	It is structured as a binary tree; the leaves contain the values to be stored and each internal node is the hash of its two children.
-•	It provides efficient lookups and protection against forgery since verifying a transaction is included in the tree. Can be accomplished by sending only the transaction, the hash contained in each node between the transaction leaf node and the root, and the hash values used to create each hash sent.
-•	Looking up a transaction in a Merkle tree with three levels includes sending two transactions (the desired one and the other child of its parent) and three hashes (the transaction’s parent, the root, and the root’s other child).
- 
-Merkle trees are a data structure that allows authenticated storage with efficient data retrieval.
-Merkle Tree, Validation of Data
+<ul>
+<li>It is structured as a binary tree; the leaves contain the values to be stored and each internal node is the hash of its two children,</li>
+<li>It provides efficient lookups and protection against forgery since verifying a transaction is included in the tree. Can be accomplished by sending only the transaction, the hash contained in each node between the transaction leaf node and the root, and the hash values used to create each hash sent,</li>
+<li>Looking up a transaction in a Merkle tree with three levels includes sending two transactions (the desired one and the other child of its parent) and three hashes (the transaction’s parent, the root, and the root’s other child).</li>
+</ul> 
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------- Merkle Tree -------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-merkle-tree.png?raw=true"
+	alt="Merkle Tree"
+	width="100%" >
+
+<p align="center">Merkle trees are a data structure that allows authenticated storage with efficient data retrieval.</p>
+
+<h3>Merkle Tree, Validation of Data</h3>
 Blockchains use Merkle trees for fast and efficient validation of data.
+
 Merkle trees summarize the entire set of data in a block by creating a root hash of that data.
+
 A root hash is created by repeatedly hashing pairs of child nodes until only one node is left.
+
 Let's take a look at a diagram of a Merkle tree.
+
 This diagram consists of four transactions represented as transaction "A", transaction "B", "C" and "D".
+
 The transaction data is then hashed and the resulting hashes are stored in leaf nodes represented as H of "A", "B", "C" and "D".
+
 Nodes are repeatedly hashed in pairs and the resulting hashes are stored in child nodes until only one node remains: the Merkle root or root hash.
+
 The reason you wouldn't want to hash the entire set of data as a string is because it's not efficient when validating transactions.
+
 In this example, if Alice needed to show Bob that this transaction was valid, let's say transaction "C", Alice would need to send the entire list of data to validate the block.
+
 But when using a Merkle tree, Alice only needs to send the nodes that contain the transaction that she is looking to validate.
+
 Let's say Alice wants to validate transaction "F".
+
 Alice would only need to send the data of transaction "F" and four hash values to Bob.
+
 Bob would then calculate the hash value based on the given information.
+
 And if the root matches the block, the transaction can be assumed to be valid.
+
 Merkle trees allow for validation of a specific transaction without requiring the entire set of data.
-Ethereum vs. Hyperledger Fabric
+
+<h3>Ethereum vs. Hyperledger Fabric</h3>
+
 The use of public keys for identity management is a logical choice since knowledge of a public key is necessary for verification of digital signatures. Both Ethereum and Hyperledger Fabric use digital signatures on transactions and blocks to verify the identity of the creator and that the signed data has not been modified since signing. Public key cryptography is used in the blockchain as a method for managing users’ identities without revealing real world identities.
+
 In Ethereum, users are identified by an address that is directly related to the user's public key. This provides identity verification while preserving anonymity.
+
 In Hyperledger Fabric, users are identified via X.509 certificates. These certificates provide several pieces of information about the user, but one of these is also the user's public key.
+
 Hash functions are at the core of all blockchain technology. One of the primary uses for hash functions is chaining blocks together. In both Ethereum and Hyperledger Fabric, blocks include the hash of the previous block to tie the blockchain into a cohesive whole.
+
 Zero-knowledge proofs are to increase the privacy of users. Currently, Ethereum is working on a layer 2 solution, where a second layer blockchain would store large amounts of data and only prove the batch of information is valid to layer 1 (mainnet). Hyperledger Fabric has a pluggable cryptographic library that supports ZKP techniques for enhanced privacy measures.
+
 Merkle trees are a data structure that allows authenticated storage with efficient data retrieval. Both Ethereum and Hyperledger Fabric are smart contract platforms that use a particular type of Merkle tree called the Patricia tree to store the current state of their virtual machine.
  
 <h3>Disintermediation - Trust Through Transparency</h3>
@@ -4379,7 +4410,7 @@ To be unbanked describes a person who does not have a checking or savings accoun
 
 <h3>Types of Central Bank Digital Currencies</h3>
 According to the "What Is Retail Central Bank Digital Currency?" article by Matthieu Saint Olive, there are two types of central bank digital currencies:
-<ol>
+<ol type="1">
 <li>Wholesale CBDC<br/>
 A wholesale CBCD is a type of currency used by financial institutions to buy and sell financial assets. It would replace real time settlement systems used today.</li>
 <li>Retail CBDC<br/>
