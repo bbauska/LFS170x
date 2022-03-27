@@ -1805,11 +1805,23 @@ All that money is is just a record on the blockchain, and, as long as I can reco
 That's how public and private keys fit into blockchain; a very key component just to understand that they're used to sign and verify any transactions that you make.
 </p>
 <h4>Zero-Knowledge Proof (ZKP)</h4>
-Zero-knowledge proofs authenticate parties without the need to widely transmit private information online. A zero-knowledge proof (ZKP) is a cryptographic method that allows a party (the prover) to prove to another party (the verifier) that a given statement is true, without conveying any additional information.
+<p>
+Zero-knowledge proofs authenticate parties without the need to widely transmit private information online. 
+
+A zero-knowledge proof (ZKP) is a cryptographic method that allows a party (the prover) to prove to another party (the verifier) that a given statement is true, without conveying any additional information.
 
 Let's review an example. 
-Let's say there are two toy cars, identical in shape and size, except, one is red and one is blue. Jerry, who is color-blind, holds the toy cars behind his back. Jerry then shows one of the cars to Sam. Jerry then hides that car behind his back and shows Sam the other car. Sam can consistently detect the switch because the cars are different colors, but he never has to reveal the color of the cars to Jerry in order to prove the secret.
 
+Let's say there are two toy cars, identical in shape and size, except, one is red and one is blue. 
+
+Jerry, who is color-blind, holds the toy cars behind his back. 
+
+Jerry then shows one of the cars to Sam. 
+
+Jerry then hides that car behind his back and shows Sam the other car. 
+
+Sam can consistently detect the switch because the cars are different colors, but he never has to reveal the color of the cars to Jerry in order to prove the secret.
+</p>
 <h4>Zero-Knowledge Proof (Cave Example)</h4>
 <p>
 In this section, we're going to talk about a cybersecurity idea in blockchain known as **"Zero-Knowledge Proofs"**.
@@ -1844,15 +1856,26 @@ When you hear about zk-SNARKs, don't get intimidated.
 It's not a complex idea. Just think of Zero-Knowledge Proofs and the cave door, think about how important it is in blockchain to be able to prove a claim without actually revealing the information behind that claim, and you'll understand Zero-Knowledge Proofs.
 </p>
 <h3>Hash Functions in Blockchain</h3>
-When using blockchain, the need to trust a central authority to verify the accuracy of data is removed and replaced by trust in a cryptographic hashing function. With data integrity guaranteed by algorithms, trust becomes part of the system.
-Blockchain provides users with data integrity in a trustless environment. This is accomplished using cryptography in a way that moves the burden of trust from data processors to cryptographic algorithms.
-Hash functions are featured heavily in blockchain. A hash function is a mathematical equation with four important properties:
-   1. Hash functions can take anything as input and create an output with a fixed size. This makes it possible to condense anything into a piece of data of a fixed size and is how messages are condensed for digital signatures.
-   2. It’s easy to calculate a hash, but hard to determine a hash input from the output. The best option is to keep trying inputs until one produces the desired output.
-   3. Inputs that differ by a single bit produce hashes that differ by half of their bits on average. This prevents someone from finding a desired hash input using a “hill climbing”.
-   4. It is infeasible to find two inputs that produce the same output when hashed. Since a hash can take any input and produce a fixed output, it makes sense that multiple different inputs will create the same output. A good hash function will make it so that you have to try a large number of inputs before finding two that produce the same output.
-&nbsp;
-<br/>
+<p>
+When using blockchain, the need to trust a central authority to verify the accuracy of data is removed and replaced by trust in a cryptographic hashing function. 
+
+With data integrity guaranteed by algorithms, trust becomes part of the system.
+
+Blockchain provides users with data integrity in a trustless environment. 
+
+This is accomplished using cryptography in a way that moves the burden of trust from data processors to cryptographic algorithms.
+
+Hash functions are featured heavily in blockchain. 
+
+A hash function is a mathematical equation with four important properties:
+<ol>
+<li>Hash functions can take anything as input and create an output with a fixed size. This makes it possible to condense anything into a piece of data of a fixed size and is how messages are condensed for digital signatures,</li>
+<li>It’s easy to calculate a hash, but hard to determine a hash input from the output. The best option is to keep trying inputs until one produces the desired output,</li>
+<li>Inputs that differ by a single bit produce hashes that differ by half of their bits on average. This prevents someone from finding a desired hash input using a “hill climbing”,</li>
+<li>It is infeasible to find two inputs that produce the same output when hashed. Since a hash can take any input and produce a fixed output, it makes sense that multiple different inputs will create the same output. A good hash function will make it so that you have to try a large number of inputs before finding two that produce the same output.</li>
+</ol>
+</p>
+
 <!------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------- Cryptographic Hashing -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -1923,6 +1946,7 @@ Let's say we've developed a self-driving car with the intelligence to hash the s
 My self-driving car, every time I start the car, can take its source code, run it through a hash and generate a unique identifier.
 
 It can then share this identifier or 32-character hash output with every other self-driving car it has contact with, or even validate this against a database or some other centralized data store, or perhaps an immutable record on the blockchain.
+
 
 This gives me the confidence that if the source code for my self-driving car ever gets hacked and makes it unsafe to drive,
 
