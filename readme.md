@@ -1961,7 +1961,7 @@ Lab 1: Hashing
 Next, let's engage with an interactive lab. This lab is an actual hands-on demonstration of taking data and creating a hash output. Enjoy!
 Start Lab
 
-<h4>Merkle Tree</h4>
+<h3>Merkle Tree</h3>
 A special type of data storage structure based on hash functions is called a Merkle tree:
 <ul>
 <li>It is structured as a binary tree; the leaves contain the values to be stored and each internal node is the hash of its two children,</li>
@@ -1980,6 +1980,7 @@ A special type of data storage structure based on hash functions is called a Mer
 <p align="center">Merkle trees are a data structure that allows authenticated storage with efficient data retrieval.</p>
 
 <h3>Merkle Tree, Validation of Data</h3>
+<p>
 Blockchains use Merkle trees for fast and efficient validation of data.
 
 Merkle trees summarize the entire set of data in a block by creating a root hash of that data.
@@ -1989,34 +1990,25 @@ A root hash is created by repeatedly hashing pairs of child nodes until only one
 Let's take a look at a diagram of a Merkle tree.
 
 This diagram consists of four transactions represented as transaction "A", transaction "B", "C" and "D".
-
 The transaction data is then hashed and the resulting hashes are stored in leaf nodes represented as H of "A", "B", "C" and "D".
-
 Nodes are repeatedly hashed in pairs and the resulting hashes are stored in child nodes until only one node remains: the Merkle root or root hash.
-
 The reason you wouldn't want to hash the entire set of data as a string is because it's not efficient when validating transactions.
-
 In this example, if Alice needed to show Bob that this transaction was valid, let's say transaction "C", Alice would need to send the entire list of data to validate the block.
-
 But when using a Merkle tree, Alice only needs to send the nodes that contain the transaction that she is looking to validate.
 
 Let's say Alice wants to validate transaction "F".
-
 Alice would only need to send the data of transaction "F" and four hash values to Bob.
-
 Bob would then calculate the hash value based on the given information.
-
 And if the root matches the block, the transaction can be assumed to be valid.
-
 Merkle trees allow for validation of a specific transaction without requiring the entire set of data.
-
+</p>
 <h3>Ethereum vs. Hyperledger Fabric</h3>
 
 The use of public keys for identity management is a logical choice since knowledge of a public key is necessary for verification of digital signatures. Both Ethereum and Hyperledger Fabric use digital signatures on transactions and blocks to verify the identity of the creator and that the signed data has not been modified since signing. Public key cryptography is used in the blockchain as a method for managing users’ identities without revealing real world identities.
 
 In Ethereum, users are identified by an address that is directly related to the user's public key. This provides identity verification while preserving anonymity.
 
-In Hyperledger Fabric, users are identified via X.509 certificates. These certificates provide several pieces of information about the user, but one of these is also the user's public key.
+In Hyperledger Fabric, users are identified via [X.509](https://www.ssl.com/faqs/what-is-an-x-509-certificate/) certificates. These certificates provide several pieces of information about the user, but one of these is also the user's public key.
 
 Hash functions are at the core of all blockchain technology. One of the primary uses for hash functions is chaining blocks together. In both Ethereum and Hyperledger Fabric, blocks include the hash of the previous block to tie the blockchain into a cohesive whole.
 
@@ -2043,19 +2035,14 @@ Today, organizations use our data, sell our data, store our data, and exchange o
 Data is an extremely powerful asset and to own your own data is a vast change to the current system.
 
 In a world powered by blockchain, having ownership of your database is truly empowering.
-
 You can now share the information that you choose with any organization that you desire.
-
 The power of blockchain and owning your own data is the ability to transact peer-to-peer.
-
 With the current system of intermediaries, when you go out to eat at a restaurant, and you pay with your credit or debit card, you're not paying the restaurant directly.
 
 Instead, a database record at your bank is being debited and the database record at their bank is being credited.
 
 In this example, the value and data in the database belong to the intermediary, and not the individual.
-
 You are then dependent upon them to secure and validate your transaction, which shifts the power to the intermediary.
-
 But in a blockchain world, the individual has their own ledger record, and the secure key that allows them to access it.
 
 You no longer need an intermediary.
