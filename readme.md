@@ -2096,7 +2096,7 @@ Traditional Database Updates
 
 A database is a collection of interrelated data organized so that individual records or groups of records can be retrieved to satisfy various criteria.
  
-Traditional databases use the CRUD method which has four main operations:
+Traditional databases use the CRUD method which has <b>four</b> main operations:
 <ul>
 <li>Create - add a new value to the database.</li>
 <li>Read - read a value from the database.</li>
@@ -2287,25 +2287,35 @@ All four of these features help to make the blockchain resistant against changes
 
 <h3>Why Is the Blockchain Immutable?</h3>
 Each transaction cannot be forged or modified because it is mathematically infeasible to forge a digital signature. 
+
 The structure of blocks is publicly defined, and invalid blocks will be publicly rejected.
 Each block “locks in” the value of previous blocks by including their hash. 
 Attackers cannot find another block that will produce the same hash.
+
 A block cannot be forged or modified, because it is digitally signed by the creator. 
+
 The creator of a block is either publicly known (Proof of Stake) or difficult to become (Proof of Work), making masquerading as the real creator difficult or impossible.
+
 Now, let’s take a moment to discuss how each of the features mentioned contribute to the immutability of the blockchain.
+
 At the bottom level, each transaction is digitally signed. This means two things about transactions:
-   * Existing transactions can’t be changed after the fact, because the signature will no longer match.
-   * Fake transactions can’t be created since an attacker can’t create a valid digital signature for a transaction between other parties.
+   - Existing transactions can’t be changed after the fact, because the signature will no longer match.
+   - Fake transactions can’t be created since an attacker can’t create a valid digital signature for a transaction between other parties.
 
-   1. Both of these contribute to the immutability of the blockchain since they limit the range of transactions that an attacker has to work with if he wants to create a fake but valid blockchain.
-   2. Next, the block structure is publicly defined in the protocol. This limits the types of modifications that an attacker can make to a block when trying to modify the blockchain.
-   3. Third, each block contains the hash of the previous block. This is what ties the blocks of the chain together. 
-
+<ol type="1">
+<li>Both of these contribute to the immutability of the blockchain since they limit the range of transactions that an attacker has to work with if he wants to create a fake but valid blockchain,</li>
+<li>Next, the block structure is publicly defined in the protocol. This limits the types of modifications that an attacker can make to a block when trying to modify the blockchain.</li>
+<li>Third, each block contains the hash of the previous block. This is what ties the blocks of the chain together. </li>
+</ol>
 <p>
 Remember from earlier that one of the properties of a hash function is that it is extremely difficult to find two inputs to a hash function that create the same output. 
+
 Since a block contains the hash of the previous block, it’s difficult to find a different version of the ledger’s history that matches the most recent block, as that would require finding two different versions of the previous block that have the same hash.
+
 Finally, each block is digitally signed by its creator. 
+
 Since the creator of a block is selected via a consensus algorithm, it’s difficult for an attacker to become the legitimate creator of a given block. 
+
 If an attacker is not the legitimate creator of a block, it’s impossible for them to create a digital signature that others would accept.
 
 <h3>Immutability Mechanisms</h3>
@@ -2319,11 +2329,15 @@ Each transaction is considered separately and, if approved, is signed by the not
 Transactions signed by a notary are finalized and cannot be modified after the fact.
 
 <h3>Hashing and Chaining</h3>
-It is important to understand the value of locking in the previous block by including its hash in the next block. As explained in the article “A Gentle Introduction to Immutability of Blockchains” by Antony Lewis,
-  •	Creating a ledger of transactions with blocks that refer to previous blocks is a much better idea than numbering the blocks sequentially.
-  •	In a book with pages, 1, 2, 3, etc., it would be easy to tear out page 25 and replace it with another page.
-  •	The integrity of the book has been manipulated and altered. However, there is nothing about the new page number that ties it (chains it) to the content of the previous page.
-  •	Instead, in a blockchain, blocks are referenced by their hash and each block explicitly specifies which block (hash) it is building on.
+It is important to understand the value of locking in the previous block by including its hash in the next block. 
+
+As explained in the article “A Gentle Introduction to Immutability of Blockchains” by Antony Lewis,
+<ul>
+<li>Creating a ledger of transactions with blocks that refer to previous blocks is a much better idea than numbering the blocks sequentially.</li>
+<li>In a book with pages, 1, 2, 3, etc., it would be easy to tear out page 25 and replace it with another page.</li>
+<li>The integrity of the book has been manipulated and altered. However, there is nothing about the new page number that ties it (chains it) to the content of the previous page.</li>
+<li>Instead, in a blockchain, blocks are referenced by their hash and each block explicitly specifies which block (hash) it is building on.</li>
+</ul>
  
 <h3>Hashing and Chaining with Proof of Work</h3>
 We will cover the Proof of Work in a later module. However, this demo uses the Proof of Work to show how blocks are chained together and how tampering with information in a past block destroys the integrity of the proceeding blocks.
@@ -2348,7 +2362,7 @@ Our node may start off by guessing "123", and we see that that does not produce 
 
 Let's try again. Let's try "973321". Once again, that does not give us a hash output that matches the desired difficulty.
 
-[So], rather than guess over and over and over, let's go ahead and ask a computer to do our work for us.
+Rather than guess over and over and over, let's go ahead and ask a computer to do our work for us.
 
 The computer is now guessing different nonce values randomly until it happens to guess "22294", which you see produces a hash that begins with four leading zeros.
 
