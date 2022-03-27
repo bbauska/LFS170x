@@ -2327,18 +2327,21 @@ All four of these features help to make the blockchain resistant against changes
 &nbsp;
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- transparency of a blockchain -------------------------------------->
+<!------------------------------------------ tampered and unbroken blockchains -------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image-immutable.png?raw=true"
-	alt="Immutable"
+	alt="Immutable in the Blockchain"
 	width="85%" >
 
 <h3>Why Is the Blockchain Immutable?</h3>
+<p>
 Each transaction cannot be forged or modified because it is mathematically infeasible to forge a digital signature. 
 
 The structure of blocks is publicly defined, and invalid blocks will be publicly rejected.
+
 Each block “locks in” the value of previous blocks by including their hash. 
+
 Attackers cannot find another block that will produce the same hash.
 
 A block cannot be forged or modified, because it is digitally signed by the creator. 
@@ -2346,17 +2349,19 @@ A block cannot be forged or modified, because it is digitally signed by the crea
 The creator of a block is either publicly known (Proof of Stake) or difficult to become (Proof of Work), making masquerading as the real creator difficult or impossible.
 
 Now, let’s take a moment to discuss how each of the features mentioned contribute to the immutability of the blockchain.
-
+</p>
 At the bottom level, each transaction is digitally signed. This means two things about transactions:
-   - Existing transactions can’t be changed after the fact, because the signature will no longer match.
-   - Fake transactions can’t be created since an attacker can’t create a valid digital signature for a transaction between other parties.
+<ul>
+<li>Existing transactions can’t be changed after the fact, because the signature will no longer match,</li>
+<li>Fake transactions can’t be created since an attacker can’t create a valid digital signature for a transaction between other parties.</li>
+</ul>
 
-<ol type="1">
-<li>Both of these contribute to the immutability of the blockchain since they limit the range of transactions that an attacker has to work with if he wants to create a fake but valid blockchain,</li>
-<li>Next, the block structure is publicly defined in the protocol. This limits the types of modifications that an attacker can make to a block when trying to modify the blockchain.</li>
-<li>Third, each block contains the hash of the previous block. This is what ties the blocks of the chain together. </li>
-</ol>
-<p>
+Both of these contribute to the immutability of the blockchain since they limit the range of transactions that an attacker has to work with if he wants to create a fake but valid blockchain.
+
+Next, the block structure is publicly defined in the protocol. This limits the types of modifications that an attacker can make to a block when trying to modify the blockchain.
+
+Third, each block contains the hash of the previous block. This is what ties the blocks of the chain together.
+
 Remember from earlier that one of the properties of a hash function is that it is extremely difficult to find two inputs to a hash function that create the same output. 
 
 Since a block contains the hash of the previous block, it’s difficult to find a different version of the ledger’s history that matches the most recent block, as that would require finding two different versions of the previous block that have the same hash.
@@ -2369,25 +2374,32 @@ If an attacker is not the legitimate creator of a block, it’s impossible for t
 
 <h3>Immutability Mechanisms</h3>
 Now, let’s look at how different blockchains implement immutability.<br/>
-<p>
+
 In Ethereum and Hyperledger, the immutability mechanism is the one that we’ve described previously. 
+
 Each transaction and block is digitally signed and are linked using cryptographic hashes.
-Corda, a multi-party application development platform, relies on its notary service for immutability. 
+
+[Corda](https://www.corda.net/), a multi-party application development platform, relies on its notary service for immutability. 
+
 Each Corda network has one or more notary services that verify transactions. 
+
 Each transaction is considered separately and, if approved, is signed by the notary service. 
+
 Transactions signed by a notary are finalized and cannot be modified after the fact.
 
 <h3>Hashing and Chaining</h3>
 It is important to understand the value of locking in the previous block by including its hash in the next block. 
 
-As explained in the article “A Gentle Introduction to Immutability of Blockchains” by Antony Lewis,
+As explained in the article [“A Gentle Introduction to Immutability of Blockchains”](https://bitsonblocks.net/2016/02/29/a-gentle-introduction-to-immutability-of-blockchains/) by Antony Lewis,
 <ul>
 <li>Creating a ledger of transactions with blocks that refer to previous blocks is a much better idea than numbering the blocks sequentially.</li>
 <li>In a book with pages, 1, 2, 3, etc., it would be easy to tear out page 25 and replace it with another page.</li>
 <li>The integrity of the book has been manipulated and altered. However, there is nothing about the new page number that ties it (chains it) to the content of the previous page.</li>
 <li>Instead, in a blockchain, blocks are referenced by their hash and each block explicitly specifies which block (hash) it is building on.</li>
 </ul>
- 
+<br/>
+&nbsp;
+
 <!------------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------- hashing & chaining -------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
