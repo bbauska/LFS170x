@@ -2016,6 +2016,14 @@ Zero-knowledge proofs are to increase the privacy of users. Currently, Ethereum 
 
 Merkle trees are a data structure that allows authenticated storage with efficient data retrieval. Both Ethereum and Hyperledger Fabric are smart contract platforms that use a particular type of Merkle tree called the Patricia tree to store the current state of their virtual machine.
  
+<!------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------- Disintermediation - Trust through transparency -------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-disintermediation.png?raw=true"
+	alt="Disintermediation"
+	width="100%" >
+
 <h3>Disintermediation - Trust Through Transparency</h3>
 Now, that we have an understanding of how collaboration and cryptography work together to create a layer of trust, let's discuss how blockchain has a powerful disintermediation effect.
 
@@ -2063,7 +2071,6 @@ This layer of trust can aid to curb corruption and even create cost savings.
 
 Currently, the data and records owned at centralized organizations are stored and hidden within a database.
 
-
 These databases for the most part are inaccessible and do not communicate in an effective manner with other systems.
 
 This also makes it easier for a corrupt individual or persons within the centralized organization to manipulate these records.
@@ -2095,6 +2102,14 @@ Blockchain offers efficiency. It also creates trust and financial benefit throug
 Traditional Database Updates
 
 A database is a collection of interrelated data organized so that individual records or groups of records can be retrieved to satisfy various criteria.
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------- Disintermediation - Trust through transparency -------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-crud.png?raw=true"
+	alt="CRUD"
+	width="65%" >
  
 Traditional databases use the CRUD method which has <b>four</b> main operations:
 <ul>
@@ -2137,6 +2152,13 @@ The blockchain is designed so that its entire history is visible and unchangeabl
 Transactions in the blockchain cannot be modified after creation, and their complete history is publicly visible. 
 
 This means that the blockchain is a completely transparent data structure with the useful property that the integrity of the blockchain is easily verifiable by any user.
+<!------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------- transparency database vs. blockchain -------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-transp-blockchain.png?raw=true"
+	alt="Transparency of a Blockchain"
+	width="65%" >
 
 <h3>Transparency: Databases vs. Blockchain</h3>
 <p>
@@ -2148,6 +2170,14 @@ The blockchain is publicly visible and immutable, meaning that it has very high 
 
 Its append-only structure and decentralized storage sacrifice storage efficiency for trustworthiness of the stored data.
 </p>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------- transparency of a blockchain -------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-transparency-database-vs-blockchain.png?raw=true"
+	alt="Transparency: Database vs. Blockchain"
+	width="85%" >
 
 <h3 id="ch2-4"></a>2.4 Transparency</h3>
 <p>
@@ -2207,6 +2237,14 @@ And blockchain, both public and private, can be a great solution for doing that.
 
 <h3>Immutability in the Blockchain</h3>
 Blockchain is designed to be an authoritative ledger of the history of the network.
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------- immutability in the blockchain -------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-immutability-blockchain.png?raw=true"
+	alt="Immutability in the Blockchain"
+	width="85%" >
 
 This history may include financial transactions and business agreements where modifications to the ledger may have wide-reaching business impacts. Blockchain is based on an untrusted network, so trust that the blockchain has not been modified needs to arise from the structure of the blockchain itself, rather than from trust in the organization storing a certain copy.
 Immutability
@@ -2285,6 +2323,14 @@ The blockchain is designed so that immutability is cumulative; each piece is lin
 </ul>
 All four of these features help to make the blockchain resistant against changes occurring after the fact.
 
+<!------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------- transparency of a blockchain -------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-immutabile.png?raw=true"
+	alt="Immutable"
+	width="85%" >
+
 <h3>Why Is the Blockchain Immutable?</h3>
 Each transaction cannot be forged or modified because it is mathematically infeasible to forge a digital signature. 
 
@@ -2339,6 +2385,14 @@ As explained in the article “A Gentle Introduction to Immutability of Blockcha
 <li>Instead, in a blockchain, blocks are referenced by their hash and each block explicitly specifies which block (hash) it is building on.</li>
 </ul>
  
+<!------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------- hashing & chaining -------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------->
+<p align="center">
+<img src="/images/image-hashing-chaining.png?raw=true"
+	alt="Transparency: Database vs. Blockchain"
+	width="85%" >
+
 <h3>Hashing and Chaining with Proof of Work</h3>
 We will cover the Proof of Work in a later module. However, this demo uses the Proof of Work to show how blocks are chained together and how tampering with information in a past block destroys the integrity of the proceeding blocks.
 
