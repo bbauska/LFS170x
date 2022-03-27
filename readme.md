@@ -1727,41 +1727,44 @@ Using a person's public key, it is possible to encrypt a message so that only th
 	width="20%" >
 &nbsp;
 
-Digital Signatures and Key Pairs
-Step 1:
+Digital Signatures and Key Pairs<br/>
+
+<b>Step 1:</b>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------- Step 1 -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image-step-1.png?raw=true"
-	alt="Step 1"
+	alt="Step 1: The sender generates a public key from a private key"
 	width="50%" >
 &nbsp;
  
-Step 2:
+<b>Step 2:</b>
 <!------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------- Step 2 -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image-step-2.png?raw=true"
-	alt="Step 2"
+	alt="Step 2: The sender encrypts message using the key pairs.  and sends it."
 	width="50%" >
 &nbsp;
  
-Step 3:
+<b>Step 3:</b>
 <!------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------- Step 3 -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image-step-3.png?raw=true"
-	alt="Step 3"
+	alt="Step 3: The recipient uses the public key with the private keys to decrypt the message"
 	width="50%" >
 &nbsp;
 
 <h3>Private/Public Key Cryptography</h3>
 I want to talk a little bit about cryptography and some cryptography principles.
+
 The first is easy and hard problems, and this is really what public - private key cryptography is based off of.
+
 There are some problems that are very easy one way, but difficult another way.
 And a great example of this is multiplication.
 So, if I give you a pen and paper and a lot of time, I can ask you to multiply any two numbers, and you can probably come up with an answer fairly easily.
