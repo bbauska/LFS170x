@@ -2758,17 +2758,18 @@ Next, let's engage with an interactive lab. In this lab, you will be examining a
 <h3 id="ch3-4">3.4 Different Types of Blockchains (Public & Permissioned Blockchains)</h3>
 When we try to understand the main difference between a public and private blockchain, it is important to understand the terminology.
 <ul>
-<li>Public Blockchains
+<li>Public Blockchains<br/>
 A public blockchain is open to anyone to join. Public blockchains are decentralized where no one has control over the network. These immutable and censorship resistant networks are ideal for participants who don't trust each other, but still interact in a network and take part in consensus. Bitcoin and Ethereum are examples of public, permissionless blockchains.</li>
-<li>Permissionless Blockchains
+<li>Permissionless Blockchains<br/>
 Public blockchains are permissionless. Anyone effectively can join the blockchain network. No one is prohibited from joining.</li>
-<li>Private Blockchains
+<li>Private Blockchains<br/>
 Private blockchains define a user's rights on the network prior to admittance. Restrictions are placed on activities such as who can write to the ledger and what transaction they can participate in. Hyperledger and Corda blockchains are examples of private permissioned blockchains.</li>
-<li>Permissioned Blockchains
+<li>Permissioned Blockchains<br/>
 In a permissioned blockchain, participation is permissioned by an organization or a consortium of organizations. This empowered entity defines who can participate in certain transactions and consensus on the network.</li>
-<li>Public (Permissionless) Blockchains
-When people get into blockchain, there's a natural discussion about what type of blockchain, because blockchain comes in many different types and flavors.</li>
 </ul>
+
+<h3>Public (Permissionless) Blockchains</h3>
+When people get into blockchain, there's a natural discussion about what type of blockchain, because blockchain comes in many different types and flavors.
 
 And normally, we hear about public versus private blockchains.
 
@@ -2806,10 +2807,11 @@ In a lot of situations, this is desirable, this is why we see cryptocurrencies b
 And, if a user has a currency, something of value, they should be able to exchange it and spend it, and do what they want with it, just like anybody else.
 
 We don't want to treat any class of users differently than any others in those scenarios.
+
 That's a public blockchain, and that's a very different animal from the private permission blockchain.
 
 <h3>Public Blockchain Benefits</h3>
-In the "Public vs. Private Blockchain In a Nutshell" article by Demiro Massessi, public and private blockchains have different features. The benefits of public blockchain are:
+In the ["Public vs. Private Blockchain In a Nutshell"](https://medium.com/coinmonks/public-vs-private-blockchain-in-a-nutshell-c9fe284fa39f) article by Demiro Massessi, public and private blockchains have different features. The benefits of public blockchain are:
 <ul>
 <li>Ledger is distributed
 The database is not centralized like in a client-server approach, and all nodes in the blockchain participate in the transaction validation.</li>
@@ -2871,7 +2873,7 @@ A lot of people make the impression, get the impression that they compete with o
 They just serve to provide different types of solutions and enable different kinds of products and offerings to be built on top of them.
 
 <h3>Private Blockchain Benefits</h3>
-The following benefits of a private blockchain have been described in the "Public vs. Private Blockchain In a Nutshell" article by Demiro Massessi:
+The following benefits of a private blockchain have been described in the ["Public vs. Private Blockchain In a Nutshell"](https://medium.com/coinmonks/public-vs-private-blockchain-in-a-nutshell-c9fe284fa39f) article by Demiro Massessi:
 <ul>
 <li>Ledger is distributed/immutable
 The database is not centralized like in a client-server approach, and all nodes in the blockchain participate in the transaction validation. When something is written to the blockchain, it cannot be changed.</li>
@@ -2888,14 +2890,14 @@ The enterprise controls the resources and access to the blockchain, hence privat
 </ul>
 
 <h3>Security: Public vs. Private Blockchains</h3>
-As discussed in "The Difference Between Public and Private Blockchain" article by Praveen Jayachandran, both public and private blockchains share many similarities:
+As discussed in ["The Difference Between Public and Private Blockchain"](https://www.ibm.com/blogs/blockchain/2017/05/the-difference-between-public-and-private-blockchain/) article by Praveen Jayachandran, both public and private blockchains share many similarities:
 <ul>
 <li>Both are decentralized peer-to-peer networks, each maintaining a shared append-only ledger of digitally-signed transactions.</li>
 <li>Both maintain transaction replicas in-sync through a protocol referred to as consensus.</li>
 <li>Both provide certain guarantees on the immutability of the ledger.</li>
 </ul>
 
-On the other hand, as described in Investopedia, the main difference between a public and private blockchain is related to who is allowed to participate in the network, execute the consensus protocol, and maintain the shared ledger:
+On the other hand, as described in [Investopedia](https://www.investopedia.com/news/public-private-permissioned-blockchains-compared/#:~:text=The%20primary%20distinction%20between%20the,and%20maintain%20the%20shared%20ledger), the main difference between a public and private blockchain is related to who is allowed to participate in the network, execute the consensus protocol, and maintain the shared ledger:
 <ul>
 <li>A public blockchain network is completely open and anyone can join and participate in the network.</li>
 <li>A private blockchain network requires an invitation, and must be validated by either the network starter or by a set of rules. Private blockchains are usually set up as permissioned networks, placing restrictions on who is allowed to participate in the network, and only in certain transactions.</li>
