@@ -4985,17 +4985,17 @@ The Giving Chain is now moving from a Proof of Concept project to a prototype as
 ConsenSys
 ConsenSys Mesh companies offer solutions to help build out the Ethereum Ecosystem. ConsenSys Mesh acts as an incubator for Etherum-based projects:
 <ul>
-<li>Codefi
+<li>Codefi<br/>
 Finance and commerce blockchain applications.</li>
-<li>Diligence
+<li>Diligence<br/>
 Ethereum smart contract audits.</li>
-<li>INFURA
+<li>INFURA<br/>
 Scaling and performance issues.</li>
-<li>Metamask
+<li>Metamask<br/>
 Wallet application.</li>
-<li>Quorum
+<li>Quorum<br/>
 open source blockchain platforms.</li>
-<li>Truffle
+<li>Truffle<br/>
 Application builder.</li>
 </ul>
 
@@ -5008,7 +5008,8 @@ Application builder.</li>
 </p>
 
 <h3>Hyperledger</h3>
-Hyperledger Greenhouse is a graphical representation of the blockchains tools and libraries hosted by the Linux Foundation:
+
+[Hyperledger Greenhouse](https://www.hyperledger.org/use) is a graphical representation of the blockchains tools and libraries hosted by the Linux Foundation:
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------ hyperledger green 'house' ---------------------------------------------------->
@@ -5018,7 +5019,7 @@ Hyperledger Greenhouse is a graphical representation of the blockchains tools an
     alt="Hyperledger Greenhouse"</>
 </p>
 
-Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger distributed ledgers and libraries on the Hyperledger website.
+Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger [distributed ledgers](https://www.hyperledger.org/use/distributed-ledgers) and [libraries](https://www.hyperledger.org/use/libraries) on the Hyperledger website.
  
 <!------------------------------------------------------------------------------------------------------------------------->
 <!------------------------ Hyperledger Websites: aries, besu, fabric, indy, iroha, and sawtooth --------------------------->
@@ -5051,7 +5052,8 @@ It is a cloud service that enables rapid distributed application deployment with
 </p>
 
 <h3>SIMBA Chain</h3>
-SIMBA Chain, Inc. was formed in 2017 from a grant awarded by the Defense Advanced Research Projects Agency (DARPA) to Indiana Technology and Manufacturing Companies (ITAMCO) and the Center for Research Computing (CRC) at the University of Notre Dame in order to develop a secure, unhackable messaging and transaction platform for the United States military.
+
+[SIMBA Chain, Inc.](https://simbachain.com/about/) was formed in 2017 from a grant awarded by the Defense Advanced Research Projects Agency (DARPA) to Indiana Technology and Manufacturing Companies [(ITAMCO)](https://itamco.com/) and the Center for Research Computing [(CRC)](https://crc.nd.edu/) at the University of Notre Dame in order to develop a secure, unhackable messaging and transaction platform for the United States military.
 
 SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). 
 
@@ -5217,3 +5219,4 @@ The end . . .
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
 **[`^        back to top        ^`](#table-of-contents)**
+
