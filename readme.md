@@ -2323,6 +2323,8 @@ The blockchain is designed so that immutability is cumulative; each piece is lin
 <li>Each block is digitally signed by its creator. The creator is selected through the blockchain’s consensus protocol, making it difficult for an attacker to be a legitimate creator.</li>
 </ul>
 All four of these features help to make the blockchain resistant against changes occurring after the fact.
+<br/>
+&nbsp;
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------- transparency of a blockchain -------------------------------------->
