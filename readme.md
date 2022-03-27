@@ -5090,7 +5090,8 @@ This graphical model is then converted to Solidity where each asset and transact
 SIMBA Chain also offers management services [(Software as a Service)](https://simbachain.com/enterprise/) for your blockchain solution that grant use of software solutions or APIs (application programming interface), across several cloud platforms so companies can effectively create blockchain solutions.
 
 <h3>Identity</h3>
-Identity management is vital for blockchain operation. Identifying objects that will interact with a blockchain such as people, places, things ([IOT devices])(https://www.blockchain-council.org/blockchain/blockchain-and-iot-a-solid-technological-duo/), is the first step and consideration when developing a blockchain.
+
+Identity management is vital for blockchain operation. Identifying objects that will interact with a blockchain such as people, places, things [(IOT devices)](https://www.blockchain-council.org/blockchain/blockchain-and-iot-a-solid-technological-duo/), is the first step and consideration when developing a blockchain.
 
 One solution is the Verifiable Organizations Network (VON) project that enables organizations—and the people running those organizations—to conduct business online in a trusted manner. The core challenge is that on the Internet we can’t tell if we’re talking to you, or someone pretending to be you. We need a reliable way to verify that “you are you” in a manner appropriate for the type of transaction that you want to complete and in a privacy-preserving manner.
 
