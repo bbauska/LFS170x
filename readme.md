@@ -1761,23 +1761,35 @@ Digital Signatures and Key Pairs<br/>
 &nbsp;
 
 <h3>Private/Public Key Cryptography</h3>
+<p>
 I want to talk a little bit about cryptography and some cryptography principles.
 
 The first is easy and hard problems, and this is really what public - private key cryptography is based off of.
 
 There are some problems that are very easy one way, but difficult another way.
 And a great example of this is multiplication.
-So, if I give you a pen and paper and a lot of time, I can ask you to multiply any two numbers, and you can probably come up with an answer fairly easily.
+
+If I give you a pen and paper and a lot of time, I can ask you to multiply any two numbers, and you can probably come up with an answer fairly easily.
+
 What's a lot more difficult is if I give you the product of two numbers and ask you to factor that and find out all the numbers you can multiply together to get that result, that's a much harder problem.
 This is how public - private key cryptography works.
+
 We use an easy mathematical problem to generate a message, but we make it very, very hard for that message to be decrypted by someone who shouldn't decrypt it, and public and private keys play a big role in blockchain.
+
 I want to show you right now.
+
 I've got two different wallets. I've got a wallet that you're probably used to, that you keep money in, and then I've got a hardware wallet, a digital wallet that you'd use to trade something like bitcoin or ether.
+
 Now, what you're used to, in your regular wallet, is putting money in here and you keep your money in here, and if you lose this, whoever finds it gets your money and they get to spend it.
+
 In blockchain, with cryptocurrencies, it's a little bit different.
+
 The only thing that ever gets kept in here is your private key.
+
 And a private key - public key work together so that I can use a private key to sign, digitally sign, any message.
+
 You can then take the public key, which anyone can know, and use that to verify that my specific private key was the one that actually signed that message.
+
 And so, you can know without a doubt that I'm the one who created that message, that no one was pretending to be me sending this message.
 
 And this is how it works trading digital currencies back and forth.
@@ -1785,11 +1797,13 @@ And this is how it works trading digital currencies back and forth.
 If I decide I'm going to pay you three bitcoins and I'm gonna do it out of this hardware wallet or any software wallet, any kind of digital currency, the only thing that's kept on this device is my private key and it never leaves, and so, that means if I want to send you some money, all I'm doing is accessing the private key on this device to sign a message that gets transmitted to the blockchain, that says I'm paying you some bitcoin or some ether or some litecoin, and my public key is used to verify that that message actually did come from the wallet that says it did.
 
 And this is how we trade cryptocurrencies back and forth, and that's what makes the concept of a digital wallet a little bit different.
+
 If I happen to lose this, I haven't lost the money that's in it, because there's no money ever in it.
+
 All that money is is just a record on the blockchain, and, as long as I can recover that private key somehow, I can just get a new device, start using my private key again and keep right on trading.
 
 That's how public and private keys fit into blockchain; a very key component just to understand that they're used to sign and verify any transactions that you make.
-
+</p>
 <h4>Zero-Knowledge Proof (ZKP)</h4>
 Zero-knowledge proofs authenticate parties without the need to widely transmit private information online. A zero-knowledge proof (ZKP) is a cryptographic method that allows a party (the prover) to prove to another party (the verifier) that a given statement is true, without conveying any additional information.
 
@@ -1797,24 +1811,38 @@ Let's review an example.
 Let's say there are two toy cars, identical in shape and size, except, one is red and one is blue. Jerry, who is color-blind, holds the toy cars behind his back. Jerry then shows one of the cars to Sam. Jerry then hides that car behind his back and shows Sam the other car. Sam can consistently detect the switch because the cars are different colors, but he never has to reveal the color of the cars to Jerry in order to prove the secret.
 
 <h4>Zero-Knowledge Proof (Cave Example)</h4>
+<p>
 In this section, we're going to talk about a cybersecurity idea in blockchain known as **"Zero-Knowledge Proofs"**.
+
 Zero-Knowledge Proofs are exactly what the name implies - they allow me to prove to another party that I have a certain piece of knowledge without revealing what that knowledge is.
+
 Zero-Knowledge Proofs are often referred to as zk-SNARKs, which stand for "Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge", or zk-SNARKs for short,
 or, if you want to be simple, we can just call them Zero-Knowledge Proofs.
+
 A great example of a Zero-Knowledge Proof is what we call the cave door analogy.
+
 Pretend that there's a circular cave, with only one entrance or exit and at the back of this circular cave there's a door which can be unlocked using a secret code entered onto a keypad.
+
 If I want to prove to you that I know the unlock code without revealing that unlock code to you, all I need to show is that I can walk into one end of the cave, open the door, and come out the other end.
+
 If I've successfully demonstrated that, then you know without a doubt I've been able to unlock that door, but yet I haven't revealed that unlock code to you.
+
 This simple cave door analogy is a Zero-Knowledge proof, and if you can remember this cave door analogy,
 then you'll understand why Zero-Knowledge Proofs are so important in blockchain.
+
 For example, a user may make a request to send another user some money.
+
 The blockchain naturally wants to make sure, before it commits this transaction,
 that the user sending the money has enough to send.
-However, the blockchain doesn't really need to know or care who is spending the money, or how much total money they have.
-Being able to answer a question of "Does a user have enough money to send to another user" without knowing who the user is, or exactly how much they have, is one of the primary use cases for Zero-Knowledge Proofs in blockchain.
-So, when you hear about zk-SNARKs, don't get intimidated.
-It's not a complex idea. Just think of Zero-Knowledge Proofs and the cave door, think about how important it is in blockchain to be able to prove a claim without actually revealing the information behind that claim, and you'll understand Zero-Knowledge Proofs.
 
+However, the blockchain doesn't really need to know or care who is spending the money, or how much total money they have.
+
+Being able to answer a question of "Does a user have enough money to send to another user" without knowing who the user is, or exactly how much they have, is one of the primary use cases for Zero-Knowledge Proofs in blockchain.
+
+When you hear about zk-SNARKs, don't get intimidated.
+
+It's not a complex idea. Just think of Zero-Knowledge Proofs and the cave door, think about how important it is in blockchain to be able to prove a claim without actually revealing the information behind that claim, and you'll understand Zero-Knowledge Proofs.
+</p>
 <h3>Hash Functions in Blockchain</h3>
 When using blockchain, the need to trust a central authority to verify the accuracy of data is removed and replaced by trust in a cryptographic hashing function. With data integrity guaranteed by algorithms, trust becomes part of the system.
 Blockchain provides users with data integrity in a trustless environment. This is accomplished using cryptography in a way that moves the burden of trust from data processors to cryptographic algorithms.
@@ -1834,42 +1862,78 @@ Hash functions are featured heavily in blockchain. A hash function is a mathemat
 	width="100%" >
  
 <h3>Cryptographic Hashing Demo</h3>
+<p>
 In this section, we're going to talk about cryptographic hashing.
+
 A cryptographic hash is a special kind of cryptographic function known as a one-way function, whereas most cryptographic functions are two-way, meaning that data cannot only be encrypted, but can be decrypted at the other end.
+
 Hashes, or cryptographic hashes, are very unique in that once data is encoded, it can never be decoded.
+
 Let's look at a small example of this.
+
 If we take a simple sentence, "Let's eat, grandma!", this input sentence will generate a unique 32-character hash output.
+
 This hash output can be thought of as an identifier for this input data.
+
 In other words, I can input this data into a hash function to generate this output, and I can share this output with anybody, anywhere,
 safe in the knowledge that it is mathematically impossible for anyone to reverse-engineer the original input from this hash output.
+
 In fact, the only possible way that anybody could ever determine what this input was, was by randomly inputting data into a hash function until they were able to recreate the same output.
+
 Another unique function of a cryptographic hash is that any small change to a dataset, no matter how small, will result in an entirely different hash.
+
 If I remove the comma from this sentence, not only do I entirely change the meaning of the sentence,
+
 I also generate a new 32-character hash output.
+
 This 32 character hash output remains a fixed length no matter how big the input dataset is.
+
 To demonstrate this, let's take the entire first book of Tolstoy's War and Peace, and paste it into our hash function.
+
 You'll see that the most time-consuming part of this is not generating the hash, but simply moving all the data from the clipboard into the input text box.
+
 I've generated a unique 32-character output or identifier for this input text.
+
 You'll notice that this is the same length hash that I got when I had a short one sentence input, and if I change anything in this extremely large dataset, even one character, I will generate an entirely new hash output.
+
 Let's take a look at this by removing the period at the end of this sentence, and replacing it with a question mark.
+
 You'll see that by doing so, I've generated a completely different and unique 32-character hash output.
+
 Hash functions not only play a critical role in blockchain security by enabling blocks to be linked together in creating immutability between data on the blocks, they can also be used as a great way to identify and verify large sources of data.
+
 Let's look at some other use cases.
+
 If I want to build a system which authenticates users, but I don't want to store their password directly in a database where it might be stolen or corrupted, a hash function can be a great solution.
+
 Let's say I have a very simple password, password123, but I don't want to store that password inside my authentication database.
+
 I can simply ask the user to type in their password and store the hash output from that password.
+
 Any subsequent time a user tries to log on, I don't need to know their password. I just need to verify that they're able to recreate this hash output.
+
 If they can't do that, because they have the wrong password, then I can simply choose not to authenticate them into my system.
+
 Cryptographic hashes can also be used to validate source code or real large datasets in the real world.
+
 Let's look at self-driving cars for an example.
+
 Let's say we've developed a self-driving car with the intelligence to hash the source code every time it starts up.
+
 My self-driving car, every time I start the car, can take its source code, run it through a hash and generate a unique identifier.
+
 It can then share this identifier or 32-character hash output with every other self-driving car it has contact with, or even validate this against a database or some other centralized data store, or perhaps an immutable record on the blockchain.
+
 This gives me the confidence that if the source code for my self-driving car ever gets hacked and makes it unsafe to drive,
+
 I'll know it right away. I'll try to start my self-driving car, which will immediately hash its source code, share that hash output with other self-driving cars or validate it against an authoritative source, and instantly we can see I've got an entirely different hash output letting me know before I've gone anywhere that my self-driving car is not safe, and putting that self-driving car into a limp or shutdown mode, where it simply refuses to go anywhere until the compromised software has been updated and replaced with the right version.
+
 Cryptographic hashes give us a way to link all blocks on the blockchain together in an immutable fashion, such that if any one particular block or the data on any block is changed or altered to any degree, no matter how small, we will know it instantly and we will break the link between that block and every subsequent block.
+
 If you haven't watched the module in this course that covers the in-depth walkthrough of Proof of Work consensus, you might want to check it out now.
+
 We actually show how cryptographic hashing is used to link together all blocks on the blockchain, creating a data store that is immutable, secure, and extremely trustworthy.
+</p>
 Lab 1: Hashing
 Next, let's engage with an interactive lab. This lab is an actual hands-on demonstration of taking data and creating a hash output. Enjoy!
 Start Lab
