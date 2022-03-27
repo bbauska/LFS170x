@@ -3163,12 +3163,14 @@ As mentioned in Jamiel Sheikh's book “Mastering Corda: Blockchain for Java Dev
 
 <h3 id="ch3-7">3.7 Chapter Summary</h3>
 In this chapter, we discussed:
-   • Smart contracts and benefits from using smart contracts.
-   * Differences between blockchain security vs. standard security.
-   * Differences between private and public blockchains.
-   * Factors in deciding on blockchain.
-   * Transaction flow in blockchain.
-   * Consensus mechanisms used in blockchain.
+<ul>
+<li>Smart contracts and benefits from using smart contracts,</li>
+<li>Differences between blockchain security vs. standard security,</li>
+<li>Differences between private and public blockchains,</li>
+<li>Factors in deciding on blockchain,</li>
+<li>Transaction flow in blockchain,</li>
+<li>Consensus mechanisms used in blockchain.</li>
+</ul>
 
 <h2 id="ch4">Chapter 4. Blockchains and Governance</h2>
 <h3>Chapter Overview</h3>
@@ -3177,24 +3179,28 @@ Next, we will take a look at how these trustless systems with open interactions 
 
 <h3 id="ch4-1">4.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
-  •	Discuss open source communities and blockchain source code.
-  •	Discuss the different types of governance models and what types of governance are used in public and private blockchains.
-  •	Analyze governance types in a blockchain and determine which are used for the more popular blockchains.
-  •	Analyze examples of Decentralized Autonomous Organizations (DAOs).
-  •	Summarize the advantages and disadvantages of a consortium blockchain.
+<ul>
+<li>Discuss open source communities and blockchain source code,</li>
+<li>Discuss the different types of governance models and what types of governance are used in public and private blockchains,</li>
+<li>Analyze governance types in a blockchain and determine which are used for the more popular blockchains,</li>
+<li>Analyze examples of Decentralized Autonomous Organizations (DAOs),</li>
+<li>Summarize the advantages and disadvantages of a consortium blockchain.</li>
+</ul>
 
 <h3 id="ch4-2">4.2 What Is Open Source?</h3>
 Blockchain technology and the developers who work with it reinforce the basic tenet of decentralization in many ways. Not only by decision making consensus models, but also the way in which it distributes the software code.<br/>
 
-   • Proprietary/closed source code
-Software controlled by the person, team or organization who created it and maintains exclusive rights over it. Only the original authors can legally copy, inspect, and alter the software. Most users of proprietary software sign an agreement giving permission to use the software but not alter it. Microsoft Office is an example of proprietary software.
-   • Open source code
+<ul>
+<li>Proprietary/closed source code
+Software controlled by the person, team or organization who created it and maintains exclusive rights over it. Only the original authors can legally copy, inspect, and alter the software. Most users of proprietary software sign an agreement giving permission to use the software but not alter it. Microsoft Office is an example of proprietary software.</li>
+<li>Open source code<br/>
 Computer code that describes a specific approach to creating software.
 When describing tools for distributing open source code Discipline Tools states, Open source initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency and community-oriented development. 
 Open source software is code that anyone can inspect, modify and enhance. 
 Much of the Internet was built on open source technologies. 
 Users of the computer software never interact with the source code, rather it's manipulated by programmers who improve and fix it. As with proprietary software, users must accept the terms of the license, but they are dramatically different structurally. 
-Linux and Kubernetes are examples of open source software.
+Linux and Kubernetes are examples of open source software.</li>
+</ul>
 Open source software fosters collaboration by sharing code and encouraging modifications and improvements. 
 Instead of charging for the software program, software developers find it more lucrative to charge for service around developing and maintaining these open source projects.
 
