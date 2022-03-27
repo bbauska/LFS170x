@@ -2400,9 +2400,9 @@ As explained in the article [“A Gentle Introduction to Immutability of Blockch
 <br/>
 &nbsp;
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- hashing & chaining -------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- hashing & chaining -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-hashing-chaining.png?raw=true"
 	alt="Transparency: Database vs. Blockchain"
@@ -2504,7 +2504,7 @@ Lab 2: Blocks
 
 Next, let's engage with an interactive lab. This lab will give you the chance to examine blocks on the blockchain. Enjoy!
 
-Start Lab
+[Start Lab](https://blockchaintrainingalliance.com/pages/lab-blocks)
 
 <h3 id="ch2-5">2.5 Chapter Summary</h3>
 In this chapter, we discussed:
@@ -2619,7 +2619,15 @@ Let’s review some basic information about smart contracts:
 <li>Once executed, the information in the smart contract is stored on a blockchain which cannot be altered.</li>
 </ul>
  
-What Do Smart Contracts Provide?
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- smart contracts handshake ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-smart-contracts-handshake.png?raw=true"
+   alt="Smart Contracts - Handshake"
+   width="85%" >
+ 
+<h3>What Do Smart Contracts Provide?</h3>
 These are some of the features that smart contracts provide:
 <ul>
 <li>Accuracy</li>
