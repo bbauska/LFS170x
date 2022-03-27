@@ -1616,13 +1616,13 @@ Simple example function:
 </ul>
 
 As mentioned in the ["Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet"](https://medium.com/tokenring/ancient-uses-of-cryptography-four-examples-that-pre-date-the-internet-14679ae4f509) article by Melanie Shapiro,
-<blockquote>
+
 "(...), in the 1970s cryptologists [Whitfield Diffie and Martin Hellman](https://news.stanford.edu/2016/03/01/turing-hellman-diffie-030116/) made a landmark invention: asymmetric key encryption. 
 It’s the concept that both HTTPS (the popular protocol used to access a secure web server discussed previously) and the secure element within a token rely on to keep your information completely private.
 The principles behind it are genius. Instead of a shared key that codes and decodes information, the key for encrypting the information is different from the key that decrypts it — that way there is no longer a shared, secret key. 
 With this invention, in order to share a secret message, you no longer even have to know the person you are sending it to.
 Most importantly, for people like us who care deeply about safe authentication and identity protection, the private key itself is never communicated at all, and that means no more shared secrets".
-</blockquote>
+
 
 <h3>Byzantine Fault Tolerance</h3>
 As you start to get more and more into blockchain, one term that you're gonna hear a lot is Byzantine Fault Tolerance.
