@@ -165,7 +165,7 @@ Characteristics of Web 1.0:<br/>
 Computers and items for connection became necessities.
 Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
 Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. 
-Companies appeared attempting to cash in on this new technology, most notable was a company called **Netscape** which developed the first commercial Web browser.
+Companies appeared attempting to cash in on this new technology, most notable was a company called [Netscape](https://isp.netscape.com/) which developed the first commercial Web browse
 <br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -215,7 +215,7 @@ Websites let users generate content, social networks became part of our lives.
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer.
-Napster software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.<br/>
+[Napster](https://us.napster.com/) software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.<br/>
 <b>Result:</b> The industry cracks down music sharing companies copyright infringement.
 Napster is forced to take down its index, shutting down the platform.
 
@@ -229,7 +229,7 @@ Napster is forced to take down its index, shutting down the platform.
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer. 
-BitTorrent's software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.<br/>
+[BitTorrent's](https://www.bittorrent.com/) software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.<br/>
 <b>Result:</b> The industry cracks down music sharing companies copyright infringement. 
 <p>
 BitTorrent is asked to shut down their platform.
