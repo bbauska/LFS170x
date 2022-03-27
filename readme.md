@@ -2328,7 +2328,7 @@ All four of these features help to make the blockchain resistant against changes
 <!----------------------------------- transparency of a blockchain -------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
-<img src="/images/image-immutabile.png?raw=true"
+<img src="/images/image-immutable.png?raw=true"
 	alt="Immutable"
 	width="85%" >
 
