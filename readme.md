@@ -4511,7 +4511,7 @@ With NFTs, musicians and filmmakers can now tokenize their work where the artist
    * Sports<br/>
 The sports industry has embraced the idea of NFTs from tokenizing memorable sporting moments to trading card collectables. [NBA Top Shots](https://nbatopshot.com/) being the leader for creating a marketplace for NBA collectible cards and moments.[
    * University research<br/>
-In May 2021, UC Berkeley announced it would auction off NFTs for the patent disclosure for two Nobel Prize-winning inventions dealing with gene editing and Cancer Immunotherapies.<br/>
+In May 2021, [UC Berkeley](https://en.wikipedia.org/wiki/University_of_California,_Berkeley) announced it would auction off NFTs for the patent disclosure for two Nobel Prize-winning inventions dealing with gene editing and Cancer Immunotherapies.<br/>
 
 The younger generation of collectors aren’t interested in China sets and linen, but something they can show their friends on their social media accounts. 
 
@@ -4524,9 +4524,9 @@ If new emerging blockchains can’t communicate with each other, we will have th
 
 As different blockchains take different approaches to interoperability, standards will emerge that will help regulate the industry and help with widespread adoption. 
 
-Currently Hyperledger and Ethereum are working together on interoperability projects from Hyperledger Besu (to learn more about Hyperledger Besu enroll into Hyperledger Besu Essentials: Creating a Private Blockchain Network (LFS176x)), an open source Ethereum client for enterprise solutions that can be run on the Ethereum public network or on a private permissioned network. 
+Currently Hyperledger and Ethereum are working together on interoperability projects from [Hyperledger Besu](https://wiki.hyperledger.org/display/besu) (to learn more about Hyperledger Besu enroll into [Hyperledger Besu Essentials: Creating a Private Blockchain Network (LFS176x)](https://training.linuxfoundation.org/training/hyperledger-besu-essentials-creating-a-private-blockchain-network-lfs176x/)), an open source Ethereum client for enterprise solutions that can be run on the Ethereum public network or on a private permissioned network. 
 
-Other projects in the Hyperledger labs that deal with interoperability are working on standards that will make it easier for blockchains to talk to each other.
+Other projects in the [Hyperledger labs](https://wiki.hyperledger.org/display/labs) that deal with interoperability are working on standards that will make it easier for blockchains to talk to each other.
 
 When considering how blockchain interoperability can work, consider email and smartphone. 
 
@@ -4597,7 +4597,7 @@ Businesses and organizations are implementing blockchain to overcome obstacles i
   - Public sector solutions<br/>
 Governments are using blockchain solutions to improve services that they provide to their citizens. Digital identity solutions, central bank digital currencies and transparent workflows are bringing efficiency to the public sector system with an end result that benefits citizens. With that, new laws are needed to regulate this technology.
   - Social impact solutions<br/>
-Social impact blockchain solutions address social and environmental challenges. Backed by the 17 United Nations Sustainable Development Goals blockchain developers, investors, philanthropists, government agencies and foundations are developing solutions that tackle these global problems.
+Social impact blockchain solutions address social and environmental challenges. Backed by the [17 United Nations Sustainable Development Goals](https://sdgs.un.org/goals) blockchain developers, investors, philanthropists, government agencies and foundations are developing solutions that tackle these global problems.
   - Platform developers' solutions<br/>
 Blockchain is a new technology constantly improving and changing. Developers are creating standards and new platforms to bring this technology into the mainstream.
   - End user solutions<br/>
@@ -4617,7 +4617,7 @@ Supply chain data is not always visible or trusted. In recent times of disruptio
    alt="Maersk + IBM"</>
 </p>
   
-Learn more about the collaboration between Maersk and IBM from the "Digitizing Global Trade with Maersk and IBM" blog post by Michael White.
+Learn more about the collaboration between Maersk and IBM from the ["Digitizing Global Trade with Maersk and IBM"](https://www.ibm.com/blogs/blockchain/2018/01/digitizing-global-trade-maersk-ibm/) blog post by Michael White.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -4660,7 +4660,7 @@ This system could significantly reduce delays and fraud saving billions of dolla
 
 And, according to the WTO, reducing barriers within the international supply chain could increase worldwide GDP by almost 5% and total trade volume by 15%.
 
-The resulting solution is called TradeLens. You can take the TradeLens tour here.
+The resulting solution is called [TradeLens](https://www.tradelens.com/). You can take the TradeLens tour [here](https://tour.tradelens.com/).
 
 **[`^        back to top        ^`](#table-of-contents)**
 
