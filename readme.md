@@ -1615,9 +1615,9 @@ Simple example function:
 <li>Cipher = "Dnqemejckp vgejpqnqia ku vtcpuhqtocvkxg".</li>
 </ul>
 
-As mentioned in the "Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet" article by Melanie Shapiro,
+As mentioned in the ["Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet"](https://medium.com/tokenring/ancient-uses-of-cryptography-four-examples-that-pre-date-the-internet-14679ae4f509) article by Melanie Shapiro,
 <blockquote>
-"(...), in the 1970s cryptologists Whitfield Diffie and Martin Hellman made a landmark invention: asymmetric key encryption. 
+"(...), in the 1970s cryptologists [Whitfield Diffie and Martin Hellman](https://news.stanford.edu/2016/03/01/turing-hellman-diffie-030116/) made a landmark invention: asymmetric key encryption. 
 It’s the concept that both HTTPS (the popular protocol used to access a secure web server discussed previously) and the secure element within a token rely on to keep your information completely private.
 The principles behind it are genius. Instead of a shared key that codes and decodes information, the key for encrypting the information is different from the key that decrypts it — that way there is no longer a shared, secret key. 
 With this invention, in order to share a secret message, you no longer even have to know the person you are sending it to.
@@ -1707,7 +1707,7 @@ Transactions on the blockchain include their public key and are digitally signed
 &nbsp;
 
 <h3>Identity: Specific Identity Implementations</h3>
-Ethereum is a public blockchain that anyone can participate in. Hyperledger is an example of an enterprise blockchain where participants must be granted access to engage in the blockchain.
+Ethereum is a public blockchain that anyone can participate in. [Hyperledger](https://www.hyperledger.org/) is an example of an enterprise blockchain where participants must be granted access to engage in the blockchain.
 <ul>
 <li>Ethereum<br/>
 A user’s identity is an address based on their public key.</li>
@@ -1731,7 +1731,7 @@ Digital Signatures and Key Pairs
 Step 1:
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- Stekp 1 -------------------------------------------------->
+<!---------------------------------------------- Step 1 -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image-step-1.png?raw=true"
@@ -1741,7 +1741,7 @@ Step 1:
  
 Step 2:
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- Stekp 2 -------------------------------------------------->
+<!---------------------------------------------- Step 2 -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image-step-2.png?raw=true"
@@ -1751,7 +1751,7 @@ Step 2:
  
 Step 3:
 <!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- Stekp 3 -------------------------------------------------->
+<!---------------------------------------------- Step 3 -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center">
 <img src="/images/image-step-3.png?raw=true"
@@ -4755,7 +4755,7 @@ The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social
 <!------------------------------------------------------------------------------------------------------------------------->
 <p align="center" width="100%">
 <img width="85%" 
-   src="/images/image114.png?raw=true"
+   src="/images/image112.png?raw=true"
    alt="Charity logo"</>
 </p>
 
