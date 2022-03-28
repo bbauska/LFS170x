@@ -1,9 +1,9 @@
-<h2 align="center">LFS170x - Linux FoundationX - Blockchain: Understanding Its Use Cases and Implications</h2>
+<h2 align="center">LFS170x - Linux FoundationX</h2>
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!-------------------------------------------- readme.md in LFS170x.bauska.org -------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------ linux logo ------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- readme.md in LFS170x.bauska.org ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ linux logo ------------------------------------------>
 <p align="center">
 <img src="/images/image001.jpg?raw=true"
 	alt="Linux logo"
@@ -11,10 +11,11 @@
 &nbsp;
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
 </p>  
-<h3 align="center">Blockchain: Understanding Its Use Cases and Implications </h3>
+<h2 align="center">Blockchain: Understanding Its Use Cases and Implications </h2>
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------ linux blockchain logo -------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ linux blockchain logo ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-lfs170x-logo.png?raw=true"
 	alt="Linux LFS170x logo"
@@ -97,9 +98,9 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------------------- Connect Dots ------------------------------------------------------>
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------------- Connect Dots ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image002.png?raw=true"
 	alt="Connect the Dots"
@@ -108,9 +109,9 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 
 <h3 id="ch1-2">1.2 The Early Internet</h3>
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------ darpa logo ------------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ darpa logo ------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/darpa-logo.jpg?raw=true"
 	alt-"DARPA logo" 
@@ -121,9 +122,9 @@ What started as a **[DARPA (Defense Advanced Research Project Agency)](https://w
 
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------- www logo -------------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------- www logo ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image003.png?raw=true" 
 	alt="WWW logo" 
@@ -153,9 +154,9 @@ Characteristics of Web 1.0:<br/>
    <li>Read-only, information was “pushed” to users,</li>
    <li>Email was the first widely adopted application on the Internet.</li>
 </ul>
-<!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------ Email logo ------------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- Email logo -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image004.png?raw=true" 
      alt="E-mail logo" 
@@ -171,9 +172,9 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------- Netscape logo ------------------------------------------------------>
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- Netscape logo ------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image005.png?raw=true" 
 	alt="Netscape logo" 
@@ -193,9 +194,9 @@ Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sel
 Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. 
 Websites let users generate content, social networks became part of our lives.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------------- social networking logo -------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- social networking logo -------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image006.png?raw=true" 
 	alt="Social Networking logo" 
@@ -205,9 +206,9 @@ Websites let users generate content, social networks became part of our lives.
 <h5 align="center">Social Networking</h5>
 
 <h3>Real World Examples of File Sharing</h3>
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------------------- napster logo ------------------------------------------------------>
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ napster logo ---------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <h3>Use Case: Music Sharing Companies</h3>
 <p align="center">
 <img src="/images/image007.png?raw=true" 
@@ -643,7 +644,7 @@ User node interacts with the ledger. With blockchain technology, a lack of a cen
 <p align="center">
 <img src="/images/image020.png?raw=true" 
 	alt="Blockchain networks can be public or private" 
-	width="40%" >
+	width="65%" >
 &nbsp;
 
 Blockchain networks can be <i>public</i> or <i>private</i>. 
@@ -673,13 +674,13 @@ In order for the blocks to be added, all the nodes in the system come to agree a
 Since there is no central authority telling the nodes which transactions are valid, a new way to reach agreement or come to consensus is needed.
 </p>
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- All agree to transaction ------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------All agree to transaction ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image021.png?raw=true" 
    alt="All agree to transaction" 
-   width="40%" >
+   width="65%" >
 &nbsp;
 
 The way in which each blockchain comes to consensus is built into the protocol, they are the rules built into the code that determine how the nodes will add ledger transactions.
@@ -1416,14 +1417,15 @@ This system of consensus by the majority of the adults on the island with no cen
 </p>
 
 <h4>Let's review an example on Yap Island:</h4>
-Alice agrees to trade Bob her stone by the pond in exchange for all of his cattle.
+<p>
+Alice agrees to trade Bob her stone by the pond in exchange for all of his cattle.<br/>
 
 Alice and Bob announce their transaction to the tribe.
 
 Everyone updates their mental ledger.
 
 From this point on, they agree that the stone by the pond is owned by Bob.
-
+</p>
 <h4>Island of Yap: Corruption Is Near Impossible</h4>
 Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never gave up ownership of the stone.
 <ul>
@@ -1431,31 +1433,51 @@ Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never ga
 <li>Decentralized ledger, Carol will be outvoted by the rest of the tribe, and her version of the ledger will not be accepted.</li>
 </ul>
 If Alice wants to cheat, she will need a way to convince 51% or more of the tribe to accept an alternative ledger.
-
+&nbsp;
 <h3>The Evolution of Distributed Ledgers</h3>
+<p>
 We've gone through history and seen how ledgers have evolved from stone tablets to double-entry ledgers.<br/>
+
 We even took a look at the earliest known example of distributed ledgers.<br/>
+
 Now, let's discuss the evolution of the ledger in the modern world.<br/>
+
 Over the last few decades, ledgers have moved from the written form to the digital form, also known as computers and digitalized databases.<br/>
+
 This has allowed us to be interconnected - a truly global economy.<br/>
+
 Today, this recordkeeping system is being revolutionized again, going from the digital realm or centralized databases keeping track of transactions to information being stored across different locations across the globe.<br/>
+
 This system of record, information across a global network, is what we call decentralized ledgers.<br/>
+
 A decentralized ledger can be described as a ledger of any transactions or contracts supported by a decentralized network from across different locations and people, eliminating the need of a central authority.<br/>
+
 When a recording is made, every participant is notified of that recording.<br/>
+
 They now own an identical copy of the record of transactions, identical to every other node on that network.<br/>
+
 Every piece of information on a blockchain can be traced back to the exact moment when it was created.<br/>
-So, if an audit is necessary, information can be found and deemed reliable.<br/>
+
+If an audit is necessary, information can be found and deemed reliable.<br/>
+
 This allows blockchain to serve as a truly reliable storage of public records and transactions, and therefore eliminating the need for a centralized authority of database of records.<br/>
+
 Now that we understand the foundational principle of blockchains - distributed ledgers, it's important to understand another important key element that makes blockchain so revolutionary: trust.<br/>
+
 Trust is created through two key principles: collaboration and cryptography, both of which will be discussed shortly.<br/>
-
+</p>
 <h3>Decentralized Ledger</h3>
+<p>
 As we can see by looking at the evolution of the ledger, we are entering a new phase where no one centralized authority has control of the details in the ledger, everyone does.<br/>
-Transactions are only added to the ledger if everyone agrees.<br/>
-Once consensus is reached, no one can go back and deny a transaction.<br/>
-Essentially you are not trusting one person or entity to control the ledger, you're trusting everyone.<br/>
-Let's look a little further into how that trust is achieved.<br/>
 
+Transactions are only added to the ledger if everyone agrees.<br/>
+
+Once consensus is reached, no one can go back and deny a transaction.<br/>
+
+Essentially you are not trusting one person or entity to control the ledger, you're trusting everyone.<br/>
+
+Let's look a little further into how that trust is achieved.<br/>
+</p>
 <h3 id="ch2-3">2.3 From Distributed Ledger to Cryptography</h3>
 <p>
 A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
@@ -1478,32 +1500,33 @@ Now, let's take a look into some of the key concepts of cryptography that are ut
 </p>
 
 <h3>Rose Greenhow</h3>
-One of the reoccurring themes in blockchain is that while blockchain itself may be new and cutting-edge, it's built out of nothing more than very old tried-and-true technology.
+<p>
+One of the reoccurring themes in blockchain is that while blockchain itself may be new and cutting-edge, it's built out of nothing more than very old tried-and-true technology.<br/>
 
-And one of the areas this is most true is in cryptography.
+And one of the areas this is most true is in cryptography.<br/>
 
-When a lot of people first get introduced to cryptography they think it's a very new cutting-edge science.
+When a lot of people first get introduced to cryptography they think it's a very new cutting-edge science.<br/>
 
-And while there are new developments being made everyday, cryptography itself is a very, very old science.
+And while there are new developments being made everyday, cryptography itself is a very, very old science.<br/>
 
-One great example of this is the story of Rose Greenhow.
+One great example of this is the story of Rose Greenhow.<br/>
 
-Rose Greenhow lived in the Washington DC area during the Civil War, and she was actually an undercover spy for the Confederate Army.
+Rose Greenhow lived in the Washington DC area during the Civil War, and she was actually an undercover spy for the Confederate Army.<br/>
 
-Rose Greenhow was a wealthy socialite, and she threw many fancy, elaborate parties, and was also invited to many, many high-end social events.
+Rose Greenhow was a wealthy socialite, and she threw many fancy, elaborate parties, and was also invited to many, many high-end social events.<br/>
 
-Many of these events were attended by members of the Union Army, generals and strategists, who Rose pretended that she didn't know much about military strategy and wasn't too interested in the war in general.
+Many of these events were attended by members of the Union Army, generals and strategists, who Rose pretended that she didn't know much about military strategy and wasn't too interested in the war in general.<br/>
 
-In secret, at all these events she was soaking up all the information she could.
+In secret, at all these events she was soaking up all the information she could.<br/>
 
-Rose actually developed her own method of encrypting data.
+Rose actually developed her own method of encrypting data.<br/>
 
-She came up with her own encryption scheme and she used this scheme to mail letters down to the Confederate Army, revealing the plans of the Union Army, troop positions, general high-level strategy, etc.
+She came up with her own encryption scheme and she used this scheme to mail letters down to the Confederate Army, revealing the plans of the Union Army, troop positions, general high-level strategy, etc.<br/>
 
-Rose did this for a number of years, until finally her encryption method was broken and she was actually one of the very first people who were arrested and prosecuted by the Pinkertons, who later went on to form the Secret Service.
+Rose did this for a number of years, until finally her encryption method was broken and she was actually one of the very first people who were arrested and prosecuted by the Pinkertons, who later went on to form the Secret Service.<br/>
 
-When you hear about blockchain and all the new cutting-edge things that it's doing, don't forget that it has its roots in very old technology, and we're just combining old technology in new and creative ways to create a brand new solutions development platform.
-
+When you hear about blockchain and all the new cutting-edge things that it's doing, don't forget that it has its roots in very old technology, and we're just combining old technology in new and creative ways to create a brand new solutions development platform.<br/>
+</p>
 <h3>Early Use of Cryptography: Caesar Cipher</h3>
 
 As described in the ["Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet"](https://medium.com/tokenring/ancient-uses-of-cryptography-four-examples-that-pre-date-the-internet-14679ae4f509) article by Melanie Shapiro,
@@ -1513,9 +1536,9 @@ It was all about substituting certain letters for others, typically by shifting 
 That algorithm is what we would call a cipher, and since Caesar’s invention, cipher keys are much more secure and advanced. 
 If you want to encrypt and decrypt information, you are going to have to choose a kind of cipher to do so".
 </blockquote>
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- Cryptography by the romans --------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------- ------------------------------------------------>
+<!----------------------------------- Cryptography by the romans --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-cryptography-romans.png?raw=true"
 	alt="Cryptography By Julius Caesar: Caesar Cipher"
@@ -1541,9 +1564,9 @@ This is the process from plain text (ordinary text) to cipher text (random seque
 Encryption is the reverse process of converting ciphertext into plain text.</li>
 </ul>
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- Cryptography key terms --------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- Cryptography key terms ----------------------------------->
+<!----------------------------------------------- ------------------------------------------------>
 <p align="center">
 <img src="/images/image-cryptography-key-terms.png?raw=true"
 	alt="Cryptography Key Terms"
@@ -1686,9 +1709,9 @@ Transactions on the blockchain include their public key and are digitally signed
 <li>Digital signatures can be easily verified using the corresponding public key, which is included in the transaction.</li>
 </ul> 
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- RSA Key Cryptography -------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- RSA Key Cryptography ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-rsa-key.png?raw=true"
 	alt="RSA Key Cryptography"
@@ -1696,10 +1719,9 @@ Transactions on the blockchain include their public key and are digitally signed
 &nbsp;
 
 <h3>Identity: RSA Public Key Cryptography</h3>
-
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- Public Key Cryptography -------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- Public Key Cryptography ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-rsa-public-key.png?raw=true"
 	alt="Public Key Cryptography"
@@ -1718,9 +1740,9 @@ Public key cryptography uses a pair of a public key and a private key to perform
 
 Using a person's public key, it is possible to encrypt a message so that only the person with the private key can decrypt and read it. Using a private key, a digital signature can be created so that anyone with the corresponding public key can verify that the message was created by the owner of the private key and was not modified since.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- Key -------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------------- Key -------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-key.png?raw=true"
 	alt="Key"
@@ -1731,9 +1753,9 @@ Digital Signatures and Key Pairs<br/>
 
 <b>Step 1:</b>
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- Step 1 -------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- Step 1 -------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-step-1.png?raw=true"
 	alt="Step 1: The sender generates a public key from a private key"
@@ -1741,9 +1763,9 @@ Digital Signatures and Key Pairs<br/>
 &nbsp;
  
 <b>Step 2:</b>
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- Step 2 -------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- Step 2 -------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-step-2.png?raw=true"
 	alt="Step 2: The sender encrypts message using the key pairs.  and sends it."
@@ -1751,9 +1773,9 @@ Digital Signatures and Key Pairs<br/>
 &nbsp;
  
 <b>Step 3:</b>
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- Step 3 -------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- Step 3 -------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-step-3.png?raw=true"
 	alt="Step 3: The recipient uses the public key with the private keys to decrypt the message"
@@ -1876,9 +1898,9 @@ A hash function is a mathematical equation with <b>four</b> important properties
 </ol>
 </p>
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------- Cryptographic Hashing -------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- Cryptographic Hashing ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-hash.png?raw=true"
 	alt="Cryptographic Hashing"
@@ -1971,9 +1993,9 @@ A special type of data storage structure based on hash functions is called a Mer
 <li>Looking up a transaction in a Merkle tree with three levels includes sending two transactions (the desired one and the other child of its parent) and three hashes (the transaction’s parent, the root, and the root’s other child).</li>
 </ul> 
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!-------------------------------------------- Merkle Tree -------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- Merkle Tree -------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-merkle-tree.png?raw=true"
 	alt="Merkle Tree"
@@ -1992,35 +2014,54 @@ A root hash is created by repeatedly hashing pairs of child nodes until only one
 Let's take a look at a diagram of a Merkle tree.
 
 This diagram consists of four transactions represented as transaction "A", transaction "B", "C" and "D".
+
 The transaction data is then hashed and the resulting hashes are stored in leaf nodes represented as H of "A", "B", "C" and "D".
+
 Nodes are repeatedly hashed in pairs and the resulting hashes are stored in child nodes until only one node remains: the Merkle root or root hash.
+
 The reason you wouldn't want to hash the entire set of data as a string is because it's not efficient when validating transactions.
+
 In this example, if Alice needed to show Bob that this transaction was valid, let's say transaction "C", Alice would need to send the entire list of data to validate the block.
+
 But when using a Merkle tree, Alice only needs to send the nodes that contain the transaction that she is looking to validate.
 
 Let's say Alice wants to validate transaction "F".
+
 Alice would only need to send the data of transaction "F" and four hash values to Bob.
+
 Bob would then calculate the hash value based on the given information.
+
 And if the root matches the block, the transaction can be assumed to be valid.
+
 Merkle trees allow for validation of a specific transaction without requiring the entire set of data.
 </p>
 <h3>Ethereum vs. Hyperledger Fabric</h3>
 
-The use of public keys for identity management is a logical choice since knowledge of a public key is necessary for verification of digital signatures. Both Ethereum and Hyperledger Fabric use digital signatures on transactions and blocks to verify the identity of the creator and that the signed data has not been modified since signing. Public key cryptography is used in the blockchain as a method for managing users’ identities without revealing real world identities.
+The use of public keys for identity management is a logical choice since knowledge of a public key is necessary for verification of digital signatures. 
+
+Both Ethereum and Hyperledger Fabric use digital signatures on transactions and blocks to verify the identity of the creator and that the signed data has not been modified since signing. 
+
+Public key cryptography is used in the blockchain as a method for managing users’ identities without revealing real world identities.
 
 In Ethereum, users are identified by an address that is directly related to the user's public key. This provides identity verification while preserving anonymity.
 
 In Hyperledger Fabric, users are identified via [X.509](https://www.ssl.com/faqs/what-is-an-x-509-certificate/) certificates. These certificates provide several pieces of information about the user, but one of these is also the user's public key.
 
-Hash functions are at the core of all blockchain technology. One of the primary uses for hash functions is chaining blocks together. In both Ethereum and Hyperledger Fabric, blocks include the hash of the previous block to tie the blockchain into a cohesive whole.
+Hash functions are at the core of all blockchain technology. One of the primary uses for hash functions is chaining blocks together. 
 
-Zero-knowledge proofs are to increase the privacy of users. Currently, Ethereum is working on a layer 2 solution, where a second layer blockchain would store large amounts of data and only prove the batch of information is valid to layer 1 (mainnet). Hyperledger Fabric has a pluggable cryptographic library that supports ZKP techniques for enhanced privacy measures.
+In both Ethereum and Hyperledger Fabric, blocks include the hash of the previous block to tie the blockchain into a cohesive whole.
 
-Merkle trees are a data structure that allows authenticated storage with efficient data retrieval. Both Ethereum and Hyperledger Fabric are smart contract platforms that use a particular type of Merkle tree called the Patricia tree to store the current state of their virtual machine.
+Zero-knowledge proofs are to increase the privacy of users. Currently, Ethereum is working on a layer 2 solution, where a second layer blockchain would store large amounts of data and only prove the batch of information is valid to layer 1 (mainnet). 
+
+Hyperledger Fabric has a pluggable cryptographic library that supports ZKP techniques for enhanced privacy measures.
+
+Merkle trees are a data structure that allows authenticated storage with efficient data retrieval. 
+
+Both Ethereum and Hyperledger Fabric are smart contract platforms that use a particular type of Merkle tree called the Patricia tree to store the current state of their virtual machine.
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Disintermediation - Trust through transparency -------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------ Disintermediation - Trust through transparency ------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-disintermediation.png?raw=true"
 	alt="Disintermediation"
@@ -2045,14 +2086,19 @@ Today, organizations use our data, sell our data, store our data, and exchange o
 Data is an extremely powerful asset and to own your own data is a vast change to the current system.
 
 In a world powered by blockchain, having ownership of your database is truly empowering.
+
 You can now share the information that you choose with any organization that you desire.
+
 The power of blockchain and owning your own data is the ability to transact peer-to-peer.
+
 With the current system of intermediaries, when you go out to eat at a restaurant, and you pay with your credit or debit card, you're not paying the restaurant directly.
 
 Instead, a database record at your bank is being debited and the database record at their bank is being credited.
 
 In this example, the value and data in the database belong to the intermediary, and not the individual.
+
 You are then dependent upon them to secure and validate your transaction, which shifts the power to the intermediary.
+
 But in a blockchain world, the individual has their own ledger record, and the secure key that allows them to access it.
 
 You no longer need an intermediary.
@@ -2105,9 +2151,9 @@ Traditional Database Updates
 
 A database is a collection of interrelated data organized so that individual records or groups of records can be retrieved to satisfy various criteria.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Disintermediation - Trust through transparency -------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!----------------------- Disintermediation - Trust through transparency ------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-crud.png?raw=true"
 	alt="CRUD"
@@ -2154,9 +2200,9 @@ The blockchain is designed so that its entire history is visible and unchangeabl
 Transactions in the blockchain cannot be modified after creation, and their complete history is publicly visible. 
 
 This means that the blockchain is a completely transparent data structure with the useful property that the integrity of the blockchain is easily verifiable by any user.
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- transparency database vs. blockchain -------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ transparency database vs. blockchain ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-transp-blockchain.png?raw=true"
 	alt="Transparency of a Blockchain"
@@ -2173,9 +2219,9 @@ The blockchain is publicly visible and immutable, meaning that it has very high 
 Its append-only structure and decentralized storage sacrifice storage efficiency for trustworthiness of the stored data.
 </p>
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- transparency of a blockchain -------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- transparency of a blockchain ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-transparency-database-vs-blockchain.png?raw=true"
 	alt="Transparency: Database vs. Blockchain"
@@ -2240,9 +2286,9 @@ And blockchain, both public and private, can be a great solution for doing that.
 <h3>Immutability in the Blockchain</h3>
 Blockchain is designed to be an authoritative ledger of the history of the network.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- immutability in the blockchain -------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- immutability in the blockchain ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-immutability-blockchain.png?raw=true"
 	alt="Immutability in the Blockchain"
@@ -2327,9 +2373,9 @@ All four of these features help to make the blockchain resistant against changes
 <br/>
 &nbsp;
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------ tampered and unbroken blockchains -------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- tampered and unbroken blockchains ------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-immutable.png?raw=true"
 	alt="Immutable in the Blockchain"
@@ -3201,8 +3247,20 @@ In this chapter, we discussed:
 
 <h2 id="ch4">Chapter 4. Blockchains and Governance</h2>
 <h3>Chapter Overview</h3>
-In this section, we will cover blockchain governance. We will start by discussing the cooperative way blockchain companies share the computer code for this technology. We will also explore how this open source environment is fostering new innovations. And then we will examine who really is in charge of blockchains and how the network effect determines the direction a blockchain will take.
-Next, we will take a look at how these trustless systems with open interactions are more secure than past systems. Finally, we will dive into the idea of collaboration among parties who don't trust each other and how blockchain technology is changing how the global community can interact. This new form of world wide collaboration can be the key to solving the world's toughest problems.
+
+In this section, we will cover blockchain governance. 
+
+We will start by discussing the cooperative way blockchain companies share the computer code for this technology. 
+
+We will also explore how this open source environment is fostering new innovations. 
+
+And then we will examine who really is in charge of blockchains and how the network effect determines the direction a blockchain will take.
+
+Next, we will take a look at how these trustless systems with open interactions are more secure than past systems. 
+
+Finally, we will dive into the idea of collaboration among parties who don't trust each other and how blockchain technology is changing how the global community can interact. 
+
+This new form of world wide collaboration can be the key to solving the world's toughest problems.
 
 <h3 id="ch4-1">4.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
@@ -4021,9 +4079,9 @@ As explained in the "Blockchains vs. Traditional Databases" article by Shaan Ray
 <h3>Autonomy Defined</h3>
 Independence or freedom, the ability to make your own decisions without being controlled by anyone else. This sense of freedom can be at the macro level of a country or at the micro level of a person.
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Autonomy in Blockchain ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Autonomy in Blockchain ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="40%" 
    src="./images/image-autonomy.png"
@@ -4035,9 +4093,9 @@ As children and adults, we all want a little autonomy in our lives, careers, or 
 <h3>Autonomy: Human Process-Driven Complexity</h3>
 The blockchain world is looking to solve all of this complexity with autonomy from intermediaries via automated smart contracts. In the traditional world of doing any kind of transaction with another party, there tends to be a lot of administrative paperwork, with third parties intervening every step of the way. Some of this is needed, but most of it becomes wasted time and effort which could be spent elsewhere.
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Red X ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ Red X ----------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="20%" 
    src="./images/image-ex.png"
@@ -4104,9 +4162,9 @@ This has always been the most efficient way to move something from Point A to Po
 
 But we’ve discovered through experimentation that certain use cases could be automated via smart contracts.
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Cross Border Payment  ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Cross Border Payment  ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="65%" 
    src="./images/image-cross-border-payment.png"
@@ -4144,9 +4202,9 @@ This incentivizes all the participants to help secure and validate good actions 
 
 With that built-in "trustless" trust, we’re able to remove those middlemen that provide no additional value, plus it could potentially increase the efficiency based on which public blockchain is being used.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Cross Border Payments  ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Cross Border Payments  ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="65%" 
    src="./images/image-cross-border.png"
@@ -4156,9 +4214,9 @@ With that built-in "trustless" trust, we’re able to remove those middlemen tha
 <h3>Cross Border Payments and Ledgers</h3>
 Traditional centralized ledger systems have weaknesses. Accuracy is dependent on intermediaries who can change details of the centralized ledger. Data derived from the ledger is siloed and misused.
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Multi-Party Transactions - Centralized Ledgers  ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ Multi-Party Transactions - Centralized Ledgers  ----------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="65%" 
    src="./images/image-multi-party-trans-centralized-ledger.png"
@@ -4169,9 +4227,9 @@ Distributed decentralized ledgers are not dependent on intermediaries who can ma
 
 Data is secure and tamper resistant.
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Multi-Party Transactions - Decentralized Ledgers  ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- Multi-Party Transactions - Decentralized Ledgers --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="60%" 
    src="./images/image-multi-party-trans-decentralized-ledger.png"
@@ -4211,9 +4269,9 @@ It is this possibility of building tools and solutions that were never before th
 <h3>Blockchain Solves The Double Spend Problem</h3>
 Back in the early 1990’s, developers, cryptographers, and different groups of people were trying to solve the double-spend problem as it related to digital cash, previously known also as electronic cash. Double spending within Bitcoin is the act of using the same bitcoins (digital money files) more than once.
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Double Spend ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- Double Spend ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="60%" 
    src="./images/image-double-spend.png"
@@ -4237,9 +4295,9 @@ Then, in 1992, he founded DigiCash, an electronic cash company, which eventually
 
 There were many other attempts to create digital cash over the years, but many failed due to a variety of reasons, such as:
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Adoption Security Fraud ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Adoption Security Fraud ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
    src="./images/image-adoption-security-fraud.png"
@@ -4256,9 +4314,9 @@ Other attempts include:
 <h3 id="ch5-3">5.3 Digital Currencies Overview</h3>
 Digital currencies are available only in the digital world and not in the physical world. They can be defined as any currency, money, or money-like asset that is primarily managed, stored or exchanged on computer systems. Examples of digital currencies include cryptocurrency, virtual currency and central bank digital currency.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Digital Currency ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- Digital Currency ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
    src="./images/image-digital-currency.png"
@@ -4275,9 +4333,9 @@ To break down the crypto markets, let's start with some basic definitions.
 <h3>Crypto Wallet</h3>
 A cryptocurrency wallet is an application on your computer or smart phone that connects you to a blockchain where you can trade cryptocurrencies. A Bitcoin wallet allows you to trade Bitcoin, an Ethereum wallet accommodates Ether. You can not send Bitcoin to the Ethereum blockchain, each cryptocurrency must transact on its own blockchain.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Smart Phone ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------- Smart Phone ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="40%" 
    src="./images/image-phone.png"
@@ -4287,9 +4345,9 @@ A cryptocurrency wallet is an application on your computer or smart phone that c
 <h3>Multi-currency Wallets</h3>
 Some wallets allow you to hold multiple cryptocurrencies in the same application. In these wallets, each cryptocurrency will have its own balance. To initiate a transaction, the application will create a cryptographically secure address (specific for the particular blockchain). This address acts as your account number and lets you send and receive the cryptocurrency.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Multi-Currency Wallets ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- Multi-Currency Wallets ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="30%" 
    src="./images/image-multi-currency-wallets.jpg"
@@ -4302,21 +4360,30 @@ Additional features in these wallets lets you “swap” one cryptocurrency for 
 <h3>Metamask</h3>
 Metamask is a cryptocurrency wallet used to interact with the Ethereum blockchain and other blockchains issued in accordance with the Ethereum Platform. Tokens issued in accordance with the ERC-20 standard for utility tokens can be stored in a metamask wallet. Metamask not only stores cryptocurrencies but acts as a gateway to blockchain applications. You can access the wallet through a mobile application or a browser extension.
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Consensys ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ Consensys ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="30%" 
    src="./images/image-consensys.jpg"
    alt="Consensys"</>
 </p>
 
-ConsenSys, spearheaded by Joe Lubin, an early Ethereum programmer, is a software engineering company that helps developers build next-generation networks and enable enterprises to launch more powerful financial infrastructure. Consensys Mesh is a playground for entrepreneurs and programmers to build decentralized platforms and projects, Metamask is just one project to come out of the efforts at Consensys.
-One example of how the Metamask wallet is used is with the CryptoKittes project. CryptoKitties are one of the first examples of a digital collectible where you own the rights (private keys) to code that represents a unique kitten. A kitten is a set of identifiers built or “bred” by a smart contract to be one of a kind. In order to purchase, view or interact with a digital kitten you must open your Metamask wallet and connect it to the cryptokitties.co website.
+ConsenSys, spearheaded by Joe Lubin, an early Ethereum programmer, is a software engineering company that helps developers build next-generation networks and enable enterprises to launch more powerful financial infrastructure. 
+
+Consensys Mesh is a playground for entrepreneurs and programmers to build decentralized platforms and projects, Metamask is just one project to come out of the efforts at Consensys.
+
+One example of how the Metamask wallet is used is with the CryptoKittes project. 
+
+CryptoKitties are one of the first examples of a digital collectible where you own the rights (private keys) to code that represents a unique kitten. 
+
+A kitten is a set of identifiers built or “bred” by a smart contract to be one of a kind. 
+
+In order to purchase, view or interact with a digital kitten you must open your Metamask wallet and connect it to the cryptokitties.co website.
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Frog logo for Kittens ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- Frog logo for Kittens ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="20%" 
    src="./images/image-kittens-frog.png"
@@ -4329,9 +4396,9 @@ Cryptocurrency exchanges vary in complexities and user experience.
 Beginners
 To start off, it is advantageous to deal with a centralized solution to store your cryptocurrency. These larger exchanges act as a bank for your cryptocurrencies. Offering features like loans and staking rewards (rewards for being an active part in a network).They vet the currencies they allow you to trade and store, while controlling the private keys for you, so accessing your currencies is as easy as a username and password. Such examples of these organizations are Coinbase and Gemini. Below you can see a screenshot of the Gemini Custodial Crypto Account Dashboard:
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Gemini Custodial Crypto Account Dashboard ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ Gemini Custodial Crypto Account Dashboard ----------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="100%" 
    src="./images/image-advanced.jpg"
@@ -4343,9 +4410,9 @@ In keeping with the decentralization nature of the cryptocurrency markets, excha
 
 This is where the term Decentralized Finance was born. It gives you the ability to apply smart contracts to govern your trades and access to markets previously only for accredited investors. Such examples of decentralized exchanges are Liquid, SushiSwap and Uniswap. Below is the screenshot of the Liquid Exchange:
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Liquid Exchange ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- Liquid Exchange --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="100%" 
    src="./images/image-liquid-exchange.jpg"
@@ -4355,9 +4422,9 @@ This is where the term Decentralized Finance was born. It gives you the ability 
 <h3>Hardware Wallets</h3>
 Hardware wallets offer an alternative to storing your cryptocurrency online. These devices plug into a USB port and transfer your private keys (ownership rights to the cryptocurrency) from your “hot wallet” (mobile, computer or web based) to be stored offline. If the device is damaged or lost, so are the cryptocurrencies stored. This is what the ledger wallet looks like:
  
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------- Ledger Wallet ----------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- Ledger Wallet ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="10%" 
    src="./images/image-ledger-wallet.png"
@@ -4367,8 +4434,24 @@ Hardware wallets offer an alternative to storing your cryptocurrency online. The
 <h3>Self-Sovereign Identity (SSI)</h3>
 As explained by Drummond Reed,
 "Web 1.0 used centralized identity; Web 2.0 graduated to federated identity; now Web 3.0 is using decentralized digital identity, a model known as "self-sovereign identity" or "SSI" because now individuals control their own portable digital identity credentials in their own digital wallets—just like we prove our identity with physical credentials from our physical wallets every day. The digital signatures on these credentials use blockchain technology for decentralized public key management. Finally we can have a trust layer for the Internet that doesn't require everyone to rely on centralized authorities".
-The concept of self-sovereign identity (SSI) is based on the idea that the Internet was created without a way to properly deal with identifying participants. Innovative minds, such as Drummond Reed and Alex Preukscha, have been working on solutions to this problem. We will start with some key terms taken from the "Self-Sovereign Identity: Decentralized Digital Identity and Verifiable Credentials" book by Reed and Preukscha.
-The Internet was designed to identify computers, not users. The result is a tangled web of passwords, and usernames, and siloed data that is bought and sold without our consent. With blockchain and cryptographic techniques, solutions are being developed to fix what is broken with identity and the Internet. The W3C Consortium is an international community where members work together to develop web standards. Led by web inventor and Director Tim Berners-Lee and CEO Jeffrey Jaffe, W3C's mission is to lead the Web to its full potential. W3C is working on standards that can be used to define a new paradigm for the Internet and Identity.
+
+The concept of self-sovereign identity (SSI) is based on the idea that the Internet was created without a way to properly deal with identifying participants. 
+
+Innovative minds, such as Drummond Reed and Alex Preukscha, have been working on solutions to this problem. 
+
+We will start with some key terms taken from the "Self-Sovereign Identity: Decentralized Digital Identity and Verifiable Credentials" book by Reed and Preukscha.
+
+The Internet was designed to identify computers, not users. 
+
+The result is a tangled web of passwords, and usernames, and siloed data that is bought and sold without our consent. 
+
+With blockchain and cryptographic techniques, solutions are being developed to fix what is broken with identity and the Internet. 
+
+The W3C Consortium is an international community where members work together to develop web standards. 
+
+Led by web inventor and Director Tim Berners-Lee and CEO Jeffrey Jaffe, W3C's mission is to lead the Web to its full potential. 
+
+W3C is working on standards that can be used to define a new paradigm for the Internet and Identity.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -4394,9 +4477,9 @@ Providers request verifiable credentials from issuers, hold them in the holder�
 Although we most commonly think of individuals as holders/provers, holders/provers can also be organizations using enterprise wallets, or things in the sense of the Internet of Things (IoT). 
 The trust triangle represents the Trust over IP version of how the new relationship will operate.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------- Decentralized Identifiers (DIDs) ---------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Decentralized Identifiers (DIDs) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
    src="/images/image092.png?raw=true"
@@ -4410,9 +4493,9 @@ These new identifiers are designed to enable the controller of a DID to prove co
 
 WC3 is working on ways to standardize the format for DIDs.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------ Decentralized Identifiers (DIDs) - Public  & Private Keys -------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Decentralized Identifiers (DIDs) - Public  & Private Keys -------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
    src="/images/image093.png?raw=true"
@@ -4438,9 +4521,9 @@ With new technology platforms, open source projects are fueled by blockchains, i
 
 Users' funds that are pooled together for investment advantages are now managed by a series of smart contracts that execute programmed financial trades instead of a third party.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------- Components of Decentralized Finance ------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Components of Decentralized Finance ------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="65%" 
    src="/images/image093.png?raw=true"
@@ -4456,9 +4539,9 @@ For example, in agriculture, farmers are able to secure small loans to help them
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------- Benefits of Decentralized Finance) ---------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Benefits of Decentralized Finance) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="65%" 
    src="/images/image094.png?raw=true"
@@ -4506,9 +4589,9 @@ Retail central bank digital currency would be used as a digital twin for fiat cu
 </ol>
 Central Bank Digital Currencies are being considered across the globe.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------- Cemtral Bank Digital Currency Status ---------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Cemtral Bank Digital Currency Status ------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="85%" 
    src="/images/image095.png?raw=true"
@@ -4641,9 +4724,9 @@ Businesses fueled by blockchain solutions are developing new relationships for m
 Global Supply Chains
 Supply chain data is not always visible or trusted. In recent times of disruption supply chains matter more than ever. Global supply chain and blockchain are working to secure systems to better handle these disruptions. The Covid pandemic shed light on the frailty of our supply chains which accelerated discussion over blockchain solutions. 
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------ Maersk & IBM logos ----------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- Maersk & IBM logos ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
    src="/images/image096.png?raw=true"
@@ -4697,9 +4780,9 @@ The resulting solution is called [TradeLens](https://www.tradelens.com/). You ca
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------ Trade Made Easy -------------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Trade Made Easy --------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
    src="/images/image098.jpg?raw=true"
@@ -4710,9 +4793,9 @@ The resulting solution is called [TradeLens](https://www.tradelens.com/). You ca
 Farms are complicated ecosystems with many moving parts, careful timing, and seasonal financing structures. However, after the food leaves a farm, it becomes part of a wide-reaching supply chain with a lot of parties. Buyers, sellers, distributors, and grocery chains all want to know where the food is along its journey. You also probably want to know where your food has been before you serve it on your dinner table.
 The trend toward blockchain agriculture promises to make each step of growing and distributing food simpler. It will offer all parties involved a single source of truth for the agriculture supply chain. 
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!-------------------------------------------------- Walmart logo --------------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Walmart logo ---------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
    src="/images/image-walmart-logo.png?raw=true"
@@ -4757,9 +4840,9 @@ We'll make sure that all stakeholders work together for a safer and better food 
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------------- Farm to Table logo ------------------------------------------------------>
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Farm to Table logo ------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
    src="/images/image100.png?raw=true"
@@ -4770,9 +4853,9 @@ We'll make sure that all stakeholders work together for a safer and better food 
 <h3>Healthcare</h3>
 Blockchain is transforming the healthcare industry. Some challenges the healthcare industry faces are counterfeit drugs, siloed data, health record management to name a few. Blockchain can solve these issues with interoperability, data integrity and security. Let's look at some solutions.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!-------------------------------------------------- Moderna logo --------------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- Moderna logo------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="25%" 
    src="/images/image101.jpg?raw=true"
@@ -4782,9 +4865,9 @@ Blockchain is transforming the healthcare industry. Some challenges the healthca
 Moderna uses blockchain to support smart COVID vaccine management. 
 To learn more see ["Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter' Management of COVID-19 Vaccines"](https://www.marketwatch.com/story/moderna-ibm-explore-blockchain-tech-ai-to-support-smarter-management-of-covid-19-vaccines-2021-03-04) article by Tomi Kilgore.
 
-<!------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------- SAP logo ----------------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- SAP logo ----------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="25%" 
    src="/images/image101.png?raw=true"
