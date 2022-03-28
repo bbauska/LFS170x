@@ -2857,6 +2857,7 @@ We don't want to treat any class of users differently than any others in those s
 That's a public blockchain, and that's a very different animal from the private permission blockchain.
 
 <h3>Public Blockchain Benefits</h3>
+
 In the ["Public vs. Private Blockchain In a Nutshell"](https://medium.com/coinmonks/public-vs-private-blockchain-in-a-nutshell-c9fe284fa39f) article by Demiro Massessi, public and private blockchains have different features. The benefits of public blockchain are:
 <ul>
 <li>Ledger is distributed
