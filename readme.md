@@ -3097,7 +3097,7 @@ Let's take a look at the blockchain decision chart:
 <p align="center">
 <img src="/images/image-blockchain-decision-chart.png?raw=true"
 	alt="Blockchain Decision Chart"
-	width="85%" >
+	width="65%" >
 
 <h3>Questions to Ask When Deciding on Blockchain</h3>
 Discussion on these topics need to be addressed when making the decision to adopt a blockchain strategy for your company:
@@ -3108,7 +3108,7 @@ Discussion on these topics need to be addressed when making the decision to adop
 <p align="center">
 <img src="/images/image-questions-to-ask.png?raw=true"
 	alt="Questions to Ask"
-	width="85%" >
+	width="65%" >
 
 <h3>Blockchain Is Like Hot Sauce</h3>
 <p>
@@ -3236,6 +3236,13 @@ In this section, we will discuss the details of how a blockchain network comes t
 <h3>Consensus</h3>
 One of the most important components to blockchain is this idea of group consensus.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Governance models ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-blockchain-governance-models.png?raw=true"
+	alt="Blockchain Governance Models"
+	width="85%" >
 As we talked about in an earlier module, blockchain is inherently a very inefficient system.
 
 We're asking multiple nodes, sometimes tens of thousands of computer nodes, to all repeat the same work: they're all keeping a copy of the same data.
@@ -3285,18 +3292,26 @@ The method that [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamot
 In order to ensure no one spent the same Bitcoin twice, Satoshi Nakamoto created the consensus algorithm called Proof of Work for the Bitcoin network. Since then, several other consensus algorithms have been invented to fit different use cases. These include Proof of Stake, Delegated Proof of Stake, Practical Byzantine Fault Tolerance, and Proof of Elapsed Time. The most commonly used consensus algorithms are Proof of Work and Proof of Stake.
  
 <h3>Proof of Work</h3>
+
 As explained in the ["Blockchain Consensus and Fault Tolerance In a Nutshell"](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) article by Demiro Massessi,
+
 "In Proof of Work, users in the blockchain network who want to create the next block (and win the associated reward) are called miners. To win the right to mine a block, miners race to find an acceptable solution to a “hard” cryptographic problem. (...), “hard” mathematical problems can only be solved by random guessing. When a miner finds an acceptable solution, they create a block and broadcast it to the network, finalizing that block.
+
 Proof of Work exploits the scarcity of computational resources by choosing a problem that can only be solved by guessing. There is no limit on the number of guesses that a miner can make at once. Proof of Work, therefore, incentivizes miners to run as many mining machines as possible to maximize the probability that they are the first to find a solution to the problem. Since mining computers take money to purchase and money to run, the amount of control that a user can exert over the blockchain is limited by the amount of money they have available to invest in mining equipment".
+
 Also, the process of mining requires computing power that runs on electricity. Some argue the Bitcoin network is not sustainable because of its increasing need for electricity. The argument against this assumes Bitcoin miners are out to make a profit and by using renewable energy sources to power the mining operations they will be more profitable. As a result of seeking out carbon-friendly energy sources, mining companies will bring new renewable energy solutions to the power grids.
  
 The security of the Proof of Work consensus is based on the assumption that no one controls more than half of the computational resources of a blockchain’s mining network. If one entity controls 51% of the mining effort, they control consensus. To take control would require a huge investment in equipment and energy, more than would be gained by defrauding the system.
 
 <h3>Proof of Stake</h3>
 Proof of Stake comes with a number of improvements to Proof of Work systems, it requires less energy and has a lower barrier to entry since no specialized hardware is required to create blocks.
+
 In the same article that we mentioned on a previous page, the author explains,
+
 "Users in a Proof of Stake blockchain can "stake" or promise not to use the tokens they own. This gives them the opportunity to be selected as the next user to create or "forge" a new block and earn the reward. A block forger is pseudo-randomly selected from all of the users who have staked some of their assets, and the selection process is biased based on the size of the stake.
+
 For example, imagine that a wheel is divided into sections where the size of a section is proportional to the size of a user’s stake. The next block creator would be chosen by spinning the wheel and seeing whose section comes out on top. In Proof of Stake, each user has a copy of the wheel and they are all synchronized so that each person can independently determine the selection and get the same result. This is why Proof of Stake uses a pseudo-random instead of a random selection process".
+
 In Proof of Stake, an attacker needs to control enough of the staked currency to guarantee they will be selected to create every block. Since cryptocurrency is a limited asset, buying up enough of it to do this is expensive, making attacks on Proof of Stake systems economically infeasible.
 
 <h3>Fault Tolerance in the Blockchain</h3>
@@ -3333,51 +3348,141 @@ The Byzantine Generals' Problem has been thoroughly explained in the Medium arti
 The generals can only communicate by messengers, who could be intercepted and forced to carry fake messages, and one or more generals may be a traitor. The goal is to find a way to achieve a consensus on strategy despite the possibility of traitors and false messages. Presumably, all generals will abide by what they believe is the majority consensus. The Byzantine Generals' Problem is solvable as long as two-thirds of the generals are honest.
 Blockchain is designed to be Byzantine Fault Tolerant, meaning that the network will come to a consensus on the official state of the blockchain, despite the fact that some members may misbehave. The solution to the Byzantine Generals' Problem is inefficient, so the blockchain needs some way of being confident of consensus without going through a full solution".
 
-Proof of Work vs. Proof of Stake
+<h3>Proof of Work vs. Proof of Stake</h3>
 We've talked a lot in this course about Proof of Work versus Proof of Stake.
 Proof of Work is the oldest and the original consensus protocol. It's coming up on its tenth anniversary; first one into production with Bitcoin back in 2009.
+
 And as a consensus protocol, it served us very, very well.
+
 There have been a number of hacks and exploits that have been committed against various smart contracts and solutions written on top of the blockchain.
+
 But for almost a 10-year history with over half a trillion dollar market cap, no one's been able to successfully exploit Proof of Work itself, which really shows the security and the reliability of the protocol.
+
 However, there are some shortcomings and criticisms to Proof of Work that are now leading us to look at alternative consensus mechanisms, like Proof of Stake.
+
 One of those is our transaction processing capability.
+
 On a good day, Proof of Work is capable of processing anywhere between 10 and 20 transactions per second worldwide.
+
 This may sound like a lot, but it still leaves us a wide gap to conventional processing powers, that something like Visa's payment processing network which can scale up to over 70,000 transactions per second.
+
 So, in order for blockchain to continue to be a successful solutions platform, we know that we're going to need to find other consensus mechanisms, which allow us to scale up that transaction processing speed into a range where we start to compete with conventional technology.
+
 There are also some other criticisms behind Proof of Work that are leading us to alternative methods, like Proof of Stake.
+
 One of those is the idea of centralization.
+
 As you know from this course, one of the key tenants of blockchain is the idea of decentralization, that no one central authority, intermediary or participant, should ever have too much power or control in a blockchain network.
+
 What we're seeing right now with Proof of Work is an arm's race, where folks are competing with very various specialized pieces of equipment, specialized hardware, specialized mining rigs, in order to mine most efficiently.
+
 And this can be done most efficiently in large data centers where electricity is cheap.
+
 Right now, almost 80% of the processing power behind the Bitcoin network resides in six major data centers in mainland China.
+
 A lot of advocates and blockchain purists think that this is far too much centralization in one geopolitical region of the world.
+
 One way we aim to change that is through Proof of Stake, where we remove the work component of group consensus and we replace it with a very specialized form of gambling or wagering.
+
 The idea of being that if we no longer require specialized hardware in order to come to consensus, we can allow anybody with any kind of device to participate in consensus.
+
 That may be you at home with an old laptop, or a friend with a smartphone, or a tablet, or an iPad, that sits on your nightstand most days and doesn't get used.
+
 This allows for a much wider and more decentralized range of devices and potentially a much larger network size to participate in consensus.
+
 Speed and the idea of decentralization are big drivers behind the move to Proof of Stake.
+
 And we're gonna see how well that works out.
+
 We'll see Proof of Stake finally go live in Ethereum later this year (2018), certainly with more blockchains to follow if it becomes a successful consensus mechanism.
+
 When you hear the debate these days about Proof of Work versus Proof of Stake, and you're trying to understand what do they mean and why are we looking at transitioning from one to the other, understand that we're just trying to overcome some of those big limitations behind Proof of Work, the consensus mechanism that has served us so well to date.
+
 We're trying to find consensus mechanisms that most importantly allow us to scale up, to get our transaction processing power on par with conventional technology, and we're also trying to remove some of the centralized aspects that we've seen form around Proof ofWork.
+
 We talk about Proof of Work and Proof of Stake in much greater depth in other modules in this course.
 If you're curious about the difference between them, how they work and what the actual implementation differences are, be sure to check out those other modules.
-Proof of Work vs. Proof of Stake
+
+<h3>Proof of Work vs. Proof of Stake</h3>
 Let's recap differences between Proof of Work and Proof of Stake:
 
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Proof of work chart ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-proof-of-work-chart.png?raw=true"
+	alt="Proof of Work Chart"
+	width="65%" >
+&nbsp;
+<br/>
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- Proof of stake chart --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-proof-of-stake-chart.png?raw=true"
+	alt="Proof of Stake Chart"
+	width="65%" >
+<br/>
+
 <h3 id="ch3-6">3.6 Bitcoin Consensus Model</h3>
-Bitcoin, the first blockchain to appear, uses Proof of Work which requires miners to solve a complex cryptographic mathematical puzzle for which they get rewarded. Block rewards are newly minted Bitcoin granted to the miners that solve the puzzle first. Built into the Bitcoin blockchain protocol, is an event called halving. Bitcoin halving happens every four years and Bitcoin’s block reward gets cut in half. The halving occurs when the block height reaches a certain point (210,000 blocks) which is programmed into the protocol. The first halving occurred in November 2012 and the block reward was cut from 50 BTC to 25 BTC. The second occurred July 9, 2016 and the reward was reduced to 12.5 BTC. The third occurred on May 11th 2020, cutting the block reward to 6.25. The next halving is estimated in the year 2024 and the reward will be reduced to 3.125 BTC. The Bitcoin network is programmed to produce only 21 million bitcoin and the halving is what keeps inflation in check by slowing down the distribution. About ⅔ of the 21 million BTC have been mined so far.
+Bitcoin, the first blockchain to appear, uses Proof of Work which requires miners to solve a complex cryptographic mathematical puzzle for which they get rewarded. 
+
+Block rewards are newly minted Bitcoin granted to the miners that solve the puzzle first. 
+
+Built into the Bitcoin blockchain protocol, is an event called halving. 
+
+Bitcoin halving happens every four years and Bitcoin’s block reward gets cut in half. 
+
+The halving occurs when the block height reaches a certain point (210,000 blocks) which is programmed into the protocol. 
+
+The first halving occurred in November 2012 and the block reward was cut from 50 BTC to 25 BTC. 
+
+The second occurred July 9, 2016 and the reward was reduced to 12.5 BTC. 
+
+The third occurred on May 11th 2020, cutting the block reward to 6.25. 
+
+The next halving is estimated in the year 2024 and the reward will be reduced to 3.125 BTC. 
+
+The Bitcoin network is programmed to produce only 21 million bitcoin and the halving is what keeps inflation in check by slowing down the distribution. 
+
+About ⅔ of the 21 million BTC have been mined so far.
 Ethereum Consensus Model
-Ethereum currently uses Proof of Work for a consensus model. Ethereum was introduced in a white paper by Vitaly Dmitriyevich "Vitalik" Buterin, a Russian-Canadian entrepreneur and programmer from Toronto. He envisioned the second-largest cryptocurrency when he “forked” or copied the Bitcoin code, made improvements and created the Ethereum blockchain. This new blockchain was not only a currency exchange system but along with the Ethereum Virtual Machine, an interconnect, turing complete computer, open to programmers to develop. It creates a platform that smart contracts can be executed and applications can be built upon. Ethereum has always planned to move away from a Proof of Work consensus mechanism to a Proof of Stake. Plans for Ethereum to adopt Proof of Stake will occur when Ethereum 2.0 is incorporated, this improvement is expected sometime in the second half of 2021.
+Ethereum currently uses Proof of Work for a consensus model. 
+
+Ethereum was introduced in a white paper by Vitaly Dmitriyevich "Vitalik" Buterin, a Russian-Canadian entrepreneur and programmer from Toronto. 
+
+He envisioned the second-largest cryptocurrency when he “forked” or copied the Bitcoin code, made improvements and created the Ethereum blockchain. 
+
+This new blockchain was not only a currency exchange system but along with the Ethereum Virtual Machine, an interconnect, turing complete computer, open to programmers to develop. 
+
+It creates a platform that smart contracts can be executed and applications can be built upon. 
+
+Ethereum has always planned to move away from a Proof of Work consensus mechanism to a Proof of Stake. 
+
+Plans for Ethereum to adopt Proof of Stake will occur when Ethereum 2.0 is incorporated, this improvement is expected sometime in the second half of 2021.
 
 <h3>Hyperledger Fabric Consensus Model</h3>
-Hyperledger Fabric is a private permissioned blockchain platform that breaks consensus into components, allowing users to pick a consensus algorithm for their particular situation. Instead of a predetermined consensus model, Hyperledger has an ordering service that performs consensus related events, this ordering component can pick the consensus model that best suits the blockchains needs. By approaching consensus in this modular fashion, Hyperledger DLT’s can change consensus models without huge overhauls to the code base.
+Hyperledger Fabric is a private permissioned blockchain platform that breaks consensus into components, allowing users to pick a consensus algorithm for their particular situation. Instead of a predetermined consensus model, Hyperledger has an ordering service that performs consensus related events, this ordering component can pick the consensus model that best suits the blockchains needs. 
+
+By approaching consensus in this modular fashion, Hyperledger DLT’s can change consensus models without huge overhauls to the code base.
+
 As explained by Demiro Massessi,
+<blockquote>
 "Hyperledger Fabric deliberately avoided hard-coding a consensus mechanism into the protocol by defining an “orderer component” that performs all of the consensus-related operations. This allows users of Hyperledger Fabric to select a consensus algorithm that fits their use case without being forced to make large-scale code edits".
+</blockquote>
 
 <h3>Corda Consensus Model</h3>
-Corda is a private permissioned blockchain. Each Corda network has a notary service made up of independent parties that approve blocks using any applicable consensus algorithms.
-As mentioned in Jamiel Sheikh's book “Mastering Corda: Blockchain for Java Developers”, R3 provides a set of Corda applications called The Corda Business Network Toolkit to manage one or more Corda networks. Corda does not follow the standard blockchain model of transactions being bundled into blocks and then being finalized by the network as a whole. Instead, a Corda network contains one or more notaries consisting of several independent parties. Transactions in Corda are finalized by a notary with a multiparty digital signature using an algorithm like Raft.
+Corda is a private permissioned blockchain. 
+
+Each Corda network has a notary service made up of independent parties that approve blocks using any applicable consensus algorithms.
+
+As mentioned in Jamiel Sheikh's book “Mastering Corda: Blockchain for Java Developers”, R3 provides a set of Corda applications called The Corda Business Network Toolkit to manage one or more Corda networks. 
+
+Corda does not follow the standard blockchain model of transactions being bundled into blocks and then being finalized by the network as a whole. 
+
+Instead, a Corda network contains one or more notaries consisting of several independent parties. 
+
+Transactions in Corda are finalized by a notary with a multiparty digital signature using an algorithm like Raft.
 
 <h3 id="ch3-7">3.7 Chapter Summary</h3>
 In this chapter, we discussed:
@@ -3427,8 +3532,11 @@ Software controlled by the person, team or organization who created it and maint
 Computer code that describes a specific approach to creating software.
 When describing tools for distributing open source code Discipline Tools states, Open source initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency and community-oriented development. 
 Open source software is code that anyone can inspect, modify and enhance. 
+
 Much of the Internet was built on open source technologies. 
+
 Users of the computer software never interact with the source code, rather it's manipulated by programmers who improve and fix it. As with proprietary software, users must accept the terms of the license, but they are dramatically different structurally. 
+
 Linux and Kubernetes are examples of open source software.</li>
 </ul>
 Open source software fosters collaboration by sharing code and encouraging modifications and improvements. 
@@ -3436,22 +3544,46 @@ Instead of charging for the software program, software developers find it more l
 
 <h3>Benefits from Open Source Software</h3>
 Developing software in an open source environment means a willingness to share and collaborate in a transparent way.
-  •	Control
-To a developer's open source means an individual can contribute to the direction the code takes. This open participation means coders who participate the most have more influence over the direction of the code.
-  •	Training
-The ability to copy code and make your own changes in test environments act as invaluable hands-on training. This also fosters innovation as programmers can devise previously unthought-of functionality and code direction.
-  •	Security
-In open source, software programs are considered more secure because they are open to peer review where errors can be spotted. Coders are encouraged to test code, find errors and develop fixes to bugs as long as they follow the process the network has in place.
-  •	Stability
-Open source projects have a certain amount of code stability due to the openness for public review. A publicly distributed source code is openly reviewed and can expose situations that may not have otherwise been tested.
-  •	Community
-Open source inspires the community to get involved. When contributing to an open source project, you join a community of people that ultimately affects the software you are interested in.
+<ul>
+<li>Control
+To a developer's open source means an individual can contribute to the direction the code takes. This open participation means coders who participate the most have more influence over the direction of the code.</li>
+<li>Training
+The ability to copy code and make your own changes in test environments act as invaluable hands-on training. This also fosters innovation as programmers can devise previously unthought-of functionality and code direction.</li>
+<li>Security
+In open source, software programs are considered more secure because they are open to peer review where errors can be spotted. Coders are encouraged to test code, find errors and develop fixes to bugs as long as they follow the process the network has in place.</li>
+<li>Stability
+Open source projects have a certain amount of code stability due to the openness for public review. A publicly distributed source code is openly reviewed and can expose situations that may not have otherwise been tested.</li>
+<li>Community
+Open source inspires the community to get involved. When contributing to an open source project, you join a community of people that ultimately affects the software you are interested in.</li>
+</ul>
+
 The programming code for Bitcoin, Ethereum, Hyperledger and other blockchains is open source.
-Introduction to Governance
-Humans are tribal by nature, we tend to attract each other and build tribes, villages, towns, cities, states and countries. With these interactions comes a need to direct the behavior of the group. These directions become the social norms among those who are living with or near each other. These norms become the rules by which the behavior of the group is governed. It doesn’t matter if the governance is the real world or the digital world, there are shared underlying principles within both. Let's take a look at who is involved.
+
+<h3>Introduction to Governance</h3>
+Humans are tribal by nature, we tend to attract each other and build tribes, villages, towns, cities, states and countries. 
+
+With these interactions comes a need to direct the behavior of the group. 
+
+These directions become the social norms among those who are living with or near each other. 
+
+These norms become the rules by which the behavior of the group is governed. 
+
+It doesn’t matter if the governance is the real world or the digital world, there are shared underlying principles within both. Let's take a look at who is involved.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Governance models ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-participants-in-governance.png?raw=true"
+	alt="Blockchain Governance Models"
+	width="65%" >
 
 Governance can be undertaken by a government, market, network, organization, social system or family.
-For a governance process to work effectively, the above three principles will need to agree to the rules that govern the behavior. The rules should be aligned with the overall participants' goals, and the leaders should have the ability to enforce positive and negative actions.
+
+For a governance process to work effectively, the above three principles will need to agree to the rules that govern the behavior. 
+
+The rules should be aligned with the overall participants' goals, and the leaders should have the ability to enforce positive and negative actions.
+
 Now that we have a simple understanding of governance, let’s analyze how this is taking place in both the standard world and the blockchain world.
 
 <h3 id="ch4-3">4.3 Governance Explained</h3>
@@ -3466,8 +3598,18 @@ These type of cross-organizational governance efforts represent an entirely new 
 
 <h3>Governance Models</h3>
 A basic description of governance can be defined as a system by which behavior is directed.
+
 This direction is guided by a set of norms or rules and a way to enforce or keep order.
+
 The mechanism to enforce these policies can take many forms from a dictator who has complete control to a democratic governance model where the voice of the majority is recognized.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Governance models ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-blockchain-governance-models.png?raw=true"
+	alt="Blockchain Governance Models"
+	width="85%" >
  
 Blockchain governance models reflect a more democratic flavor due to the open source environment. Blockchains are composed of a community of users who work together to strengthen the system. The degree in which the majority rules can vary.
   •	Representative democracy
