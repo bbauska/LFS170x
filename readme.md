@@ -2604,26 +2604,38 @@ We might use blockchain to record the fact that I paid you three Bitcoin for you
 This is the model that many of us start off with in blockchain and again, it's the one that's most familiar and gets talked about the most right now.
 
 But if we peel away that outer layer, and we take away the idea of a monetary transaction or exchange, well, then we're left with two or more parties using blockchain to record an important announcement.
+
 And we see many valid use cases around this. Let's say, that I go to the doctor for my annual physical.
+
 My doctor checks me out and he says: "Hey Kris, I want to put you on a new prescription for XYZ".
+
 Well, maybe we're keeping our medical information on the blockchain, and so my doctor and I both agree that's a pretty good thing to add to my medical record.
+
 In this case, we still need two or more parties, because it's very important that I, as a patient, don't have the ability to go and update my own medical record without a licensed medical professional involved.
+
 And it's also equally important that my doctor is not able to update my medical record without my consent or permission.
+
 And so, that's two or more parties coming together, recording an important announcement or important data point, but nowhere in that example has money or anything of monetary value exchanged hands.
+
 Now, if we peel away the very last layer, you can take away this idea of having to have two or more parties.
+
 And what we're left with is just a single party announcing an important or significant event.
+
 And this is the simplest type of blockchain transaction, and also the most powerful.
+
 If we think about blockchain, perhaps for managing a supply chain scenario, we might have a grower of organic produce announce or commit a record to the blockchain that says they've planted a crop.
+
 And we might have an organic pesticide company come and treat that organic produce.
 
 We still have a single organization or single entity making the announcement of something they did, and this is really the heart of blockchain.
 
 When you understand that it becomes really easy to understand where smart contracts fit in.
 
-And smart contracts are just computer code. They're codified logic that we can use to respond to any kind of event that gets captured on the blockchain.
+And smart contracts are just computer code. 
 
-In that organic produce example, if I want to notify someone when that fresh produce has been treated with organic pesticide, so I can create traceability for the end consumer, 
-well, I might have a smart contract that manages that that defines the rules and the steps that get taken when that particular type of event occurs.
+They're codified logic that we can use to respond to any kind of event that gets captured on the blockchain.
+
+In that organic produce example, if I want to notify someone when that fresh produce has been treated with organic pesticide, so I can create traceability for the end consumer, well, I might have a smart contract that manages that that defines the rules and the steps that get taken when that particular type of event occurs.
 
 And this is all smart contracts are.
 
@@ -2635,8 +2647,7 @@ In fact, if you come from a programming or development background you can think 
 
 If you're not a programmer or don't come from a developing background, you can just think of a smart contract as a set of rules that get executed every time a certain type of event happens.
 
-And this is where the real power of blockchain comes in that not only do we have a permanent, unchangeable record of all the different events that have occurred,
-we can also write computer code, very, very non-subjective computer code, that defines exactly how that process is going to be managed and what steps are going to be taken when that event occurs.
+And this is where the real power of blockchain comes in that not only do we have a permanent, unchangeable record of all the different events that have occurred, we can also write computer code, very, very non-subjective computer code, that defines exactly how that process is going to be managed and what steps are going to be taken when that event occurs.
 
 This allows us to ensure process consistency.
 
@@ -2726,11 +2737,22 @@ While things like this certainly are possible with conventional technology, they
 Blockchain and smart contracts puts this power back in the hand of voters and has the potential to radically reform campaign finance and campaign donations.
 
 <h3>Blockchain Security vs. Standard Cybersecurity</h3>
+<p>
 Blockchain is commonly called the future of computing. It takes a very different approach to data storage and processing and requires a very different perspective for security.
 
 In this section, we will discuss some of the ways that security differs in traditional and blockchain environments.
 </p>
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- blockchain security ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-blockchain-security.png?raw=true"
+   alt="Blockchain Security"
+   width="65%" >
+
 <h3 id="ch3-3">3.3 Introduction to Blockchain Security vs. Standard Cybersecurity</h3>
+<p>
 In this section, we're gonna talk a bit about how traditional cybersecurity is different than security concerns on the blockchain.
 
 In traditional cybersecurity that we're all used to, we're very perimeter-focused meaning that we put trusted data and assets behind a very, very strict perimeter.
@@ -2772,9 +2794,11 @@ In the blockchain world, all of our code runs on untrusted resources, untrusted 
 This means that we must ensure that all the trust in a blockchain solution comes from the protocol and the code layer itself, because it's a much more massively distributed network, and we don't have direct control or access into the hardware that supports it.
 
 There are a lot of differences between conventional cybersecurity and security in the blockchain space that you're going to want to understand before you deploy your own blockchain solutions.
+</p>
 
 <h3>Blockchain Security Environment</h3>
 One of the primary differences between cybersecurity in a traditional computing environment and on the blockchain is the environment itself and what it is and isn't designed to do.
+
 <h3>Standard Cyber Security</h3>
 <ul>
 <li>The traditional computing environment is a company network fully or, at least mostly, under the control of the company's computer security staff.</li>
@@ -2794,7 +2818,11 @@ Both traditional computing environments and blockchain have security considerati
 Next, we will discuss how a few different attacks can be launched against traditional computing environments and blockchain.
 
 <h3>Security Attacks: Denial-of-Service (DoS)</h3>
-A denial-of-service (DoS) attack is when an attacker makes it impossible for a system to serve its users as designed. This can be accomplished by exploiting a flaw in the system, but, more commonly, is accomplished by performing legitimate actions at a rate higher than the target can handle. To be effective, denial-of-service attacks typically focus on a system’s weakest link or bottleneck.
+A denial-of-service (DoS) attack is when an attacker makes it impossible for a system to serve its users as designed. 
+
+This can be accomplished by exploiting a flaw in the system, but, more commonly, is accomplished by performing legitimate actions at a rate higher than the target can handle. 
+
+To be effective, denial-of-service attacks typically focus on a system’s weakest link or bottleneck.
 <ul>
 <li>In traditional environments, denial-of-service attacks target a company's web server to prevent customers from accessing the company's services. This can be accomplished by making more connection requests than the server is capable of supporting.</li>
 <li>In blockchain, a denial-of-service attack involves submitting more transactions to the blockchain than it can handle. Since many blockchains have fixed-size blocks created at a fixed rate and are stored in a distributed fashion, they have a maximum capacity that a determined attacker can exceed, rendering the blockchain unusable.</li>
@@ -3031,6 +3059,7 @@ It's important to understand the difference between them and it really all start
 When you're thinking in your head about public versus private blockchain.
 
 To understand that it all begins with Identity Management and in a private blockchain I know who all the participants are right from the beginning.
+
 In the public blockchain, again, I don't know who those participants are and that's not to say that I can't build a permission solution on a public platform.
 
 But, myself, my architects, and my developers are gonna have to develop the logic and the mechanisms behind identity management so that's public and private blockchain, two very different animals, they serve vastly different purposes.
@@ -3082,24 +3111,39 @@ Discussion on these topics need to be addressed when making the decision to adop
 	width="85%" >
 
 <h3>Blockchain Is Like Hot Sauce</h3>
+<p>
 One important thing to keep in mind as you're evaluating blockchain, is it's like hot sauce.
 
 And I want to give credit where credit is due for this analogy.
 
 This was inspired by a friend of mine, Samson Williams, a thought leader in the blockchain space.
+
 But Samson loves to talk about blockchain being a lot like hot sauce.
+
 Hot sauce is surprising because you can put it on a number of things and it really tastes good.
+
 But there are some things hot sauce just doesn't belong on.
+
 You'd never put hot sauce on an ice cream.
+
 Understand that blockchain is like hot sauce - there are a lot of areas you can add a little splash of blockchain to, and end up making a much better and more compelling solution.
+
 But there are some areas that you can't add blockchain to without making things a lot worse.
+
+
 And just like hot sauce, there is a big misconception that blockchain is an all-or-nothing proposition, that if we're going to architect and develop a solution on blockchain, we either have to build something that exists entirely on blockchain, or we need to build something that exists entirely on conventional technology.
+
 The truth is that like hot sauce, blockchain is really best when it's combined with something.
+
 If you were hungry and poured yourself a big bowl of hot sauce, not only would you be unsatisfied and unhappy, but you wouldn't want to repeat the process again.
 That's the same way with blockchain.
+
 If you are looking at building a solution completely and entirely on the blockchain, without exploring some of the amazing potential that you get by combining blockchain with conventional technology, then you probably got a bad recipe.
+
 So, when you're thinking about blockchain, and how to add it to your personal and professional life, understand that it's not a meal all by itself.
+
 It's just a little splash of hot sauce you put on something that already works pretty well.
+</p>
 
 <h3>Blockchain Considerations</h3>
 Companies must consider many factors when deciding how blockchain will fit into the business model. There is not a “one size fits all” blockchain but rather a well-thought-out approach that considers many options.
@@ -3149,22 +3193,36 @@ The users will be notified of an event from a blockchain creation via an event.
 </p>
 
 <h3>Blockchain Transactions</h3>
+<p>
 Although blockchains can differ in form and function, all follow a basic transaction flow.
 
 Step 1: Operation Initiated<br/>
 Let's follow the step with a basic Bitcoin transaction. If Alicia wants to send Billy some bitcoin, she would go to a Bitcoin wallet application either on her phone or computer where she has some Bitcoin stored. Wallet applications are usually free downloads that create a digital wallet to purchase and/or store your cryptocurrency.
+&nbsp;
  
 It is worth mentioning here that cryptocurrencies are a function of a particular blockchain, the Bitcoin blockchain only transacts bitcoin and the Ethereum blockchain can only exchange Ether. To initiate the transaction, Alicia would make a request of the system to send Bitcoin to Billy’s wallet by specifying the amount and Billy’s Bitcoin address.
+&nbsp;
+
 Step 2: Smart Contract Triggered<br/>
 When Alicia sends her transaction to the network, it triggers a smart contract that checks with the nodes on the network to make sure Alicia has the currency to spend, and that she hasn't already spent it. Once checked, the transaction is added to a proposed block.
+&nbsp;
+
 Step 3: Operators Spread Transaction<br/>
 Proposed block is communicated to the network through the peer-to-peer protocols.
+&nbsp;
+
 Step 4: Consensus<br/>
 In order for the Bitcoin network to validate a block, nodes or miners must validate the correctness of a block by completing a math problem first. The node that completes the Proof of Work equation first is rewarded with some newly minted Bitcoin. Once a solution for the equation is reached, the other nodes can easily check its accuracy, thereby accepting the new block onto the blockchain.
+&nbsp;
+
 Step 5: Spread The New Block<br/>
 This block is spread throughout the network through the same peer-to-peer communications we used for the transaction. When block operators receive a copy of the new block, they add it to their copy of the distributed ledger. This guarantees that all members of the peer network agree on the current state of the blockchain’s distributed ledger.
+&nbsp;
+
 Step 6: Transaction Completed<br/>
 The user’s wallet monitors for the creation of new blocks that include transactions associated with the user. When a block containing the completed code from the user’s operation is received, an event is created to notify the user that the operation is complete. When the block containing Alicia’s Bitcoin transfer to Billy is added to the blockchain, an alert will be sent to the affected wallets that the transaction was accepted and completed.
+&nbsp;
+</p>
 
 <h3>Consensus in Blockchain</h3>
 Consensus in blockchain is moving away from a centralized system where one entity keeps track of the ledger towards a decentralized system where trust does not rest with one entity but all entities and what they decide together. 
