@@ -2690,56 +2690,88 @@ Smart contracts can be developed by anyone, no need for intermediaries such as l
 </ul>
 
 <h3>Campaign Finance</h3>
+<p>
 One area getting a lot of attention in blockchain right now, is campaign finance and campaign donations.
+
 There are some really interesting and compelling use cases, ways that we might be able to use blockchain to do new and innovative things around campaign finance that just aren't practical or feasible today.
+
 Let's say that I'm running for office and you want to support my campaign.
+
 Well, today, you might write me a thousand dollar check and I get all 1,000 of those dollars right away to use for my campaign.
+
 Maybe, we want to use blockchain to empower voters to keep their politicians more accountable to the promises they make on the campaign trail.
+
 Consider the following scenario.
+
 Let's say, that instead of donating a thousand dollars to my campaign, you write a smart contract on the blockchain to manage campaign donations.
+
 You give that smart contract a thousand dollars instead.
+
 That smart contract has been programmed with the terms and conditions under which it is able to release those funds to my campaign.
+
 I might get two hundred and fifty dollars of that thousand initially to use for my election.
+
 If I get elected, the remaining $750 can stay in the smart contract.
+
 Otherwise, it gets refunded to you.
+
 Let's say, I do get elected. Perhaps, I don't get the second 250 of that thousand dollars until a year in office, if I fulfilled three or more of my campaign trail promises.
+
 And then, we might say as a final step, I get the remaining five hundred dollars to use for my reelection, only if I fulfilled 80% or more of my campaign promises during my first four-year term in office.
+
 This would put a lot of power back in the hands of voters and would keep politicians accountable for the promises they make, long after election day.
+
 While things like this certainly are possible with conventional technology, they're not very practical or feasible.
+
 Blockchain and smart contracts puts this power back in the hand of voters and has the potential to radically reform campaign finance and campaign donations.
 
 <h3>Blockchain Security vs. Standard Cybersecurity</h3>
 Blockchain is commonly called the future of computing. It takes a very different approach to data storage and processing and requires a very different perspective for security.
-In this section, we will discuss some of the ways that security differs in traditional and blockchain environments.
 
+In this section, we will discuss some of the ways that security differs in traditional and blockchain environments.
+</p>
 <h3 id="ch3-3">3.3 Introduction to Blockchain Security vs. Standard Cybersecurity</h3>
 In this section, we're gonna talk a bit about how traditional cybersecurity is different than security concerns on the blockchain.
+
 In traditional cybersecurity that we're all used to, we're very perimeter-focused meaning that we put trusted data and assets behind a very, very strict perimeter.
 
 We assume that anybody we let inside that perimeter is trusted, either partially or fully, to see that data and access those resources.
 
-And the brunt of our focus goes into making sure that we keep the right people from getting beyond that perimeter,
-that we only let authorized users through, and then we prevent any attackers or strangers from breaching that perimeter and accessing the data and resources we store behind it.
+And the brunt of our focus goes into making sure that we keep the right people from getting beyond that perimeter, that we only let authorized users through, and then we prevent any attackers or strangers from breaching that perimeter and accessing the data and resources we store behind it.
 
 This is very different from blockchain, which runs on a massively decentralized peer-to-peer global network.
+
 Just by its very definition, you can see that there is no perimeter on blockchain, and so our security has to come from somewhere else.
 
 Our security on blockchain comes from the incredible amount of repetition.
+
 The fact that we ask every node to keep the same copy of the ledger and periodically to reach consensus, majority consensus, on what the proper data in that ledger should be.
+
 This makes the amount of work that an attacker would have to do practically impossible, if they wanted to change, hack, or alter the ledger.
+
 Another big difference between traditional cybersecurity and security on the blockchain is with conventional applications and conventional technology.
+
 We either develop all our own code or application parameters in-house or we rely on a single, third-party trusted provider who creates that line of business system for us.
+
 All the code, generally, comes from one place, and if we don't write it ourselves, all we have to have is trust and faith in the third-party organization providing it to us.
+
 In blockchain, things are a little bit different, because oftentimes in blockchain solutions we're writing smart contracts which call code from other smart contracts, which we may or may not write ourselves.
+
 And which may come from a variety of different authors.
 
-So, whereas in the traditional cybersecurity space, we really only need to rely on our own due diligence to write secure code or the due diligence of a third-party application provider.
+Whereas in the traditional cybersecurity space, we really only need to rely on our own due diligence to write secure code or the due diligence of a third-party application provider.
+
 In blockchain, we have to expend a lot more time and energy, making sure that the code and the contracts we're calling is safe and secure.
+
 In other words, we want to make sure that we're not inheriting any security vulnerabilities from other smart contracts that have been written by unknown and potentially untrusted parties.
+
 And the final big difference between conventional cybersecurity and blockchain is that in conventional line of business systems all of our applications either run directly on trusted hardware that we own as an organization or run on hardware with a high degree of trust provided by a third-party such as Microsoft Azure or Amazon Web Services.
+
 In the blockchain world, all of our code runs on untrusted resources, untrusted hardware that can be owned by anyone, anywhere in the world.
+
 This means that we must ensure that all the trust in a blockchain solution comes from the protocol and the code layer itself, because it's a much more massively distributed network, and we don't have direct control or access into the hardware that supports it.
-So, there are a lot of differences between conventional cybersecurity and security in the blockchain space that you're going to want to understand before you deploy your own blockchain solutions.
+
+There are a lot of differences between conventional cybersecurity and security in the blockchain space that you're going to want to understand before you deploy your own blockchain solutions.
 
 <h3>Blockchain Security Environment</h3>
 One of the primary differences between cybersecurity in a traditional computing environment and on the blockchain is the environment itself and what it is and isn't designed to do.
@@ -2805,7 +2837,14 @@ Next, let's engage with an interactive lab. In this lab, you will be examining a
 When we try to understand the main difference between a public and private blockchain, it is important to understand the terminology.
 <ul>
 <li>Public Blockchains<br/>
-A public blockchain is open to anyone to join. Public blockchains are decentralized where no one has control over the network. These immutable and censorship resistant networks are ideal for participants who don't trust each other, but still interact in a network and take part in consensus. Bitcoin and Ethereum are examples of public, permissionless blockchains.</li>
+<p>
+A public blockchain is open to anyone to join. 
+
+Public blockchains are decentralized where no one has control over the network. 
+
+These immutable and censorship resistant networks are ideal for participants who don't trust each other, but still interact in a network and take part in consensus. 
+</p>
+Bitcoin and Ethereum are examples of public, permissionless blockchains.</li>
 <li>Permissionless Blockchains<br/>
 Public blockchains are permissionless. Anyone effectively can join the blockchain network. No one is prohibited from joining.</li>
 <li>Private Blockchains<br/>
@@ -2952,54 +2991,101 @@ On the other hand, as described in [Investopedia](https://www.investopedia.com/n
 
 <h3>Public and Private Comparison</h3>
 Now that we've talked about public and private blockchains, what those terms mean and again, you can think of that as permission versus permissionless blockchains, 
+
 We can talk about some of the differences and what each different type of platform aims to provide.
+
 Public blockchains are really good for scenarios where protecting the anonymity of users is important or adds value to the solution and they're really great platforms for solutions where all users should be treated equally and we can see this because most public blockchains right now are used to support crypto currencies and this is a real great use case with a crypto currency like Bitcoin, Litecoin, ether etc.
+
 We don't want to have any permissioning or role based access.
+
 Anybody should be able to own some Bitcoin.
+
 Anybody should be able to trade it with anybody else and it's not necessarily important that we know who the participants in any transaction are.
+
 That leads to an open permissionless model with full transparency.
+
 This is very different in the corporate world where we see private blockchains being adopted at scale because the concerns are the opposite in a corporate scenario.
+
 In a business scenario, anonymity is a bad thing.
+
 I want to know exactly who all the participants are and I need to know who they are because I don't want full transparency.
+
 I don't want to share all my business data with all the participants in my business network or the general public at large.
+
 I want to control who sees what type of information, under what circumstances and I also want to control who is able to contribute that information onto the blockchain.
+
 I might use a private blockchain solution to manage supplier vendor relationships where only myself and my suppliers can see the price that I'm paying for a certain item. 
+
 Only a particular supplier gets to see the details of the contract that I have and not the details of a contract I have with any other suppliers and I may wish to share some of this high-level macro data with consumers so that they can see the origins of the products they're buying.
+
 But, of course, I'd want to hide the financials behind all that so when we look at how these two solution types differ, we see the public blockchains tend to focus more on b2c or business to consumer scenarios.
+
 Whereas private blockchain offerings like hash graph, hyper ledger really lends themselves well to be to be scenarios supply chain value chain relationships or creating any kind of shared infrastructure between enterprises.
+
 Just to understand that well there's a big misconception that these are competing offerings.
+
 They're really not and many real-world use cases use components of both.
+
 It's important to understand the difference between them and it really all starts with Identity Management.
+
 When you're thinking in your head about public versus private blockchain.
+
 To understand that it all begins with Identity Management and in a private blockchain I know who all the participants are right from the beginning.
 In the public blockchain, again, I don't know who those participants are and that's not to say that I can't build a permission solution on a public platform.
+
 But, myself, my architects, and my developers are gonna have to develop the logic and the mechanisms behind identity management so that's public and private blockchain, two very different animals, they serve vastly different purposes.
+
 As you start to dig into a lot of real-world use cases, what you're going to find is many use cases make use of both types of blockchain, integrated seamlessly to you.
-Is Blockchain Right for You?
+
+<h3>Is Blockchain Right for You?</h3>
+
 Consider the following aspects before deciding if blockchain is for you:
-•	Blockchain decisions
-When it comes to decision making around which blockchain model to use, it's important to determine which platform and structure is right for your business.
-•	Intermediaries
-Blockchain implementations can eliminate middlemen from work processes.
-•	Central authority
-Some organizations rely on one person having control, with blockchain decentralized work flows without a single point of failure are emerging.
-•	Multi-party interaction
-Blockchain provides a trust layer that opens up new opportunities for participation.
-•	Visibility
-Blockchain transparency reduces dispute over what is in the ledger since agreement occurs before transactions are committed and everyone can have access to the ledger.
-•	Write access
-Public permissionless blockchains do not prohibit who can add blocks to the chain, where private permissioned can restrict access.
-•	Value transfer
-Blockchains can differ in the ways participants transfer value.
-Blockchain Decision Chart
+<ul>
+<li>Blockchain decisions
+When it comes to decision making around which blockchain model to use, it's important to determine which platform and structure is right for your business.</li>
+<li>Intermediaries
+Blockchain implementations can eliminate middlemen from work processes.</li>
+<li>Central authority
+Some organizations rely on one person having control, with blockchain decentralized work flows without a single point of failure are emerging.</li>
+<li>Multi-party interaction
+Blockchain provides a trust layer that opens up new opportunities for participation.</li>
+<li>Visibility
+Blockchain transparency reduces dispute over what is in the ledger since agreement occurs before transactions are committed and everyone can have access to the ledger.</li>
+<li>Write access
+Public permissionless blockchains do not prohibit who can add blocks to the chain, where private permissioned can restrict access.</li>
+<li>Value transfer
+Blockchains can differ in the ways participants transfer value.</li>
+</ul>
+
+<h3>Blockchain Decision Chart</h3>
+
 Let's take a look at the blockchain decision chart:
- 
-Questions to Ask When Deciding on Blockchain
+&nbsp;
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- Blockchain decision chart -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-blockchain-decision-chart.png?raw=true"
+	alt="Blockchain Decision Chart"
+	width="85%" >
+
+<h3>Questions to Ask When Deciding on Blockchain</h3>
 Discussion on these topics need to be addressed when making the decision to adopt a blockchain strategy for your company:
- 
-Blockchain Is Like Hot Sauce
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------- Questions to ask when deciding on blockchain------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-questions-to-ask.png?raw=true"
+	alt="Questions to Ask"
+	width="85%" >
+
+<h3>Blockchain Is Like Hot Sauce</h3>
 One important thing to keep in mind as you're evaluating blockchain, is it's like hot sauce.
+
 And I want to give credit where credit is due for this analogy.
+
 This was inspired by a friend of mine, Samson Williams, a thought leader in the blockchain space.
 But Samson loves to talk about blockchain being a lot like hot sauce.
 Hot sauce is surprising because you can put it on a number of things and it really tastes good.
@@ -3015,7 +3101,7 @@ If you are looking at building a solution completely and entirely on the blockch
 So, when you're thinking about blockchain, and how to add it to your personal and professional life, understand that it's not a meal all by itself.
 It's just a little splash of hot sauce you put on something that already works pretty well.
 
-Blockchain Considerations
+<h3>Blockchain Considerations</h3>
 Companies must consider many factors when deciding how blockchain will fit into the business model. There is not a “one size fits all” blockchain but rather a well-thought-out approach that considers many options.
 •	Governance
 Governance of blockchains deals with a system for managing and implementing changes to blockchains. Chapter 4, “Blockchains and Governance”, covers how blockchain is managed and how changes are implemented.
