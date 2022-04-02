@@ -4576,9 +4576,11 @@ Bitcoin was the first decentralized protocol to solve this problem and now more 
 <h3>Digital Currency Difficulties</h3>
 Today, when someone mentions digital currency, usually Bitcoin or crypto is the first thing that comes to mind, but digital currency had a long history before Bitcoin popularized it. 
 
-This history goes all the way back to 1983, when David Chaum introduced the idea of digital cash in a research paper. 
+This history goes all the way back to 1983, when [David Chaum](https://en.wikipedia.org/wiki/David_Chaum) introduced the idea of digital cash in a research paper. 
 
-Then, in 1992, he founded DigiCash, an electronic cash company, which eventually went bankrupt in 1998 due to adoption (buyout by another financial institution). Today, David is a leading pioneer of blockchain companies such as Elixxir and Praxxis to provide scalable digital sovereignty.
+Then, in 1992, he founded DigiCash, an electronic cash company, which eventually went bankrupt in 1998 due to adoption (buyout by another financial institution). 
+
+Today, David is a leading pioneer of blockchain companies such as [Elixxir](https://xx.network/archive/cmix/) and [Praxxis](https://xx.network/blockchain/) to provide scalable digital sovereignty.
 
 There were many other attempts to create digital cash over the years, but many failed due to a variety of reasons, such as:
  
@@ -4611,7 +4613,8 @@ Digital currencies are available only in the digital world and not in the physic
 </p>
  
 <h3>Cryptocurrency Defined</h3>
-According to Investopedia,
+
+According to [Investopedia](https://www.investopedia.com/tech/most-important-cryptocurrencies-other-than-bitcoin/),
 "A cryptocurrency, broadly defined, is currency that takes the form of tokens or “coins” and exists on a distributed and decentralized electronic ledger. While a large majority remain completely intangible, some cryptocurrencies have ventured into the physical world by building associations with companies offering traditional payment rails (credit cards and payment processors)".
 
 <h3>Cryptocurrencies Markets </h3>
@@ -4645,7 +4648,7 @@ Some wallets allow you to hold multiple cryptocurrencies in the same application
 Additional features in these wallets lets you “swap” one cryptocurrency for another. The application provider acts as the intermediary to secure the transactions from one chain to the other.
 
 <h3>Metamask</h3>
-Metamask is a cryptocurrency wallet used to interact with the Ethereum blockchain and other blockchains issued in accordance with the Ethereum Platform. Tokens issued in accordance with the ERC-20 standard for utility tokens can be stored in a metamask wallet. Metamask not only stores cryptocurrencies but acts as a gateway to blockchain applications. You can access the wallet through a mobile application or a browser extension.
+[Metamask](https://metamask.io/) is a cryptocurrency wallet used to interact with the Ethereum blockchain and other blockchains issued in accordance with the Ethereum Platform. Tokens issued in accordance with the ERC-20 standard for utility tokens can be stored in a metamask wallet. Metamask not only stores cryptocurrencies but acts as a gateway to blockchain applications. You can access the wallet through a mobile application or a browser extension.
  
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------ Consensys ------------------------------------------->
@@ -4656,11 +4659,11 @@ Metamask is a cryptocurrency wallet used to interact with the Ethereum blockchai
    alt="Consensys"</>
 </p>
 
-ConsenSys, spearheaded by Joe Lubin, an early Ethereum programmer, is a software engineering company that helps developers build next-generation networks and enable enterprises to launch more powerful financial infrastructure. 
+ConsenSys, spearheaded by [Joe Lubin](https://consensys.net/about/joseph-lubin-founder-of-consensys/), an early Ethereum programmer, is a software engineering company that helps developers build next-generation networks and enable enterprises to launch more powerful financial infrastructure. 
 
-Consensys Mesh is a playground for entrepreneurs and programmers to build decentralized platforms and projects, Metamask is just one project to come out of the efforts at Consensys.
+[Consensys Mesh](https://mesh.xyz/) is a playground for entrepreneurs and programmers to build decentralized platforms and projects, Metamask is just one project to come out of the efforts at Consensys.
 
-One example of how the Metamask wallet is used is with the CryptoKittes project. 
+One example of how the Metamask wallet is used is with the [CryptoKitties](https://www.cryptokitties.co/catalogue) project. 
 
 CryptoKitties are one of the first examples of a digital collectible where you own the rights (private keys) to code that represents a unique kitten. 
 
@@ -4678,10 +4681,20 @@ In order to purchase, view or interact with a digital kitten you must open your 
 </p>
 
 Kittens purchased on the cryptokitties.co site will be stored in the Metamask wallet associated with your account or can be put up for sale at an NFT marketplace. Any fees or revenue from your kittens will automatically be reflected in your Metamask wallet totals. Cryptokitties are the first example of a non-fungible token which we will cover in the next section.
-Exchanges
+
+<h3>Exchanges</h3>
 Cryptocurrency exchanges vary in complexities and user experience.
-Beginners
-To start off, it is advantageous to deal with a centralized solution to store your cryptocurrency. These larger exchanges act as a bank for your cryptocurrencies. Offering features like loans and staking rewards (rewards for being an active part in a network).They vet the currencies they allow you to trade and store, while controlling the private keys for you, so accessing your currencies is as easy as a username and password. Such examples of these organizations are Coinbase and Gemini. Below you can see a screenshot of the Gemini Custodial Crypto Account Dashboard:
+
+<h3>Beginners</h3>
+To start off, it is advantageous to deal with a centralized solution to store your cryptocurrency. 
+
+These larger exchanges act as a bank for your cryptocurrencies. Offering features like loans and staking rewards (rewards for being an active part in a network).
+
+They vet the currencies they allow you to trade and store, while controlling the private keys for you, so accessing your currencies is as easy as a username and password. 
+
+Such examples of these organizations are [Coinbase](https://www.coinbase.com/) and [Gemini](https://www.gemini.com/). 
+
+Below you can see a screenshot of the [Gemini Custodial Crypto Account Dashboard](https://exchange.gemini.com/signin?redirect=e2aa461e75019f06a9907a89b5090decb94caf52-1626117922675-%2F):
  
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ Gemini Custodial Crypto Account Dashboard ----------------------------->
@@ -4707,10 +4720,11 @@ This is where the term Decentralized Finance was born. It gives you the ability 
 </p>
  
 <h3>Hardware Wallets</h3>
-Hardware wallets offer an alternative to storing your cryptocurrency online. These devices plug into a USB port and transfer your private keys (ownership rights to the cryptocurrency) from your “hot wallet” (mobile, computer or web based) to be stored offline. If the device is damaged or lost, so are the cryptocurrencies stored. This is what the ledger wallet looks like:
+Hardware wallets offer an alternative to storing your cryptocurrency online. These devices plug into a USB port and transfer your private keys (ownership rights to the cryptocurrency) from your “hot wallet” (mobile, computer or web based) to be stored offline. If the device is damaged or lost, so are the cryptocurrencies stored. 
+This is what the [ledger wallet](https://shop.ledger.com/products/ledger-nano-s/?flow_country=USA&msclkid=91c26052e5701161046300fd18bf7e2d) looks like:
  
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- Ledger Wallet ----------------------------------------->
+<!------------------------------------- Ledger Wallet (164) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="10%" 
@@ -4719,14 +4733,18 @@ Hardware wallets offer an alternative to storing your cryptocurrency online. The
 </p>
 
 <h3>Self-Sovereign Identity (SSI)</h3>
-As explained by Drummond Reed,
-"Web 1.0 used centralized identity; Web 2.0 graduated to federated identity; now Web 3.0 is using decentralized digital identity, a model known as "self-sovereign identity" or "SSI" because now individuals control their own portable digital identity credentials in their own digital wallets—just like we prove our identity with physical credentials from our physical wallets every day. The digital signatures on these credentials use blockchain technology for decentralized public key management. Finally we can have a trust layer for the Internet that doesn't require everyone to rely on centralized authorities".
+As explained by [Drummond Reed](https://www.evernym.com/blog/team/drummond-reed/),
+<blockquote>
+"Web 1.0 used centralized identity; Web 2.0 graduated to federated identity; now Web 3.0 is using decentralized digital identity, a model known as "self-sovereign identity" or "SSI" because now individuals control their own portable digital identity credentials in their own digital wallets—just like we prove our identity with physical credentials from our physical wallets every day. The digital signatures on these credentials use blockchain technology for decentralized public key management. 
+
+Finally we can have a trust layer for the Internet that doesn't require everyone to rely on centralized authorities".
+</blockquote>
 
 The concept of self-sovereign identity (SSI) is based on the idea that the Internet was created without a way to properly deal with identifying participants. 
 
 Innovative minds, such as Drummond Reed and Alex Preukscha, have been working on solutions to this problem. 
 
-We will start with some key terms taken from the "Self-Sovereign Identity: Decentralized Digital Identity and Verifiable Credentials" book by Reed and Preukscha.
+We will start with some key terms taken from the ["Self-Sovereign Identity: Decentralized Digital Identity and Verifiable Credentials"](https://www.manning.com/books/self-sovereign-identity?utm_source=freecontentcenter&utm_medium=blog&utm_campaign=book_selfsovereignidentity&utm_content=article_01) book by Reed and Preukscha.
 
 The Internet was designed to identify computers, not users. 
 
@@ -4734,9 +4752,9 @@ The result is a tangled web of passwords, and usernames, and siloed data that is
 
 With blockchain and cryptographic techniques, solutions are being developed to fix what is broken with identity and the Internet. 
 
-The W3C Consortium is an international community where members work together to develop web standards. 
+The [W3C Consortium](https://www.w3.org/Consortium/) is an international community where members work together to develop web standards. 
 
-Led by web inventor and Director Tim Berners-Lee and CEO Jeffrey Jaffe, W3C's mission is to lead the Web to its full potential. 
+Led by web inventor and Director [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) and CEO [Jeffrey Jaffe](https://www.w3.org/People/Jeff/), W3C's mission is to lead the Web to its full potential. 
 
 W3C is working on standards that can be used to define a new paradigm for the Internet and Identity.
 
