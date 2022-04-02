@@ -4800,7 +4800,7 @@ The trust triangle represents the Trust over IP version of how the new relations
    alt="Decentralized Identifiers (DIDs)"</>
 </p>
 
-<h3>Decentralized identifiers</h3>
+<h4>Decentralized identifiers</h4>
 
 According to the WC3, [decentralized identifiers (DIDs)](https://www.windley.com/archives/2020/11/didcomm_and_the_self-sovereign_internet.shtml) are a new type of identifier for verifiable, decentralized digital identity credentials. 
 
