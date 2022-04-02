@@ -5035,13 +5035,14 @@ Blockchain is a new technology constantly improving and changing. Developers are
   - End user solutions<br/>
 Everyday solutions emerge that put decentralized blockchains and all the benefits they promise in the hands of individuals from new decentralized marketplaces to new ways to express your music, art, and even let you trade property built inside a game.
 
-<h3>Enterprise Solutions Overview</h3>
+<h3 id="ch6-3">6.3 Enterprise Solutions Overview</h3>
 Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and workflows, fostering new business models. Problems with how we transact online, to the cost of doing business, are solved with blockchain. Let’s look at an enterprise supply chain solution built with blockchain.
-Global Supply Chains
+
+<h3>Global Supply Chains</h3>
 Supply chain data is not always visible or trusted. In recent times of disruption supply chains matter more than ever. Global supply chain and blockchain are working to secure systems to better handle these disruptions. The Covid pandemic shed light on the frailty of our supply chains which accelerated discussion over blockchain solutions. 
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Maersk & IBM logos ------------------------------------------->
+<!--------------------------------- Maersk & IBM logos (175) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -5053,7 +5054,7 @@ Learn more about the collaboration between Maersk and IBM from the ["Digitizing 
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3 id="ch6-3">6.3 Supply Chain - Maersk (Enterprise Solutions)</h3>
+<h3>Supply Chain - Maersk (Enterprise Solutions)</h3>
 Global trade functions much as it has since the introduction of the shipping container in 1956.
 
 Manual, paper-based processes are still common and information about the status of goods is locked away in organizational silos.
