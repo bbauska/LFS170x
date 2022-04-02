@@ -4648,6 +4648,7 @@ Some wallets allow you to hold multiple cryptocurrencies in the same application
 Additional features in these wallets lets you “swap” one cryptocurrency for another. The application provider acts as the intermediary to secure the transactions from one chain to the other.
 
 <h3>Metamask</h3>
+
 [Metamask](https://metamask.io/) is a cryptocurrency wallet used to interact with the Ethereum blockchain and other blockchains issued in accordance with the Ethereum Platform. Tokens issued in accordance with the ERC-20 standard for utility tokens can be stored in a metamask wallet. Metamask not only stores cryptocurrencies but acts as a gateway to blockchain applications. You can access the wallet through a mobile application or a browser extension.
  
 <!------------------------------------------------------------------------------------------------>
@@ -4708,7 +4709,13 @@ Below you can see a screenshot of the [Gemini Custodial Crypto Account Dashboard
 <h3>Advanced</h3>
 In keeping with the decentralization nature of the cryptocurrency markets, exchanges exist where you are the custodian of your accounts and trading is done from your computer or smartphone. 
 
-This is where the term Decentralized Finance was born. It gives you the ability to apply smart contracts to govern your trades and access to markets previously only for accredited investors. Such examples of decentralized exchanges are Liquid, SushiSwap and Uniswap. Below is the screenshot of the Liquid Exchange:
+This is where the term Decentralized Finance was born. 
+
+It gives you the ability to apply smart contracts to govern your trades and access to markets previously only for accredited investors. 
+
+Such examples of decentralized exchanges are Liquid, SushiSwap and Uniswap. 
+
+Below is the screenshot of the Liquid Exchange:
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- Liquid Exchange --------------------------------------->
@@ -4720,7 +4727,8 @@ This is where the term Decentralized Finance was born. It gives you the ability 
 </p>
  
 <h3>Hardware Wallets</h3>
-Hardware wallets offer an alternative to storing your cryptocurrency online. These devices plug into a USB port and transfer your private keys (ownership rights to the cryptocurrency) from your “hot wallet” (mobile, computer or web based) to be stored offline. If the device is damaged or lost, so are the cryptocurrencies stored. 
+Hardware wallets offer an alternative to storing your cryptocurrency online. These devices plug into a USB port and transfer your private keys (ownership rights to the cryptocurrency) from your “hot wallet” (mobile, computer or web based) to be stored offline. If the device is damaged or lost, so are the cryptocurrencies stored.
+
 This is what the [ledger wallet](https://shop.ledger.com/products/ledger-nano-s/?flow_country=USA&msclkid=91c26052e5701161046300fd18bf7e2d) looks like:
  
 <!------------------------------------------------------------------------------------------------>
@@ -4733,6 +4741,7 @@ This is what the [ledger wallet](https://shop.ledger.com/products/ledger-nano-s/
 </p>
 
 <h3>Self-Sovereign Identity (SSI)</h3>
+
 As explained by [Drummond Reed](https://www.evernym.com/blog/team/drummond-reed/),
 <blockquote>
 "Web 1.0 used centralized identity; Web 2.0 graduated to federated identity; now Web 3.0 is using decentralized digital identity, a model known as "self-sovereign identity" or "SSI" because now individuals control their own portable digital identity credentials in their own digital wallets—just like we prove our identity with physical credentials from our physical wallets every day. The digital signatures on these credentials use blockchain technology for decentralized public key management. 
@@ -4792,6 +4801,7 @@ The trust triangle represents the Trust over IP version of how the new relations
 </p>
 
 <h3>Decentralized identifiers</h3>
+
 According to the WC3, [decentralized identifiers (DIDs)](https://www.windley.com/archives/2020/11/didcomm_and_the_self-sovereign_internet.shtml) are a new type of identifier for verifiable, decentralized digital identity credentials. 
 
 These new identifiers are designed to enable the controller of a DID to prove control over it and to be implemented independently of any centralized registry, identity provider, or certificate authority. 
@@ -4812,6 +4822,7 @@ The DID above is structured to identify what type of credential, the issuer and 
 The [Sovrin Foundation](https://sovrin.org/) and [Everynym](https://sovrin.org/) are leading pioneers in this new emerging sector offering identity solutions in sectors such as Healthcare and Refugee Management.
 
 <h3>Decentralized Finance</h3>
+
 According to ["The Complete Beginner's Guide to Decentralized Finance (DeFi)"](https://academy.binance.com/en/articles/the-complete-beginners-guide-to-decentralized-finance-defi) article by Binance Academy, Decentralized Finance or DeFI refers to a system of financial software that enables financial products to be made available to the public on decentralized blockchains. 
 
 As we have learned, the term decentralized and its ramifications will revolutionize how we interact with each other. 
