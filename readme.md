@@ -3518,20 +3518,15 @@ In this chapter, we discussed:
 
 <h2 id="ch4">Chapter 4. Blockchains and Governance</h2>
 <h3>Chapter Overview</h3>
-
+<p>
 In this section, we will cover blockchain governance. 
-
 We will start by discussing the cooperative way blockchain companies share the computer code for this technology. 
-
 We will also explore how this open source environment is fostering new innovations. 
-
 And then we will examine who really is in charge of blockchains and how the network effect determines the direction a blockchain will take.
-
 Next, we will take a look at how these trustless systems with open interactions are more secure than past systems. 
-
 Finally, we will dive into the idea of collaboration among parties who don't trust each other and how blockchain technology is changing how the global community can interact. 
-
 This new form of world wide collaboration can be the key to solving the world's toughest problems.
+</p>
 
 <h3 id="ch4-1">4.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
@@ -3547,17 +3542,14 @@ By the end of this chapter, you should be able to:
 Blockchain technology and the developers who work with it reinforce the basic tenet of decentralization in many ways. Not only by decision making consensus models, but also the way in which it distributes the software code.<br/>
 
 <ul>
-<li>Proprietary/closed source code
+<li>Proprietary/closed source code<br/>
 Software controlled by the person, team or organization who created it and maintains exclusive rights over it. Only the original authors can legally copy, inspect, and alter the software. Most users of proprietary software sign an agreement giving permission to use the software but not alter it. Microsoft Office is an example of proprietary software.</li>
 <li>Open source code<br/>
 Computer code that describes a specific approach to creating software.
 When describing tools for distributing open source code Discipline Tools states, Open source initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency and community-oriented development. 
 Open source software is code that anyone can inspect, modify and enhance. 
-
 Much of the Internet was built on open source technologies. 
-
 Users of the computer software never interact with the source code, rather it's manipulated by programmers who improve and fix it. As with proprietary software, users must accept the terms of the license, but they are dramatically different structurally. 
-
 Linux and Kubernetes are examples of open source software.</li>
 </ul>
 Open source software fosters collaboration by sharing code and encouraging modifications and improvements. 
@@ -3566,15 +3558,15 @@ Instead of charging for the software program, software developers find it more l
 <h3>Benefits from Open Source Software</h3>
 Developing software in an open source environment means a willingness to share and collaborate in a transparent way.
 <ul>
-<li>Control
+<li>Control<br/>
 To a developer's open source means an individual can contribute to the direction the code takes. This open participation means coders who participate the most have more influence over the direction of the code.</li>
-<li>Training
+<li>Training<br/>
 The ability to copy code and make your own changes in test environments act as invaluable hands-on training. This also fosters innovation as programmers can devise previously unthought-of functionality and code direction.</li>
-<li>Security
+<li>Security<br/>
 In open source, software programs are considered more secure because they are open to peer review where errors can be spotted. Coders are encouraged to test code, find errors and develop fixes to bugs as long as they follow the process the network has in place.</li>
-<li>Stability
+<li>Stability<br/>
 Open source projects have a certain amount of code stability due to the openness for public review. A publicly distributed source code is openly reviewed and can expose situations that may not have otherwise been tested.</li>
-<li>Community
+<li>Community<br/>
 Open source inspires the community to get involved. When contributing to an open source project, you join a community of people that ultimately affects the software you are interested in.</li>
 </ul>
 
