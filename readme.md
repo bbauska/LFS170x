@@ -3640,20 +3640,21 @@ The amount of authority the representative has is granted by the majority.
 The representatives selected reflect the views of the majority and are given authority to guide the community.
 The control comes from the community and representatives are presumed to act in the best interest of the governed. 
 This type of governance is more efficient as only a few debate the issue and decide on policy.
-Issues can occur when the majority opinion unevenly reflects the community, causing minority groups to be underserved. Also the assumption is that the representatives are acting on the best behalf of the group and not in their own best interests.</li>
+Issues can occur when the majority opinion unevenly reflects the community, causing minority groups to be underserved. Also, the assumption is that the representatives are acting on the best behalf of the group and not in their own best interests.</li>
 <li>Direct democracy<br/>
 All decisions regarding the governance of the group are voted on by the entire community. In this form of governance model every vote counts and people have more control over the quality of policies. In this model it is best to have an educated community where everyone is willing to participate for the good of the whole.</li>
 </ul>
 
 <h3>How Does Blockchain Fit Into Governance?</h3>
 Each and every blockchain ecosystem that has or is being created will need some kind of governance mechanism in place. 
-As discussed in the “Bitcoin and Blockchain Governance: What It Is and Why It Matters” article by Evan Karnoupakis, traditional systems and laws are made and then enforced. When participants (miners, developers, and users) in the network are interacting, ideally they are acting in a way that’s best for the overall group. Being able to build a governance structure in a decentralized (sometimes anonymous, as well) world has proven to be extremely difficult, but this is a problem that many DLT companies are in the midst of solving.
+As discussed in the [“Bitcoin and Blockchain Governance: What It Is and Why It Matters”](https://www.bitcoinmarketjournal.com/bitcoin-and-blockchain-governance/) article by Evan Karnoupakis, traditional systems and laws are made and then enforced. When participants (miners, developers, and users) in the network are interacting, ideally they are acting in a way that’s best for the overall group. Being able to build a governance structure in a decentralized (sometimes anonymous, as well) world has proven to be extremely difficult, but this is a problem that many DLT companies are in the midst of solving.
 
 Most governance structures in the blockchain ecosystem are looking to achieve similar goals, such as:
-  •	Protocol changes and technical upgrades.
-  •	Critical bug and vulnerability fixes.
-  •	Using pooled funds for research and development.
-
+<ul>
+<li>Protocol changes and technical upgrades.</li>
+<li>Critical bug and vulnerability fixes.</li>
+<li>Using pooled funds for research and development.</li>
+</ul>
 <h3>On-Chain vs. Off-Chain Governance</h3>
 These goals can be achieved through many different methods of governance. When designing a blockchain, choices between on-chain and off-chain governance must be balanced.
 In the on-chain governance, rules for instituting changes are encoded into the blockchain protocol. This means that any decision being made is automatically being translated into code (e.g. decisions concerning block size). Developers propose changes through code updates and each node votes on whether to accept or reject the proposed change.
