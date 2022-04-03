@@ -2858,7 +2858,7 @@ Finally, traditional infrastructure and blockchain differ in their goals regardi
 
 <h3>Lab 3: The Blockchain</h3>
 Next, let's engage with an interactive lab. In this lab, you will be examining a blockchain containing five blocks, each labeled according to position. Enjoy!
-&nbsp;
+&nbsp;<br/>
 
 [Start Lab](https://blockchaintrainingalliance.com/pages/lab-distributed)
 
