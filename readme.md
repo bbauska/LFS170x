@@ -2924,17 +2924,17 @@ That's a public blockchain, and that's a very different animal from the private 
 
 In the ["Public vs. Private Blockchain In a Nutshell"](https://medium.com/coinmonks/public-vs-private-blockchain-in-a-nutshell-c9fe284fa39f) article by Demiro Massessi, public and private blockchains have different features. The benefits of public blockchain are:
 <ul>
-<li>Ledger is distributed
+<li>Ledger is distributed<br/>
 The database is not centralized like in a client-server approach, and all nodes in the blockchain participate in the transaction validation.</li>
-<li>Immutable
+<li>Immutable<br/>
 When something is written to the blockchain, it cannot be changed.</li>
-<li>Open Consensus Model
+<li>Open Consensus Model<br/>
 No restriction placed on who can operate a node in the network.</li>
-<li>Open read and write
+<li>Open read and write<br/>
 Anyone can participate by submitting transactions to the blockchain, such as Ethereum or Bitcoin; transactions can be viewed on the blockchain explorer.</li>
-<li>Low barrier to entry
+<li>Low barrier to entry<br/>
 Transactions on a public network can be accomplished with an Internet connection and a cell phone.</li>
-<li>Secure due to mining (51% rule)
+<li>Secure due to mining (51% rule)<br/>
 With Bitcoin, obtaining a majority of network power could potentially enable massive double spending, and the ability to prevent transaction confirmations, among other potentially nefarious acts. This has never been accomplished as the computing power needed to stage such an attack would be too costly.</li>
 </ul>
 
@@ -3001,6 +3001,7 @@ The enterprise controls the resources and access to the blockchain, hence privat
 </ul>
 
 <h3>Security: Public vs. Private Blockchains</h3>
+
 As discussed in ["The Difference Between Public and Private Blockchain"](https://www.ibm.com/blogs/blockchain/2017/05/the-difference-between-public-and-private-blockchain/) article by Praveen Jayachandran, both public and private blockchains share many similarities:
 <ul>
 <li>Both are decentralized peer-to-peer networks, each maintaining a shared append-only ledger of digitally-signed transactions.</li>
@@ -3089,7 +3090,7 @@ Let's take a look at the blockchain decision chart:
 &nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Blockchain decision chart -------------------------------------->
+<!------------------------------- Blockchain decision chart (97) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-blockchain-decision-chart.png?raw=true"
@@ -3143,25 +3144,31 @@ It's just a little splash of hot sauce you put on something that already works p
 </p>
 
 <h3>Blockchain Considerations</h3>
-Companies must consider many factors when deciding how blockchain will fit into the business model. There is not a “one size fits all” blockchain but rather a well-thought-out approach that considers many options.
-•	Governance
-Governance of blockchains deals with a system for managing and implementing changes to blockchains. Chapter 4, “Blockchains and Governance”, covers how blockchain is managed and how changes are implemented.
-•	Smart contract functionality
-Each organization has unique needs when deciding on smart contract functionality. Such decisions as to the design, implementation and testing of these digital promises need to be determined. Can smart contracts replace or accentuate current work flows? Can a previously written smart contact fit in the current business model?
-•	Consensus algorithms
-Consensus models change depending on the type of blockchain environment you are creating. In order for a blockchain to work, the participants must come to an agreement as to the transactions in the ledger or the state of the ledger. This agreement is called consensus. Public blockchains have miners that are incentivized to reach consensus whereas private blockchain set up enterprise nodes that agree to the state of the ledger. We will discuss consensus models later in this chapter.
-•	Integration
-Consideration for current work flows and how to bridge blockchain platforms with existing systems are a vital conversation. How can blockchain add value to your current organization while leveraging your existing systems?
-•	Cryptocurrency requirements
-As mentioned previously, a cryptocurrency is a medium of exchange digitally enabled by blockchain. Cryptocurrencies secure and keep track of assets on a public blockchain. Enterprise blockchains generally do not use the cryptocurrency feature. Decisions on if and how your blockchain will exchange value among participants are important discussions that need to occur during the design phase.
-•	Cost modeling
-New questions arise around consortium type blockchains, one consideration is how to split the technology cost among the participants in a fair and equitable manner.
-Overall, blockchain decisions will be made by actors in the blockchain system:
-•	System Architects design and build blockchain networks. This includes decisions on node types and membership rights.
-•	System Developers design the smart contracts for the community to use.
-•	System Operators interact with the software, permissioning and onboarding participants. This includes storing the ledger, creating wallets and managing credentials.
-•	Blockchain Users join a blockchain by setting up a wallet and/or receiving permission to engage in a particular function.
+Companies must consider many factors when deciding how blockchain will fit into the business model. 
 
+There is not a “one size fits all” blockchain but rather a well-thought-out approach that considers many options.
+<ul>
+<li>Governance<br/>
+Governance of blockchains deals with a system for managing and implementing changes to blockchains. Chapter 4, “Blockchains and Governance”, covers how blockchain is managed and how changes are implemented.</li>
+<li>Smart contract functionality<br/>
+Each organization has unique needs when deciding on smart contract functionality. Such decisions as to the design, implementation and testing of these digital promises need to be determined. Can smart contracts replace or accentuate current work flows? Can a previously written smart contact fit in the current business model?</li>
+<li>Consensus algorithms<br/>
+Consensus models change depending on the type of blockchain environment you are creating. In order for a blockchain to work, the participants must come to an agreement as to the transactions in the ledger or the state of the ledger. This agreement is called consensus. Public blockchains have miners that are incentivized to reach consensus whereas private blockchain set up enterprise nodes that agree to the state of the ledger. We will discuss consensus models later in this chapter.</li>
+<li>Integration<br/>
+Consideration for current work flows and how to bridge blockchain platforms with existing systems are a vital conversation. How can blockchain add value to your current organization while leveraging your existing systems?</li>
+<li>Cryptocurrency requirements<br/>
+As mentioned previously, a cryptocurrency is a medium of exchange digitally enabled by blockchain. Cryptocurrencies secure and keep track of assets on a public blockchain. Enterprise blockchains generally do not use the cryptocurrency feature. Decisions on if and how your blockchain will exchange value among participants are important discussions that need to occur during the design phase.</li>
+<li>Cost modeling<br/>
+New questions arise around consortium type blockchains, one consideration is how to split the technology cost among the participants in a fair and equitable manner.</li>
+</ul>
+<br/>&nbsp;
+Overall, blockchain decisions will be made by actors in the blockchain system:
+<ul>
+<li>System Architects design and build blockchain networks. This includes decisions on node types and membership rights.</li>
+<li>System Developers design the smart contracts for the community to use.</li>
+<li>System Operators interact with the software, permissioning and onboarding participants. This includes storing the ledger, creating wallets and managing credentials.</li>
+<li>Blockchain Users join a blockchain by setting up a wallet and/or receiving permission to engage in a particular function.</li>
+</ul>
 <h3 id="ch3-5">3.5 Blockchain Transaction Flow</h3>
 <p>
 In this section, we'll discuss the blockchain transaction flow.
@@ -3193,32 +3200,49 @@ The users will be notified of an event from a blockchain creation via an event.
 <p>
 Although blockchains can differ in form and function, all follow a basic transaction flow.
 
-Step 1: Operation Initiated<br/>
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- The Blockchain Transaction Flow, steps 1 thru 6 (101) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-blockchain-transactions.png?raw=true"
+	alt="Blockchain Transaction Flow, steps 1 thru 6"
+	width="85%" >
+</p>
+<b>Step 1: Operation Initiated</b><br/>
 Let's follow the step with a basic Bitcoin transaction. If Alicia wants to send Billy some bitcoin, she would go to a Bitcoin wallet application either on her phone or computer where she has some Bitcoin stored. Wallet applications are usually free downloads that create a digital wallet to purchase and/or store your cryptocurrency.
-&nbsp;
- 
+<br/>&nbsp;
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Bitcoin Wallet Application (101) ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-bitcoin-wallet-app.png?raw=true"
+	alt="Blockchain Transaction Flow, steps 1 thru 6"
+	width="85%" >
+</p>
+
 It is worth mentioning here that cryptocurrencies are a function of a particular blockchain, the Bitcoin blockchain only transacts bitcoin and the Ethereum blockchain can only exchange Ether. To initiate the transaction, Alicia would make a request of the system to send Bitcoin to Billy’s wallet by specifying the amount and Billy’s Bitcoin address.
-&nbsp;
+<br/>&nbsp;
 
-Step 2: Smart Contract Triggered<br/>
+<b>Step 2: Smart Contract Triggered</b><br/>
 When Alicia sends her transaction to the network, it triggers a smart contract that checks with the nodes on the network to make sure Alicia has the currency to spend, and that she hasn't already spent it. Once checked, the transaction is added to a proposed block.
-&nbsp;
+<br/>&nbsp;
 
-Step 3: Operators Spread Transaction<br/>
+<b>Step 3: Operators Spread Transaction</b><br/>
 Proposed block is communicated to the network through the peer-to-peer protocols.
-&nbsp;
+<br/>&nbsp;
 
-Step 4: Consensus<br/>
+<b>Step 4: Consensus</b><br/>
 In order for the Bitcoin network to validate a block, nodes or miners must validate the correctness of a block by completing a math problem first. The node that completes the Proof of Work equation first is rewarded with some newly minted Bitcoin. Once a solution for the equation is reached, the other nodes can easily check its accuracy, thereby accepting the new block onto the blockchain.
-&nbsp;
+<br/>&nbsp;
 
-Step 5: Spread The New Block<br/>
+<b>Step 5: Spread The New Block</b><br/>
 This block is spread throughout the network through the same peer-to-peer communications we used for the transaction. When block operators receive a copy of the new block, they add it to their copy of the distributed ledger. This guarantees that all members of the peer network agree on the current state of the blockchain’s distributed ledger.
-&nbsp;
+<br/>&nbsp;
 
-Step 6: Transaction Completed<br/>
+<b>Step 6: Transaction Completed</b><br/>
 The user’s wallet monitors for the creation of new blocks that include transactions associated with the user. When a block containing the completed code from the user’s operation is received, an event is created to notify the user that the operation is complete. When the block containing Alicia’s Bitcoin transfer to Billy is added to the blockchain, an alert will be sent to the affected wallets that the transaction was accepted and completed.
-&nbsp;
+<br/>&nbsp;
 </p>
 
 <h3>Consensus in Blockchain</h3>
@@ -3234,7 +3258,7 @@ In this section, we will discuss the details of how a blockchain network comes t
 One of the most important components to blockchain is this idea of group consensus.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ Governance models ----------------------------------------->
+<!--------------------------------- Governance models (120) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-blockchain-governance-models.png?raw=true"
@@ -3601,23 +3625,25 @@ This direction is guided by a set of norms or rules and a way to enforce or keep
 The mechanism to enforce these policies can take many forms from a dictator who has complete control to a democratic governance model where the voice of the majority is recognized.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ Governance models ----------------------------------------->
+<!--------------------------------- Governance Models (120) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image-blockchain-governance-models.png?raw=true"
+<img src="/images/image-blockchain-governance-model.png?raw=true"
 	alt="Blockchain Governance Models"
-	width="85%" >
+	width="85%" </p>
  
 Blockchain governance models reflect a more democratic flavor due to the open source environment. Blockchains are composed of a community of users who work together to strengthen the system. The degree in which the majority rules can vary.
-  •	Representative democracy
+<ul>
+<li>Representative democracy<br/>
 This type of governance has a few individuals, empowered by the group, to suggest new rules and guide future direction.
 The amount of authority the representative has is granted by the majority.
 The representatives selected reflect the views of the majority and are given authority to guide the community.
 The control comes from the community and representatives are presumed to act in the best interest of the governed. 
 This type of governance is more efficient as only a few debate the issue and decide on policy.
-Issues can occur when the majority opinion unevenly reflects the community, causing minority groups to be underserved. Also the assumption is that the representatives are acting on the best behalf of the group and not in their own best interests.
-  •	Direct democracy
-All decisions regarding the governance of the group are voted on by the entire community. In this form of governance model every vote counts and people have more control over the quality of policies. In this model it is best to have an educated community where everyone is willing to participate for the good of the whole.
+Issues can occur when the majority opinion unevenly reflects the community, causing minority groups to be underserved. Also the assumption is that the representatives are acting on the best behalf of the group and not in their own best interests.</li>
+<li>Direct democracy<br/>
+All decisions regarding the governance of the group are voted on by the entire community. In this form of governance model every vote counts and people have more control over the quality of policies. In this model it is best to have an educated community where everyone is willing to participate for the good of the whole.</li>
+</ul>
 
 <h3>How Does Blockchain Fit Into Governance?</h3>
 Each and every blockchain ecosystem that has or is being created will need some kind of governance mechanism in place. 
