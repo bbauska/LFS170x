@@ -2587,7 +2587,7 @@ By the end of this chapter, you should be able to:
 <li>Explore different methods of achieving consensus (Proof of Work, Proof of Stake, etc.).</li>
 </ul>
 <h3 id="ch3-2">3.2 What Are Smart Contracts?</h3>
-When we make a transaction on the blockchain, understand that there are only three types of transactions we can make.
+When we make a transaction on the blockchain, understand that there are only three types of transactions we can make.<br/>
 
 It's what I refer to as the onion model of blockchain.
 
@@ -2678,7 +2678,7 @@ Let’s review some basic information about smart contracts:
 </ul>
  
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- smart contracts handshake ----------------------------------->
+<!------------------------------- smart contracts handshake (83) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-smart-contracts-handshake.png?raw=true"
@@ -2690,13 +2690,13 @@ These are some of the features that smart contracts provide:
 <ul>
 <li>Accuracy</li>
 Replacing human intermediaries with executable code ensures the process will always be performed the same.</li>
-<li>Cost savings
+<li>Cost savings</li>
 Replacing intermediaries often provides significant cost reduction.</li>
-<li>Efficiency
+<li>Efficiency</li>
 Removing process intermediaries often results in significant process efficiency gains.</li>
-<li>Backup
+<li>Backup</li>
 A blockchain and smart contract deployed to it can provide a permanent record, allowing for auditing, insight, and traceability, even if the creator is no longer in business.</li>
-<li>Autonomy
+<li>Autonomy</li>
 Smart contracts can be developed by anyone, no need for intermediaries such as lawyers, brokers, or auditors.</li>
 </ul>
 
@@ -2744,7 +2744,7 @@ In this section, we will discuss some of the ways that security differs in tradi
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- blockchain security ----------------------------------------->
+<!-------------------------------- blockchain security (84) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-blockchain-security.png?raw=true"
@@ -2858,6 +2858,7 @@ Finally, traditional infrastructure and blockchain differ in their goals regardi
 
 <h3>Lab 3: The Blockchain</h3>
 Next, let's engage with an interactive lab. In this lab, you will be examining a blockchain containing five blocks, each labeled according to position. Enjoy!
+&nbsp;
 
 [Start Lab](https://blockchaintrainingalliance.com/pages/lab-distributed)
 
@@ -2865,13 +2866,9 @@ Next, let's engage with an interactive lab. In this lab, you will be examining a
 When we try to understand the main difference between a public and private blockchain, it is important to understand the terminology.
 <ul>
 <li>Public Blockchains<br/>
-<p>
 A public blockchain is open to anyone to join. 
-
 Public blockchains are decentralized where no one has control over the network. 
-
 These immutable and censorship resistant networks are ideal for participants who don't trust each other, but still interact in a network and take part in consensus. 
-</p>
 Bitcoin and Ethereum are examples of public, permissionless blockchains.</li>
 <li>Permissionless Blockchains<br/>
 Public blockchains are permissionless. Anyone effectively can join the blockchain network. No one is prohibited from joining.</li>
