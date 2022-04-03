@@ -3608,14 +3608,21 @@ The rules should be aligned with the overall participants' goals, and the leader
 Now that we have a simple understanding of governance, let’s analyze how this is taking place in both the standard world and the blockchain world.
 
 <h3 id="ch4-3">4.3 Governance Explained</h3>
+<p>
 Every business wants to make sure it's getting the best out of technology spending.
+
 IT governance is a formal framework that provides a structure for organizations to ensure that technology investments support business objectives.
+
 Now we all know that, despite our best efforts, things occasionally do go wrong.
+
 A large part of modern governance efforts includes planning for disasters in a way that ensures business continuity - the ability to remain available to customers no matter what.
+
 Modern decentralized solutions are most often created in a cooperative or consortium format - a shared joint effort business organizations.
+
 In these initiatives, it is important not only for clear and comprehensive governance to be in place, but for that governance to be consistent across participating organizations.
 
 These type of cross-organizational governance efforts represent an entirely new type of project initiative, and will require business analysts, solution architects, product and program managers, and executive leaders who understand the incredible potential and massive disruption that decentralized solution architectures bring to focus.
+</p>
 
 <h3>Governance Models</h3>
 A basic description of governance can be defined as a system by which behavior is directed.
@@ -3646,7 +3653,8 @@ All decisions regarding the governance of the group are voted on by the entire c
 </ul>
 
 <h3>How Does Blockchain Fit Into Governance?</h3>
-Each and every blockchain ecosystem that has or is being created will need some kind of governance mechanism in place. 
+Each and every blockchain ecosystem that has or is being created will need some kind of governance mechanism in place.
+
 As discussed in the [“Bitcoin and Blockchain Governance: What It Is and Why It Matters”](https://www.bitcoinmarketjournal.com/bitcoin-and-blockchain-governance/) article by Evan Karnoupakis, traditional systems and laws are made and then enforced. When participants (miners, developers, and users) in the network are interacting, ideally they are acting in a way that’s best for the overall group. Being able to build a governance structure in a decentralized (sometimes anonymous, as well) world has proven to be extremely difficult, but this is a problem that many DLT companies are in the midst of solving.
 
 Most governance structures in the blockchain ecosystem are looking to achieve similar goals, such as:
