@@ -3327,47 +3327,87 @@ The security of the Proof of Work consensus is based on the assumption that no o
 <h3>Proof of Stake</h3>
 Proof of Stake comes with a number of improvements to Proof of Work systems, it requires less energy and has a lower barrier to entry since no specialized hardware is required to create blocks.
 
-In the same article that we mentioned on a previous page, the author explains,
+In the same [article](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) that we mentioned on a previous page, the author explains,
 
-"Users in a Proof of Stake blockchain can "stake" or promise not to use the tokens they own. This gives them the opportunity to be selected as the next user to create or "forge" a new block and earn the reward. A block forger is pseudo-randomly selected from all of the users who have staked some of their assets, and the selection process is biased based on the size of the stake.
-
+<blockquote>
+"Users in a Proof of Stake blockchain can "stake" or promise not to use the tokens they own. This gives them the opportunity to be selected as the next user to create or "forge" a new block and earn the reward. A block forger is pseudo-randomly selected from all of the users who have staked some of their assets, and the selection process is biased based on the size of the stake.<br/>
 For example, imagine that a wheel is divided into sections where the size of a section is proportional to the size of a user’s stake. The next block creator would be chosen by spinning the wheel and seeing whose section comes out on top. In Proof of Stake, each user has a copy of the wheel and they are all synchronized so that each person can independently determine the selection and get the same result. This is why Proof of Stake uses a pseudo-random instead of a random selection process".
+</blockquote>
 
 In Proof of Stake, an attacker needs to control enough of the staked currency to guarantee they will be selected to create every block. Since cryptocurrency is a limited asset, buying up enough of it to do this is expensive, making attacks on Proof of Stake systems economically infeasible.
 
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Proof of Stake (108) ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-proof-of-stake.png?raw=true"
+	alt="Proof of Stake"
+	width="65%" >
+&nbsp;
+
 <h3>Fault Tolerance in the Blockchain</h3>
 In blockchain, it is essential all participants agree to the state of the ledger. Shared decentralized ledgers arrive at network agreement or the state of the ledger by consensus algorithms. But what happens if all participants in the network don’t agree? Let's discuss the concept of Fault tolerance and why it is an important blockchain concept.
-As described by Demiro Massessi,
+
+As described by [Demiro Massessi](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03),
+<blockquote>
 "Blockchain is a distributed, decentralized system that maintains a shared state. While consensus algorithms are designed to make it possible for the network to agree on the state, there is the possibility that agreement does not occur. Fault tolerance is an important aspect of blockchain technology".
+</blockquote>
 
 <h3>Fault Tolerance</h3>
+<p>
 One of the things we've talked about extensively in this series is how inefficient and redundant blockchain is and that is by design.
+
 That's what gives us immutability.
+
 And another thing it gives us is an extreme level of fault tolerance.
+
 At its heart, blockchain runs on a peer-to-peer network architecture in which every node is considered equal to every other node.
+
 And unlike traditional client-server models, every node acts as both a client and a server.
+
 And so, we continue this redundancy down at the network level, where we're asking all these nodes to perform the same work as all these other nodes.
+
 Like any peer-to-peer system, we have an extremely high degree of fault tolerance.
+
 In fact, if we have two or more nodes online in a blockchain system, we still have a working blockchain.
+
 And when you think about that amazing fact given the scale of major public blockchains, you can see the inbuilt fault tolerance.
+
 Let's look at Bitcoin for an example.
+
 That's a blockchain that consists of over 30 thousand nodes coming to consensus on every block.
+
 As long as we have two or more of those nodes online and able to communicate, we still have a working solution.
+
 That gives us a tremendous margin for error, for nodes coming and going offline, for network transport issues, and it makes blockchain really, really a great platform to use in environments with less than ideal networks and power infrastructure, because we can have nodes come offline, go back online and when a node comes online after being offline for a while, all it has to do is sync up, and get all the data that it missed while it's been offline from all of its peers, and then it's right back online participating like all the rest.
+
 This is very different from the centralized systems that blockchain aims to replace.
+
 In a traditional client-server model, if that server is offline, those clients have no way of getting the data that they requested or performing the operations they'd like to perform.
+
 This is not the case in blockchain.
+
 And if we look back historically at other peer-to-peer solutions, solutions like Bittorrent or Napster, we've seen the tremendous difficulty that authorities have had taking some of these networks offline.
+
 That is due to the fault tolerance you get from a peer-to-peer architecture.
+
 In fact, we saw this recently during the Arab Spring, when the Egyptian government decided one night to shut down Internet access for the entire country.
+
 Well, within 24 hours Egypt was back online and connected to the Internet through a network-sharing mechanism known as mesh networking, which at its heart is just a peer-to-peer method for sharing Internet connectivity.
+
 We know that peer-to-peer has a long history of providing extremely high fault tolerance and reliability, and that's why we've chosen to build a platform like blockchain on top of it.
+
 If you're looking for a solution platform that offers you that kind of incredible fault tolerance, if you're looking to deploy a solution into areas with less than ideal infrastructure or under conditions where nodes may come online and go offline frequently, then blockchain may be a really good platform to look at.
-The Byzantine Generals' Problem
-The Byzantine Generals' Problem has been thoroughly explained in the Medium article by Demiro Massessi,
+</p>
+
+<h3>The Byzantine Generals' Problem</h3>
+
+The Byzantine Generals' Problem has been thoroughly explained in the [Medium article](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) by Demiro Massessi,
+<blockquote>
 "The Byzantine Generals' Problem is a scenario designed to demonstrate the difficulty of multiple parties coming to an agreement when communication can only be accomplished on a one-to-one basis and is untrusted. In the story, several Byzantine Generals are besieging a city with their separate armies. If they all attack together or all retreat together, they will be ok, but if some attack while others retreat, they will be destroyed.
 The generals can only communicate by messengers, who could be intercepted and forced to carry fake messages, and one or more generals may be a traitor. The goal is to find a way to achieve a consensus on strategy despite the possibility of traitors and false messages. Presumably, all generals will abide by what they believe is the majority consensus. The Byzantine Generals' Problem is solvable as long as two-thirds of the generals are honest.
 Blockchain is designed to be Byzantine Fault Tolerant, meaning that the network will come to a consensus on the official state of the blockchain, despite the fact that some members may misbehave. The solution to the Byzantine Generals' Problem is inefficient, so the blockchain needs some way of being confident of consensus without going through a full solution".
+</blockquote>
 
 <h3>Proof of Work vs. Proof of Stake</h3>
 We've talked a lot in this course about Proof of Work versus Proof of Stake.
@@ -3452,7 +3492,7 @@ Block rewards are newly minted Bitcoin granted to the miners that solve the puzz
 
 Built into the Bitcoin blockchain protocol, is an event called halving. 
 
-Bitcoin halving happens every four years and Bitcoin’s block reward gets cut in half. 
+[Bitcoin halving](https://www.investopedia.com/bitcoin-halving-4843769) happens every four years and Bitcoin’s block reward gets cut in half. 
 
 The halving occurs when the block height reaches a certain point (210,000 blocks) which is programmed into the protocol. 
 
@@ -3470,34 +3510,35 @@ About ⅔ of the 21 million BTC have been mined so far.
 Ethereum Consensus Model
 Ethereum currently uses Proof of Work for a consensus model. 
 
-Ethereum was introduced in a white paper by Vitaly Dmitriyevich "Vitalik" Buterin, a Russian-Canadian entrepreneur and programmer from Toronto. 
+Ethereum was introduced in a white paper by [Vitaly Dmitriyevich "Vitalik" Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), a Russian-Canadian entrepreneur and programmer from Toronto. 
 
 He envisioned the second-largest cryptocurrency when he “forked” or copied the Bitcoin code, made improvements and created the Ethereum blockchain. 
 
-This new blockchain was not only a currency exchange system but along with the Ethereum Virtual Machine, an interconnect, turing complete computer, open to programmers to develop. 
+This new blockchain was not only a currency exchange system but along with the [Ethereum Virtual Machine](https://ethereum.org/en/developers/docs/evm/), an interconnect, turing complete computer, open to programmers to develop. 
 
 It creates a platform that smart contracts can be executed and applications can be built upon. 
 
 Ethereum has always planned to move away from a Proof of Work consensus mechanism to a Proof of Stake. 
 
-Plans for Ethereum to adopt Proof of Stake will occur when Ethereum 2.0 is incorporated, this improvement is expected sometime in the second half of 2021.
+Plans for Ethereum to adopt Proof of Stake will occur when [Ethereum 2.0](https://ethereum.org/en/upgrades/) is incorporated, this improvement is expected sometime in the second half of 2021.
 
 <h3>Hyperledger Fabric Consensus Model</h3>
 Hyperledger Fabric is a private permissioned blockchain platform that breaks consensus into components, allowing users to pick a consensus algorithm for their particular situation. Instead of a predetermined consensus model, Hyperledger has an ordering service that performs consensus related events, this ordering component can pick the consensus model that best suits the blockchains needs. 
 
 By approaching consensus in this modular fashion, Hyperledger DLT’s can change consensus models without huge overhauls to the code base.
 
-As explained by Demiro Massessi,
+As explained by [Demiro Massessi](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03),
 <blockquote>
 "Hyperledger Fabric deliberately avoided hard-coding a consensus mechanism into the protocol by defining an “orderer component” that performs all of the consensus-related operations. This allows users of Hyperledger Fabric to select a consensus algorithm that fits their use case without being forced to make large-scale code edits".
 </blockquote>
 
 <h3>Corda Consensus Model</h3>
-Corda is a private permissioned blockchain. 
+
+[Corda](https://www.corda.net/) is a private permissioned blockchain. 
 
 Each Corda network has a notary service made up of independent parties that approve blocks using any applicable consensus algorithms.
 
-As mentioned in Jamiel Sheikh's book “Mastering Corda: Blockchain for Java Developers”, R3 provides a set of Corda applications called The Corda Business Network Toolkit to manage one or more Corda networks. 
+As mentioned in [Jamiel Sheikh's](https://jamiel.io/#about-me) book “Mastering Corda: Blockchain for Java Developers”, R3 provides a set of Corda applications called The Corda Business Network Toolkit to manage one or more Corda networks. 
 
 Corda does not follow the standard blockchain model of transactions being bundled into blocks and then being finalized by the network as a whole. 
 
@@ -3520,11 +3561,16 @@ In this chapter, we discussed:
 <h3>Chapter Overview</h3>
 <p>
 In this section, we will cover blockchain governance. 
+
 We will start by discussing the cooperative way blockchain companies share the computer code for this technology. 
+
 We will also explore how this open source environment is fostering new innovations. 
 And then we will examine who really is in charge of blockchains and how the network effect determines the direction a blockchain will take.
+
 Next, we will take a look at how these trustless systems with open interactions are more secure than past systems. 
+
 Finally, we will dive into the idea of collaboration among parties who don't trust each other and how blockchain technology is changing how the global community can interact. 
+
 This new form of world wide collaboration can be the key to solving the world's toughest problems.
 </p>
 
