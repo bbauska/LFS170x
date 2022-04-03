@@ -3303,15 +3303,30 @@ But the takeaway point to understand is that, it's this consensus, it is this id
 That gives blockchain that high level of trust and that makes it such a secure record store.
 
 <h3>Introduction to Consensus in the Blockchain</h3>
-As discussed in the "Blockchain Consensus and Fault Tolerance In a Nutshell" article by Demiro Massessi,
+
+As discussed in the ["Blockchain Consensus and Fault Tolerance In a Nutshell"](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) article by Demiro Massessi,
 <blockquote>
-"The blockchain is designed to be a shared, synchronized historical ledger, meaning that there needs to be a final decision at some point on what should and shouldn’t be included in the official record. Since blockchain is decentralized, there is no "higher authority" that can rubber-stamp and finalize the contents of a blockchain block.
+"The blockchain is designed to be a shared, synchronized historical ledger, meaning that there needs to be a final decision at some point on what should and shouldn’t be included in the official record. Since blockchain is decentralized, there is no "higher authority" that can rubber-stamp and finalize the contents of a blockchain block.<br/>
+
 The method that [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto), creator of the Bitcoin network, invented to achieve consensus is based on scarcity. In one way or another, blockchain consensus algorithms boil down to some kind of vote where the number of votes that a user has is tied to the amount of a limited resource that is under the user’s control. Based on the economic law of supply and demand, collecting enough of an asset to have a controlling share will drive up the price of the asset enough to make achieving that level of control unfeasibly expensive".
 </blockquote>
 
 <h3>Consensus Mechanisms</h3>
-In order to ensure no one spent the same Bitcoin twice, Satoshi Nakamoto created the consensus algorithm called Proof of Work for the Bitcoin network. Since then, several other consensus algorithms have been invented to fit different use cases. These include Proof of Stake, Delegated Proof of Stake, Practical Byzantine Fault Tolerance, and Proof of Elapsed Time. The most commonly used consensus algorithms are Proof of Work and Proof of Stake.
- 
+<p>
+In order to ensure no one spent the same Bitcoin twice, Satoshi Nakamoto created the consensus algorithm called Proof of Work for the Bitcoin network. <br/>
+Since then, several other consensus algorithms have been invented to fit different use cases. <br/>
+These include Proof of Stake, Delegated Proof of Stake, Practical Byzantine Fault Tolerance, and Proof of Elapsed Time. <br/>
+The most commonly used consensus algorithms are Proof of Work and Proof of Stake.
+</p>
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Consensus Mechanisms (105) ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-consensus-mechanisms.png?raw=true"
+	alt="Consensus Mechanisms"
+	width="65%" >
+&nbsp;
+
 <h3>Proof of Work</h3>
 
 As explained in the ["Blockchain Consensus and Fault Tolerance In a Nutshell"](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) article by Demiro Massessi,
@@ -3323,6 +3338,7 @@ Proof of Work exploits the scarcity of computational resources by choosing a pro
 Also, the process of mining requires computing power that runs on electricity. 
 
 Some argue the Bitcoin network is not sustainable because of its increasing need for electricity. 
+
 The argument against this assumes Bitcoin miners are out to make a profit and by using renewable energy sources to power the mining operations they will be more profitable. 
 
 As a result of seeking out carbon-friendly energy sources, mining companies will bring new renewable energy solutions to the power grids.
