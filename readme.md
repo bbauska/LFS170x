@@ -3348,7 +3348,9 @@ In the same [article](https://medium.com/coinmonks/blockchain-consensus-and-faul
 For example, imagine that a wheel is divided into sections where the size of a section is proportional to the size of a user’s stake. The next block creator would be chosen by spinning the wheel and seeing whose section comes out on top. In Proof of Stake, each user has a copy of the wheel and they are all synchronized so that each person can independently determine the selection and get the same result. This is why Proof of Stake uses a pseudo-random instead of a random selection process".
 </blockquote>
 
-In Proof of Stake, an attacker needs to control enough of the staked currency to guarantee they will be selected to create every block. Since cryptocurrency is a limited asset, buying up enough of it to do this is expensive, making attacks on Proof of Stake systems economically infeasible.
+In Proof of Stake, an attacker needs to control enough of the staked currency to guarantee they will be selected to create every block. 
+
+Since cryptocurrency is a limited asset, buying up enough of it to do this is expensive, making attacks on Proof of Stake systems economically infeasible.
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- Proof of Stake (108) ---------------------------------------->
@@ -3360,12 +3362,21 @@ In Proof of Stake, an attacker needs to control enough of the staked currency to
 &nbsp;
 
 <h3>Fault Tolerance in the Blockchain</h3>
-In blockchain, it is essential all participants agree to the state of the ledger. Shared decentralized ledgers arrive at network agreement or the state of the ledger by consensus algorithms. But what happens if all participants in the network don’t agree? Let's discuss the concept of Fault tolerance and why it is an important blockchain concept.
+In blockchain, it is essential all participants agree to the state of the ledger. Shared decentralized ledgers arrive at network agreement or the state of the ledger by consensus algorithms. But what happens if all participants in the network don’t agree? Let's discuss the concept of Fault tolerance and why it is an important blockchain concept.<br/>
 
 As described by [Demiro Massessi](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03),
 <blockquote>
 "Blockchain is a distributed, decentralized system that maintains a shared state. While consensus algorithms are designed to make it possible for the network to agree on the state, there is the possibility that agreement does not occur. Fault tolerance is an important aspect of blockchain technology".
 </blockquote>
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Byzantine Fault Tolerance (109) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-byzantine-fault.png?raw=true"
+	alt="Byzantine Fault Tolerance"
+	width="65%" >
+&nbsp;
 
 <h3>Fault Tolerance</h3>
 <p>
@@ -3418,8 +3429,8 @@ If you're looking for a solution platform that offers you that kind of incredibl
 
 The Byzantine Generals' Problem has been thoroughly explained in the [Medium article](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) by Demiro Massessi,
 <blockquote>
-"The Byzantine Generals' Problem is a scenario designed to demonstrate the difficulty of multiple parties coming to an agreement when communication can only be accomplished on a one-to-one basis and is untrusted. In the story, several Byzantine Generals are besieging a city with their separate armies. If they all attack together or all retreat together, they will be ok, but if some attack while others retreat, they will be destroyed.
-The generals can only communicate by messengers, who could be intercepted and forced to carry fake messages, and one or more generals may be a traitor. The goal is to find a way to achieve a consensus on strategy despite the possibility of traitors and false messages. Presumably, all generals will abide by what they believe is the majority consensus. The Byzantine Generals' Problem is solvable as long as two-thirds of the generals are honest.
+"The Byzantine Generals' Problem is a scenario designed to demonstrate the difficulty of multiple parties coming to an agreement when communication can only be accomplished on a one-to-one basis and is untrusted. In the story, several Byzantine Generals are besieging a city with their separate armies. If they all attack together or all retreat together, they will be ok, but if some attack while others retreat, they will be destroyed.<br/>
+The generals can only communicate by messengers, who could be intercepted and forced to carry fake messages, and one or more generals may be a traitor. The goal is to find a way to achieve a consensus on strategy despite the possibility of traitors and false messages. Presumably, all generals will abide by what they believe is the majority consensus. The Byzantine Generals' Problem is solvable as long as two-thirds of the generals are honest.<br/>
 Blockchain is designed to be Byzantine Fault Tolerant, meaning that the network will come to a consensus on the official state of the blockchain, despite the fact that some members may misbehave. The solution to the Byzantine Generals' Problem is inefficient, so the blockchain needs some way of being confident of consensus without going through a full solution".
 </blockquote>
 
@@ -3482,7 +3493,7 @@ If you're curious about the difference between them, how they work and what the 
 Let's recap differences between Proof of Work and Proof of Stake:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Proof of work chart ----------------------------------------->
+<!--------------------------------- Proof of work chart (114) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-proof-of-work-chart.png?raw=true"
@@ -3491,7 +3502,7 @@ Let's recap differences between Proof of Work and Proof of Stake:
 &nbsp;
 <br/>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Proof of stake chart --------------------------------------->
+<!--------------------------------- Proof of stake chart (114) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-proof-of-stake-chart.png?raw=true"
