@@ -3315,12 +3315,26 @@ In order to ensure no one spent the same Bitcoin twice, Satoshi Nakamoto created
 <h3>Proof of Work</h3>
 
 As explained in the ["Blockchain Consensus and Fault Tolerance In a Nutshell"](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) article by Demiro Massessi,
-
-"In Proof of Work, users in the blockchain network who want to create the next block (and win the associated reward) are called miners. To win the right to mine a block, miners race to find an acceptable solution to a “hard” cryptographic problem. (...), “hard” mathematical problems can only be solved by random guessing. When a miner finds an acceptable solution, they create a block and broadcast it to the network, finalizing that block.
-
+<blockquote>
+"In Proof of Work, users in the blockchain network who want to create the next block (and win the associated reward) are called miners. To win the right to mine a block, miners race to find an acceptable solution to a “hard” cryptographic problem. (...), “hard” mathematical problems can only be solved by random guessing. When a miner finds an acceptable solution, they create a block and broadcast it to the network, finalizing that block.<br/>
 Proof of Work exploits the scarcity of computational resources by choosing a problem that can only be solved by guessing. There is no limit on the number of guesses that a miner can make at once. Proof of Work, therefore, incentivizes miners to run as many mining machines as possible to maximize the probability that they are the first to find a solution to the problem. Since mining computers take money to purchase and money to run, the amount of control that a user can exert over the blockchain is limited by the amount of money they have available to invest in mining equipment".
+</blockquote>
 
-Also, the process of mining requires computing power that runs on electricity. Some argue the Bitcoin network is not sustainable because of its increasing need for electricity. The argument against this assumes Bitcoin miners are out to make a profit and by using renewable energy sources to power the mining operations they will be more profitable. As a result of seeking out carbon-friendly energy sources, mining companies will bring new renewable energy solutions to the power grids.
+Also, the process of mining requires computing power that runs on electricity. 
+
+Some argue the Bitcoin network is not sustainable because of its increasing need for electricity. 
+The argument against this assumes Bitcoin miners are out to make a profit and by using renewable energy sources to power the mining operations they will be more profitable. 
+
+As a result of seeking out carbon-friendly energy sources, mining companies will bring new renewable energy solutions to the power grids.
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Proof of Work (107) ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-proof-of-work.png?raw=true"
+	alt="Proof of Work"
+	width="65%" >
+&nbsp;
  
 The security of the Proof of Work consensus is based on the assumption that no one controls more than half of the computational resources of a blockchain’s mining network. If one entity controls 51% of the mining effort, they control consensus. To take control would require a huge investment in equipment and energy, more than would be gained by defrauding the system.
 
