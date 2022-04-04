@@ -3223,22 +3223,27 @@ Let's follow the step with a basic Bitcoin transaction. If Alicia wants to send 
 
 It is worth mentioning here that cryptocurrencies are a function of a particular blockchain, the Bitcoin blockchain only transacts bitcoin and the Ethereum blockchain can only exchange Ether. To initiate the transaction, Alicia would make a request of the system to send Bitcoin to Billy’s wallet by specifying the amount and Billy’s Bitcoin address.
 <br/>&nbsp;
+
 <b>Step 2: Smart Contract Triggered</b><br/>
 When Alicia sends her transaction to the network, it triggers a smart contract that checks with the nodes on the network to make sure Alicia has the currency to spend, and that she hasn't already spent it. Once checked, the transaction is added to a proposed block.
 <br/>&nbsp;
+
 <b>Step 3: Operators Spread Transaction</b><br/>
 Proposed block is communicated to the network through the peer-to-peer protocols.
 <br/>&nbsp;
+
 <b>Step 4: Consensus</b><br/>
 In order for the Bitcoin network to validate a block, nodes or miners must validate the correctness of a block by completing a math problem first. The node that completes the Proof of Work equation first is rewarded with some newly minted Bitcoin. Once a solution for the equation is reached, the other nodes can easily check its accuracy, thereby accepting the new block onto the blockchain.
 <br/>&nbsp;
+
 <b>Step 5: Spread The New Block</b><br/>
 This block is spread throughout the network through the same peer-to-peer communications we used for the transaction. When block operators receive a copy of the new block, they add it to their copy of the distributed ledger. This guarantees that all members of the peer network agree on the current state of the blockchain’s distributed ledger.
 <br/>&nbsp;
+
 <b>Step 6: Transaction Completed</b><br/>
 The user’s wallet monitors for the creation of new blocks that include transactions associated with the user. When a block containing the completed code from the user’s operation is received, an event is created to notify the user that the operation is complete. When the block containing Alicia’s Bitcoin transfer to Billy is added to the blockchain, an alert will be sent to the affected wallets that the transaction was accepted and completed.
-<br/>&nbsp;
 </p>
+
 <h3>Consensus in Blockchain</h3>
 Consensus in blockchain is moving away from a centralized system where one entity keeps track of the ledger towards a decentralized system where trust does not rest with one entity but all entities and what they decide together. 
 
@@ -3320,8 +3325,11 @@ The method that [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamot
 <h3>Consensus Mechanisms</h3>
 <p>
 In order to ensure no one spent the same Bitcoin twice, Satoshi Nakamoto created the consensus algorithm called Proof of Work for the Bitcoin network. <br/>
+
 Since then, several other consensus algorithms have been invented to fit different use cases. <br/>
+
 These include Proof of Stake, Delegated Proof of Stake, Practical Byzantine Fault Tolerance, and Proof of Elapsed Time. <br/>
+
 The most commonly used consensus algorithms are Proof of Work and Proof of Stake.
 </p>
 <!------------------------------------------------------------------------------------------------>
@@ -3384,7 +3392,8 @@ Since cryptocurrency is a limited asset, buying up enough of it to do this is ex
 &nbsp;
 
 <h3>Fault Tolerance in the Blockchain</h3>
-In blockchain, it is essential all participants agree to the state of the ledger. Shared decentralized ledgers arrive at network agreement or the state of the ledger by consensus algorithms. But what happens if all participants in the network don’t agree? Let's discuss the concept of Fault tolerance and why it is an important blockchain concept.<br/>
+In blockchain, it is essential all participants agree to the state of the ledger. Shared decentralized ledgers arrive at network agreement or the state of the ledger by consensus algorithms. But what happens if all participants in the network don’t agree? Let's discuss the concept of Fault tolerance and why it is an important blockchain concept.
+<br/>
 
 As described by [Demiro Massessi](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03),
 <blockquote>
@@ -3677,11 +3686,11 @@ These norms become the rules by which the behavior of the group is governed.
 It doesn’t matter if the governance is the real world or the digital world, there are shared underlying principles within both. Let's take a look at who is involved.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ Governance models ----------------------------------------->
+<!----------------------------- Participants in Governance (119) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-participants-in-governance.png?raw=true"
-	alt="Blockchain Governance Models"
+	alt="Participants in Governance"
 	width="65%" >
 
 Governance can be undertaken by a government, market, network, organization, social system or family.
@@ -3751,10 +3760,26 @@ Most governance structures in the blockchain ecosystem are looking to achieve si
 <h3>On-Chain vs. Off-Chain Governance</h3>
 These goals can be achieved through many different methods of governance. When designing a blockchain, choices between on-chain and off-chain governance must be balanced.
 In the on-chain governance, rules for instituting changes are encoded into the blockchain protocol. This means that any decision being made is automatically being translated into code (e.g. decisions concerning block size). Developers propose changes through code updates and each node votes on whether to accept or reject the proposed change.
- 
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- On Chain Governance Pros and Cons (122) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-on-chain-pros-cons.png?raw=true"
+	alt="On-Chain Governance Pros and Cons"
+	width="65%" </p>
+
 On the other hand, as discussed in the Medium article "Revisiting the On-chain Governance vs. Off-chain Governance Discussion",
 "Off-chain governance can be seen as decision-making that first takes place on a social level and is later actively encoded into the protocol by the developers. For instance, Bitcoin developers share their improvement proposals (BIPs) through a mailing list, whereas Ethereum collects improvement protocols (EIPs) on GitHub.
 Fred Ehrsam (Coinbase co-founder) argues that the Bitcoin governance system resembles the checks and balances system of the US government. Just like the Senate, developers submit a pull request to the community, the miners take the role of the judiciary who decides whether or not proposals are adopted in practice. Lastly, the users are just like citizens in a nation or state and can revolt and switch protocols or sell their tokens".
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- Off Chain Governance Pros and Cons (123) --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-off-chain-pros-cons.png?raw=true"
+	alt="Off-Chain Governance Pros and Cons"
+	width="65%" </p>
 
 <h3>What Is Blockchain Governance?</h3>
 In the previous chapter, we discussed the decentralized characteristics of blockchains. But if blockchains are decentralized, how are decisions made and by who? Open source software organizations and open source software development projects need a way to manage projects. Most organizations are centralized and have a set leadership team. Before getting into the details of how governance works on the blockchain, it’s important to have a clear definition of what blockchain governance is.
