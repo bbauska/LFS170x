@@ -87,13 +87,15 @@ h1 {
 
 h2, .toc_title {
   font-weight: bold;
-  font-size: 14pt;
-  margin-left: -40px;
+  font-size: 14pt; 
+  <!--- margin-left: -40 ---->
+  margin-left: -10px;
 }
 
 h3, h4, h5, h6 {
   font-size: 14pt;
-  margin-left: -20px;
+  <!-- margin-left: -20 ---->
+  margin-left: 10px;
 }
 
 .toc_category, .toc_stylepoint {
