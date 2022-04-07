@@ -64,12 +64,12 @@
 }
 </style>
 
-
+/* was  font-size: 12.5pt; */
 body {
   background-color: #fff;
   color: #333;
   font-family: Bahnschrift;
-  font-size: 12.5pt;
+  font-size: 15.0pt;
   margin-right: 100px;
   margin-left: 100px;
 }
@@ -79,16 +79,16 @@ h1, h2, h3, h4, h5, h6, .toc_title {
   margin-top: 2em;
   margin-bottom: 1em;
 }
-
+/* was 18 */
 h1 {
   text-align: center;
-  font-size: 18pt;
+  font-size: 24pt;
 }
-
+/* was 16 */
 h2, .toc_title {
   font-weight: bold;
-  font-size: 16pt; 
-  <!--- margin-left: -40 ---->
+  font-size: 18pt; 
+/* was margin-left: -40 */
   margin-left: -10px;
 }
 
@@ -97,9 +97,9 @@ h3, h4, h5, h6 {
   <!-- margin-left: -20 ---->
   margin-left: 10px;
 }
-
+/* was 12.5 */
 .toc_category, .toc_stylepoint {
-  font-size: 12.5pt;
+  font-size: 15pt;
   padding-top: .3em;
   padding-bottom: .3em;
 }
@@ -121,9 +121,9 @@ td, th {
 code, samp, var {
   color: #060;
 }
-
+/* was 12.5 */
 pre {
-  font-size: 12.5pt;
+  font-size: 15.0pt;
   display: block;
   color: #060;
   background-color: #f8fff8;
@@ -193,10 +193,10 @@ hr {
   font-weight: bold;
   margin-left: -2%;
 }
-
+/* was font-family: sans-serif; */
 .stylepoint_subsection {
   color: #667799;
-  font-family: sans-serif;
+  font-family: Bahnschrift;
   font-size: 90%;
   font-weight: bold;
   margin-left: -1%;
@@ -204,7 +204,7 @@ hr {
 
 .stylepoint_subsubsection {
   color: #667799;
-  font-family: sans-serif;
+  font-family: Bahnschrift;
   font-size: 80%;
   font-weight: bold;
   margin-left: 0;
