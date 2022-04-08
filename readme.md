@@ -5048,7 +5048,7 @@ Retail central bank digital currency would be used as a digital twin for fiat cu
 Central Bank Digital Currencies are being considered across the globe.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Cemtral Bank Digital Currency Status ------------------------------>
+<!-------------------------- Cemtral Bank Digital Currency Status (168) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="85%" 
@@ -5184,7 +5184,7 @@ Businesses fueled by blockchain solutions are developing new relationships for m
 Supply chain data is not always visible or trusted. In recent times of disruption supply chains matter more than ever. Global supply chain and blockchain are working to secure systems to better handle these disruptions. The Covid pandemic shed light on the frailty of our supply chains which accelerated discussion over blockchain solutions. 
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Maersk & IBM logos (175) ------------------------------------->
+<!--------------------------------- Maersk & IBM logos (172) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -5253,7 +5253,7 @@ Farms are complicated ecosystems with many moving parts, careful timing, and sea
 The trend toward blockchain agriculture promises to make each step of growing and distributing food simpler. It will offer all parties involved a single source of truth for the agriculture supply chain. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------- Walmart logo (176) --------------------------------------->
+<!------------------------------------- Walmart logo (175) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -5426,7 +5426,7 @@ Watch these additional resources to learn more about the Smart Dubai initiative,
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Buffalo on Wyoming Flag (182) ------------------------------->
+<!---------------------------------- Buffalo on Wyoming Flag (180) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -5472,7 +5472,7 @@ According to the ["7 Ways Blockchain Can Be Used for Social Good"](https://innot
 More than 1.7 billion people around the world are unbanked and can’t access the financial services they need. [Kiva](https://www.kiva.org/) is an international nonprofit, founded in 2005 in San Francisco, with a mission to expand financial access to help underserved communities thrive. Kiva accomplishes this by crowdfunding loans and unlocking capital for the underserved, improving the quality and cost of financial services, and addressing the underlying barriers to financial access around the world. Through Kiva's work, students can pay for tuition, women can start businesses, farmers are able to invest in equipment and families can afford needed emergency care.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- Mission of the Rohingya Project. How it works (184) ---------------------->
+<!--------------------- Mission of the Rohingya Project. How it works (182) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -5496,12 +5496,12 @@ The mission of the Rohingya Project is to create the foundation for a viable fut
 The platform will tap into the potential of the Rohingya community and other marginalized people and offer options to counter their exclusion from the mainstream.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Displaced Rohingya Worldwide ----------------------------------->
+<!-------------------------------- Displaced Rohingya Worldwide ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="85%" 
-   src="/images/image-displaced.png?raw=true"
-   alt="Displaced Rohingya Worldwide"</>
+<img src="/images/image-displaced.png?raw=true"
+   alt="Displaced Rohingya Worldwide"
+   width="85%" />
 </p>
 
 The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social Impact project designed to improve disaster relief efforts as well as open up new pathways for local charity giving.
@@ -5509,18 +5509,18 @@ The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ Charity logo ---------------------------------------->
+<!---------------------------------------- Charity logo ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="85%" 
-   src="/images/image112.png?raw=true"
-   alt="Charity logo"</>
+<img src="/images/image112.png?raw=true"
+   alt="Charity logo"
+   width="85%" />
 </p>
 
 Created by three local meetup groups, [Ledger Academy](https://ledgeracademy.com/index.html), [Hyperledger Princeton](https://www.meetup.com/Hyperledger-Princeton/) and [Blockchain & AI Princeton](https://www.meetup.com/Blockchain-Princeton/). The project won the 2021 Government Blockchain Associations Award for Social Impact. The video of the awards ceremony can be viewed on [YouTube](https://www.youtube.com/watch?v=41DYKpLSvrs).
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- The Giving Chain (185) ------------------------------------->
+<!----------------------------------- The Giving Chain (183) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="65%" src="/images/image115.jpg?raw=true"
@@ -5551,8 +5551,9 @@ Application builder.</li>
 <!------------------------------- Consensys mesh companies --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="75%" src="/images/image114.png?raw=true"
-    alt="ConsenSys Mesh Companies"</>
+<img src="/images/image114.png?raw=true"
+   alt="ConsenSys Mesh Companies"
+   width="75%" />
 </p>
 
 <h3>Hyperledger</h3>
@@ -5563,8 +5564,9 @@ Application builder.</li>
 <!----------------------------- hyperledger green 'house' ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="85%" src="/images/image-hyperledger-house.png?raw=true"
-    alt="Hyperledger Greenhouse"</>
+<img src="/images/image-hyperledger-house.png?raw=true"
+   alt="Hyperledger Greenhouse"
+   width="85%" />
 </p>
 
 Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger [distributed ledgers](https://www.hyperledger.org/use/distributed-ledgers) and [libraries](https://www.hyperledger.org/use/libraries) on the Hyperledger website.
@@ -5573,8 +5575,9 @@ Hyperledger is an open source project with blockchains for you to build your sol
 <!----------- Hyperledger Websites: aries, besu, fabric, indy, iroha, and sawtooth --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="100%" src="/images/image-hyperledgers.jpg?raw=true"
-    alt="Hyperledger Websites: aries, besu, fabric, indy, iroha, and sawtooth"</>
+<img src="/images/image-hyperledgers.jpg?raw=true"
+   alt="Hyperledger Websites: aries, besu, fabric, indy, iroha, and sawtooth"
+   width="100%" />
 </p>
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -5595,8 +5598,9 @@ It is a cloud service that enables rapid distributed application deployment with
 <!---------------------------------------- A DAML logo ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="25%" src="/images/image117.png?raw=true"
-    alt="A DAML logo"</>
+<img src="/images/image117.png?raw=true"
+   alt="A DAML logo"
+   width="25%" />
 </p>
 
 <h3>SIMBA Chain</h3>
@@ -5612,12 +5616,12 @@ The easy-to-use platform is tailored for users, developers, government, and ente
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Simba logo (188) ------------------------------------------->
+<!----------------------------------- Simba logo (186) ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="25%" 
-   src="/images/image118.png?raw=true"
-   alt="Simba logo"</>
+<img src="/images/image118.png?raw=true"
+   alt="Simba logo"
+   width="25%" />
 </p>
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -5632,9 +5636,9 @@ This graphical model is then converted to Solidity where each asset and transact
 <!---------------------------- Simba - Software as a Service (SaaS)   ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="75%" 
-   src="/images/image119.png?raw=true"
-   alt="Simba - Software as a Service (SaaS)"</>
+<img src="/images/image119.png?raw=true"
+   alt="Simba - Software as a Service (SaaS)"
+   width="75%" />
 </p>
 
 SIMBA Chain also offers management services [(Software as a Service)](https://simbachain.com/enterprise/) for your blockchain solution that grant use of software solutions or APIs (application programming interface), across several cloud platforms so companies can effectively create blockchain solutions.
@@ -5654,9 +5658,9 @@ Marketplaces exist to shop renewable energies to make sustainable solutions avai
 <!----------------------------------- Clean Energy logo ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="25%" 
-   src="/images/image122.jpg?raw=true"
-   alt="Clean Energy logo"</>
+<img src="/images/image122.jpg?raw=true"
+   alt="Clean Energy logo"
+   width="25%" />
 </p>
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -5709,9 +5713,9 @@ Below you can see themusicianmarketplace.com dashboard:
 <!---------------------------------- musicianmarketplace.com ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="85%" 
-   src="/images/image123.jpg?raw=true"
-   alt="musicianmarketplace.com"</>
+<img src="/images/image123.jpg?raw=true"
+   alt="musicianmarketplace.com"
+   width="85%" />
 </p>
 
 <h3 id="ch6-6">6.6 What is the future of blockchain?</h3>
