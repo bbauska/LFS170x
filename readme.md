@@ -428,10 +428,10 @@ According to [Investopedia](https://www.investopedia.com/terms/f/fiatmoney.asp),
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------ government building --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image011.png?raw=true" 
    alt= "Government building" 
-   width="20%" >
+   width="20%" />
 &nbsp;
 
 Apart from the government issuing Fiat, a centralized authority needs to keep track of assets. 
@@ -440,9 +440,10 @@ Banks, credit card companies’ stockbrokers are companies that represent a cent
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- bank building <p align="center" ----------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="/images/image012.png?raw=true" 
-   "Bank building" 
-   width="20%" >
+   alt="Bank building" 
+   width="20%" />
 &nbsp;
 
 Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. 
@@ -452,10 +453,10 @@ Cryptocurrencies like Bitcoin have value because it can be proven with math. Unl
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- key, keyboard ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image013.png?raw=true" 
    alt="Key, keyboard" 
-   width="20%" >
+   width="20%" />
 &nbsp;
 
 [Bitcoin](https://bitcoinfoundation.org/) and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology.
@@ -468,10 +469,10 @@ There are many more use cases that utilize blockchain technology far reaching th
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------------- blockchain files ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image014.png?raw=true" 
    alt="Blockchain files" 
-   width="20%" >
+   width="20%" />
 &nbsp;
 
 <h3>Blockchain - Let’s Cover the Basics</h3>
@@ -542,7 +543,7 @@ If you go back and try and change any data on any page anywhere in this notebook
 <p align="center" width="100%">
 <img src="/images/image015.png?raw=true" 
 	alt="Notebook page, block on a blockchain" 
-	width="40%" >
+	width="40%" />
 &nbsp;
 
 <h3>Let’s Review an Analogy: Data Stored</h3>
@@ -558,36 +559,36 @@ Examples of stored data include:
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------------- data stored on block ----------------------------------->
+<!------------------------------------ data stored on block -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image016.png?raw=true" 
    alt="Data stored on block" 
-   width="40%" >
+   width="40%" />
 &nbsp;
 
 <h3>Let’s Review an Analogy: Blocks Are Chained Together</h3>
 Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Blockchains are chained together ------------------------------->
+<!------------------------------ blockchains are chained together -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image017.png?raw=true" 
 	alt="Blockchains are chained together" 
-	width="65%" >
+	width="65%" />
 &nbsp;
 
 <h3>Let’s Review an Analogy: Blockchain Is Immutable</h3>
 If the data is tampered with anywhere in the chain, the links will break in a very obvious way.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ Blockchain is Immutable ----------------------------------->
+<!----------------------------------- blockchain is immutable ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image018.png?raw=true" 
-	alt="Blockchain is immutable" 
-	width="65%" >
+<img src="/images/image018.png?raw=true"
+   alt="Blockchain is immutable"
+   width="65%" />
 &nbsp;
  
 This provides immutability and security.
@@ -599,10 +600,10 @@ Here are some features that make this new technology so revolutionary.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- Blockchain Features - distributed ledger ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image019.png?raw=true" 
-	alt="Blockchain Features - distributed ledger" 
-	width="65%" >
+<p align="center" width="100%">
+<img src="/images/image019.png?raw=true"
+	alt="Blockchain Features - distributed ledger"
+	width="65%" />
 &nbsp;
 
 <h3>Blockchain Features: Distributed Ledger</h3>
@@ -638,12 +639,12 @@ User node interacts with the ledger. With blockchain technology, a lack of a cen
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- Blockchain networks can be public or private --------------------------->
+<!------------------------ blockchain networks can be public or private -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image020.png?raw=true" 
-	alt="Blockchain networks can be public or private" 
-	width="65%" >
+<p align="center" width="100%">
+<img src="/images/image020.png?raw=true"
+	alt="Blockchain networks can be public or private"
+	width="65%" />
 &nbsp;
 
 Blockchain networks can be <i>public</i> or <i>private</i>. 
@@ -676,10 +677,10 @@ Since there is no central authority telling the nodes which transactions are val
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------All agree to transaction ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image021.png?raw=true" 
-   alt="All agree to transaction" 
-   width="65%" >
+<p align="center" width="100%">
+<img src="/images/image021.png?raw=true"
+   alt="All agree to transaction"
+   width="65%" />
 &nbsp;
 
 The way in which each blockchain comes to consensus is built into the protocol, they are the rules built into the code that determine how the nodes will add ledger transactions.
@@ -868,10 +869,10 @@ Benefits to the consumer are transparency to the consumer, accountability from s
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- Consumer benefits from blockchain ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image022.png?raw=true" 
-   alt="Consumer Benefits from Blockchain" 
-   width="65%" >
+<p align="center" width="100%">
+<img src="/images/image022.png?raw=true"
+   alt="Consumer Benefits from Blockchain"
+   width="65%" />
 &nbsp;
 
 Vertical markets see the advantage to the transparency feature in blockchain. Financials, logistics, charity funding, agriculture and ethical sourcing tracking are all markets leveraging blockchain to offer new insights to the customer.
@@ -883,10 +884,10 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- Trustchain logo ------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image023.png?raw=true" 
-   alt="Trustchain logo" 
-   width="20%" >
+<p align="center" width="100%">
+<img src="/images/image023.png?raw=true"
+   alt="Trustchain logo"
+   width="20%" />
 &nbsp;
 
    * <b>Approach:</b> The blockchain collaboration, known as [TrustChainTM](https://www.trustchainjewelry.com/), will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.
@@ -901,10 +902,10 @@ The shared ledger approach also eliminates the need for multiple paper copies th
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- Business Benefits from Blockchain  --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image024.png?raw=true" 
-   alt="Business Benefits from Blockchain" 
-   width="65%" >
+<p align="center" width="100%">
+<img src="/images/image024.png?raw=true"
+   alt="Business Benefits from Blockchain"
+   width="65%" />
 &nbsp;
 
 Industries like finance, international trade and commerce, food supply chains are taking a serious look at blockchain.
@@ -916,10 +917,10 @@ Industries like finance, international trade and commerce, food supply chains ar
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- Walmart Canada & DLT Labs logos ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image025.png?raw=true" 
-   alt="Walmart Canada & DLT Labs logos" 
-   width="40%" >
+<p align="center" width="100%">
+<img src="/images/image025.png?raw=true"
+   alt="Walmart Canada & DLT Labs logos"
+   width="40%" />
 &nbsp;
 </p>
 
@@ -1007,12 +1008,12 @@ Blockchain networks offer more secure, agile, and cost-effective structures.<br/
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Government Benefits from Blockchain (30) ------------------------->
+<!-------------------------- Government Benefits from Blockchain (30) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image026.png?raw=true" 
-   alt="Government Benefits from Blockchain" 
-   width="65%" >
+<img src="/images/image026.png?raw=true"
+   alt="Government Benefits from Blockchain"
+   width="65%" />
 &nbsp;
 
 <h3>Dubai Use Case</h3>
@@ -1042,9 +1043,9 @@ If you want to see some of the really exciting use cases in blockchain right now
 <!-------------------------------------- smart dubai (31) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.png" 
-   width="40%" 
-   alt="Smart Dubai" >
+<img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.png"
+   width="40%"
+   alt="Smart Dubai" />
 &nbsp;
 
    * <b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.
@@ -1713,8 +1714,8 @@ Transactions on the blockchain include their public key and are digitally signed
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-rsa-key.png?raw=true"
-	alt="RSA Key Cryptography"
-	width="65%" >
+   alt="RSA Key Cryptography"
+   width="65%" />
 &nbsp;
 
 <h3>Identity: RSA Public Key Cryptography</h3>
@@ -1723,8 +1724,8 @@ Transactions on the blockchain include their public key and are digitally signed
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-rsa-public-key.png?raw=true"
-	alt="Public Key Cryptography"
-	width="65%" >
+   alt="Public Key Cryptography"
+   width="65%" />
 &nbsp;
 
 <h3>Identity: Specific Identity Implementations</h3>
@@ -1744,8 +1745,8 @@ Using a person's public key, it is possible to encrypt a message so that only th
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-key.png?raw=true"
-	alt="Key"
-	width="20%" >
+   alt="Key"
+   width="20%" />
 &nbsp;
 
 Digital Signatures and Key Pairs<br/>
@@ -1767,8 +1768,8 @@ Digital Signatures and Key Pairs<br/>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-step-2.png?raw=true"
-	alt="Step 2: The sender encrypts message using the key pairs.  and sends it."
-	width="50%" >
+   alt="Step 2: The sender encrypts message using the key pairs.  and sends it."
+   width="50%" >
 &nbsp;
  
 <b>Step 3:</b>
@@ -5774,4 +5775,4 @@ The end . . .
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
 **[`^        back to top        ^`](#table-of-contents)**
-
+4/8/2022
