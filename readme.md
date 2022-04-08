@@ -4644,7 +4644,7 @@ With that built-in "trustless" trust, we’re able to remove those middlemen tha
 Traditional centralized ledger systems have weaknesses. Accuracy is dependent on intermediaries who can change details of the centralized ledger. Data derived from the ledger is siloed and misused.
  
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ Multi-Party Transactions - Centralized Ledgers  ----------------------->
+<!--------------------- Multi-Party Transactions - Centralized Ledgers (153) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="65%" 
@@ -4657,7 +4657,7 @@ Distributed decentralized ledgers are not dependent on intermediaries who can ma
 Data is secure and tamper resistant.
  
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- Multi-Party Transactions - Decentralized Ledgers --------------------->
+<!-------------------- Multi-Party Transactions - Decentralized Ledgers (154) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="60%" 
@@ -5240,7 +5240,7 @@ The resulting solution is called [TradeLens](https://www.tradelens.com/). You ca
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Trade Made Easy --------------------------------------------->
+<!-------------------------------------- Trade Made Easy ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -5253,7 +5253,7 @@ Farms are complicated ecosystems with many moving parts, careful timing, and sea
 The trend toward blockchain agriculture promises to make each step of growing and distributing food simpler. It will offer all parties involved a single source of truth for the agriculture supply chain. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ Walmart logo ---------------------------------------------->
+<!------------------------------------- Walmart logo (176) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -5280,6 +5280,8 @@ Walmart and IBM are working to make that a reality.
 If you think about the food system, it's pretty complex.
 It involves farmers, processors, distributors, and the way traceability is done today, each segment of the food system does it their own way.
 Most actually do it on paper or on systems that don't speak to each other, and so you can never have a full view of what's happening in the food system.
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 What we hope to do with blockchain is bring all food safety system stakeholders and collaborate so that we do it one best way, we can do it very quickly, and efficiently.
 
@@ -5381,6 +5383,8 @@ The consortium has since grown to more than 50 banks and corporations.
 The platform is built on Corda blockchain, it solves the problem that most letters of credit are based on paper and take 5 to 10 days. 
 By using blockchain technology, the letters of credit may be efficiently transacted in less than 24 hours. 
 You can learn more about Voltron from the following two articles "Blockchain Based Letter of Credit Processed by HSBC on Voltron Trade Finance Platform" (by JD Alois) and "Trade Finance Solution Voltron Launches Open Platform on Corda Blockchain".
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch6-4">6.4 Public Sector Solutions Overview</h3>
 Blockchain benefits of security, efficiency and speed have government leaders research the far reaching implications that will improve lives and accelerate global blockchain solutions. 
@@ -5502,6 +5506,8 @@ The platform will tap into the potential of the Rohingya community and other mar
 
 The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social Impact project designed to improve disaster relief efforts as well as open up new pathways for local charity giving.
 
+**[`^        back to top        ^`](#table-of-contents)**
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------ Charity logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5602,6 +5608,8 @@ SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enab
 These apps allow secure, direct connections between users and providers, eliminating third parties. 
 
 The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- Simba logo (188) ------------------------------------------->
@@ -5728,6 +5736,8 @@ How do we ensure that the data the system uses is immutable and secure?
 Blockchain provides that.
 
 I think that we are going to see a lot of growth in emerging technologies as blockchain continues to emerge, because it's going to make more and more things possible.
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 And if we talk long term, and again, only my opinion, I think blockchain becomes the enabling layer for a multi-planetary human economy.
 
