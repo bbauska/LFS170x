@@ -6,8 +6,8 @@
 <!------------------------------------------ linux logo ------------------------------------------>
 <p align="center">
 <img src="/images/image001.jpg?raw=true"
-   alt="Linux logo"
-   width="40%" />
+	alt="Linux logo"
+	width="40%">
 &nbsp;
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
 </p>  
@@ -18,8 +18,8 @@
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-lfs170x-logo.png?raw=true"
-   alt="Linux LFS170x logo"
-   width="50%" />
+	alt="Linux LFS170x logo"
+	width="50%">
 &nbsp;
 
 ## [Table of Contents](#table-of-contents)
@@ -103,8 +103,8 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image002.png?raw=true"
-   alt="Connect the Dots"
-   width="40%" />
+	alt="Connect the Dots"
+	width="40%" >
 &nbsp;
 
 <h3 id="ch1-2">1.2 The Early Internet</h3>
@@ -114,8 +114,8 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/darpa-logo.jpg?raw=true"
-   alt-"DARPA logo" 
-   width="30%" />
+	alt-"DARPA logo" 
+	width="30%" >
 &nbsp;
 
 What started as a **[DARPA (Defense Advanced Research Project Agency)](https://www.darpa.mil)** experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
@@ -127,8 +127,8 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image003.png?raw=true" 
-   alt="WWW logo" 
-   width="20%" />
+	alt="WWW logo" 
+	width="20%" >
 &nbsp;
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -159,9 +159,8 @@ Characteristics of Web 1.0:<br/>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image004.png?raw=true" 
-   alt="E-mail logo" 
-   width="30%" />
-</p>
+     alt="E-mail logo" 
+     width="30%" >
 
 <h4 align="center">Email, Electronically Transferring Information</h4>
 Computers and items for connection became necessities.
@@ -178,8 +177,8 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image005.png?raw=true" 
-   alt="Netscape logo" 
-   width="20%" />
+	alt="Netscape logo" 
+	width="20%" >
 &nbsp;
  
 <h3>Web 2.0 - Internet of Information</h3>
@@ -5057,32 +5056,32 @@ Central Bank Digital Currencies are being considered across the globe.
    alt="Central Bank Digital Currency status"</>
 </p>
   
-According to the CBDC Tracker, the Sand Dollars, a retail CBDC issued by the Central Bank of the Bahamas is the first nationwide Central Bank Digital Currency. The US Federal Reserve is researching CBDC for the US with the Federal Reserve Bank of Boston and MIT committed to a multi-year collaboration to build a hypothetical currency called the Hamilton.
+According to the [CBDC Tracker](https://cbdctracker.org/), the Sand Dollars, a retail CBDC issued by the Central Bank of the Bahamas is the first nationwide Central Bank Digital Currency. The US Federal Reserve is researching CBDC for the US with the Federal Reserve Bank of Boston and [MIT](https://dci.mit.edu/) committed to a multi-year collaboration to build a hypothetical currency called the Hamilton.
 
-Hyperledger created a Capital Market Special Interest Working Group spearheaded by Vipin Bharathan working on standards for CBDC’s. This working group is just one of many discussing CBDC’s and is open for anyone to join.
+Hyperledger created a [Capital Market Special Interest Working Group](https://wiki.hyperledger.org/display/CMSIG) spearheaded by [Vipin Bharathan](https://www.forbes.com/sites/vipinbharathan/?sh=22cfcca23f76) working on standards for CBDC’s. This working group is just one of many discussing CBDC’s and is open for anyone to [join](https://lists.hyperledger.org/g/capital-markets-sig/).
 
 <h3 id="ch5-4">5.4 Non-Fungible Tokens (NFTs)</h3>
 At the beginning of this course we discussed the Internet and the changes it has gone through. We started with Web 1.0 and how it revolutionized the way exchanged value, looking back it is hard to believe we managed without email. Then came Web 2.0 and our social status and personal information flowed on the net as freely as the air we breathe. Web 3.0 started with blockchain and the transfer of value, the first killer application being Bitcoin.
 
 Now, you may be asking yourself, "What's next?". That's where non-fungible tokens come into play and are set to revolutionize art, music, sports and gaming by offering a new kind of digital ownership and the ability to transfer unique value with digital collectables. We first saw a glimpse of this new market with CryptoKitties but let's look deeper into this phenomenon.
 
-According to Wikipedia, a non-fungible token:
+According to [Wikipedia](https://en.wikipedia.org/wiki/Non-fungible_token), a non-fungible token:
 <blockquote>
 "is a unit of data stored on a digital ledger, called blockchain, that certifies a digital asset to be unique and therefore not interchangeable".
 </blockquote>
-NFTs can represent art, music, videos and other digital files where access to the original file is restricted, limited to the owner proving authenticity and providence. The first standard for issuing NFT’s was based on the Ethereum's ERC-721 that differs from the ERC-20 as ERC-721 tokens are all unique which makes them perfect for the collectibles market. The ECR-1155 aims to improve on the previous token standard by further defining assets.
+NFTs can represent art, music, videos and other digital files where access to the original file is restricted, limited to the owner proving authenticity and providence. The first standard for issuing NFT’s was based on the Ethereum's [ERC-721](http://erc721.org/) that differs from the ERC-20 as ERC-721 tokens are all unique which makes them perfect for the collectibles market. The [ECR-1155](https://eips.ethereum.org/EIPS/eip-1155) aims to improve on the previous token standard by further defining assets.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 Let's now take a look at some of the types of non-fungible tokens:
    * Digital artwork<br/>
-By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator. The New York Times reported art entitled "Everydays – The First 5000 Days", by artist Mike Winkelmann, also known as Beeple, sold for $69.3 million USD in 2021.
+By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator. The New York Times reported art entitled ["Everydays – The First 5000 Days"](https://www.nytimes.com/2021/02/24/arts/design/christies-beeple-nft.html), by artist Mike Winkelmann, also known as [Beeple](https://en.wikipedia.org/wiki/Mike_Winkelmann), sold for $69.3 million USD in 2021.
    * Collectables<br/>
-As we saw with CryptoKitties, non-fungible tokens create unique items. One of the more popular collectables are CryptoPunks, a collection of 10,000 uniquely generated characters each having a unique owner registered on the Ethereum blockchain. A crypto punk, Punk 1651 sold for 78 ETH or $136,850.22 USD.
+As we saw with CryptoKitties, non-fungible tokens create unique items. One of the more popular collectables are [CryptoPunks](https://www.crypto-news-flash.com/ethereum-eth-cryptopunks-nft-index-fund-migrates-to-sushiswap/), a collection of 10,000 uniquely generated characters each having a unique owner registered on the Ethereum blockchain. A crypto punk, Punk 1651 sold for 78 ETH or $136,850.22 USD.
    * Games<br/>
 NFTs can be used to represent assets in computerized games. With the ability to trade assets created in a gaming platform, users and creators of assets in the digital game can trade assets on a third party marketplaces and store them in a wallet where the private keys are controlled by the gamer, taking control away from the game developer.
    * Music and film<br/>
-With NFTs, musicians and filmmakers can now tokenize their work where the artist monetizes and profits from their content. When artists release music or film as NFT, they retain control and realize royalties in a more equitable way. Musicians can join in decentralized marketplace such as Mediachain a Ujo to ensure artists are paid fairly, musicians enter into smart contracts that state royalty stipulations without the need of a third party.
+With NFTs, musicians and filmmakers can now tokenize their work where the artist monetizes and profits from their content. When artists release music or film as NFT, they retain control and realize royalties in a more equitable way. Musicians can join in decentralized marketplace such as [Mediachain](http://www.mediachain.io/) a [Ujo](https://mesh.xyz/) to ensure artists are paid fairly, musicians enter into smart contracts that state royalty stipulations without the need of a third party.
    * Sports<br/>
 The sports industry has embraced the idea of NFTs from tokenizing memorable sporting moments to trading card collectables. [NBA Top Shots](https://nbatopshot.com/) being the leader for creating a marketplace for NBA collectible cards and moments.[
    * University research<br/>
