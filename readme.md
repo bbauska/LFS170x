@@ -6,8 +6,8 @@
 <!------------------------------------------ linux logo ------------------------------------------>
 <p align="center">
 <img src="/images/image001.jpg?raw=true"
-	alt="Linux logo"
-	width="40%">
+   alt="Linux logo"
+   width="40%" />
 &nbsp;
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
 </p>  
@@ -18,8 +18,8 @@
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-lfs170x-logo.png?raw=true"
-	alt="Linux LFS170x logo"
-	width="50%">
+   alt="Linux LFS170x logo"
+   width="50%" />
 &nbsp;
 
 ## [Table of Contents](#table-of-contents)
@@ -103,8 +103,8 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image002.png?raw=true"
-	alt="Connect the Dots"
-	width="40%" >
+   alt="Connect the Dots"
+   width="40%" />
 &nbsp;
 
 <h3 id="ch1-2">1.2 The Early Internet</h3>
@@ -114,8 +114,8 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/darpa-logo.jpg?raw=true"
-	alt-"DARPA logo" 
-	width="30%" >
+   alt-"DARPA logo" 
+   width="30%" />
 &nbsp;
 
 What started as a **[DARPA (Defense Advanced Research Project Agency)](https://www.darpa.mil)** experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
@@ -127,8 +127,8 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image003.png?raw=true" 
-	alt="WWW logo" 
-	width="20%" >
+   alt="WWW logo" 
+   width="20%" />
 &nbsp;
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -159,8 +159,9 @@ Characteristics of Web 1.0:<br/>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image004.png?raw=true" 
-     alt="E-mail logo" 
-     width="30%" >
+   alt="E-mail logo" 
+   width="30%" />
+</p>
 
 <h4 align="center">Email, Electronically Transferring Information</h4>
 Computers and items for connection became necessities.
@@ -177,8 +178,8 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image005.png?raw=true" 
-	alt="Netscape logo" 
-	width="20%" >
+   alt="Netscape logo" 
+   width="20%" />
 &nbsp;
  
 <h3>Web 2.0 - Internet of Information</h3>
@@ -5583,7 +5584,8 @@ Hyperledger is an open source project with blockchains for you to build your sol
 **[`^        back to top        ^`](#table-of-contents)**
   
 <h3>Daml</h3>
-Daml is:
+
+[Daml](https://www.digitalasset.com/developers) is:
 > "a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
 <ul type="disc">
    <li>Daml Connect<br/>
@@ -5647,7 +5649,7 @@ SIMBA Chain also offers management services [(Software as a Service)](https://si
 
 Identity management is vital for blockchain operation. Identifying objects that will interact with a blockchain such as people, places, things [(IOT devices)](https://www.blockchain-council.org/blockchain/blockchain-and-iot-a-solid-technological-duo/), is the first step and consideration when developing a blockchain.
 
-One solution is the Verifiable Organizations Network (VON) project that enables organizations—and the people running those organizations—to conduct business online in a trusted manner. The core challenge is that on the Internet we can’t tell if we’re talking to you, or someone pretending to be you. We need a reliable way to verify that “you are you” in a manner appropriate for the type of transaction that you want to complete and in a privacy-preserving manner.
+One solution is the Verifiable Organizations Network [(VON)](https://vonxio/about/) project that enables organizations—and the people running those organizations—to conduct business online in a trusted manner. The core challenge is that on the Internet we can’t tell if we’re talking to you, or someone pretending to be you. We need a reliable way to verify that “you are you” in a manner appropriate for the type of transaction that you want to complete and in a privacy-preserving manner.
 
 To learn more, we recommend that you listen the ["Digital Trust: How the OrgBook Enables the Digital Economy"](https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4) webinar.
 
