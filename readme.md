@@ -5069,6 +5069,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Non-fungible_token), a no
 <blockquote>
 "is a unit of data stored on a digital ledger, called blockchain, that certifies a digital asset to be unique and therefore not interchangeable".
 </blockquote>
+
 NFTs can represent art, music, videos and other digital files where access to the original file is restricted, limited to the owner proving authenticity and providence. The first standard for issuing NFT’s was based on the Ethereum's [ERC-721](http://erc721.org/) that differs from the ERC-20 as ERC-721 tokens are all unique which makes them perfect for the collectibles market. The [ECR-1155](https://eips.ethereum.org/EIPS/eip-1155) aims to improve on the previous token standard by further defining assets.
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -5280,8 +5281,6 @@ Walmart and IBM are working to make that a reality.
 If you think about the food system, it's pretty complex.
 It involves farmers, processors, distributors, and the way traceability is done today, each segment of the food system does it their own way.
 Most actually do it on paper or on systems that don't speak to each other, and so you can never have a full view of what's happening in the food system.
-
-**[`^        back to top        ^`](#table-of-contents)**
 
 What we hope to do with blockchain is bring all food safety system stakeholders and collaborate so that we do it one best way, we can do it very quickly, and efficiently.
 
@@ -5624,8 +5623,6 @@ The easy-to-use platform is tailored for users, developers, government, and ente
    alt="Simba logo"
    width="25%" />
 </p>
-
-**[`^        back to top        ^`](#table-of-contents)**
 
 [SIMBA's Smart Contract Designer](https://info.simbachain.com/smart-contract-designer-landing-page) allows anyone to quickly and easily create smart contracts. 
 
