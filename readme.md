@@ -4,10 +4,10 @@
 <!-------------------------------- readme.md in LFS170x.bauska.org ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------ linux logo ------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image001.jpg?raw=true"
-	alt="Linux logo"
-	width="40%">
+   alt="Linux logo"
+   width="40%">
 &nbsp;
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
 </p>  
@@ -16,10 +16,10 @@
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ linux blockchain logo ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-lfs170x-logo.png?raw=true"
-	alt="Linux LFS170x logo"
-	width="50%">
+   alt="Linux LFS170x logo"
+   width="50%">
 &nbsp;
 
 ## [Table of Contents](#table-of-contents)
@@ -101,10 +101,10 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- Connect Dots ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
-	alt="Connect the Dots"
-	width="40%" >
+   alt="Connect the Dots"
+   width="40%" >
 &nbsp;
 
 <h3 id="ch1-2">1.2 The Early Internet</h3>
@@ -112,10 +112,10 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------ darpa logo ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/darpa-logo.jpg?raw=true"
-	alt-"DARPA logo" 
-	width="30%" >
+   alt-"DARPA logo" 
+   width="30%" >
 &nbsp;
 
 What started as a **[DARPA (Defense Advanced Research Project Agency)](https://www.darpa.mil)** experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
@@ -125,10 +125,10 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------- www logo ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image003.png?raw=true" 
-	alt="WWW logo" 
-	width="20%" >
+<p align="center" width="100%">
+<img src="/images/image003.png?raw=true"
+   alt="WWW logo" 
+   width="20%" >
 &nbsp;
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -157,10 +157,10 @@ Characteristics of Web 1.0:<br/>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- Email logo -------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image004.png?raw=true" 
-     alt="E-mail logo" 
-     width="30%" >
+   alt="E-mail logo" 
+   width="30%" >
 
 <h4 align="center">Email, Electronically Transferring Information</h4>
 Computers and items for connection became necessities.
@@ -175,7 +175,7 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------------- Netscape logo ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image005.png?raw=true" 
 	alt="Netscape logo" 
 	width="20%" >
@@ -197,10 +197,10 @@ Websites let users generate content, social networks became part of our lives.
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- social networking logo -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image006.png?raw=true" 
-	alt="Social Networking logo" 
-	width="30%" >
+   alt="Social Networking logo" 
+   width="30%" >
 &nbsp;
 
 <h5 align="center">Social Networking</h5>
@@ -210,10 +210,10 @@ Websites let users generate content, social networks became part of our lives.
 <!------------------------------------ napster logo ---------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <h3>Use Case: Music Sharing Companies</h3>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image007.png?raw=true" 
-	alt="Napster logo" 
-	width="20%" >
+   alt="Napster logo" 
+   width="20%" >
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer.
@@ -224,10 +224,10 @@ Napster is forced to take down its index, shutting down the platform.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------------- bittorrent logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image008.png?raw=true" 
-	alt="BitTorrent logo" 
-	width="20%" >
+   alt="BitTorrent logo" 
+   width="20%" >
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer. 
@@ -260,7 +260,7 @@ Bitcoin is the first widely accepted application for the Internet of Value (just
 <!------------------------------------------------------------------------------------------------>
 <!---------------- crypto, electronically transferring value ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image009.png?raw=true" 
 	alt="Crypto, electronically transferring value" 
 	width="40%" >
@@ -406,7 +406,7 @@ Let us look at what it means to be a currency.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------- bitcoin logo --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image010.png?raw=true" 
    alt="Bitcoin logo" 
    width="20%" >
@@ -1263,10 +1263,10 @@ To understand how blockchain came about, we must first understand the following 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ single-entry accounting ledgers (37)----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image028.png?raw=true"
-	alt="Single-Entry Accounting Ledger"
-	width="65%" >
+   alt="Single-Entry Accounting Ledger"
+   width="65%" >
 &nbsp;
 
 <ul>
@@ -1277,10 +1277,10 @@ To understand how blockchain came about, we must first understand the following 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- double-entry accounting ledger ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image029.png?raw=true"
-	alt="Double-Entry Accounting Ledger"
-	width="65%" >
+   alt="Double-Entry Accounting Ledger"
+   width="65%" >
 &nbsp;
 
 <li>Double-entry ledger appears in 1340 A.D.</li>
@@ -1291,10 +1291,10 @@ To understand how blockchain came about, we must first understand the following 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ triple-entry accounting ledger (38) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image030.png?raw=true"
-	alt="Triple-Entry Accounting Ledger"
-	width="65%" >
+   alt="Triple-Entry Accounting Ledger"
+   width="65%" >
 &nbsp;
 
 <li>Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
@@ -1317,10 +1317,10 @@ Since the entries are distributed and cryptographically sealed, falsifying them 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- double vs triple-entry accounting comparison (39) ----------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-double vs triple accounting.png?raw=true"
-	alt="Double vs. Triple-Entry Accounting Comparison"
-	width="65%" >
+   alt="Double vs. Triple-Entry Accounting Comparison"
+   width="65%" >
 &nbsp;
 
 <h3>Island of Yap</h3>
@@ -1377,40 +1377,40 @@ This system of consensus by the majority of the adults on the island with no cen
 <!------------------------------------------------------------------------------------------------>
 <!--------------- All Tribe Members Keep Copy in Their Head --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-yap-1.png?raw=true"
-	alt="All Tribe Members Keep Copy in Their Head"
-	width="50%" >
+   alt="All Tribe Members Keep Copy in Their Head"
+   width="50%" >
 &nbsp;
 <br/>
 <p align="left">   1. The group shared the ledger.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- All Tribe Members Who owned the Rai Stone ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-yap-2.png?raw=true"
-	alt="All Tribe Members Keep Copy in Their Head"
-	width="50%" >
+   alt="All Tribe Members Keep Copy in Their Head"
+   width="50%" >
 &nbsp;
 <br/>
 <p align="left">   2. The group agreed to the ledger.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- All Tribe Members Who ownede ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-yap-3.png?raw=true"
-	alt="All Tribe Members Keep Copy in Their Head"
-	width="50%" >
+   alt="All Tribe Members Keep Copy in Their Head"
+   width="50%" >
 &nbsp;
 <br/>
 <p align="left">   3. All changes or transactions to the ledger were announced to the group.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- All Tribe Members Who owned the Rai Stone ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-yap-4.png?raw=true"
-	alt="All Tribe Members Keep Copy in Their Head"
-	width="50%" >
+   alt="All Tribe Members Keep Copy in Their Head"
+   width="50%" >
 &nbsp;
 <br/>
 <p align="left">   4. The group agreed to update all ledgers.</p>
@@ -1539,10 +1539,10 @@ If you want to encrypt and decrypt information, you are going to have to choose 
 <!----------------------------------------------- ------------------------------------------------>
 <!------------------------------- Cryptography by the romans (45)--------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-cryptography-romans.png?raw=true"
-	alt="Cryptography By Julius Caesar: Caesar Cipher"
-	width="65%" >
+   alt="Cryptography By Julius Caesar: Caesar Cipher"
+   width="65%" >
 &nbsp;
 
 <h3>Cryptography Key Terms</h3>
@@ -1567,10 +1567,10 @@ Encryption is the reverse process of converting ciphertext into plain text.</li>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- Cryptography key terms (46) ----------------------------------->
 <!----------------------------------------------- ------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-cryptography-key-terms.png?raw=true"
-	alt="The Secret and the Key are passed into the Function to create the Cipher"
-	width="65%" >
+   alt="The Secret and the Key are passed into the Function to create the Cipher"
+   width="65%" >
 &nbsp;
 <p align="center">The Secret and the Key are passed into the Function to create the Cipher.</p>
 
@@ -1712,7 +1712,7 @@ Transactions on the blockchain include their public key and are digitally signed
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------- RSA Key Cryptography ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-rsa-key.png?raw=true"
    alt="RSA Key Cryptography"
    width="65%" />
@@ -1722,7 +1722,7 @@ Transactions on the blockchain include their public key and are digitally signed
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- Public Key Cryptography ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-rsa-public-key.png?raw=true"
    alt="Public Key Cryptography"
    width="65%" />
@@ -1743,7 +1743,7 @@ Using a person's public key, it is possible to encrypt a message so that only th
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- Key -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-key.png?raw=true"
    alt="Key"
    width="20%" />
@@ -1756,7 +1756,7 @@ Digital Signatures and Key Pairs<br/>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------- Step 1 -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-step-1.png?raw=true"
 	alt="Step 1: The sender generates a public key from a private key"
 	width="50%" >
@@ -1766,7 +1766,7 @@ Digital Signatures and Key Pairs<br/>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------- Step 2 -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-step-2.png?raw=true"
    alt="Step 2: The sender encrypts message using the key pairs.  and sends it."
    width="50%" >
@@ -1776,7 +1776,7 @@ Digital Signatures and Key Pairs<br/>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------- Step 3 -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-step-3.png?raw=true"
 	alt="Step 3: The recipient uses the public key with the private keys to decrypt the message"
 	width="50%" >
@@ -1901,10 +1901,11 @@ A hash function is a mathematical equation with <b>four</b> important properties
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- Cryptographic Hashing ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-hash.png?raw=true"
-	alt="Cryptographic Hashing"
-	width="100%" >
+   alt="Cryptographic Hashing"
+   width="100%" />
+</p>
  
 <h3>Cryptographic Hashing Demo</h3>
 <p>
@@ -1996,10 +1997,11 @@ A special type of data storage structure based on hash functions is called a Mer
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- Merkle Tree -------------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
+<p align="center" width="100%">
 <img src="/images/image-merkle-tree.png?raw=true"
 	alt="Merkle Tree"
-	width="100%" >
+	width="100%" />
+&nbsp;
 
 <p align="center">Merkle trees are a data structure that allows authenticated storage with efficient data retrieval.</p>
 
