@@ -1710,11 +1710,11 @@ Transactions on the blockchain include their public key and are digitally signed
 </ul> 
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------------- RSA Key Cryptography ------------------------------------>
+<!--------------------------------- public key cryptography (52) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-rsa-key.png?raw=true"
-   alt="RSA Key Cryptography"
+   alt="Public Key Cryptography"
    width="65%" />
 &nbsp;
 
@@ -1724,7 +1724,7 @@ Transactions on the blockchain include their public key and are digitally signed
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-rsa-public-key.png?raw=true"
-   alt="Public Key Cryptography"
+   alt="Public Key Cryptography - Verify Signature with 3-step Process"
    width="65%" />
 &nbsp;
 
@@ -1735,13 +1735,13 @@ Ethereum is a public blockchain that anyone can participate in. [Hyperledger](ht
 A user’s identity is an address based on their public key.</li>
 <li>Hyperledger<br/>
 Identity is managed by X.509 certificates. Certificates are only shared with parties involved in the transaction.</li>
-
+</ul>
 Public key cryptography uses a pair of a public key and a private key to perform different tasks. Public keys are widely distributed, while private keys are kept secret.
 
 Using a person's public key, it is possible to encrypt a message so that only the person with the private key can decrypt and read it. Using a private key, a digital signature can be created so that anyone with the corresponding public key can verify that the message was created by the owner of the private key and was not modified since.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------------- Key -------------------------------------------------->
+<!--------------------------------------------- Key ---------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-key.png?raw=true"
@@ -1754,7 +1754,7 @@ Digital Signatures and Key Pairs<br/>
 <b>Step 1:</b>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------------- Step 1 -------------------------------------------------->
+<!------------------------- Step 1 - generate public from private key ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-step-1.png?raw=true"
@@ -1764,17 +1764,17 @@ Digital Signatures and Key Pairs<br/>
  
 <b>Step 2:</b>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------------- Step 2 -------------------------------------------------->
+<!----------------------------- Step 2 - encrypt and send message -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-step-2.png?raw=true"
-   alt="Step 2: The sender encrypts message using the key pairs.  and sends it."
+   alt="Step 2: The sender encrypts message using the key pairs.  Then sends it"
    width="50%" >
 &nbsp;
  
 <b>Step 3:</b>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------------- Step 3 -------------------------------------------------->
+<!----------------------------- Step 3 - recipient decrypts message ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-step-3.png?raw=true"
@@ -1899,7 +1899,7 @@ A hash function is a mathematical equation with <b>four</b> important properties
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------- Cryptographic Hashing ------------------------------------>
+<!---------------------------------- Cryptographic Hashing (57) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-hash.png?raw=true"
@@ -1995,7 +1995,7 @@ A special type of data storage structure based on hash functions is called a Mer
 </ul> 
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Merkle Tree -------------------------------------------------->
+<!--------------------------------------- Merkle Tree (61) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-merkle-tree.png?raw=true"
@@ -2062,12 +2062,13 @@ Merkle trees are a data structure that allows authenticated storage with efficie
 Both Ethereum and Hyperledger Fabric are smart contract platforms that use a particular type of Merkle tree called the Patricia tree to store the current state of their virtual machine.
  
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Disintermediation - Trust through transparency ------------------------------>
+<!-------------------- disintermediation - trust through transparency (63) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-disintermediation.png?raw=true"
-	alt="Disintermediation"
-	width="100%" >
+   alt="Disintermediation - Trust Through Transparency"
+   width="100%" />
+</p>
 
 <h3>Disintermediation - Trust Through Transparency</h3>
 Now, that we have an understanding of how collaboration and cryptography work together to create a layer of trust, let's discuss how blockchain has a powerful disintermediation effect.
@@ -2154,12 +2155,13 @@ Traditional Database Updates
 A database is a collection of interrelated data organized so that individual records or groups of records can be retrieved to satisfy various criteria.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- Disintermediation - Trust through transparency ------------------------->
+<!---------------------------- CRUD - create, read, update, delete ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-crud.png?raw=true"
-	alt="CRUD"
-	width="65%" >
+	alt="CRUD - Create, Read, Update, Delete"
+	width="65%" />
+</p>
  
 Traditional databases use the CRUD method which has <b>four</b> main operations:
 <ul>
@@ -2203,12 +2205,13 @@ Transactions in the blockchain cannot be modified after creation, and their comp
 
 This means that the blockchain is a completely transparent data structure with the useful property that the integrity of the blockchain is easily verifiable by any user.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ transparency database vs. blockchain ---------------------------------->
+<!-------------------------------- transparency of a blockchain ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-transp-blockchain.png?raw=true"
-	alt="Transparency of a Blockchain"
-	width="65%" >
+   alt="Transparency of a Blockchain"
+   width="65%" />
+</p>
 
 <h3>Transparency: Databases vs. Blockchain</h3>
 <p>
@@ -5777,4 +5780,4 @@ The end . . .
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
 **[`^        back to top        ^`](#table-of-contents)**
-4/8/2022
+4/9/2022
