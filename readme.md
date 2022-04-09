@@ -4293,6 +4293,7 @@ Also ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM,
    <li>Channels: Subsections of the blockchain that make transactions visible only to members.</li><br/>  
    <li>Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.</li><br/>
    <li>Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.</li></li><br/>
+</ul>
 <li>Hyperledger Besu<br/>
 Besu is an Ethereum client that runs on the Ethereum public network, private networks, and test networks such as Rinkeby, Ropsten, and Görli.
 Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.</li><br/>
@@ -4300,7 +4301,7 @@ Hyperledger Besu includes several consensus algorithms including PoW, PoA, and I
 Parties on the Corda Network can be represented in one of two ways:
    <ul>
    <li>Party: A public key and name.</li><br/>
-   <li>Anonymous party: Only a public key.</i></li><br/>
+   <li>Anonymous party: Only a public key.</li></li><br/>
    </ul>
 </ul>
 <h3>Trust in Blockchains</h3>
@@ -4401,12 +4402,12 @@ By the end of this chapter, you should be able to:
 Immutability is when something is unable to be changed.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Immutability Defined - No Changes Allowed...Ever -------------------------->
+<!------------------- Immutability Defined - No Changes Allowed...Ever (145) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="./images/immutability.png"
-   alt="Immutability Defined - No Changes Allowed...Ever"</>
+<img src="/images/immutability.png"
+   alt="Immutability Defined - No Changes Allowed...Ever"
+   width="50%" />
 </p>
   
 <h3>Immutability</h3>
