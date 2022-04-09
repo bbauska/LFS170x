@@ -1375,7 +1375,7 @@ This system of consensus by the majority of the adults on the island with no cen
 <p>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- All Tribe Members Keep Copy in Their Head --------------------------------------->
+<!----------------------- all tribe members keep copy in their head (41) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-yap-1.png?raw=true"
@@ -1385,17 +1385,17 @@ This system of consensus by the majority of the adults on the island with no cen
 <br/>
 <p align="left">   1. The group shared the ledger.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- All Tribe Members Who owned the Rai Stone ------------------------------>
+<!---------------------- all tribe members knew who owned which rai stone ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-yap-2.png?raw=true"
-   alt="All Tribe Members Keep Copy in Their Head"
+   alt="All Tribe Members Knew Who Owned Which Rai Stone"
    width="50%" />
 &nbsp;
 <br/>
 <p align="left">   2. The group agreed to the ledger.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- All Tribe Members Who ownede ----------------------------------------->
+<!--------------------- all transactions were announced to the entire tribe ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-yap-3.png?raw=true"
@@ -1405,7 +1405,7 @@ This system of consensus by the majority of the adults on the island with no cen
 <br/>
 <p align="left">   3. All changes or transactions to the ledger were announced to the group.</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- All Tribe Members Who owned the Rai Stone ------------------------------->
+<!--------------------- all tribe members updated their mental ledgers (42) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-yap-4.png?raw=true"
@@ -1537,7 +1537,7 @@ That algorithm is what we would call a cipher, and since Caesar’s invention, c
 If you want to encrypt and decrypt information, you are going to have to choose a kind of cipher to do so".
 </blockquote>
 <!----------------------------------------------- ------------------------------------------------>
-<!------------------------------- Cryptography by the romans (45)--------------------------------->
+<!------------------------------- cryptography by the romans (45) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-cryptography-romans.png?raw=true"
@@ -1565,7 +1565,7 @@ Encryption is the reverse process of converting ciphertext into plain text.</li>
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Cryptography key terms (46) ----------------------------------->
+<!-------------------------------- cryptography key terms (46) ----------------------------------->
 <!----------------------------------------------- ------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-cryptography-key-terms.png?raw=true"
@@ -1720,7 +1720,7 @@ Transactions on the blockchain include their public key and are digitally signed
 
 <h3>Identity: RSA Public Key Cryptography</h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Public Key Cryptography ------------------------------------>
+<!--------------------------------- rsa public key cryptography ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-rsa-public-key.png?raw=true"
@@ -3224,8 +3224,8 @@ Let's follow the step with a basic Bitcoin transaction. If Alicia wants to send 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-bitcoin-wallet-app.png?raw=true"
-	alt="Bitcoin Wallet App"
-	width="40%" />
+   alt="Bitcoin Wallet App"
+   width="40%" />
 </p>
 
 It is worth mentioning here that cryptocurrencies are a function of a particular blockchain, the Bitcoin blockchain only transacts bitcoin and the Ethereum blockchain can only exchange Ether. To initiate the transaction, Alicia would make a request of the system to send Bitcoin to Billy’s wallet by specifying the amount and Billy’s Bitcoin address.
@@ -3263,8 +3263,8 @@ Since the blockchain can include financial transactions and business agreements,
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-network-comps.png?raw=true"
-	alt="Blockchain Network Nodes (Computers)"
-	width="65%" />
+   alt="Blockchain Network Nodes (Computers)"
+   width="65%" />
 &nbsp;
 
 In this section, we will discuss the details of how a blockchain network comes to agreement on the contents of the blockchain.
@@ -3344,8 +3344,8 @@ The most commonly used consensus algorithms are Proof of Work and Proof of Stake
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-consensus-mechanisms.png?raw=true"
-	alt="Consensus Mechanisms"
-	width="65%" />
+   alt="Consensus Mechanisms"
+   width="65%" />
 &nbsp;
 
 <h3>Proof of Work</h3>
@@ -3365,7 +3365,7 @@ The argument against this assumes Bitcoin miners are out to make a profit and by
 As a result of seeking out carbon-friendly energy sources, mining companies will bring new renewable energy solutions to the power grids.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Proof of Work (107) ---------------------------------------->
+<!----------------------------------- Proof of Work (107) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-proof-of-work.png?raw=true"
@@ -3408,12 +3408,12 @@ As described by [Demiro Massessi](https://medium.com/coinmonks/blockchain-consen
 </blockquote>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Byzantine Fault Tolerance (109) ---------------------------------->
+<!------------------------------ Byzantine Fault Tolerance (109) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-byzantine-fault.png?raw=true"
-	alt="Byzantine Fault Tolerance"
-	width="65%"/>
+   alt="Byzantine Fault Tolerance"
+   width="65%"/>
 &nbsp;
 
 <h3>Fault Tolerance</h3>
@@ -3531,7 +3531,7 @@ If you're curious about the difference between them, how they work and what the 
 Let's recap differences between Proof of Work and Proof of Stake:
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Proof of work chart (114) ------------------------------------>
+<!--------------------------------- proof of work chart (114) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-proof-of-work-chart.png?raw=true"
@@ -5603,7 +5603,7 @@ It is a cloud service that enables rapid distributed application deployment with
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------- A DAML logo (187) ---------------------------------------->
+<!------------------------------------- a daml logo (187) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image117.png?raw=true"
