@@ -3846,10 +3846,10 @@ The vision surrounding blockchains deals with decentralization.
 By implementing the SegWit changes, a change in how the Bitcoin blockchain protocol operates, a central authority was responsible for enacting the change.
 To many in the community this decision went against the fundamental tenets of blockchains decentralized philosophy.
 As a result, the Bitcoin community was torn and the Bitcoin Network split into two different chains Bitcoin (BTC) and Bitcoin Classic (BCH).
-The Bitcoin Foundation is set up to educate and promote the Bitcoin Blockchain.
+The [Bitcoin Foundation](https://bitcoinfoundation.org/) is set up to educate and promote the Bitcoin Blockchain.
 
 <h3>Governance in Ethereum</h3>
-Vitalik Buterin first described the concept of Ethereum through a Whitepaper introduced at the Bitcoin Convention in Miami 2014. 
+Vitalik Buterin first described the concept of Ethereum through a [Whitepaper](https://ethereum.org/en/whitepaper/) introduced at the Bitcoin Convention in Miami 2014. 
 It was based on the code for Bitcoin, but included a logic engine that could execute smart contracts. 
 By connecting computers using the Ethereum blockchain, computing power is aggregated creating the Ethereum Virtual Machine. 
 Ethereum is not only a functioning blockchain with smart contract capabilities, but a platform for new blockchains to be built upon. 
@@ -3858,11 +3858,11 @@ This GAS fee can change dramatically depending on network conditions as the curr
 
 <h3>Ethereum Improvement Proposals EIP’s</h3>
 Like Bitcoin, Ethereum's three main players (developer, miners and users) must update code to improve on functionality.
-Ethereum Improvement Proposals (EIPs) are standards specifying potential new features or processes for Ethereum. EIPs contain technical specifications for the proposed changes and act as the “source of truth” for the community. A note worth EIP was the code for issuing a token.
-The Ethereum Request for Comment, ERC-20 introduced the standards for issuing utility tokens on blockchain based on Ethereum protocols.
-The Beacon Chain introduced the Proof of Stake consensus model and the concept of sharding.
+[Ethereum Improvement Proposals (EIPs)](https://ethereum.org/en/eips/) are standards specifying potential new features or processes for Ethereum. EIPs contain technical specifications for the proposed changes and act as the “source of truth” for the community. A note worth EIP was the code for issuing a token.
+The [Ethereum Request for Comment, ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) introduced the standards for issuing utility tokens on blockchain based on Ethereum protocols.
+The [Beacon Chain](https://ethereum.org/en/upgrades/beacon-chain/) introduced the Proof of Stake consensus model and the concept of sharding.
 Sharding is the concept of running parallel side chains to alleviate congestion of the network. 
-The Berlin Hard fork and the London Fork are improvements to stabilize fees paid to the miners so these fees do not fluctuate with the price of Ether.
+The [Berlin Hard](https://www.coindesk.com/tech/2021/04/15/berlin-hard-fork-is-now-live-on-ethereum/) fork and the [London Fork](https://eips.ethereum.org/EIPS/eip-1559) are improvements to stabilize fees paid to the miners so these fees do not fluctuate with the price of Ether.
 Ultimately, Ethereum uses the benevolent dictator for life mode of blockchain governance.
 While user input and input from the development team is welcome for Ethereum, Vitalik Buterin is the final authority on decisions regarding the Ethereum roadmap.
 
@@ -3875,15 +3875,15 @@ Some of the Ethereum network refused to follow the DAO hard fork, resulting in a
 This created the Ethereum Classic cryptocurrency, which shares the same history as Ethereum up to the DAO hack, but is completely independent after that point.
 
 <h3>Governance in Hyperledger Frameworks</h3>
-Hyperledger was introduced as an open source blockchain project sanctioned by the Linux Foundation. 
+[Hyperledger](https://www.hyperledger.org/) was introduced as an open source blockchain project sanctioned by the Linux Foundation. 
 Spearheaded by Brian Behlendorf, its mission is to provide the community with the tools and education to foster distributed ledger technology on an enterprise level. Hyperledger frameworks use an Open Governance model to make technical decisions regarding the Hyperledger environment.
-The Hyperledger Technical Steering Committee (TSC) is the final authority for technical decisions in Hyperledger.
+The Hyperledger [Technical Steering Committee (TSC)](https://www.hyperledger.org/about/leadership) is the final authority for technical decisions in Hyperledger.
 Each year, the Hyperledger Technical Steering Committee is selected from the Hyperledger environment’s active contributors and maintainers.
 Contributors and maintainers can submit themselves as potential candidates for the fifteen slots, and the slots are filled based on voting by the same group of contributors and maintainers.
 This model is designed to allow those with an active role in the Hyperledger development community to have a say in how that community is governed.
 
 <h4>Governance in Corda</h4>
-Corda is an open source blockchain project designed for business. Developed by R3, an enterprise blockchain software firm, in collaboration with over 200 technology and industry partners. The Corda platform was launched in September of 2017. Corda also uses an Open Governance model to make technical decisions regarding the future of the blockchain. The Corda Network Governing Body is selected to represent the interests of all users in the Corda network.
+[Corda](https://www.corda.net/) is an open source blockchain project designed for business. Developed by R3, an enterprise blockchain software firm, in collaboration with over 200 technology and industry partners. The Corda platform was launched in September of 2017. Corda also uses an Open Governance model to make technical decisions regarding the future of the blockchain. The Corda Network Governing Body is selected to represent the interests of all users in the Corda network.
 
 <h4>Working Groups and Special Interest Groups</h4>
 Working Groups and Special Interest Groups are consortium-based discussion sessions to complete a task or develop a whitepaper, prototype, platform or project. 
@@ -3903,23 +3903,23 @@ Some examples of the EEAs Interest Groups are: A.I. and Blockchain, Ethereum Mai
 It is a Linux sponsor environment for projects, Working Groups and Special Interest Groups to exchange ideas and develop projects.
 
 Working Groups in Hyperledger are developed for specific purposes.
-For example, the _Learning Materials Working Group_ focus is on supplying templates, assisting the project in developing documentation and collecting and categorizing resources created by the vast Hyperledger community.
+For example, the [Learning Materials Working Group](https://wiki.hyperledger.org/display/LMDWG) focus is on supplying templates, assisting the project in developing documentation and collecting and categorizing resources created by the vast Hyperledger community.
 The LMDWG wiki home page also provides a list of weekly events in and out of the Hyperledger community. 
-Each working group has a wiki home page and a “Join This Group” button.
+Each working group has a wiki home page and a [“Join This Group”](https://lists.hyperledger.org/g/learning-materials-development-wg) button.
 
-Some example Hyperledger’s Working Groups: _Identity_, _Diversity and Inclusion_, _Performance and Scale_, and _Technical Working Group China_.
+Some example Hyperledger’s Working Groups: [Identity](https://wiki.hyperledger.org/display/IWG), [Diversity and Inclusion](https://wiki.hyperledger.org/display/DCI/), [Performance and Scale](https://wiki.hyperledger.org/display/PSWG), and [Technical Working Group China](https://wiki.hyperledger.org/display/TWGC).
 
 Special Interest Groups at Hyperledger are designed to tackle cross industry issues by supplying an open environment for information exchange. 
-The Climate Action and Accounting SIG is developing a carbon calculator spearheaded by Si Chen for global consideration. 
-The "Resources" section on the wiki page has current information about the global emergency. 
-Please consider joining this conversation as it affects all humans.
-Some examples of other Special Interest Groups: _Capital Markets_, _Healthcare_, _Public Sector_, _Social Impact_, _Supply Chain_, _Media and Entertainment+, _Telecom_, and _Trade Finance_.
+The [Climate Action and Accounting SIG](https://wiki.hyperledger.org/display/CASIG/) is developing a carbon calculator spearheaded by Si Chen for global consideration. 
+The ["Resources"](https://wiki.hyperledger.org/display/CASIG/Resources) section on the wiki page has current information about the global emergency. 
+Please consider [joining this conversation as it affects all humans](https://lists.hyperledger.org/g/climate-sig).
+Some examples of other Special Interest Groups: [Capital Markets](https://wiki.hyperledger.org/display/CMSIG/), [Healthcare](https://wiki.hyperledger.org/display/HCSIG), [Public Sector](https://wiki.hyperledger.org/display/PSSIG), [Social Impact](https://wiki.hyperledger.org/display/SISIG), [Supply Chain](https://wiki.hyperledger.org/display/SCSIG), [Media and Entertainment](https://wiki.hyperledger.org/display/MESIG/Media+and+Entertainment+SIG), [Telecom](https://wiki.hyperledger.org/display/TCSIG), and [Trade Finance](https://wiki.hyperledger.org/display/TFSIG).
 
-<h4>Government Blockchain Association (GBA)</h4>
+[Government Blockchain Association (GBA)](https://gbaglobal.org/)
 The GBA promotes blockchain technology by empowering individuals and organizations to connect, communicate, and collaborate to solve public sector challenges around the world.
 The GBA hosts international events like the Government Blockchain Week at the US Capital where they recognize new blockchain emerging projects with an award ceremony. Spearheaded by a tireless Gerard Dache, the GBA cultivates professional work flows between technologists, public policy makers, application specialists, and those who want to learn about the new and emerging digital currencies. 
 Furthermore, GBA acts as a catalyst in creating a public dialogue around the creative, profitable, and positive leveraging of blockchain technology.
-You can find examples of the GBA Working Groups here.
+You can find examples of the GBA Working Groups [here](https://gbaglobal.org/working-groups/).
 As previously mentioned, blockchain is about community. Become part of a growing community by joining a special interest group or working group and become part of the conversation.
 
 <h4>Governance With Autonomy - Driverless Cars</h4>
