@@ -236,11 +236,12 @@ Napster is forced to take down its index, shutting down the platform.
 <p>
 BitTorrent is asked to shut down their platform.
 Since they do not control the software once downloaded to a peer, if two computers are running the software sharing can still occur.
-Music sharing companies gave us the first glimpse into peer-to-peer networking.
+</p>
+<p>
+Music sharing companies gave us the first glimpse into peer-to-peer networking.<br/>
 Besides copyright infringement, the main challenge for the music sharing companies was file integrity.
-
-You could never be sure the file you requested was the file you would get and there was no one to complain to. 
-<br/>
+You could never be sure the file you requested was the file you would get and there was no one to complain to. <br/>
+</p><p>
 Both Napster and BitTorrent are operating today, with different business models.
 </p>
 
