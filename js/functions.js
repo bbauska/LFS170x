@@ -1,4 +1,4 @@
-/** Called from index.html within bbauska/lfs171x.bauska.org/main.  Playing and learning JS.  */
+/** Called from index.html within bbauska/lfs170x.bauska.org/main.  Playing and learning JS.  */
 <!--------------------------------------------------------->
 <!------------ script function: scrollFunction() ---------->
 
@@ -9,7 +9,7 @@ var mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 /* was scrollTop > 10 & 20 */
 function scrollFunction() {
-  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 10) {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
