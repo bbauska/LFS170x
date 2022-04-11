@@ -233,18 +233,16 @@ Napster is forced to take down its index, shutting down the platform.
 <b>Approach:</b> Music stored on many computers connected peer-to-peer. 
 [BitTorrent's](https://www.bittorrent.com/) software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.<br/>
 <b>Result:</b> The industry cracks down music sharing companies copyright infringement. 
-<p>
 BitTorrent is asked to shut down their platform.
 Since they do not control the software once downloaded to a peer, if two computers are running the software sharing can still occur.
 </p>
 <p>
 Music sharing companies gave us the first glimpse into peer-to-peer networking.<br/>
 Besides copyright infringement, the main challenge for the music sharing companies was file integrity.
-You could never be sure the file you requested was the file you would get and there was no one to complain to. <br/>
+You could never be sure the file you requested was the file you would get and there was no one to complain to.
 </p><p>
 Both Napster and BitTorrent are operating today, with different business models.
 </p>
-
 <h3>Web 3.0 - Internet of Value</h3>
 Characteristics of Web 3.0:<br/>
 <ul type="disc">
