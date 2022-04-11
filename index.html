@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!------------------ stylesheet CSS styles.css --------------------------------------------------->
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <!------------------------------------------------------------------------------------------------>
 <head>
@@ -30,7 +31,7 @@ var mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 // scrollTop > 5 and 20.
 function scrollFunction() {
-  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 5) {
+  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -97,7 +98,7 @@ function topFunction() {
 <p>Move the mouse over the button to open the dropdown menu.</p>
 
 <div class="dropdown">
-  <button class="dropbtn">Blue Button</button>
+  <button class="dropbtn">Brians Button</button>
   <div class="dropdown-content">
     <a href="#ch1">Ch 1: Introduction to Blockchain</a>
     <a href="#ch1-1">1.1 What is Blockchain?</a>
@@ -142,7 +143,7 @@ function topFunction() {
       <a href="#ch6-7">6.7 Summary</a>
   </div>
 </div>
-<!-------
+
 </body>
 <-------->
     <!-- Required meta tags -->
