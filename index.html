@@ -7,10 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!------------------ stylesheet CSS styles.css --------------------------------------------------->
 <link rel="stylesheet" type="text/css" href="css/styles.css">
-<!------------------------------------------------------------------------------------------------>
-<!-------------- stylesheet CSS ---------------->
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,6 +15,7 @@
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+<!------ black on white ------>
 <div style="background-color:black;color:white;padding:30px">Scroll Down</div>
 <div style="background-color:lightgrey;padding:30px 30px 2500px">
 </div>
@@ -32,6 +29,7 @@ var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 5px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
+
 // scrollTop > 5 and 20.
 function scrollFunction() {
   if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 20) {
@@ -59,8 +57,8 @@ function topFunction() {
 .dropbtn {
   background-color: #04006D;
   color: white;
-  padding: 10px;
-  font-size: 10px;
+  padding: 14px;
+  font-size: 14px;
   border: none;
 }
 
@@ -83,10 +81,12 @@ function topFunction() {
   text-decoration: none;
   display: block;
 }
+/* ccc = grey */
 .dropdown-content a:hover {background-color: #ccc;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
+/* dark green = 398e41 */
 .dropdown:hover .dropbtn {background-color: #398e41;}
 </style>
 </head>
@@ -99,7 +99,7 @@ function topFunction() {
 <p>Move the mouse over the button to open the dropdown menu.</p>
 
 <div class="dropdown">
-  <button class="dropbtn">TheBlue Button</button>
+  <button class="dropbtn">Blue Button</button>
   <div class="dropdown-content">
     <a href="#ch1">Ch 1: Introduction to Blockchain</a>
     <a href="#ch1-1">1.1 What is Blockchain?</a>
@@ -185,7 +185,7 @@ Blockchain: Understanding Its Use Cases and Implications
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------------- table of contents -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------------------- below style added 4.11.2022 ----------------------------------->
+<!----------------------------------- below style added 4.11.2022 -------------------------------->
 <style>
  h1 {
   padding: 20px 0 0 0;
@@ -254,20 +254,20 @@ ol.f {list-style-type: lower-alpha;}
 ol.g {list-style-type: lower-latin;
 }
 </style>
+
 <!--------------------------------------------- above style added 4.11.2022 ----------------------------------->
 
 <h2 id="table-of-contents"><a href="#table-of-contents">Table of
 Contents</a></h2>
-<h2 id="chapter-1.-introduction-to-blockchain"><a
-href="#ch1"><strong>Chapter 1. Introduction to
+<h2 id="ch1"><a href="#ch1"><strong>Chapter 1. Introduction to
 Blockchain</strong></a></h2>
 <blockquote>
-<h3 id="intro-what-is-blockchain">1.1. <a href="#ch1-1"><strong>Intro:
+<h3 id="ch1-1">1.1. <a href="#ch1-1"><strong>Intro:
 What is Blockchain?</strong></a></h3>
 <h3 id="introduction-to-blockchain-and-the-early-internet">1.2. <a
 href="#ch1-2"><strong>Introduction to Blockchain and The Early
 Internet</strong></a></h3>
-<h3 id="blockchain-basics">1.3. <a href="#ch1-3"><strong>Blockchain
+<h3 id="ch1-3">1.3. <a href="#ch1-3"><strong>Blockchain
 Basics</strong></a></h3>
 <h3 id="career-opportunities-in-blockchain">1.4. <a
 href="#ch1-4"><strong>Career Opportunities in
@@ -8704,7 +8704,7 @@ function goBack() {
 The end . . .
    © 2021 edX Inc. All rights reserved.
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
-   4/11/2022 4:33pm
+   4/11/2022 5:16pm
 </pre>
 </body>
 </html>
