@@ -1,7 +1,7 @@
 <h2 align="center">LFS170x - Linux FoundationX</h2>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- readme.md in LFS170x.bauska.org ------------------------------->
+<!----------------------- readme.md in https://github.com/bbauska/LFS170x ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------ linux logo ------------------------------------------>
 <p align="center" width="100%">
@@ -307,6 +307,8 @@ It's **BLOCKCHAIN!**
 Now, let's discuss the vast promise blockchain has for every business, every society, and for everyone listening today.<br/>
 
 And let's begin with an example we are all familiar with.<br/>
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 When you attach a file, a Word document, an Excel sheet, a PDF to an email, you aren't sending an original.<br/>
 
@@ -1098,6 +1100,8 @@ We will gain an understanding of how previous computer technologies like file sh
 
 We will also see how hashing functions and Merkle tree data structures help us immutably store and prove facts without revealing all the details.<br/>
 
+**[`^        back to top        ^`](#table-of-contents)**
+
 Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure.<br/>
 
 We will examine how this agreed-upon, append-only distributed ledger guarantees transparency and immutability, where trust in the information contained in the ledger is a given.<br/>
@@ -1503,6 +1507,8 @@ Now, let's take a look into some of the key concepts of cryptography that are ut
 One of the reoccurring themes in blockchain is that while blockchain itself may be new and cutting-edge, it's built out of nothing more than very old tried-and-true technology.<br/>
 
 And one of the areas this is most true is in cryptography.<br/>
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 When a lot of people first get introduced to cryptography they think it's a very new cutting-edge science.<br/>
 
@@ -4389,6 +4395,8 @@ Next, we will discuss how blockchain is revolutionizing the financial markets by
 
 We will also join in the conversation around Central Bank Digital currencies and how enacting blockchain solutions can streamline the government's monetary policies.
 
+**[`^        back to top        ^`](#table-of-contents)**
+
 Finally, we will discuss the energized world of NFT’s (non-fungible tokens) and how owning unique rights to everything from music, sports collectables and even “captured moments” is turning the collectable world upside down. 
 
 We end the chapter with a brief discussion on interoperability. 
@@ -5167,6 +5175,8 @@ Blockchains are reshaping the way artists and musicians are benefiting from thei
 
 *Blockchain will be a part of everyone's future.*
 
+**[`^        back to top        ^`](#table-of-contents)**
+
 <h3 id="ch6-1">6.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
 <ul>
@@ -5793,4 +5803,4 @@ The end . . .
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
 **[`^        back to top        ^`](#table-of-contents)**
-4/9/2022
+4/12/2022
