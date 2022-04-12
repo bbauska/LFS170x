@@ -96,8 +96,9 @@ These transactions are stored on sheets or blocks in a digital ledger that is sh
 Consensus on the transactions, brings the peer-to-peer network into agreement.
 Once the agreed-upon transactions blocks are recorded in the immutable ledger, trust becomes a fundamental component built into the system.
 
+<div align="right">
 **[`^        back to top        ^`](#table-of-contents)**
-
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- Connect Dots ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
