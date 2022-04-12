@@ -468,6 +468,10 @@ There are many more use cases that utilize blockchain technology far reaching th
 
 **[`^        back to top        ^`](#table-of-contents)**
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------------- blockchain files ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5805,3 +5809,7 @@ The end . . .
 </pre>
 **[`^        back to top        ^`](#table-of-contents)**
 4/12/2022
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
