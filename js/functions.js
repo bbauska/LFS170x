@@ -1,4 +1,4 @@
-/** Called from index.html within bbauska/CandysRoof.bauska.site/main.  Playing and learning JS.  */
+/** Called from index.html within bbauska/CandysRoof.bauska.org/main.  Playing and learning JS.  */
 
 function myfunction()   // write shit.
  {   
