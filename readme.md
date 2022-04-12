@@ -466,8 +466,6 @@ Some privately run blockchains do not use cryptocurrencies as a function of thei
 Blockchain technology can easily transfer anything from property rights, stocks, and even artwork. 
 There are many more use cases that utilize blockchain technology far reaching than currency transfer.
 
-**[`^        back to top        ^`](#table-of-contents)**
-
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
@@ -1105,7 +1103,9 @@ We will gain an understanding of how previous computer technologies like file sh
 
 We will also see how hashing functions and Merkle tree data structures help us immutably store and prove facts without revealing all the details.<br/>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure.<br/>
 
@@ -1513,7 +1513,9 @@ One of the reoccurring themes in blockchain is that while blockchain itself may 
 
 And one of the areas this is most true is in cryptography.<br/>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 When a lot of people first get introduced to cryptography they think it's a very new cutting-edge science.<br/>
 
@@ -4400,7 +4402,9 @@ Next, we will discuss how blockchain is revolutionizing the financial markets by
 
 We will also join in the conversation around Central Bank Digital currencies and how enacting blockchain solutions can streamline the government's monetary policies.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Finally, we will discuss the energized world of NFT’s (non-fungible tokens) and how owning unique rights to everything from music, sports collectables and even “captured moments” is turning the collectable world upside down. 
 
@@ -4943,7 +4947,9 @@ Led by web inventor and Director [Tim Berners-Lee](https://en.wikipedia.org/wiki
 
 W3C is working on standards that can be used to define a new paradigm for the Internet and Identity.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Key Concepts</h3>
 
@@ -5028,8 +5034,9 @@ Microloans, smaller loans made from pools of capital, now are available granting
 
 For example, in agriculture, farmers are able to secure small loans to help them get crops to market.
 
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- Benefits of Decentralized Finance (167) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5105,7 +5112,9 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Non-fungible_token), a no
 
 NFTs can represent art, music, videos and other digital files where access to the original file is restricted, limited to the owner proving authenticity and providence. The first standard for issuing NFT’s was based on the Ethereum's [ERC-721](http://erc721.org/) that differs from the ERC-20 as ERC-721 tokens are all unique which makes them perfect for the collectibles market. The [ECR-1155](https://eips.ethereum.org/EIPS/eip-1155) aims to improve on the previous token standard by further defining assets.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Let's now take a look at some of the types of non-fungible tokens:
    * Digital artwork<br/>
@@ -5146,7 +5155,9 @@ These services would not operate efficiently, if these companies couldn't exchan
 
 With this in mind, blockchain are developing projects that, like smartphones and emails, will transfer value and information across blockchain seamlessly.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch5-5">5.5 Chapter Summary</h3>
 In this chapter, we discussed:
@@ -5180,8 +5191,6 @@ Blockchains are reshaping the way artists and musicians are benefiting from thei
 
 *Blockchain will be a part of everyone's future.*
 
-**[`^        back to top        ^`](#table-of-contents)**
-
 <h3 id="ch6-1">6.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
 <ul>
@@ -5192,7 +5201,9 @@ By the end of this chapter, you should be able to:
 <li>Explain how blockchain will improve the human experience.</li>
 </ul>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch6-2">6.2 Blockchain Use Case Categories (Blockchain in Practice)</h3>
 Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. 
@@ -5230,7 +5241,9 @@ Supply chain data is not always visible or trusted. In recent times of disruptio
   
 Learn more about the collaboration between Maersk and IBM from the ["Digitizing Global Trade with Maersk and IBM"](https://www.ibm.com/blogs/blockchain/2018/01/digitizing-global-trade-maersk-ibm/) blog post by Michael White.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Supply Chain - Maersk (Enterprise Solutions)</h3>
 Global trade functions much as it has since the introduction of the shipping container in 1956.
@@ -5273,8 +5286,9 @@ And, according to the WTO, reducing barriers within the international supply cha
 
 The resulting solution is called [TradeLens](https://www.tradelens.com/). You can take the TradeLens tour [here](https://tour.tradelens.com/).
 
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------- Trade Made Easy ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
