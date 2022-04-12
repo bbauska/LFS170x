@@ -5333,8 +5333,9 @@ We'll make sure that all stakeholders work together for a safer and better food 
   - IBM's [Food Trust Solution](https://www.ibm.com/blockchain/resources/food-trust/manufacturing/?mhsrc=ibmsearch_a&mhq=Food%20Trust%20Solution) building faith in food supply chains.
   - Paramount's [Farm to Table](https://www.farmtoplate.io/) creates an inclusive blockchain supply chain solution [from the farm all the way to your plate](https://www.producebluebook.com/2021/05/21/paramount-software-solutions-launches-farm-to-plate-blockchain-platform/#modal).
 
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- Farm to Table logo (177) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -5394,7 +5395,9 @@ Reduction of settlement times will improve the flow of money through fintech com
    width="25%" />
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Swiss Exchange, [SIX](https://tokenist.com/swiss-exchange-six-to-incorporate-blockchain-and-launch-sto/) has a solution that solves the issue in the trade markets of long settlement times. 
 The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. 
@@ -5417,7 +5420,9 @@ The platform is built on Corda blockchain, it solves the problem that most lette
 By using blockchain technology, the letters of credit may be efficiently transacted in less than 24 hours. 
 You can learn more about Voltron from the following two articles "Blockchain Based Letter of Credit Processed by HSBC on Voltron Trade Finance Platform" (by JD Alois) and "Trade Finance Solution Voltron Launches Open Platform on Corda Blockchain".
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch6-4">6.4 Public Sector Solutions Overview</h3>
 Blockchain benefits of security, efficiency and speed have government leaders research the far reaching implications that will improve lives and accelerate global blockchain solutions. 
@@ -5437,7 +5442,9 @@ According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’K
    width="50%" />
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. 
 Watch these additional resources to learn more about the Smart Dubai initiative, ["Smart Dubai's Paperless Strategy"](https://www.digitaldubai.ae/initiatives/paperless) and ["Happy Cities Forum 2019"](https://www.digitaldubai.ae/initiatives/happiness-agenda).
@@ -5482,7 +5489,9 @@ The [Blockchain for Social Impact Coalition (BSIC)](https://blockchainforsociali
    width="50%" />
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 According to the ["7 Ways Blockchain Can Be Used for Social Good"](https://innotechtoday.com/blockchain-social-good/) article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
 <ul>
@@ -5513,7 +5522,9 @@ More than 1.7 billion people around the world are unbanked and can’t access th
    width="50%" />
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The mission of the Rohingya Project is to create the foundation for a viable future for the stateless Rohingya people by connecting them digitally to opportunities to learn, equip and empower themselves. Through the creation of a Financial and Social Inclusion platform, those Rohingya who for years have been sidelined can be given access to a range of virtual services including online education, digital identity and reward tokens.
 
@@ -5539,8 +5550,9 @@ The platform will tap into the potential of the Rohingya community and other mar
 
 The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social Impact project designed to improve disaster relief efforts as well as open up new pathways for local charity giving.
 
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- Charity logo ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -5560,7 +5572,9 @@ Created by three local meetup groups, [Ledger Academy](https://ledgeracademy.com
     alt="The Giving Chain"</>
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The Giving Chain is now moving from a Proof of Concept project to a prototype as it was selected for the 2021 Hyperledger Mentorship program.
 ConsenSys
@@ -5613,7 +5627,9 @@ Hyperledger is an open source project with blockchains for you to build your sol
    width="100%" />
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
   
 <h3>Daml</h3>
 
@@ -5647,8 +5663,9 @@ These apps allow secure, direct connections between users and providers, elimina
 
 The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
 
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- Simba logo (186) ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5695,7 +5712,9 @@ Marketplaces exist to shop renewable energies to make sustainable solutions avai
    width="25%" />
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 [Power Ledger](https://www.powerledger.io/) solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. 
 
@@ -5739,8 +5758,9 @@ The options on themusicianmarketplace.com are unlimited.
 
 Below you can see themusicianmarketplace.com dashboard: 
 
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- musicianmarketplace.com ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5773,7 +5793,9 @@ Blockchain provides that.
 
 I think that we are going to see a lot of growth in emerging technologies as blockchain continues to emerge, because it's going to make more and more things possible.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 And if we talk long term, and again, only my opinion, I think blockchain becomes the enabling layer for a multi-planetary human economy.
 
@@ -5807,10 +5829,8 @@ The end . . .
    © 2021 edX Inc. All rights reserved.
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
-<div align="right">
 **[`^        back to top        ^`](#table-of-contents)**
-<div>
-<br/>
+
 4/12/2022
 
 <div align="right">
