@@ -398,7 +398,9 @@ Examples of smart contracts include *insurance policies*, *copyrighted content*,
 Smart contracts will revolutionize how we do business.
 
 There are so many possibilities with blockchain; not just in the now, but with things we haven't begun to think about yet.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <b><i>Blockchain Is **NOT** Bitcoin</i></b><br/>
 
 Bitcoin is a digital currency running on top of the Bitcoin blockchain. We will develop the concept of cryptocurrencies in later sections. 
@@ -528,7 +530,9 @@ And the rest of this series will take a deeper dive into these basic concepts an
 
 You already understand all the major principles and concepts required to understand what blockchain is and why it's so powerful.
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Let’s Review an Analogy</h3>
 <p>
 A block on a blockchain can be thought of much like a page in a notebook. Data is stored on a block, just like data is written on a page of a notebook. <br/>
@@ -597,7 +601,9 @@ If the data is tampered with anywhere in the chain, the links will break in a ve
 &nbsp;
  
 This provides immutability and security.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Blockchain Features</h3>
 Blockchain is a combination of several other underlying technologies that have never been combined so successfully.
 Here are some features that make this new technology so revolutionary.
@@ -670,6 +676,9 @@ Since every node shares a copy of the agreed-upon ledger, there is no friction a
 
 Centralized systems are not transparent, the information about the ledger is controlled by one authority.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Blockchain Features: Consensus</h3>
 <p>
 Blockchain ledgers are different from centralized ledgers because network participants have an agreement upon what is in the identical ledger. <br/>
@@ -733,7 +742,9 @@ They can be sure that if the conditions aren't fulfilled, the contract won't be 
 
 Other than that, the use of smart contracts can remove the need for intermediaries, reducing operational costs significantly.
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3 id="ch1-4">1.4 Blockchain Actors (Career Opportunities)</h3>
 With new technology comes new opportunities and this holds true for blockchain. 
 
@@ -794,7 +805,9 @@ NFT stands for a non fungible token, a special token that represents a unique ID
 The collectable world is jumping in head first and creating non fungible tokens that represent art, music, memorializing events, newspaper articles and record releases. 
 Designers are needed to turn these moments/media into art for the thirsty NFT market.</li>
 </ul>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3 id="ch1-5">1.5 Who is Using Blockchain? (Use Cases)</h3>
 <p>
 There are a lot of really interesting use cases being explored with blockchain right now.<br/>
@@ -862,7 +875,9 @@ I have a much more diversified investment, which continues to offer returns, bec
 There are lots of very interesting use cases for blockchain in the real world right now.
 
 I would encourage all of you to dig in a little bit more, and see some of the interesting things that are going on with blockchain in healthcare, in public sector, in insurance, in supply chain, value chain and more, see what other folks are doing, and then go out and make your own blockchain dreams a reality.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Blockchain Users: Business to Consumer (B2C)</h3>
 <p>
 A Business to Consumer (B2C) is business or transactions conducted directly between a company and consumers who are the end-users of its products or services.<br/>
@@ -934,7 +949,9 @@ Industries like finance, international trade and commerce, food supply chains ar
   The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
 &nbsp;<br/>
    * <b>Result:</b> Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Unintended Use Cases</h3>
 <p>
 One of the coolest things about blockchain is some of the unintended consequences a good blockchain solution might have.<br/>
@@ -998,7 +1015,9 @@ Certainly, it was not the original problem we went to solve with blockchain, but
 
 Look for blockchain not just to transform the areas that we're aware it might make a difference in, but also to provide some new exciting and unintended benefits.
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Blockchain Users: Government to Consumer (G2C)/Government to Government (G2G)</h3>
 <p>
 The public sector is the part of the economy composed of both public sector and private sector enterprises that are operating on behalf of the public.<br/>
@@ -1039,7 +1058,9 @@ Blockchain is becoming the enabling layer for a lot of other Smart Dubai initiat
 Projects like automated traffic signals, registration of citizens for governmental services, etc. are all being pioneered on blockchain.<br/>
 
 If you want to see some of the really exciting use cases in blockchain right now, be sure to check out Dubai and what's going on with their Smart Dubai 2021 initiative.<br/>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Real World Example of Public Sector Government to Government/Citizens</h3>
 
 <h4>Use Case: Public Sector - Smart Dubai</h4>
@@ -1093,7 +1114,6 @@ In this chapter, we discussed:
 <li>Blockchain users and their roles.</li>
 <li>Emerging general use cases.</li>
 </ul>
-
 <h2 id="ch2">Chapter 2. Blockchain Mechanics</h2>
 
 <h3>Chapter Overview</h3>
@@ -1329,7 +1349,9 @@ To understand how blockchain came about, we must first understand the following 
 This is where the blockchain comes in: rather than these entries occurring separately in independent sets of books, they occur in the form of a transfer between wallet addresses in the same distributed, public ledger, which creates an interlocking system of enduring accounting records. 
 Since the entries are distributed and cryptographically sealed, falsifying them in a credible way or destroying them to conceal activity is practically impossible".
 </blockquote>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Double vs. Triple-Entry Accounting Comparison</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -1388,7 +1410,9 @@ One day, a stone fell into the ocean and the Yapese decided that this stone, eve
 
 This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.<br/>
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Island of Yap: Recap</h3>
 <p>
 
@@ -1484,6 +1508,9 @@ Now that we understand the foundational principle of blockchains - distributed l
 
 Trust is created through two key principles: collaboration and cryptography, both of which will be discussed shortly.<br/>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Decentralized Ledger</h3>
 <p>
 As we can see by looking at the evolution of the ledger, we are entering a new phase where no one centralized authority has control of the details in the ledger, everyone does.<br/>
@@ -1593,7 +1620,9 @@ Encryption is the reverse process of converting ciphertext into plain text.</li>
    width="65%" />
 &nbsp;
 <p align="center">The Secret and the Key are passed into the Function to create the Cipher.</p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Cryptography Basics</h3>
 One of the technologies that plays a pivotal role in blockchain and making blockchain secure and immutable is cryptography.
 
@@ -1649,7 +1678,9 @@ Number one, that cryptography is normally a two-way function with four component
    able to recreate that hash output.
 
 These are key components which enable security and immutability on the blockchain.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Cryptographic Functions</h3>
 Simple example function:
 <ul>
@@ -1695,6 +1726,10 @@ When we talk about Byzantine Fault Tolerance, we're talking about the generals h
 If I'm the generals and I can hire more mathematicians, then that means that I can encrypt my messages going through the city with greater and greater complexity, and if the balance of power becomes greatly tipped in the favor of the generals outside the city, they can use encryption methods which are so complex, that there really is no real chance, or a very small chance that any of the mathematicians inside the city will be able to intercept that message, decrypt it, change the contents, re-encrypt it, and do so in a time quick enough that the generals don't notice anything has happened.
 
 This is **Byzantine Fault Tolerance**.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 This is the fault tolerance mechanism that we see used in most public blockchain solutions right now, including Bitcoin, including Ethereum, although Ethereum is working on transitioning to a system called Proof of Stake, which we'll talk about in a later section.
 
@@ -1747,7 +1782,9 @@ Transactions on the blockchain include their public key and are digitally signed
    alt="Public Key Cryptography - Verify Signature with 3-step Process"
    width="65%" />
 &nbsp;
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Identity: Specific Identity Implementations</h3>
 Ethereum is a public blockchain that anyone can participate in. [Hyperledger](https://www.hyperledger.org/) is an example of an enterprise blockchain where participants must be granted access to engage in the blockchain.
 <ul>
@@ -1801,7 +1838,9 @@ Digital Signatures and Key Pairs<br/>
 	alt="Step 3: The recipient uses the public key with the private keys to decrypt the message"
 	width="50%" />
 &nbsp;
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Private/Public Key Cryptography</h3>
 <p>
 I want to talk a little bit about cryptography and some cryptography principles.
@@ -1897,6 +1936,9 @@ When you hear about zk-SNARKs, don't get intimidated.
 
 It's not a complex idea. Just think of Zero-Knowledge Proofs and the cave door, think about how important it is in blockchain to be able to prove a claim without actually revealing the information behind that claim, and you'll understand Zero-Knowledge Proofs.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Hash Functions in Blockchain</h3>
 <p>
 When using blockchain, the need to trust a central authority to verify the accuracy of data is removed and replaced by trust in a cryptographic hashing function. 
@@ -2006,6 +2048,10 @@ Next, let's engage with an interactive lab. This lab is an actual hands-on demon
 
 [Start Lab](https://blockchaintrainingalliance.com/pages/lab-hash)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Merkle Tree</h3>
 A special type of data storage structure based on hash functions is called a Merkle tree:
 <ul>
@@ -2089,7 +2135,9 @@ Both Ethereum and Hyperledger Fabric are smart contract platforms that use a par
    alt="Disintermediation - Trust Through Transparency"
    width="100%" />
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Disintermediation - Trust Through Transparency</h3>
 Now, that we have an understanding of how collaboration and cryptography work together to create a layer of trust, let's discuss how blockchain has a powerful disintermediation effect.
 
@@ -2173,7 +2221,9 @@ Blockchain offers efficiency. It also creates trust and financial benefit throug
 Traditional Database Updates
 
 A database is a collection of interrelated data organized so that individual records or groups of records can be retrieved to satisfy various criteria.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- CRUD - create, read, update, delete ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2182,7 +2232,6 @@ A database is a collection of interrelated data organized so that individual rec
 	alt="CRUD - Create, Read, Update, Delete"
 	width="65%" />
 </p>
- 
 Traditional databases use the CRUD method which has <b>four</b> main operations:
 <ul>
 <li>Create - add a new value to the database.</li>
@@ -2232,7 +2281,9 @@ This means that the blockchain is a completely transparent data structure with t
    alt="Transparency of a Blockchain"
    width="65%" />
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Transparency: Databases vs. Blockchain</h3>
 <p>
 Traditional databases and the blockchain were created for different purposes and have different levels of transparency. 
@@ -5866,7 +5917,7 @@ The end . . .
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
 **[`^        back to top        ^`](#table-of-contents)**
-4/13/2022 9:18am
+4/13/2022 9:55am
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
