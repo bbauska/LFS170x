@@ -5368,7 +5368,7 @@ SAP has an existing solution unrelated to blockchain called Advanced Track and T
 To further explore this solution read the following article by Nicky Morris ["SAP Leads Pharma Supply Chain Blockchain"](https://www.ledgerinsights.com/sap-pharma-supply-chain/) and watch ["Verifying Pharmaceutical Products Using Blockchain"](https://www.sap.com/assetdetail/2018/05/c48ee5c2-047d-0010-87a3-c30de2ffd8ff.html) video. 
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- pfizer logo (178) ------------------------------------------->
+<!------------------------------------- pfizer logo (178) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image103.png?raw=true"
@@ -5392,17 +5392,17 @@ Reduction of settlement times will improve the flow of money through fintech com
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-Swiss Exchange, [SIX](https://tokenist.com/swiss-exchange-six-to-incorporate-blockchain-and-launch-sto/) has a solution that solves the issue in the trade markets of long settlement times. 
-The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. 
-Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can be completed in fractions of a second.
-Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. 
-In a paper from [Andrea Frosinini](https://www.tradefinanceglobal.com/posts/author/andrea-frosinini/), ["Reshaping Trade Finance: Towards a “New” Letter of Credit"](https://wiki.hyperledger.org/display/TFSIG/Reshaping+Trade+Finance.+Towards+a+new+Letter+of+Credit?preview=/29035705/29035706/Reshaping%20Trade%20Finance%20(towards%20a%20new%20Letter%20of%20Credit).pdf), he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 
+Swiss Exchange, [SIX](https://tokenist.com/swiss-exchange-six-to-incorporate-blockchain-and-launch-sto/) has a solution that solves the issue in the trade markets of long settlement times.
+The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days.
+Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can be completed in fractions of a second.
+Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people.
+In a paper from [Andrea Frosinini](https://www.tradefinanceglobal.com/posts/author/andrea-frosinini/), ["Reshaping Trade Finance: Towards a “New” Letter of Credit"](https://wiki.hyperledger.org/display/TFSIG/Reshaping+Trade+Finance.+Towards+a+new+Letter+of+Credit?preview=/29035705/29035706/Reshaping%20Trade%20Finance%20(towards%20a%20new%20Letter%20of%20Credit).pdf), he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------=------- Voltron logo --------------------------------------------->
+<!---------------------------------------- voltron logo ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image105.png?raw=true"
+<img src="/images/image104.png?raw=true"
    alt="Voltron logo"
    width="25%" />
 </p>
@@ -5436,9 +5436,12 @@ According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’K
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 <p>
-One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. 
+One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth.
+
 Watch these additional resources to learn more about the Smart Dubai initiative, ["Smart Dubai's Paperless Strategy"](https://www.digitaldubai.ae/initiatives/paperless) and ["Happy Cities Forum 2019"](https://www.digitaldubai.ae/initiatives/happiness-agenda).
+
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ dutch blockchain coalition logo --------------------------------->
