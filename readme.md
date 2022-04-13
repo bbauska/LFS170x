@@ -1726,11 +1726,9 @@ When we talk about Byzantine Fault Tolerance, we're talking about the generals h
 If I'm the generals and I can hire more mathematicians, then that means that I can encrypt my messages going through the city with greater and greater complexity, and if the balance of power becomes greatly tipped in the favor of the generals outside the city, they can use encryption methods which are so complex, that there really is no real chance, or a very small chance that any of the mathematicians inside the city will be able to intercept that message, decrypt it, change the contents, re-encrypt it, and do so in a time quick enough that the generals don't notice anything has happened.
 
 This is **Byzantine Fault Tolerance**.
-
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
 This is the fault tolerance mechanism that we see used in most public blockchain solutions right now, including Bitcoin, including Ethereum, although Ethereum is working on transitioning to a system called Proof of Stake, which we'll talk about in a later section.
 
 But, when you hear Byzantine Fault Tolerance, often abbreviated as BFT, all we're talking about is this idea that blockchains become secure if they have more computing power, more hash power in the chain than off the chain.
@@ -1785,6 +1783,7 @@ Transactions on the blockchain include their public key and are digitally signed
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 <h3>Identity: Specific Identity Implementations</h3>
 Ethereum is a public blockchain that anyone can participate in. [Hyperledger](https://www.hyperledger.org/) is an example of an enterprise blockchain where participants must be granted access to engage in the blockchain.
 <ul>
@@ -5917,7 +5916,7 @@ The end . . .
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
 **[`^        back to top        ^`](#table-of-contents)**
-4/13/2022 9:55am
+4/13/2022 9:18am
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
