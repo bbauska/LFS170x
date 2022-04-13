@@ -354,6 +354,7 @@ Blockchain allows people to exchange assets and perform transactions without a t
 Imagine a world where you don't need intermediaries.
 
 While traditionally we have needed central authorities to trust one another and fulfill contracts, blockchain makes it possible to have our peers guarantee that for us. 
+
 But how?
 
 Assets, like we've discussed, are no longer stored in a central place, but distributed across a global ledger, using the highest level of cryptography.
@@ -1105,6 +1106,7 @@ We will also see how hashing functions and Merkle tree data structures help us i
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure.<br/>
 
 We will examine how this agreed-upon, append-only distributed ledger guarantees transparency and immutability, where trust in the information contained in the ledger is a given.<br/>
@@ -1132,7 +1134,9 @@ However, before we discuss the ledger, let's discuss briefly the history of the 
 The story of blockchain is tightly coupled with the story of accounting.<br/>
 
 Historically, humans started off with no way to prove ownership and we began with a single-entry accounting system.<br/>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 The single-entry accounting system for the first time in human history allowed us to prove ownership of the asset.<br/>
 
 The ledger was associated with an owner.<br/>
@@ -1152,7 +1156,9 @@ What blockchain is? Blockchain is the very first implementation of triple-entry 
 The third entry and triple-entry accounting is cryptography, where we have a cryptographic account of the transaction stored permanently and immutably on the ledger.<br/>
 
 That's what the ledger is. A ledger is a collection of transactions.<br/>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 It is not a collection of assets. Assets are part of a transaction, but the ledger records the transaction.<br/>
 
 In blockchain, the differentiator is that no one owns the ledger, or all of the participants own the ledger.<br/>
@@ -1186,7 +1192,9 @@ The blockchain is a ... <b><i>public blockchain</i></b> is equivalent to the Int
 It is... just like we have a use case for public blockchains and public internet, we also have use cases for private blockchains and an intranet, if we're gonna stay with that analogy.
 
 On each of these networks there are nodes. 
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 The nodes are going to be synonymous with the computers that make up the network.
 
 On the nodes, they are put together by a collection of protocols.
@@ -1238,7 +1246,9 @@ When something occurs on the blockchain, either public blockchains... most publi
 This allows end-users, other systems, other users, different components to be able to act off of the events that come from an update on a blockchain.
 
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Basic Terms</h3>
 Some terms that are mentioned in the video we will get familiar with in later chapters, but are worth a brief description for clarification:
 
@@ -1279,7 +1289,9 @@ To understand how blockchain came about, we must first understand the following 
 <li>Ledgers first appeared around 3,000 B.C.</li>
 <li>Single-entry only.</li>
 <li>Chanakya, an Indian leader, creates the first documented accounting standards.</li><br/>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- double-entry accounting ledger ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3644,7 +3656,9 @@ Finally, we will dive into the idea of collaboration among parties who don't tru
 
 This new form of world wide collaboration can be the key to solving the world's toughest problems.
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3 id="ch4-1">4.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
 <ul>
@@ -4899,12 +4913,14 @@ Below is the screenshot of the Liquid Exchange:
    src="./images/image-liquid-exchange.jpg"
    alt="Liquid Exchange"</>
 </p>
- 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Hardware Wallets</h3>
 Hardware wallets offer an alternative to storing your cryptocurrency online. These devices plug into a USB port and transfer your private keys (ownership rights to the cryptocurrency) from your “hot wallet” (mobile, computer or web based) to be stored offline. If the device is damaged or lost, so are the cryptocurrencies stored.
 
 This is what the [ledger wallet](https://shop.ledger.com/products/ledger-nano-s/?flow_country=USA&msclkid=91c26052e5701161046300fd18bf7e2d) looks like:
- 
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- Ledger Wallet (164) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4959,7 +4975,9 @@ They request proof that a claim or statement about a credential is true.
 
 <h4>Issuers</h4>
 Issuers are the source of credentials—every credential has an issuer. Most issuers are organizations such as government agencies (passports), financial institutions (credit cards), universities (degrees), corporations (employment credentials), NGOs (membership cards), or churches (awards).
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h4>Holders/Provers</h4>
 Providers request verifiable credentials from issuers, hold them in the holder’s digital wallet (below), and present proofs of claims from one or more credentials when requested by verifiers (and approved by the holder). 
 Although we most commonly think of individuals as holders/provers, holders/provers can also be organizations using enterprise wallets, or things in the sense of the Internet of Things (IoT). 
@@ -4993,7 +5011,9 @@ WC3 is working on ways to standardize the format for DIDs.
 The DID above is structured to identify what type of credential, the issuer and the cryptographic hash of the credential.
 
 The [Sovrin Foundation](https://sovrin.org/) and [Everynym](https://sovrin.org/) are leading pioneers in this new emerging sector offering identity solutions in sectors such as Healthcare and Refugee Management.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Decentralized Finance</h3>
 
 According to ["The Complete Beginner's Guide to Decentralized Finance (DeFi)"](https://academy.binance.com/en/articles/the-complete-beginners-guide-to-decentralized-finance-defi) article by Binance Academy, Decentralized Finance or DeFI refers to a system of financial software that enables financial products to be made available to the public on decentralized blockchains. 
@@ -5102,6 +5122,9 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Non-fungible_token), a no
 </blockquote>
 
 NFTs can represent art, music, videos and other digital files where access to the original file is restricted, limited to the owner proving authenticity and providence. The first standard for issuing NFT’s was based on the Ethereum's [ERC-721](http://erc721.org/) that differs from the ERC-20 as ERC-721 tokens are all unique which makes them perfect for the collectibles market. The [ECR-1155](https://eips.ethereum.org/EIPS/eip-1155) aims to improve on the previous token standard by further defining assets.
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 Let's now take a look at some of the types of non-fungible tokens:
    * Digital artwork<br/>
 By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator. The New York Times reported art entitled ["Everydays – The First 5000 Days"](https://www.nytimes.com/2021/02/24/arts/design/christies-beeple-nft.html), by artist Mike Winkelmann, also known as [Beeple](https://en.wikipedia.org/wiki/Mike_Winkelmann), sold for $69.3 million USD in 2021.
