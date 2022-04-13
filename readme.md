@@ -4448,7 +4448,9 @@ Immutability is when something is unable to be changed.
    alt="Immutability Defined - No Changes Allowed...Ever"
    width="50%" />
 </p>
-  
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Immutability</h3>
 "Immutable" simply refers to the permanence of data.<br/>
 
@@ -4490,7 +4492,9 @@ Another point to keep in mind is that immutability has been around for many year
   <img width="60%" src="./images/image-immutability-example.png"
     alt="Immutability Example"</>
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Blockchain Immutability Concept</h3>
 Let's review the aspects of the public blockchain that improve the chances of it being immutable.
 
@@ -4538,7 +4542,9 @@ Before we jump into how blockchain technology can be seen as transparent in cert
 In a traditional database, a client can perform four functions on data: create, read, update, delete. In a traditional database, there is usually an administrator, the authority giver who allows certain known participants in the database to do more than read/create; it allows them to update (change) and/or delete.
 
 Due to the fact that the administrator is controlling who has access and who doesn’t, it’s easier to track these changes and prevent actors from tampering. In the public blockchain world, this isn’t necessarily the case.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Blockchain Append-Only</h3>
 Within the public blockchain world, every full node on the network is its own administrator, where it can create (e.g. add) and read; this is also known as read/write access (e.g. append-only). These nodes only add more data over time in the form of blocks, but all previous data is permanently stored and cannot be altered.
 
@@ -4579,7 +4585,9 @@ The blockchain world is looking to solve all of this complexity with autonomy fr
 
 Depending on how complex a transaction is between two parties, designated specialists can make the process more efficient. Many players are involved in the process, from contract drafters, signatories, and regulators. If a dispute over the contract occurs, many parties can be involved, including the courts.
 This complexity can be seen within many areas of life. Take a moment to dissect the backend of certain services or products you use and this concept will become exposed very quickly.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Autonomy with Smart Contracts</h3>
 Autonomy in the blockchain world can be seen from many different angles. We are going to focus solely on smart contracts in this section, due to the amount of autonomy they provide everyone involved. The concept of smart contracts has been around for a long time and was first proposed by Nick Szabo, who coined the term in 1994.
 
@@ -4629,7 +4637,9 @@ A Smart Contract could be created between Alice and Bob.
 The Smart Contract would hold the remaining $2,500 in escrow, and if Bob had an issue with the car, he would report it to the Smart Contract. After 1,000 miles the Smart Contract will determine how much of the remaining funds are due to Alice and how much should be returned to Bob using the rules Alice and Bob initially agreed upon.
 
 All details about the transaction would be recorded on a permanent, decentralized ledger which could be used at any point in the future to answer any questions about the transaction between Alice and Bob.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Multi-Party Transactions</h3>
 In our current world of transactions, there’s always a third party to assist with connecting the sender and receiver. 
 
@@ -4685,7 +4695,9 @@ With that built-in "trustless" trust, we’re able to remove those middlemen tha
    src="./images/image-cross-border.png"
    alt="Cross Border Payments and Ledgers"</>
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Cross Border Payments and Ledgers</h3>
 Traditional centralized ledger systems have weaknesses. Accuracy is dependent on intermediaries who can change details of the centralized ledger. Data derived from the ledger is siloed and misused.
  
