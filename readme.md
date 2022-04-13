@@ -118,7 +118,7 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <p align="center" width="100%">
 <img src="/images/darpa-logo.jpg?raw=true"
    alt-"DARPA logo" 
-   width="30%" />
+   width="20%" />
 &nbsp;
 
 What started as a **[DARPA (Defense Advanced Research Project Agency)](https://www.darpa.mil)** experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
@@ -5420,11 +5420,12 @@ You can learn more about Voltron from the following two articles "Blockchain Bas
 Blockchain benefits of security, efficiency and speed have government leaders research the far reaching implications that will improve lives and accelerate global blockchain solutions. 
 Public sector can be categorized by, Public Administration, Public Service, Land and Community, and Government. 
 According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’Kelly, "Re-thinking Public Sector through Blockchain", all blockchain public sector project must consider in the design these four factors:
-  - Identity management for Governments
-  - Interactions (highly regulated transactions)
-  - Regulations
-  - Governance
-
+<ul>
+<li>Identity management for Governments</li>
+<li>Interactions (highly regulated transactions)</li>
+<li>Regulations</li>
+<li>Governance</li>
+</ul>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- smarrt dubai (180) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5436,9 +5437,10 @@ According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’K
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+<p>
 One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. 
 Watch these additional resources to learn more about the Smart Dubai initiative, ["Smart Dubai's Paperless Strategy"](https://www.digitaldubai.ae/initiatives/paperless) and ["Happy Cities Forum 2019"](https://www.digitaldubai.ae/initiatives/happiness-agenda).
-
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ dutch blockchain coalition logo --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5454,7 +5456,6 @@ Watch these additional resources to learn more about the Smart Dubai initiative,
 <li>Realizing the conditions for utilizing blockchain</li>
 <li>Developing and realizing the Human Capital Agenda</li>
 </ul>
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- buffalo on wyoming Flag (181) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
