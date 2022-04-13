@@ -4834,6 +4834,9 @@ Some wallets allow you to hold multiple cryptocurrencies in the same application
 
 <h3>Atomic Swaps</h3>
 Additional features in these wallets lets you “swap” one cryptocurrency for another. The application provider acts as the intermediary to secure the transactions from one chain to the other.
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Metamask</h3>
 
@@ -4873,7 +4876,9 @@ Kittens purchased on the cryptokitties.co site will be stored in the Metamask wa
 
 <h3>Exchanges</h3>
 Cryptocurrency exchanges vary in complexities and user experience.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Beginners</h3>
 To start off, it is advantageous to deal with a centralized solution to store your cryptocurrency. 
 
@@ -4893,6 +4898,9 @@ Below you can see a screenshot of the [Gemini Custodial Crypto Account Dashboard
    src="./images/image-advanced.jpg"
    alt="Gemini Custodial Crypto Account Dashboard"</>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Advanced</h3>
 In keeping with the decentralization nature of the cryptocurrency markets, exchanges exist where you are the custodian of your accounts and trading is done from your computer or smartphone. 
@@ -5510,6 +5518,7 @@ The [Blockchain for Social Impact Coalition (BSIC)](https://blockchainforsociali
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 According to the ["7 Ways Blockchain Can Be Used for Social Good"](https://innotechtoday.com/blockchain-social-good/) article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
 <ul>
 <li>Philanthropy and remittances</li>
@@ -5541,6 +5550,7 @@ More than 1.7 billion people around the world are unbanked and can’t access th
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 The mission of the Rohingya Project is to create the foundation for a viable future for the stateless Rohingya people by connecting them digitally to opportunities to learn, equip and empower themselves. Through the creation of a Financial and Social Inclusion platform, those Rohingya who for years have been sidelined can be given access to a range of virtual services including online education, digital identity and reward tokens.
 
 <!------------------------------------------------------------------------------------------------>
@@ -5588,6 +5598,7 @@ Created by three local meetup groups, [Ledger Academy](https://ledgeracademy.com
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 The Giving Chain is now moving from a Proof of Concept project to a prototype as it was selected for the 2021 Hyperledger Mentorship program.
 ConsenSys
 ConsenSys Mesh companies offer solutions to help build out the Ethereum Ecosystem. ConsenSys Mesh acts as an incubator for Etherum-based projects:
@@ -5723,6 +5734,7 @@ Marketplaces exist to shop renewable energies to make sustainable solutions avai
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 [Power Ledger](https://www.powerledger.io/) solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. 
 
 By increasing the transparency for energy origins, Power Ledger could assist with providing customers more choices for where their energy comes from. 
@@ -5767,6 +5779,7 @@ Below you can see themusicianmarketplace.com dashboard:
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- musicianmarketplace.com ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5801,6 +5814,7 @@ I think that we are going to see a lot of growth in emerging technologies as blo
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 And if we talk long term, and again, only my opinion, I think blockchain becomes the enabling layer for a multi-planetary human economy.
 
 You might have seen in February 2018, SpaceX put up Falcon Heavy.
@@ -5833,7 +5847,8 @@ The end . . .
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
 **[`^        back to top        ^`](#table-of-contents)**
-4/12/2022
+4/13/2022 9:18am
+
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
