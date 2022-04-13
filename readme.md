@@ -4740,7 +4740,9 @@ A digital currency should NOT be easy to copy and distribute though.
 It was overcoming this technical challenge that lead to so many failed attempts at digital currency before Bitcoin, and the innovations that the solution to this problem has delivered are now being leveraged to track and manage many different types of assets and data that we never could easily manage before.
 
 It is this possibility of building tools and solutions that were never before thought possible that has so many people excited about the blockchain revolution!
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Blockchain Solves The Double Spend Problem</h3>
 Back in the early 1990’s, developers, cryptographers, and different groups of people were trying to solve the double-spend problem as it related to digital cash, previously known also as electronic cash. Double spending within Bitcoin is the act of using the same bitcoins (digital money files) more than once.
  
@@ -4787,6 +4789,9 @@ Other attempts include:
 <li>E-gold in 1996 (sunk by continuous money laundering, hacking, and extortion).</li>
 <li>Liberty Reserve in 2006 (shut down in 2013 due to this becoming a great hangout spot for cybercriminals).</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch5-3">5.3 Digital Currencies Overview</h3>
 Digital currencies are available only in the digital world and not in the physical world. They can be defined as any currency, money, or money-like asset that is primarily managed, stored or exchanged on computer systems. Examples of digital currencies include cryptocurrency, virtual currency and central bank digital currency.
@@ -4807,7 +4812,9 @@ According to [Investopedia](https://www.investopedia.com/tech/most-important-cry
 
 <h3>Cryptocurrencies Markets </h3>
 To break down the crypto markets, let's start with some basic definitions.
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Crypto Wallet</h3>
 A cryptocurrency wallet is an application on your computer or smart phone that connects you to a blockchain where you can trade cryptocurrencies. A Bitcoin wallet allows you to trade Bitcoin, an Ethereum wallet accommodates Ether. You can not send Bitcoin to the Ethereum blockchain, each cryptocurrency must transact on its own blockchain.
 
