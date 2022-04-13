@@ -5102,9 +5102,6 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Non-fungible_token), a no
 </blockquote>
 
 NFTs can represent art, music, videos and other digital files where access to the original file is restricted, limited to the owner proving authenticity and providence. The first standard for issuing NFT’s was based on the Ethereum's [ERC-721](http://erc721.org/) that differs from the ERC-20 as ERC-721 tokens are all unique which makes them perfect for the collectibles market. The [ECR-1155](https://eips.ethereum.org/EIPS/eip-1155) aims to improve on the previous token standard by further defining assets.
-<div align="right">
-  <b><a href="#table-of-contents">↥ Back To Top</a></b>
-</div>
 Let's now take a look at some of the types of non-fungible tokens:
    * Digital artwork<br/>
 By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator. The New York Times reported art entitled ["Everydays – The First 5000 Days"](https://www.nytimes.com/2021/02/24/arts/design/christies-beeple-nft.html), by artist Mike Winkelmann, also known as [Beeple](https://en.wikipedia.org/wiki/Mike_Winkelmann), sold for $69.3 million USD in 2021.
@@ -5118,6 +5115,10 @@ With NFTs, musicians and filmmakers can now tokenize their work where the artist
 The sports industry has embraced the idea of NFTs from tokenizing memorable sporting moments to trading card collectables. [NBA Top Shots](https://nbatopshot.com/) being the leader for creating a marketplace for NBA collectible cards and moments.[
    * University research<br/>
 In May 2021, [UC Berkeley](https://en.wikipedia.org/wiki/University_of_California,_Berkeley) announced it would auction off NFTs for the patent disclosure for two Nobel Prize-winning inventions dealing with gene editing and Cancer Immunotherapies.<br/>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The younger generation of collectors aren’t interested in China sets and linen, but something they can show their friends on their social media accounts. 
 
