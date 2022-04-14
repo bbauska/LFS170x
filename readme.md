@@ -5237,6 +5237,7 @@ Let's now take a look at some of the types of non-fungible tokens:
 <ul>
 <li>Digital artwork<br/>
 By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator.<br/>
+
 The New York Times reported art entitled ["Everydays – The First 5000 Days"](https://www.nytimes.com/2021/02/24/arts/design/christies-beeple-nft.html), by artist Mike Winkelmann, also known as [Beeple](https://en.wikipedia.org/wiki/Mike_Winkelmann), sold for $69.3 million USD in 2021.</li>
 
 <li>Collectables<br/>
@@ -5255,9 +5256,11 @@ When artists release music or film as NFT, they retain control and realize royal
 Musicians can join in decentralized marketplace such as [Mediachain](http://www.mediachain.io/) a [Ujo](https://mesh.xyz/) to ensure artists are paid fairly, musicians enter into smart contracts that state royalty stipulations without the need of a third party.</li>
 
 <li>Sports<br/>
+
 The sports industry has embraced the idea of NFTs from tokenizing memorable sporting moments to trading card collectables. [NBA Top Shots](https://nbatopshot.com/) being the leader for creating a marketplace for NBA collectible cards and moments.</li>
 
 <li>University research<br/>
+
 In May 2021, [UC Berkeley](https://en.wikipedia.org/wiki/University_of_California,_Berkeley) announced it would auction off NFTs for the patent disclosure for two Nobel Prize-winning inventions dealing with gene editing and Cancer Immunotherapies.</li>
 </ul>
 
