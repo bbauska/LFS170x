@@ -1785,6 +1785,7 @@ Transactions on the blockchain include their public key and are digitally signed
 </div>
 
 <h3>Identity: Specific Identity Implementations</h3>
+
 Ethereum is a public blockchain that anyone can participate in. [Hyperledger](https://www.hyperledger.org/) is an example of an enterprise blockchain where participants must be granted access to engage in the blockchain.
 <ul>
 <li>Ethereum<br/>
@@ -3867,7 +3868,9 @@ In order for a blockchain to survive, it must adapt to the needs of its users an
 Strategies must include incentives so the members want to be good actors in the system. The efforts of the group must be coordinated to be productive. Both of these elements are necessary in blockchain governance models.
 
 <h3>Blockchain Governance Strategies</h3>
-Several different blockchain governance strategies have been proposed and implemented for different blockchains. Let's review some blockchain governance strategies sorted from the fewest to the most members directly involved in the decision, as discussed in the ["Blockchain Governance In A Nutshell"](https://medium.com/coinmonks/blockchain-governance-in-a-nutshell-67903c0d2ea8) article by Demiro Massessi:
+
+Several different blockchain governance strategies have been proposed and implemented for different blockchains.<br/>&nbsp;
+Let's review some blockchain governance strategies sorted from the fewest to the most members directly involved in the decision, as discussed in the ["Blockchain Governance In A Nutshell"](https://medium.com/coinmonks/blockchain-governance-in-a-nutshell-67903c0d2ea8) article by Demiro Massessi:
 <ul>
 <li>"Benevolent dictator for life<br/>
 The original creator or lead developer of a cryptocurrency has the final say on all decisions. The simplest governance strategy is nicknamed benevolent dictator for life. In this strategy, the creator of the blockchain is the final authority on all decisions regarding the blockchain (...).</li>
@@ -3879,14 +3882,18 @@ The team making governance decisions for the blockchain is chosen by the users o
 The rules for how the blockchain operates are stored on-chain in smart contracts with built-in capability and procedures for modifications. A blockchain-specific governance strategy is on-chain governance. In this form of blockchain governance, the rules describing how the blockchain should operate are stored on the blockchain itself. These regulations typically are implemented as smart contracts on the blockchain with built-in methods for users to modify the rules based upon their needs and the needs of the blockchain".</li>
 </ul>
 <h3>Consortium Governance</h3>
-Due to blockchains built in trust and collaboration mechanisms, new pathways are opening up for enterprises to work together. A new form of collaboration fostered by blockchain is consortiums. Consortium, as defined by [Webster's dictionary](https://www.merriam-webster.com/dictionary/consortium), is
+
+Due to blockchains built in trust and collaboration mechanisms, new pathways are opening up for enterprises to work together. A new form of collaboration fostered by blockchain is consortiums.<br/>&nbsp;
+Consortium, as defined by [Webster's dictionary](https://www.merriam-webster.com/dictionary/consortium), is
 <blockquote>
 "an agreement, combination, or group (as of companies) formed to undertake an enterprise beyond the resources of any one member".
 </blockquote>
 Most enterprise blockchain solutions will be implemented by a "consortium" of enterprises, building one or more applications on top of a "blockchain platform". These consortiums are already forming in many industries to deal with the particular problems of those industries. Alliances in Trade Finance, Carbon Emissions Accounting, Social Impact and Healthcare have working blockchain consortiums solutions.
 
 <h3>Who Really Governs the Blockchain?</h3>
-Blockchain governance comes down to the users. For a blockchain community to thrive it needs a robust community. Changes to the operation of the blockchain must be accepted by the majority of its users or they will create a new blockchain that does. The process by which changes are made follow these five steps discussed by Pierre Rochard in his article ["Bitcoin Governance"](https://nakamotoinstitute.org/mempool/bitcoin-governance/):
+Blockchain governance comes down to the users. For a blockchain community to thrive it needs a robust community. Changes to the operation of the blockchain must be accepted by the majority of its users or they will create a new blockchain that does. <br/>
+
+The process by which changes are made follow these five steps discussed by Pierre Rochard in his article ["Bitcoin Governance"](https://nakamotoinstitute.org/mempool/bitcoin-governance/):
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- process of blockchain governance (124) ---------------------------->
@@ -3909,53 +3916,76 @@ If not all users decide to make the switch after a hard fork, a divergent blockc
 As we mentioned in previous sections, Bitcoin uses a Proof of Work model to encourage miners to add blocks to the network. This governs the operations of the blockchain. But what happens when changes need to be made? How do they get implemented? The Bitcoin community consists of three main players: developers, miners, and users. None of these participants have the ability to make emergency decisions when unexpected situations occur. Bitcoin uses an off-chain governance model where decisions are balanced by the developers, miners and users. In blockchain, developers must write the code to change the blockchain. Without the consent of the miners and users, the developers have no way of enforcing the change. Miners and users must choose to adopt the new software changes.
 
 <h3>Bitcoin Improvement Protocols (BIP)</h3>
-When a change to the Bitcoin protocol is needed, developers will share the proposed change with other protocol developers.
-This improvement sharing could be in the form of an email to the bitcoin-dev mailing list, a formal white paper, and/or a Bitcoin Improvement Proposal (BIP).
-Code is written and tested that will enact the change.
-If developers in the community approve the proposals and resulting code, the proposal is put to a vote on chain and the miners decide if the proposal is implemented. This occurs through a hard or soft fork.
+When a change to the Bitcoin protocol is needed, developers will share the proposed change with other protocol developers.<br/>
+This improvement sharing could be in the form of an email to the bitcoin-dev mailing list, a formal white paper, and/or a Bitcoin Improvement Proposal (BIP).<br/>
+Code is written and tested that will enact the change.<br/>
+If developers in the community approve the proposals and resulting code, the proposal is put to a vote on chain and the miners decide if the proposal is implemented. This occurs through a hard or soft fork.<br/>
 This system is not without faults, as can be seen with the SegWit improvement protocol which alters block size.
-The vision surrounding blockchains deals with decentralization.
-By implementing the SegWit changes, a change in how the Bitcoin blockchain protocol operates, a central authority was responsible for enacting the change.
-To many in the community this decision went against the fundamental tenets of blockchains decentralized philosophy.
-As a result, the Bitcoin community was torn and the Bitcoin Network split into two different chains Bitcoin (BTC) and Bitcoin Classic (BCH).
-The [Bitcoin Foundation](https://bitcoinfoundation.org/) is set up to educate and promote the Bitcoin Blockchain.
+The vision surrounding blockchains deals with decentralization.<br/>
+By implementing the SegWit changes, a change in how the Bitcoin blockchain protocol operates, a central authority was responsible for enacting the change.<br/>
+To many in the community this decision went against the fundamental tenets of blockchains decentralized philosophy.<br/>
+As a result, the Bitcoin community was torn and the Bitcoin Network split into two different chains Bitcoin (BTC) and Bitcoin Classic (BCH).<br/>
+The [Bitcoin Foundation](https://bitcoinfoundation.org/) is set up to educate and promote the Bitcoin Blockchain.<br/>
 
 <h3>Governance in Ethereum</h3>
-Vitalik Buterin first described the concept of Ethereum through a [Whitepaper](https://ethereum.org/en/whitepaper/) introduced at the Bitcoin Convention in Miami 2014. 
-It was based on the code for Bitcoin, but included a logic engine that could execute smart contracts. 
-By connecting computers using the Ethereum blockchain, computing power is aggregated creating the Ethereum Virtual Machine. 
-Ethereum is not only a functioning blockchain with smart contract capabilities, but a platform for new blockchains to be built upon. 
-The EVM computing does not come free, a GAS price is charged for the GAS needed to perform the transaction’s computations. 
-This GAS fee can change dramatically depending on network conditions as the current price of Ether is part of the calculation.
+
+Vitalik Buterin first described the concept of Ethereum through a [Whitepaper](https://ethereum.org/en/whitepaper/) introduced at the Bitcoin Convention in Miami 2014.<br/>
+It was based on the code for Bitcoin, but included a logic engine that could execute smart contracts.<br/>
+By connecting computers using the Ethereum blockchain, computing power is aggregated creating the Ethereum Virtual Machine.<br/>
+Ethereum is not only a functioning blockchain with smart contract capabilities, but a platform for new blockchains to be built upon.<br/>
+The EVM computing does not come free, a GAS price is charged for the GAS needed to perform the transaction’s computations.<br/>
+This GAS fee can change dramatically depending on network conditions as the current price of Ether is part of the calculation.<br/>
 
 <h3>Ethereum Improvement Proposals EIP’s</h3>
-Like Bitcoin, Ethereum's three main players (developer, miners and users) must update code to improve on functionality.
-[Ethereum Improvement Proposals (EIPs)](https://ethereum.org/en/eips/) are standards specifying potential new features or processes for Ethereum. EIPs contain technical specifications for the proposed changes and act as the “source of truth” for the community. A note worth EIP was the code for issuing a token.
-The [Ethereum Request for Comment, ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) introduced the standards for issuing utility tokens on blockchain based on Ethereum protocols.
-The [Beacon Chain](https://ethereum.org/en/upgrades/beacon-chain/) introduced the Proof of Stake consensus model and the concept of sharding.
-Sharding is the concept of running parallel side chains to alleviate congestion of the network. 
-The [Berlin Hard](https://www.coindesk.com/tech/2021/04/15/berlin-hard-fork-is-now-live-on-ethereum/) fork and the [London Fork](https://eips.ethereum.org/EIPS/eip-1559) are improvements to stabilize fees paid to the miners so these fees do not fluctuate with the price of Ether.
-Ultimately, Ethereum uses the benevolent dictator for life mode of blockchain governance.
-While user input and input from the development team is welcome for Ethereum, Vitalik Buterin is the final authority on decisions regarding the Ethereum roadmap.
+Like Bitcoin, Ethereum's three main players (developer, miners and users) must update code to improve on functionality.<br/>
+
+[Ethereum Improvement Proposals (EIPs)](https://ethereum.org/en/eips/) are standards specifying potential new features or processes for Ethereum.<br/>
+
+EIPs contain technical specifications for the proposed changes and act as the “source of truth” for the community. A note worth EIP was the code for issuing a token.<br/>
+
+The [Ethereum Request for Comment, ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) introduced the standards for issuing utility tokens on blockchain based on Ethereum protocols.<br/>
+
+The [Beacon Chain](https://ethereum.org/en/upgrades/beacon-chain/) introduced the Proof of Stake consensus model and the concept of sharding.<br/>
+
+Sharding is the concept of running parallel side chains to alleviate congestion of the network.<br/>
+
+The [Berlin Hard](https://www.coindesk.com/tech/2021/04/15/berlin-hard-fork-is-now-live-on-ethereum/) fork and the [London Fork](https://eips.ethereum.org/EIPS/eip-1559) are improvements to stabilize fees paid to the miners so these fees do not fluctuate with the price of Ether.<br/>
+
+Ultimately, Ethereum uses the benevolent dictator for life mode of blockchain governance.<br/>
+While user input and input from the development team is welcome for Ethereum, Vitalik Buterin is the final authority on decisions regarding the Ethereum roadmap.<br/>
 
 <h3>DAO Hard Fork on Ethereum</h3>
-One famous example of this type of fragmentation is the DAO hack on the Ethereum network. The DAO was an Ethereum smart contract that completed a record-breaking crowdfunding campaign on the Ethereum network, with all of this value stored within the DAO smart contract. A flaw in the smart contract’s code allowed an attacker to create another version of the smart contract under their control and siphon off a portion of the DAO contract’s funds, worth roughly 72 million dollars at the time.
-After much debate, the Ethereum network decided to implement a hard fork that allowed investors of the DAO to reclaim their stolen Ether.
-This was a very contentious decision, because the historical ledger in the blockchain is supposed to be immutable and all transactions are final.
-Smart contracts are supposed to be their own final authority, so any action that could be performed with a smart contract, including exploiting a programming flaw to drain value from it, is considered fair game. The Ethereum network’s decision to reverse the DAO hack went against the principles of blockchain’s immutability and the supposed self-regulation of smart contracts.
-Some of the Ethereum network refused to follow the DAO hard fork, resulting in a divergent blockchain where the DAO hack was successful. 
-This created the Ethereum Classic cryptocurrency, which shares the same history as Ethereum up to the DAO hack, but is completely independent after that point.
+One famous example of this type of fragmentation is the DAO hack on the Ethereum network.<br/>
+The DAO was an Ethereum smart contract that completed a record-breaking crowdfunding campaign on the Ethereum network, with all of this value stored within the DAO smart contract.<br/>
+A flaw in the smart contract’s code allowed an attacker to create another version of the smart contract under their control and siphon off a portion of the DAO contract’s funds, worth roughly 72 million dollars at the time.<br/>
+After much debate, the Ethereum network decided to implement a hard fork that allowed investors of the DAO to reclaim their stolen Ether.<br/>
+This was a very contentious decision, because the historical ledger in the blockchain is supposed to be immutable and all transactions are final.<br/>
+Smart contracts are supposed to be their own final authority, so any action that could be performed with a smart contract, including exploiting a programming flaw to drain value from it, is considered fair game. The Ethereum network’s decision to reverse the DAO hack went against the principles of blockchain’s immutability and the supposed self-regulation of smart contracts.<br/>
+Some of the Ethereum network refused to follow the DAO hard fork, resulting in a divergent blockchain where the DAO hack was successful.<br/>
+This created the Ethereum Classic cryptocurrency, which shares the same history as Ethereum up to the DAO hack, but is completely independent after that point.<br/>
 
 <h3>Governance in Hyperledger Frameworks</h3>
-[Hyperledger](https://www.hyperledger.org/) was introduced as an open source blockchain project sanctioned by the Linux Foundation. 
-Spearheaded by Brian Behlendorf, its mission is to provide the community with the tools and education to foster distributed ledger technology on an enterprise level. Hyperledger frameworks use an Open Governance model to make technical decisions regarding the Hyperledger environment.
-The Hyperledger [Technical Steering Committee (TSC)](https://www.hyperledger.org/about/leadership) is the final authority for technical decisions in Hyperledger.
-Each year, the Hyperledger Technical Steering Committee is selected from the Hyperledger environment’s active contributors and maintainers.
-Contributors and maintainers can submit themselves as potential candidates for the fifteen slots, and the slots are filled based on voting by the same group of contributors and maintainers.
-This model is designed to allow those with an active role in the Hyperledger development community to have a say in how that community is governed.
 
-<h4>Governance in Corda</h4>
-[Corda](https://www.corda.net/) is an open source blockchain project designed for business. Developed by R3, an enterprise blockchain software firm, in collaboration with over 200 technology and industry partners. The Corda platform was launched in September of 2017. Corda also uses an Open Governance model to make technical decisions regarding the future of the blockchain. The Corda Network Governing Body is selected to represent the interests of all users in the Corda network.
+[Hyperledger](https://www.hyperledger.org/) was introduced as an open source blockchain project sanctioned by the Linux Foundation.<br/>
+
+Spearheaded by Brian Behlendorf, its mission is to provide the community with the tools and education to foster distributed ledger technology on an enterprise level.<br/>
+
+Hyperledger frameworks use an Open Governance model to make technical decisions regarding the Hyperledger environment.<br/>
+
+The Hyperledger [Technical Steering Committee (TSC)](https://www.hyperledger.org/about/leadership) is the final authority for technical decisions in Hyperledger.<br/>
+
+Each year, the Hyperledger Technical Steering Committee is selected from the Hyperledger environment’s active contributors and maintainers.<br/>
+
+Contributors and maintainers can submit themselves as potential candidates for the fifteen slots, and the slots are filled based on voting by the same group of contributors and maintainers.<br/>
+
+This model is designed to allow those with an active role in the Hyperledger development community to have a say in how that community is governed.<br/>
+
+0<h4>Governance in Corda</h4>
+
+[Corda](https://www.corda.net/) is an open source blockchain project designed for business. 
+Developed by R3, an enterprise blockchain software firm, in collaboration with over 200 technology and industry partners. 
+The Corda platform was launched in September of 2017. Corda also uses an Open Governance model to make technical decisions regarding the future of the blockchain. 
+The Corda Network Governing Body is selected to represent the interests of all users in the Corda network.
 
 <h4>Working Groups and Special Interest Groups</h4>
 Working Groups and Special Interest Groups are consortium-based discussion sessions to complete a task or develop a whitepaper, prototype, platform or project. 
@@ -5205,15 +5235,27 @@ NFTs can represent art, music, videos and other digital files where access to th
 Let's now take a look at some of the types of non-fungible tokens:
 <ul>
 <li>Digital artwork<br/>
-By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator. The New York Times reported art entitled ["Everydays – The First 5000 Days"](https://www.nytimes.com/2021/02/24/arts/design/christies-beeple-nft.html), by artist Mike Winkelmann, also known as [Beeple](https://en.wikipedia.org/wiki/Mike_Winkelmann), sold for $69.3 million USD in 2021.</li>
+
+By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator.<br/>
+
+The New York Times reported art entitled ["Everydays – The First 5000 Days"](https://www.nytimes.com/2021/02/24/arts/design/christies-beeple-nft.html), by artist Mike Winkelmann, also known as [Beeple](https://en.wikipedia.org/wiki/Mike_Winkelmann), sold for $69.3 million USD in 2021.</li>
+
 <li>Collectables<br/>
-As we saw with CryptoKitties, non-fungible tokens create unique items. One of the more popular collectables are [CryptoPunks](https://www.crypto-news-flash.com/ethereum-eth-cryptopunks-nft-index-fund-migrates-to-sushiswap/), a collection of 10,000 uniquely generated characters each having a unique owner registered on the Ethereum blockchain. A crypto punk, Punk 1651 sold for 78 ETH or $136,850.22 USD.</li>
+As we saw with CryptoKitties, non-fungible tokens create unique items.<br/>
+One of the more popular collectables are [CryptoPunks](https://www.crypto-news-flash.com/ethereum-eth-cryptopunks-nft-index-fund-migrates-to-sushiswap/), a collection of 10,000 uniquely generated characters each having a unique owner registered on the Ethereum blockchain. A crypto punk, Punk 1651 sold for 78 ETH or $136,850.22 USD.</li>
+
 <li>Games<br/>
-NFTs can be used to represent assets in computerized games. With the ability to trade assets created in a gaming platform, users and creators of assets in the digital game can trade assets on a third party marketplaces and store them in a wallet where the private keys are controlled by the gamer, taking control away from the game developer.</li>
+NFTs can be used to represent assets in computerized games.<br/>
+With the ability to trade assets created in a gaming platform, users and creators of assets in the digital game can trade assets on a third party marketplaces and store them in a wallet where the private keys are controlled by the gamer, taking control away from the game developer.</li>
+
 <li>Music and film<br/>
-With NFTs, musicians and filmmakers can now tokenize their work where the artist monetizes and profits from their content. When artists release music or film as NFT, they retain control and realize royalties in a more equitable way. Musicians can join in decentralized marketplace such as [Mediachain](http://www.mediachain.io/) a [Ujo](https://mesh.xyz/) to ensure artists are paid fairly, musicians enter into smart contracts that state royalty stipulations without the need of a third party.</li>
+With NFTs, musicians and filmmakers can now tokenize their work where the artist monetizes and profits from their content.<br/>
+When artists release music or film as NFT, they retain control and realize royalties in a more equitable way.<br/>
+Musicians can join in decentralized marketplace such as [Mediachain](http://www.mediachain.io/) a [Ujo](https://mesh.xyz/) to ensure artists are paid fairly, musicians enter into smart contracts that state royalty stipulations without the need of a third party.</li>
+
 <li>Sports<br/>
 The sports industry has embraced the idea of NFTs from tokenizing memorable sporting moments to trading card collectables. [NBA Top Shots](https://nbatopshot.com/) being the leader for creating a marketplace for NBA collectible cards and moments.</li>
+
 <li>University research<br/>
 In May 2021, [UC Berkeley](https://en.wikipedia.org/wiki/University_of_California,_Berkeley) announced it would auction off NFTs for the patent disclosure for two Nobel Prize-winning inventions dealing with gene editing and Cancer Immunotherapies.</li>
 </ul>
@@ -5916,7 +5958,7 @@ The end . . .
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
 **[`^        back to top        ^`](#table-of-contents)**
-4/13/2022 9:18am
+4/14/2022 12:09am
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
