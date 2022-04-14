@@ -3925,6 +3925,7 @@ The vision surrounding blockchains deals with decentralization.<br/>
 By implementing the SegWit changes, a change in how the Bitcoin blockchain protocol operates, a central authority was responsible for enacting the change.<br/>
 To many in the community this decision went against the fundamental tenets of blockchains decentralized philosophy.<br/>
 As a result, the Bitcoin community was torn and the Bitcoin Network split into two different chains Bitcoin (BTC) and Bitcoin Classic (BCH).<br/>
+
 The [Bitcoin Foundation](https://bitcoinfoundation.org/) is set up to educate and promote the Bitcoin Blockchain.<br/>
 
 <h3>Governance in Ethereum</h3>
@@ -5235,13 +5236,12 @@ NFTs can represent art, music, videos and other digital files where access to th
 Let's now take a look at some of the types of non-fungible tokens:
 <ul>
 <li>Digital artwork<br/>
-
 By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator.<br/>
-
 The New York Times reported art entitled ["Everydays – The First 5000 Days"](https://www.nytimes.com/2021/02/24/arts/design/christies-beeple-nft.html), by artist Mike Winkelmann, also known as [Beeple](https://en.wikipedia.org/wiki/Mike_Winkelmann), sold for $69.3 million USD in 2021.</li>
 
 <li>Collectables<br/>
 As we saw with CryptoKitties, non-fungible tokens create unique items.<br/>
+
 One of the more popular collectables are [CryptoPunks](https://www.crypto-news-flash.com/ethereum-eth-cryptopunks-nft-index-fund-migrates-to-sushiswap/), a collection of 10,000 uniquely generated characters each having a unique owner registered on the Ethereum blockchain. A crypto punk, Punk 1651 sold for 78 ETH or $136,850.22 USD.</li>
 
 <li>Games<br/>
@@ -5251,6 +5251,7 @@ With the ability to trade assets created in a gaming platform, users and creator
 <li>Music and film<br/>
 With NFTs, musicians and filmmakers can now tokenize their work where the artist monetizes and profits from their content.<br/>
 When artists release music or film as NFT, they retain control and realize royalties in a more equitable way.<br/>
+
 Musicians can join in decentralized marketplace such as [Mediachain](http://www.mediachain.io/) a [Ujo](https://mesh.xyz/) to ensure artists are paid fairly, musicians enter into smart contracts that state royalty stipulations without the need of a third party.</li>
 
 <li>Sports<br/>
