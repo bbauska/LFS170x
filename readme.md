@@ -71,6 +71,10 @@
 >### 6.6. [**Future of Blockchain**](#ch6-6)
 >### 6.7. [**Summary**](#ch6-7)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h2 id="ch1">Chapter 1. Introduction to Blockchain</h2>
@@ -96,7 +100,9 @@ These transactions are stored on sheets or blocks in a digital ledger that is sh
 Consensus on the transactions, brings the peer-to-peer network into agreement.
 Once the agreed-upon transactions blocks are recorded in the immutable ledger, trust becomes a fundamental component built into the system.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- Connect Dots ----------------------------------------->
@@ -131,7 +137,9 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
    width="20%" >
 &nbsp;
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 With the birth of the World Wide Web, expanded usages of this new technology arose along with expanded business opportunities. 
 Web servers, people who host and store the documents and web browsers, companies set up to help you view linked documents, help create a household need for this technology and the Internet explosion began.
@@ -5782,5 +5790,11 @@ The end . . .
    © 2021 edX Inc. All rights reserved.
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
+
 **[`^        back to top        ^`](#table-of-contents)**
-4/8/2022
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+<b><i>4/15/2022 9:20pm</i></b>
