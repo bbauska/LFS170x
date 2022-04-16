@@ -74,7 +74,6 @@
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h2 id="ch1">Chapter 1. Introduction to Blockchain</h2>
@@ -178,7 +177,9 @@ Internet speeds switched from kilobits to tens of megabits per second, to gigabi
 Companies appeared attempting to cash in on this new technology, most notable was a company called [Netscape](https://isp.netscape.com/) which developed the first commercial Web browser.
 <br/>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------------- Netscape logo ------------------------------------------>
@@ -262,8 +263,9 @@ Characteristics of Web 3.0:<br/>
 </ul>
 Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
 
-
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------- crypto, electronically transferring value ----------------------------------------->
@@ -472,7 +474,9 @@ Some privately run blockchains do not use cryptocurrencies as a function of thei
 Blockchain technology can easily transfer anything from property rights, stocks, and even artwork. 
 There are many more use cases that utilize blockchain technology far reaching than currency transfer.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------------- blockchain files ---------------------------------->
@@ -4926,7 +4930,9 @@ Led by web inventor and Director [Tim Berners-Lee](https://en.wikipedia.org/wiki
 
 W3C is working on standards that can be used to define a new paradigm for the Internet and Identity.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Key Concepts</h3>
 
@@ -5012,7 +5018,9 @@ Microloans, smaller loans made from pools of capital, now are available granting
 
 For example, in agriculture, farmers are able to secure small loans to help them get crops to market.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- Benefits of Decentralized Finance) ------------------------------->
@@ -5089,7 +5097,9 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Non-fungible_token), a no
 
 NFTs can represent art, music, videos and other digital files where access to the original file is restricted, limited to the owner proving authenticity and providence. The first standard for issuing NFT’s was based on the Ethereum's [ERC-721](http://erc721.org/) that differs from the ERC-20 as ERC-721 tokens are all unique which makes them perfect for the collectibles market. The [ECR-1155](https://eips.ethereum.org/EIPS/eip-1155) aims to improve on the previous token standard by further defining assets.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Let's now take a look at some of the types of non-fungible tokens:
    * Digital artwork<br/>
@@ -5130,7 +5140,9 @@ These services would not operate efficiently, if these companies couldn't exchan
 
 With this in mind, blockchain are developing projects that, like smartphones and emails, will transfer value and information across blockchain seamlessly.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch5-5">5.5 Chapter Summary</h3>
 In this chapter, we discussed:
@@ -5174,7 +5186,9 @@ By the end of this chapter, you should be able to:
 <li>Explain how blockchain will improve the human experience.</li>
 </ul>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch6-2">6.2 Blockchain Use Case Categories (Blockchain in Practice)</h3>
 Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. 
@@ -5212,7 +5226,9 @@ Supply chain data is not always visible or trusted. In recent times of disruptio
   
 Learn more about the collaboration between Maersk and IBM from the ["Digitizing Global Trade with Maersk and IBM"](https://www.ibm.com/blogs/blockchain/2018/01/digitizing-global-trade-maersk-ibm/) blog post by Michael White.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Supply Chain - Maersk (Enterprise Solutions)</h3>
 Global trade functions much as it has since the introduction of the shipping container in 1956.
@@ -5255,7 +5271,9 @@ And, according to the WTO, reducing barriers within the international supply cha
 
 The resulting solution is called [TradeLens](https://www.tradelens.com/). You can take the TradeLens tour [here](https://tour.tradelens.com/).
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------- Trade Made Easy ----------------------------------------->
@@ -5315,7 +5333,9 @@ We'll make sure that all stakeholders work together for a safer and better food 
   - IBM's [Food Trust Solution](https://www.ibm.com/blockchain/resources/food-trust/manufacturing/?mhsrc=ibmsearch_a&mhq=Food%20Trust%20Solution) building faith in food supply chains.
   - Paramount's [Farm to Table](https://www.farmtoplate.io/) creates an inclusive blockchain supply chain solution [from the farm all the way to your plate](https://www.producebluebook.com/2021/05/21/paramount-software-solutions-launches-farm-to-plate-blockchain-platform/#modal).
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- Farm to Table logo ------------------------------------------>
@@ -5377,7 +5397,9 @@ Reduction of settlement times will improve the flow of money through fintech com
    alt="Swiss Exchange logo (SIX)"</>
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Swiss Exchange, [SIX](https://tokenist.com/swiss-exchange-six-to-incorporate-blockchain-and-launch-sto/) has a solution that solves the issue in the trade markets of long settlement times. 
 The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. 
@@ -5400,7 +5422,9 @@ The platform is built on Corda blockchain, it solves the problem that most lette
 By using blockchain technology, the letters of credit may be efficiently transacted in less than 24 hours. 
 You can learn more about Voltron from the following two articles "Blockchain Based Letter of Credit Processed by HSBC on Voltron Trade Finance Platform" (by JD Alois) and "Trade Finance Solution Voltron Launches Open Platform on Corda Blockchain".
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch6-4">6.4 Public Sector Solutions Overview</h3>
 Blockchain benefits of security, efficiency and speed have government leaders research the far reaching implications that will improve lives and accelerate global blockchain solutions. 
@@ -5420,7 +5444,9 @@ According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’K
    alt="Smart Dubai"</>
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. 
 Watch these additional resources to learn more about the Smart Dubai initiative, ["Smart Dubai's Paperless Strategy"](https://www.digitaldubai.ae/initiatives/paperless) and ["Happy Cities Forum 2019"](https://www.digitaldubai.ae/initiatives/happiness-agenda).
@@ -5465,7 +5491,9 @@ The [Blockchain for Social Impact Coalition (BSIC)](https://blockchainforsociali
    alt="Blockchain for Social Impact"</>
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 According to the ["7 Ways Blockchain Can Be Used for Social Good"](https://innotechtoday.com/blockchain-social-good/) article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
 <ul>
@@ -5496,7 +5524,9 @@ More than 1.7 billion people around the world are unbanked and can’t access th
    alt="Mission of the Rohingya Project. How it works"</>
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The mission of the Rohingya Project is to create the foundation for a viable future for the stateless Rohingya people by connecting them digitally to opportunities to learn, equip and empower themselves. Through the creation of a Financial and Social Inclusion platform, those Rohingya who for years have been sidelined can be given access to a range of virtual services including online education, digital identity and reward tokens.
 
@@ -5522,7 +5552,9 @@ The platform will tap into the potential of the Rohingya community and other mar
 
 The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social Impact project designed to improve disaster relief efforts as well as open up new pathways for local charity giving.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- Charity logo ------------------------------------------>
@@ -5543,7 +5575,9 @@ Created by three local meetup groups, [Ledger Academy](https://ledgeracademy.com
     alt="The Giving Chain"</>
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The Giving Chain is now moving from a Proof of Concept project to a prototype as it was selected for the 2021 Hyperledger Mentorship program.
 ConsenSys
@@ -5596,7 +5630,9 @@ Hyperledger is an open source project with blockchains for you to build your sol
    width="100%" />
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
   
 <h3>Daml</h3>
 
@@ -5630,7 +5666,9 @@ These apps allow secure, direct connections between users and providers, elimina
 
 The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- Simba logo (186) ------------------------------------------->
@@ -5678,7 +5716,9 @@ Marketplaces exist to shop renewable energies to make sustainable solutions avai
    width="25%" />
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 [Power Ledger](https://www.powerledger.io/) solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. 
 
@@ -5722,7 +5762,9 @@ The options on themusicianmarketplace.com are unlimited.
 
 Below you can see themusicianmarketplace.com dashboard: 
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- musicianmarketplace.com ------------------------------------->
@@ -5756,7 +5798,9 @@ Blockchain provides that.
 
 I think that we are going to see a lot of growth in emerging technologies as blockchain continues to emerge, because it's going to make more and more things possible.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 And if we talk long term, and again, only my opinion, I think blockchain becomes the enabling layer for a multi-planetary human economy.
 
@@ -5797,4 +5841,4 @@ The end . . .
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<b><i>4/15/2022 9:20pm</i></b>
+<b><i>4/15/2022 9:33pm</i></b>
