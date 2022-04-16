@@ -1,9877 +1,5786 @@
+<h2 align="center">LFS170x - Linux FoundationX</h2>
+
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- readme.md in CS198.1x.bauska.org --------------------------------->
+<!-------------------------------- readme.md in LFS170x.bauska.org ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<h2 align="center" width="100%">CS198.1x - University of California @ BerkeleyX</h2>
+<!------------------------------------------ linux logo ------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image001.jpg?raw=true"
+   alt="Linux logo"
+   width="40%">
+&nbsp;
+<!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
+</p>  
+<h2 align="center">Blockchain: Understanding Its Use Cases and Implications </h2>
+
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- CS198.1x Bitcoin logo -------------------------------------->
+<!------------------------------------ linux blockchain logo ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image001.png"
-   alt="Bitcoin cs198.1x logo"
-   width="50%" />
-</p>
+<img src="/images/image-lfs170x-logo.png?raw=true"
+   alt="Linux LFS170x logo"
+   width="50%">
+&nbsp;
 
-<h2 align="center">Bitcoin and Cryptocurrencies</h2>
-	
-<!------------------------------------------------------------------------------------------------>
 ## [Table of Contents](#table-of-contents)
 
-## [**Chapter 1. Bitcoin Protocol & Consensus: A High-Level Overview**](#ch1)
->### 1.01. [**What is Bitcoin?**](#ch1-1)
->### 1.02. [**Bitcoin vs. Banks**](#ch1-2)
->### 1.03. [**Bitcoin from the Ground Up**](#ch1-3)
->### 1.04. [**Identity (Stage 1)**](#ch1-4)
->### 1.05. [**Transactions (Stage 2)**](#ch1-5)
->### 1.06. [**UTXO’s**](#ch1-6)  
->### 1.07. [**Record Keeping (Stage 3)**](#ch1-7)
->### 1.08. [**Consensus (Stage 4)**](#ch1-8)
->### 1.09. [**Forking**](#ch1-9)
->### 1.10. [**Bitcoin Review**](#ch1-10)
->### 1.11. [**Chapter 1 Summary**](#ch1-11)
+## [**Chapter 1. Introduction to Blockchain**](#ch1)
+>### 1.1. [**Intro: What is Blockchain?**](#ch1-1)
+>### 1.2. [**Introduction to Blockchain and The Early Internet**](#ch1-2)
+>### 1.3. [**Blockchain Basics**](#ch1-3)
+>### 1.4. [**Career Opportunities in Blockchain**](#ch1-4)
+>### 1.5. [**Who is Using Blockchain?**](#ch1-5)
+>### 1.6. [**Summary**](#ch1-6)  
 
-## [**Chapter 2. Blockchain History: From the Cypherpunk Movement to JP Morgan Chases**](#ch2)
->### 2.01. [**Pre-Bitcoin**](#ch2-1)
->### 2.02. [**Libertarian Dreams**](#ch2-2)
->### 2.03. [**Bitcoin Precursors**](#ch2-3)
->### 2.04. [**Bitcoin Invention**](#ch2-4)
->### 2.05. [**Hacks and Scandals**](#ch2-5)
->### 2.06. [**Bitcoin Bubble and Altcoins**](#ch2-6)
->### 2.07. [**Scalability**](#ch2-7)
->### 2.08. [**Ethereum Timeline**](#ch2-8)
->### 2.09. [**Intro: Enterprise Blockchain**](#ch2-9)
->### 2.10. [**Banks and Blockchain**](#ch2-10)
->### 2.11. [**Intro: State of the Industry**](#ch2-11)
->### 2.12. [**Chapter 2 Summary**](#ch2-12)
+## [**Chapter 2. Blockchain Mechanics**](#ch2)
+>### 2.1. [**Introduction**](#ch2-1)
+>### 2.2. [**Understanding Ledgers**](#ch2-2)
+>### 2.3. [**From Distributed Ledgers to Cryptography**](#ch2-3)
+>### 2.4. [**Transparency and Immutability**](#ch2-4)
+>### 2.5. [**Summary**](#ch2-5)
 
-## [**Chapter 3. Bitcoin Mechanics & Optimizations: A Technical Overview**](#ch3)
->### 3.01. [**Motivations and Definitions**](#ch3-1)
->### 3.02. [**Cryptographic Hash Functions**](#ch3-2)
->### 3.03. [**SHA256**](#ch3-3)
->### 3.04. [**A Tamper-Evident Database**](#ch3-4)
->### 3.05. [**Merkle Trees**](#ch3-5)
->### 3.06. [**Proof-of-Work: Mining**](#ch3-6)
->### 3.07. [**Signatures and Authentication**](#ch3-7)
->### 3.08. [**Bitcoin Script**](#ch3-8)
->### 3.09. [**P2PKH**](#ch3-9)
->### 3.10. [**Chapter 3 Summary**](#ch3-10)
+## [**Chapter 3. Blockchain Functions**](#ch3)
+>### 3.1. [**Introduction**](#ch3-1)
+>### 3.2. [**What are Smart Contracts?**](#ch3-2)
+>### 3.3. [**Blockchain Security vs Standard Cybersecurity**](#ch3-3)
+>### 3.4. [**Public and Permissioned Blockchains**](#ch3-4)
+>### 3.5. [**The Blockchain Transaction**](#ch3-5)
+>### 3.6. [**Consensus**](#ch3-6)
+>### 3.7. [**Summary**](#ch3-7)
 
-## [**Chapter 4. Bitcoin In Real Life: Wallets, Mining, and More**](#ch4)
->### 4.01. [**Key Components**](#ch4-1)
->### 4.02. [**Wallets**](#ch4-2)
->### 4.03. [**Wallet Mechanics**](#ch4-3)
->### 4.04. [**Mining**](#ch4-4)
->### 4.05. [**Real World Mining**](#ch4-5)
->### 4.06. [**Bitcoin Governance**](#ch4-6)
->### 4.06. [**Chapter 4 Summary**](#ch4-6)
+## [**Chapter 4. Blockchains and Governance**](#ch4)
+>### 4.1. [**Introduction**](#ch4-1)
+>### 4.2. [**What is Open Source Code?**](#ch4-2)
+>### 4.3. [**Introduction to Governance**](#ch4-3)
+>### 4.4. [**Identity and Anonymity on Blockchain**](#ch4-4)
+>### 4.5. [**Summary**](#ch4-5)
 
-## [**Chapter 5. Game Theory & Network Attacks: How to Destroy Bitcoin**](#ch5)
->### 5.01. [**Pool Strategies**](#ch5-1)
->### 5.02. [**Pool Hopping**](#ch5-2)
->### 5.03. [**Pool Cannibalization**](#ch5-3)
->### 5.04. [**Nash Equilibrium and the Tragedy of the Commons**](#ch5-4)
->### 5.05. [**Double Spending**](#ch5-5)
->### 5.06. [**Censorship Attacks**](#ch5-6)
->### 5.07. [**Selfish Mining**](#ch5-7)
->### 5.08. [**The Bitcoin Network**](#ch5-8)
->### 5.09. [**Chapter 5 Summary**](#ch5-9)
+## [**Chapter 5. Blockchain Problem Solving and Future Trends**](#ch5)
+>### 5.1. [**Introduction**](#ch5-1)
+>### 5.2. [**Double Spend Problem**](#ch5-2)
+>### 5.3. [**Digital Currencies**](#ch5-3)
+>### 5.4. [**Non-Fungible Tokens**](#ch5-4)
+>### 5.5. [**Summary**](#ch5-5)
 
-## [**Chapter 6. Ethereum & Smart Contracts: Enabling a Decentralized Future**](#ch6)
->### 6.01. [**Smart Contracts**](#ch6-1)
->### 6.02. [**Ethereum**](#ch6-2)
->### 6.03. [**Ethereum Virtual Machine: Overview**](#ch6-3)
->### 6.04. [**Ethereum Use Cases**](#ch6-4)
->### 6.05. [**Blockchain vs. Internet**](#ch6-5)
->### 6.06. [**Blockchain Generalizations**](#ch6-6)
->### 6.07. [**Supplement: Use Cases**](#ch6-7)
->### 6.08. [**Ethereum Ecosystem**](#ch6-8)
->### 6.09. [**Chapter 6 Summary**](#ch6-9)
+## [**Chapter 6. Blockchain Use Cases**](#ch6)
+>### 6.1. [**Introduction**](#ch6-1)
+>### 6.2. [**Blockchain in Practice (Use Cases)**](#ch6-2)
+>### 6.3. [**Enterprise Solutions**](#ch6-3)
+>### 6.4. [**Public Sector Solutions**](#ch6-4)
+>### 6.5. [**Social Impact Solutions**](#ch6-5)
+>### 6.6. [**Future of Blockchain**](#ch6-6)
+>### 6.7. [**Summary**](#ch6-7)
 
-<h2>Course Syllabus</h2>
+**[`^        back to top        ^`](#table-of-contents)**
 
-This course is a comprehensive and in-depth overview of the fundamental concepts of the crypto space, with a particular emphasis on Bitcoin. By building intuition first from the context of cryptocurrencies, the first application of blockchain, we understand the key strengths and distinguishing factors of blockchain versus traditional database systems. We then leverage these core features of blockchain to solve new problems.
+<h2 id="ch1">Chapter 1. Introduction to Blockchain</h2>
+<h3>Learning Objectives</h3>
+By the end of this chapter, you should be able to:
+<ul type="disc">
+   <li>Discuss blockchain technologies and the early Internet,</li>
+   <li>Explain the difference between blockchain and the cryptocurrency Bitcoin,</li>
+   <li>Discuss blockchain characteristics,</li>
+   <li>Explain blockchain components,</li>
+   <li>Explain what the block in blockchain is,</li>
+   <li>Explain how blocks are chained together.</li>
+   <li>Discuss the concept of immutability in a blockchain,</li>
+   <li>Discuss about the roles and users in a blockchain community,</li>
+   <li>Discuss use cases for general blockchain solutions.</li>
+</ul>
 
-The course is divided into 6 modules: Bitcoin High-Level Overview, Blockchain History, Bitcoin Mechanics Technical Overview, Bitcoin in Real Life, Game Theory & Network Attacks, and Ethereum & Smart Contracts. 
+<h3 id="ch1-1">1.1 What is Blockchain?</h3>
+Blockchain is a peer-to-peer ledger system that allows peers to transact directly with each other eliminating the need for a central authority.
 
-1.  **Bitcoin Protocol & Consensus: A High-Level Overview**
+At its core, blockchain is a system for recording information about a transaction in a new decentralized way that makes it difficult or impossible to alter.
+These transactions are stored on sheets or blocks in a digital ledger that is shared among the participants of the network. 
+Consensus on the transactions, brings the peer-to-peer network into agreement.
+Once the agreed-upon transactions blocks are recorded in the immutable ledger, trust becomes a fundamental component built into the system.
 
-We begin with some fundamental concepts such as the basic properties and intent of centralized/decentralized currency. We then build an in-depth understanding of Bitcoin from the ground up, divided into **<u>four</u>** stages: a. **Identity**, b. **Transactions**, c. **Record Keeping,** and d. **Consensus**. 
-
-2.  **Blockchain History: From the Cypherpunk Movement to JP Morgan Chase**
-
-This module delves into the origins and historical significance of Bitcoin. We look into the roots of Bitcoin in the Cypherpunk movement and Libertarian ideals, and examine the revolutionary significance of Bitcoin compared to some of its early predecessors. We then move onto exploring the history of the crypto space as a whole.
-
-3.  **Bitcoin Mechanics & Optimizations: A Technical Overview**
-
-We examine the in-depth mechanics behind Bitcoin, such as the Bitcoin network, cryptography and cryptographic hash functions, Bitcoin Script, privacy, and hash commitment schemes.
-
-4.  **Bitcoin In Real Life: Wallets, Mining, and More**
-
-We examine the most frequently used real-world aspects of Bitcoin, such as wallets, wallet mechanics, mining, transactions, and Bitcoin governance. We explain the various ways one can interface with the Bitcoin network, depending on the specific software they run. 
-
-5.  **Game Theory & Network Attacks: How to Destroy Bitcoin**
-
-We look into how to destroy Bitcoin, including various network attacks. Specifically, we look into vulnerabilities such as pool cannibalization, double spending and forking attacks, network attacks, the Goldfinger attack, malicious mining profit strategies, and 51% attacks.
-
-6.  **Ethereum & Smart Contracts: Enabling a Decentralized Future**
-
-This module focuses on the properties behind the second largest blockchain platform, Ethereum. We introduce the Ethereum Virtual Machine and the idea of Turing completeness and examine some of the key protocol differences between Bitcoin and Ethereum, such as the UTXO vs. accounts model and functionality. We then look into some of the use cases of Ethereum, and conclude with an overview of smart contracts and building decentralized applications. While the last modules primarily focus on cryptocurrencies, this module encourages students to think about blockchain use cases outside of cryptocurrency.
-
-<h3>Resources</h3>
-
-
--   [Bitcoin and Cryptocurrency Technologies ](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf)by Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder
-
--   [Mastering Bitcoin ](https://github.com/bitcoinbook/bitcoinbook/blob/develop/book.asciidoc)by Andreas Antonopoulos
+**[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- expectations: expect from us, we expect from you (3) ---------------------->
+<!----------------------------------------- Connect Dots ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/expectations.png" 
-     alt="Expectations: Expect from Us, We Expect from You" 
-     width="65%" />
-</p>
+<img src="/images/image002.png?raw=true"
+   alt="Connect the Dots"
+   width="40%" >
 &nbsp;
 
-Also, a good unofficial resource is the Blockchain at Berkeley Public Slack, where we discuss various topics related to blockchain. You can request access to our Slack workspace at the bottom of the [Blockchain at Berkeley website ](https://blockchain.berkeley.edu/)under "Join Blockchain at Berkeley on Slack."
+<h3 id="ch1-2">1.2 The Early Internet</h3>
 
-<h3><b>Course Staff</b></h3>
-
-Rustie Lin, Mengyi (Gloria) Wang, Nadir Akhtar, Jennifer Hu, Janice Ng.
-
-<h3>Major Contributors</h3>
-
-Blockchain Fundamentals started off as the [Cryptocurrency DeCal ](https://blockchain.berkeley.edu/decal/fa16/)(Democratic Education at Cal, student run) course on UC Berkeley campus in Fall 2016, taking inspiration from existing courses, videos, and textbooks. From the beginning, the vision was to lower the barrier of entry and provide a survey into the blockchain and cryptocurrency space -- to explain concepts from the ground up, as clearly and concisely as possible.
-
-Each semester since then, we have had many student volunteers take time out of their already hectic schedules to help develop and fine-tune content, to make Blockchain Fundamentals what it is today. 
-
-Blockchain Fundamentals is constantly being improved, in terms of new information as well as course design, but its vision has remained constant. Here are some of the major contributors to Blockchain Fundamentals, who have not already been featured on the previous page.
-
-Max Fang, Philip Hayes, Sunny Aggarwal, Aparna Krishnan, Gloria Zhao, Gillian Chu, Brian Ho.
-
-<h3 id="ch1">Chapter 1: Course/Bitcoin Protocol & Consensus: A High Level Overview/Intro</h3>
-
-Welcome to the first module in Cryptocurrencies: Bitcoin and the Crypto Space, the first course in the Blockchain Fundamentals program.
-
-Whether you’re an *enthusiast, trader, aspiring blockchain developer*, or just a *curious individual* looking to learn where and how blockchain can be used, you’ve come to the right place.
-
-Blockchain technology is poised to affect so much of the world today, -- in the financial, energy, identity, and IoT industries just to name a few.
-
-But blockchain use cases weren’t always this pervasive.
-
-Throughout its infancy, blockchain found its primary use in cryptocurrencies -- and Bitcoin was its original inspiration.
-
-To understand the wider crypto and blockchain space, we must first seek to understand Bitcoin, the oldest and most widely understood blockchain application.
-
-Throughout this module, you’ll first learn what Bitcoin is and what its primary motivations are.
-
-Then, we’ll dive into four-part buildup of Bitcoin consensus and explain why Bitcoin is built the way it is.
-
-<h3>Bitcoin Protocol & Consensus: A High-Level Overview</h3>
-
-<h3 id="ch1-1">1.1 Intro: What is Bitcoin?</h3>
-
-[What is Bitcoin?](https://youtu.be/Gc2en3nHxA4) 1 min, 37 sec
-
-In this section, you will learn about the origins and motivations of Bitcoin, and the key distinctions between cryptocurrencies and normal currencies.
-
-We’ll clear up some common misconception about Bitcoin and Blockchain, and also explain briefly Bitcoin’s origins in the Cypherpunk movement.
-
-We’ll then draw a comparison between Bitcoin and Banks and analyze each of the features and services they provide.
-
-And this all sets the stage for the next section, in which we’ll build Bitcoin from the ground up, incorporating each of these features and services and seeing how they fit together.
-
-<h3>What is Bitcoin?</h3>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- What is Bitcoin?  Bitcoin Genesis (5) ----------------------------->
+<!------------------------------------------ darpa logo ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/what is bitcoin-bitcoin genesis.png" 
-	alt="What is Bitcoin? Bitcoin Genesis"
-	width="65%" />
-</p>
-
-Most people struggle to answer the question, “What is Bitcoin?,” because there are so many different ways to respond.
-
-<b>First</b>, Bitcoin is considered the first and the most widely used cryptocurrency.<br/>
-
-A cryptocurrency is a completely digital, decentralized currency that is built using principles of computer science, cryptography, and economics.
-The term “Bitcoin” refers to the protocol governing this currency.<br/>
-
-<b>Second</b>, bitcoin lowercase refers to the actual units of currency.<br/>
-
-A Bitcoin user will say they have a certain amount of bitcoins, similar to how we say we have a certain amount of dollars when referring to the US Dollar.<br/>
-
-<b>Third</b>, Bitcoin is the inspiration for the blockchain, which is the underlying data structure of this cryptocurrency.<br/>
-
-A data structure is a virtual format for organizing, retrieving, and storing information.<br/>
-
-The Bitcoin blockchain in particular stores a permanent history of all transactions to ever occur in the history of Bitcoin.<br/>
-
-It is an append-only ledger, meaning that any information added to the ledger cannot be deleted.<br/>
-
-But most importantly, Bitcoin is a cultural revolution.<br/>
-
-Rooted in ideals from Cypherpunks and libertarians, Bitcoin represents a shift towards privacy and decentralization.<br/>
-
-This cryptocurrency is not backed by any central organization, government, or company.
-
-Instead, Bitcoin is built by the users, for the users.
-
-As we said, Bitcoin was inspired by the Cypherpunk Movement of the late 80s.
-
-Cypherpunks advocate for the protection of privacy using cryptography.
-
-They don’t trust governments, corporations, or large organizations to respect privacy.
-
-These points of centralization accumulate a great deal of power over society by collecting unimaginable amounts of information from millions of users.
-
-And the Cypherpunks were some of the first to be concerned about central entities stripping away the freedom of the general public.
-
-One massive point of centralization in modern day society is the financial system, where:
-
-<b><i>banks govern the economies of entire countries.</i></b>
-
-Several different companies and researchers attempted to make a decentralized or anonymous currency, but all of them failed.
-
-Bitcoin was the first technology to succeed as a cryptocurrency.
-
-The Bitcoin whitepaper, or research paper, was published in October 2008 by Satoshi Nakamoto.
-
-The whitepaper was a 9-page, concise proposal for the structure and function of a peer-to-peer electronic currency.
-
-Satoshi Nakamoto is a pseudonym, or a false identity, of an individual or a group of individuals.
-
-No one knows their real identity. However, what's important is that this whitepaper envisioned a currency where users do not rely on financial interimagesries or trust anyone in order to make transactions with each other.
-
-In Bitcoin, users do not need to use their real world identities; instead, they are represented by addresses, strings of random letters and numbers.
-
-Bitcoin takes control out of the hands of third parties and gives users the freedom to transact while protecting their privacy.
-
-How does Bitcoin do it? On a high level, the Bitcoin network validates transactions and stores the entire transaction history.
-
-The Bitcoin network is a group of users communicating with each other as part of the Bitcoin protocol.
-
-This network serves as the substitute for the central bank and must have certain properties to function correctly.
-
-Bitcoin is trying to create an open, accessible cryptocurrency not subject to censorship or centralization.
-
-But what are the problems?
-
-Keep in mind the problems of trying to create an open, accessible cryptocurrency not subject to censorship or centralization:
-
-There are no central parties to ask for information about user accounts, and there are no central parties to kick out or censor malicious users.
-
-Decentralized networks generally suffer from these problems, leading to inconsistencies between parties and malicious messages infecting the network.
-
-The most popular attack is known as the double spending attack, an attack where some value is used for more than it i’s worth.
-
-In real life, it’s easy to prevent double spending: since dollar bills can’t be copied and pasted.
-
-However, in digital currencies, there needs to be assurance that the virtual tokens have not been promised to more than one person.
-
-Bitcoin as a technology is trying to solve a very specific problem in the realm of distributed systems: when any “node,” or computer within the network, can come and leave as it pleases and behave however it likes.
-
-There are enormous possibilities for failures given the complete removal of centralization, which is why there were so so many Bitcoin’s predecessors to Bitcoin which failed.
-
-How does bitcoin solve these problems?
-
-Bitcoin solves these problems through two things:
-
-First, the blockchain, and the Proof-of-Work consensus protocol, both of which are Satoshi Nakamoto’s most popular and influential innovations.
-
-Because of these two things, anyone with access to internet and a computer can join the Bitcoin Network.
-
-There are no banks or any equivalent of the Federal Reserve on the Bitcoin Network.
-
-Instead, everyone can verify and audit the transaction history on their own.
-
-And even the creation of money is decided not by a central authority, but through the process of mining, or Proof-of-Work.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ currency: in banks we distrust (8) ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/currency-in banks we distrust.png" 
-   alt="Currency: In Banks We Distrust"
-   width="65%" />
-</p>
-
-<h3 id="ch1-2">1.2 Bitcoin vs. Banks</h3>
-
-Bitcoin aims to get rid of the central entity, the bank.
-
-In order to understand how it does that, we first need to understand what purpose a bank serves and what features it provides to users, then understand the parallels in Bitcoin.
-
-The first thing that banks do for us is manage accounts.
-
-Banks verify that we are the legitimate owner of the bank account and only we can spend the money or the funds. How does a bank do that? Banks will ask us to provide identification before any activity can take place.
-
-Every transaction we conduct can be traced back to our identity.
-
-On top of that, banks transfer and redeem money on your behalf.
-
-We send money to each other through banks.
-
-We rely on banks to honestly record our account balances.
-
-This way, we don’t need to send money through envelopes to relatives -- we let these central institutions move money in safe and, established ways on our behalf.
-
-To keep track of all this information, we rely on banks to keep track of our account balances.
-
-Banks update our account balances whenever we make a new transaction.
-
-They also let us see statements so that you’re aware of your past history of activity.
-
-But most importantly, banks provide trust: banks are run by educated professionals from top-tier universities and under the constant regulation of the U.S. Government.
-
-If you trust the quality of education and standards of the U.S. government, then you can trust the bank.
-
-But if you don’t, then you start looking for alternatives.
-
-And this is where Bitcoin comes in.
-
-Let's take a look at how Bitcoin can fulfill a bank's functions.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ currency: bitcoin components (9) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/Currency-Bitcoin components.png"
-   alt="Currency: Bitcoin Components"
-   width="65%" />
-</p>
-
-In Bitcoin, identity and account management are completely autonomous.
-
-Each user of Bitcoin creates their own identity instead of asking a bank to create one.
-
-Anyone can generate a Bitcoin identity on their own.
-
-This identity is disconnected from their real world identity, providing a high degree of privacy.
-
-On top of that, transactions are also peer-to-peer: instead of talking to a bank which will talk to another bank which will eventually talk to the recipient of some money, we can make transactions directly can be made between with our peers and be confident that they are confirmed by the rest of the network.
-
-Therefore, in Bitcoin, users can send funds to each other directly knowing that their transactions will be validated by the entire network without the presence of a trusted third party.
-
-To store all this information, each Bitcoin user gets to possess their individual copy of the ledger.
-
-This decentralized approach of record keeping ensures the integrity of data despite the presence of faulty nodes who might record the information dishonestly.
-
-The decentralized nature of bitcoin also prevents the risk of single point of failure.
-
-In the event that a particular node is hacked in bitcoin, because everyone is a record keeper, the rest of the network can still ensure the integrity of the transaction record and keeps running.
-
-But finally, there is still a need for trust in Bitcoin: instead of trusting people in suits, we trust math and logic.
-
-We trust that the Bitcoin protocol is correct, allowing us not to trust the users and still have certainty that transactions are being validated correctly.
-
-We trust in the incentive alignment and publicly verifiable, tamper evident ledger instead of our fellow users.
-
-All of these pieces together make Bitcoin the technological revolution that kicked off the Cryptocurrency Movement.
-
-<h3 id="ch1-3">1.3 Intro: Bitcoin from the Ground Up</h3>
-
-We saw in the section on Bitcoin versus Banks that we need to enable account and identity management, money transfer as a service, record management, and trust.
-
-In this section: titled Bitcoin from the Ground Up, we’ll take each of these four concepts and see how they fit into Bitcoin’s architecture.
-
-By the end, you should have a high level understanding of how Bitcoin works, and why things are the way they are in Bitcoin.
-
-<h2 id="ch1-4">1.4 Intro: Identity (Stage 1)</h2>
-
-We’ll start off by taking a look at one of the most fundamental ideas in Bitcoin:
-
-<b><i>Identity.</i></b>
-
-We saw earlier that banks need to keep track of the accounts and identities of their customers.
-
-But how do we do this in Bitcoin, without a bank or central entity to keep track of who’s who and who owns what?
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- identity: identity in bitcoin (11) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image003-identity-in-bitcoin.png" 
-   alt="Identity: Identity in Bitcoin" 
-   width="65%" </>
+<img src="/images/darpa-logo.jpg?raw=true"
+   alt-"DARPA logo" 
+   width="30%" >
 &nbsp;
 
-<h3>Identity (Stage 1)</h3>
+What started as a **[DARPA (Defense Advanced Research Project Agency)](https://www.darpa.mil)** experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
 
-To understand why we need identity in Bitcoin in the first place, let’s understand first why we need identity at all in the context of currencies.
-
-In currencies, we need to ensure that all users can authenticate themselves through some identification method, and that all identification methods have integrity.
-
-Authentication is required to ensure that no one else acts on your behalf.
-
-Claiming, receiving, and spending money on your behalf are things that only you should be able to do.
-
-Like a bank, by associating yourself with your funds through authentication, you are able to receive money from others and spend your own money.
-
-Only you have access to your own money, since others are not authenticated to handle your money.
-
-Without an authentication process, anyone could spend my money, which is obviously undesirable.
-
-Additionally, authentication can also be used to enforce blaming.
-
-If someone tries to do something incorrect within the network, such as spend someone else’s funds, you want to be able to call them out with proof.
-
-For example, if someone tries to withdraw your funds from a bank, you would want a record of this, including the identity of who was trying to take your funds, to get rid of malicious activity in the future by banning or refusing to interact with those people.
-
-Integrity, the other half of identity, means that all our authentication methods cannot be replicated by anyone else.
-
-We can understand integrity by the process of signing a check: once you sign a check or transaction, no one should be able to intercept and/or manipulate it.
-
-The check has been signed by you, and since no one can replicate your signature, it should be tamper evident.
-
-Integrity ensures that no one but you, the signer, can use your signature.
-
-Imagine the following scenario in Bitcoin: If I wanted to send Alice 10 bitcoins, she shouldn’t be able to add another zero and make me send her 100 bitcoins.
-
-She also shouldn’t be able to copy or replicate my signature elsewhere.
-
-Only by preventing all these things can we trust the integrity of Bitcoin identities.
-
-Identity is a simple concept appearing everywhere in daily life.
-
-For example, houses have both addresses and mailbox keys.
-
-When you ask people to send you mail, you give away your address, so they know where to send the package to.
-
-Meanwhile, you alone control the mailbox key.
-
-Similarly, emails have aliases and passwords.
-
-People who want to send you email have access to your email address or alias, while you alone have access to the password to your email account, so only you can read these emails.
-
-Bitcoin, following this pattern, has both public keys and private keys.
-
-The items in orange on the left hand side -- mailbox addresses, email aliases, and public keys -- represent one’s public identity.
-
-They are what you give out to the public so that they know how to communicate with you, so that they know how to recognize and identify you.
-
-Meanwhile, the items on the right hand side in red -- mailbox keys, email passwords, and private keys -- are secret keys that you alone should own.
-
-With these personal keys, you access the orange items on the left.
-
-It gives you control and ownership.
-
-It gives you your identity.
-
-If anyone else gets their hands on your email password, for example, they can pretend to be you, receiving and sending emails on your behalf.
-
-Similarly, you would never want anyone else to have your Bitcoin private key as that would give control of your Bitcoin public key and, by implication, your Bitcoin identity.
+With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- identity: public and private keys (13) ------------------------------>
+<!------------------------------------------- www logo ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image004.png" 
-   alt="Identity: Public and Private Keys" 
-   width="65%" />
-</p>
+<img src="/images/image003.png?raw=true"
+   alt="WWW logo" 
+   width="20%" >
+&nbsp;
 
-In Bitcoin, you can think of your public and private key as a chest and key, respectively.
+**[`^        back to top        ^`](#table-of-contents)**
 
-You use your private key to prove you have ownership of your public key and to access the funds associated with that public key, just as you can use a physical key to unlock a chest that contains your physical money.
+With the birth of the World Wide Web, expanded usages of this new technology arose along with expanded business opportunities. 
+Web servers, people who host and store the documents and web browsers, companies set up to help you view linked documents, help create a household need for this technology and the Internet explosion began.
 
-To reiterate, **public keys** are used for **receiving**, and **private keys** are used for **redeeming**.
+<h3>The Growth of the Internet</h3>
+The Internet can be grouped into three distinct segments characterized by the way people interact with this new technology.
+<ul type="disc">
+   <li>Web 1.0 - Internet of Connection</li>
+   <li>Web 2.0 - Internet of Information</li>
+   <li>Web 3.0 - Internet of Value<br/></li>
+   </ul>
+Let’s discuss them in more detail.
 
-Received money is associated with the public key, and you can access or spend those funds with your private key.
-
-You are safe letting people know about your chest of bitcoins -- your public key – so long as you don’t give them the key to get inside -- your private key.
-
-A small note: in actuality, other users send transactions to your address, not your public key, as your Bitcoin public key is not identical to your Bitcoin address.
-
-Your address is actually derived from your public key.
-
-We will make the distinction clear when we go more in depth into Bitcoin mechanics, but you can for now think of addresses, pseudonyms, and public keys as synonyms.
-
-The reason why we need this public-private key pair scheme in Bitcoin is because there is no central authority to generate unique identities for users.
-
-This means that users have to generate their own identities.
-
-To generate an identity, a user picks a private key at random generates the public key from the private key through a mathematical function.
-
+<h3>Web 1.0 - Internet of Connection</h3>
+Characteristics of Web 1.0:<br/>
+<ul type="disc">
+   <li>Development of a host of web-based applications, which fostered in online services, such as email,</li>
+   <li>Content from administrator,</li>
+   <li>Managed by a central authority,</li>
+   <li>Read-only, information was “pushed” to users,</li>
+   <li>Email was the first widely adopted application on the Internet.</li>
+</ul>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Identity: A few things to note ----------------------------------->
+<!---------------------------------------- Email logo -------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image004-identity-few.png" 
-   alt="Identity: A few things to note" 
-   width="65%" />
+<img src="/images/image004.png?raw=true" 
+   alt="E-mail logo" 
+   width="30%" >
+
+<h4 align="center">Email, Electronically Transferring Information</h4>
+Computers and items for connection became necessities.
+Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
+Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. 
+
+Companies appeared attempting to cash in on this new technology, most notable was a company called [Netscape](https://isp.netscape.com/) which developed the first commercial Web browser.
+<br/>
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- Netscape logo ------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image005.png?raw=true" 
+	alt="Netscape logo" 
+	width="20%" >
+&nbsp;
+ 
+<h3>Web 2.0 - Internet of Information</h3>
+Characteristics of Web 2.0:<br/>
+<ul type="disc">
+   <li>User-generated content,</li>
+   <li>Read-write, individuals can interact with information,</li>
+   <li>Information became siloed,</li>
+   <li>Data became a commodity.</li>
+</ul>
+
+Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sellers in a seamless low-cost way. 
+Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. 
+Websites let users generate content, social networks became part of our lives.
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- social networking logo -------------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image006.png?raw=true" 
+   alt="Social Networking logo" 
+   width="30%" >
+&nbsp;
+
+<h5 align="center">Social Networking</h5>
+
+<h3>Real World Examples of File Sharing</h3>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ napster logo ---------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<h3>Use Case: Music Sharing Companies</h3>
+<p align="center" width="100%">
+<img src="/images/image007.png?raw=true" 
+   alt="Napster logo" 
+   width="20%" >
+&nbsp;
+
+<b>Approach:</b> Music stored on many computers connected peer-to-peer.
+[Napster](https://us.napster.com/) software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.<br/>
+<b>Result:</b> The industry cracks down music sharing companies copyright infringement.
+Napster is forced to take down its index, shutting down the platform.
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- bittorrent logo ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image008.png?raw=true" 
+   alt="BitTorrent logo" 
+   width="20%" >
+&nbsp;
+
+<b>Approach:</b> Music stored on many computers connected peer-to-peer. 
+[BitTorrent's](https://www.bittorrent.com/) software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.<br/>
+<b>Result:</b> The industry cracks down music sharing companies copyright infringement. 
+<p>
+BitTorrent is asked to shut down their platform.
+Since they do not control the software once downloaded to a peer, if two computers are running the software sharing can still occur.
+Music sharing companies gave us the first glimpse into peer-to-peer networking.
+Besides copyright infringement, the main challenge for the music sharing companies was file integrity.
+
+You could never be sure the file you requested was the file you would get and there was no one to complain to. 
+<br/>
+Both Napster and BitTorrent are operating today, with different business models.
 </p>
 
-You may be concerned about the danger of two users ending up with the same public key without a central registry ensuring that no two people have the same public key.
+<h3>Web 3.0 - Internet of Value</h3>
+Characteristics of Web 3.0:<br/>
+<ul type="disc">
+   <li>Community interaction,</li>
+   <li>More connected, open, and intelligent,</li>
+   <li>Distributed ledgers or blockchain technology, smart contracts, machine learning and artificial intelligence,</li>
+   <li>Identity and information will be held by the individual, breaking data silos.</li>
+</ul>
+Bitcoin is the first widely accepted application for the Internet of Value (just as email was the first big application for the Internet of Information).
 
-A bank, for example, has an internal list of users with unique identifiers and can easily assign a new, unique identity to any new user.
 
-How do we simulate a bank’s identification process in Bitcoin?
-
-How do we trust that no two users end up with the same identity?
-
-To illustrate the probability of two users choosing the same identity as someone else in Bitcoin, let’s consider something we’re all familiar with: the Earth.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Identity: Public & Private Keys ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image005.png" 
-   alt="Identity: Public & Private Keys" 
-   width="65%" />
-</p>
-
-Bitcoin has 2\^160<sup>th</sup> different possible addresses.
-
-To get a sense of how many different addresses exist for users to choose out of, let us compare the number of addresses in Bitcoin to the number of grains of sand on Earth.
-
-The Earth has 2\^63<sup>rd</sup> grains of sand.
-
-Imagine every person in the world choosing a grain of sand at random.
-
-The likelihood of two people picking the same grain of sand is less than 0.0001%.
-
-In comparison, the number of addresses in Bitcoin is many, many magnitudes greater than the number of grains on sand on Earth, making the probability even smaller.
-
-Let’s consider something more drastic: imagine that for every grain of sand on Earth, there exists another Earth, also with 2\^63<sup>rd</sup> grains of sand.
+**[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Identity: Public Key Security ---------------------------------->
+<!---------------- crypto, electronically transferring value ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image006.png" 
-	alt="Identity: Public Key Security" 
-	width="65%" />
-</p>
+<p align="center" width="100%">
+<img src="/images/image009.png?raw=true" 
+	alt="Crypto, electronically transferring value" 
+	width="40%" >
+&nbsp;
 
-Now we have 2\^63<sup>rd</sup> times 2\^63<sup>rd</sup> grains of sand per earth, meaning that there are a total of 2\^126<sup>th</sup> grains of sand.
+<h5 align="center">Cryptocurrencies, Electronically Transferring Value</h5>
 
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------- Identity: Security Hidden in Plain Sight (16) ----------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image007-identity-security-hidden-in-plain-sight.png" 
-	alt="Identity: Security: Hidden in Plain Sight"
-	width="65%" />
-</p>
+The Internet of Value represents a world where value is exchanged at the speed in which information moves today.
 
-Even the number of grains of sand upon all these Earths is only 0.0000000058% (8 zeroes) of all the possible Bitcoin addresses.
+The Internet is still the basic platform that these new technologies operate from.
 
-<h3 id="ch1-5">1.5 Intro: Transactions (Stage 2)</h3>
+The new Web 3.0 browsers are being built to help you manage your cryptocurrency, keys, passwords and other blockchain features.
 
-So now that we have a clear understanding of the structure and purpose of identity in Bitcoin, we can start asking the question, “How do we make transactions between one another in Bitcoin?”
+Let’s now dive into blockchain basics.
 
-After all, that’s the primary goal of the Bitcoin network -- to enable secure transactions between any two users in the network.
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ What Makes a Transaction Valid? --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image008-what makes-a-transaction-valid.png" 
-   alt="Transactions: What Makes a Transaction Valid?"
-   width="65%" />
-</p>
+<h3 id="ch1-3">1.3 What Is Blockchain? (Blockchain Basics)</h3>
+<p>
+There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
+<br/>
 
-As we did before with the concept of identity, we will now be analyzing the idea of a transaction.
+You've probably heard of it: it's called **Blockchain!**
 
-Take a moment to ask yourself, “What makes a transaction valid?”
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image009-validity.png" 
-   alt="Transactions: Validity: What Makes a Transacton Valid?"
-   width=65%" />
-</p>
+But what is it?  How does it work?  How does it affect you?<br/>
 
-For a transaction to be valid, it must have these three components:
+Hearing the word "blockchain" is comparable to hearing the word "internet" in the early 90s.<br/>
 
-1.  a proof of ownership, aka a signature,
+It seemed elusive, like something that wasn't going to impact your daily life.<br/>
 
-2.  available and sufficient funds to spend, and
+But here we are, more than 20 years later.<br/>
 
-3.  a guarantee that no other transaction is using or has used the same funds.
+Think about how the Internet has transformed businesses, commerce, communication, even music and video.<br/>
 
-Let’s understand these criteria in the context of checks and banks:
+And that's not even touching on how the Internet has affected you.<br/>
 
-When you want to make a transaction via a check, you have to sign the check to validate it -- that’s a proof of ownership.
+We all carry the Internet in our pocket.<br/>
 
-The bank then has to verify that you have enough funds in your account -- that you have available and sufficient funds for the transaction.
+We can transfer money at the touch of a button, check the weather, get directions, and even have food delivered to our door.<br/>
 
-They must also ensure that you do not spend the same money more than once -- that you cannot send two or more checks each spending 100 dollars when your account only has 100 in total.
+The next technology to have that kind of impact isn't some of the buzzwords you hear.<br/>
 
-To ensure that one uses funds not in their possession, all the same conditions apply to Bitcoin.
+It's not big data. It's not artificial intelligence. It's not even social media.<br/>
 
-To enforce this, Bitcoin uses what’s known as a UTXO, or Unspent Transaction Output, model.
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------  --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image010-utxo-model.png" 
-	alt="Transactions: UTXO Model"
-   width=65%" />
-</p>
+It's **BLOCKCHAIN!**
 
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- UTXO Model --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image010-utxo-2.png" 
-   alt="Transactions: UTXO Model"
-   width=65%" />
-</p>
+Now, let's discuss the vast promise blockchain has for every business, every society, and for everyone listening today.<br/>
 
-Traditionally, when we think of banks, we think of a single account where all our funds are aggregated into one count.
+And let's begin with an example we are all familiar with.<br/>
 
-For example, after buying \$10 worth of burgers and fries, your account balance goes from 20 to 10 dollars.
+When you attach a file, a Word document, an Excel sheet, a PDF to an email, you aren't sending an original.<br/>
 
-This is not the case with Bitcoin.
+You are actually sending the recipient a copy, and that's a great way to move information around.<br/>
 
-Accounts are easy for users to understand but surprisingly difficult for computers when it comes to all the complexity of a decentralized network.
+But it's not so great when it comes to things like money, stocks and bonds, music, loyalty points, intellectual property, tickets to a game or concert.<br/>
 
-There is no longer a central entity to track all the transactions being made by my account, nor a central clock to track when transactions are being made.
+Then, sending a copy is suddenly a very bad idea.
 
-If I make three different transactions of 5 bitcoins from an account of only 10 bitcoins, which of the two transactions should go through?
+Let's look at an example.<br/>
 
-How do we ensure that we do not accidentally let all three transactions go through?
+If I send you tickets to a concert, it's important that I don't send you a copy.<br/>
 
-To make transaction processing much easier and more secure, users do not spend from an account; instead, they spend directly from transactions made to them.
+You now own the original asset and I can no longer use or sell those tickets.<br/>
 
-An easy way to wrap our heads around this unintuitive model is to think of UTXOs as piggy banks!
+Similarly, if I send you $100, it's important that I still don't own the $100, or have the ability to send it to anyone else.<br/>
 
-Every time a transaction is made to us, we put all that money into a UTXO, or piggy bank.
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------------- UTXO Model Unspent -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image011-utxo-model-unspent.png" 
-   alt="Transactions: UTXO Model: Unspent"
-   width=65%" />
-</p>
+Both of these examples illustrate a double spend problem, and those can be eliminated with blockchain.
 
-When we want to spend money, we break open that piggy bank...spend whatever we like, and then put the rest into another piggy bank.
+Now, in this exciting time in history, every kind of asset, from tickets, to money, to music, can be stored, moved, exchanged, and transacted without an intermediary.<br/>
 
-(It’s hard to put a piggy bank’s shattered pieces back together.)
+People everywhere can transact peer-to-peer and trust each other by using collaboration and cryptography.<br/>
 
-This way, the complexity of checking for transaction validity goes down.
+How did we get here, to this place of trust and collaboration?<br/>
 
-Instead of asking the more difficult question, “Is this account trying to, at this time, spend more money than it owns across multiple transactions?,” we only need to ask, “Does this single piggy bank have enough funds?”
+It began when Satoshi Nakamoto, whose true identity is still unknown, released a white paper in 2008, introducing a purely peer-to-peer version of electronic cash known as Bitcoin.<br/>
 
-On the other hand, the complexity of keeping track of one’s own funds goes up, as each of these piggy banks has to be tracked and secured individually.
+It is here that blockchain technology made its debut.
 
-The amount of bitcoin you own is calculated by summing up the value of each of your piggy banks, or UTXOs.
+Even today people believe Bitcoin and blockchain are one and the same.
 
-<h3 id="ch1-6">1.6 UTXO’s:</h3>
+They are not!
 
-Here’s an example of how transactions work in Bitcoin:
+Bitcoin, another alternative currency, utilizes blockchain technology.
 
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ UTXO Example ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image012-utxo-example.png" 
-   alt="UTXO Example"
-   width=65%" />
-</p>
+While an important one, Bitcoin is only one "use case" for blockchain.
 
-Let’s say that Gloria has two UTXOs, from past transactions, one worth one hundred (100) bitcoins... and one worth fifty bitcoins.
+Blockchain allows people to exchange assets and perform transactions without a third party.
 
-She, being incredibly wealthy and generous, wants to send one hundred and one bitcoins to me (Rustie).
+Imagine a world where you don't need intermediaries.
 
-To start off, she first breaks open the one hundred (100) UTXO and makes that an input for the transaction to me.
-
-However, she recognizes that she doesn’t yet have enough in the input, so she breaks open her next UTXO worth fifty (50)...and makes that a second input for the transaction.
-
-The transaction now currently has two inputs, one worth one hundred (100) and one worth fifty (50), and one output worth one hundred and one (101) to me.
-
-What about the remaining 49 bitcoins that were originally Gloria’s?
-
-Where do those go?
-
-To make sure that Gloria can spend these bitcoins at a later date, she makes a second output to herself known as a change UTXO, or another piggy bank, containing all the remaining unspent bitcoins from the inputs.
-
-This way, she can give one hundred and one (101) of her one hundred and fifty (150) bitcoins to me and keep her remaining forty nine (49) even though she doesn’t have UTXOs which sum up to exactly the amount she wants to spend.
-
-From here, if I'm equally generous and want to give that remaining amount to Derrick, I can just make my new UTXO an input into a different transaction...the output of which will be Derrick’s new UTXO.
-
-This is how Bitcoin effectively keeps track of individual transactions and prevents anyone from spending incorrect amounts of bitcoin.
-
-<h3 id="ch1-7">1.7 Intro: Record Keeping (Stage 3)</h3>
-
-We have now understood how to assign unique identities to every user through public and private keys and conduct transactions between these entities through the use of the UTXO, or Unspent Transaction Output, model.
-
-Naturally, the next question to ask is: How do we keep track of the history of transactions?
-
-After all a user’s current balance can be described as a number of transactions, summing to the current amount, and if we don’t know what transactions have happened in the past, we can’t determine what’s valid in the future.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------- Recordkeeping: Distributed DBS --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image013-recordkeeping-distributed-dbs.png" 
-   alt="Recordkeeping: Distributed DBS"
-   width=65%" />
-</p>
-
-Consider the diagram above.
-
-Let this represent our network, which includes 5 entities.
-
-Each of these circles represents an identity: me (Rustie) in green on top, Gloria in red on the top right, Nick in purple on the bottom right, Nadir in blue on the bottom left, and Derrick in orange on the top left.
-
-We are all connected to each other on this network, as is apparent by the straight edges connecting each circle.
-
-For simplicity's sake, I’ve replaced all public keys with names.
-
-I’ve also replaced the UTXO model with a basic table on the top right hand side of the screen.
-
-We need to store the history of transactions for obvious reasons: to know who owns what in the present, and to use this history to confirm the validity of future transactions.
-
-To save this information, we need some form of database.
-
-A database is a store of information, and there are many types and implementations of databases.
-
-To understand which type of database we need to use in Bitcoin, let’s recall again the requirements of the Bitcoin protocol: we want no central entity in control of the information in the network, and we want a way for anyone to be able to read and write to the history of transactions.
-
-Hence, we want to use a distributed database: as its name entails, information stored in a distributed manner, meaning that the information is not stored by one entity or only in one location.
-
-Because Bitcoin aims to be decentralized, we want to use exactly that.
-
-What does this distributed database look like, and where exactly is it stored?
-
-There’s no central entity to hold on to our information, so the closest thing is having a chosen set of entities hold onto this history.
-
-If we assigned several entities in the network the responsibility of maintaining and sharing our ledger of transactions, we are still seeing some parts of centralization sneak their way into our protocol because we would have to trust the maintainers of this distributed database, going against Bitcoin’s aim to be a trustless system.
-
-We must find another way.
-
-Instead of having any selected maintainers, let’s make a simple and straightforward choice: we have everyone keep a copy of the ledger.
-
-We make everyone the bank.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Recordkeeping: Everyone's the Bank -------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image014-recordkeeping-everyones-the-bank.png" 
-   alt="Recordkeeping: Everyone's the Bank"
-   width="65%" />
-</p>
-
-To get as far as possible from centralization, every individual entity in Bitcoin should be equal.
-
-If every person stores the ledger, then every person has just as much right and legitimacy as the next person to vote on the validity of transactions.
-
-Every person has control of their own data, and no person can decide for anyone else.
-
-There’s no one person to bribe, no one person to hack, no one person to cheat in order to alter the database.
-
-This is the maximum state of individual independence possible for maintaining this history of transactions.
-
-We know that we want each person to store the ledger, but what should the database actually look like?
-
-What data structures hold the transaction history?
-
-We might naively decide to store every transaction individually, but for a network that may be dealing with many transactions per second, updating the database for every received transaction will be costly, especially since this update would have to be delivered to everyone in the network.
-
-Everyone maintains their own ledger after all, and once a change is made for one entity, it must propagate throughout the entire network.
-
-How do we store our ledger efficiently?
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Recordkeeping: The Blockchain --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image015-recordkeeping-the-blockchain.png" 
-   alt="Recordkeeping: The Blockchain"
-   width="65%" />
-</p>
-
-Every update to the distributed database, the Bitcoin ledger, is a batch of transactions grouped into what are called blocks.
-
-Every block is built off, or chained to, a previous block.
-
-Altogether, this forms a magical data structure known as a “blockchain.”
-
-By grouping data into blocks, we do not have to strain the network as a result of updating every ledger after every transaction.
-
-With a blockchain, only every block, which may contain thousands of transactions, needs to be appended to the blockchain.
-
-In this way, blockchains efficiently keep track of not only the transactions in any given update but also give the database discrete states.
-
-Every block is an update, and a chain of blocks represents a history.
-
-This process is helpful for identifying discrepancies between two different versions of the database, since it is clearer what happened in the ledger at any given time than if every transaction were individually processed.
-
-Every block contains information about the previous block, as every block is built off the previous one.
-
-If any block is mutated, intentionally or not, information within this block and all future blocks will change.
-
-This makes the blockchain tamper-evident, as tampering with a transaction from the past would invalidate any future blocks linking back to it.
-
-To reiterate, this design choice is both to reduce the strain of storing individual transactions and to facilitate consistency between all members of the Bitcoin network.
-
-Of course, the next question is, “How does everyone come to agreement on the next block?”
-
-We will go over this in the next segment on consensus.
-
-<h3 id="ch1-8">1.8 Intro: Consensus (Stage 4)</h3>
-
-Now we know how to send transactions to one another with unique identities using the UTXO model, and how to store these transactions using a blockchain to maintain a global record.
-
-At this point, we’re only missing one final piece to bring all these different components together.
-
-How do we make updates to the blockchain?
-
-How do we decide which transactions, or blocks of transactions, are valid?
-
-With no central entity deciding on the next update, we have to find a way to make this decision in a decentralized way.
-
-In Bitcoin, users on the network must come to consensus, or agreement, on the next valid update.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Consensus: Staying On the Same Page ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image016-consensus-staying-on-the-same-page.png" 
-   alt="Consensus: Staying on the Same Page"
-   width="65%" />
-</p>
-
-Because everyone is storing information about the blockchain, we need consensus to make sure that everyone agrees on the history of transactions.
-
-Not only do all users need to agree on the update, but they also need to agree on a valid update to make sure that no corrupted information is accepted by the network.
-
-If there was no way for different parties to come to agreement on this, then there will forever be this schism between them.
-
-Without agreement, we cannot have a functioning distributed database.
-
-We have to all stay on the same page to make sure that we all believe in the same reality of Bitcoin.
-
-Thus, it is imperative that we have a mechanism by which everyone can come to consensus.
-
-To understand the best consensus mechanism for Bitcoin, we will start off by understanding what problems exist with naive consensus strategies and solve them in the next iteration, continuing this process until we finally recreate Bitcoin’s consensus model.
-
-For this consensus buildup, we will consider the same 5 actors from before: me (Rustie), Gloria, Derrick, Nadir, and Nick.
-
-In the most basic consensus mechanism, updates take the following form:
-
-One node proposes a transaction to the network, sending a message about the transaction directly to every other node.
-
-All other nodes save the transaction into their history if it’s valid and disregard it otherwise.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------- Consensus: Double Spend Attack --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image017-consensus-double-spend-attack.png" 
-   alt="Consensus: Double Spend Attack"
-   width="65%" />
-</p>
-
-We have an example for you here.
-
-Gloria wants to make a transaction to Nadir, so she sends that message to all four other entities.
-
-This is represented by the arrows pointing from Gloria to every other entity, blue to represent that she is making a transaction to Nadir, the blue circle.
-
-The implication of this system is that nodes don’t engage in conversation with one another, and the only nodes that see a transaction with one hundred (100) percent certainty are the sender and recipient.
-
-As we will see, this does not work because of what’s known as the double spend attack.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Consensus: Double Spend Attack 2 ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image018-consensus-double-spend-attack-2.png" 
-   alt="Consensus: Double Spend Attack"
-   width="65%" />
-</p>
-
-With centralized systems, we trust banks to check for the validity of all the transactions.
-
-Recall that one condition of a transaction being valid is that proposed funds for the transaction are not promised elsewhere in a previous transaction.
-
-Because we do not have a bank to check if there is any malicious behavior, we must build mechanisms that handle these situations.
-
-Let’s say that Gloria is purchasing tons of laptops and is willing to pay both Nadir and myself (Rustie) 10 bitcoins for our laptops.
-
-Gloria promises me (Rustie) 10 BTC in one transaction, and promises 10 BTC to Nadir at the same time.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------- 18. Consensus: Double Spend Attack 2 -------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image018-consensus-double-spend-attack-2.png" 
-   alt="Consensus: Double Spend Attack"
-   width="65%" />
-</p>
-
-This is represented by the green arrow from herself to me (Rustie), the green circle, and by the separate blue arrow from herself to Nadir, the blue circle.
-
-However, she only has 10 BTC in total.
-
-Her invalid transaction evades detection because, as you may have realized, she only tells one person about each transaction: the person receiving the bitcoins.
-
-I (Rustie) only know about my (Rustie’s) incoming bitcoins, and Nadir only knows about his.
-
-Derrick and Nick, the other entities in the network, know nothing about either transaction.
-
-This is what’s known as a double spend attack.
-
-Gloria is spending only 10 bitcoins to get 20 bitcoins worth of goods.
-
-In this naive version of consensus, this is legal: with her transaction to me, Gloria tells me to update my copy of the ledger, and with her transaction to Nadir, she tells Nadir to update his copy of the ledger.
-
-Both Nadir and I see that the transaction is valid and each believe that we have received the bitcoins.
-
-Of course, both Nadir and I (Rustie) can’t own the same bitcoins.
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------- 19. Consensus: Double Spend Attack Malicious ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image019-consensus-double-spend-attack-malicious.png" 
-   alt="Consensus: Double Spend Attack: Malicious"
-   width="65%" />
-</p>
-
-The moment we try to redeem these tokens with the network, the issue becomes transparent.
-
-It’s going to look to Derrick and Nick that these transactions never happened.
-
-If I try to convince anyone else that I (Rustie) own these ten bitcoins, they’ll all think I’m crazy because they’ve seen no evidence of me (Rustie) ever having received these bitcoins.
-
-The same applies to Nadir.
-
-In this scheme where entities only see the transactions that directly involve them as sender or recipient, it is impossible to come to consensus on a history of transactions because of dishonest actors.
-
-Thus, it is impossible to prevent these double spend attacks with our current model of consensus.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Consensus: Peer Validation ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image020-consensus-peer-validation.png" 
-   alt="Consensus: Peer Validation"
-   width="65%" />
-</p>
-
-Instead of individuals doing their own validation of transaction, we can set up a voting system.
-
-The problem with our previous version of consensus was that there wasn’t any consensus!
-
-Instead of making siloed decisions as we did before, let’s implement a system of proposers and voters.
-
-One person at a time makes a proposal about an update, and everyone else votes on whether or not to accept the proposal.
-
-The person who wants to make a transaction sends the transaction to everyone in the entire network, not just the recipient of bitcoins.
-
-Everyone on the network then casts votes based on whether the transaction they saw was valid or not.
-
-Only after receiving a certain number of votes, say a majority, does the transaction get saved.
-
-Like before, there are blue lines from Gloria to the rest of the network to indicate that she is making a transaction to Nadir.
-
-Unlike before, there are dashed blue lines from each node to everyone else (excluding Gloria) as an indication of communication about two things: the received transaction and a vote for or against its validity.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- 21. Consensus: Reject Double Spend -------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-   <img src="/images/image021-consensus-reject-double-spend.png" 
-   alt="Consensus"
-   width="65%" />
-</p>
-
-Let’s observe what happens when Gloria tries to double spend under these circumstances.
-
-Now, when Gloria attempts to double spend, she will be rejected by observing peers.
-
-She again sends only two messages: One of a transaction to me (Rustie), as indicated with the solid green arrow, and one to Nadir, as indicated with the solid blue arrow.
-
-However, we introduce a new component: communication.
-
-The dashed blue and green lines from Nadir and myself (Rustie) respectively represent the relay of those message to the rest of the network.
-
-By looking to the rest of the network for input, considering everyone else the third party, we are protected against Gloria’s attempts at malicious behavior.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ image022-consensus-victory.png ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image022-consensus-victory.png" 
-   alt="Consensus"
-   width="65%" />
-</p>
-
-Peers in the network vote “no” on Gloria’s proposal, as they notice multiple transactions trying to spend the same funds.
-
-The transaction doesn’t go through, and is not included in an update to the blockchain.
-
-It looks like we’ve solved all our problems: we have a voting system that ensures that no one can double spend the same funds, and each peer stores the whole history of transactions so that they can verify for themselves that the funds exist.
-
-It looks as if we are victorious!
-
-However, we forgot one fatal truth about Bitcoin: the anonymity.
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------- 23. Consensus: A Stranger Among Us --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image023-consensus-a-stranger-among-us.png" 
-   alt="Consensus: A Stranger Among Us"
-   width="65%" />
-</p>
-
-Recall that Bitcoin is an accessible, anonymous network with no central registry.
-
-Banks keep track of everyone’s identities and accounts, but no such infrastructure is available in Bitcoin to prevent anyone from producing multiple identities.
-
-In Bitcoin, anyone can join, and anyone can participate.
-
-Because of the ease with which Bitcoin addresses can be generated, nothing is stopping Gloria from generating more identities and posing as Derrick and Nick.
-
-It’s inexpensive to create multiple identities, requiring only the generation of a random number, as seen in the identity section.
-
-Because of this low cost, Gloria can easily hold multiple Bitcoin identities to cast more votes than she should be allowed.
-
-Gloria, a real-world minority, could easily propose and vote for her own malicious transactions by creating sufficient identities and occupying a network majority.
-
-In other words, this current version of consensus is susceptible to a Sybil attack, where a user creates multiple identities for some malicious purpose.
-
-With such a little cost to vote, votes become meaningless.
-
-There’s no value in a vote because anyone with spare time can make as many identities as they want.
-
-We see that this is a problem when Gloria attempts the Double Spend attack because, with these extra identities under her control, she succeeds.
-
-She sends the transactions to Nadir and me (Rustie), and we send these transactions to the rest of the network, and they all vote that both transactions are valid.
-
-Because the majority votes on both transactions being valid, we now have a lack of consensus about what the truth is.
-
-Gloria has broken Bitcoin all because it was easy for her to pose as multiple people and cast multiple votes, overwhelming Nadir and myself (Rustie).
-
-Clearly, to solve the problem, we cannot assume that each online identity deserves the same voting power, as some people have multiple identities.
-
-To ensure that every real person only has one vote, we have to make a vote expensive.
-
-We have to make it such that anyone trying to vote has the same amount of voting power as anyone else, regardless of how many Bitcoin identities they have.
-
+While traditionally we have needed central authorities to trust one another and fulfill contracts, blockchain makes it possible to have our peers guarantee that for us. 
 But how?
 
-Is it even possible to solve this problem?
+Assets, like we've discussed, are no longer stored in a central place, but distributed across a global ledger, using the highest level of cryptography.
+
+When a transaction is conducted, it's posted across tens of thousands of computers around the globe.
+
+These transactions are recorded as blocks.
+
+Let's imagine a sheet of paper that has 25 lines.
+
+When a sheet is filled up with 25 transactions, the block is validated via group consensus.
+
+Once the page has been validated, it is added to a stack of previously validated sheets.
+
+Each sheet on the stack can be assumed to be trustworthy because, once a sheet is validated, it can't be changed.
+
+Because at this point, all the sheets are linked together.
+
+And to link our sheets together, we embed information from the previous sheet of paper into the new, recently validated sheet.
+
+In blockchain, our sheet of paper is equal to a block.
+
+The act of embedding a previous block of information into the current block of information is called _chaining_, hence, the name blockchain.
+
+In order to compromise or hack a blockchain network, someone would have to gain control of the majority of computers in that network.
+
+This is extremely difficult to do.
+
+There is no longer a single point of failure, and this is what makes blockchain infinitely more secure than what we have today.
+
+Blockchain isn't just for assets, though. It extends to contracts.
+
+These are called _Smart Contracts_.
+
+And what are they exactly? What they sound like.
+
+A smart contract self-executes and handles enforcement, the management, and performance of agreements between people.
+
+Examples of smart contracts include *insurance policies*, *copyrighted content*, *escrow and lending*, *wills*, and *trusts*.
+
+Smart contracts will revolutionize how we do business.
+
+There are so many possibilities with blockchain; not just in the now, but with things we haven't begun to think about yet.
+
+<b><i>Blockchain Is **NOT** Bitcoin</i></b><br/>
+
+Bitcoin is a digital currency running on top of the Bitcoin blockchain. We will develop the concept of cryptocurrencies in later sections. 
+
+Bitcoin has no borders and was created as a decentralized payment system, an alternative to currencies issued by governments. 
+
+Let us look at what it means to be a currency.
+</p>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 24. Consensus: Pay to Play ------------------------------------>
+<!------------------------------------------- bitcoin logo --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image010.png?raw=true" 
+   alt="Bitcoin logo" 
+   width="20%" >
+&nbsp;
+<p>
+
+<h4>Purpose of currency:</h4>
+<ul type="disc">
+   <li>Medium for exchange,</li>
+   <li>Store of value over time,</li>
+   <li>Accepted as a measure of worth.</li>
+</ul>
+
+According to [Investopedia](https://www.investopedia.com/terms/f/fiatmoney.asp), 
+> “Fiat currency is money a government issues that is not backed by a commodity like gold. 
+> Fiat money is backed by the government and it has value because the government says so and the citizens believe it. 
+> The dollar is an example of the United States fiat currency”.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ government building --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image011.png?raw=true" 
+   alt= "Government building" 
+   width="20%" />
+&nbsp;
+
+Apart from the government issuing Fiat, a centralized authority needs to keep track of assets. 
+Banks, credit card companies’ stockbrokers are companies that represent a centralized authority that controls your money.
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- bank building <p align="center" ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image012.png?raw=true" 
+   alt="Bank building" 
+   width="20%" />
+&nbsp;
+
+Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. 
+If you have an Internet connection and a Bitcoin wallet application, you can receive and send the cryptocurrency Bitcoin. 
+Cryptocurrencies like Bitcoin have value because it can be proven with math. Unlike banks offering centralized services, you are responsible for your cryptocurrency.
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- key, keyboard ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image013.png?raw=true" 
+   alt="Key, keyboard" 
+   width="20%" />
+&nbsp;
+
+[Bitcoin](https://bitcoinfoundation.org/) and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology.
+Some privately run blockchains do not use cryptocurrencies as a function of their blockchains.
+Blockchain technology can easily transfer anything from property rights, stocks, and even artwork. 
+There are many more use cases that utilize blockchain technology far reaching than currency transfer.
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------------- blockchain files ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image014.png?raw=true" 
+   alt="Blockchain files" 
+   width="20%" />
+&nbsp;
+
+<h3>Blockchain - Let’s Cover the Basics</h3>
+<p>
+In this section, we're gonna talk about what blockchain is:<br/>
+   a real simple introduction to the basic concepts and principles behind blockchain.
+
+When you hear about blockchain, you probably think of new, high-emerging tech.
+
+Well, really, all blockchain is, is a combination of technologies that have existed for a long time.
+
+They're simply combined in a new and creative way to give us an amazing new platform on which we can start to build solutions.
+</p>
+<span style="background-color: #FFFF00">Blockchains are often referred to as <b>digital decentralized ledgers</b>.</span>
+<p>
+
+And when you think of that, all you can think of is something we're all familiar with: a simple notebook.
+
+When we talk about blocks and blockchain, all we're really talking about is a page of data.
+
+We fill up this page with any kind of data imaginable, and, while most of the time today, we're talking about recording financial transactions on this page, or this ledger, or this block, we can record any kind of data we want.
+
+In fact, you can think of a block as being exactly like this piece of paper, in that the paper doesn't know or care what kind of information you're recording on it.
+
+And just like the paper doesn't know or care, neither does the block in a blockchain.
+</p>
+
+<p>
+While most of what we're recording today are financial transactions, we could also record things like voting records and results, land titling, medical records, or even the opening notes to a Beethoven symphony.
+
+What makes this blockchain notebook incredibly powerful is that all the pages are linked together.
+
+That if I go back and try and change any data on any page anywhere in this notebook, I break a link in a very obvious and easy-to-determine way.
+
+This gives blockchain a key property known as immutability.
+
+And it's what gives blockchain the security that we've come to know and depend on.
+</p>
+<p>
+Blockchains also give us an incredible technology called smart contracts, which allow us to programmatically define the rules and steps that should be performed any time a certain type of event is recorded in our blockchain or in our magic notebook.
+
+When you think about blockchain, don't get intimidated thinking it's something high tech, and new, and cutting-edge.
+
+It's simply a new and creative way of combining old ideas together to give us an incredible new solutions platform.
+</p>
+<p>
+And the rest of this series will take a deeper dive into these basic concepts and principles, but if the idea of this unchangeable linked notebook makes sense, congratulations!
+
+You already understand all the major principles and concepts required to understand what blockchain is and why it's so powerful.
+</p>
+
+<h3>Let’s Review an Analogy</h3>
+<p>
+A block on a blockchain can be thought of much like a page in a notebook. Data is stored on a block, just like data is written on a page of a notebook. <br/>
+
+Similar to a sheet of paper, the digital ledger doesn't care what kind of information you're putting on it. 
+
+While most of what we're recording today are financial transactions, we could also record things like voting records and results, land titling and medical records, etc. 
+
+What makes this blockchain notebook incredibly powerful is that all the pages are linked together. 
+
+If you go back and try and change any data on any page anywhere in this notebook, you break a link in a very obvious and easy-to-determine way.
+</p>
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- Notebook page, block on a blockchain --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image015.png?raw=true" 
+	alt="Notebook page, block on a blockchain" 
+	width="40%" />
+&nbsp;
+
+<h3>Let’s Review an Analogy: Data Stored</h3>
+<p>
+Any data can be stored on the same block.<br/>
+
+Examples of stored data include:
+<ul type="disc">
+   <li>Medical records</li>
+   <li>Property agreements</li>
+   <li>Voting</li>
+</ul>
+</p>
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ data stored on block -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image016.png?raw=true" 
+   alt="Data stored on block" 
+   width="40%" />
+&nbsp;
+
+<h3>Let’s Review an Analogy: Blocks Are Chained Together</h3>
+Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ blockchains are chained together -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image017.png?raw=true" 
+	alt="Blockchains are chained together" 
+	width="65%" />
+&nbsp;
+
+<h3>Let’s Review an Analogy: Blockchain Is Immutable</h3>
+If the data is tampered with anywhere in the chain, the links will break in a very obvious way.
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- blockchain is immutable ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image018.png?raw=true"
+   alt="Blockchain is immutable"
+   width="65%" />
+&nbsp;
+ 
+This provides immutability and security.
+
+<h3>Blockchain Features</h3>
+Blockchain is a combination of several other underlying technologies that have never been combined so successfully.
+Here are some features that make this new technology so revolutionary.
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- Blockchain Features - distributed ledger ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image019.png?raw=true"
+	alt="Blockchain Features - distributed ledger"
+	width="65%" />
+&nbsp;
+
+<h3>Blockchain Features: Distributed Ledger</h3>
+<p>
+A ledger is a collection of transactions. <br/>
+
+It is not a collection of assets. 
+
+Assets are part of a transaction, but the ledger records the transaction. 
+
+With a digitally distributed ledger or a blockchain, no one owns the ledger. 
+
+The ledger is distributed among participants in the network, all running the same blockchain protocols.
+
+It is decentralized in that an identical copy of the ledger exists on every node/computer on the network. 
+
+In 2009 with the publishing of Satoshi Nakamoto’s whitepaper [“Bitcoin: A Peer-to-Peer Electronic Cash System”](https://bitcoin.org/bitcoin.pdf) ,[Bitcoin](https://bitcoinfoundation.org/) became the first application to leverage blockchain technology by recording the first asset transfer on a public blockchain ledger.
+</p>
+
+<h3>Blockchain Features: Peer to Peer Network</h3>
+<p>
+The ledger is stored, updated, and maintained by a peer network. <br/>
+
+Nodes form the infrastructure of a blockchain network. 
+
+They store, spread and preserve the blockchain data, so a blockchain exists on nodes. 
+
+All nodes on a network follow the same rules of operation or protocols, but nodes have different roles. 
+
+A full node contains a copy of the blockchain protocol, transaction history of the blockchain and aids in the maintenance of the blockchain. 
+
+User node interacts with the ledger. With blockchain technology, a lack of a centralized authority is replaced with a peer-to-peer network.
+</p>
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ blockchain networks can be public or private -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image020.png?raw=true"
+	alt="Blockchain networks can be public or private"
+	width="65%" />
+&nbsp;
+
+Blockchain networks can be <i>public</i> or <i>private</i>. 
+
+A public blockchain is open to anyone with an internet connection and the appropriate application. 
+
+A private blockchain grants access and rights to its users before they can interact.
+
+<h3>Blockchain Features: Transparency</h3>
+<p>
+In a blockchain, we can see all the transactions that have occurred on the shared or distributed ledger. <br/>
+
+A blockchain stores details of every transaction that occurred since the first transfer. 
+
+This first transfer, along with some system information that we will discuss later, becomes the first block in our chain and is referred to as the genesis block. 
+
+Since every node shares a copy of the agreed-upon ledger, there is no friction about the transactions, everyone has the same agreed-upon copy. 
+
+Centralized systems are not transparent, the information about the ledger is controlled by one authority.
+</p>
+<h3>Blockchain Features: Consensus</h3>
+<p>
+Blockchain ledgers are different from centralized ledgers because network participants have an agreement upon what is in the identical ledger. <br/>
+
+In order for the blocks to be added, all the nodes in the system come to agree as to what transactions are accurate and should be added to the chain of blocks. 
+
+Since there is no central authority telling the nodes which transactions are valid, a new way to reach agreement or come to consensus is needed.
+</p>
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------All agree to transaction ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image021.png?raw=true"
+   alt="All agree to transaction"
+   width="65%" />
+&nbsp;
+
+The way in which each blockchain comes to consensus is built into the protocol, they are the rules built into the code that determine how the nodes will add ledger transactions.
+
+The Bitcoin network uses a proof of work consensus model. 
+
+This process of building agreement among a group of mutually distrusting participants is a benefit of blockchain consensus.
+
+<h3>Blockchain Features: Encryption</h3>
+<p>
+Encryption and cryptography are combined with blockchain technology to assure the information on the blockchain is authentic. <br/>
+
+In our previous real-world example, the music sharing companies not only had legal issues from copyright infringement, they also could not solve the data integrity problem. 
+
+Music downloaded from these platforms was only as reliable as the anonymous person storing and sending it. 
+
+The data had no integrity. 
+
+Cryptography and blockchain offer a secure way to prove something is authentic. 
+
+Instead of relying on third-party, trust is put into cryptographic algorithms that prove the provenance and authenticity of an attestation.
+</p>
+
+<h3>Blockchain Features: Programable</h3>
+<p>
+Some blockchains offer an additional feature, <i>smart contracts</i>, that impose logic into the system. <br/>
+
+If you think of the Bitcoin blockchain as a calculator recording financial transactions, you can think of these blockchains as computers. 
+
+The first of these blockchains is <b><i>[Ethereum](https://ethereum.org/en/)</i></b>, created by Vitalik Buterin, Joe Lubin and team. 
+
+Ethereum runs the EVM, Ethereum Virtual Machine, which has the ability to impose digital agreements or smart contracts. 
+
+A smart contract is a program that runs on a blockchain that can impose contractual agreements. 
+
+Typically, they work as digital agreements that enforce a specific set of rules. 
+
+These rules are predefined by computer code, which is replicated and executed by all network nodes. 
+
+Lockchain smart contracts allow for the creation of trustless protocols. 
+
+This means that two parties can make commitments via blockchain, without having to know or trust each other. 
+
+They can be sure that if the conditions aren't fulfilled, the contract won't be executed. 
+
+Other than that, the use of smart contracts can remove the need for intermediaries, reducing operational costs significantly.
+</p>
+
+<h3 id="ch1-4">1.4 Blockchain Actors (Career Opportunities)</h3>
+With new technology comes new opportunities and this holds true for blockchain. 
+
+As this nascent technology matures, more positions are needed to fill this increased demand. 
+
+A few of these new positions are listed here:
+<ul type="disc">
+   <li><b>Entry Level and Internship Positions</b><br/>
+Mentorship programs and internships include assisting in the designing and developing blockchain distributed ledgers based on both public and private or permissioned blockchains. 
+With open-source, development and success depend on an active community, Working Groups and Hackatons are available for the newcomer. 
+Skills include basic blockchain knowledge and some familiarity with basic programming languages.</li>
+   <li><b>Blockchain Architect</b><br/>
+For a blockchain solution to be functional, it first needs to exist. The blockchain architect is the person or group who designs and implements the backend code of the blockchain. 
+The blockchain architect works with blockchain engineers and technical leaders to identify the blockchain structure for specific use cases. 
+Architects understand consensus mechanisms, cryptography systems, key management techniques and smart contract management. 
+Qualifications include Go, Java, Javascript, or any modern programming language plus project management skills.</li>
+   <li><b>Blockchain Developer</b><br/>
+Developers design, write and upload smart contracts to the blockchain. 
+Developer design workflows that operate with blockchains and smart contracts. 
+Responsibilities can include project design, smart contract development and implementation, front end applications design and application deployment. 
+Skills a developer needs can include Microsoft SQL Server, Visual Studio, .NET, MVC, AJAX, SQL, C, Python, Solidity, C++, C#, Javascript, Node.js, JQuery, SOAP, REST, FTP, HTML, XML, XSLT, XCOD, Neural-networks, Regression, Agile Scrum, MYSQL. 
+Solutions are developed for Hyperledger Fabric, Ethereum, Quorum Ripple, Corda and other distributed ledger solutions.</li>
+   <li><b>Blockchain Operator</b><br/>
+Once the blockchain solution is designed and built, operators can join to create the peer network mentioned previously. 
+The role of operators (nodes) is to store copies of the ledger and keep their copy up to date by distributing transactions and new blocks throughout their network via peer-to-peer communications.</li>
+   <li><b>Blockchain Regulator</b><br/>
+Many businesses operate under regulations regarding how their data should be stored and processed. 
+This is the same for blockchain solutions. 
+Regulators rarely interact with the blockchain directly, rather oversee regulatory requirements that need to be considered in blockchain development. 
+With governments researching Central Bank Digital Currencies, governing these blockchains will become increasingly more complex.</li>
+   <li><b>Blockchain Project Managers</b><br/>
+Project managers are the first persons in an organization who are contacted when a company wants to bring blockchain in house and adapt it to their technology platforms. Responsibilities include deciding if a blockchain solution is a good fit for a business situation. 
+If the decision is to move forward, Project Managers would organize key players and resources needed to execute the blockchain project.</li>
+   <li><b>Data Storage and Processing Managers</b><br/>
+The blockchain provides distributed, immutable storage with built-in integrity checking, but certain limitations exist that have to be managed. Data decisions need to be made dealing with maximum capacity based on the standard block size and block rate. 
+Policies need to address how to provide integrity verification for large amounts of data, should data be stored off-chain with a hash of the data stored on-chain. eMembers of the peer network must execute the code to remain in sync with the current state of the network. 
+If smart contracts commonly require large amounts of processing power to complete, devices external to the peer network may be used to augment the processing power of the network.</li>
+   <li><b>Blockchain Data Scientists</b><br/>
+Blockchain has the ability to collect large amounts of data. The Blockchain Data Scientist collects, interprets, analyzes and manages data. 
+Developing algorithms that can analyze patterns in large data sets, the data scientist provides insight into the data collected.</li>
+   <li><b>Blockchain Quality Engineer</b><br/>
+This position is responsible for ensuring quality in all areas of blockchain development, such as automation frameworks and tests, manual testing and dashboards to support mobile, web and platform engineering. 
+A quality engineer will need to research and advise on blockchain tools and develop quality assurance (QA) automated test standards, as well as define, write and implement test automation strategies for load performance tests. 
+Applicants may also need an engineering management MBA degree.</li>
+   <li><b>Blockchain Legal Consultant or Attorney</b><br/>
+A blockchain legal consultant is responsible for advising companies on how to structure blockchain endeavors. 
+Advise on how to structure and govern initial coin offerings, some of which are now coming under greater regulatory scrutiny. 
+Attorneys will also be tasked with developing legal partnerships and contracts as blockchain technology offers "smart contracts", which are self-executing based on previously agreed terms. 
+Duties can include designing legal partnerships that would connect the crypto ecosystem with existing financial structures, and supporting various merger-and-acquisition activities, such as negotiating and drafting legal agreements and performing due diligence on blockchain projects.</li>
+   <li><b> Blockchain Web Designer</b><br/>
+A decentralized community needs to keep the community that supports it informed. 
+When including the use of cryptocurrencies in your business and when launching blockchains, there will be a greater need for websites to inform customers what a company is offering. 
+A blockchain web designer will need to come up with original concepts, creative graphics and "mind blowing" user interfaces and dashboards to engage a diverse and inclusive community.</li>
+   <li><b>Blockchain Consultants</b><br/>
+Blockchain consulting companies and blockchain consultants are tasked with advising companies on designing and implementing blockchain solutions. This includes the documentation and maintenance of solutions, as well as their initial implementations.</li>
+   <li><b>NFT Graphics Designer</b><br/>
+NFT stands for a non fungible token, a special token that represents a unique ID that is linked to a piece of crypto art that cannot be replicated and is used to verify ownership of a piece. 
+The collectable world is jumping in head first and creating non fungible tokens that represent art, music, memorializing events, newspaper articles and record releases. 
+Designers are needed to turn these moments/media into art for the thirsty NFT market.</li>
+</ul>
+
+<h3 id="ch1-5">1.5 Who is Using Blockchain? (Use Cases)</h3>
+<p>
+There are a lot of really interesting use cases being explored with blockchain right now.<br/>
+
+When you first get into blockchain, one of the areas you'll see people immediately jump to are healthcare, how can we manage our personal health information on the blockchain, and voting an election reform, and both of these are really, really interesting ideas.<br/>
+
+The goal behind the folks looking at blockchain for healthcare is the idea that it would be great if your medical records could be accessible with your permission to anyone else, anywhere on the planet.<br/>
+
+If you're halfway across the world on vacation and you fall ill and end up in a hospital, wouldn't it be great if the doctor treating you had full insight into your medical records, knew any allergies you had, or knew any prescriptions that you were already on?<br/>
+
+That's a very, very big area, and this ties a lot into blockchain and Identity Management.<br/>
+
+How do we safely identify and protect people's personal data on blockchain?<br/>
+
+A lot of interesting challenges there that are being worked out...<br/>
+
+Blockchain for voting and election reform is a big topic right now, especially with all the conversation lately about how do we ensure the integrity of elections and demonstrate that our results haven't been tampered with or altered.<br/>
+
+This is an area where blockchain could add a lot of value.<br/>
+
+And then, of course, we hear a lot about traditional use cases, areas that are getting a lot of traction in blockchain right now.<br/>
+
+Probably one of the biggest are supply chain, value chain relationships, which are very, very common in today's economy.<br/>
+
+We have very, very few products or services that are offered completely and solely by one organization, without the involvement of other vendors, partners, suppliers, manufacturers, third-party organizations, etc.<br/>
+
+Blockchain to track the supply, the origin of the goods and services that we consume is a big use case.<br/>
+
+Walmart is really pioneering this right now with a blockchain solution that they're using to identify the provenance of meat, where does the meat that is sold in a Walmart store come from, and the ultimate goal here is that, when we do have contaminated foods, and we have to issue a recall, currently, because we just don't have good insight into that supply chain, we recall and destroy a lot more food than we really need to, which is tremendously wasteful, especially with all the people on the planet that we could be giving that good food to.
+
+These are some real, real exciting areas that we see being pursued in blockchain right now.
+
+On the public sector, there's a lot of interest in blockchain for law enforcement purposes.
+
+How do we allow different law enforcement agencies at the federal, state, county, city level, all to share data seamlessly, in a safe, secure fashion, which also protects people's personal privacy and anonymity, when appropriate.
+
+Another area where blockchain is getting explored and is generating a lot of excitement is with artists, with people who produce content.
+
+If you're an author, if you're a musician, if you're an artist, traditionally, you've only been able to get your work out to the public, in the hands of the public, by going through a third-party intermediary.
+
+If I'm an author, traditionally, the only way I've been able to share my creation with the general public has been going to a publishing company and getting my works published.
+
+Blockchain enables lots of interesting scenarios where I can sell that work directly to consumers, create new subscription models, and this is having very interesting effects on the work itself.
+
+One of the things we're seeing is that traditional book publishing, there's anywhere between 12 to 18 months delay between when the author finishes the last word of a book and when it actually ends up into the consumers hands.
+
+Well, if we can use blockchain to enable consumers to purchase this material or subscribe directly to the content creator, we take that lag time completely out of it.
+
+And this allows authors and content creators to do some really interesting things.
+
+You could write a fictional story and have one of your characters respond real-time to a news story that actually happened last week.
+
+It makes for very compelling reading and it's just something we're not able to do today in the traditional publishing world because of that delay.
+
+We also see a lot of interest in blockchain for fractional asset ownership scenarios.
+
+We know we're 10-15 years away from having self-driving cars be a very regular thing, and when we all get our own self-driving car, if we're smart, we're gonna have that car take us to work and then turn around and perform ride-sharing services throughout the day, when we're not using it, in order to recoup some of that investment.
+
+Well, in a blockchain world with coins and tokens, we can fractionalize that asset ownership, and I can take that same money I used to buy one self-driving car which operates in one city, and I could buy one percent of a hundred self-driving cars in the hundred's biggest cities on the planet.
+
+And so, if they're ever weather conditions, where maybe my car couldn't operate locally, that's okay.
+
+I have a much more diversified investment, which continues to offer returns, because I have a virtual guarantee that any major city that I have one percent of my car ownership in is currently in rush-hour right now, in peak times of people needing a ride.
+
+There are lots of very interesting use cases for blockchain in the real world right now.
+
+I would encourage all of you to dig in a little bit more, and see some of the interesting things that are going on with blockchain in healthcare, in public sector, in insurance, in supply chain, value chain and more, see what other folks are doing, and then go out and make your own blockchain dreams a reality.
+
+<h3>Blockchain Users: Business to Consumer (B2C)</h3>
+<p>
+A Business to Consumer (B2C) is business or transactions conducted directly between a company and consumers who are the end-users of its products or services.<br/>
+
+Services being provided to the consumer is an area of interest to companies. <br/>
+
+Benefits to the consumer are transparency to the consumer, accountability from suppliers, ethical sourcing validation, labor verification and an immutable shared view.
+</p>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- Consumer benefits from blockchain ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image022.png?raw=true"
+   alt="Consumer Benefits from Blockchain"
+   width="65%" />
+&nbsp;
+
+Vertical markets see the advantage to the transparency feature in blockchain. Financials, logistics, charity funding, agriculture and ethical sourcing tracking are all markets leveraging blockchain to offer new insights to the customer.
+
+<h3>Real World Example of Supply Chain Business to Consumer</h3>
+
+<h4>Use Case: Diamond Tracing</h4>
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Trustchain logo ------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image023.png?raw=true"
+   alt="Trustchain logo"
+   width="20%" />
+&nbsp;
+
+   * <b>Approach:</b> The blockchain collaboration, known as [TrustChainTM](https://www.trustchainjewelry.com/), will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.
+   * <b>Result:</b> The jewelry industry can now track and authenticate diamonds and precious metals through every stage of the supply chain. 
+Blockchain provides physical product verification, process verification and servers as an ethical oversight.
+
+<h3>Blockchain Users: Business to Business (B2B)</h3>
+With a decentralized approach, blockchain removes the middleman (such as banks and brokers) to facilitate faster and less expensive payments. <br/>
+
+The shared ledger approach also eliminates the need for multiple paper copies that need to be verified and updated frequently.
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- Business Benefits from Blockchain  --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image024.png?raw=true"
+   alt="Business Benefits from Blockchain"
+   width="65%" />
+&nbsp;
+
+Industries like finance, international trade and commerce, food supply chains are taking a serious look at blockchain.
+
+<h3>Real World Example of Business to Business Transaction</h3>
+
+<h4>Use Case: Multi-party Invoicing DLT Labs</h4>
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Walmart Canada & DLT Labs logos ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image025.png?raw=true"
+   alt="Walmart Canada & DLT Labs logos"
+   width="40%" />
+&nbsp;
+</p>
+
+   * <b>Approach:</b> <i>[DLT Labs](https://www.dltlabs.com/)</i> along with Walmart Canada initiated a tracking program tackling the enormous problem in the freight and shipping industry of dispute resolution in disparate invoicing systems. 
+  The solution connects all points on the supply chain with a shared trusted ledger. This eliminates the root problems that cause invoice disputes. 
+  The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
+&nbsp;<br/>
+   * <b>Result:</b> Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
+
+<h3>Unintended Use Cases</h3>
+<p>
+One of the coolest things about blockchain is some of the unintended consequences a good blockchain solution might have.<br/>
+
+Let's look at an example.<br/>
+</p>
+<p>
+Right now, there is a lot of attention being given to how blockchain might be used, in general, for supply chain relationships and, specifically, in the food supply chain.
+
+Let's pretend that you have a very young child and your child has a serious pesticide allergy.
+
+Of course, when you go to the grocery store, you make sure that you only buy the produce in the produce section that has the USDA organic label.
+
+It's just a little sticker that goes on the produce.</p>
+
+You buy your produce and you stand in the checkout line, and you feel pretty good that the produce you're buying actually is organic and has been treated with all-natural pesticides, and won't make your young child sick.
+
+But sometimes you wonder, standing in line, how do I really know? 
+
+How do I really know that someone didn't just print up a bunch of these stickers in their basement and apply them at the last minute?
+
+The blockchain can go a long way to solving that problem and providing much greater insight.
+
+Let's say, you're standing in the grocery store one day, and instead of the easily forged stickers, you're able to pull out your phone and scan a QR code.
+
+When you scan that QR code, instantly on your phone the entire lifecycle of that piece of produce pops up.
+
+You can see the date that it was planted on the orchard.
+
+You can see after it was planted that an organic pesticide company came along and treated it with an all-natural pesticide.
+
+You can even verify that the pesticide is natural by seeing the ingredient list in that pesticide.
+
+And finally, you may see who actually delivered that produce to the store.
+
+Let's say that there's a new green electric trucking company out there - <b>Ed's Electric Trucking</b>.<br/>
+
+Ed has seen all the fancy new Tesla semis.
+
+He thinks they're great and he is committed to providing a transportation and logistics company which is also environmentally friendly.
+
+Now, in today's world, you don't have a way of knowing about someone like Ed and his electric trucking company.
+
+There just aren't good ways for folks in the B2B space to communicate their business value directly to consumers.
+
+This is an interesting potential byproduct of using blockchain and smart contracts as a business solution.
+
+Not only would I, as a consumer, have greater insight into the origin of that produce and feel much better standing in the checkout line, but maybe what Ed's doing resonates with me personally.
+
+Maybe I'm a very green-conscious consumer.
+
+I didn't know there was such an organization as Ed's.
+
+And I have to buy a few more things while I'm at the store, besides produce. I have to buy some deodorant, some shaving cream, and some laundry detergent.
+
+When I buy that deodorant, shaving cream, laundry detergent, I only buy the ones that were delivered by Ed's Electric Trucking.
+
+This gives Ed and other B2B players a new and exciting way to establish brand and gain mindshare with the consumer that they currently don't have.
+
+Certainly, it was not the original problem we went to solve with blockchain, but many times, when we apply blockchain to a real-world problem, we find out there are a lot of unexpected benefits just like this.
+
+Look for blockchain not just to transform the areas that we're aware it might make a difference in, but also to provide some new exciting and unintended benefits.
+</p>
+
+<h3>Blockchain Users: Government to Consumer (G2C)/Government to Government (G2G)</h3>
+<p>
+The public sector is the part of the economy composed of both public sector and private sector enterprises that are operating on behalf of the public.<br/>
+
+It is the business of taking care of the people. Public sector includes all government, military, police, public health and welfare, infrastructure, etc. <br/>
+
+Public sector organizations leverage blockchain technology to move away from siloed and inefficient centralized systems. <br/>
+
+Current systems are inherently insecure and costly, with duplicated and in-efficient workflows. <br/>
+
+Blockchain networks offer more secure, agile, and cost-effective structures.<br/>
+</p>
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------- Government Benefits from Blockchain (30) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image026.png?raw=true"
+   alt="Government Benefits from Blockchain"
+   width="65%" />
+&nbsp;
+
+<h3>Dubai Use Case</h3>
+When people first start getting into blockchain, one of the areas they really start to look at is where is blockchain being used in the real world, what examples do we have of a blockchain being deployed and at what scale.<br/>
+
+And there's really no better example of this right now than what's going on in Dubai.
+
+Dubai, the largest city in the United Arab Emirates, is piloting a very ambitious program called smart Dubai 2021.<br/>
+
+And what Smart Dubai 2021 aims to do is to move all governmental operations and record-keeping on the blockchain by the year 2021.<br/>
+
+The goals of this program are increased transparency in the government operations, increased efficiency, and by proxy, providing better service to city residents and constituents and establishing as a thought leader, an industry leader in the blockchain space.<br/>
+
+There are lots of really cool applications that tie into this.<br/>
+
+Blockchain is becoming the enabling layer for a lot of other Smart Dubai initiatives around creating a smart city.<br/>
+
+Projects like automated traffic signals, registration of citizens for governmental services, etc. are all being pioneered on blockchain.<br/>
+
+If you want to see some of the really exciting use cases in blockchain right now, be sure to check out Dubai and what's going on with their Smart Dubai 2021 initiative.<br/>
+
+<h3>Real World Example of Public Sector Government to Government/Citizens</h3>
+
+<h4>Use Case: Public Sector - Smart Dubai</h4>
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- smart dubai (31) ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.png"
+   width="40%"
+   alt="Smart Dubai" />
+&nbsp;
+
+   * <b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.
+The [Smart Dubai](https://www.digitaldubai.ae/) strategy will be using three essential pillars: government efficiency, industry creation and international leadership.
+   * <b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br/>
+
+When successful, Dubai will be the first blockchain-powered government driving the future economy.
+
+<h3>More Use Cases</h3>
+Blockchain is having far reaching effects in major industries.
+Let’s take a look at three major industries having a positive influence from this new way to organize our information:<br/>
+<ul>
+<li><b>Supply chain</b><br/>
+Blockchain is used in supply chains to gain transparency and traceability. This has a special advantage for global health when used in traceability to the food supply chain. 
+By tracking food on a blockchain, you are building trust into the system through the transparency feature. 
+In the event of a problem, blockchain technology can pinpoint the exact location and cause of a food health issue. 
+By instantly tracing food issues back to the source, all contaminated lots can be tracked and dealt with instantly.</li>
+
+<li><b>Global trade</b><br/>
+Blockchain is making headway in the global trade markets with transparency and immutability that offer new relationships among distrusting parties. 
+Blockchain makes sure all relevant parties have access to the same information. 
+Trade barriers are reduced, from settlement issues, to compliance and regulation, information is being shared and accessed in new secure ways. 
+A distributed ledger technology (DLT) opens up a new avenue for securely sharing data that guarantees accuracy while removing banks as deal facilitators. 
+Smart contract and microfinancing alternatives allow all size companies to seamlessly trade across borders.</li>
+
+<li><b>Digital identity</b> (self-sovereign identity and verifiable credentials)<br/>
+Users of the Internet were all but unaware that all the information given so freely when interacting with companies online, was being stored and sold. 
+Data became a siloed commodity owned by everyone but you. 
+With new blockchain technology, individuals can reclaim their identity information breaking the need for data silos, endless passwords and hackable databases. 
+Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.</li>
+</ul>
+
+<h3 id="ch1-6">1.6 Chapter Summary</h3>
+In this chapter, we discussed:
+<ul>
+<li>The history of the Internet and how blockchain technology relies on Internet technology as the foundation for building the future of the blockchain evolution.</li>
+<li>The difference between blockchain and Bitcoin.</li>
+<li>How blockchain functions.</li>
+<li>Blockchain concepts and characteristics: distributed ledger, peer to peer, transparent, consensus, encryption, immutability, programmable.</li>
+<li>Blockchain users and their roles.</li>
+<li>Emerging general use cases.</li>
+</ul>
+
+<h2 id="ch2">Chapter 2. Blockchain Mechanics</h2>
+
+<h3>Chapter Overview</h3>
+<p>
+In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques.<br/>
+
+We will gain an understanding of how previous computer technologies like file sharing, data storage and cryptography are wrapped into the blockchain foundations.<br/>
+
+We will also see how hashing functions and Merkle tree data structures help us immutably store and prove facts without revealing all the details.<br/>
+
+Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure.<br/>
+
+We will examine how this agreed-upon, append-only distributed ledger guarantees transparency and immutability, where trust in the information contained in the ledger is a given.<br/>
+</p>
+
+<h3>Learning Objectives</h3>
+By the end of this chapter, you should be able to:
+<ul>
+<li>Discuss how cryptography allows for distributed ledgers to work on a global scale.</li>
+<li>Explain how blockchain is using cryptography.</li>
+<li>Define key terms of cryptography and understand basic concepts.</li>
+<li>Explain the concept of zero-knowledge proofs (ZKPs) and Merkle trees and how they are used in blockchain technologies.</li>
+<li>Discuss how blockchain utilizes transparency.</li>
+<li>Explain what it means for blockchains to be immutable and how chaining provides this capability.</li>
+</ul>
+
+<h3 id="ch2-1">2.1 Introduction to Blockchain Components</h3>
+<p>
+In this section, we're going to discuss the core components of the blockchain, starting with a high-level view of the blockchain components.<br/>
+
+The first blockchain component that we're going to look at is the ledger.<br/>
+
+However, before we discuss the ledger, let's discuss briefly the history of the ledger.<br/>
+
+The story of blockchain is tightly coupled with the story of accounting.<br/>
+
+Historically, humans started off with no way to prove ownership and we began with a single-entry accounting system.<br/>
+
+The single-entry accounting system for the first time in human history allowed us to prove ownership of the asset.<br/>
+
+The ledger was associated with an owner.<br/>
+
+The single-entry accounting worked for centuries.<br/>
+
+The issue with single-entry accounting is that it mandated that there was a single authority, which is the reason why there was the necessity for a king or a queen to control the ledger.<br/>
+
+In order to have trade, right, at the international level, we needed to have at least two authorities.<br/>
+
+For instance, for England to do trade with France, we had the owner of the ledger, the single-entry ledger, in England for instance, doing trade with the king or queen of France, who also had their ledger.<br/>
+
+And so, we needed a new form of accounting, and that's where double-entry accounting came in, which was in use up until very recently, now, within the last 40 years.<br/>
+
+What blockchain is? Blockchain is the very first implementation of triple-entry accounting, where we have an asset being recorded on the ledger in the context of a transaction.<br/>
+
+The third entry and triple-entry accounting is cryptography, where we have a cryptographic account of the transaction stored permanently and immutably on the ledger.<br/>
+
+That's what the ledger is. A ledger is a collection of transactions.<br/>
+
+It is not a collection of assets. Assets are part of a transaction, but the ledger records the transaction.<br/>
+
+In blockchain, the differentiator is that no one owns the ledger, or all of the participants own the ledger.<br/>
+
+The ledger is distributed. It is, in other words, it's decentralized. So, there's a copy of the ledger that exists on every node that exists on the network.<br/>
+
+Said simply, the ledger is a distributed immutable record of a collection of transactions.<br/>
+
+Bitcoin is the most popular asset.<br/>
+
+It was the first asset to be recorded as a transaction on a blockchain ledger, and it remains the most popular, at least in terms of market share.<br/>
+
+That's what the ledger is.
+
+As we move to more modern blockchains, we start to look at blockchains such as Ethereum, which not only records the asset on the blockchain,
+
+Ethereum and other public blockchains like Ethereum, they also allow you to have a permanent and immutable collection of code, also known as a smart contract, that runs on the blockchain.
+
+The ledger stores the assets, the transactions that are on the blockchain, and it also holds the code.<br/>
+
+The code that's stored on the blockchain is a smart contract.<br/>
+
+Again, a smart contract is a program that runs on the blockchain.<br/>
+
+The blockchain is a network.
+
+The blockchain is a ... <b><i>public blockchain</i></b> is equivalent to the Internet, complete with its own set of protocols, etc.
+
+<b><i>Private blockchains</i></b> are more synonymous with an intranet.
+
+It is... just like we have a use case for public blockchains and public internet, we also have use cases for private blockchains and an intranet, if we're gonna stay with that analogy.
+
+On each of these networks there are nodes. 
+
+The nodes are going to be synonymous with the computers that make up the network.
+
+On the nodes, they are put together by a collection of protocols.
+
+Each blockchain has its own set of protocols that defines not only the nodes, but how those nodes communicate with each other.
+
+When you hear the term "peer network", that's what we're talking about; we're talking about how that blockchain is put together, what are the protocols that define the peers, and how those peers interact.
+
+Those peer networks, they store the ledger, they provide the updates, they effectively, they maintain the ledger.
+
+That's what a peer is on a peer network.
+
+On a public blockchain, it's public, and, by definition, that means that anyone is allowed to join and participate in that public blockchain.
+
+On the private blockchain, however, the situation is a little different.
+
+On the private blockchain, we have to control who can access your network.
+
+Just like no company would allow... no company would allow anyone to access their private intranet, in a private blockchain you have to be asked to join, or you have to have permission to join.
+
+A membership service is a gateway that allows users and components to enter a private blockchain.
+
+A membership service or a membership service provider provides the services of user authentication, user authorization, component authentication, component authorization, more specifically Identity Management.
+
+If we're talking about a private blockchain, then we have to control who the members are, and not only the members.
+
+We have to also control the nodes that access the blockchain.
+
+As we're talking about membership, one of the key components of membership is we have to allow certain users to access the blockchain.
+
+In order to do that, we have to have a definitive identity for each user.
+
+In the blockchain, that's achieved in two ways.
+
+One, we use PKI, to provide a public key. And that public key represents the identity of the user.
+
+But we also need a private key that each user can hold to prove their identity.
+
+That private key is stored in a wallet. And a wallet is a collection of the user credentials. It is effectively ... it encapsulates private keys.
+
+Additionally, in the blockchain... blockchains are self-contained, or they should be self-contained.
+
+One of the key aspects for developing on a blockchain or using a blockchain is we have to have a way to interact with the blockchain.
+
+And one of the ways that we do that is through events.
+
+When something occurs on the blockchain, either public blockchains... most public blockchains anyway, and certainly all private blockchains, they have events that are fired when certain key actions are triggered.
+
+This allows end-users, other systems, other users, different components to be able to act off of the events that come from an update on a blockchain.
+
+</p>
+
+<h3>Basic Terms</h3>
+Some terms that are mentioned in the video we will get familiar with in later chapters, but are worth a brief description for clarification:
+
+  - <p><em>Ethereum</em></p>
+> Ethereum, like Bitcoin, is a decentralized open-source blockchain. Unlike the Bitcoin Network, the Ethereum Protocol has the ability to run smart contracts. 
+> The cryptocurrency running on the Ethereum network is called Ether.
+  - <p><em>Smart Contracts</p></em>
+> A smart contract is computer code that can be run on a blockchain that executes the conditions of an agreement.
+  - <p><em>Public Blockchains</p></em>
+> Public blockchain has no barrier to entry. Anyone with a cell phone and a digital wallet can transact on the blockchain.
+  - <p><em>Private Blockchains</p></em>
+> Private blockchains or permissioned blockchains have a Membership Services piece that grants access to users before they can interact with the blockchain.
+  - <p><em>Digital Wallet</p></em>
+> A digital wallet is a computer application that represents a traditional wallet. 
+> It gives the user the ability to store and transact cryptocurrencies through the Internet.
+  - <p><em>Public Key Infrastructure (PKI)</p></em>
+> Public Key Infrastructure is the identity management system for instilling trust into the electronic transfers of information or value. 
+> It is the technology used to authenticate users and information by issuing a set of key pairs (public and private).
+
+<h3 id="ch2-2">2.2 Ledgers and Basic Accounting Systems (Understanding Ledgers)</h3>
+To understand how blockchain came about, we must first understand the following key principles:
+<ul>
+<li>Ledgers</li>
+<li>Basic accounting principles in history</li>
+</ul>
+
+<h3>History of Ledgers</h3>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ single-entry accounting ledgers (37)----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image028.png?raw=true"
+   alt="Single-Entry Accounting Ledger"
+   width="65%" >
+&nbsp;
+
+<ul>
+<li>Ledgers first appeared around 3,000 B.C.</li>
+<li>Single-entry only.</li>
+<li>Chanakya, an Indian leader, creates the first documented accounting standards.</li><br/>
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- double-entry accounting ledger ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image029.png?raw=true"
+   alt="Double-Entry Accounting Ledger"
+   width="65%" >
+&nbsp;
+
+<li>Double-entry ledger appears in 1340 A.D.</li>
+<li>Tracks debits and credits.</li>
+<li>Tells the story of a transaction from both/all sides.</li>
+<li>The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.</li><br/>
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ triple-entry accounting ledger (38) ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image030.png?raw=true"
+   alt="Triple-Entry Accounting Ledger"
+   width="65%" >
+&nbsp;
+
+<li>Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
+<li>Debits, credits, and an immutable link to all past debits and credits.</li>
+<li>Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).</li>
+<li>Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.</li>
+</ul>
+
+<h3>History of Ledgers (Triple-Entry Example)</h3>
+
+<b>As described in the </b>[Reddit post](https://www.reddit.com/r/Accounting/comments/2biy4h/triple_entry_bookkeeping_using_cryptocurrencies/),
+<blockquote>
+"A seller books a debit to account for cash received, while a buyer books a credit for cash spent in the same transaction, but in separate sets of accounting records. 
+This is where the blockchain comes in: rather than these entries occurring separately in independent sets of books, they occur in the form of a transfer between wallet addresses in the same distributed, public ledger, which creates an interlocking system of enduring accounting records. 
+Since the entries are distributed and cryptographically sealed, falsifying them in a credible way or destroying them to conceal activity is practically impossible".
+</blockquote>
+
+<h3>Double vs. Triple-Entry Accounting Comparison</h3>
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- double vs triple-entry accounting comparison (39) ----------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-double vs triple accounting.png?raw=true"
+   alt="Double vs. Triple-Entry Accounting Comparison"
+   width="65%" >
+&nbsp;
+
+<h3>Island of Yap</h3>
+
+Idea for the following was obtained from the LinkedIn article ["Explaining Blockchain: The Distributed Ledger of the Island of Yap"](https://www.linkedin.com/pulse/explaining-blockchain-distributed-ledger-island-yap-riva/) by Anthony (Tony) Riva.
+
+The concept of distributed ledger's has been around for hundreds of years.<br/>
+
+To understand the basics of blockchain, it's important to understand how distributed ledgers work.<br/>
+
+A distributed ledger is a collection of data with no central administrator that has been agreed upon by consensus.<br/>
+
+To understand more details, let's take a trip way back, back into 500 AD on the island of Yap.<br/>
+
+The Yapese people used a very unique form of currency: the Rai stone.<br/>
+
+Each of these stones weighed around 200 kilos, making them difficult to move.<br/>
+
+To exchange them as money for goods or services, they divided the stones into sections and then, they would announce to every adult on the island who owned what part of each stone.<br/>
+Each adult had to keep a mental ledger of ownership.<br/>
+
+Every time any Yapese conducted a trade, an announcement was made to the entire tribe.<br/>
+
+Each member of the tribe would then update their mental ledger.<br/>
+
+In today's description, this would be called a distributed ledger.<br/>
+
+All Rai stone ownership was known to everyone, and that knowledge was updated whenever a transaction was made.<br/>
+
+Why didn't just one member of the tribe keep track of the Rai stones?<br/>
+
+What if that main recordkeeper was sick, unable to do their job, or was found to be dishonest?<br/>
+
+If the only copy of the ledger was changed by any means, wealth would be lost or gained unfairly.<br/>
+
+The Yapese knew their distributed ledger system safeguarded it from tampering.<br/>
+
+Since all the Yapese knew who owned what, it would be very difficult to fool everyone on the island.<br/>
+
+Even if one tribe member moved away, the tribe still had multiple copies of their mental ledger.<br/>
+
+In this regard, the ledger was fault tolerant and could not be easily changed, corrupted, or lost.<br/>
+
+The tribe also decided that stones didn't have to be on the island to hold value.<br/>
+
+One day, a stone fell into the ocean and the Yapese decided that this stone, even though it could not be seen, still held value and could still be traded.<br/>
+
+This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.<br/>
+</p>
+
+<h3>Island of Yap: Recap</h3>
+<p>
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------- All Tribe Members Keep Copy in Their Head --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-yap-1.png?raw=true"
+   alt="All Tribe Members Keep Copy in Their Head"
+   width="50%" >
+&nbsp;
+<br/>
+<p align="left">   1. The group shared the ledger.</p>
+<!------------------------------------------------------------------------------------------------>
+<!----------------------- All Tribe Members Who owned the Rai Stone ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-yap-2.png?raw=true"
+   alt="All Tribe Members Keep Copy in Their Head"
+   width="50%" >
+&nbsp;
+<br/>
+<p align="left">   2. The group agreed to the ledger.</p>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- All Tribe Members Who ownede ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-yap-3.png?raw=true"
+   alt="All Tribe Members Keep Copy in Their Head"
+   width="50%" >
+&nbsp;
+<br/>
+<p align="left">   3. All changes or transactions to the ledger were announced to the group.</p>
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- All Tribe Members Who owned the Rai Stone ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-yap-4.png?raw=true"
+   alt="All Tribe Members Keep Copy in Their Head"
+   width="50%" >
+&nbsp;
+<br/>
+<p align="left">   4. The group agreed to update all ledgers.</p>
+</p>
+
+<h4>Let's review an example on Yap Island:</h4>
+<p>
+Alice agrees to trade Bob her stone by the pond in exchange for all of his cattle.<br/>
+
+Alice and Bob announce their transaction to the tribe.
+
+Everyone updates their mental ledger.
+
+From this point on, they agree that the stone by the pond is owned by Bob.
+</p>
+<h4>Island of Yap: Corruption Is Near Impossible</h4>
+Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never gave up ownership of the stone.
+<ul>
+<li>Centralized ledger, only one place to cheat.</li>
+<li>Decentralized ledger, Carol will be outvoted by the rest of the tribe, and her version of the ledger will not be accepted.</li>
+</ul>
+If Alice wants to cheat, she will need a way to convince 51% or more of the tribe to accept an alternative ledger.
+&nbsp;
+<h3>The Evolution of Distributed Ledgers</h3>
+<p>
+We've gone through history and seen how ledgers have evolved from stone tablets to double-entry ledgers.<br/>
+
+We even took a look at the earliest known example of distributed ledgers.<br/>
+
+Now, let's discuss the evolution of the ledger in the modern world.<br/>
+
+Over the last few decades, ledgers have moved from the written form to the digital form, also known as computers and digitalized databases.<br/>
+
+This has allowed us to be interconnected - a truly global economy.<br/>
+
+Today, this recordkeeping system is being revolutionized again, going from the digital realm or centralized databases keeping track of transactions to information being stored across different locations across the globe.<br/>
+
+This system of record, information across a global network, is what we call decentralized ledgers.<br/>
+
+A decentralized ledger can be described as a ledger of any transactions or contracts supported by a decentralized network from across different locations and people, eliminating the need of a central authority.<br/>
+
+When a recording is made, every participant is notified of that recording.<br/>
+
+They now own an identical copy of the record of transactions, identical to every other node on that network.<br/>
+
+Every piece of information on a blockchain can be traced back to the exact moment when it was created.<br/>
+
+If an audit is necessary, information can be found and deemed reliable.<br/>
+
+This allows blockchain to serve as a truly reliable storage of public records and transactions, and therefore eliminating the need for a centralized authority of database of records.<br/>
+
+Now that we understand the foundational principle of blockchains - distributed ledgers, it's important to understand another important key element that makes blockchain so revolutionary: trust.<br/>
+
+Trust is created through two key principles: collaboration and cryptography, both of which will be discussed shortly.<br/>
+</p>
+<h3>Decentralized Ledger</h3>
+<p>
+As we can see by looking at the evolution of the ledger, we are entering a new phase where no one centralized authority has control of the details in the ledger, everyone does.<br/>
+
+Transactions are only added to the ledger if everyone agrees.<br/>
+
+Once consensus is reached, no one can go back and deny a transaction.<br/>
+
+Essentially you are not trusting one person or entity to control the ledger, you're trusting everyone.<br/>
+
+Let's look a little further into how that trust is achieved.<br/>
+</p>
+<h3 id="ch2-3">2.3 From Distributed Ledger to Cryptography</h3>
+<p>
+A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
+
+Blockchain creates a layer of trust between untrusted parties.
+
+Without blockchain to create trusted records and transactions, a third party intermediary is necessary.
+
+Blockchain eliminates the need for a centralized institution to act as intermediary, and instead uses cryptography and collaboration to create that trust.
+
+In an earlier chapter of this course we spoke about collaboration through distributed ledgers.
+	
+Now, we will be taking a further look at how cryptography is used in blockchain to create the second element necessary for blockchain to be a source of trust.
+
+Information on the blockchain is stored on the ledger using cryptography.
+
+It can be accessed using keys and cryptographic signatures.
+	
+Now, let's take a look into some of the key concepts of cryptography that are utilized with blockchain.
+</p>
+
+<h3>Rose Greenhow</h3>
+<p>
+One of the reoccurring themes in blockchain is that while blockchain itself may be new and cutting-edge, it's built out of nothing more than very old tried-and-true technology.<br/>
+
+And one of the areas this is most true is in cryptography.<br/>
+
+When a lot of people first get introduced to cryptography they think it's a very new cutting-edge science.<br/>
+
+And while there are new developments being made everyday, cryptography itself is a very, very old science.<br/>
+
+One great example of this is the story of Rose Greenhow.<br/>
+
+Rose Greenhow lived in the Washington DC area during the Civil War, and she was actually an undercover spy for the Confederate Army.<br/>
+
+Rose Greenhow was a wealthy socialite, and she threw many fancy, elaborate parties, and was also invited to many, many high-end social events.<br/>
+
+Many of these events were attended by members of the Union Army, generals and strategists, who Rose pretended that she didn't know much about military strategy and wasn't too interested in the war in general.<br/>
+
+In secret, at all these events she was soaking up all the information she could.<br/>
+
+Rose actually developed her own method of encrypting data.<br/>
+
+She came up with her own encryption scheme and she used this scheme to mail letters down to the Confederate Army, revealing the plans of the Union Army, troop positions, general high-level strategy, etc.<br/>
+
+Rose did this for a number of years, until finally her encryption method was broken and she was actually one of the very first people who were arrested and prosecuted by the Pinkertons, who later went on to form the Secret Service.<br/>
+
+When you hear about blockchain and all the new cutting-edge things that it's doing, don't forget that it has its roots in very old technology, and we're just combining old technology in new and creative ways to create a brand new solutions development platform.<br/>
+</p>
+<h3>Early Use of Cryptography: Caesar Cipher</h3>
+
+As described in the ["Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet"](https://medium.com/tokenring/ancient-uses-of-cryptography-four-examples-that-pre-date-the-internet-14679ae4f509) article by Melanie Shapiro,
+<blockquote>
+"A little over 2,000 years ago, Julius Caesar developed a simple system to send secure information to his troops. 
+It was all about substituting certain letters for others, typically by shifting the letters by a predetermined number. 
+That algorithm is what we would call a cipher, and since Caesar’s invention, cipher keys are much more secure and advanced. 
+If you want to encrypt and decrypt information, you are going to have to choose a kind of cipher to do so".
+</blockquote>
+<!----------------------------------------------- ------------------------------------------------>
+<!------------------------------- Cryptography by the romans (45)--------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-cryptography-romans.png?raw=true"
+   alt="Cryptography By Julius Caesar: Caesar Cipher"
+   width="65%" >
+&nbsp;
+
+<h3>Cryptography Key Terms</h3>
+Let's explain the key terms used in cryptography:
+<ul>
+<li>Cryptography<br/>
+Cryptography is a technique used to secure the communication between two parties from a third. The term cryptography is derived from two ancient greek terms, “kryptos” which means “hidden” and “graphein” which means “to write”.</li>
+<li>Secret<br/>
+The data which we are trying to protect.</li>
+<li>Key<br/>
+A piece of data used for encrypting and decrypting the secret.</li>
+<li>Function<br/>
+The process or function used to encrypt the secret.</li>
+<li>Cipher<br/>
+The encrypted secret data, the digital secret, the output of the mathematical function or a cryptographic algorithm.</li>
+<li>Encryption<br/>
+This is the process from plain text (ordinary text) to cipher text (random sequence of bits).</li>
+<li>Decryption<br/>
+Encryption is the reverse process of converting ciphertext into plain text.</li>
+</ul>
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Cryptography key terms (46) ----------------------------------->
+<!----------------------------------------------- ------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-cryptography-key-terms.png?raw=true"
+   alt="The Secret and the Key are passed into the Function to create the Cipher"
+   width="65%" >
+&nbsp;
+<p align="center">The Secret and the Key are passed into the Function to create the Cipher.</p>
+
+<h3>Cryptography Basics</h3>
+One of the technologies that plays a pivotal role in blockchain and making blockchain secure and immutable is cryptography.
+
+If you've never heard of cryptography before, cryptography is simply designed defined as the science of sending messages back and forth from one party to another, in the presence of adversaries or bad actors, participants who may wish to corrupt or change the contents of a message.
+
+And there's some key concepts you should understand about cryptography before we really dive in and talk about how cryptography protects the data on the blockchain.
+
+Most cryptographic functions are what we refer to as two-way functions, meaning that we can take a secret and we can encrypt it, and then we can use that same process to decrypt the secret at the other end.
+
+Some of the key objects or concepts to be aware of in cryptography:
+first of all are the __**secret**__, what data are we trying to protect, what is the message we're sending back and forth that we want to do so in a safe, secure fashion, and try and guarantee that it hasn't been tampered with.
+
+We take our secret and we combine it with a __**key**__, a piece of data that is consumed by a __**function**__, our third component.
+
+When the function receives the key and the secret, the function uses the key to change the data in the secret, to create the fourth and final component, which is known as the __**cipher**__.
+
+And the cipher is simply the encrypted message, the thing that, if it were intercepted, if it were seen by anybody else, any non-participants or bad actors, they wouldn't know what the secret was, they wouldn't know what the message was, and they wouldn't know how to decrypt that cipher back into the secret.
+
+Now again, most cryptographic functions are two-way, meaning it doesn't do me a lot of good to encrypt data if the receiving party at the other end can't decrypt it.
+
+And oftentimes, all this involves is using the same key or a reverse key into the same function, with the cipher's input to get the secret back out.
+
+When we talk about cryptography, keep in mind those <b>four</b> basic components: 
+<ol type="1">
+<li>the secret, </li>
+<li>the key, </li>
+<li>the function, and </li>
+<li>the cipher.</li>
+</ol>
+Then, understand that cryptographic hashing is a very special class of cryptographic functions, which, unlike all their cousins, are only one way, meaning that in a cryptographic hash I can put information or a secret into it, the key and the function are contained as one entity, and what I get back out is encoded data.
+
+I get what's called a hash or a hash result, that is an encryption based on the data that I put in.
+
+That is mathematically impossible to reverse-engineer and this is what makes it a one-way function.
+
+If you put any data into a cryptographic hash and you share that hash with me, there's absolutely nothing I can do above and beyond random guessing to try and recreate that input to tell me what your original secret was.
+
+Cryptographic hashes are used in scenarios where we want to prove a piece of data without sharing that data.
+
+Password management systems use this all the time.
+
+We don't want to store a username and password…we want to store a username and the hash output of a password.
+
+That way, I don't know what any of my users' passwords are, but I do know that if they put the wrong password in, they're going to get the wrong hash back out, and I can easily validate that a user's password is correct or incorrect, without having to know what it is.
+
+We're going to dive in a lot deeper in a later module, to show you exactly through a demo how cryptographic hashing works, and how it provides security and immutability on the blockchain.
+
+But just understand these two big takeaways:
+Number one, that cryptography is normally a two-way function with four components: 
+   the secret, the key, the function, and the cipher, 
+   and then finally, there are a subclass of cryptographic functions called **cryptographic hash functions**, which exist as one-way functions, which can only
+   encrypt the secret, and again, which are mathematically impossible to decrypt the secret in any other method other than randomly guessing input until you're 
+   able to recreate that hash output.
+
+These are key components which enable security and immutability on the blockchain.
+
+<h3>Cryptographic Functions</h3>
+Simple example function:
+<ul>
+<li>Secret = "Blockchain technology is transformative"</li>
+<li>Function = Swap each letter in the secret with a new letter according to the Key</li>
+<li>Key = "+2"</li>
+<li>Cipher = "Dnqemejckp vgejpqnqia ku vtcpuhqtocvkxg".</li>
+</ul>
+
+As mentioned in the ["Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet"](https://medium.com/tokenring/ancient-uses-of-cryptography-four-examples-that-pre-date-the-internet-14679ae4f509) article by Melanie Shapiro,
+
+"(...), in the 1970s cryptologists [Whitfield Diffie and Martin Hellman](https://news.stanford.edu/2016/03/01/turing-hellman-diffie-030116/) made a landmark invention: asymmetric key encryption. 
+It’s the concept that both HTTPS (the popular protocol used to access a secure web server discussed previously) and the secure element within a token rely on to keep your information completely private.
+The principles behind it are genius. Instead of a shared key that codes and decodes information, the key for encrypting the information is different from the key that decrypts it — that way there is no longer a shared, secret key. 
+With this invention, in order to share a secret message, you no longer even have to know the person you are sending it to.
+Most importantly, for people like us who care deeply about safe authentication and identity protection, the private key itself is never communicated at all, and that means no more shared secrets".
+
+<h3>Byzantine Fault Tolerance</h3>
+As you start to get more and more into blockchain, one term that you're gonna hear a lot is Byzantine Fault Tolerance.
+
+And if you're wondering what that means, that very strange, cryptic sounding term, that can be explained with a story.
+
+In 1982, a mathematical problem was formulated called the Byzantine Generals Problem, and without getting too detailed into the mathematics behind it, essentially, with the Byzantine Generals Problem was a story about two empires fighting a battle.
+
+One Empire exists within the confines of a walled city, the second Empire has several generals surrounding that walled city, each with their armies waiting to attack.
+
+And the balance of power is very, very evenly matched between these two empires.
+
+And it is such that if all the generals agree to attack at the same time, they will have enough power to overcome the empire in the city and win the campaign.
+
+If they, for whatever reason, they're not able to coordinate their attacks simultaneously, and even one general misses the message, well then, the Empire surrounding the walled city is going to lose the campaign and the war.
+
+The Byzantine Generals Problem explored a really key area of cryptography, in fact, the heart of what cryptography is, which is how do I exchange messages with someone in an environment where they may become corrupt.
+
+You have to understand the only way these generals had to communicate was to send a disguised messenger through the city with a message to deliver to the other generals, and so, this always posed the risk, if you're a general and you're getting amessage from one of these messengers, how do you know or how can you believe with greater than random certainty that the message you're getting is reliable and it hasn't been tampered with.
+
+And this, again, was a problem that was postulated back in 1982 and went unsolved until 2008, when the anonymous Satoshi Nakamoto proposed a solution to this problem.
+
+Essentially, what the solution entails is all of the generals hiring as many mathematicians as they can.
+
+When we talk about Byzantine Fault Tolerance, we're talking about the generals having more access, having more mathematicians, or more computing power on their side than the empire within the city.
+
+If I'm the generals and I can hire more mathematicians, then that means that I can encrypt my messages going through the city with greater and greater complexity, and if the balance of power becomes greatly tipped in the favor of the generals outside the city, they can use encryption methods which are so complex, that there really is no real chance, or a very small chance that any of the mathematicians inside the city will be able to intercept that message, decrypt it, change the contents, re-encrypt it, and do so in a time quick enough that the generals don't notice anything has happened.
+
+This is **Byzantine Fault Tolerance**.
+
+This is the fault tolerance mechanism that we see used in most public blockchain solutions right now, including Bitcoin, including Ethereum, although Ethereum is working on transitioning to a system called Proof of Stake, which we'll talk about in a later section.
+
+But, when you hear Byzantine Fault Tolerance, often abbreviated as BFT, all we're talking about is this idea that blockchains become secure if they have more computing power, more hash power in the chain than off the chain.
+
+Solutions like Ethereum, 16,000 plus nodes, or Bitcoin, the largest blockchain network that there is, with over 30,000 nodes, offer us a high degree of security and immutability, because the computing power on those networks is so great that there's really no reasonable chance that an adversary could ever control as much or more computing power to attack the data on that blockchain.
+
+And if someone ever were to, chances are the economics behind it would be such that they would spend more to simultaneously harness all that computing power, than they could possibly stand to gain.
+
+This is Byzantine Fault Tolerance.
+
+It is the root of cryptography, which is simply the study of how do we send information back and forth securely in the presence of adversaries and bad actors, and it's what underlies all the security and immutability that we get in blockchain.
+
+<h3>Types of Cryptography in Blockchain</h3>
+To understand cryptography in blockchain, you must be able to differentiate between various cryptographic techniques used. There are four main ways blockchain leverages cryptography:
+<ul>
+<li>Public Key Cryptography<br/>
+This encryption method uses a pair of keys: an encryption key, and a decryption key, named public key and private key, respectively. The key pair generated by this algorithm consists of a private key and a unique public key that is generated using the same algorithm.</li>
+<li>Zero-Knowledge Proofs<br/>
+A new approach to protecting digital secrets that prove knowledge of a secret without revealing it.</li>
+<li>Hash Functions<br/>
+This type of encryption doesn’t make use of keys. It uses a cipher to generate a hash value of a fixed length. The function converts plain text (no matter the size) into a hash of fixed size. It is nearly impossible for the contents of plain text to be recovered from the cipher text. Think of it like trying to recreate a human from a fingerprint, a fingerprint uniquely represents a human no matter the size of the human and you can’t reverse engineer a fingerprint to recreate the human.</li>
+<li>Merkle Trees<br/>
+A data storage technique that compresses or packs data for storing blockchains with a tamper-free component built in. Merkle trees are built upon hashing principles in that each hash becomes a part of the next hash to build a tamper resistant data storage model.</li>
+</ul>
+
+<h3>Public Key Cryptography</h3>
+Identity in the blockchain is based on public key cryptography. A person’s address on the blockchain is their public key.
+Transactions on the blockchain include their public key and are digitally signed with the sender’s private key:
+<ul>
+<li>A digital signature verifies that someone in possession of the private key authorized the transaction.</li>
+<li>Digital signatures can be easily verified using the corresponding public key, which is included in the transaction.</li>
+</ul> 
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- public key cryptography (52) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-rsa-key.png?raw=true"
+   alt="Public Key Cryptography"
+   width="65%" />
+&nbsp;
+
+<h3>Identity: RSA Public Key Cryptography</h3>
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- Public Key Cryptography ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-rsa-public-key.png?raw=true"
+   alt="Public Key Cryptography - Verify Signature with 3-step Process"
+   width="65%" />
+&nbsp;
+
+<h3>Identity: Specific Identity Implementations</h3>
+Ethereum is a public blockchain that anyone can participate in. [Hyperledger](https://www.hyperledger.org/) is an example of an enterprise blockchain where participants must be granted access to engage in the blockchain.
+<ul>
+<li>Ethereum<br/>
+A user’s identity is an address based on their public key.</li>
+<li>Hyperledger<br/>
+Identity is managed by X.509 certificates. Certificates are only shared with parties involved in the transaction.</li>
+</ul>
+Public key cryptography uses a pair of a public key and a private key to perform different tasks. Public keys are widely distributed, while private keys are kept secret.
+
+Using a person's public key, it is possible to encrypt a message so that only the person with the private key can decrypt and read it. Using a private key, a digital signature can be created so that anyone with the corresponding public key can verify that the message was created by the owner of the private key and was not modified since.
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------------- Key ---------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-key.png?raw=true"
+   alt="Key"
+   width="20%" />
+&nbsp;
+
+Digital Signatures and Key Pairs<br/>
+
+<b>Step 1:</b>
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- Step 1 - generate public from private key ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-step-1.png?raw=true"
+	alt="Step 1: The sender generates a public key from a private key"
+	width="50%" >
+&nbsp;
+ 
+<b>Step 2:</b>
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Step 2 - encrypt and send message -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-step-2.png?raw=true"
+   alt="Step 2: The sender encrypts message using the key pairs.  Then sends it"
+   width="50%" >
+&nbsp;
+ 
+<b>Step 3:</b>
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Step 3 - recipient decrypts message ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-step-3.png?raw=true"
+	alt="Step 3: The recipient uses the public key with the private keys to decrypt the message"
+	width="50%" >
+&nbsp;
+
+<h3>Private/Public Key Cryptography</h3>
+<p>
+I want to talk a little bit about cryptography and some cryptography principles.
+
+The first is easy and hard problems, and this is really what public - private key cryptography is based off of.
+
+There are some problems that are very easy one way, but difficult another way.
+And a great example of this is multiplication.
+
+If I give you a pen and paper and a lot of time, I can ask you to multiply any two numbers, and you can probably come up with an answer fairly easily.
+
+What's a lot more difficult is if I give you the product of two numbers and ask you to factor that and find out all the numbers you can multiply together to get that result, that's a much harder problem.
+This is how public - private key cryptography works.
+
+We use an easy mathematical problem to generate a message, but we make it very, very hard for that message to be decrypted by someone who shouldn't decrypt it, and public and private keys play a big role in blockchain.
+
+I want to show you right now.
+
+I've got two different wallets. I've got a wallet that you're probably used to, that you keep money in, and then I've got a hardware wallet, a digital wallet that you'd use to trade something like bitcoin or ether.
+
+Now, what you're used to, in your regular wallet, is putting money in here and you keep your money in here, and if you lose this, whoever finds it gets your money and they get to spend it.
+
+In blockchain, with cryptocurrencies, it's a little bit different.
+
+The only thing that ever gets kept in here is your private key.
+
+And a private key - public key work together so that I can use a private key to sign, digitally sign, any message.
+
+You can then take the public key, which anyone can know, and use that to verify that my specific private key was the one that actually signed that message.
+
+And so, you can know without a doubt that I'm the one who created that message, that no one was pretending to be me sending this message.
+
+And this is how it works trading digital currencies back and forth.
+
+If I decide I'm going to pay you three bitcoins and I'm gonna do it out of this hardware wallet or any software wallet, any kind of digital currency, the only thing that's kept on this device is my private key and it never leaves, and so, that means if I want to send you some money, all I'm doing is accessing the private key on this device to sign a message that gets transmitted to the blockchain, that says I'm paying you some bitcoin or some ether or some litecoin, and my public key is used to verify that that message actually did come from the wallet that says it did.
+
+And this is how we trade cryptocurrencies back and forth, and that's what makes the concept of a digital wallet a little bit different.
+
+If I happen to lose this, I haven't lost the money that's in it, because there's no money ever in it.
+
+All that money is is just a record on the blockchain, and, as long as I can recover that private key somehow, I can just get a new device, start using my private key again and keep right on trading.
+
+That's how public and private keys fit into blockchain; a very key component just to understand that they're used to sign and verify any transactions that you make.
+</p>
+<h4>Zero-Knowledge Proof (ZKP)</h4>
+<p>
+Zero-knowledge proofs authenticate parties without the need to widely transmit private information online. 
+
+A zero-knowledge proof (ZKP) is a cryptographic method that allows a party (the prover) to prove to another party (the verifier) that a given statement is true, without conveying any additional information.
+
+Let's review an example. 
+
+Let's say there are two toy cars, identical in shape and size, except, one is red and one is blue. 
+
+Jerry, who is color-blind, holds the toy cars behind his back. 
+
+Jerry then shows one of the cars to Sam. 
+
+Jerry then hides that car behind his back and shows Sam the other car. 
+
+Sam can consistently detect the switch because the cars are different colors, but he never has to reveal the color of the cars to Jerry in order to prove the secret.
+</p>
+<h4>Zero-Knowledge Proof (Cave Example)</h4>
+<p>
+In this section, we're going to talk about a cybersecurity idea in blockchain known as **"Zero-Knowledge Proofs"**.
+
+Zero-Knowledge Proofs are exactly what the name implies - they allow me to prove to another party that I have a certain piece of knowledge without revealing what that knowledge is.
+
+Zero-Knowledge Proofs are often referred to as zk-SNARKs, which stand for "Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge", or zk-SNARKs for short,
+or, if you want to be simple, we can just call them Zero-Knowledge Proofs.
+
+A great example of a Zero-Knowledge Proof is what we call the cave door analogy.
+
+Pretend that there's a circular cave, with only one entrance or exit and at the back of this circular cave there's a door which can be unlocked using a secret code entered onto a keypad.
+
+If I want to prove to you that I know the unlock code without revealing that unlock code to you, all I need to show is that I can walk into one end of the cave, open the door, and come out the other end.
+
+If I've successfully demonstrated that, then you know without a doubt I've been able to unlock that door, but yet I haven't revealed that unlock code to you.
+
+This simple cave door analogy is a Zero-Knowledge proof, and if you can remember this cave door analogy,
+then you'll understand why Zero-Knowledge Proofs are so important in blockchain.
+
+For example, a user may make a request to send another user some money.
+
+The blockchain naturally wants to make sure, before it commits this transaction,
+that the user sending the money has enough to send.
+
+However, the blockchain doesn't really need to know or care who is spending the money, or how much total money they have.
+
+Being able to answer a question of "Does a user have enough money to send to another user" without knowing who the user is, or exactly how much they have, is one of the primary use cases for Zero-Knowledge Proofs in blockchain.
+
+When you hear about zk-SNARKs, don't get intimidated.
+
+It's not a complex idea. Just think of Zero-Knowledge Proofs and the cave door, think about how important it is in blockchain to be able to prove a claim without actually revealing the information behind that claim, and you'll understand Zero-Knowledge Proofs.
+</p>
+<h3>Hash Functions in Blockchain</h3>
+<p>
+When using blockchain, the need to trust a central authority to verify the accuracy of data is removed and replaced by trust in a cryptographic hashing function. 
+
+With data integrity guaranteed by algorithms, trust becomes part of the system.
+
+Blockchain provides users with data integrity in a trustless environment. 
+
+This is accomplished using cryptography in a way that moves the burden of trust from data processors to cryptographic algorithms.
+
+Hash functions are featured heavily in blockchain. 
+
+A hash function is a mathematical equation with <b>four</b> important properties:
+<ol type="1">
+<li>Hash functions can take anything as input and create an output with a fixed size. This makes it possible to condense anything into a piece of data of a fixed size and is how messages are condensed for digital signatures,</li>
+<li>It’s easy to calculate a hash, but hard to determine a hash input from the output. The best option is to keep trying inputs until one produces the desired output,</li>
+<li>Inputs that differ by a single bit produce hashes that differ by half of their bits on average. This prevents someone from finding a desired hash input using a “hill climbing”,</li>
+<li>It is infeasible to find two inputs that produce the same output when hashed. Since a hash can take any input and produce a fixed output, it makes sense that multiple different inputs will create the same output. A good hash function will make it so that you have to try a large number of inputs before finding two that produce the same output.</li>
+</ol>
+</p>
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Cryptographic Hashing (57) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-hash.png?raw=true"
+   alt="Cryptographic Hashing"
+   width="100%" />
+</p>
+ 
+<h3>Cryptographic Hashing Demo</h3>
+<p>
+In this section, we're going to talk about cryptographic hashing.
+
+A cryptographic hash is a special kind of cryptographic function known as a one-way function, whereas most cryptographic functions are two-way, meaning that data cannot only be encrypted, but can be decrypted at the other end.
+
+Hashes, or cryptographic hashes, are very unique in that once data is encoded, it can never be decoded.
+
+Let's look at a small example of this.
+
+If we take a simple sentence, "Let's eat, grandma!", this input sentence will generate a unique 32-character hash output.
+
+This hash output can be thought of as an identifier for this input data.
+
+In other words, I can input this data into a hash function to generate this output, and I can share this output with anybody, anywhere,
+safe in the knowledge that it is mathematically impossible for anyone to reverse-engineer the original input from this hash output.
+
+In fact, the only possible way that anybody could ever determine what this input was, was by randomly inputting data into a hash function until they were able to recreate the same output.
+
+Another unique function of a cryptographic hash is that any small change to a dataset, no matter how small, will result in an entirely different hash.
+
+If I remove the comma from this sentence, not only do I entirely change the meaning of the sentence,
+
+I also generate a new 32-character hash output.
+
+This 32 character hash output remains a fixed length no matter how big the input dataset is.
+
+To demonstrate this, let's take the entire first book of Tolstoy's War and Peace, and paste it into our hash function.
+
+You'll see that the most time-consuming part of this is not generating the hash, but simply moving all the data from the clipboard into the input text box.
+
+I've generated a unique 32-character output or identifier for this input text.
+
+You'll notice that this is the same length hash that I got when I had a short one sentence input, and if I change anything in this extremely large dataset, even one character, I will generate an entirely new hash output.
+
+Let's take a look at this by removing the period at the end of this sentence, and replacing it with a question mark.
+
+You'll see that by doing so, I've generated a completely different and unique 32-character hash output.
+
+Hash functions not only play a critical role in blockchain security by enabling blocks to be linked together in creating immutability between data on the blocks, they can also be used as a great way to identify and verify large sources of data.
+
+Let's look at some other use cases.
+
+If I want to build a system which authenticates users, but I don't want to store their password directly in a database where it might be stolen or corrupted, a hash function can be a great solution.
+
+Let's say I have a very simple password, password123, but I don't want to store that password inside my authentication database.
+
+I can simply ask the user to type in their password and store the hash output from that password.
+
+Any subsequent time a user tries to log on, I don't need to know their password. I just need to verify that they're able to recreate this hash output.
+
+If they can't do that, because they have the wrong password, then I can simply choose not to authenticate them into my system.
+
+Cryptographic hashes can also be used to validate source code or real large datasets in the real world.
+
+Let's look at self-driving cars for an example.
+
+Let's say we've developed a self-driving car with the intelligence to hash the source code every time it starts up.
+
+My self-driving car, every time I start the car, can take its source code, run it through a hash and generate a unique identifier.
+
+It can then share this identifier or 32-character hash output with every other self-driving car it has contact with, or even validate this against a database or some other centralized data store, or perhaps an immutable record on the blockchain.
+
+
+This gives me the confidence that if the source code for my self-driving car ever gets hacked and makes it unsafe to drive,
+
+I'll know it right away. I'll try to start my self-driving car, which will immediately hash its source code, share that hash output with other self-driving cars or validate it against an authoritative source, and instantly we can see I've got an entirely different hash output letting me know before I've gone anywhere that my self-driving car is not safe, and putting that self-driving car into a limp or shutdown mode, where it simply refuses to go anywhere until the compromised software has been updated and replaced with the right version.
+
+Cryptographic hashes give us a way to link all blocks on the blockchain together in an immutable fashion, such that if any one particular block or the data on any block is changed or altered to any degree, no matter how small, we will know it instantly and we will break the link between that block and every subsequent block.
+
+If you haven't watched the module in this course that covers the in-depth walkthrough of Proof of Work consensus, you might want to check it out now.
+
+We actually show how cryptographic hashing is used to link together all blocks on the blockchain, creating a data store that is immutable, secure, and extremely trustworthy.
+</p>
+Lab 1: Hashing
+Next, let's engage with an interactive lab. This lab is an actual hands-on demonstration of taking data and creating a hash output. Enjoy!
+
+[Start Lab](https://blockchaintrainingalliance.com/pages/lab-hash)
+
+<h3>Merkle Tree</h3>
+A special type of data storage structure based on hash functions is called a Merkle tree:
+<ul>
+<li>It is structured as a binary tree; the leaves contain the values to be stored and each internal node is the hash of its two children,</li>
+<li>It provides efficient lookups and protection against forgery since verifying a transaction is included in the tree. Can be accomplished by sending only the transaction, the hash contained in each node between the transaction leaf node and the root, and the hash values used to create each hash sent,</li>
+<li>Looking up a transaction in a Merkle tree with three levels includes sending two transactions (the desired one and the other child of its parent) and three hashes (the transaction’s parent, the root, and the root’s other child).</li>
+</ul> 
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- Merkle Tree (61) --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-merkle-tree.png?raw=true"
+	alt="Merkle Tree"
+	width="100%" />
+&nbsp;
+
+<p align="center">Merkle trees are a data structure that allows authenticated storage with efficient data retrieval.</p>
+
+<h3>Merkle Tree, Validation of Data</h3>
+<p>
+Blockchains use Merkle trees for fast and efficient validation of data.
+
+Merkle trees summarize the entire set of data in a block by creating a root hash of that data.
+
+A root hash is created by repeatedly hashing pairs of child nodes until only one node is left.
+
+Let's take a look at a diagram of a Merkle tree.
+
+This diagram consists of four transactions represented as transaction "A", transaction "B", "C" and "D".
+
+The transaction data is then hashed and the resulting hashes are stored in leaf nodes represented as H of "A", "B", "C" and "D".
+
+Nodes are repeatedly hashed in pairs and the resulting hashes are stored in child nodes until only one node remains: the Merkle root or root hash.
+
+The reason you wouldn't want to hash the entire set of data as a string is because it's not efficient when validating transactions.
+
+In this example, if Alice needed to show Bob that this transaction was valid, let's say transaction "C", Alice would need to send the entire list of data to validate the block.
+
+But when using a Merkle tree, Alice only needs to send the nodes that contain the transaction that she is looking to validate.
+
+Let's say Alice wants to validate transaction "F".
+
+Alice would only need to send the data of transaction "F" and four hash values to Bob.
+
+Bob would then calculate the hash value based on the given information.
+
+And if the root matches the block, the transaction can be assumed to be valid.
+
+Merkle trees allow for validation of a specific transaction without requiring the entire set of data.
+</p>
+<h3>Ethereum vs. Hyperledger Fabric</h3>
+
+The use of public keys for identity management is a logical choice since knowledge of a public key is necessary for verification of digital signatures. 
+
+Both Ethereum and Hyperledger Fabric use digital signatures on transactions and blocks to verify the identity of the creator and that the signed data has not been modified since signing. 
+
+Public key cryptography is used in the blockchain as a method for managing users’ identities without revealing real world identities.
+
+In Ethereum, users are identified by an address that is directly related to the user's public key. This provides identity verification while preserving anonymity.
+
+In Hyperledger Fabric, users are identified via [X.509](https://www.ssl.com/faqs/what-is-an-x-509-certificate/) certificates. These certificates provide several pieces of information about the user, but one of these is also the user's public key.
+
+Hash functions are at the core of all blockchain technology. One of the primary uses for hash functions is chaining blocks together. 
+
+In both Ethereum and Hyperledger Fabric, blocks include the hash of the previous block to tie the blockchain into a cohesive whole.
+
+Zero-knowledge proofs are to increase the privacy of users. Currently, Ethereum is working on a layer 2 solution, where a second layer blockchain would store large amounts of data and only prove the batch of information is valid to layer 1 (mainnet). 
+
+Hyperledger Fabric has a pluggable cryptographic library that supports ZKP techniques for enhanced privacy measures.
+
+Merkle trees are a data structure that allows authenticated storage with efficient data retrieval. 
+
+Both Ethereum and Hyperledger Fabric are smart contract platforms that use a particular type of Merkle tree called the Patricia tree to store the current state of their virtual machine.
+ 
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- disintermediation - trust through transparency (63) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image024-consensus-pay-to-play.png" 
-   alt="Consensus: Pay to Play"
-   width="65%" />
+<img src="/images/image-disintermediation.png?raw=true"
+   alt="Disintermediation - Trust Through Transparency"
+   width="100%" />
 </p>
 
-This is where the innovation of Satoshi Nakamoto comes into play.
+<h3>Disintermediation - Trust Through Transparency</h3>
+Now, that we have an understanding of how collaboration and cryptography work together to create a layer of trust, let's discuss how blockchain has a powerful disintermediation effect.
 
-They recognized that in order to ensure every real entity has equal voting power, they cannot vote with identities at all.
+Nodes on the network are allowed to place data directly onto the database that is shared.
 
-Instead, Satoshi realized that, to preserve freedom and anonymity while solving the issue of endless identities, each vote must be cast with resources.
+This eliminates the need for an intermediary to do such task.
 
-Scarce, valuable, tangible assets.
+As we discussed, developers can create a distributed ledger on a blockchain,
+and use cryptography to give people secure storage space on that ledger.
 
-The particular resource that Satoshi identified was one available to all users of Bitcoin:
+This creates a very different world than what we have come to know today, because for the first time in the digital world, people are allowed to own their own data.
 
-computing power!
+You may be asking yourself: "How is this different from the current technology?".
 
-Online entities can be generated easily, but you can’t copy-paste a computer.
+Today, organizations use our data, sell our data, store our data, and exchange our data.
 
-By tethering voting power to scarce computing power, Satoshi ensured that all users have scarce voting power.
+Data is an extremely powerful asset and to own your own data is a vast change to the current system.
 
-In his whitepaper, he envisioned a “1-CPU-1-vote” network, rather than the traditional “1-identity-1-vote” system.
+In a world powered by blockchain, having ownership of your database is truly empowering.
 
-It is this new concept of voting with resources instead of with identities that earned the title “Nakamoto Consensus.”
+You can now share the information that you choose with any organization that you desire.
 
-The particular consensus algorithm that Satoshi Nakamoto came up with is known as “Proof-of-Work.”
+The power of blockchain and owning your own data is the ability to transact peer-to-peer.
 
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ 25. Consensus: Proof of Work ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image025-consensus-proof-of-work.png" 
-   alt="Consensus: Proof of Work"
-   width="65%" />
-</p>
+With the current system of intermediaries, when you go out to eat at a restaurant, and you pay with your credit or debit card, you're not paying the restaurant directly.
 
-Let’s break down the word “Proof-of-Work.”
+Instead, a database record at your bank is being debited and the database record at their bank is being credited.
 
-We know “proof” to mean “evidence,” and “work” to mean “spent resources.”
+In this example, the value and data in the database belong to the intermediary, and not the individual.
 
-In other words, “Proof-of-Work” is the method by which users provide evidence of spending resources.
+You are then dependent upon them to secure and validate your transaction, which shifts the power to the intermediary.
 
-It is the method by which computing power is translated into voting power.
+But in a blockchain world, the individual has their own ledger record, and the secure key that allows them to access it.
 
-It is the method by which users vote in Bitcoin.
+You no longer need an intermediary.
 
-It is this method of voting that made Bitcoin the first successful cryptocurrency and inspired voting mechanisms for practically every other cryptocurrency to follow.
+A transaction is simply debited from your record and credited directly to somebody else's record.
 
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- 26. Consensus: Proof of Work: Works -------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image026-consensus-proof-of-work-works.png" 
-   alt="Consensus: Proof of Work: Works"
-   width="65%" />
-</p>
+Blockchain allows you to have the power to control more than financial transactions.
 
-Here’s how Proof-of-Work works: whenever someone wants to make a proposal to the rest of the Bitcoin network, they first have to solve a computationally difficult problem.
+Later, we'll take a deeper dive into how the healthcare industry may utilize blockchain to allow people to own their own health records.
 
-In other words, their computer is tasked with a problem that can only be solved by doing a significant amount of work.
+And with blockchain, you can determine who can access those records.
 
-This problem is uniquely generated based on the information within the proposed block and cannot be predicted beforehand.
+We talked about how cryptography and collaboration create trust.
 
-There’s no way to predict the solution to the problem.
+Now, let's examine how peer-to-peer transactions with blockchain create transparency which can lead to even another layer of trust.
 
-Instead, it’s similar to brute forcing a password: all you can do is trial and error.
+This layer of trust can aid to curb corruption and even create cost savings.
 
-Your computer will try a bunch of inputs until it finds a solution to the problem, at which point it will submit the successful input along with the proposed block to the rest of the network.
+Currently, the data and records owned at centralized organizations are stored and hidden within a database.
 
-The unpredictability of the form of correct inputs ensures that there’s no way to “game the system,” keeping any user from cheating.
+These databases for the most part are inaccessible and do not communicate in an effective manner with other systems.
 
-By having every user solve a brute force problem, you have a reasonable expectation that they’ve done a lot of work to solve it.
+This also makes it easier for a corrupt individual or persons within the centralized organization to manipulate these records.
 
-You might ask, “What if a user gets lucky and finds the solution to this brute force problem on the first try?”
+Because of the possibility for manipulation and foul play, there are many flawed and expensive safeguards put into place.
 
-Well, this is possible, but not probable.
+These safeguards are done through regulations and legal requirements creating expensive overhead and delays.
 
-For example, it’s possible for me to guess the PIN on your phone in one try -- but it’s because we believe in the unlikeliness of that situation that we aren’t afraid of anyone breaking into our phones.
+Besides the mounting cost to safeguard these internally, there are also many necessary safeguards from external forces, because they are individual points of critical data storage, bad actors have to identify only one point of failure to access.
 
-Although we can’t guarantee that it takes exactly some amount of computation to solve these problems, we have reasonable expectations based on how long on average it takes to solve these problems.
+The combination of one central point of storage and the storage of valuable data make these centralized databases a very enticing target for malicious persons.
 
-Let’s see Proof-of-Work in action.
+With blockchain, these malicious actors would have to identify and target numerous points of failure until they control more than 51% or what's known as consensus.
 
-Again, Gloria tries to double spend on Nadir and me (Rustie), and these two transactions are sent to the rest of the network.
+In most blockchains, it could be up to hundreds of thousands of points of weakness that would have to be exposed to be corrupted.
 
-We all vote on the transactions, but Gloria no longer has a voting advantage even though she still has control of two extra Bitcoin identities.
+It's nearly an insurmountable task.
 
-Her voting power is bound by her computer, just as everyone else’s is.
+Not only must a centralized organization worry about bad actors, but they must do so, while still allowing access and synchronizing with other centralized organizations.
 
-Even though there are five digital identities, there are only three real-world identities.
+Having to constantly update and synchronize data across many centralized databases is not efficient.
 
-Under Proof-of-Work, no matter how many digital identities are formed, there will only ever be three voting entities.
+The cost is high and the vulnerability to bad actors is amplified.
 
-Because Nadir and I (Rustie) recognize that there are two transactions trying to spend the same funds, we can vote against both transactions being included in the blockchain.
+All the more reason blockchain solutions are so exciting.
 
-Gloria with her single computer is incapable of outvoting us, which is precisely what we want!
+Blockchain offers efficiency. It also creates trust and financial benefit through transparency, security, immutability, and accessibility through ownership.
 
-By tying our voting power to our real-world identities through the scarce resource of computing power, we have successfully eliminated Sybil attacks from Bitcoin and solved the double spending problem.
+Traditional Database Updates
 
-This is what made Bitcoin a revolutionary technology.
-
-Author: Rea Savla
-
-<h3>Supplement: 51% Attacks</h3>
-
-The Bitcoin network requires Proof-of-Work to add new blocks to the blockchain. Users in the Bitcoin network vote on new blocks, and come to consensus on whether or not new blocks should be included in the blockchain. Proof-of-Work ties voting power to computational power rather than digital identity, and was designed to prevent the Sybil attack, where a malicious actor creates many identities to skew the vote. However, due to an uneven distribution of computational power, Satoshi Nakamoto’s “1 CPU 1 Vote” vision is not reflected perfectly in reality.
-
-Bitcoin’s correct operation hinges on one key assumption: that there is an honest majority of computational power. An honest majority would be able to mine faster than a malicious minority, and thus have a higher probability of creating the next block. Once the network comes to consensus on these new blocks, generally it is in a miner’s best interest to follow protocol and mine on the longest observed blockchain. The longest chain is seen as the “true” valid transaction history because it has had the most work put into it. Therefore, the majority defines the transaction history.
-
-However, if a malicious entity controls more than 50% of the mining power (say 51%), it has the majority and is now able to mine an alternative chain (with a different transaction history) and make it the longest chain. Bitcoin users would then accept that chain as the “true” transaction history. This happens for the same reasons that an honest majority might be able to maintain the longest chain. Giving power to the majority is a requirement of the decentralization Bitcoin aims to achieve. If we allow an honest minority to control the transaction history, then we’ve created a centralized entity consisting of the collection of these honest actors and thus defeated the purpose of decentralization. 
-
-With 51% of the mining power, malicious actors can double spend, and use the same bitcoins for two different transactions. A malicious actor may send the same bitcoin to a third party and then to itself, choosing to include and validate the latter transaction and avoiding payment altogether. 
-
-One entity holding majority mining power also makes the network susceptible to the Goldfinger Attack, where a 51% is used to destroy the value of a cryptocurrency. 
-
-We’ll explore all these attacks in further detail in future course modules.
-
-<h3 id="ch1-9">1.9 Forking</h3>
-
-Sometimes, different miners may create different blocks, either intentionally (e.g. double spending) or unintentionally, to add at the same point on the blockchain. This creates multiple chains: multiple different versions of the transaction history. We say that the blocks are competing at the same block height, and that there has been a fork. Following protocol, miners eventually resolve the fork and agree upon one of the chains to be the valid blockchain, and continue to build blocks upon it. 
-
-While some forks occur naturally, and some are the result of double spending attempts, there also exist purposeful cases of forking, used to make changes to the Bitcoin protocol. 
-
-Two categories of these protocol changes are soft and hard forks. Soft forks implement protocol updates that strictly reduces the set of valid transactions, while hard forks, conversely, allow for previously invalid transactions to become valid.
-
-We’ll explain more in the course modules for Chapter 4.
-
-<div align="right">
-  <b><a href="#table-of-contents">↥ Back To Top</a></b>
-</div>
-
-<h3 id="ch1-10">1.10 Bitcoin Review:</h3>
+A database is a collection of interrelated data organized so that individual records or groups of records can be retrieved to satisfy various criteria.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 27. Key Takeaway - Identity: Your Keys are Your Identity (38) ------------------>
+<!---------------------------- CRUD - create, read, update, delete ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image027-key-takeaway-identity.png" 
-   alt="Key Takeaway - Identity: Your Keys are Your Identity"
-   width="65%" />
+<img src="/images/image-crud.png?raw=true"
+	alt="CRUD - Create, Read, Update, Delete"
+	width="65%" />
 </p>
+ 
+Traditional databases use the CRUD method which has <b>four</b> main operations:
+<ul>
+<li>Create - add a new value to the database.</li>
+<li>Read - read a value from the database.</li>
+<li>Update - change an existing value in the database.</li>
+<li>Delete - remove the value from the database.</li>
+</ul>
+<h3>Transparency of Traditional Databases</h3>
+Traditional databases do not retain historical information:
+<ul>
+<li>Only the most recent versions of each value are visible.</li>
+<li>Deleted values are not visible in the database.</li>
+<li>This limits the transparency of data contained in the database.</li>
+<li>Values can be modified or deleted after creation.</li>
+</ul>
+The CRUD update model of databases allows data to be changed or removed from the database. 
+This means that the visible data in a database is not an accurate historical record of the database. 
+The existence of an update operation means that each value in the database is only the most recent version of that value and could have had different values in the past. 
+The delete operation means that values can be removed from the database.
+This limits the transparency of data in the database since values can be modified or deleted after creation.
 
-Let's go over what we talked about in lecture.
+<h3>Blockchain Updates</h3>
+The blockchain is designed to be a data structure that only allows appending:
+<ul list-style-type: disc>
+<li>The past history of the blockchain is visible and immutable.</li>
+<li>Updates to the blockchain can be performed by including them in new blocks added to the blockchain.</li>
+</ul>
+The blockchain is designed as a data structure where each block in the chain locks in the value of the previous block and so on, back to the first or genesis block. 
 
-First, we talked about the concept of identity on the Bitcoin network.
+This means that the blockchain is an append-only data structure without support for modification or deletion.
 
-In Bitcoin, each node’s identity is represented by their public key.
+The entire history of the blockchain is publicly visible and stored in a distributed and decentralized fashion.
+ 
+Values in the blockchain can be “updated” by appending a new version of that value in a later block, but the complete history of the value is preserved.
 
-However, ultimately the public keys are controlled by the owner of private keys.
+<h3>Transparency of a Blockchain</h3>
+The blockchain is designed so that its entire history is visible and unchangeable. 
 
-Only the private key can be used to spend money.
+Transactions in the blockchain cannot be modified after creation, and their complete history is publicly visible. 
 
-Another thing to note about identity is that users can generate as many private/public key pairs as they want.
-
-How does it work again?
-
-Remember that there are 2 to the 160 total possible private keys.
-
-It is extremely unlikely that someone might happen to generate the same private key as yours.
-
-Nor is it at all likely that someone can guess your private key to spend money on your behalf.
-
+This means that the blockchain is a completely transparent data structure with the useful property that the integrity of the blockchain is easily verifiable by any user.
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 28. Key Takeaway - Transactions: Breaking the Piggy Banks (39) ----------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image028-key-takeaway-transactions.png" 
-   alt="Key Takeaway - Transactions: Breaking the Piggy Banks"
-   width="65%" />
-</p>
-
-Bitcoin doesn’t have the account balance model that banks have.
-
-Instead, users spend outputs from previous transactions.
-
-These specific outputs are called “Unspent Transaction Outputs” or UTXO.
-
-The total value of bitcoins you have is the sum of all of UTXOs you own.
-
-These UTXOs are uniquely identifiable and make tracking payments at the protocol level much more straightforward: The UTXO record system makes it easy for nodes to see how funds change hands between users and UTXOs.
-
-The UTXO model might not be the most intuitive model for us to understand, but it works well for bitcoin from an architectural standpoint.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- 29. Key Takeaway - Record-Keeping: Everyone's the Bank -------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image029-key-takeaway-record-keeping.png" 
-   alt="Key Takeaway - Record-Keeping: Everyone's the Banks"
-   width="65%" />
-</p>
-
-As we mentioned earlier, the blockchain is the key data structure for recording Bitcoin activity.
-
-New transactions are recorded within new blocks added to the existing, established chain.
-
-Once a transaction is recorded, it is close to impossible to undo without changing every single version of this database in the universe.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------- 30. Key Takeaway - Consensus: Updating the Shared, Immutable Ledger (40) ------------>
+<!-------------------------------- transparency of a blockchain ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image030-key-takeaway-consensus.png" 
-   alt="Key Takeaway - Consensus: Updating the Shared, Immutable Ledger"
+<img src="/images/image-transp-blockchain.png?raw=true"
+   alt="Transparency of a Blockchain"
    width="65%" />
 </p>
 
-The way that the network reaches consensus is through Proof-of-Work.
+<h3>Transparency: Databases vs. Blockchain</h3>
+<p>
+Traditional databases and the blockchain were created for different purposes and have different levels of transparency. 
 
-How does it work again?
+Traditional databases have low transparency since values can be modified or deleted; however, this changeability allows them to store data in an efficient manner, with only the most relevant versions of each value retained in storage.
 
-Proof-of-Work requires that voters expense a considerable amount of computational power in order to validate transactions.
+The blockchain is publicly visible and immutable, meaning that it has very high transparency. 
 
-But why do we need Proof-of-Work?
-
-Because, again, there is no central authority to make sure that one person only vote once, and there is no limitation on how many identities one person can generate, Bitcoin uses computational power as a resource constraint to limit the voting power of malicious entities.
-
-Proof-of-Work hence aims to make votes expensive for everyone, so that the voting power one has is based on how much computational power one has, instead of based on the number of identities.
+Its append-only structure and decentralized storage sacrifice storage efficiency for trustworthiness of the stored data.
+</p>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------- 31. Unique Properties of Bitcoin: Demystifying the Buzzwords (41) ---------------->
+<!------------------------------- transparency of a blockchain (68) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image031-unique-properties-of-bitcoin.png" 
-   alt="Unique Properties of Bitcoin: Demystifying the Buzzwords"
-   width="65%" />
+<img src="/images/image-transparency-database-vs-blockchain.png?raw=true"
+	alt="Transparency: Database vs. Blockchain"
+	width="85%" >
+
+<h3 id="ch2-4"></a>2.4 Transparency</h3>
+<p>
+One of the big benefits we get in any blockchain solution, public or private, is the idea of transparency.
+
+In a public blockchain solution like Bitcoin or Ethereum, because they're anonymous and we have no concept of identity, we have no way of treating users differently.
+
+And so all data on a public blockchain is transparent and visible to all other participants.
+
+And this is really important. It adds a lot of value, when we're talking about exchanging currency or tokens of monetary value, because as long as we can protect the anonymity of the participants, it gives us a great way for anybody to validate the details of any transaction on a ledger that is immutable, permanent, can't be changed and offers a high degree of trust.
+
+This also has a lot of other really interesting potential use cases that we're starting to explore with public blockchain technology, voting and voter registration, tracking election results.
+
+These kinds of things are really, really great use cases for having that level of public transparency.
+
+On public blockchains, there's another kind of transparency, which adds a lot of value as well, and that is full transparency into the smart contracts that execute on that blockchain.
+
+These, oftentimes, are smart contracts which have the potential of working with other people's money, sometimes large amounts of other people's money, and if you're going to entrust your hard-earned money into someone else's smart contract, it's really nice to have the ability to be able to go and review the source code of that smart contract, either yourself or by hiring a developer to audit that smart contract, to make sure it's written fair, that there are no security vulnerabilities, and that it does what it claims to do.
+
+On the private blockchain side, what we have [is] permissioning.
+
+And we can control how open or closed our data is.
+
+We still have a lot of benefits of being able to share data in shared infrastructure that private blockchain creates.
+
+There are a lot of business networks and value chain relationships where the participants would love to be able to share more data and more information with consumers about the business processes and the steps that go into delivering the goods and services we consume.
+
+What has traditionally prevented solutions like this is the lack of any kind of shared infrastructure.
+
+While technically conventional technology may be able to address these concerns,
+it is oftentimes human beings not being able to come to consensus on questions of who owns the platform, who builds the platform, who maintains the platform.
+
+And, if a participant leaves the ecosystem, do they take all or part of the platform with them.
+
+That have prevented us from using conventional technology in these respects.
+
+Using private blockchain solutions like Hyperledger, can help alleviate many of these concerns and create a truly shared technical infrastructure between organizations.
+
+This allows participants in a supply chain or value chain to track data and to share that data about how goods and services are produced, created, consumed, and distributed into the open market, that we haven't really been able to do practically before.
+
+It's estimated that over 1/3 of the food we produce goes to waste, because we don't have this kind of clarity into our supply chain with food or into the supply chain with other types of products.
+
+Think about if a meat gets recalled because it might be contaminated, how much perfectly good meat gets thrown away just to err on the side of caution.
+
+Where if we just had greater resolution and visibility into where that product originated from and how it went all the way from production to our plate.
+
+Then, we could issue more accurate recalls and reduce the amount of food waste.
+
+Consumers might value your product more, your offering more, if they're able to see where it comes from.
+
+If you're manufacturing and distributing clothing, and you can demonstrate to consumers that all of that clothing was sourced from parts of the world with fair labor practices consumers are going to have more trust and faith in the brand and ultimately willing to pay a higher price for it.
+
+These kind of transparency solutions are one of the biggest benefits of blockchain and one of the areas being most explored, because right now there are a lot of consumers who would simply like more visibility into the products and services they purchase.
+
+And blockchain, both public and private, can be a great solution for doing that.
 </p>
 
-Given all this information, you can now justify many of the common buzzwords associated with Bitcoin which you may have heard.
-
-The most common descriptors of Bitcoin are “pseudonymous,” “decentralized”, “immutable”, and “trustless”.
-
-Pseudonymity is a combination of the words “pseudo,” meaning fake, and “anonymous,” meaning unknown.
-
-Bitcoin attempts to be anonymous through having every user represent themselves with a random number, the public key.
-
-However, because it is not impossible to trace back these virtual identities to real world identities, bitcoin is not complete anonymity --- it is only mimicking anonymity.
-
-In Bitcoin, addresses and pseudonyms are synonyms -- it’s a fake name, but it can still be used to trace back to you associated with you with enough effort.
-
-In addition, decentralization refers to taking an activity that is typically performed by one central entity and repeating the storage of information and computation among more than one party.
-
-Bitcoin achieves decentralization by having every single participant in the Bitcoin network store the full history of transactions, as we’ve seen.
-
-This way, every user possesses a copy of the transaction history and does not have to ask anyone else for that information.
-
-Immutability, referring to the inability to change information, is another property of Bitcoin achieved through decentralization.
-
-Once all users in the Bitcoin network decide on the validity of some transaction, it is extremely difficult for anyone, including themselves, to undo their decision.
-
-This feature helps foster trust among nodes on the network.
-
-If one wanted to alter the history of transactions, they would have to change every single user’s local history simultaneously, which in the present day is close to ten thousand different users.
-
-As a result of these three properties of pseudonymity, decentralization, and immutability, we achieve in Bitcoin a trustless network.
-
-Because every user is by default a stranger to everyone else, one may ask, “How do we trust others in the network?
-
-If we do not trust a majority of Bitcoin users, how do we trust Bitcoin?”
-
-The Bitcoin protocol ensures that one does not need to trust their peers in order to be certain that any transaction they make will be accurately recorded by the rest of the Bitcoin network.
-
-First, the ledger is publicly verifiable.
-
-Anyone can see any and all information about the history of transactions in Bitcoin.
-
-You can go to the blockchain and check if your transaction has gone through.
-
-In addition, the Bitcoin network is secured through the Proof-of-Work consensus protocol designed by Satoshi Nakamoto which changed the way everyone thinks about cryptocurrencies.
-
-These are the four essential unique properties of Bitcoin: 1. pseudonymous, 2. decentralized, 3. immutable, and 4. trustless.
-
-<h2>Bitcoin Protocol & Consensus: A High Level Overview / Review, Readings, & More</h2>
-
-<h3 id="ch1-11">1.11 Chapter 1 Summary:</h3>
-
-<h3>I. What is Bitcoin?</h3>
-
-Cryptocurrency is a completely digital, formless currency, tied together using computer science, cryptography and economics. Bitcoin is the first and most widely used cryptocurrency.
-
-Bitcoin is inspired by the Cypherpunk Movement in the 1980s, which advocated for protection of privacy from external entities using cryptography. Satoshi Nakamoto first outlined and created Bitcoin in 2008 and 2009.
-
-Bitcoin aims to be pseudonymous, trustless, decentralized, and immutable. In addition, anyone with a computer and internet connection can join the Bitcoin network. Each computer is a node in the Bitcoin network, and each node may verify and audit the transaction history of their own funds. In Bitcoin, the minting and distribution of bitcoins is determined through mining; since anyone can mine and win bitcoins, this process also aims to be decentralized.
-
-Some of the challenges Bitcoin addresses are:
-
--   The difficulty to ensure every Bitcoin node holds a consistent version of the transaction history
-
--   The difficulty to identify malicious actors
-
-These conditions may normally allow a node to conduct a Double Spend Attack, in which the one spends the same funds more than once by tricking parts of the network to believe different versions of the transaction history. However, Satoshi overcame this problem using blockchain and Proof-of-Work. 
-
-Bitcoin is robust because it serves the same functions as a bank:
-
--   Account management; the Bitcoin protocol gives users a way to create and manage their own identities (account)
-
--   Legitimacy; It ensures we are legitimate owners and accessors of our accounts
-
--   Record-keeping; It honestly records account balances at each transaction.
-
-Unlike a bank, Bitcoin is decentralized and ensures a high degree of privacy and trust. 
-
-Trust is built on the blockchain due to a high level of transparency: blockchain is a publicly verifiable ledger, not owned by any entity, and it prevents any single point of failure.
-
-To maintain this trust, we need identity in Bitcoin for authentication and assigning blame. Bitcoin uses public keys to send funds and private keys to prove ownership of the public key and redeem the sent funds. Each individual is responsible for creating and managing their own private and public keys. Public keys are generated from Private keys and are used to send/receive funds. Private keys are randomly generated and used to prove ownership of the public key. The chances of guessing the same private key are very low.
-
-In addition to proof of ownership, in order to be considered valid, transactions must also have enough available funds to spend from and guarantee that no other transaction uses the same funds. Bitcoin uses the Unspent Transaction Output (UTXO), in which users spend directly from transactions made to them.
-
-Instead of storing transactions individually, Bitcoin batches them into “blocks,” built off of their previous blocks, thus forming the tamper-evident, blockchain data structure.
-
-Users on the blockchain must come to a consensus on which updates and blocks to add to the blockchain. Doing so also prevents Double Spend Attacks. Bitcoin uses a form of peer validation to build a shared transaction history; everyone on the network casts votes on the validity of a transaction. To prevent a Sybil Attack, where users create multiple identities for malicious purposes, Bitcoin employs Proof of Work, where voting power is based on computational power, to make voting expensive.
-
-<h3>Readings:</h3>
-
-[The shy college student who helped build Bitcoin into a global phenomenon ](https://www.theverge.com/2015/6/10/8751933/the-shy-college-student-who-helped-build-bitcoin-into-a-global)
-
-[The Essence of How Bitcoin Works (Non-Technical) ](https://youtu.be/t5JGQXCTe3c)
-
-(Optional) [The Untold Story of Silk Road, Part 1 ](https://www.wired.com/2015/04/silk-road-1/)
-
-(Optional) [Bitcoin: A Peer-to-Peer Electronic Cash System ](https://bitcoin.org/bitcoin.pdf) 
-
-(Optional) [Bitcoin Developer Guide ](https://bitcoin.org/en/developer-guide)(up to but not including “P2PKH Script Validation”)
-
-(Optional) [How Bitcoin Works in 5 Minutes (Technical) ](https://www.youtube.com/watch?v=l9jOJk30eQs&feature=youtu.be)
-
-<h3 id="ch2">Module 2: Blockchain History</h3>
-
-A question we sometimes get from students in our class here at UC Berkeley is: why use Bitcoin?
-
-After all, we’ve seen that it’s **slow,** it’s **redundant**, and **inefficient**.
-
-Banks are so much more convenient!
-
-While we’ve mainly been focusing on how Bitcoin works, we’ll be taking a step back and understanding why Bitcoin is the way it is.
-
-We will examine the cultural, political, and technological influences that drove the development of cryptocurrencies.
-
-As we’ll see, Bitcoin didn’t just pop up out of nowhere.
-
-Understanding its historical background and numerous failed predecessors will give us a deeper understanding of Bitcoin.
-
-From there, we’ll explore the present-day state of the blockchain space, including various new cryptocurrencies inspired by Bitcoin along with how blockchain technology has diverged from its origins in Bitcoin.
-
-This journey will take us from the Cypherpunks, who hated big banks and championed privacy and power for individuals, to adoption of blockchain technology by JPMorgan Chase, one of the largest banking institutions in the United States.
-
-<h3 id="ch2-1">2.1 Intro: Pre-Bitcoin</h3>
-
-The roots of Bitcoin start with libertarianism.
-
-Libertarianism is a political ideology which believes that centralized authority should be as minimal as possible.
-
-Individuals should have as much power as possible to decide the course of their own lives and shouldn’t have to sacrifice rights or properties to a government excessively.
-
-You may already see how this ideology relates to Bitcoin.
-
-Amongst increasing centralized state control, especially of services and of individual information, libertarian dreamers grew concerned with privacy.
-
-From online discussions on forums and mailing lists, two groups formed: the Cypherpunks and the Crypto-anarchists, both of which advocated for the use of cryptography to protect one’s privacy.
-
-<h3 id="ch2-2">2.2 Libertarian Dreams</h3>
+<h3>Immutability in the Blockchain</h3>
+Blockchain is designed to be an authoritative ledger of the history of the network.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- 32. Libertarian Dreams: Cypherpunks and Crypto-Anarchists (45) ----------------->
+<!---------------------------- immutability in the blockchain (70) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image032-libertarian-dreams-cypherpunks.png" 
-   alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists"
-   width="65%" />
-</p>
+<img src="/images/image-immutability-blockchain.png?raw=true"
+	alt="Immutability in the Blockchain"
+	width="85%" >
 
-Before explaining a bit of the background behind all of this, let’s look at this quote first:
+This history may include financial transactions and business agreements where modifications to the ledger may have wide-reaching business impacts. Blockchain is based on an untrusted network, so trust that the blockchain has not been modified needs to arise from the structure of the blockchain itself, rather than from trust in the organization storing a certain copy.
+Immutability
 
-“Privacy is necessary for an open society in the electronic age. Privacy is not secrecy. A private matter is something one doesn’t want the whole world to know, but a secret matter is something one doesn’t want anybody to know. Privacy is the power to selectively reveal oneself to the world.”
+One of the big benefits of blockchain is what's known as immutability.
 
-The quote comes from the Cypherpunk Manifesto, which was written by Eric Hughes, a computer programmer and mathematician from UC Berkeley.
+The idea that once a record gets committed to the blockchain or to the ledger, it's there permanently.
 
-He’s one of the founders of the Cypherpunk movement, and in the 90s founded and administered the Cypherpunk mailing list.
+In blockchain, it's a little bit different than a database, and we'll talk about this in another module, in a lot more depth, but in a traditional database we're used to being able to edit records and delete records, and that's not the case in a blockchain.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------- 33. Libertarian Dreams: Cypherpunks and Crypto-Anarchists -------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image033-libertarian-dreams-cypherpunks-2.png" 
-   alt="Libertarian Dreams: Cypherpunks and Crypto-Anarchists (2)"
-   width="65%" />
-</p>
+In a blockchain, there are only two possible operations: we can create a new record, and we can go back and we can read existing records.
 
-The Cypherpunks and Crypto-anarchists hated the idea of national agencies being able to spy on them and have access to their information.
+And this contributes to this idea of immutability - once data is written to the blockchain it can't be edited, it can't be deleted.
 
-They also hated censorship.
+All you can do is add another record to the blockchain indicating that something about that data has changed.
 
-But most of all, they hated big banks and governments, both of which were giant centers of power diminishing the autonomy of the average citizen.
+This immutability is what makes blockchain such a secure solution, and it's what makes it a trustless solution.
 
-This dichotomy of power only grew as the technology of these institutions evolved faster than that of the general public.
+Meaning, I don't have to trust anybody that I'm interacting with and trading with, as long as we both trust in the blockchain and the data on the blockchain.
 
-In the past, before these technological innovations, cash was pretty anonymous in purely its physical form.
+Then, we can transact back and forth seamlessly.
 
-Once you spend it, there’s no easy way to trace it.
+The way immutability works is blockchain is, by design, a very, very inefficient solution.
 
-But in an increasingly digital world, the convenience of big banks tracking account balances and transfers comes with the cost of privacy.
+We are asking a large number of nodes, all the nodes on a network, to perform exactly the same work as every other node.
 
-And so, these libertarians saw early on the need for an anonymous digital “transaction system” or currency -- one that gave users “the power to selectively reveal oneself to the world.”
+Essentially, we are duplicating work over and over and over again.
 
-<h3 id="ch2-3">2.3 Bitcoin Precursors</h3>
+The reason we do this, is because the only way to potentially change data on a blockchain, is by changing the record on that blockchain for 51% or more of the nodes, or the miners, or the participants trying to come to consensus on the blockchain.
 
-The Cypherpunks didn’t get together, design a cryptocurrency, and succeed on their first attempt.
+And when you get to very, very large-scale networks, Ethereum with its 16,000 plus nodes, Bitcoin with over 30,000 nodes, this becomes a very, very, very tall order.
 
-Several early attempts at making a true cryptocurrency failed, though they came close.
+Trying to hack or change a record on over 15,000 of those Bitcoin nodes would be quite a bit of work.
 
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ 34. Early Attampts: Digicash (47) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image034-early-attempts-digicash.png" 
-   alt="Early Attampts: Digicash"
-   width="65%" />
-</p>
+It's not impossible to change the record on a blockchain, but it is impossible from a practical standpoint.
 
-These early failures inspired Bitcoin to adopt some key features that they implemented and learned from their mistakes.
+Now, one thing that should be noted when we talk about immutability is: all that blockchain gives us is an accurate recording of what was posted.
 
-As the existing financial system was one of the greatest threats to individual privacy, cryptographer David Chaum implemented Digicash using the latest advancements in public and private key cryptography.
+It is still up to whoever is posting that information on the blockchain to make sure it's accurate and true.
 
-Chaum himself had invented “blind signatures” while studying at UC Berkeley.
+In other words, blockchain doesn't do anything to validate that the information on it is correct.
 
-Blind signatures allowed users to sign off on transactions without revealing their identity.
+All it validates is that that information hasn't been changed since it was originally written.
 
-Digicash promised complete privacy for users conducting online transactions and included a system of cryptographic protocols that prevented banks and governments from tracing personal online payments.
+Another way to think about that is, I could post a record on blockchain that says: "The sky is orange".
 
-Ironically, however, Digicash failed because of what it feared the most: centralization.
+That doesn't make the sky orange.
 
-Digicash was hosted by Chaum’s own company, and if his company ever went down, Digicash would also go with it.
+We all know the sky is blue. All that does is that means I can't ever come back later and claim I didn't say that or I said it was blue, and someone changed the record.
 
-And that’s exactly what happened.
+That immutability that blockchain gives us is that that data was captured as it was originally written and hasn't been changed.
 
-Chaum’s company DigiCash Inc bore the overwhelming burden of having to validate each and every digital signature in the DigiCash system, which eventually led to bankruptcy in 1998.
+Another part of this immutability is cryptographic hashing, and the way that we chain all these blocks together.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- 35. Early Attampts: HashCash (48) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image035-early-attempts-hashcash.png" 
-   alt="Early Attampts: HashCash"
-   width="65%" />
-</p>
+If you haven't watched the module on Proof of Work, I would suggest you go watch that now, to see a really in-depth overview, a hands-on demo of how blocks are actually linked together in such a way.
 
-Hashcash was originally invented as a mechanism to limit email spam.
+And, if I ever went back and tried to change any information or prior transaction on the blockchain, I would break that chaining in a very obvious way that anyone would immediately spot if they came and querried that data off the blockchain.
 
-In order to send out an email, one would have to solve a cryptographic hash puzzle and provide a proof of work.
+When you hear about immutability, just understand that all we're talking about is the virtual impossibility of anyone ever being able to come along and change any data on the blockchain.
 
-Only after proving that they have expended computational resources -- with a Hashcash stamp added to the email header -- can someone send out a valid email.
+And also, along with that, understand that we only have two possible operations on blockchain: we can only read data and we can only add new data.
 
-Email recipients can then verify emails that they receive are valid, by looking at the email headers for a valid Hashcash stamp.
+There's no concept of an edit or delete, and this is what we talk about when we talk about immutability on the blockchain.
 
-The idea is that spammers wouldn’t be able to spam emails anymore.
+<h3>Immutability in the Blockchain Is Essential</h3>
+The blockchain needs to be immutable. 
 
-It would be too costly, as spammers goals are to send out huge numbers of emails with little cost per message.
+If someone can change the blockchain after the fact, then it is no longer a trusted historical ledger. 
 
-By making it computationally expensive to send out email, hashcash disincentivized spammers.
+The blockchain is designed so that immutability is cumulative; each piece is linked to every other piece, creating a cohesive whole that is more difficult for an attacker to modify.
+<ul>
+<li>At the bottom level, transactions are digitally signed by their creators. An attacker can’t forge a transaction unless they steal a private key.</li>
+<li>A block structure is predefined. Attackers can’t modify it to suit their purposes.</li>
+<li>The chain part of the blockchain is achieved using hash functions. Each block includes the hash of the previous block, creating a clear link between each block in the blockchain.</li>
+<li>Each block is digitally signed by its creator. The creator is selected through the blockchain’s consensus protocol, making it difficult for an attacker to be a legitimate creator.</li>
+</ul>
+All four of these features help to make the blockchain resistant against changes occurring after the fact.
+<br/>
+&nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 36. Early Attampts: B-Money (49) -------------------------------->
+<!---------------------------- tampered and unbroken blockchains (73) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image036-early-attempts-b-money.png" 
-   alt="Early Attampts: B-Money"
-   width="65%" />
-</p>
-
-B-money was an early proposal for a cryptocurrency created by Wei Dai.
-
-In 1998, Dai published a paper titled “B-money, an anonymous, distributed electronic cash system,” and laid out some core concepts that would later be used to implement Bitcoin and other cryptocurrencies.
-
-Among B-money’s core concepts were that:
-
-A proof of work function like Hashcash is used as a means of creating money.
-
-Everyone maintains a copy of the database showing who owns what, and work is verified by the community, who all work to update a collective ledger.
-
-And transactions are accomplished by collective bookkeeping and authenticated with cryptographic hashes.
-
-Workers are awarded funds for their efforts in creating money through expending computational resources.
-
-Contracts and transactions are enforced through the broadcast and signing of transactions with digital signatures.
-
-These ideas from B-money would later influence the development and design philosophy of Bitcoin.
-
-<h3 id="ch2-4">2.4 Bitcoin Invention</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------ 37. Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper (50) --------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image037-satoshi-nakamoto.png" 
-   alt="Satoshi Nakamoto: Oct, 2008 Bitcoin Whitepaper"
-   width="65%" />
-</p>
-
-In October 2008, a whitepaper was published online, titled, “Bitcoin: A Peer-to-Peer Electronic Cash System.”
-
-This 9 page whitepaper outlined the design and justification for a digital currency, or cryptocurrency, controlled by no single entity.
-
-Traditionally, we trust the singular bank to conduct financial services on our behalf.
-
-With Bitcoin, the intention is to do what no other attempt at a cryptocurrency could do before: create an anonymous, trustless, decentralized currency.
-
-Instead of trusting any individual humans, we put trust into math, cryptography, and logic.
-
-We trust the Bitcoin protocol, even if we don’t trust any individual in the network.
-
-This cryptocurrency relies on computational power to cast votes.
-
-As mentioned earlier, this is known as Proof-of-Work.
-
-And as we saw earlier, the idea of solving a cryptographic hash puzzle was also used in Hashcash.
-
-Satoshi wrote in the whitepaper that this is meant to enforce a “one-CPU-one-vote” system, such that every computer only has the ability to cast one vote in the consensus process.
-
-This is different from the traditional “one-identity-one-vote” process used in government elections because we can’t assume that each real world identity has only one digital identity.
-
-In addition, each person maintains their own identity through public and private keys, authenticating themselves through blind signatures, which was introduced by David Chaum from DigiCash.
-
-This ensures that every user maintains their own privacy until they voluntarily choose to reveal themselves.
-
-In Bitcoin, every full node maintains their own copy of the blockchain, similar to how in B-Money’s protocol, every participant maintains their own individual database, to keep track of how much money belongs to each user.
-
-Bitcoin was designed to be a deflationary currency, meaning that there will only be a limited amount of bitcoins that will ever exist, specifically **21 million**.
-
-Every miner gets a block reward for finding a block, but this block reward decreases over time.
-
-It began at 50 bitcoins and is halved every (two hundred and ten thousand) 210,000 blocks.
-
-Eventually, the block reward will become 0, at which point 21 million bitcoins will have been minted.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------- 38. Bitcoin: The First Cryptocurrency (51) --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image038-bitcoin-the-first-cryptocurrency.png" 
-   alt="Bitcoin: The First Cryptocurrency"
-   width="65%" />
-</p>
-&nbsp;
-
-Interestingly enough, Satoshi chose to include a message within the first block of the Bitcoin blockchain.
-
-This information is a powerful glimpse into the mentality and motivations of Satoshi Nakamoto.
-
-As we’ll discuss further in the next module, the coinbase transaction gives a miner a block reward.
-
-This particular transaction has empty space into which extra information can be included.
-
-Satoshi chose to reference a story in the Times of London mentioning a Chancellor bailing out a bank.
-
-As we can tell from several posts and comments made by Satoshi, he was not fond of the modern banking system, particularly fractional-reserve banking.
-
-Bitcoin’s design aims to eliminate these issues.
-
-During this first year, people sent bitcoins to each other out of interest, playing around with the software.
-
-During this time, however, bitcoins were never exchanged for any tangible good.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------- 39. Bitcoin Gains Value: 81 million-dollar pizza, bought May, 2010 (52) ------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image039-bitcoin-gains-value.png" 
-   alt="Bitcoin Gains Value: 81 million-dollar pizza, bought May, 2010"
-   width="65%" />
-</p>
-&nbsp;
-
-And then in May of 2010, this post showed up on the bitcoin talk forum.
-
-Feel free to pause the video and read through the post, or follow the source link.
+<img src="/images/image-immutable.png?raw=true"
+	alt="Immutable in the Blockchain"
+	width="85%" >
 
-In the post, we see that...
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------- 40. world's 1st bitcoin transaction for a tangible asset (52) ------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image040-bitcoin-gains-value-2.png" 
-   alt="World's 1st Bitcoin Transaction for a Tangible Asset"
-   width="65%" />
-</p>
-&nbsp;
+<h3>Why Is the Blockchain Immutable?</h3>
+<p>
+Each transaction cannot be forged or modified because it is mathematically infeasible to forge a digital signature. 
 
-...in it, a man named Laszlo Hanyecz asked for pizza in exchange of 10,000 bitcoins.
+The structure of blocks is publicly defined, and invalid blocks will be publicly rejected.
 
-And on May 22, 2010, he received a \$25 order of pizza in exchange for his bitcoins.
+Each block “locks in” the value of previous blocks by including their hash. 
 
-This was the world’s first ever Bitcoin transaction for a tangible asset.
+Attackers cannot find another block that will produce the same hash.
 
-In this moment, Bitcoin went from worthless internet money to something with real value.
+A block cannot be forged or modified, because it is digitally signed by the creator. 
 
-As a fun fact: as of March 15, 2018, the pizzas Laszlo ordered are now worth 81 million dollars.
+The creator of a block is either publicly known (Proof of Stake) or difficult to become (Proof of Work), making masquerading as the real creator difficult or impossible.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- 41. 81 million dollar pizza (53) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image041-bitcoin-gains-value-81-million-pizza.png" 
-   alt="81 Million Dollar Pizza"
-   width="50%" />
+Now, let’s take a moment to discuss how each of the features mentioned contribute to the immutability of the blockchain.
 </p>
-&nbsp;
-
-And here’s Laszlo reporting back on the forum about the pizza’s safe delivery.
-
-Most people ridicule Laszlo for spending bitcoins on such a small purchase.
-
-However, they are not aware that Laszlo wanted to see Bitcoin flourish.
-
-Before this purchase, the idea that bitcoins could be used to purchase real world goods was ridiculous.
-
-For most people, mining Bitcoin was merely a hobby.
-
-This purchase validated the use of Bitcoin for its original purpose as a currency actually used for buying goods.
-
-In a way, by trailblazing the currency’s use, Laszlo is a hero to Bitcoin enthusiasts.
-
-This was the very first time a Bitcoin transaction traded “magic worthless internet money” for a tangible item of value - therefore bitcoins have value.
-
-However, it’s not like bitcoins were worth that much when Laszlo spent them on pizza.
-
-<h2 id="ch2">2. Lecture/Module 2:</h2>
-
-It took years of development and spread before Bitcoin became accepted as a legitimate technology, yet it’s still got a way to go before reaching worldwide legitimacy.
-
-<h3 id="ch2-1">2.1 Intro: Early Bitcoin</h3>
-
-As Bitcoin started to gain popularity, it quickly picked up a bad reputation due to its focus on privacy and decentralized nature.
-
-Regarding privacy, the difficulty to tie digital identities to the real world user posed issues in some situations.
+At the bottom level, each transaction is digitally signed. This means two things about transactions:
+<ul>
+<li>Existing transactions can’t be changed after the fact, because the signature will no longer match,</li>
+<li>Fake transactions can’t be created since an attacker can’t create a valid digital signature for a transaction between other parties.</li>
+</ul>
 
-On top of that, because Bitcoin is decentralized, there is no central entity or court to fix any mistakes within the blockchain.
+Both of these contribute to the immutability of the blockchain since they limit the range of transactions that an attacker has to work with if he wants to create a fake but valid blockchain.
 
-If someone found your private key and stole your funds, no one else can give your stolen funds back to you.
+Next, the block structure is publicly defined in the protocol. This limits the types of modifications that an attacker can make to a block when trying to modify the blockchain.
 
-Early Bitcoin was thus often the target of scandals, hacks, and illegal activity.
+Third, each block contains the hash of the previous block. This is what ties the blocks of the chain together.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image042-bitcoin-theft-mt-gox-july-2010.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="40%" src="/images/image042-bitcoin-theft-mt-gox-july-2010.png" 
-alt="Bitcoin Theft: Mt Gox July, 2010 - Feb, 2014"</>
-</p>
-&nbsp;
+Remember from earlier that one of the properties of a hash function is that it is extremely difficult to find two inputs to a hash function that create the same output. 
 
-<h3>Hacks and Scandals</h3>
+Since a block contains the hash of the previous block, it’s difficult to find a different version of the ledger’s history that matches the most recent block, as that would require finding two different versions of the previous block that have the same hash.
 
-In the early stages of Bitcoin, there existed no exchange for trading between bitcoins and regular currencies.
+Finally, each block is digitally signed by its creator. 
 
-In 2010, Jed McCaleb, turned his domain mtgox.com into a Bitcoin exchange website.
+Since the creator of a block is selected via a consensus algorithm, it’s difficult for an attacker to become the legitimate creator of a given block. 
 
-What was originally the Magic: The Gathering Online Exchange, where players of the online game Magic the Gathering Online traded cards like stocks, quickly became one of the largest bitcoin exchanges during the early stages of Bitcoin.
+If an attacker is not the legitimate creator of a block, it’s impossible for them to create a digital signature that others would accept.
 
-Keep in mind an issue with this exchange: it’s a central point of failure, and its popularity drew a lot of negative attention.
+<h3>Immutability Mechanisms</h3>
+Now, let’s look at how different blockchains implement immutability.<br/>
 
-On June 19, 2011, it was discovered that a hacker was using a Mt. Gox auditor’s computer to siphon an abundance of bitcoins to themselves.
+In Ethereum and Hyperledger, the immutability mechanism is the one that we’ve described previously. 
 
-Mt. Gox was subsequently shut down for seven days to investigate the situation.
+Each transaction and block is digitally signed and are linked using cryptographic hashes.
 
-It received several lawsuits, some of which are still being disputed.
+[Corda](https://www.corda.net/), a multi-party application development platform, relies on its notary service for immutability. 
 
-Despite this breach of security, people kept on using Mt. Gox.
+Each Corda network has one or more notary services that verify transactions. 
 
-For a while, it seemed like all was well.
+Each transaction is considered separately and, if approved, is signed by the notary service. 
 
-By 2014, Mt. Gox was handling up to 70% of all Bitcoin transactions -- way too much for what the infrastructure could handle.
+Transactions signed by a notary are finalized and cannot be modified after the fact.
 
-In February 2014, Mt. Gox announced that it had lost 744,408 of its customers bitcoins in an ongoing theft that had gone unnoticed for years.
+<h3>Hashing and Chaining</h3>
+It is important to understand the value of locking in the previous block by including its hash in the next block. 
 
-By the end of the month, Mt. Gox filed for bankruptcy.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image043-bitcoin-drug-scandal-silk-road-feb-2011-thru-oct-2013.png" 
-	alt="Bitcoin Drug Scandal: Silk Road Feb, 2011 - Oct, 2013"</>
-</p>
+As explained in the article [“A Gentle Introduction to Immutability of Blockchains”](https://bitsonblocks.net/2016/02/29/a-gentle-introduction-to-immutability-of-blockchains/) by Antony Lewis,
+<ul>
+<li>Creating a ledger of transactions with blocks that refer to previous blocks is a much better idea than numbering the blocks sequentially.</li>
+<li>In a book with pages, 1, 2, 3, etc., it would be easy to tear out page 25 and replace it with another page.</li>
+<li>The integrity of the book has been manipulated and altered. However, there is nothing about the new page number that ties it (chains it) to the content of the previous page.</li>
+<li>Instead, in a blockchain, blocks are referenced by their hash and each block explicitly specifies which block (hash) it is building on.</li>
+</ul>
+<br/>
 &nbsp;
-
-Meanwhile, in the depths of the dark web, Bitcoin was also used to purchase drugs.
-
-In February 2011, the website Silk Road opened, quickly earning the reputation of the anonymous “eBay of Drugs.”
-
-It was led by a man named Ross Ulbricht.
-
-Silk Road leveraged Tor, an anonymous networking protocol, and handled transactions using Bitcoin.
-
-This combination made it difficult for users’ online identities to be linked back to their real life identities.
 
-Because of this, drugs and the black market became the primary use case that came to mind when anyone mentioned Bitcoin.
-
-Even to this day, Bitcoin is tainted with this association.
-
-In October 2013, the FBI shut down Silk Road.
-
-Ross Ulbricht was sentenced to life in jail, and the FBI seized upwards of 26,000 bitcoins, worth \$3.6 million at the time.
-
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image044-bitcoin-bubble.png  -------------------------------------->
+<!------------------------------------ hashing & chaining (75) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image044-bitcoin-bubble.png" 
-	alt="Bitcoin Bubble"</>
-</p>
-&nbsp;
+<p align="center">
+<img src="/images/image-hashing-chaining.png?raw=true"
+	alt="Hashing and chaining in a block"
+	width="85%" >
 
-<h3>Bitcoin Bubble and Altcoins</h3>
+<h3>Hashing and Chaining with Proof of Work</h3>
+We will cover the Proof of Work in a later module. However, this demo uses the Proof of Work to show how blocks are chained together and how tampering with information in a past block destroys the integrity of the proceeding blocks.
 
-Between November 1, 2013 and November 30, 2013 -- less than a month -- the price of Bitcoin rose from just under \$200 to over \$1000
+In this module, we're going to talk about **Proof of Work** consensus, and how Proof of Work consensus is used to create an immutable chain of block data on the blockchain.
 
-In late 2013, the Bitcoin bubble hit its peak at around \$1,165 before suddenly bursting and entering a bearish run that lasted until the end of 2015.
+Let's take a small example. Let's say we have some block data and, in the interest of simplicity, we will keep this very, very short.
 
-There are a couple speculations about why the bubble occurred:
+But understand that in real life a block will most likely contain many more than just three transactions.
 
-First, Chinese investors bought bitcoins as a speculative financial investment.
+But on this block, we have a full block consisting of three transactions.
 
-Many sold because of warnings issued by the Chinese government
+When it's time to validate a full block, all nodes on the network will start to guess a nonce value.
 
-Second, automated trading in Mt. Gox may have artificially driven the price up by continuously buying bitcoins.
+What we're looking for is a nonce value such that when we take our input transaction data and we combine it with a nonce value, we get a hash output that matches the difficulty.
+  
+In this case, the difficulty is a hash output that begins with four leading zeros.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image045-explosion-of-altcoins.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image045-explosion-of-altcoins.png" 
-	alt="Explosion of Altcoins"</>
-</p>
-&nbsp;
-
-Soon after the creation of Bitcoin, other cryptocurrencies began popping up on the internet as well, each tailored to a different use case or audience.
+Every node on the network will guess a different nonce randomly until they happen to find one that matches the difficulty.
 
-These cryptocurrencies other than Bitcoin -- Litecoin, ZCash, Stellar, Ripple, Ethereum, Dogecoin, DASH, Monero, and others -- are known as altcoins, alt- standing for alternative.
+Our node may start off by guessing "123", and we see that that does not produce a hash output that matches the difficulty of four leading zeros.
 
-For example, Litecoin aims to be the silver to Bitcoin’s gold.
+Let's try again. Let's try "973321". Once again, that does not give us a hash output that matches the desired difficulty.
 
-It is more progressive in its software updates and serves as a testing ground for proposed Bitcoin software updates.
+Rather than guess over and over and over, let's go ahead and ask a computer to do our work for us.
 
-In addition, ZCash uses innovative zero knowledge proofs, which are a way to prove a fact without revealing information about the fact itself.
+The computer is now guessing different nonce values randomly until it happens to guess "22294", which you see produces a hash that begins with four leading zeros.
 
-This furthers cryptocurrency privacy by allowing transactions to be validated without revealing information about the sender, recipient, and value transferred.
+Because this hash is the output of input to a hash function consisting not only of the transaction data, but also of the nonce, changing either one will result in a new hash output which does not match the difficulty.
 
-Stellar and Ripple pioneered new federated consensus algorithms, eliminating the need to waste electricity solving cryptographic hash puzzles.
+If I change "22294" to "22295", you'll see I get a hash output which no longer meets the difficulty criteria.
 
-These are just a few examples of how coins other than Bitcoin are trying to solve their own individual problems, making for a wider crypto space.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image046-bitcoin-headlines.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image046-bitcoin-headlines.png" 
-	alt="Bitcoin Headlines: Popularity Grows, Merchants Begin to Accept Bitcoin"</>
-</p>
-&nbsp;
+However, if I change any of my transaction data, I'm also altering the input to the hash function, and thus generating an output which is completely different from the desired outcome.
 
-<h3>Bitcoin Headlines</h3>
+In this way, nodes or miners on a network can validate they have the same transaction data.
 
-Following years of hacks and bad reputation, Bitcoin finally began to grow in general popularity.
+If we all start randomly guessing nonce values for this set of data and my node guesses "22294" first, all it has to do is simply share this nonce value with every other node on the network.
 
-Here are some of the big headlines following Mt. Gox’s theft and subsequent declaration of bankruptcy in February 2014:
+Each node can then try this value "22294" on their copy of the transaction data.
 
-In March 2014, people thought they had found Bitcoin inventor Satoshi Nakamoto in California, but that was a false alarm.
+If any of the data has been altered or changed in any way, no matter how insignificant, or the node in question simply did not record the data correctly, this nonce value will not work for them.
 
-In September 2014, venture capitalist Tim Draper announced his predictions of Bitcoin’s price heading up to \$10,000.
+For example, if we change "4.2 bitcoin" to "4.9 bitcoin", you'll see that the proposed nonce does not work.
 
-For context about his perspective, he was interested in cryptocurrencies since before Bitcoin.
+In this way, all nodes can come to consensus or agreement on what the right set of transaction data should be.
 
-In 2003, he met a father in South Korea who bought a virtual sword for his son with fiat money, and was curious ever since.
+When a node thinks it's guessed the right nonce, it simply shares that value with the rest of the network.
 
-He also won some bitcoins from the FBI auction of confiscated bitcoins from the Silk Road shutdown.
+If the majority of the network, 51% or more, agree with this nonce, because they have the same transaction data on their copy of the block, then the miner who guessed this number first, will be rewarded and the network will come to consensus or agree that this is the correct version of the block data.
 
-2014 was also the year when merchants began to accept bitcoin as a form of payment.
+Any nodes which have different data for the current block will then discard the copy of the current block they have and replace it with a copy that the rest of the network has agreed upon.
 
-In January, Overstock.com became the first major retailer to accept bitcoins.
+This method is used to create blocks of data chained together.
 
-Then, in September, PayPal partnered with Coinbase, BitPay, and GoCoin.
+Let's say, that we have some transaction data here on the blockchain.
 
-Fun fact: Blockchain at Berkeley was previously known as the Bitcoin Association of Berkeley, and in 2014, these headlines were happening every week.
+We're gonna go ahead and mine our first block.
 
-At every club meeting, our 7 members would discuss the latest hack, the latest bankruptcy, and the latest Ponzi scheme.
+Now, you'll notice what we've added in this demo is the hash of the previous block, which is something we store in the header of every block on the blockchain.
 
-We’ve grown so much since then, and that just comes to show how much the blockchain space has matured over the years.
+Because this is the first block, I simply get a previous hash value of zero.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image047-bitcoin-startups.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image047-bitcoin-startups.png" 
-	alt="Bitcoin Startups"</>
-</p>
-&nbsp;
+Combining zero with the current transaction data on the block and the proposed nonce gives me a hash that meets the output difficulty.
 
-A bunch of Bitcoin startups began popping up too.
+When it's time to validate the second block, the process repeats itself.
 
-Wallet companies helped other companies or users handle bitcoin without having to personally join the Bitcoin network.
+I simply take the hash of the previous block stored in the header of the current block, combine it with the transaction data in the current block, and try to guess the correct nonce.
 
-For example, Coinbase is an online exchange that manages wallets and lets users buy and sell bitcoin for fiat currency.
+In this case, it's "12314"
 
-Bitpay allows merchants to accept bitcoin.
+As discussed in our video on cryptographic hashing, changing any of the input data, no matter how slight, will result in an entirely different hash.
 
-Blockchain.info is a block explorer that allows users to see individual blocks and transactions in the Bitcoin blockchain in browser, without having to download the entire blockchain themselves.
+If I try and change "2.3" to "2.9", I no longer get an output which matches the current difficulty.
 
-Most importantly, during this time, the term “blockchain” started becoming a buzz word.
+This new output is also reflected in the header of the next subsequent block.
 
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image048-and-burst.png" 
-	alt="2014-2015 Graph of Bitcoin Prices"</>
-</p>
-&nbsp;
+If I have a series of blocks that have all been mined and linked together, then you can see that going and changing data on any block will break every subsequent block after it.
 
-This is a graph of Bitcoin prices from 2014-2015, where you can see that first prices shot up immensely, then slowly started to fall.
+If I try to alter this record "David pays Charlie 2.3 bitcoin" and I want to change it to "5.3 bitcoin", I change the hash output of the current block.
 
-Of course, we all know that the price recovered and went back up after this, but this was a huge shock to the community at the time.
+This is reflected in the current block and also in the next block.
 
-There are a few theories as to why Bitcoin burst at this time:
+Now, the nonce proposed for the next block does not work when combined with that block's transaction data and with the hash of the previous block.
 
-One was that investors who had speculated and bought a lot of bitcoin had second thoughts, and began to sell.
+This means that if I want to alter data on the blockchain, not only do I need to remind the block that I changed the data on, I also need to remind every subsequent block in the blockchain.
 
-Especially, Chinese investors had sold because of warnings issued by the Chinese government.
+This is no trivial task when you consider that major blockchain such as Bitcoin and Ethereum contain millions of blocks.
 
-And then of course the market amplified the current trend, so people further dumped because they feared a loss in value.
+And this process must be repeated on tens of thousands of nodes worldwide in a very short amount of time.
 
-<h3>Intro: Scalability</h3>
+This ability to link together blocks in an immutable fashion and to cause attackers to have to undertake so much work, repeated so many times is what gives blockchain its security and immutability.
 
-Historically, Bitcoin has faced a number of challenges as a technology, including scalability and of course public perception.
+I hope you've learned a little bit more about Proof of Work consensus and how blocks on the blockchain are linked together through watching this video.
+Lab 2: Blocks
 
-Even today, being the first successful and most widely used decentralized cryptocurrency, Bitcoin still has several problems to solve before it can be used by the masses.
+Next, let's engage with an interactive lab. This lab will give you the chance to examine blocks on the blockchain. Enjoy!
 
-In this section, we’re going to talk about the next stage of Bitcoin’s history, when disputes about the core Bitcoin technology sparked internal debates, and when a separate platform called Ethereum quickly came to the mainstream.
+[Start Lab](https://blockchaintrainingalliance.com/pages/lab-blocks)
 
-<h3>Bitcoin Struggles to Scale</h3>
+<h3 id="ch2-5">2.5 Chapter Summary</h3>
+In this chapter, we discussed:
+<ul>
+<li>Distributed ledger technology (DLT) and how it differs from previous ledger storage techniques.</li>
+<li>Cryptography and how it is used in several different ways in blockchain.</li>
+<li>Hashing functions, zero-knowledge proofs (ZKPs) and Merkle tree data structures and how they are used to secure the blockchain.</li>
+<li>Public-key cryptography and public/private key pairs to support privacy, authenticity and security.</li>
+<li>Ledger immutability and transparency result from combining these technologies for an agreed-upon, append-only distributed ledger system chained together by blocks.</li>
+</ul>
+<h2 id="ch3">Chapter 3. Blockchain Functions</h2>
+<h3 id="ch3-1">3.1 Chapter Overview</h3>
+In this chapter, we will examine some blockchain functions. 
+<ul>
+<li>First, we will discuss smart contracts, how blockchains have the ability to store and run computer code (applications) that can execute the terms of an agreement. These digital promises stored and executed on the blockchains remove intermediaries and ambiguity thereby reducing conflict.</li>
+<li>We will discuss how blockchains secure their information and how these techniques differ from traditional database security. </li>
+<li>Next, we will discuss different types of blockchains (public, private and hybrid models) and design considerations that need to be made before blockchains can be developed.</li>
+<li>We will examine the steps in a basic blockchain transaction from start to finish.</li>
+<li>Finally, we will discuss blockchain consensus models and why they are the backbone to the blockchain operations.</li>
+<li>We will compare Proof of Stake and Proof of Work models and be able to discuss the differences and environmental considerations. </li>
+<li>Also, we will discuss private blockchain structures and how permissioning mechanisms are the basis for their ConsenSys models.</li>
+</ul>
+<h3>Learning Objectives</h3>
+By the end of this chapter, you should be able to:
+<ul>
+<li>Explain what smart contracts are and how they work.</li>
+<li>Discuss the benefits of using smart contracts.</li>
+<li>Compare blockchain security vs. standard security.</li>
+<li>Indicate the differences between private and public blockchains.</li>
+<li>Understand when to use a public vs. a private blockchain.</li>
+<li>Analyze the flow of a transaction in blockchain.</li>
+<li>Discuss consensus mechanism used in blockchain.</li>
+<li>Explore different methods of achieving consensus (Proof of Work, Proof of Stake, etc.).</li>
+</ul>
+<h3 id="ch3-2">3.2 What Are Smart Contracts?</h3>
+When we make a transaction on the blockchain, understand that there are only three types of transactions we can make.<br/>
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image049-bitcoin-struggles-to-scale.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image049-bitcoin-struggles-to-scale.png" 
-	alt="Bitcoin Struggles to Scale: Block Size Debate 2015"</>
-</p>
-&nbsp;
+It's what I refer to as the onion model of blockchain.
 
-One issue that has been the topic of much debate is that of scalability.
+And we're gonna start off with a very outer layer of that onion.
 
-Scalability refers to the ability of a technology to be used by increasing numbers of people.
+The thing that most people are familiar with when they get into blockchain.
 
-In the context of Bitcoin, it refers to the number of transactions that the network can confirm in a certain amount of time.
+The thing we do all the time when we trade cryptocurrency back and forth.
 
-As of March 2018, Bitcoin blocks are created every 10 minutes and can only hold 1MB of transactions, which is about one to three thousand transactions per block.
+That is two or more parties coming together and using the blockchain to record an announcement of the exchange of monetary value.
 
-Thus, we can estimate that the Bitcoin blockchain can process about three transactions a second.
+We might use blockchain to record the fact that I paid you three Bitcoin for your used car or I paid you twelve blockchain for your vacation home.
 
-In 2015, the transaction volume exceeded the network’s capacity so much that blocks actually began to run out of space, meaning that transactions were left unconfirmed, left without being included in a block.
+This is the model that many of us start off with in blockchain and again, it's the one that's most familiar and gets talked about the most right now.
 
-This led to proposals like Bitcoin XT, Bitcoin Classic, Segregated Witness (commonly abbreviated as SegWit), and more recently, SegWit2x in order to improve the network’s transaction processing capacity.
+But if we peel away that outer layer, and we take away the idea of a monetary transaction or exchange, well, then we're left with two or more parties using blockchain to record an important announcement.
 
-Some of these proposals rely on increasing the block size in order to fit more transactions, while other ones modify the underlying protocol.
+And we see many valid use cases around this. Let's say, that I go to the doctor for my annual physical.
 
-Each of these solutions have their pros and their cons, but we won’t discuss them in too much detail right now.
+My doctor checks me out and he says: "Hey Kris, I want to put you on a new prescription for XYZ".
 
-The important thing to understand right now are the questions that the scalability debate raises about decentralized governance.
+Well, maybe we're keeping our medical information on the blockchain, and so my doctor and I both agree that's a pretty good thing to add to my medical record.
 
-For example: what do we do when we want to change Bitcoin?
+In this case, we still need two or more parties, because it's very important that I, as a patient, don't have the ability to go and update my own medical record without a licensed medical professional involved.
 
-Governance is the mechanism by which a protocol makes changes to itself, but no such mechanism was encoded into the Bitcoin protocol.
+And it's also equally important that my doctor is not able to update my medical record without my consent or permission.
 
-Instead, users introduce proposals called BIPs, or ***Bitcoin Improvement Proposals***, outside of the Bitcoin network, on forums and online discussion boards, and then the community votes ad hoc on whether or not they want to go through with that change.
+And so, that's two or more parties coming together, recording an important announcement or important data point, but nowhere in that example has money or anything of monetary value exchanged hands.
 
-Members can't directly propose and vote on updates to Bitcoin within the actual software, but at least the current mechanism gets the job done.
+Now, if we peel away the very last layer, you can take away this idea of having to have two or more parties.
 
-<h3>Ethereum Timeline</h3>
+And what we're left with is just a single party announcing an important or significant event.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image050-2013-2016-ethereum-timeline.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image050-2013-2016-ethereum-timeline.png" 
-	alt="2013-2016: Ethereum Timeline: Bitcoin vs Ethereum"</>
-</p>
-&nbsp;
+And this is the simplest type of blockchain transaction, and also the most powerful.
 
-After Bitcoin, the next most influential blockchain platform is Ethereum.
+If we think about blockchain, perhaps for managing a supply chain scenario, we might have a grower of organic produce announce or commit a record to the blockchain that says they've planted a crop.
 
-Bitcoin is a storage of value, that is to say, it’s “coin-centric”.
+And we might have an organic pesticide company come and treat that organic produce.
 
-It was created as a medium of payment transaction and a store of value, an alternative to regular money.
+We still have a single organization or single entity making the announcement of something they did, and this is really the heart of blockchain.
 
-Ethereum, on the other hand, was developed as a platform to execute peer-to-peer “smart contracts” and applications.
+When you understand that it becomes really easy to understand where smart contracts fit in.
 
-It supports Turing-complete languages, meaning that it can perform general computation.
+And smart contracts are just computer code. 
 
-In other words, any type of code that I run on a regular computer can also be run on Ethereum.
+They're codified logic that we can use to respond to any kind of event that gets captured on the blockchain.
 
-Code execution on Ethereum is fueled by Ethereum’s internal token, called ether.
+In that organic produce example, if I want to notify someone when that fresh produce has been treated with organic pesticide, so I can create traceability for the end consumer, well, I might have a smart contract that manages that that defines the rules and the steps that get taken when that particular type of event occurs.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image051-2013-2016-ethereum-blows-up.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image051-2013-2016-ethereum-blows-up.png" 
-	alt="2013-2016: Ethereum Timeline: Ethereum Blows Up in Multiple Ways"</>
-</p>
-&nbsp;
+And this is all smart contracts are.
 
-Ethereum was first described in a whitepaper released in late 2013 by then 19-year-old Vitalik Buterin, a programmer from the University of Waterloo.
+There's oftentimes a misconception when people hear the word contract that they think of a legally binding agreement between two or more parties.
 
-The platform had a token sale between July and August 2014 and sold 7.4 million ether for 3700 BTC in the first 12 hours of the presale.
+It's not necessarily the case. Smart contracts don't have to be legally binding and they don't have to involve multiple parties.
 
-At the time, this was equivalent to 2.3 million USD, or in Bugatti terms, about 1.2 Veyrons.
+In fact, if you come from a programming or development background you can think of a smart contract easily enough as a "class".
 
-The Ethereum blockchain officially went live on July 30th 2015, and by May 2016, the cumulative value of Ethereum tokens was more than \$1 billion.
+If you're not a programmer or don't come from a developing background, you can just think of a smart contract as a set of rules that get executed every time a certain type of event happens.
 
-<!------------------------------------------------------------------------------------------------>
-<!------------ 2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations -------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image052-2013-2016-ethereum-timeline-dao.png" 
-	alt="2013-2016: Ethereum Timeline: Decentralized Autonomous Organizations"</>
-</p>
-&nbsp;
+And this is where the real power of blockchain comes in that not only do we have a permanent, unchangeable record of all the different events that have occurred, we can also write computer code, very, very non-subjective computer code, that defines exactly how that process is going to be managed and what steps are going to be taken when that event occurs.
 
-Around that time, the idea of Decentralized Autonomous Organizations (DAOs for short) became hugely popular.
+This allows us to ensure process consistency.
 
-DAOs are essentially programs on the Ethereum blockchain that create a distributed government.
+It allows us to ensure that processes that are normally fulfilled by intermediaries or middlemen can now be satisfied on their own without the need for human intervention.
 
-“TheDAO” was a specific project that would serve as a decentralized Venture Capital, allowing their investors to vote and decide on the distribution of funds between startups.
+And this leads to much more lean and efficient organizations in way of organizing human effort.
 
-However, in July 2016, these dreams came crashing down when a hacker exploited a bug in the underlying code, stealing about \$120 million worth of Ether from TheDAO smart contract.
+When you hear smart contract just think about computer code that you write to respond to certain types of significant events.
 
-Outraged by the enormous theft, several voices in the community proposed to defy the protocol and undo the hack.
+If you've ever worked with workflow or business process automation or management tools, you can think of smart contract is just being another workflow tool, albeit one that has the power to work with money.
 
-The majority of community decided to simultaneously rewind their own chain and ignore all activity starting from the hack, but a small subset chose not to undo that activity with the belief that “code is law.”
+Don't get too intimidated when you hear smart contracts, and don't get too caught up in the language.
 
-The split that rewinded (zurückgespult) history is the split that is currently branded as Ethereum.
+While they sometimes may be legally binding, they're not necessarily legally binding in the same way a true contract is.
 
-The remainder that believed that nothing - including catastrophic events like the DAO Hack – should be reverted stayed on the main chain, now known as Ethereum Classic.
+They're just a way for us to bake our own logic into block chain solutions to ensure that consistency of execution.
 
+<h3>Smart Contracts Recap</h3>
+Let’s review some basic information about smart contracts:
+<ul>
+<li>They are computer programs that execute an action based on terms and conditions.</li>
+<li>Can also be known as chain code.</li>
+<li>Smart contracts have terms recorded in a computer language instead of legal language. Smart contracts are not necessarily legally binding and do not need multiple participants.</li>
+<li>Each step of a smart contract can only be implemented after the execution of the immediate former step.</li>
+<li>Smart contracts are written in Solidity, a programming language designed for developing smart contracts that run on the Ethereum Virtual Machine.</li>
+<li>The smart contracts act as a foundation to build decentralized applications (DApps).</li>
+<li>Once executed, the information in the smart contract is stored on a blockchain which cannot be altered.</li>
+</ul>
+ 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- image053-2016-to-present-ethereum-bubble.png (64) ---------------------->
+<!------------------------------- smart contracts handshake (83) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image053-2016-to-present-ethereum-bubble.png" 
-	alt="2016-??: Ethereum Bubble"</>
-</p>
-&nbsp;
-
-<h3>Ethereum Bubble</h3>
-
-On June 21st 2017, the price of Ethereum on the exchange GDAX crashed briefly to 10 cents USD per ether due to a massive sell order.
+<p align="center">
+<img src="/images/image-smart-contracts-handshake.png?raw=true"
+   alt="Smart Contracts - Handshake"
+   width="85%" >
+ 
+<h3>What Do Smart Contracts Provide?</h3>
+These are some of the features that smart contracts provide:
+<ul>
+<li>Accuracy</li>
+Replacing human intermediaries with executable code ensures the process will always be performed the same.</li>
+<li>Cost savings</li>
+Replacing intermediaries often provides significant cost reduction.</li>
+<li>Efficiency</li>
+Removing process intermediaries often results in significant process efficiency gains.</li>
+<li>Backup</li>
+A blockchain and smart contract deployed to it can provide a permanent record, allowing for auditing, insight, and traceability, even if the creator is no longer in business.</li>
+<li>Autonomy</li>
+Smart contracts can be developed by anyone, no need for intermediaries such as lawyers, brokers, or auditors.</li>
+</ul>
 
-This is a testament to the massive volatility of cryptocurrency prices.
+<h3>Campaign Finance</h3>
+<p>
+One area getting a lot of attention in blockchain right now, is campaign finance and campaign donations.
 
-Much of the price is dependent on the public perception of the currency.
+There are some really interesting and compelling use cases, ways that we might be able to use blockchain to do new and innovative things around campaign finance that just aren't practical or feasible today.
 
-Here are a few things that affected it.
+Let's say that I'm running for office and you want to support my campaign.
 
-Speculation about how the SEC would rule on the DAO Hack led to a drop in prices, since more SEC regulation would mean that it would be much harder to trade cryptocurrencies.
+Well, today, you might write me a thousand dollar check and I get all 1,000 of those dollars right away to use for my campaign.
 
-On the other hand, the advent of cryptocurrency exchange-traded-funds like the Winklevoss Bitcoin ETF meant that the average person could invest in cryptocurrencies without having to worry about dealing with exchanges and storing the tokens.
+Maybe, we want to use blockchain to empower voters to keep their politicians more accountable to the promises they make on the campaign trail.
 
-Initial coin offerings, or ICOs, have also been a huge factor in the price of Ether.
+Consider the following scenario.
 
-We’ll talk more about them later on, but know that in the third quarter of 2017 Q3’17, ICOs have raised \$1.3B with 150 ICOs while seed/angel investing across all tech sectors has raised \$1.4B across 1602 deals.
+Let's say, that instead of donating a thousand dollars to my campaign, you write a smart contract on the blockchain to manage campaign donations.
 
-Venture capital funds have also started investing into Ethereum technology, either into the ICO like Blockchain Capital, or directly into the token like Polychain Capital.
+You give that smart contract a thousand dollars instead.
 
-Given the exploding interest surrounding cryptocurrencies, FOMO, or “Fear of Missing Out” plays a role in many people’s investing decisions.
+That smart contract has been programmed with the terms and conditions under which it is able to release those funds to my campaign.
 
-For better or for worse, people don’t want to miss out on the “next bitcoin”, and end up investing in cryptocurrencies like Ether, driving the price in upin a positive feedback loop.
+I might get two hundred and fifty dollars of that thousand initially to use for my election.
 
-The fact that Bitcoin’s and other cryptocurrencies’ prices are starting to be broadcasted on public radio further contributes to this “FOMO.”
+If I get elected, the remaining $750 can stay in the smart contract.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 2016-2017: Hype Train -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image054-2016-2017-hype-train.png" 
-	alt="2016-2017: Hype Train"</>
-</p>
-&nbsp;
+Otherwise, it gets refunded to you.
 
-And economic and political circumstances like Brexit, Trump’s election, or India’s war on cash can also contribute to driving up the price of cryptocurrencies, since they tend to undermine people’s trust in centralized systems and cause them to shift towards more decentralized systems like cryptocurrencies.
+Let's say, I do get elected. Perhaps, I don't get the second 250 of that thousand dollars until a year in office, if I fulfilled three or more of my campaign trail promises.
 
-Due to some economic and political situations, and of course the aforementioned Fear of Missing Out, cryptocurrencies became extremely popular, resulting in a massive hype train.
+And then, we might say as a final step, I get the remaining five hundred dollars to use for my reelection, only if I fulfilled 80% or more of my campaign promises during my first four-year term in office.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 2016-2017: More Hype Train -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image055-2016-2017-hype-train-2.png" 
-	alt="2016-2017: More Hype Train"</>
-</p>
-&nbsp;
+This would put a lot of power back in the hands of voters and would keep politicians accountable for the promises they make, long after election day.
 
-In December 2017, cryptocurrencies started attracting much more “mainstream” attention, and let to a change in the demographic of the people who were invest, in particular, an increase in the number of millennials getting involved.
+While things like this certainly are possible with conventional technology, they're not very practical or feasible.
 
-A decentralized application built on top of Ethereum called CryptoKitties, an online marketplace for virtual cats, became so popular that at one point, it contributed to 10% of Ethereum’s total network transaction volume.
+Blockchain and smart contracts puts this power back in the hand of voters and has the potential to radically reform campaign finance and campaign donations.
 
-It’s important to have an educated understanding of the space…...rather than make decisions based on volatility and prices.
+<h3>Blockchain Security vs. Standard Cybersecurity</h3>
+<p>
+Blockchain is commonly called the future of computing. It takes a very different approach to data storage and processing and requires a very different perspective for security.
 
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ 2017-2019ish: Get Off at this Station ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image056-2017-get-off-at-this-station.png" 
-	alt="2017-2019ish: Get Off at This Station"</>
+In this section, we will discuss some of the ways that security differs in traditional and blockchain environments.
 </p>
-&nbsp;
-
-Although the price of Bitcoin is many, many times higher than what it was a year ago, it’s started to take a downward turn in the beginning of 2018 after peaking in December 2017.
-
-An increase in the amount of international regulation especially in India...South Korea…US and the UK, combined with a “mob mentality” of people investing without truly believing in the technology led to quickly changing market caps, and eventually the hype train crashed.
-
-<h3>Intro: Enterprise Blockchain</h3>
-
-While blockchain technology was initially developed to underlie cryptocurrencies, it quickly drew the attention of enterprises, which wanted to harness the same technology to create private or permissioned blockchains.
-
-Thus, gave rise to enterprise blockchains.
-
-We’ve been talking a lot about public blockchains like Bitcoin and Ethereum.
-
-Now we’ll be switching gears to see how blockchain fits in with enterprises, particularly with banks -- ironically enough.
-
-As a technology that was initially created to avoid large banks and powerful centralized institutions, blockchain seems to have come full circle...
-
-<h3>Banks and Blockchain</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Banks and Blockchain -------------------------------------->
+<!-------------------------------- blockchain security (85) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image057-banks-and-blockchain.png" 
-	alt="Banks and Blockchain"</>
-</p>
-&nbsp;
-
-As blockchain became more mainstream, banks started to pick up on the technology as well.
-
-They took note of Bitcoin and what it offered as a digital currency, but did not agree with Bitcoin’s design goals of being open, decentralized, and trustless.
-
-After all, banks want their users to trust them, and keep operations private and controllable.
-
-Banks looked for a way to apply blockchain technology WITHOUT having to replace the US dollar or any other national currency with cryptocurrency.
+<p align="center">
+<img src="/images/image-blockchain-security.png?raw=true"
+   alt="Blockchain Security"
+   width="65%" >
 
-They wanted to find ways to leverage this new distributed ledger technology without inheriting the trustless, distributed, and decentralized overhead from Bitcoin.
+<h3 id="ch3-3">3.3 Introduction to Blockchain Security vs. Standard Cybersecurity</h3>
+<p>
+In this section, we're gonna talk a bit about how traditional cybersecurity is different than security concerns on the blockchain.
 
-This led to a rise of interest in “private blockchains” or “permissioned ledgers,” where the network is not open, not trustless, and does not have a mining scheme with underlying economic incentives (mining rewards).
+In traditional cybersecurity that we're all used to, we're very perimeter-focused meaning that we put trusted data and assets behind a very, very strict perimeter.
 
-In a sense, they wanted to separate “blockchain” from “Bitcoin”.
+We assume that anybody we let inside that perimeter is trusted, either partially or fully, to see that data and access those resources.
 
-These blockchains take the fundamental cryptographic technology from bitcoin (public key cryptography) and modify it to be more compliant to enterprise use.
+And the brunt of our focus goes into making sure that we keep the right people from getting beyond that perimeter, that we only let authorized users through, and then we prevent any attackers or strangers from breaching that perimeter and accessing the data and resources we store behind it.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Private Blockchain Initiatives ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image058-private-blockchain-initiatives.png" 
-	alt="Private Blockchain Initiatives"</>
-</p>
-&nbsp;
+This is very different from blockchain, which runs on a massively decentralized peer-to-peer global network.
 
-There are many different enterprise technologies in the space today, including R3’s Corda, Chain, JP Morgan’s Quorum and Juno, and Digital Asset Holdings.
+Just by its very definition, you can see that there is no perimeter on blockchain, and so our security has to come from somewhere else.
 
-The Hyperledger project is an open source blockchain run by Digital Asset Holdings and the Linux Foundation.
+Our security on blockchain comes from the incredible amount of repetition.
 
-IBM’s Open Blockchain is a platform that is now part of the Hyperledger project as “Fabric”.
+The fact that we ask every node to keep the same copy of the ledger and periodically to reach consensus, majority consensus, on what the proper data in that ledger should be.
 
-The way that companies, especially financial institutions, have looked at blockchain technology has changed drastically over the past few years.
+This makes the amount of work that an attacker would have to do practically impossible, if they wanted to change, hack, or alter the ledger.
 
-Let’s take a look specifically at Jamie Dimon, the CEO of JP Morgan Chase...
+Another big difference between traditional cybersecurity and security on the blockchain is with conventional applications and conventional technology.
 
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- Quotes from Jamie Dimon, the CEO of JP Morgan Chase ----------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image059-dimon-quotes.png" 
-	alt="Quotes from Jamie Dimon, the CEO of JP Morgan Chase"</>
-</p>
-&nbsp;
+We either develop all our own code or application parameters in-house or we rely on a single, third-party trusted provider who creates that line of business system for us.
 
-...As one of the most influential figures in the financial sector, his words can play a huge part in shaping the public opinion on blockchain.
+All the code, generally, comes from one place, and if we don't write it ourselves, all we have to have is trust and faith in the third-party organization providing it to us.
 
-In January 2014, he said about Bitcoin “It’s a terrible store of value. It could be replicated over and over.”, which doesn’t really mean anything, indicating that people really didn’t, and still don’t understand what Bitcoin is.
+In blockchain, things are a little bit different, because oftentimes in blockchain solutions we're writing smart contracts which call code from other smart contracts, which we may or may not write ourselves.
 
-<!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
-<!------------------------------------------------------------------------------------------------>
-p align="center" width="100%">
-<img width="50%" src="/images/image060-dimon-quotes-2.png" 
-	alt="Quotes (2) from Jamie Dimon, the CEO of JP Morgan Chase"</>
-</p>
-&nbsp;
+And which may come from a variety of different authors.
 
-In October 2014, he said “\[Bitcoin developers\] are going to try and eat our lunch. And that’s fine. That’s called competition, and we’ll be competing.”
+Whereas in the traditional cybersecurity space, we really only need to rely on our own due diligence to write secure code or the due diligence of a third-party application provider.
 
-The statement seems aggressive, but he actually gives legitimacy to Bitcoin by suggesting that it’s a competitor to traditional banks and finance.
+In blockchain, we have to expend a lot more time and energy, making sure that the code and the contracts we're calling is safe and secure.
 
-<!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image061-dimon-quotes-3.png" 
-	alt="Quotes (3) from Jamie Dimon, the CEO of JP Morgan Chase"</>
-</p>
-&nbsp;
+In other words, we want to make sure that we're not inheriting any security vulnerabilities from other smart contracts that have been written by unknown and potentially untrusted parties.
 
-In November 2015, “Virtual currency, where it’s called a bitcoin vs. a US Dollar, that’s going to be stopped…No government will ever support a virtual currency that goes around borders and doesn’t have the same control. It’s not going to happen.”
+And the final big difference between conventional cybersecurity and blockchain is that in conventional line of business systems all of our applications either run directly on trusted hardware that we own as an organization or run on hardware with a high degree of trust provided by a third-party such as Microsoft Azure or Amazon Web Services.
 
-Now, Bitcoin isn’t just competition, it’s a bona fide threat.
+In the blockchain world, all of our code runs on untrusted resources, untrusted hardware that can be owned by anyone, anywhere in the world.
 
-It’s something that bankers can’t control, and they hate it.
+This means that we must ensure that all the trust in a blockchain solution comes from the protocol and the code layer itself, because it's a much more massively distributed network, and we don't have direct control or access into the hardware that supports it.
 
-<!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image062-dimon-quotes-4.png" 
-	alt="Quotes (4) from Jamie Dimon, the CEO of JP Morgan Chase"</>
+There are a lot of differences between conventional cybersecurity and security in the blockchain space that you're going to want to understand before you deploy your own blockchain solutions.
 </p>
-&nbsp;
-
-In October 2017, he said “Bitcoin is a fraud that won’t end well. If you’re stupid enough to buy Bitcoin, you’ll pay for the price of it one day. The blockchain is a technology which is a good technology. We actually use it...God bless the blockchain.”
 
-Note that it looks like Dimon has started to understand the merits of blockchain technology as opposed to just Bitcoin itself.
+<h3>Blockchain Security Environment</h3>
+One of the primary differences between cybersecurity in a traditional computing environment and on the blockchain is the environment itself and what it is and isn't designed to do.
 
-His stance towards Bitcoin doesn’t seem to have changed.
+<h3>Standard Cyber Security</h3>
+<ul>
+<li>The traditional computing environment is a company network fully or, at least mostly, under the control of the company's computer security staff.</li>
+<li>While many organizations are making the shift to cloud-based environments, they still have a high degree of control over the security and configuration of their rented systems.</li>
+<li>Traditional networks are highly centralized, and the focus of cybersecurity on these systems is primarily perimeter-focused. All systems and authorized users on the network are trusted or semi-trusted, so the focus is on preventing attackers from entering from outside the network.</li>
+</ul>
 
-These comments were actually made at an event hosted by the Institute of International Finance, which was hugely publicized.
+<h3>Blockchain Cyber Security</h3>
+<ul>
+<li>Blockchains are designed to be decentralized, distributed systems running on untrusted hardware.</li>
+<li>While security in traditional environments is designed to provide security by putting all data in one place and building walls around it, security in blockchain is based on ensuring that data is protected from modification by copying data to as many locations as possible to make modification of all copies infeasible.</li>
+<li>Traditional infrastructure focuses on confidentiality and integrity, while blockchain is designed to provide integrity and availability.</li>
+</ul>
 
-Just to drive his point home, here are some more comments he made in September 2017.
+<h3>Security Attacks</h3>
+Both traditional computing environments and blockchain have security considerations associated with them. In many cases, the same attack is possible against both paradigms, but the details of how to implement it vary.
+Next, we will discuss how a few different attacks can be launched against traditional computing environments and blockchain.
 
-<!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image063-dimon-quotes-5.png" 
-	alt="Quotes (5) from Jamie Dimon, the CEO of JP Morgan Chase" </>
-</p>
-&nbsp;
-
-“I’d fire a JP Morgan trader in a second who traded \[Bitcoin\]. It’s against the rules, it’s stupid, it’s dangerous.”
-
-And in another quote he said “One of my daughters bought bitcoin and it went up, she thinks she is a genius.”
+<h3>Security Attacks: Denial-of-Service (DoS)</h3>
+A denial-of-service (DoS) attack is when an attacker makes it impossible for a system to serve its users as designed. 
 
-<!------------------------------------------------------------------------------------------------>
-<!------------------ Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase --------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image064-dimon-quotes-6.png" alt="Quotes (6) from Jamie Dimon, the CEO of JP Morgan Chase" </>
-</p>
-&nbsp;
-
-In January 2018, he said “The blockchain is real. You can have crypto yen and dollars and stuff like that … the bitcoin to me was always what the governments are gonna feel about bitcoin as it gets really big, and I just have a different opinion than other people.”
+This can be accomplished by exploiting a flaw in the system, but, more commonly, is accomplished by performing legitimate actions at a rate higher than the target can handle. 
 
-<h3>Blockchain Community and Politics</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image065-crypto-anarchy.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image065-crypto-anarchy.png" 
-	alt="Crypto Anarchy"</>
-</p>
-&nbsp;
+To be effective, denial-of-service attacks typically focus on a system’s weakest link or bottleneck.
+<ul>
+<li>In traditional environments, denial-of-service attacks target a company's web server to prevent customers from accessing the company's services. This can be accomplished by making more connection requests than the server is capable of supporting.</li>
+<li>In blockchain, a denial-of-service attack involves submitting more transactions to the blockchain than it can handle. Since many blockchains have fixed-size blocks created at a fixed rate and are stored in a distributed fashion, they have a maximum capacity that a determined attacker can exceed, rendering the blockchain unusable.</li>
+</ul>
 
-Cryptocurrency and blockchain technology started its roller coaster of a journey with a small group of cypherpunks, who believed in cryptography as means to promote privacy…it had a rough beginning as we saw with the failed DigiCash…but now we’ve ended up here at JP Morgan Chase, one of the largest American multinational financial services firms.
+<h3>Security Attacks: Endpoint Security</h3>
+Traditional infrastructure and blockchain environments also differ with regard to endpoint security. Endpoint security originated to ensure multi-layer prevention against malware, fraud, cyber threats, and attempts to extract private information.
+<ul>
+<li>In traditional cyber, endpoints are under the control of the enterprise and have some level of heterogeneity. Heterogeneity can be dangerous because an attacker has more options for finding a vulnerability to exploit.</li>
+<li>In blockchain, endpoints are the nodes and may be completely homogeneous. While homogeneity means that a flaw in one system is a flaw in all of the systems, blockchains built in trust and data privacy feature guard against such attacks.</li>
+</ul>
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image066-digicash.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image066-digicash.png" 
-	alt="Digicash: Untraceable Electronic Cash"</>
-</p>
-&nbsp;
+<h3>Security Attacks: Code Vulnerabilities</h3>
+Computer applications are dependent on reliable code. Another way that traditional and blockchain cybersecurity differ is in the level of trust in the code used in a company's applications.
+<ul>
+<li>In traditional cyber, the company writes most of the code, and vulnerabilities can arise only from code that the company controls.</li>
+<li>In blockchain, anyone can write a smart contract, and a flaw in the smart contract or the underlying platform code can have wide-reaching consequences. But since smart contracts can be vetted and reused, such inconsistency can be edited from the code. We will discuss an example of a vulnerability in a platform's code in a later section covering the Ethereum network.</li>
+</ul>
 
-The history of Bitcoin and Blockchain is a story of rapid transformation.
+<h3>Security Attacks: Intentional Misuse</h3>
+Both traditional and blockchain environments are vulnerable to attacks based on intentional misuse of the system.
+<ul>
+<li>In traditional cyber, insider attacks or intentional misuse of the system by clients are possible. In fact, a denial-of-service attack is a specific type of intentional misuse.</li>
+<li>Blockchain systems are set up to incentivize network participants, miners or nodes, to do something that is in their best interest. A weakness is, if more than half of the network's processing power is controlled by a single group, the network is controlled by that group.</li>
+</ul>
 
-Originating as a fledgling technology founded on libertarian ideals, Bitcoin had its beginnings in an industry full of scandals and activity.
+<h3>Security Attacks: Data Protection</h3>
+Finally, traditional infrastructure and blockchain differ in their goals regarding data protection.
+<ul>
+<li>In traditional cyber, data is siloed, and access is strictly controlled by the owners, placing responsibility for confidentiality, integrity, and availability in their hands.</li>
+<li>In blockchain, data is distributed, and the blockchain is relied upon to provide integrity and availability.</li>
+</ul>
 
-As bitcoin began to rise in value and attract attention from a wider and wider audience, there was a shift in focus away from Bitcoin itself and more into the other innovations made possible by the underlying technology, the blockchain.
+<h3>Lab 3: The Blockchain</h3>
+Next, let's engage with an interactive lab. In this lab, you will be examining a blockchain containing five blocks, each labeled according to position. Enjoy!
+<br/>&nbsp;
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image067-community.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image067-community.png" 
-	alt="Community: Where Does the Community Exist?"</>
-</p>
-&nbsp;
+[Start Lab](https://blockchaintrainingalliance.com/pages/lab-distributed)
 
-Where exactly do people discuss bitcoin and blockchain technology?
+<h3 id="ch3-4">3.4 Different Types of Blockchains (Public & Permissioned Blockchains)</h3>
+When we try to understand the main difference between a public and private blockchain, it is important to understand the terminology.
+<ul>
+<li>Public Blockchains<br/>
+A public blockchain is open to anyone to join. 
+Public blockchains are decentralized where no one has control over the network. 
+These immutable and censorship resistant networks are ideal for participants who don't trust each other, but still interact in a network and take part in consensus. 
+Bitcoin and Ethereum are examples of public, permissionless blockchains.</li>
+<li>Permissionless Blockchains<br/>
+Public blockchains are permissionless. Anyone effectively can join the blockchain network. No one is prohibited from joining.</li>
+<li>Private Blockchains<br/>
+Private blockchains define a user's rights on the network prior to admittance. Restrictions are placed on activities such as who can write to the ledger and what transaction they can participate in. Hyperledger and Corda blockchains are examples of private permissioned blockchains.</li>
+<li>Permissioned Blockchains<br/>
+In a permissioned blockchain, participation is permissioned by an organization or a consortium of organizations. This empowered entity defines who can participate in certain transactions and consensus on the network.</li>
+</ul>
 
-There are a few different forums that people use.
+<h3>Public (Permissionless) Blockchains</h3>
+When people get into blockchain, there's a natural discussion about what type of blockchain, because blockchain comes in many different types and flavors.
 
-There’s Reddit’s r/bitcoin, online discussion boards like Bitcointalk.org, Bitcoin meetups and conferences, and Bitcoin specific IRC Channels.
+And normally, we hear about public versus private blockchains.
 
-There are also organizations like us (Blockchain at Berkeley), that are dedicated to discussing and pushing forward blockchain technology.
+One factor that often gets left out is also the idea of an open versus closed blockchain.
 
-We have a Slack channel with over 2000 members that people use to discuss news and developments in the blockchain space.
+And it's important to consider both parameters, so you know where on a possible solutions quadrant your idea falls.
 
-We also host many public events, workshops, and meetups, teach multiple classes on the UC Berkeley campus, and also this one online.
+When we talk about public and private, what we're really talking about is who is able to write data onto that blockchain or onto that immutable ledger.
 
-And this all done to foster and develop the blockchain community.
+The open versus closed brings in to consideration who's able to read that data.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image068-politics-dont-tread.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image068-politics-dont-tread.png" 
-	alt="Politics: Internal Politics and Libertarianism"</>
-</p>
-&nbsp;
+And so, we can talk about solutions which are public and open, public and closed, private and open, private and  closed.
 
-But within the community, there’s always some internal political debate going on.
+When we talk about public blockchains, what most folks are really talking about is a public open blockchain.
 
-For example, there’s a lot of the internal politics that occurs between miners, who want higher transaction fees, and merchants, who want lower transaction fees.
+It's a blockchain where anybody can come write data to the blockchain, anybody else can come read that data.
 
-There’s also politics regarding the scalability debate in Bitcoin, the Ethereum split, and many other issues in the space.
+Public blockchain platforms like Bitcoin, Ethereum, Litecoin tend to get talked about a lot right now,
+and these are what we also refer to as permissionless blockchain platforms meaning that they really strive to, by design, increase and protect the user's anonymity.
 
-Most of the core Bitcoin community can be very libertarian, as we’ve seen with the roots of Bitcoin and the cypherpunks.
+And, if we don't know who a user is, if we don't have a way of identifying individuals, and we don't have any way of creating permission or access rules around that user, and it's what we get, is the system where anybody can commit data to that blockchain and anybody can come along and read data to that blockchain.
 
-And oftentimes, people’s political views influence how they feel towards technological debates as well.
+There's a perception that public blockchain platforms like Ethereum can't be used to build permission scenarios or to control access to data.
 
-It’s a common sentiment that getting die hard libertarians to agree is a very hard problem.
+The truth is they can, they just don't give you the built-in tools that a private or permission blockchain platform will.
 
-Many libertarians think that implementing blockchain into the government is a good way to hold governments accountable.
+You can always use these open public platforms to build a permission solution, but just understand that it's upon you, your architects, and your developers to create that permissioning model, and that all starts with some kind of identity management system.
 
-On the other hand, libertarians also think that people should be able to do what they want.
+When you think of public blockchains, you think about blockchain platforms like Ethereum, understand, by default, by the very nature and design, they're designed to protect anonymity.
 
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image069-politics-dont-tread-2.png" 
-	alt="Politics: More Internal Politics and Libertarianism"</>
-</p>
-&nbsp;
+And, if we don't know who a user is, then we really have no way of creating permissions, role-based access and controlling what data they can read or write.
 
-The flag on this slide is the Gadsen flag, which has strong Libertarian roots.
+In a lot of situations, this is desirable, this is why we see cryptocurrencies based on public blockchain platforms, because having that anonymity is important.
 
-It’s used as a libertarian symbol because the porcupine is the “quiet”, unassuming warrior of the forest, which doesn’t attack so long as you leave it alone.
+And, if a user has a currency, something of value, they should be able to exchange it and spend it, and do what they want with it, just like anybody else.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image070-controversial-topics.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image070-controversial-topics.png" 
-	alt="Conversational Topics"</>
-</p>
-&nbsp;
+We don't want to treat any class of users differently than any others in those scenarios.
 
-The United States government tries to best represent its citizens’ opinions and interests through a representative democracy.
+That's a public blockchain, and that's a very different animal from the private permission blockchain.
 
-In the blockchain community, there are different ways of coming to consensus about the changes that happen, and the process isn’t always smooth.
+<h3>Public Blockchain Benefits</h3>
 
-For example, in a previous section, we talked about Bitcoin Improvement Proposals.
+In the ["Public vs. Private Blockchain In a Nutshell"](https://medium.com/coinmonks/public-vs-private-blockchain-in-a-nutshell-c9fe284fa39f) article by Demiro Massessi, public and private blockchains have different features. The benefits of public blockchain are:
+<ul>
+<li>Ledger is distributed<br/>
+The database is not centralized like in a client-server approach, and all nodes in the blockchain participate in the transaction validation.</li>
+<li>Immutable<br/>
+When something is written to the blockchain, it cannot be changed.</li>
+<li>Open Consensus Model<br/>
+No restriction placed on who can operate a node in the network.</li>
+<li>Open read and write<br/>
+Anyone can participate by submitting transactions to the blockchain, such as Ethereum or Bitcoin; transactions can be viewed on the blockchain explorer.</li>
+<li>Low barrier to entry<br/>
+Transactions on a public network can be accomplished with an Internet connection and a cell phone.</li>
+<li>Secure due to mining (51% rule)<br/>
+With Bitcoin, obtaining a majority of network power could potentially enable massive double spending, and the ability to prevent transaction confirmations, among other potentially nefarious acts. This has never been accomplished as the computing power needed to stage such an attack would be too costly.</li>
+</ul>
 
-Some controversial topics in the blockchain space have been surrounding problems like block size (specifically segwit2x), confirmation times, and centralization in third party companies (Intel’s SGX).
+<h3>Private (Permissioned) Blockchains</h3>
+The counterpart to a public blockchain is naturally a private blockchain.
 
-In this course, we explain these issues in an objective fashion, and let you form your own opinion on these debates.
+These are platforms like Hyperledger or Hashgraph.
 
-<h3>Intro: State of the Industry</h3>
+And private blockchains are more specifically known as permissioned blockchains.
 
-We’ve told the story of Bitcoin and blockchain: from the cypherpunk movement all the way to JP Morgan Chase.
+When we talk about private blockchain or when you hear folks talking about private blockchain solutions, they tend to be talking about things on the private and closed end of the spectrum.
 
-We’ve also explained a bit about the Bitcoin and blockchain community: where it exists both online and offline, and a bit about the political landscape.
+We want to control who can write data to this blockchain, and we want to control who can read data from this blockchain.
 
-So where is the space now?
+And in order to do that, the first step is identity.
 
-That’s what we’re going to explore in this next section on the state of the industry.
+If we don't know who a user is, it becomes difficult, if not impossible, to define rules about what data they can commit to the ledger and what data they can consume from the ledger.
 
-<h3>ICO’s:</h3>
+When we talk about private blockchain, just think about permission blockchain, the blockchain which right from the beginning is an idea of who you are.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image071-icos-the-hype.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image071-icos-the-hype.png" 
-	alt="ICO's: The Hype"</>
-</p>
-&nbsp;
+And this is very different from a public platform like Ethereum, in which the platform tries to protect and maximize anonymity.
 
-Nowadays, you can’t speak about the state of the blockchain industry without at least mentioning ICOs, or initial coin offerings.
+And we, by design, don't know who a user is, unless we build in that kind of identity management scheme.
 
-They’re a way for new projects, startups, and companies to sell their underlying crypto tokens in exchange for investors’ money.
+Private blockchains tend to come with identity management tools or a modular architecture, where you can plug in your own identity management solution.
 
-Think of ICOs as Initial Public Offerings, but instead of investors purchasing shares of a company, they purchase the coin underlying a new project.
+This can be anything from an Active Directory deployment to an OAuth solution using Google, Facebook, LinkedIn, etc.
 
-ICOs are very different from equity.
+Just understand the idea behind the private blockchain.
 
-Having a new project’s coin doesn’t give you ownership of the project, but instead enable you to use the project when it becomes available.
+All begins with understanding who a user is, because once we understand who a user is, we can determine what role they're in, and we can use that role to determine what information should they and should they not have access to.
 
-Thereby, by buying into an ICO, it shows that you are interested in this new project.
+This also changes the incentive for good behavior a little bit in a public blockchain, because we don't know who a user is.
 
-This incentivizes others to do the same, showing that the project will probably be widely used, since without the associated token, you can’t use the project.
+We rely on economics and game theory incentives to ensure that everybody in the system behaves honestly and according to the rules.
 
-For example, here are a couple famous ICOs: Bancor ICO raised \$150 million
+We set up situations through group consensus, which we discuss in other sections in this course, through which honest participants are economically rewarded,
+where dishonest ones only incur work or cost, with no possibility of ever recouping that cost.
+In a private permission blockchain, we rely on the fact that we know who a user is.
 
-Tezos (XTZ) ICO raised \$200 million Filecoin ICO raised \$253 million
+In a corporate scenario, blockchain for the business, blockchain for supply value chains, because we know who an individual is, what organization they're associated with and what their role is, we also assume that they're going to behave fairly aboveboard, because if not, we know exactly who's misbehaving and they know that they're gonna suffer the consequences for that.
 
-ICOs are permissionless and enable ANYONE to invest in a project that they feel will be successful.
+Public and private blockchains, two very, very different offerings.
 
-We put emphasis on the word ANYONE because of the open and public nature of these cryptocurrencies.
+A lot of people make the impression, get the impression that they compete with one another, when really they don't.
 
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------- image072-icos-doing-what-you-want.png ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image072-icos-doing-what-you-want.png" 
-	alt="ICO's: Doing What You Want"</>
-</p>
-&nbsp;
+They just serve to provide different types of solutions and enable different kinds of products and offerings to be built on top of them.
 
-And when you think of it, it’s pretty wild.
+<h3>Private Blockchain Benefits</h3>
 
-From this tweet:
+The following benefits of a private blockchain have been described in the ["Public vs. Private Blockchain In a Nutshell"](https://medium.com/coinmonks/public-vs-private-blockchain-in-a-nutshell-c9fe284fa39f) article by Demiro Massessi:
+<ul>
+<li>Ledger is distributed/immutable
+The database is not centralized like in a client-server approach, and all nodes in the blockchain participate in the transaction validation. When something is written to the blockchain, it cannot be changed.</li>
+<li>Compliance support
+As an enterprise, you likely would have compliance requirements to adhere to, and having control of your infrastructure would enable this requirement more seamlessly.</li>
+<li>Faster transactions
+When you distribute the nodes locally, but also have much less nodes to participate in the ledger, the performance is faster.</li>
+<li>Consensus more efficient/more options
+More options for consensus models. Enterprise or private blockchains have less nodes and usually have a different consensus algorithm, such as BFT vs. POW, which we will discuss in a later section.</li>
+<li>Better scalability
+Being able to add nodes and services on demand can provide a great advantage to the enterprise.</li>
+<li>Enterprise permissioned
+The enterprise controls the resources and access to the blockchain, hence private and/or permissioned.</li>
+</ul>
 
-“95% of Americans are not allowed by law to invest in start-ups.
+<h3>Security: Public vs. Private Blockchains</h3>
 
-Only ‘accredited investors’ are entitled to do so, but you can buy lottery tickets all you want or go to Las Vegas to gamble”
+As discussed in ["The Difference Between Public and Private Blockchain"](https://www.ibm.com/blogs/blockchain/2017/05/the-difference-between-public-and-private-blockchain/) article by Praveen Jayachandran, both public and private blockchains share many similarities:
+<ul>
+<li>Both are decentralized peer-to-peer networks, each maintaining a shared append-only ledger of digitally-signed transactions.</li>
+<li>Both maintain transaction replicas in-sync through a protocol referred to as consensus.</li>
+<li>Both provide certain guarantees on the immutability of the ledger.</li>
+</ul>
 
-This shows that ICOs are leveling the playing field for investments.
+On the other hand, as described in [Investopedia](https://www.investopedia.com/news/public-private-permissioned-blockchains-compared/#:~:text=The%20primary%20distinction%20between%20the,and%20maintain%20the%20shared%20ledger), the main difference between a public and private blockchain is related to who is allowed to participate in the network, execute the consensus protocol, and maintain the shared ledger:
+<ul>
+<li>A public blockchain network is completely open and anyone can join and participate in the network.</li>
+<li>A private blockchain network requires an invitation, and must be validated by either the network starter or by a set of rules. Private blockchains are usually set up as permissioned networks, placing restrictions on who is allowed to participate in the network, and only in certain transactions.</li>
+</ul>
 
-Normal people now can invest in any blockchain project they want to.
+<h3>Public and Private Comparison</h3>
+Now that we've talked about public and private blockchains, what those terms mean and again, you can think of that as permission versus permissionless blockchains, 
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image073-explosion-of-altcoins.png  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image073-explosion-of-altcoins.png" alt=" "</>
-</p>
-&nbsp;
+We can talk about some of the differences and what each different type of platform aims to provide.
 
-And with so many new projects coming out, some with more potential than others, the community needs some way to support them.
+Public blockchains are really good for scenarios where protecting the anonymity of users is important or adds value to the solution and they're really great platforms for solutions where all users should be treated equally and we can see this because most public blockchains right now are used to support crypto currencies and this is a real great use case with a crypto currency like Bitcoin, Litecoin, ether etc.
 
-That’s where ICOs come in.
+We don't want to have any permissioning or role based access.
 
-As a comparison:
+Anybody should be able to own some Bitcoin.
 
-In Q3’17, ICOs have raised \$1.3B with 150 ICOs while seed/angel investing across all tech sectors has raised \$1.4B across 1,602 deals.
+Anybody should be able to trade it with anybody else and it's not necessarily important that we know who the participants in any transaction are.
 
-<h3>Industry Projects</h3>
+That leads to an open permissionless model with full transparency.
 
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image074-cryptokitties.png" alt=" "</>
-</p>
-&nbsp;
+This is very different in the corporate world where we see private blockchains being adopted at scale because the concerns are the opposite in a corporate scenario.
 
-Perhaps one of the most popular projects of 2017 was Cryptokitties.
+In a business scenario, anonymity is a bad thing.
 
-The idea behind Cryptokitties was to allow users to purchase, collect, breed, and sell various types of virtual cats in a virtual game run on the Ethereum blockchain.
+I want to know exactly who all the participants are and I need to know who they are because I don't want full transparency.
 
-Each Cryptokitty is unique and ownership is validated through the blockchain.
+I don't want to share all my business data with all the participants in my business network or the general public at large.
 
-Initially presented as a hackathon project at EthWaterloo in October 2017, Cryptokitties launched at the end of November 2017 and its popularity quickly skyrocketed -- so much so that in December, Cryptokitties was responsible for an all-time high transaction volume, congesting and significantly slowing down the Ethereum network.
+I want to control who sees what type of information, under what circumstances and I also want to control who is able to contribute that information onto the blockchain.
 
-Some have blamed Cryptokitties for blocking out “more serious” transactions on the Ethereum network, and some have compared Cryptokitties to the Beanie Baby craze, saying that both are naturally devoid of value.
+I might use a private blockchain solution to manage supplier vendor relationships where only myself and my suppliers can see the price that I'm paying for a certain item. 
 
-On the bright side, however, some people think that cryptokitties contributed to the popularity of ethereum and brought public awareness to the cryptocurrency space, which is helpful for the public adoption of cryptocurrencies.
+Only a particular supplier gets to see the details of the contract that I have and not the details of a contract I have with any other suppliers and I may wish to share some of this high-level macro data with consumers so that they can see the origins of the products they're buying.
 
-It’s clear that cryptocurrencies and blockchain are hugely popular now.
+But, of course, I'd want to hide the financials behind all that so when we look at how these two solution types differ, we see the public blockchains tend to focus more on b2c or business to consumer scenarios.
 
-Whether or not its mainstream spotlight and growing popularity is a good thing is another question.
+Whereas private blockchain offerings like hash graph, hyper ledger really lends themselves well to be to be scenarios supply chain value chain relationships or creating any kind of shared infrastructure between enterprises.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image075-parity-security.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image075-parity-security.png" alt=" "</>
-</p>
-&nbsp;
+Just to understand that well there's a big misconception that these are competing offerings.
 
-With the growing popularity of blockchain and cryptocurrencies, it’s important to have good wallet software.
+They're really not and many real-world use cases use components of both.
 
-Parity wallet is a popular multisignature wallet, which requires multiple people to sign off on transactions, and was created by Ethereum co-founder Gavin Wood and his team at Parity Technologies.
+It's important to understand the difference between them and it really all starts with Identity Management.
 
-Parity marketed itself as the fastest and most secure way of interacting with the Ethereum blockchain, but in November 2017, this happened…
+When you're thinking in your head about public versus private blockchain.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image076-parity-oops.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image076-parity-oops.png" alt=" "</>
-</p>
-&nbsp;
+To understand that it all begins with Identity Management and in a private blockchain I know who all the participants are right from the beginning.
 
-A user by the name of devops199 accidentally locked up 300 million US dollars worth of ether that had been owned by users of Parity multisig wallet.
+In the public blockchain, again, I don't know who those participants are and that's not to say that I can't build a permission solution on a public platform.
 
-One note: by the time I went to GitHub to take a screenshot of the issue devops199 opened up, they had already deleted their account -- which is why it says “Ghost,” which is what it says for deleted users.
+But, myself, my architects, and my developers are gonna have to develop the logic and the mechanisms behind identity management so that's public and private blockchain, two very different animals, they serve vastly different purposes.
 
-Parity had relied on an external smart contract to use as a software library for more heavy computation, and this smart contract had not had an extensive security audit before launch on the public Ethereum network.
+As you start to dig into a lot of real-world use cases, what you're going to find is many use cases make use of both types of blockchain, integrated seamlessly to you.
 
-All it took was for one curious learner to call the “kill” function -- and then 300 million was lost.
+<h3>Is Blockchain Right for You?</h3>
 
-Due to Ethereum architecture, and the immutability of public blockchains, code that is published is hard to take down, so it’s important that smart contracts do not have bugs.
+Consider the following aspects before deciding if blockchain is for you:
+<ul>
+<li>Blockchain decisions<br/>
+When it comes to decision making around which blockchain model to use, it's important to determine which platform and structure is right for your business.</li>
+<li>Intermediaries<br/>
+Blockchain implementations can eliminate middlemen from work processes.</li>
+<li>Central authority<br/>
+Some organizations rely on one person having control, with blockchain decentralized work flows without a single point of failure are emerging.</li>
+<li>Multi-party interaction<br/>
+Blockchain provides a trust layer that opens up new opportunities for participation.</li>
+<li>Visibility<br/>
+Blockchain transparency reduces dispute over what is in the ledger since agreement occurs before transactions are committed and everyone can have access to the ledger.</li>
+<li>Write access<br/>
+Public permissionless blockchains do not prohibit who can add blocks to the chain, where private permissioned can restrict access.</li>
+<li>Value transfer<br/>
+Blockchains can differ in the ways participants transfer value.</li>
+</ul>
 
-This was a huge eye-opening moment for the Ethereum community as a whole, and taught developers -- especially open source developers -- to fully audit the security of mission critical code.
+<h3>Blockchain Decision Chart</h3>
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image077-coincheck-the-biggest-yet.png  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image077-coincheck-the-biggest-yet.png" alt=" "</>
-</p>
+Let's take a look at the blockchain decision chart:
 &nbsp;
-
-Coincheck was marketed as one of the largest and most popular cryptocurrency exchanges in Asia -- at least up until a hack in January 2018 that after the dust had settled turned out to be the largest cryptocurrency hack in history.
-
-More than half a billion US dollars were stolen in the Coincheck hack of January 2018.
-
-Compare this to the already immense Mt. Gox hack in 2014 that resulted in 400 million US dollars stolen or lost.
-
-Coincheck estimated that upwards of 250,000 (two hundred fifty thousand) users were affected by the hack, and reassured users that it was not an inside job, but a legitimate breach and hack.
-
-Most of the cryptocurrency stolen in the Coincheck hack was lost in a single event.
-
-And compare this with Mt. Gox, which we had mentioned lost a majority of its cryptocurrency through multiple thefts across a span of multiple years.
-
-The landscape for crypto and blockchain is pretty wild in the current day.
-
-There are a lot of exchanges, wallet software, and other blockchain utility applications, and an even greater number of ICOs out there.
-
-Since blockchain is still young, it’s important to do your own due diligence when using blockchain software.
-
-Looking at the broader picture, that’s one of the goals of this course -- to get you to start thinking critically about blockchain fundamentals and the more technical aspects about the technology that can then help inform your own personal decisions.
-
-<h3>Module/Lecture 2 Summary</h3>
-
-<h3>Pre-Bitcoin: Libertarian Dreams</h3>
-
-In the face of increasingly powerful banks and national agencies, the Cypherpunks and Crypto-anarchists of the late 1980s advocated the use of cryptography to preserve privacy, which they defined as the power to selectively reveal oneself. They sought to develop an anonymous digital transaction system. 
-
-In October 2008, Satoshi Nakamoto released the Bitcoin whitepaper, which outlined, for the first time, an anonymous, trustless, decentralized cryptocurrency.Bitcoin was built upon a history of failed cryptocurrencies, including Digicash, Hashcash, and B-money. Bitcoin relies on Proof-of-Work, a peer validation protocol introduced by Hashcash, that expends computational power to solve cryptographic puzzles and to cast votes. As in Digicash, each node in Bitcoin maintains their own identity through public and private keys, authenticating transactions using blind signatures. As in B-money, every Bitcoin full node maintains a copy of the blockchain. Bitcoin is a deflationary currency, with 21 million total bitcoins that will be slowly introduced to the bitcoin supply via block rewards.
 
-The first transaction using Bitcoin to purchase a tangible asset occurred in 2010, when Laszlo Hanyecz exchanged 10,000 bitcoin for \$25 worth of pizza. This exchange gave bitcoins real value, a first step towards legitimacy. 
-
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image078-pizza-pizza.png -------------------------------------->
+<!------------------------------- Blockchain decision chart (97) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image078-pizza-pizza.png" alt="Image of Laszlo Hanyecz&#39;s pizzas that he ordered online. His post: &quot;I just want to report that I successfully traded 10,000 bitcoins for pizza"</>
-</p>
-&nbsp;
-
-<h3>Early Bitcoin: Scandals, Hacks, and Illegal Activity</h3>
-
-As Bitcoin began increasing in popularity, it also began facing increasing cases of thefts, hacks, and illegal activity. The first was a large hack on Magic: The Gathering Online Exchange (Mt. Gox), one of the first Bitcoin exchange website created in 2010. 
-
-Bitcoin was also used for the purchase of illegal substances on the dark web, especially through the website “Silk Road,” nicknamed the “eBay for Drugs.” As Bitcoin became more accessible and useful to the public, it steadily grew in value, reaching a bubble in 2013.
-
-Altcoins, such as Litecoin, ZCash, Stellar, Ripple, Ethereum, Dogecoin, DASH, and Monero, began popping up soon after Bitcoin’s success, each serving a different functionality.
-
-In 2014, merchants, such as Overstock.com and PayPal (with Coinbase), started accepting Bitcoin. Bitcoin startups and wallet companies, including Coinbase, Bitpay, and Blockchain.info, started appearing around this time as well. Around this time, people started to differentiate between the term blockchain from Bitcoin. 
-
-<h3>Scalability Debates and Ethereum</h3>
-
-Bitcoin is far from perfect. One of the biggest technological challenges Bitcoin faces is that of scalability. Such issues raise concern of decentralized governance. Currently, Bitcoin users may propose Bitcoin Improvement Protocols on online forums and gather ad hoc community votes on proposed matters.
-
-Another influential blockchain platform is Ethereum. While Bitcoin is a storage of value, Ethereum is a platform designed to execute arbitrary code called “smart contracts”. Users pay for code execution using Ethereum’s internal token, called ether. With Ethereum’s introduction, Distributed Autonomous Organizations (DAOs), programs on the Ethereum blockchain that create a distributed government, gained popularity. “The DAO” was a decentralized Venture Capital DAO that suffered a \$120 M hack in 2016. Disagreement about whether to roll back the history of transactions to before the hack led to two versions of Ethereum. Ethereum(the main chain) rewound the transaction history to before the hack, whereas Ethereum Classic continued the original chain despite the hack. 
-
-While concerns of the SEC’s reaction to The DAO hack initially lowered Ethereum’s price, the growing popularity of Initial Coin Offerings and cryptocurrency exchange-traded-funds increased Ethereum’s price overall. Economic and political changes in early 2017 along with an expansion of the crypto user base to include millennials further contributed to growth in Ethereum value and transaction volume.
-
-<h3>Enterprise Blockchain</h3>
+<p align="center">
+<img src="/images/image-blockchain-decision-chart.png?raw=true"
+	alt="Blockchain Decision Chart"
+	width="65%" >
 
-Meanwhile, banks started seeking ways to apply blockchain technology leading to an increased interest in “private blockchains.” Enterprise blockchain technologies today include R3’s Corda, Chain, JP Morgan’s Quorum and Juno, Digital Asset Holdings, and IBM’s hyperledger. Blockchain has come a long way -- from online ideation amongst Cypherpunks to adoption by JP Morgan Chase.
+<h3>Questions to Ask When Deciding on Blockchain</h3>
+Discussion on these topics need to be addressed when making the decision to adopt a blockchain strategy for your company:
 
-The blockchain space has expanded to include not only major financial institutions, but also the general public. Initial Coin Offerings, equity-less fundraising schemes for new crypto startups that allow anyone to participate, and the advent of Cryptokitties, an online marketplace for virtual cats, indicate the spread of blockchain across communities and also to popular culture.
-
-<h3>Readings</h3>
-
-[A Cypherpunk’s Manifesto ](https://www.activism.net/cypherpunk/manifesto.html)by Eric Hughes 
-
-Coindesk: [A Bot Named Willy: Did Mt. Gox's Automated Trading Pump Bitcoin's Price? ](https://www.coindesk.com/bot-named-willy-did-mt-goxs-automated-trading-pump-bitcoin-price/)
-
-[The DAO, The Hack, The Soft Fork and The Hard Fork ](https://www.cryptocompare.com/coins/guides/the-dao-the-hack-the-soft-fork-and-the-hard-fork/)
-
-(Optional, to Get Ahead) Princeton Textbook 1.1 Cryptographic Hash Functions (pages 23-31) 
-
-(Optional) [All You Need to Know About ICOs](https://gallery.mailchimp.com/65ae955d98e06dbd6fc737bf7/files/Initial_Coin_Offerings_Outlier_Ventures_Research.pdf)
-
-(Optional) [Digital Gold ](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X)by Nathaniel Popper 
-
-<h3 id="ch3">Module 3: Bitcoin Mechanics & Optimizations: A Technical Overview</h3>
-
 <!------------------------------------------------------------------------------------------------>
-<!------------------ Bitcoin Mechanics and Optimizations: A Technical Overview ------------------->
+<!-------------------------- Questions to ask when deciding on blockchain (98) ------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image080-bitcoin-overview.png" alt="Bitcoin Mechanics and Optimizations: A Technical Overview"</>
-</p>
-&nbsp;
-
-We’ve seen how Bitcoin works at a high level.
-
-We know what needs to be implemented.
+<p align="center">
+<img src="/images/image-questions-to-ask.png?raw=true"
+	alt="Questions to Ask"
+	width="65%" >
 
-However, we don’t know how that happens.
+<h3>Blockchain Is Like Hot Sauce</h3>
+<p>
+One important thing to keep in mind as you're evaluating blockchain, is it's like hot sauce.
 
-This lecture will teach you everything about the low-level specifics of Bitcoin that make it work.
+And I want to give credit where credit is due for this analogy.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image080-lecture-overview.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image080-lecture-overview.png" alt=" "</>
-</p>
-&nbsp;
+This was inspired by a friend of mine, Samson Williams, a thought leader in the blockchain space.
 
-First, let’s discuss cryptographic hash functions: what they are and how they are used in Bitcoin.
+But Samson loves to talk about blockchain being a lot like hot sauce.
 
-Then, we’ll see how we can use cryptographic hash functions to create a tamper-evident database -- the blockchain that we all know and love.
+Hot sauce is surprising because you can put it on a number of things and it really tastes good.
 
-We’ll then discuss digital signatures, the elliptic curve digital signature algorithm, and how we actually generate and use our private key, public key, and address.
+But there are some things hot sauce just doesn't belong on.
 
-Finally, we’ll introduce Bitcoin script and its functionality as well as its role in making Bitcoin more flexible.
+You'd never put hot sauce on an ice cream.
 
-<h3>Intro: Motivations and Definitions</h3>
+Understand that blockchain is like hot sauce - there are a lot of areas you can add a little splash of blockchain to, and end up making a much better and more compelling solution.
 
-Recall our earlier assumptions about Bitcoin: we can’t trust anyone.
+But there are some areas that you can't add blockchain to without making things a lot worse.
 
-Before, we considered trust in the context of consensus, but what about information that moves through the network?
 
-For example, if someone sees a block with my transaction in it, what’s to stop them from modifying or even replacing it?
+And just like hot sauce, there is a big misconception that blockchain is an all-or-nothing proposition, that if we're going to architect and develop a solution on blockchain, we either have to build something that exists entirely on blockchain, or we need to build something that exists entirely on conventional technology.
 
-We previously demonstrated how to have consensus on updates to the blockchain through Proof-of-Work.
+The truth is that like hot sauce, blockchain is really best when it's combined with something.
 
-Now, we will demonstrate how we can be certain that the update is the same for everyone by designing a tamper evident system.
+If you were hungry and poured yourself a big bowl of hot sauce, not only would you be unsatisfied and unhappy, but you wouldn't want to repeat the process again.
+That's the same way with blockchain.
 
-Tamper evident means that although information can be tampered, it is obvious that there has been some manipulation of the information.
+If you are looking at building a solution completely and entirely on the blockchain, without exploring some of the amazing potential that you get by combining blockchain with conventional technology, then you probably got a bad recipe.
 
-We’ll see that in order to design our tamper evident database, we first need a source of standardized randomness.
+So, when you're thinking about blockchain, and how to add it to your personal and professional life, understand that it's not a meal all by itself.
 
-For this, we’ll utilize cryptographic hash functions.
-
-<h3 id="ch3-1">Motivations and Definitions: Integrity of Information</h3>
-<!------------------------------------------------------------------------------------------------>
-<!------------------- cryptographic hash functions: integrity of information --------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image081-cryptographic-hash-functions.png"
-   alt="Cryptographic Hash Functions: Integrity of Information"
-   width="50%" />
+It's just a little splash of hot sauce you put on something that already works pretty well.
 </p>
-&nbsp;
-
-A simple way to do this is with some fingerprinting system.
-
-How do fingerprints apply?
-
-Well, think of human fingerprints.
-
-Each one is unique, difficult to forge, and close to impossible to predict.
-
-When entering another country, they often ask for your fingerprint as that is a unique identifier of you.
 
-If you are someone else, then your fingerprint changes.
+<h3>Blockchain Considerations</h3>
+Companies must consider many factors when deciding how blockchain will fit into the business model. 
 
-The same applies in Bitcoin.
+There is not a “one size fits all” blockchain but rather a well-thought-out approach that considers many options.
+<ul>
+<li>Governance<br/>
+Governance of blockchains deals with a system for managing and implementing changes to blockchains. Chapter 4, “Blockchains and Governance”, covers how blockchain is managed and how changes are implemented.</li>
+<li>Smart contract functionality<br/>
+Each organization has unique needs when deciding on smart contract functionality. Such decisions as to the design, implementation and testing of these digital promises need to be determined. Can smart contracts replace or accentuate current work flows? Can a previously written smart contact fit in the current business model?</li>
+<li>Consensus algorithms<br/>
+Consensus models change depending on the type of blockchain environment you are creating. In order for a blockchain to work, the participants must come to an agreement as to the transactions in the ledger or the state of the ledger. This agreement is called consensus. Public blockchains have miners that are incentivized to reach consensus whereas private blockchain set up enterprise nodes that agree to the state of the ledger. We will discuss consensus models later in this chapter.</li>
+<li>Integration<br/>
+Consideration for current work flows and how to bridge blockchain platforms with existing systems are a vital conversation. How can blockchain add value to your current organization while leveraging your existing systems?</li>
+<li>Cryptocurrency requirements<br/>
+As mentioned previously, a cryptocurrency is a medium of exchange digitally enabled by blockchain. Cryptocurrencies secure and keep track of assets on a public blockchain. Enterprise blockchains generally do not use the cryptocurrency feature. Decisions on if and how your blockchain will exchange value among participants are important discussions that need to occur during the design phase.</li>
+<li>Cost modeling<br/>
+New questions arise around consortium type blockchains, one consideration is how to split the technology cost among the participants in a fair and equitable manner.</li>
+</ul>
+<br/>&nbsp;
+Overall, blockchain decisions will be made by actors in the blockchain system:
+<ul>
+<li>System Architects design and build blockchain networks. This includes decisions on node types and membership rights.</li>
+<li>System Developers design the smart contracts for the community to use.</li>
+<li>System Operators interact with the software, permissioning and onboarding participants. This includes storing the ledger, creating wallets and managing credentials.</li>
+<li>Blockchain Users join a blockchain by setting up a wallet and/or receiving permission to engage in a particular function.</li>
+</ul>
+<h3 id="ch3-5">3.5 Blockchain Transaction Flow</h3>
+<p>
+In this section, we'll discuss the blockchain transaction flow.
 
-Except instead of humans and thumbs, we have meaningful information and random data.
+Regardless of the blockchain technology, the flow of data through a blockchain will remain relatively the same, at least at a high level.
 
-If we can design a way to generate fingerprints of our meaningful data, then we can ensure the integrity of our information.
+It will all start with a blockchain user performing an operation that should be stored on the chain.
 
-With this fingerprint system, if the information is changed, then so is the fingerprint.
+The operation will trigger a smart contract, or it will trigger chaincode.
 
-Here’s the fascinating thing about fingerprints: when you really think about it, fingerprints are just standardized randomness.
+In either case, the code will be executed on the actual blockchain itself.
 
-You can’t guess what someone's fingerprint will look like, just by looking at them.
+The output of this code will result in a transaction, and that transaction is what we intend to be stored on the blockchain.
 
-In the same way, you shouldn't be able to guess the data that produced a digital fingerprint.
+Next, the blockchain operators using protocols that will be specific to the specific blockchain that's running on will spread that transaction throughout the blockchain network.
 
-But how do we all agree on a way to generate fingerprints?
+The block creators will collect all of the transactions and it will create a new block.
 
-We need standardized randomness.
+In most blockchains, this is the job of the miner and is the output of the mining process.
 
-<h3>Motivations and Definitions: Cryptographic Hash Functions</h3>
+The block operators will spread the block through the peer network to update the ledger copies once consensus has been achieved.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image081-hash-function-formula.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image081-hash-function-formula.png" 
-   alt="Hash Function Formula"
-   width="50%" />
-</p>
-Motif&nbsp;
-
-Cryptographic hash functions are one way functions that take some input and produce a pseudorandom output.
-
-We say pseudorandom because, while it appears random to us, it is actually always going to be the same output for some given input.
-
-In other words, if I take the hash of “hello, world!” once, it will be the same if I do it a second time.
+And this results in the block operators again executing code included in transactions within the block to update their own copy of the internal state of the blockchain.
 
-This is necessary for standardization between all parties.
-
-A cryptographic hash function always outputs a message of some given size.
-
-One note is that we call the output the image, and the input the pre image.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image082-hash-functions-formula.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image082-hash-functions-formula.png" alt=" "</>
+The users will be notified of an event from a blockchain creation via an event.
 </p>
-&nbsp;
-
-Cryptographic hash functions differ from regular hash functions in that they are built for security, but for convenience, we will now refer to cryptographic hash functions as hash functions.
 
-<h3>Key Properties of Cryptographic Hash Functions</h3>
+<h3>Blockchain Transactions</h3>
+<p>
+Although blockchains can differ in form and function, all follow a basic transaction flow.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image083-cryptographic-hash-functions-cryptography.png -------------------------------------->
+<!-------------------- The Blockchain Transaction Flow, steps 1 thru 6 (101) --------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image083-cryptographic-hash-functions-cryptography.png" alt=" "</>
+<p align="center">
+<img src="/images/image-blockchain-transactions.png?raw=true"
+	alt="Blockchain Transaction Flow, steps 1 thru 6"
+	width="85%" >
 </p>
-&nbsp;
-
-What are the properties of hash functions then?
-
-Well, we have *three* important properties to discuss: *pre-image* and *second-preimage* resistance, along with *collision* resistance.
+<b>Step 1: Operation Initiated</b><br/>
+Let's follow the step with a basic Bitcoin transaction. If Alicia wants to send Billy some bitcoin, she would go to a Bitcoin wallet application either on her phone or computer where she has some Bitcoin stored. Wallet applications are usually free downloads that create a digital wallet to purchase and/or store your cryptocurrency.
+<br/>&nbsp;
 
-To clarify what these terms mean, let’s go over a couple definitions.
-
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image084-cryptographic-hash-functions-preimage-resistance.png -------------------------------------->
+<!-------------------------------- Bitcoin Wallet Application (101) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image084-cryptographic-hash-functions-preimage-resistance.png" alt=" "</>
+<p align="center">
+<img src="/images/image-bitcoin-wallet-app.png?raw=true"
+	alt="Bitcoin Wallet App"
+	width="40%" >
 </p>
-&nbsp;
-
-“Pre-image” resistance is synonymous with “input.”
 
-“Resistance” is synonymous with difficulty.
+It is worth mentioning here that cryptocurrencies are a function of a particular blockchain, the Bitcoin blockchain only transacts bitcoin and the Ethereum blockchain can only exchange Ether. To initiate the transaction, Alicia would make a request of the system to send Bitcoin to Billy’s wallet by specifying the amount and Billy’s Bitcoin address.
+<br/>&nbsp;
 
-For example, “pre-image resistance” refers to the difficulty of finding an input given some output.
-
-We’ll dive more into each shortly.
-
-Key Properties of Cryptographic Hash Functions: Pre-Image Resistance
-
-First off, we want to make sure that no one can reverse engineer our fingerprint.
-
-Otherwise, certain issues come up, such as exposing information that we didn’t want to reveal.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image085-cryptographic-hash-functions-preimage-resistance.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image085-cryptographic-hash-functions-preimage-resistance.png" 
-	alt=" "</>
-</p>
-&nbsp;
+<b>Step 2: Smart Contract Triggered</b><br/>
+When Alicia sends her transaction to the network, it triggers a smart contract that checks with the nodes on the network to make sure Alicia has the currency to spend, and that she hasn't already spent it. Once checked, the transaction is added to a proposed block.
+<br/>&nbsp;
 
-To make sure this doesn't happen, we need what’s known as preimage resistance.
+<b>Step 3: Operators Spread Transaction</b><br/>
+Proposed block is communicated to the network through the peer-to-peer protocols.
+<br/>&nbsp;
 
-The technical definition is as follows: given some hash function H and some output of the function H of x, it is computationally difficult to find x.
+<b>Step 4: Consensus</b><br/>
+In order for the Bitcoin network to validate a block, nodes or miners must validate the correctness of a block by completing a math problem first. The node that completes the Proof of Work equation first is rewarded with some newly minted Bitcoin. Once a solution for the equation is reached, the other nodes can easily check its accuracy, thereby accepting the new block onto the blockchain.
+<br/>&nbsp;
 
-In other words, we cannot easily discover the input which created some output.
+<b>Step 5: Spread The New Block</b><br/>
+This block is spread throughout the network through the same peer-to-peer communications we used for the transaction. When block operators receive a copy of the new block, they add it to their copy of the distributed ledger. This guarantees that all members of the peer network agree on the current state of the blockchain’s distributed ledger.
+<br/>&nbsp;
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image086-cryptographic-hash-functions-2ndary-preimage-resistance.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<
-<p align="center" width="100%">
-<img width="50%" src="/images/image086-cryptographic-hash-functions-2ndary-preimage-resistance.png" 
-	alt=" "</>
+<b>Step 6: Transaction Completed</b><br/>
+The user’s wallet monitors for the creation of new blocks that include transactions associated with the user. When a block containing the completed code from the user’s operation is received, an event is created to notify the user that the operation is complete. When the block containing Alicia’s Bitcoin transfer to Billy is added to the blockchain, an alert will be sent to the affected wallets that the transaction was accepted and completed.
 </p>
-&nbsp;
 
-Key Properties of Cryptographic Hash Functions: Second Preimage Resistance
+<h3>Consensus in Blockchain</h3>
+Consensus in blockchain is moving away from a centralized system where one entity keeps track of the ledger towards a decentralized system where trust does not rest with one entity but all entities and what they decide together. 
 
-Next, we want to make sure that no one can steal fingerprints.
+The blockchain is a distributed and decentralized system, which means that it needs to have a way of tracking the official current state of the system. 
 
-If someone else can generate my fingerprint with a different input, then no one can tell who originally made the fingerprint.
+Since the blockchain can include financial transactions and business agreements, it is important that all parties involved are in sync regarding the terms of the agreement.
 
-To make sure this doesn’t happen, we need what’s known as second preimage resistance.
-
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image087-cryptographic-hash-functions-2ndary-preimage-resistance.png -------------------------------------->
+<!------------------------------- Blockchain Network Nodes (103) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<
-<p align="center" width="100%">
-<img width="50%" src="/images/image087-cryptographic-hash-functions-2ndary-preimage-resistance.png" 
-	alt=" "</>
-</p>
+<p align="center">
+<img src="/images/image-network-comps.png?raw=true"
+	alt="Blockchain Network Nodes (Computers)"
+	width="65%" >
 &nbsp;
 
-The technical definition is as follows: given some hash function H and some output H of x, it is computationally difficult to find a different input x’ such that H of x equals H of x’.
+In this section, we will discuss the details of how a blockchain network comes to agreement on the contents of the blockchain.
 
-<h3>Key Properties of Cryptographic Hash Functions: Collision Resistance</h3>
+<h3>Consensus</h3>
+<p>
+One of the most important components to blockchain is this idea of group consensus.
 
-Expanding the concept of second preimage resistance, we generally recognize that any two arbitrary inputs mapping to the same output is a bad thing.
+As we talked about in an earlier module, blockchain is inherently a very inefficient system.
 
-To prevent this, we need collision resistance.
+We're asking multiple nodes, sometimes tens of thousands of computer nodes, to all repeat the same work: they're all keeping a copy of the same data.
 
-The technical definition is as follows: given some hash function H, it is computationally difficult to find two different inputs x and y such that H of x equals H of y.
+And the reason we agree to this tremendous inefficiency is because if we can get all or most of those nodes to agree on what the truth is.
 
-<h3>Key Properties of Cryptographic Hash Functions: Avalanche Effect</h3>
+We can have a lot of trust that that's actually the truth, that that record hasn't been tampered or altered or changed in any way.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image090-cryptographic-hash-functions-avalanche-effect.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image090-cryptographic-hash-functions-avalanche-effect.png" 
-	alt=" "</>
-</p>
-&nbsp;
+Consensus is one of the underpinnings of blockchain.
 
-Consequences of these properties is what’s known as the Avalanche Effect.
+There are several different methods we use right now to have all these nodes reach consensus.
 
-This means that any change in the input leads to a pseudorandom change in the output.
+Essentially, when we talk about consensus, you can think of every block in a blockchain as being like a sheet of paper.
 
-This prevents a hot or cold game with inputs, where you attempt to guess the output based on inputs.
+It's got a fixed amount of space. We write a transaction on every line, and when that sheet of paper is full, 
 
-On the right side, we've hashed the string "I am Satoshi Nakamoto0", "I am Satoshi Nakamoto1", all the way to 19...
+it's important that we all, as a group, come together and compare our different sheets and select the sheet or the version of paper that the majority agree with.
 
-And each result is pseudo random.
+And so, there are several different methods that we use to come to consensus on a block.
 
-There's no relation between the Hashes despite the inputs being so similar.
+The oldest and most widespread method is what's called Proof of Work.
 
-<h3 id="ch3-5">SHA256</h3>
+And you'll see in another module, we actually dive into Proof of Work hands-on, and show you live what Proof of Work looks like and how it actually works.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image090-cryptographic-hash-sha256.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image090-cryptographic-hash-sha256.png" 
-	alt=" "</>
-</p>
-&nbsp;
+Proof of Work has served us well for the past nine, almost ten years, got its start in Bitcoin, and it's used in every major public and most private blockchain offerings.
 
-<h3 id="ch3-6">SHA256\^2 – (Secure Hash Algorithm)</h3>
+But we're also starting to see some of the limitations of Proof of Work.
 
-The particular hash function that Bitcoin chooses to use in many scenarios is called SHA-256.
+One of the big limitations behind Proof of Work right now is how big and how fast it can scale.
 
-SHA-256 is a cryptographic hash function that was designed by the NSA.
+Currently on Proof of Work blockchains, we're able to process somewhere between 50 and 20 transactions worldwide per second, which may sound like a lot until you realize that modern payment processing networks like Visa can scale up to over 70,000 transactions a second.
 
-SHA-256 is a member of the SHA-2 family of cryptographic hash functions, SHA standing for Secure Hash Algorithm.
+In order to compete with conventional technology, blockchain really needs to add a few more orders of magnitude to that transaction rate.
 
-SHA-256 takes in an input of size less than 2\^64 bits and produces a 256 bit fixed size output.
+There are many proposed alternative consensus methods for how we might be able to reach that kind of scale.
 
-In practice, the 2\^64 bit upper bound on the input size is so massive that we usually just say that it takes in an arbitrary amount of information.
+There are things in production right now like Tangle which use a blockless solution, and they're also new and emerging consensus methods like Proof of Stake, or Proof of Activity that we're currently examining to take the work out of Proof of Work.
 
-Bitcoin, in many cases, uses SHA-256 squared, or SHA256d, which simply means that SHA-256 is used twice in a row.
+We also have another module in this course where we talk about Proof of Stake, and then another one where we compare Proof of Work versus Proof of Stake.
 
-Once on the original message you want to hash, and another time on the output of this first hash.
+If you're curious about any of the details of how these consensus mechanisms are actually implemented, be sure to check out those modules.
 
-<h3 id="ch3-7">Intro: A Tamper-Evident Database</h3>
+But the takeaway point to understand is that, it's this consensus, it is this idea of asking all of these nodes, potentially tens of thousands of nodes, to all repeat the same work and then periodically come together and agree on whatever the majority select the right version of the truth to be.
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image090-a-tamper-evident-database.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image090-a-tamper-evident-database.png"
-	alt=" "
-	width="50%" />
+That gives blockchain that high level of trust and that makes it such a secure record store.
 </p>
-&nbsp;
 
-Now that we know about cryptographic hash functions and their properties, how do we then apply them to design our tamper evident database for Bitcoin?
+<h3>Introduction to Consensus in the Blockchain</h3>
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image091-a-tamper-evident-database-dissecting.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image091-a-tamper-evident-database-dissecting.png" 
-	alt=" "</>
-</p>
-&nbsp;
+As discussed in the ["Blockchain Consensus and Fault Tolerance In a Nutshell"](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) article by Demiro Massessi,
+<blockquote>
+"The blockchain is designed to be a shared, synchronized historical ledger, meaning that there needs to be a final decision at some point on what should and shouldn’t be included in the official record. Since blockchain is decentralized, there is no "higher authority" that can rubber-stamp and finalize the contents of a blockchain block.<br/>
 
-In this section, we’ll be taking a look at the structure of a block, looking specifically at some of the metadata contained within the block header that will help us achieve tamper evidence.
+The method that [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto), creator of the Bitcoin network, invented to achieve consensus is based on scarcity. In one way or another, blockchain consensus algorithms boil down to some kind of vote where the number of votes that a user has is tied to the amount of a limited resource that is under the user’s control. Based on the economic law of supply and demand, collecting enough of an asset to have a controlling share will drive up the price of the asset enough to make achieving that level of control unfeasibly expensive".
+</blockquote>
 
-<h3>Tamper-Evidence</h3>
+<h3>Consensus Mechanisms</h3>
+<p>
+In order to ensure no one spent the same Bitcoin twice, Satoshi Nakamoto created the consensus algorithm called Proof of Work for the Bitcoin network. <br/>
 
-What does this tamper evident database actually look like?
+Since then, several other consensus algorithms have been invented to fit different use cases. <br/>
 
-Well, if you’re an average user, here’s a real example of a block found on Blockchain.info, a company that keeps track of all information about the Bitcoin Blockchain for public access.
+These include Proof of Stake, Delegated Proof of Stake, Practical Byzantine Fault Tolerance, and Proof of Elapsed Time. <br/>
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image092-a-tamper-evident-database-merkle.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image092-a-tamper-evident-database-merkle.png" 
-   alt=" "
-   width="50%" />
+The most commonly used consensus algorithms are Proof of Work and Proof of Stake.
 </p>
-&nbsp;
-
-We’ll explain each of these fields by the end of the video.
-
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image092-tamper-evident-merkle-proof.png -------------------------------------->
+<!---------------------------------- Consensus Mechanisms (105) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image092-tamper-evident-merkle-proof.png" alt=" "</>
-</p>
+<p align="center">
+<img src="/images/image-consensus-mechanisms.png?raw=true"
+	alt="Consensus Mechanisms"
+	width="65%" >
 &nbsp;
 
-Here’s the exact same block, but now in JSON format.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image093-a-tamper-evident-database-example-block.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image093-a-tamper-evident-database-example-block.png"
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
+<h3>Proof of Work</h3>
 
-This is a much more understandable format for a computer.
+As explained in the ["Blockchain Consensus and Fault Tolerance In a Nutshell"](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) article by Demiro Massessi,
+<blockquote>
+"In Proof of Work, users in the blockchain network who want to create the next block (and win the associated reward) are called miners. To win the right to mine a block, miners race to find an acceptable solution to a “hard” cryptographic problem. (...), “hard” mathematical problems can only be solved by random guessing. When a miner finds an acceptable solution, they create a block and broadcast it to the network, finalizing that block.<br/>
+Proof of Work exploits the scarcity of computational resources by choosing a problem that can only be solved by guessing. There is no limit on the number of guesses that a miner can make at once. Proof of Work, therefore, incentivizes miners to run as many mining machines as possible to maximize the probability that they are the first to find a solution to the problem. Since mining computers take money to purchase and money to run, the amount of control that a user can exert over the blockchain is limited by the amount of money they have available to invest in mining equipment".
+</blockquote>
 
-But what is the role of each of these different pieces of information?
+Also, the process of mining requires computing power that runs on electricity. 
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image094-a-tamper-evident-database-example-block.png -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image094-a-tamper-evident-database-example-block.png" alt=" "</>
-</p>
-&nbsp;
+Some argue the Bitcoin network is not sustainable because of its increasing need for electricity. 
 
-<h3>Dissecting a Block</h3>
+The argument against this assumes Bitcoin miners are out to make a profit and by using renewable energy sources to power the mining operations they will be more profitable. 
 
-Here’s what a block looks like conceptually.
+As a result of seeking out carbon-friendly energy sources, mining companies will bring new renewable energy solutions to the power grids.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image095-a-tamper-evident-database-dissecting.png -------------------------------------->
+<!---------------------------------- Proof of Work (107) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image095-a-tamper-evident-database-dissecting.png"
-   alt=" "
-   width="50%" />
-</p>
+<p align="center">
+<img src="/images/image-proof-of-work.png?raw=true"
+	alt="Proof of Work"
+	width="65%" >
 &nbsp;
+ 
+The security of the Proof of Work consensus is based on the assumption that no one controls more than half of the computational resources of a blockchain’s mining network. If one entity controls 51% of the mining effort, they control consensus. To take control would require a huge investment in equipment and energy, more than would be gained by defrauding the system.
 
-It has four main components: the Block Header, Block Size, Transaction Counter, and Transactions.
+<h3>Proof of Stake</h3>
+Proof of Stake comes with a number of improvements to Proof of Work systems, it requires less energy and has a lower barrier to entry since no specialized hardware is required to create blocks.
 
-The “**Block Size**” field tells how large the block is.
+In the same [article](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) that we mentioned on a previous page, the author explains,
 
-The “**Block Header**” field represents the metadata necessary for understanding the components of the block.
+<blockquote>
+"Users in a Proof of Stake blockchain can "stake" or promise not to use the tokens they own. This gives them the opportunity to be selected as the next user to create or "forge" a new block and earn the reward. A block forger is pseudo-randomly selected from all of the users who have staked some of their assets, and the selection process is biased based on the size of the stake.<br/>
+For example, imagine that a wheel is divided into sections where the size of a section is proportional to the size of a user’s stake. The next block creator would be chosen by spinning the wheel and seeing whose section comes out on top. In Proof of Stake, each user has a copy of the wheel and they are all synchronized so that each person can independently determine the selection and get the same result. This is why Proof of Stake uses a pseudo-random instead of a random selection process".
+</blockquote>
 
-The “**Transaction Counter**” field says how many transactions are within the block.
+In Proof of Stake, an attacker needs to control enough of the staked currency to guarantee they will be selected to create every block. 
 
-The “**Transactions**” field is the actual transaction data.
+Since cryptocurrency is a limited asset, buying up enough of it to do this is expensive, making attacks on Proof of Stake systems economically infeasible.
 
-For this lecture, we’re going to focus first on the composition of a block header, the information that enforces the security of the blockchain.
-
-<h3>The Block Header</h3>
-
-How does this ensure tamper evidence?
-
-Well, let’s go ahead and look at where hash functions are applied within Bitcoin.
-
-The block header refers to all the metadata associated with every block.
-
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image096-tamper-evident-dissecting.png -------------------------------------->
+<!---------------------------------- Proof of Stake (108) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image096-tamper-evident-dissecting.png"
-   alt=" "
-   width="50%" />
-</p>
+<p align="center">
+<img src="/images/image-proof-of-stake.png?raw=true"
+	alt="Proof of Stake"
+	width="65%" >
 &nbsp;
 
-There are **six** fields in the implementation, but we’re going to speak to the **three important ones** that implement the protocol explained in module 1.
+<h3>Fault Tolerance in the Blockchain</h3>
+In blockchain, it is essential all participants agree to the state of the ledger. Shared decentralized ledgers arrive at network agreement or the state of the ledger by consensus algorithms. But what happens if all participants in the network don’t agree? Let's discuss the concept of Fault tolerance and why it is an important blockchain concept.
+<br/>
 
-Those are;
+As described by [Demiro Massessi](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03),
+<blockquote>
+"Blockchain is a distributed, decentralized system that maintains a shared state. While consensus algorithms are designed to make it possible for the network to agree on the state, there is the possibility that agreement does not occur. Fault tolerance is an important aspect of blockchain technology".
+</blockquote>
 
-1.  the Merkle Root,
-
-2.  Previous Block Hash, and
-
-3.  **Nonce** fields
-
-The *Merkle Root* represents a summary of transactions.
-
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- image097.png -------------------------------------->
+<!----------------------------- Byzantine Fault Tolerance (109) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image098-tamper-evident-3.png"
-   alt=" "
-   width="50%" />
-</p>
+<p align="center">
+<img src="/images/image-byzantine-fault.png?raw=true"
+	alt="Byzantine Fault Tolerance"
+	width="65%" >
 &nbsp;
 
-The *Previous Block Hash* represents the chaining.
+<h3>Fault Tolerance</h3>
+<p>
+One of the things we've talked about extensively in this series is how inefficient and redundant blockchain is and that is by design.
 
-And the *Nonce* represents the proof-of-work.
+That's what gives us immutability.
 
-The block header is simply the hash of all these fields concatenated.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image097.png" alt=" "</>
-</p>
-&nbsp;
+And another thing it gives us is an extreme level of fault tolerance.
 
-Let’s first take a look at the Merkle Root.
+At its heart, blockchain runs on a peer-to-peer network architecture in which every node is considered equal to every other node.
 
-<h3>Merkle Trees:</h3>
+And unlike traditional client-server models, every node acts as both a client and a server.
 
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image098.png"
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
+And so, we continue this redundancy down at the network level, where we're asking all these nodes to perform the same work as all these other nodes.
 
-What is a Merkle Root, and what do we mean by a summary of transactions?
+Like any peer-to-peer system, we have an extremely high degree of fault tolerance.
 
-Does this mean that we have contained all information about our transactions in one piece of information?
+In fact, if we have two or more nodes online in a blockchain system, we still have a working blockchain.
 
-Well, it actually means that we have contained all fingerprints of information in one piece of data.
+And when you think about that amazing fact given the scale of major public blockchains, you can see the inbuilt fault tolerance.
 
-The Merkle Root is the top of a Merkle Tree, which is a cryptographic data structure.
+Let's look at Bitcoin for an example.
 
-This is definitely complicated, so let’s take it slow and start from the very beginning.
+That's a blockchain that consists of over 30 thousand nodes coming to consensus on every block.
 
-First and foremost, a tree in Computer science is a data structure that has some root node and some children, which may also be the roots of other trees.
+As long as we have two or more of those nodes online and able to communicate, we still have a working solution.
 
-A binary tree is a tree in which every node has at most two children.
+That gives us a tremendous margin for error, for nodes coming and going offline, for network transport issues, and it makes blockchain really, really a great platform to use in environments with less than ideal networks and power infrastructure, because we can have nodes come offline, go back online and when a node comes online after being offline for a while, all it has to do is sync up, and get all the data that it missed while it's been offline from all of its peers, and then it's right back online participating like all the rest.
 
-A *Merkle Tree* is just a very specific version of a binary tree, where two things are true:
+This is very different from the centralized systems that blockchain aims to replace.
 
--   there are a power of two children on the bottommost level, and
+In a traditional client-server model, if that server is offline, those clients have no way of getting the data that they requested or performing the operations they'd like to perform.
 
--   the lowest level is made of the hashes of the information that you would like to summarize.
+This is not the case in blockchain.
 
-Perhaps a better way to explain the Merkle Tree is to describe its construction.
+And if we look back historically at other peer-to-peer solutions, solutions like Bittorrent or Napster, we've seen the tremendous difficulty that authorities have had taking some of these networks offline.
 
-We start off with a set of transactions that we have verified.
+That is due to the fault tolerance you get from a peer-to-peer architecture.
 
-We lay them out one by one.
+In fact, we saw this recently during the Arab Spring, when the Egyptian government decided one night to shut down Internet access for the entire country.
 
-We hash each one to get a level of hashes.
+Well, within 24 hours Egypt was back online and connected to the Internet through a network-sharing mechanism known as mesh networking, which at its heart is just a peer-to-peer method for sharing Internet connectivity.
 
-We then hash each pair together, making a new level with half as many hashes.
+We know that peer-to-peer has a long history of providing extremely high fault tolerance and reliability, and that's why we've chosen to build a platform like blockchain on top of it.
 
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image099-tamper-protect.png" 
-   alt=" "
-   width="50%" />
+If you're looking for a solution platform that offers you that kind of incredible fault tolerance, if you're looking to deploy a solution into areas with less than ideal infrastructure or under conditions where nodes may come online and go offline frequently, then blockchain may be a really good platform to look at.
 </p>
-&nbsp;
-
-We continue this process until we finally have only one hash at the top.
-
-This hash at the very top is the Merkle Root.
-
-This way, we can detect any transaction changes after the commitment with the Merkle Root.
 
-<h3>Merkel Trees: Tamper Detection</h3>
+<h3>The Byzantine Generals' Problem</h3>
 
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image099.png"
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
+The Byzantine Generals' Problem has been thoroughly explained in the [Medium article](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) by Demiro Massessi,
+<blockquote>
+"The Byzantine Generals' Problem is a scenario designed to demonstrate the difficulty of multiple parties coming to an agreement when communication can only be accomplished on a one-to-one basis and is untrusted. In the story, several Byzantine Generals are besieging a city with their separate armies. If they all attack together or all retreat together, they will be ok, but if some attack while others retreat, they will be destroyed.<br/>
+The generals can only communicate by messengers, who could be intercepted and forced to carry fake messages, and one or more generals may be a traitor. The goal is to find a way to achieve a consensus on strategy despite the possibility of traitors and false messages. Presumably, all generals will abide by what they believe is the majority consensus. The Byzantine Generals' Problem is solvable as long as two-thirds of the generals are honest.<br/>
+Blockchain is designed to be Byzantine Fault Tolerant, meaning that the network will come to a consensus on the official state of the blockchain, despite the fact that some members may misbehave. The solution to the Byzantine Generals' Problem is inefficient, so the blockchain needs some way of being confident of consensus without going through a full solution".
+</blockquote>
 
-We see here that if any transaction is changed, then the Merkle Root is affected.
+<h3>Proof of Work vs. Proof of Stake</h3>
+We've talked a lot in this course about Proof of Work versus Proof of Stake.
+Proof of Work is the oldest and the original consensus protocol. It's coming up on its tenth anniversary; first one into production with Bitcoin back in 2009.
 
-This is demonstrated in the following diagram: when Transaction 3 is changed, then so is its hash.
+And as a consensus protocol, it served us very, very well.
 
-Because of that, the hash above it is also effective, propagating all the way up to the topmost level.
+There have been a number of hacks and exploits that have been committed against various smart contracts and solutions written on top of the blockchain.
 
-<h3>Merkle Trees: Proof of Inclusion</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------- A Tamper-Evident Database: Merkle Branch & Proof of Inclusion (102) -------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image100.png"
-   alt="A Tamper-Evident Database: Merkle Branch & Proof of Inclusion"
-   width="50%" />
-</p>
-&nbsp;
+But for almost a 10-year history with over half a trillion dollar market cap, no one's been able to successfully exploit Proof of Work itself, which really shows the security and the reliability of the protocol.
 
-You may ask, “Isn’t it expensive to verify that a transaction was included within a Merkle Tree?"
+However, there are some shortcomings and criticisms to Proof of Work that are now leading us to look at alternative consensus mechanisms, like Proof of Stake.
 
-Don’t worry, we don’t need to recollect every transaction to do that.
+One of those is our transaction processing capability.
 
-We can actually prove it with just one piece of information at each depth.
+On a good day, Proof of Work is capable of processing anywhere between 10 and 20 transactions per second worldwide.
 
-You’ll notice that we only need to hash Transaction 1 with these two pieces of information:
+This may sound like a lot, but it still leaves us a wide gap to conventional processing powers, that something like Visa's payment processing network which can scale up to over 70,000 transactions per second.
 
-Hash B, and Hash F.
+So, in order for blockchain to continue to be a successful solutions platform, we know that we're going to need to find other consensus mechanisms, which allow us to scale up that transaction processing speed into a range where we start to compete with conventional technology.
 
-This is actually a great efficiency gain as our tree grows larger.
+There are also some other criticisms behind Proof of Work that are leading us to alternative methods, like Proof of Stake.
 
-<h3>Previous Block Hash</h3>
+One of those is the idea of centralization.
 
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------  A Tamper-Evident Database: Merkle Root (103) -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image102.png"
-   alt="A Tamper-Evident Database: Merkle Root"
-   width="50%" />
-</p>
-&nbsp;
+As you know from this course, one of the key tenants of blockchain is the idea of decentralization, that no one central authority, intermediary or participant, should ever have too much power or control in a blockchain network.
 
-It’s pretty obvious what the Previous Block Hash does: It merely contains the hash of the previous block.
+What we're seeing right now with Proof of Work is an arm's race, where folks are competing with very various specialized pieces of equipment, specialized hardware, specialized mining rigs, in order to mine most efficiently.
 
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- A Tamper-Evident Database: Protecting the Chain (103) --------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image104.png"
-   alt="A Tamper-Evident Database: Protecting the Chain"
-   width="50%" />
-</p>
-&nbsp;
+And this can be done most efficiently in large data centers where electricity is cheap.
 
-But notice this: every block does that.
+Right now, almost 80% of the processing power behind the Bitcoin network resides in six major data centers in mainland China.
 
-This means that if any block is altered, then the block after will also be altered, and so will the block after that.
+A lot of advocates and blockchain purists think that this is far too much centralization in one geopolitical region of the world.
 
-Changing any part of this history also changes the entire future after that point.
+One way we aim to change that is through Proof of Stake, where we remove the work component of group consensus and we replace it with a very specialized form of gambling or wagering.
 
-Here’s an example of what happens when that tampered Merkle Root from before manifests within the blockchain.
+The idea of being that if we no longer require specialized hardware in order to come to consensus, we can allow anybody with any kind of device to participate in consensus.
 
-<!------------------------------------------------------------------------------------------------>
-<!------------------ a tamper-evident database: protecting the chain (104) ----------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image105-tamper.png"
-   alt="A Tamper-Evident Database: Protecting the Chain"
-   width="50%" />
-</p>
-&nbsp;
+That may be you at home with an old laptop, or a friend with a smartphone, or a tablet, or an iPad, that sits on your nightstand most days and doesn't get used.
 
-It changes the block header, which changes the next block’s Prev Block Hash, which affects the rest of the future block hashes as well.
+This allows for a much wider and more decentralized range of devices and potentially a much larger network size to participate in consensus.
 
-The rest of the network will reject the history proposed by this blockchain because they will not agree.
+Speed and the idea of decentralization are big drivers behind the move to Proof of Stake.
 
-This is why the blockchain is considered immutable, because all tampering is easy to see.
+And we're gonna see how well that works out.
 
-Proof-of-Work: Partial Preimage Hash Puzzle
+We'll see Proof of Stake finally go live in Ethereum later this year (2018), certainly with more blockchains to follow if it becomes a successful consensus mechanism.
 
-Now that we’ve finished talking about how Prev Block Hashes, let’s talk about the **nonce**, the physical manifestation of Proof-of-Work.
+When you hear the debate these days about Proof of Work versus Proof of Stake, and you're trying to understand what do they mean and why are we looking at transitioning from one to the other, understand that we're just trying to overcome some of those big limitations behind Proof of Work, the consensus mechanism that has served us so well to date.
 
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------- a tamper-evident database: nonce (105) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image105-tamper-nonce.png"
-   alt="A Tamper-Evident Database: Nonce"
-   width="50%" />
-</p>
-&nbsp;
+We're trying to find consensus mechanisms that most importantly allow us to scale up, to get our transaction processing power on par with conventional technology, and we're also trying to remove some of the centralized aspects that we've seen form around Proof ofWork.
 
-Keep in mind that we need entities to prove that they’ve done some work before they’re allowed to submit a vote to the network, meaning that we have to design a problem or puzzle for their computers to solve to prove that they’ve done work.
+We talk about Proof of Work and Proof of Stake in much greater depth in other modules in this course.
+If you're curious about the difference between them, how they work and what the actual implementation differences are, be sure to check out those other modules.
 
-The way we do this in Bitcoin is with a partial preimage hash puzzle.
+<h3>Proof of Work vs. Proof of Stake</h3>
+Let's recap differences between Proof of Work and Proof of Stake:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- partial preimage hash puzzle (106) ------------------------------->
+<!--------------------------------- Proof of work chart (114) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image104-partial-preimage-1.png" 
-   alt="Partial Preimage Hash Puzzle; Computationally Difficult, Adjustable, and Easily Verifiable"
-   width="50%" />
-</p>
+<p align="center">
+<img src="/images/image-proof-of-work-chart.png?raw=true"
+	alt="Proof of Work Chart"
+	width="65%" >
 &nbsp;
 <br/>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- partial preimage hash puzzle (107) ------------------------------->
+<!--------------------------------- Proof of stake chart (114) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image104-partial-preimage-2.png"
-   alt="Partial Preimage Hash Puzzle; Computationally Difficult, Adjustable, and Easily Verifiable"
-   width="50%" />
-</p>
-&nbsp;
-
-Keep in mind the definition of preimage from before, which was the input.
-
-Partial preimage then means a partial input.
-
-In Bitcoin, we are given part of an input, and we have to find the other part which produces some particular output.
-
-The condition that needs to be met is that the hash of the block header is less than some target value.
-
-This condition is how *Proof-of-Work* is implemented in Bitcoin and almost every other popular *Proof-of-Work* cryptocurrency.
-
-To satisfy our needs for a puzzle, these hash puzzles need to have **three** characteristics:
-
-1.  Computationally difficult,
-
-2.  Parameterizable, and
-
-3.  Easily verifiable.
-
-Computational difficulty means ensuring that the solution to the puzzle cannot be easily found.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image104-partial-preimage-3.png" alt=" "</>
-</p>
-&nbsp;
-
-There’s no point if *Proof-of-Work* takes little work.
-
-Parameterizable means adjustable.
-
-The difficulty of the puzzle should be adjustable to ensure that it never gets too easy or too hard.
-
-And finally, an easily verifiable puzzle ensures that computers don’t have to do too much work to see that an answer is correct.
-
-It should just take one hash for example to prove that some nonce is correct, even if finding the nonce takes millions of tries.
-
-<h3 id="ch3-12">3.12Proof-of-Work: Mining</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Proof-of-Work: Mining -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image107.png"
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-For a better idea of how mining works, let’s bring up an analogy.
-
-Mining is like throwing darts at a target while blindfolded.
-
-This implies ***two*** things.
-
-***First***, we have an equal likelihood of hitting any part of the target.
-
-We have no way of knowing what’s closer to or farther from the center.
-
-***Two***, the only way we can be more likely to ever hit the center is by throwing more darts.
-
-Again, since we have no way of trying to make any individual dart more likely to hit the center, the best we can do is throw more.
-
-This compares to mining because miners are looking for some hash output that is below some algorithmically decided target.
-
-It’s as if that target is the green line dividing the valid and invalid blocks in the diagram.
-
-<h3>Proof-of-Work: Block Difficulty</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<<p align="center" width="100%">
-<img src="/images/image108.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-How do we adjust the size of this circle?
-
-How do we set and change the target?
-
-This all happens through the difficulty, which is a representation of the number of expected computations required to find a block.
-
-Again, we can’t predict how many computations anyone produces to solve the puzzle, but we can approximate based on how quickly the puzzle is solved on average.
-
-The difficulty is implemented as a requirement of a leading number of zeros on the block header hash.
-
-This is why the example block at the start of this section had many zeros at the start of its block hash.
-
-As the number of zeros increases, so will the difficulty, and vice versa.
-
-This difficulty adjusts with the global hashrate.
-
-We know that the amount of computing power in the network will always be changing, as miners join and leave the network, but we want to maintain a block time of ten minutes.
-
-For this reason, we have to raise and lower the difficulty alongside the hashpower growth and decay of the network.
-
-The way we recalculate this difficulty is with the equation on the slide: difficulty is equal to itself times the ratio of two weeks to the time taken to mine the previous 2016 blocks.
-
-Every two weeks, we check to see how long it took to calculate those 2016 blocks.
-
-If every block took exactly 10 minutes, then it should have taken precisely two weeks to produce those 2016 blocks.
-
-If we took too long, it’s because the puzzle was too hard to solve, and if we didn’t take long enough, then the puzzle was too easy.
-
-We make adjustments on the puzzle difficulty accordingly going forward.
-
-A quick sanity check to see if your understanding is correct.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image109.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-Let’s say that the current difficulty is 10.
-
-Then what’s the new difficulty if the time to mine 2016 blocks is exactly two weeks?
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image110.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-Yes, it’s still 10!
-
-The puzzle was precisely as hard as we wanted, so the difficulty stays exactly the same.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image111.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-What about when the time to mine those 2016 blocks is just one week?
-
-Or a staggering 4 weeks?
-
-If time to mine is one week, then the difficulty is 20!
-
-We mined those blocks in half the expected time, meaning that the puzzle was half as hard as necessary, so we make it twice as difficult.
-
-If the time to mine is 4 weeks now, the difficulty is now 5!
-
-We mined those blocks in twice the expected time, meaning that the puzzle was twice as hard as necessary, so we make it half as difficult.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image112.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-The difficulty is inversely proportional to the time to mine.
-
-<h3>Proof-of-Work: Coinbase Transaction</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image113.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-You might be asking, where does the block reward to miners even go?
-
-Well, it goes in the coinbase transaction!
-
-Whenever a miner produces a block, they first make a coinbase transaction which is always the first transaction of the Merkle Tree.
-
-This coinbase transaction grants miners a reward of some bitcoins which can be spent at some later date.
-
-This is how new bitcoins are minted, or introduced, into the network.
-
-Also, the Coinbase transaction has a separate nonce field that is used in our hash puzzle as well.
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image114.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image115.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image116.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-Here's some mining pseudo code.
-
-We loop infinitely until we find a valid block.
-
-In each loop, we try a Coinbase nonce first, and then in an inner loop, exhaust all possible values for header nonces.
-
-Then we increment the Coinbase nonce, and repeat this cycle.
-
-The reason why we want to do this in this order: to exhaust all header nonces for each coinbase nonce, is that changing the Coinbase nonce changes the merkle root.
-
-It would be more expensive to recalculate the merkle root each time on each iteration of the inner loop.
-
-We optimize by trying nonces in such a way as to only have to calculate the merkle root in each iteration of the outermost loop.
-
-<h3>Intro: Signatures and Authentication</h3>
-
-Now we’ll go into how to use digital signatures to send messages and transactions both pseudonymously and trustlessly.
-
-In the previous section, we showed how transactions contained in previous blocks in the blockchain are tamper evident.
-
-Using digital signatures, we can also ensure that the current transactions we send to the rest of the network are tamper evident as well.
-
-Recall from early in the course that our motivation for having signatures is to authenticate identity, so that you know a message you receive could only have come from one other user, because it was signed with that user’s specific private key, proving ownership of a public key.
-
-In this next section, we’ll go over what we want from a digital signature scheme at a high level.
-
-<h3>Digital Signature Schemes (DSS)</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image117-dss.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-Consider two users on the network: call them Alice and Bob.
-
-Recall that they both have private and public keys.
-
-Private and public keys in Bitcoin are generated through an algorithm called ECDSA, or Elliptic
-
-<h3>Curve Digital Signature Algorithm</h3>
-
-We’ll go over that in the next section.
-
-Alice wants to send over a message to Bob.
-
-How can she do this and make sure no one tampers with her message?
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image117-dss-2.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-First we point out that Bob has access to Alice’s public key, since that’s public information that’s used to identify Alice.
-
-We’ll see later on that this is important to help Bob verify that a message coming from Alice was actually sent by Alice.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image117-dss-3.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-Before sending out her message, Alice signs her message with her private key.
-
-This generates a unique signature that proves that she created the message as it is.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image117-dss-4.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-She then sends her signature along with her original message to Bob.
-
-The idea is that the message is the main payload, and the signature can be used to prove that Alice was the one who created that exact message.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image117-dss-5" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-Bob is then able to easily verify that the signature is valid, given Alice’s public key and the original message.
-
-And if the signature is valid, then that means the message wasn’t tampered with.
-
-In order for Alice to have created that signature, she must have had the associated private key.
-
-Also, at any point in time if her message was tampered with, the signature could not be valid anymore.
-
-This is how digital signature schemes make messages tamper evident.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image117-dss-6.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-A key point is that Bob or anyone else should not be able to guess Alice’s private key, given just her public key.
-
-Otherwise, Bob or anyone else would be able to recreate Alice’s signatures and thus fake her identity.
-
-We’ll see how this is prevented in the next section, where we explain the way we generate public and private key pairs.
-
-<h3>DSS Key Definitions and Takeways</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image116.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-In summary, here are some key properties that we should keep in mind.
-
-These are essential properties of digital signature schemes that are enabled by the functionality that we went over just now with Alice sending a message to Bob.
-
-First, given a message and a signature, as well as a copy of the sender’s public key, the recipient should be able to identify the message origin.
-
-Since the message has been signed by the sender’s private key, this shows that the original sender has authorized this message.
-
-There’s also non-repudiation, meaning that the original sender should not be able to backtrack.
-
-Since they have already signed the message with their private key, there should not be away to undo that signature, or to nullify it.
-
-And changing the message would make it such that signature wouldn’t match up with it anymore.
-
-Finally, message recipients should also be able to verify message integrity.
-
-And this is what we saw earlier: that signatures can be used so that messages can't be modified by anyone after signing.
-
-<h3>From Private Keys to Addresses</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image117.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-Here’s a diagram showing a high-level overview of what we’re going to be diving into in the next couple slides.
-
-We start off with a private key that we generate randomly.
-
-We then can use Elliptic Curve point scalar multiplication to derive a public key.
-
-And then from there, we can use hash functions to finally arrive at our Bitcoin address.
-
-One important note is that the processes mentioned -- the elliptic curve point scalar multiplication and the hashing -- are all one-way processes.
-
-We can go forward, but not backwards.
-
-A private key wouldn’t be so private if we could guess the private key from the corresponding public key or address.
-
-Alright, so let’s take a look at elliptic curves first.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image118.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-<h3>Elliptic Curve Cryptography</h3>
-
-Bitcoin uses ECDSA, or Elliptic Curve Digital Signature Algorithm, to produce private keys and public keys.
-
-An elliptic curve is just a mathematical curve defined by the general form y\^2 = x\^3 + ax + b.
-
-We take everything over a finite field because we want to encode every value possible in a constant amount of space.
-
-Here’s a picture of Bitcoin’s elliptic curve, secp256k1, on the right side.
-
-<h3>Elliptic Curve Cryptography: Demo</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image118-2.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image119.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-To illustrate, here’s a demo.
-
-We start off with a generator point P that is known to everyone, since that’s built into secp256k1’s specification.
-
-To add P with itself, simply take the tangent at the point P. Where the line intersects the curve let’s call it -2P.
-
-We then reflect this point across the x axis, resulting in our answer 2P.
-
-To get 3P, we can add P to 2P via the same process.
-
-Draw a line through P and 2P, find where they intersect, which is -3P, and then reflect that across the x-axis again to yield our answer 3P.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image120.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-Its equation is y\^2 = x\^3 + 7, and was engineered to have some unique properties that we’ll be explaining in the coming slides.
-
-As mentioned earlier, it’s taken over a finite field so as to limit key size.
-
-To illustrate, on the left side is the same curve, but over a small field where we only have integer values -128 to 128.
-
-When we take it over a finite field, it doesn’t look like a smooth curve anymore.
-
-However, there are unique properties of elliptic curves that will help us in creating a one-way function to generate public keys from private keys.
-
-So as mentioned earlier, Bitcoin’s elliptic curve is secp256k1.
-
-This curve is specified with a couple parameters, including the actual curve formula itself (by its coefficients), the field, and a generator point.
-
-Note the symmetry of the curve across the x axis.
-
-This symmetry is preserved even when taking it over a finite field.
-
-Also note that any non-vertical line on this curve will intersect the curve in at most 3 points.
-
-On the graph on the right hand side, the line through points P and Q intersect at point R.
-
-On this elliptic curve, we can do point addition using lines and points.
-
-To add P plus Q, we can simply draw a line through them, intersecting at a third point R, and then reflect the point R across the x-axis , yielding our result P + Q.
-
-And this is called the chord tangent process.
-
-This is a trapdoor, or one-way, function, because given a point K that is P + Q, it is difficult to find the individual points P and Q.
-
-<h3>Elliptic Curve Cryptography: Security</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image129.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-The user generates a random number n for their private key.
-
-They use elliptic curve point scalar multiplication by n to generate their public key: they add a known generator point P for secp256k1 with itself n times.
-
-Then, to generate the address, we hash the public key nP with SHA-256 first, and then with another hash function called RIPEMD160.
-
-SHA-256 makes the address quantum resistant, as quantum computers could possibly be able to break elliptic curves and reverse the one way point scalar multiplication we defined, but quantum computers cannot reverse hash functions.
-
-RIPEMD160 then shortens the address size from 256 bits to 160 bits.
-
-Now you might be wondering: given a public key nP, is it possible to get the private key n?
-
-This problem is known as the Elliptic Curve Discrete Logarithm Problem, and is known to be computationally infeasible.
-
-We can safely say that our procedure of generating public keys from private keys is fairly secure.
-
-Public Key to Public Key Hash
-
-Now that we have our public key, how do we get to our address?
-
-We’ll be going over that in this section.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image130.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-If quantum computers exist, we could use them to solve the elliptic curve discrete logarithm problem and find the private key given a public key.
-
-Quantum computers can’t reverse hash functions, so we choose to run two hash functions on our public key.
-
-First SHA-256, which we mentioned previously as a hash function prevalent throughout the Bitcoin protocol, and second, RIPEMD-160, which shortens the address size down from 256 bits to 160 bits.
-
-Together, the combination of using SHA-256 and RIPEMD-160 is called “double hash” or HASH160.
-
-After all this, we have our public key hash.
-
-<h3 id="ch3-18">3.18 Public Key to Address</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image131.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-And after we have our public key hash, we’re just a little bit away from arriving at our Bitcoin address.
-
-The next step is to make our pub key hash a bit more human friendly.
-
-First, we add a version byte in front of our previous RIPEMD-160 hash from the last section.
-
-In the version byte, we specify which network we’re on: the main Bitcoin network, or a smaller test network.
-
-We’ll save this for how and call it our extended RIPEMD-160 hash.
-
-We then run a Base58Check encode, which first involves converting what we have so far into base 58.
-
-Base 58 is an alphabet that’s like our usual 62 character alphabet.
-
-It has all single digits 0 to 9 and all upper and lower case letters, except for those that are hard to distinguish from one another.
-
-We take out the 0 and capital letter O, and also capital “I” and lower case “l.”
-
-This is to avoid ambiguity when copying down your address.
-
-Then, we calculate a checksum.
-
-We perform SHA-256d on our extended RIPEMD-160 hash, running SHA-256 on it twice.
-
-We take the first 4 bytes of our SHA-256d hash as our checksum, and append it to the end of our extended RIPEMD-160 hash.
-
-After converting the result to base58, we finally have our Bitcoin address.
-
-As a recap, in our address, we have successfully encoded our public key hash, which allows people to pay us, a version byte that says what network we’re on, and also a checksum that accounts for human error.
-
-If someone types or copies down your address wrong, then the address would not be valid given the checksum.
-
-And this is something that decoding software will do for us.
-
-It can hash the beginning of our address and compare it with the checksum to see if it is valid.
-
-<h3>Intro: Bitcoin Script</h3>
-
-Now we’ll dive into Bitcoin script.
-
-Bitcoin script, or just Script, is a language that was designed to be used for Bitcoin to process a variety of transactions -- from payments between two people, to more complex multi-signature transactions -- greatly extending the functionality of Bitcoin.
-
-Before we dive into specifics about how Bitcoin scripts work, it’s important to first review how transactions work.
-
-<h3>Remember the UTXO Model?</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------- Bitcoin Scripts: Remember the UTXO Model? --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image132.png" 
-   alt="Bit "
-   width="50%" />
-</p>
-&nbsp;
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image133.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-Remember the UTXO model?
-
-Bitcoin doesn’t have “accounts” with associated bitcoin tallies.
-
-Rather, you can think of each transaction as outputs from previous transactions feeding into new inputs.
-
-Transactions contain the signature of the owner of the unspent funds.
-
-These unspent transactions are UTXOs.
-
-How do you spend your bitcoin, or “your UTXOs”?
-
-This is important: spending bitcoin is the act of redeeming previous outputs with a proof that you are the legitimate redeemer, and then specifying who can redeem the output you are now creating by encoding that person’s information in your transaction.
-
-For example, if I send bitcoin (in the form of UTXOs) to Rustie, then in that transaction it’s encoded that only Rustie can redeem those UTXOs.
-
-That proof that Rustie would use to redeem his bitcoin is constructed with two things: a **public key**, and a **signature.**
-
-We’ll go more into detail later.
-
-Contents of a Transaction
-
-Let’s take a deeper look into the contents of my transaction to Rustie.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image144.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-As we can see, a transaction has three main “sections.”
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image145.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-The metadata section contains some housekeeping data, a unique ID of this transaction, locktime, and size.
-
-The inputs section contains a list of previously created UTXOs as well as a proof that I am eligible of redeeming the money.
-
-This proof allows me to redeem the UTXOs and use them to produce new outputs.
-
-The outputs section contains a list of new UTXOs that will be sent to new addresses.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  (128) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image146.jpg"
-   alt=" "
-   width="50%" />
-</p>
-
-Each of these values is accompanied with a script that locks the value away from everyone except the intended redeemer who can provide a valid proof.
-
-Taking a deeper look into the transaction, we start with the metadata.
-
-The first piece of metadata is the hash of our transaction, or the unique “ID” of this transaction.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image147.png" 
-   alt=" "
-   width="50%" />
-</p>
-&nbsp;
-
-We also get information here in the field vin_sz, which stands for vector input size, or the number of input UTXOs being referenced in this transaction, as well as vout_sz, which stands for vector output size, or the number of new UTXOs being created.
-
-In this case, I created this transaction with 2 UTXOs and send them as one new UTXO to Rustie.
-
-Finally, we have the version and locktime.
-
-Version is a number specifying the version of the Bitcoin software you are using.
-
-We will talk more about locktime later in this lecture.
-
-Now let’s talk about inputs.
-
-Remember that in the metadata section we have a unique ID for this entire transaction object that we’re talking about.
-
-Well these come in handy in the inputs, with each of the hashes you see here being references to the unique IDs of previous transactions containing the relevant UTXOs that are being redeemed now.
-
-We also get a reference to the index of the input in the previous transaction.
-
-“0” means the first input.
-
-“1” means the second, and so on.
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------- Contents of a Transaction: Inputs: scriptSig (129) ----------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image148.jpg"
-   alt="Contents of a Transaction: Inputs: scriptSig"
-   width="50%" />
-</p>
-&nbsp;
-
-The scriptSig is the most important part of these inputs because they’re the required proofs that prove that you can redeem the associated UTXO.
-
-Last but not least, the end product of our transaction is the output(s).
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Contents of a Transaction: Outputs ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image149.jpg"
-   alt="Contents of a Transaction: Outputs"
-   width="50%" />
-</p>
-&nbsp;
-
-You can see here in this particular transaction we have only one output with a value of about 10 bitcoin.
-
-Satoshi is the smallest unit of bitcoin.
-
-One bitcoin can be converted to 100 million satoshi, which means that it can be divisible to the 8th decimal place.
-
-The accompanying output address is a script that locks the transaction and makes it redeemable only by the specific proof that I specified in this transaction.
-
-In this case, only after Rustie provides his proof can he unlock and spend my UTXOs.
-
-<h3>Bitcoin Script Reminders</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image150.png" alt=" "</>
-</p>
-&nbsp;
-
-Remember: in this transaction, the output addresses are actually scripts.
-
-For this particular output script, we can read it as “This amount can be redeemed by the public key that hashes to address X, plus a signature from the owner of that public key.”
-
-This brings us back to Script.
-
-Do you have a better idea of why Bitcoin connects inputs and outputs through scripts?
-
-Rather than just connecting public keys together, connecting inputs and outputs through scripts allows for potentially complex transaction types.
-
-The Script language is stack-based, has a native support for cryptocurrency, and is purposely limited in capability for security reasons.
-
-<h3>Intro to P2PKH</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image151.png" alt=" "</>
-</p>
-&nbsp;
-
-Let’s walk through an example of how Script works under the hood.
-
-The example we are looking at is at the top of the screen.
-
-This script specifies the most common type of transaction in Bitcoin, which is to redeem a previous transaction output.
-
-To redeem this previous transaction, we need to prove our identities with (1) a public key that, when hashed, yields the address to which the previous transaction was sent, and (2) a signature that proves ownership of the private key corresponding to the public key we provided.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image152.png" alt=" "</>
-</p>
-&nbsp;
-
-This is the most common type of script in Bitcoin Pay to Public Key Hash (shorthanded).
-
-But how do we implement this functionality?
-
-With locking and unlocking scripts.
-
-Unlocking scripts are scripts that you provide in your input when you want to spend from a previous transaction, allowing you to redeem the associated bitcoin.
-
-You provide the signature and your public key, which are needed to prove your identity, and to unlock the transaction output.
-
-Your public key is then hashed and checked against the address that owns the UTXO.
-
-Because you provide a signature, this script is called scriptSig.
-
-Locking scripts are the scripts that are found in previous transaction outputs.
-
-The locking script specifies the requirements for redeeming a UTXO.
-
-This essentially “locks” down the UTXO, so that it can only be spent by whoever can unlock it.
-
-In our Pay to Pub Key Hash example, the locking script requires that the users that want to spend from a previous transaction output MUST prove that they possess a private key that hashes to a specific address.
-
-For this reason, this script is called scriptPubKey.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image153.png" alt=" "</>
-</p>
-&nbsp;
-
-To make unlocking and locking scripts work in tandem, we simply concatenate them.
-
-We put the unlocking script on top of the locking script, scriptSig on top of scriptPubKey, and then run them together.
-
-And the entire resulting script must execute successfully in order for the transaction to be considered valid.
-
-<h3>Demo: P2PKH Example</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image154.png" alt=" "</>
-</p>
-&nbsp;
-
-Now let’s piece everything that we’ve learned so far about Bitcoin script together, and walk through a sample execution of Pay to Public Key Hash.
-
-First notice how the execution order is defined.
-
-On the left hand side, we have the scriptSig on top, and the scriptPubKey on the bottom.
-
-The scriptSig on top is the input script to a new transaction we are creating, and the scriptPubKey on the bottom is the output script of an old transaction we are trying to spend from.
-
-Bitcoin Script is stack-based, which is first in last out, so execution will proceed as follows:
-
-We first put our signature on the stack.
-
-Then we put our public key on the stack.
-
-OP_DUP will duplicate the top item on the stack OP_HASH160 hashes the previous item on the stack, first with SHA-256, and then with RIPEMD-160
-
-Next, \<pubKeyHash?\> -- with the question mark in the angle brackets -- is the actual public key hash specified by the previous transaction output.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image155.png" alt=" "</>
-</p>
-&nbsp;
-
-We put this on the stack as well OP_EQUALVERIFY then checks to see if the top two items in the stack are equal.
-
-If they are equal, we continue with execution.
-
-If not, then the transaction is invalid and we stop execution.
-
-In this case, let’s say the transaction is valid, so we keep going with execution.
-
-Lastly, OP_CHECKSIG checks the validity of the signature with the given public key.
-
-If it’s valid, then it returns true.
-
-And then finally, since the final return value is true, we know that the transaction was valid, and so the transaction will go through.
-
-<h3>Proof of Burn</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image156.png" alt=" "</>
-</p>
-&nbsp;
-
-Something cool you can do with Bitcoin Script is write arbitrary data into the Bitcoin blockchain.
-
-This is the idea behind proof of burn.
-
-There’s an opcode in script called OP_RETURN that throws an error if it is reached.
-
-If you specify a script that has OP_RETURN before the output script, then the output can’t be spent, since execution terminates before then.
-
-If this transaction is published on the blockchain, then you’ve successfully proven that you have destroyed some bitcoin.
-
-No one can ever spend that bitcoin again, since you’ve burned it.
-
-Below OP_RETURN, there’s space to put whatever you want.
-
-One thing you can do with this concept of burning bitcoin is that you could bootstrap an altcoin, requiring that you must destroy some Bitcoin, and show a proof of this, in order to get some altcoin.
-
-Some altcoins such as CalCoin do this.
-
-Aside from using OP_RETURN for the sake of deriving an altcoin’s value, you can also write arbitrary data into the blockchain.
-
-Under OP_RETURN, there’s space to write whatever you want, so people have been creative with this.
-
-You could potentially prove the existence of something at a particular point in time.
-
-For example, if you coined a new word, and wanted to prove in the future that you had coined this word in the past, you could simply burn this data into the blockchain.
-
-As we mentioned before, the Bitcoin blockchain is immutable, meaning that it cannot be changed realistically.
-
-Transactions are also timestamped, so people can see that you had actually coined this word in the past.
-
-Aside from words, you could also prove the existence of a document, a piece of music, other creative works, or anything else, so long as you have bitcoin to burn.
-
-<h3>Intro: Advanced Bitcoin Script and P2SH</h3>
-
-In this section, we’ll look at how to create arbitrary scripts in a scheme called P2SH, or Pay to Script Hash.
-
-For a better understanding, we’ll compare pay to script hash to the scheme from the previous section: pay to pub key hash.
-
-To make for a better mental model, we’ll be explaining everything in terms of a vendor-customer scenario, where the customer creates a transaction to pay the vendor.
-
-In other words, the customer is the sender, and the vendor is the recipient.
-
-<h3>P2PKH vs P2SH</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image157.png" alt=" "</>
-</p>
-&nbsp;
-
-So as a recap, in Bitcoin, senders specify a locking script in the output of the transaction they are sending, and recipients provide an unlocking script in the input whenever they want to redeem their bitcoin.
-
-In the previous section, we gave the example of Pay to Pub Key Hash, or P2PKH.
-
-In this scheme, the vendor, or the recipient of the transaction, says: “Send your coins to the hash of this Public Key.”
-
-And later, the vendor has to provide a public key and a signature, in order to redeem these bitcoins.
-
-This is by far the simplest and most common case.
-
-On the other hand, there is the more flexible Pay to Script Hash.
-
-Rather than paying to just a public key hash, we can now pay to a more complicated set of instructions.
-
-In this scheme, the vendor says: “Send your coins to the hash of this Script.
-
-I’ll provide the script and the data to make the script evaluate to true when I redeem the coins.”
-
-This makes sense because we don’t really want vendors to require customers to create a complicated output script first.
-
-It’s much more customer friendly if the recipient of the transaction, the vendor, specifies the script.
-
-<h3>How P2SH Works</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ (135) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image158.png" alt=" "</>
-</p>
-&nbsp;
-
-As a refresher, here’s how everything works in Pay to Pub Key Hash.
-
-If Bob wants to receive bitcoin from Alice, Alice has to have access to Bob’s public key hash.
-
-She can then send a transaction paying to Bob’s public key hash.
-
-In order for Bob to redeem the bitcoin that Alice just sent him, he must provide a signature and full public key, proving his identity and allowing him to spend from this transaction output.
-
-Now let’s say that Bob wants to introduce some more functionality into his transaction with Alice.
-
-Say he wants to use multisig or a time-lock -- two types of scripts that we’ll introduce later.
-
-Instead of providing Alice a public key hash, Bob first creates a script, takes the hash of it, and sends it off to Alice.
-
-Alice can then send a transaction paying to Bob’s script hash.
-
-In order for Bob to redeem the bitcoin that Alice just sent him, he must provide a signature and the full script that he had written.
-
-<h3>Why use P2SH?</h3>
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ (136) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image159.png" alt=" "</>
-</p>
-&nbsp;
-
-Why Pay to Script Hash instead of just pay to a script?
-
-By providing a hash of the script to the customer, the vendor offloads the complicated task of having to compose a bitcoin script to himself.
-
-This is particularly helpful from a vendor-customer standpoint, where the vendor is the recipient of bitcoin, and the customer is the sender.
-
-Let’s say a vendor wants to receive money and use complicated features such as multisignature, they don’t want to burden their customers by forcing them to write complicated scripts just to make a transaction.
-
-Therefore, all P2SH requires is for sender to use only hash of the script to compose a locking script.
-
-The customer doesn't care what the script actually is -- all they care about is getting their goods.
-
-It's up to the vendor that they write the correct output script so that they and ONLY they are able to redeem that output.
-
-It also makes sense that the customer shouldn't need to know anything about how the vendor holds their funds in order to be able to easily send them money.
-
-Pay to Script Hash was an update to Bitcoin back in 2012, and since then has been one of the most important improvements to Bitcoin since Bitcoin’s inception.
-
-<h3>Multisignature</h3>
-<!------------------------------------------------------------------------------------------------>
-<!----------------------- P2PKH vs P2SH: Multisignature Example (139) ---------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image161.jpg" 
-   alt="P2PSH vs P2SH: Multisignature Example"
-   width="50%" />
-</p>
-&nbsp;
-
-One of the most widely used example of P2SH is multisignature, where a specific number of pre-specified signatures are required to unlock a UTXO.
-
-A typical multisig scheme is an m-of-n, where you need m of n signatures users to sign off on a transaction before it is considered valid.
-
-Some unique benefits of multisig are...First, multisig scheme increases the difficulty of stealing funds.
-
-Instead of using one private key to unlock the fund, the thief now has to have the minimum number of keys that satisfies the multisignature requirements.
-
-Second, using multiple keys to unlock accounts prevents losses.
-
-Before using multisig, losing the one and only bitcoin private key would be an end-all-be-all situation.
-
-Now, with a 2-of-4 address, for example, you can still redeem the funds within the address by only having to provide signatures from 2 keys.
-
-Thirdly, it can also be used to give control of a single address to multiple people.
-
-For instance, the executive board of a company can mandate that 3 out of 5 executives must approve of a budget before a fund can be spent, and using a 3-of-5 signature suits the exact purpose.
-
-Let’s take a look at the diagram on the slide to see how a multisignature script is constructed and executed.
-
-In the first box of the left hand side diagram, you see the unlocking script, which contains a number of signatures that are just enough to satisfy the conditions of the locking script which allows the user to spend the UTXO.
-
-Below the unlocking script is the redeeming script, which contains all possible and eligible signatures to spending the bitcoins.
-
-It sets the rules on how and who can spend money from a particular account.
-
-The letter m on the top of the box represents the minimum number of signatures, and the letter n shows the total number of valid signatures.
-
-This redeeming script is only revealed and used when the redeemer wants to spend the money.
-
-The redeeming script is then hashed, to check against the redeeming script hash, and evaluated.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" 
-   src="/images/image162.png" 
-   alt="Recipe for Mining: Step 4"</>
-</p>
-
-Lastly, if you look at the bottom of the diagram, the locking script contains the hash against which the hash of the redeem script will later be compared with.
-
-For a multisig transaction to be valid, the full redeem script is hashed and then compared with the script hash.
-
-If they match, the UTXO is unlocked.
-
-<h3>Timelocks</h3>
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------- transaction locktime: timelocks (141) ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image162.png" 
-   alt="Transaction Locktime: Timelocks"
-   width="50%" />
-</p>
-
-Timelocks are a type of functionality in Bitcoin that restrict the spending of funds until a later time or a specific block height.
-
-Time in this case can either be represented as a UNIX timestamp, block height, or the number of blocks built on top of the block containing the transaction.
-
-Timelocks can be absolute or relative.
-
-Absolute timelocks specify an absolute point in the future when a particular transaction can go through.
-
-This is done using a UNIX timestamp or blockheight.
-
-Relative timelocks on the other hand specify a block depth, or the number of blocks that have been built on top of current one.
-
-There is also the distinction between transaction-level and script-level or UTXO-level timelocks.
-
-As their names imply, transaction-level timelocks impose a timelock on the transaction itself, whereas script-level timelocks can impose timelocks on specific UTXOs, and are specified in Bitcoin scripts.
-
-Transaction-level timelocks were the first implementation of timelocks on bitcoin.
-
-This timelock ensures that a transaction cannot not be included in a valid block until a particular time in the future.
-
-However, the caveat is that since the timelock is only placed on the transaction but not the UTXO that is being spent, the sender could simply send another transaction spending from the same UTXO as the timelocked transaction.
-
-This new transaction will go through first so long as the first transaction is still timelocked.
-
-And so long as it is valid, the new transaction in effect invalidates and overrides the timelocked transaction, since the outputs that the timelocked transaction tries to spend from will have already been used, thereby cancelling out the original timelocked transaction.
-
-In order to prevent this caveat, the time lock can also be placed on the UTXO itself.
-
-The UTXO- level timelock specifies that a particular UTXO cannot be spent until the specified time.
-
-This ensures that the sender of the UTXO cannot override the transaction by sending the UTXO to another address before the timelock is unlocked.
-
-One note when using timelocks is that users must be careful near the expiry time of a timelock.
-
-There is no notion of global time on the blockchain since peers’ clocks on the network could potentially be off.
-
-Therefore, be wary when using absolute timelocks with UNIX timestamps.
-
-A transaction that seems ready to spend given that a specific amount of time has passed might be viewed as premature by others.
-
-Also, blocks are not created at guaranteed intervals either, so any attempts to cancel out of a timelocked transaction should be made a few hours before the timelock, specified in blockheight, expires.
-
-# Lecture 3 Summary
-
-<h3>I. Cryptographic Hash Functions </h3>
-
-In this lecture, we dove into the low-level specifics of Bitcoin that make it work. Bitcoin was innovative because it allowed a decentralized network to reach consensus. It achieved this via tamper-evidence, which means although one can modify the information that passes along the Bitcoin network, it would be obvious that some modification has been made. This tamper evident system allows us to be sure any update on Bitcoin is the same for everyone.
-
-We achieve a tamper evident system using cryptographic hash functions to produce standardized random “fingerprints” of our data. If the data changes, so will the fingerprints. Cryptographic hash functions do the following:
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- cryptographic hash functions (143) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image163.jpg" 
-   alt="Cryptographic hash functions"
-   width="80%" />
-</p>
-
-Cryptographic hash functions are pseudorandom: although the output for any given input seems random, the output will remain consistent for that input.
-
-Important Properties of Cryptographic Hash Functions:
-
-1.  Pre-image Resistance: Given H(x), it is computationally difficult to determine x
-
-2.  Second-image Resistance: Given x, it is computationally difficult to find some value x’ such that H(x) == H(x’)
-
-3.  Collision Resistance: It is computationally difficult to find x and y such that H(x) == H(y)
-
-These properties produce the Avalanche effect, where even any small change in the input leads to a significant pseudorandom change in the output.
-
-The particular hash function Bitcoin uses is SHA256, which takes in an input of size less than 2\^64 bits and produces a 256 bit fix sized output.
-
-<h3>II. A Tamper Evident Database</h3>
-
-This cryptographic hash function is used to make an entire tamper evident database in Bitcoin. The Block Header of a block on Bitcoin, is a hash of many contents within the block, most notably its Merkle Root, Previous Block Hash, and Nonce fields. The Merkle Root represents a summary of transactions, the Previous Block Hash represents the chaining, and the Nonce represents the Proof-of-Work.
-
-The Merkle Root is the head of the Merkle Tree, a binary tree of hashes of all the previous transactions. The Previous Block Hash contains the hash of the previous block. Both of these hashes change if any of the previous transactions or blocks is modified.
-
-The Nonce is the manifestation of the proof-of-work in Bitcoin; it is a numerical value that must be found to solve the partial preimage hash puzzle. Miners hash the entire block header (the input) and tweak the nonce and coinbase until they find an output that solves the hash puzzle. 
-
-Hash puzzles must be:
-
-1.  Computationally Difficult: The solution to the hash puzzle cannot be easily found
-
-2.  Parameterizable: The difficulty of the hash puzzle should be adjustable 
-
-3.  Easily Verifiable: Computers should have to do little work to ensure the answer is correct
-
-The difficulty of the hash puzzle in Bitcoin is:
-
-difficulty = difficulty \* two weeks / time to mine previous 2016 blocks
-
-Once miners solve the puzzle, they receive bitcoin via a coinbase transaction. Whenever miners produce a block, they first create a coinbase transaction, which is the first transaction of the Merkle Tree.
-
-Using cryptographic hash functions, we ensure previous blocks remain tamper evident; we now turn our attention to how digital signatures help us ensure current transactions are tamper evident as well. Public and Private keys in Bitcoin are generated using Elliptic Curve Digital Signature Algorithm (ECDSA). ECDSA has three key properties:
-
-1.  Given the encrypted message and the sender’s public key, the recipient should be able to identify the message origin. Since the message has been signed by the sender’s private key, the ability to encode it using the public key demonstrates the original sender has authorized this message.
-
-2.  The digital signature scheme must also ensure non-repudiation: once the sender signs the message, they should not be able to undo it. 
-
-3.  Finally, the scheme must maintain integrity; since messages are signed with the private key, they cannot be modified after signing.
-
-Identity in Bitcoin is derived from private keys, which are generated randomly. Public keys are the result of Elliptic curve point multiplication of the private key against a known generator point on the curve. Given the public key, it is computationally infeasible to arrive at the private key.
-
-We can apply these concepts of private and public keys to understand how transactions in Bitcoin work. Spending bitcoin is the act of **redeeming **previous transaction outputs with a proof that you are the legitimate redeemer, and then **specifying who can redeem **the output of the transaction you are now creating, by encoding that per's information in your transaction.
-
-A transaction has three main sections:
-
-1.  Metadata: Contains housekeeping data, a unique ID of this transaction, locktime, and size
-
-2.  Inputs: Contains a list of previously created UTXOs and proof of eligibility to redeem this money
-
-3.  Outputs: Contains a list of new UTXOs that will be sent to new addresses. These values are locked by a script only the intended redeemer can unlock.
-
-Bitcoin uses the stack-based, Turing-incomplete language named Script to create transactions. Locking and Unlocking Scripts are contained in transaction input and previous transaction output and are used to redeem the output of a previous transaction and specify requirements for redeeming transactions, respectively. Senders specify a Locking Script, and recipients specify an Unlocking Script. In Pay-to-Pub-Key-Hash (P2PKH), the recipient says “send your coins to the hash of this Public Key.” In Pay-to-Script-Hash (P2SH), the recipient says “Send your coins to the hash of this Script; I will provide the script and the data to make the script evaluate to true when I redeem the coins.” The latter is popular among customer-vendor transactions, where the vendor (recipient) is responsible for writing the script.
-
-<h3>Readings</h3>
-
--   [Where is Double hashing performed in Bitcoin? ](https://bitcoin.stackexchange.com/questions/8443/where-is-double-hashing-performed-in-bitcoin)
-
-Princeton Textbook 5.1-5.4 (pg. 131 - 157)
-
--   [Bitcoin Wallets Explained: How to Choose the Best Wallet for You ](http://cryptorials.io/bitcoin-wallets-explained-how-to-choose-the-best-wallet-for-you/)
-
--   (Optional) [Bitcoin Developer Guide ](https://bitcoin.org/en/developer-guide)(There's a lot; don't try to read it all in one day) 
-
--   (Optional) [Tech explained: Hash puzzles and proofs of work ](https://3583bytesready.net/2016/09/06/hash-puzzes-proofs-work-bitcoin/)
-
--   (Optional) [Secure Hash Standard (SHS)](https://csrc.nist.gov/csrc/images/publications/fips/180/4/archive/2012-03-06/documents/fips180-4.pdf) (Insane math: a blessing or curse depending on your preference)
-
-<h3>HW2: When Hashes Collide</h3>
-
-Bitcoin operates under certain assumptions, such as an honest majority of computational power. The assumption we discussed in this last lecture was that cryptographic hashes are unique, given the properties of preimage, second preimage, and collision resistance.
-
-Let’s say that you manage to break computer science as we know it and devise a way to make any input look like your preferred output. Formally, you can always construct an input y such that you can control the value of H(y) to be in your favor. You can create collisions at will. How can you then manipulate the Bitcoin protocol in your favor? There are several different answers, but you only need to provide one example.
-
-Feel free to discuss amongst each other in the discussion board topic below. We'll be grading the responses you paste into the text input.
-
-<h3>Module 4 - Bitcoin In Real Life: Wallets, Mining, and More</h3>
-
-We’ve looked at Bitcoin mechanics from both a high and low level, explaining the primary motivations of why we do what we do in Bitcoin, and its implementation.
-
-But what about the users?
-
-What does the Bitcoin experience look like from their perspective?
-
-If I want to get involved sending and receiving Bitcoin, mining, or running a full node, what does that look like?
-
-The user experience varies greatly depending on your involvement with Bitcoin, but whether you’re a light user, full node, solo miner, or running a mining farm, you interface with the Bitcoin network in some way.
-
-This module will touch upon the various user experiences in the Bitcoin ecosystem.
-
-We’ll start off with a short discussion on the types of users in Bitcoin, then move on to wallets as a way to manage your identity.
-
-We’ll then formalize the Bitcoin mining procedure and explore real world mining endeavors.
-
-Finally, we’ll explore the various ways through which users can change Bitcoin and its underlying protocol.
-
-While we may primarily only think of miners or casual traders using exchanges or their own wallet software, there are actually a plethora of different types of Bitcoin users, each categorized by the different software that they run, and how they interface with the Bitcoin network.
-
-<h3>Key Components</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ Types of Users: Key Components  --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image164.png" alt="Types of Users: Key Components"</>
-</p>
-
-In our previous discussions about Bitcoin mechanics, we explained everything from the perspective of a full node and miner: a user with networking capability to interface with the Bitcoin network, actively maintains a full up-to-date copy of the Bitcoin blockchain, has a wallet as a means to manage public and private keys, and mines to support the network and also to earn a mining reward.
-
-There’s a total of four functions: network routing, mining, maintaining a full blockchain, and handling wallet services, and our full node miner contains all of them.
-
-But normal clients don’t need all this functionality.
-
-For example, not every client is a miner.
-
-If my computer isn't fast enough, I won't be making a profit mining, so why bother?
-
-Not every client needs to have the entire blockchain.
-
-If I just want to send bitcoin through my phone, why would I want to have the 160 plus gigabyte blockchain downloaded?
-
-My phone doesn’t even have that much storage!
-
-Not every client even needs a wallet, especially if they don’t transact often.
-
-Say you’re just a full node hosting the entire blockchain, but have no interest trading yourself.
-
-Or you have a separate wallet software.
-
-And finally, as we’ll soon see, not every client needs to be connected to the Bitcoin network, or even the internet!
-
-In actuality, the distinction between different types of users isn’t just through these four main functionalities -- mining, routing, having a full blockchain, and key management through wallets -- but it does summarize a lot about the Bitcoin user experience.
-
-Intro: Wallets
-
-The first type of user we’ll be talking about is the most common Bitcoin user.
-
-Doesn’t have the entire blockchain downloaded, and doesn't need fancy functionality.
-
-Just a wallet to help manage keys, and this type of user can send and receive bitcoins with the rest of the network.
-
-As we’ll soon find out, wallets come in many different shapes and sizes – hosted on the web, on your computer, digital, or physical.
-
-<h3>Purpose of a Wallet</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Purpose of a Wallet: Key Management ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image165.png" alt="Purpose of a Wallet: Key Management"</>
-</p>
-
-As we’ve previously mentioned, Bitcoin is all about granting real-world entities virtual identities.
-
-Through these Bitcoin identities, we can easily authenticate ownership and send bitcoins between users.
-
-Also as mentioned previously, the private key is what unlocks a virtual identity.
-
-It’s what gives access to a Bitcoin address.
-
-But how do we actually protect these private keys?
-
-How do we make sure that we’re not subject to identity theft?
-
-<h3>Types of Wallets</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Bitcoin Wallets: What do Wallets Do? ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image166.png" alt="Bitcoin Wallets: Wallet Types: What Do Wallets Do?"</>
-</p>
-
-This is where wallets come in.
-
-The primary function of Bitcoin wallets is to keep track of your identity.
-
-Unlike how we use physical wallets to conveniently hold onto and store our physical money, our digital Bitcoin wallets don’t actually let us store bitcoins.
-
-Bitcoin wallets are simply a method of storing and accessing your private key, which then allows you to spend the corresponding bitcoin.
-
-Most wallet software will also store, send, receive, and list transactions for you, since it’s easy for software to do this but not necessarily for humans.
-
-It would be infeasible to manually keep track of all blockchain activity involving you.
-
-To take care of this, wallet software will store all relevant information about the blockchain on your behalf.
-
-<h3>Types of Wallets: Hot and Cold</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ Types of Wallets: Hot and Cold  --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image167.png" alt="Types of Wallets: Hot and Cold"</>
-</p>
-
-Wallets come in many forms.
-
-We generally make the distinction between two main categories of wallets -- hot and cold -- based on their connectivity to the internet.
-
-Hot wallets are connected to the internet, and cold storage is not.
-
-<h3>Types of Wallets: Hot Wallets</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------- Bitcoin Wallets: Hot Wallets ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image168.png" alt="Bitcoin Wallets: Hot Wallets"</>
-</p>
-
-Some examples of hot wallets are smartphone apps such as Mycelium and AirBitz (I personally use AirBitz).
-
-There are also online web wallets such as those hosted on Blockchain.info and coinbase.com.
-
-And all these are connected to the internet.
-
-<h3>Types of Wallets: Cold Wallets</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ Bitcoin Wallets: Cold Storage ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image143.png" alt="Bitcoin Wallets: Cold Storage"</>
-</p>
-
-On the flip side, cold storage never touches the internet.
-
-For example, there’s paper wallets, hardware wallets, and brain wallets.
-
-Paper wallets are literally pieces of paper with your private key printed on it.
-
-You can generate fancy paper wallets on websites such as Bitcoinpaperwallet.com and Bitaddress.org.
-
-For maximum security, these websites will ask you to download the entire website and run them locally, but only after shutting off your entire internet connection for maximum security.
-
-They also warn of smart printers that cache files that it prints, and operating systems that might already be compromised.
-
-In situations like these, users of paper wallets suggest using a dumber old- fashioned printer, and also dedicating an entire new, fresh computer just for the purpose of printing paper wallets.
-
-This is how far some people take security.
-
-There are also hardware wallets such as Ledger, Trezor, Case, and Keep Key, which are little devices that plug into your computer or smartphone via USB or some other method and sign transactions for you.
-
-The idea is that while your computer may be connected to the internet, the hardware wallet handles your private key and signs transactions in a trusted execution environment that runs separately from your computer and never touches the internet.
-
-And then there’s brain wallets.
-
-Imagine a wallet that is so secure that it’ s practically impossible to hack. Online web wallets might get hacked, your smartphone or hardware wallet might get stolen, or your house might burn down and take with it your paper wallet.
-
-Imagine a wallet that’s immune to all of these disasters AND more.
-
-Well look no further than your brain, the most secure wallet of them all.
-
-Simply memorize your private key.
-
-Just kidding.
-
-While it is possible to memorize your raw private key, an easier alternative would to memorize a collection of words or phrases or a mnemonic.
-
-The idea is to just have a more easily memorizable set of characters than your straight up private key.
-
-On the right, you can see that I’ve chosen a list of 12 words.
-
-Multiply, scrap, submit, select, adjust, end, accuse, fuel, nose, hope, chair, afraid.
-
-After I’ve chosen this set, I would then hash them together to get my private key.
-
-This way, I can have the security of a brain wallet, having no physical evidence of my private key and keeping everything in my head, and also get around memorizing my actual private key.
-
-However, there’s a catch.
-
-Humans aren’t as random as we think, so the words someone chooses for their brain wallet might easily be guessed -- such an attack is called a dictionary attack.
-
-Dictionary attacks are especially dangerous to those who take their brain wallet words from a famous quote from a speech or movie or book.
-
-In general, so long as your words are not closely related, it’s still expensive and improbable that someone would be able to guess and successfully dictionary attack your brain wallet.
-
-<h3>Key Stretching</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Wallets: Key Stretching ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image144.png" 
-	alt="Bitcoin Wallets: Key Stretching" 
-</p>
-
-However, for the security minded, to further lessen the probability of someone being able to guess your brain wallet, you can employ what’s known as key stretching.
-
-There’s nowhere saying what hash function you have to use to get from your brain wallet to your private key, nor how many times you’re allowed to hash -- that’s all up to you as the user.
-
-The idea behind key stretching is to hash your brain wallet a large number of times: say 2\^20 or some other huge number.
-
-I take my set of words “multiply, scrap, submit, etc” and I…...Hash and hash and hash it….
-
-Not only will an attacker have to guess your initial set of words, but they would also have to guess how many times you hashed your set of words.
-
-Hacking a brain wallet that has been key stretched is exponentially harder to brute force than a brain wallet that is only hashed once.
-
-<h3>Choosing a Wallet</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Bitcoin Wallets: Choosing a Wallet -------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image145.png" 
-   alt="Bitcoin Wallets: Choosing a Wallet" 
-   width="50%"
-</p>
-
-
-There’s a lot of wallets out there, definitely a lot more than what we’ve gone over, and that’s why users have to do their own research to find the wallet that’s best for them.
-
-For example, oftentimes you have to trade off between convenience and security.
-
-Coinbase.com is very easy to use, but they actually store your private keys on the cloud, and you never get to see it.
-
-Some people don’t like this because you’re putting trust in a powerful, trusted third party -- Coinbase in this case.
-
-However, others are willing to trade this for the convenience of having their bitcoin at their fingertips through an easy to use website.
-
-On the other hand, wallets like Mycelium and Electrum do not hold anyone’s private keys on the cloud.
-
-Users hold their own private keys and are responsible for their own funds.
-
-There’s no recourse from these services in case someone loses their private key.
-
-The benefit of course, is security, since no one else but you controls your private keys.
-
-However, it’s a huge responsibility and burden, especially for casual Bitcoin users.
-
-At the end of the day, your choice of wallet is really up to you as an individual.
-
-Whether you’re more partial to convenience features such as payment via smartphones and QR codes, or fancy multisignature wallets, or go the extra mile to use a hardware wallet, print out a paper wallet, or memorize a brain wallet… it all boils down to your personal needs.
-
-<h3>Bitcoin ATMs</h3>
-
-You might be thinking: Alright Rustie, we’ve been talking a lot about Bitcoin wallets and how to manage your private keys, but how do I get bitcoins in the first place?
-
-Bitcoin’s not some magic internet money after all.
-
-Well lucky for our students in Berkeley, we actually have Bitcoin ATMs a couple blocks from campus.
-
-And for all you non-UC Berkeley folks, don’t worry, these are also available elsewhere!
-
-Bitcoin ATMs are pretty cool.
-
-You first scan your QR code from a smartphone wallet app, or any other device (or piece of paper) that can display a QR code.
-
-The important thing is that this QR code contains your Bitcoin address.
-
-You then insert cash, press send, and then bitcoin is sent over!
-
-Just like that!
-
-Some Bitcoin ATMs work a bit differently, and instead of having you scan your QR code, they simply print out a paper wallet for you after you’ve paid your equivalent amount through cash, debit, or credit card.
-
-<h3>Exchanges</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- How Do I Get Bitcoin: Exchanges ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image146-how-do-i-get-bitcoin.png" 
-   alt="Bitcoin Wallets: Choosing a Wallet" 
-   width="50%"
-</p>
-
-You can also get Bitcoin through an exchange, where you can trade between different types of traditional currency and cryptocurrencies.
-
-For example, you can trade from bitcoin to USD, and from USD to bitcoin, naturally.
-
-Exchanges are important because they set the price of bitcoin, since they define the market value.
-
-There are a lot of exchanges, some more reputable than others, so it’s important to do your own due diligence in choosing which exchange to use.
-
-For example, there’s the distinction between centralized and decentralized exchanges.
-
-Centralized exchanges are easy to use and easy to access, but could pose a risk for your funds.
-
-There have been some infamous hacking incidents over the years.
-
-Think of the Mt. Gox hack and bankruptcy, and also the more recent BitFinex hack in which approximately 120,000 bitcoins were stolen.
-
-As a general rule of thumb, it’s never safe to keep your money in exchanges in the long term.
-
-A lot of people do this, and it’s unfortunate when they lose all their funds when a hack does occur.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- How Do I Get Bitcoin: Decentralized Exchanges --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image147.png" alt="How Do I Get Bitcoin: Decentralized Exchanges" style="width:5in;height:2.8in" />
-</p>
-
-So naturally, following the trend of decentralizing Everything for security reasons, we now have decentralized exchanges
-
-They don’t rely on a third party service to hold the customer’s funds, or do any of the mission critical back end work.
-
-Instead, trades only occur directly between users (think P2P).
-
-Generally this is done by creating proxy tokens, or assets, that represent certain amount of fiat or crypto currency.
-
-Decentralized exchanges can also be trustless.
-
-You don’t have to trust the security or honesty of the exchange since the funds are held by you in your personal wallet, and not by a third party.
-
-Some examples of decentralized exchanges are Bitsquare, Bitshares, Openledger, NXT, CounterParty, etc.
-
-Decentralized exchanges might not necessarily be better than centralized exchanges, especially since large centralized exchanges are generally backed by powerful companies that can invest in high security, but of course, do your own due diligence.
-
-<h3>Intro: Wallet Mechanics</h3>
-
-We now know that wallets help manage your identity: your public and private keys.
-
-In the case of brain wallets and paper wallets, there’s not much else to say, since the idea behind them is simple: just write or print out a copy of your private key, or have some mnemonic or way to derive your private key.
-
-But when it comes to wallet software, it’s a bit more complex.
-
-In this section, we’ll be going into some wallet mechanics and how they enable the functionality in your favorite Bitcoin wallet app.
-
-<h3>Simple Payment Verification</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------ Simple Payment Verification: Thin Clients ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image148.png" alt="Simple Payment Verification: Thin Clients" style="width:5in;height:2.8in" />
-</p>
-
-First off, let’s address the elephant in the room.
-
-How come when I use my wallet software, I don’t have to download the entire Bitcoin blockchain?
-
-Well, we have SPV to thank for that.
-
-SPV stands for Simple Payment Verification, and it’s a method for verifying if particular transactions (specifically your own transactions) are included in a block by only having to download the blockheaders of each block, instead of the entire block, which includes all the transactions.
-
-This is particularly useful for clients that are constrained by storage capacity, as they can now operate without storing the full blockchain.
-
-Imagine your typical Bitcoin smartphone wallet app.
-
-You don’t have the entire blockchain stored.
-
-Instead, you have a wallet, to keep track of your keys, and a network routing component that allows you to connect to the Bitcoin p2p protocol.
-
-This is all done without a full blockchain, and for this reason, clients that run SPV are called lightweight or thin clients.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------- Simple Payment Verification: Thin Clients: Assumptions --------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image149.png" alt="Simple Payment Verification: Thin Clients: Assumptions" style="width:5in;height:2.8in" />
-</p>
-
-In SPV, by having the block headers, you can simply run a merkle proof of inclusion, which we explained in the previous module in the tamper evident database section.
-
-One major assumption you have to make when using SPV is that incoming block headers are not from a false chain.
-
-If the block headers you receive are fake or invalid, then a transaction you see as valid may not actually be so, and someone could potentially double spend you!
-
-Thankfully, it’s generally ok to assume that incoming block headers are not from a false chain.
-
-As long as you connect to many different nodes, then the probability of each one being controlled by one malicious entity is significantly lowered.
-
-And as long as you’re connected to a variety of nodes, in the long term, the chain you see will be honest: a core assumption that we make in Bitcoin to begin with.
-
-And realistically, we can’t afford to put the entire blockchain on our phones or other lightweight devices, so having a thin client running SPV is a pretty decent tradeoff.
-
-<h3>Multisignature</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image150.png" alt="" style="width:5in;height:2.8in" />
-</p>
-
-We mentioned multisignature in the previous module in regards to pay to script hash, but just to explain again and elaborate on its potential uses, we generalize, saying that multisig enables what are called M-of-N transactions.
-
-In simple terms, multisig is a way of cryptographically sharing a key between participants, and serves to distribute points of failure.
-
-Imagine if you want to share a wallet with your family, or even with yourself.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image151.png" alt="" style="width:5in;height:2.8in" />
-</p>
-
-For example, consider a 2-of-3 multisig.
-
-Imagine I have a 2 of 3 multisig with my friends Derrick and Gloria.
-
-Only two of us need to sign off on a transaction in order to send it.
-
-But no one can just run off with our bitcoin since you need at least two of three keys.
-
-And in this example, I have set up a two of three multisig with myself.
-
-Instead of losing my private key and then subsequently losing all of my funds, I have more than one point of failure.
-
-After losing one private key, i still have two of the three total keys, so I still have sufficient keys to access my funds in a 2-of-3 multisig scheme.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image152.png" alt="" style="width:5in;height:2.8in" />
-</p>
-
-As another example, some exchanges and software wallet companies provide 2-of-3 or 3-of-5 multisig services.
-
-In the 2-of-3 multisig case, you keep two of your keys, and a trusted third party such as the company holds the third.
-
-The exchange can’t use your funds since they only have one key, but if you ever lose one of your keys, the company can step in and offer their key to help you recover your funds.
-
-As you can imagine, this works similarly for 3-of-5 or any other M-of-N multisig.
-
-<h3>Key Generation Best Practices</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image153.png" alt="" style="width:5in;height:2.8in" />
-</p>
-
-It’s generally considered best practice to never reuse pseudonyms.
-
-This requires generating a new public and private key pair for every transaction you make.
-
-You want to do this so that it’s more difficult to determine how much bitcoin you own, and what you’ve been spending that bitcoin on.
-
-Also, imagine if you didn’t generate a new public and private key pair for every transaction, and you had all your funds associated with one identity.
-
-As soon as you lose the corresponding private key, all your funds are gone.
-
-It’s best practice to spread out your funds across multiple identities.
-
-After all your private keys are just random numbers -- there’s no relation between them -- so compromising one key is independent of the others.
-
-And public and private keys are computationally easy to generate anyways, so why wouldn’t you generate new public and private keys for every transaction?
-
-It’s a little effort that could potentially go along way in saving your Bitcoin user experience.
-
-Wallet software will generally handle this anyways, making it so much easier to comply with best practices.
-
-<h3>JBOK Wallets</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image153.png" alt="" style="width:5in;height:2.8in" />
-</p>
-
-Now if you’re complying with best practices and generating a new public and private key for every transaction you make, the natural question is: how do I manage an increasing number of keys?
-
-This is especially the case if you’re making frequent transactions.
-
-The number of keys you control can quickly become overwhelming.
-
-The traditional way to keep track of keys was through what are known as JBOK wallets, where JBOK is an acronym standing for “Just a Bunch of Keys.”
-
-The idea behind JBOK wallets was that after making every transaction, you would make a new backup of the new key pair you generate.
-
-Alternatively, you could also start off with a bunch of keys generated beforehand.
-
-However, after you use up all of these keys, you would still have the same issue of having to generate more keys.
-
-JBOK wallets aren’t too convenient because you have to store each and every key pair.
-
-Consider if you’re an exchange, and you have thousands of users trading constantly.
-
-You’d have to deal with so many keys, and even more back ups.
-
-That’d be pretty unmanageable.
-
-<h3>HD Wallets</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image154.png" alt="" style="width:5in;height:2.8in" />
-</p>
-
-Instead of having just a bunch of keys, let’s try something a bit more clever.
-
-What if we could instead come up with a way of deriving keys from a original seed value?
-
-That’s the idea behind HD Wallets, or Hierarchical Deterministic wallets.
-
-We start off with a randomly generated seed value.
-
-Instead of having to back up every single key from now on, we could just deterministically generate a new key pair, so long as we know our original seed.
-
-We can think of this seed as a master key.
-
-We first generate our master key, and for each subsequent key we want to generate, we can just take the hash of the master key with some counter or index number, and then we’ll arrive at our derived child key.
-
-For example, if I want to generate my third child key, I would append 3 to my master key and hash the whole thing.
-
-We can think of the master key as being a parent key, and any keys that are generated from it are its child keys.
-
-And to make things more interesting, we can also use child keys as parent keys to generate even more child keys.
-
-By generating keys in a known way instead of randomly, we greatly lessen the load on wallets having to keep track of all your keys -- especially if you’re dealing with thousands of keys like exchanges do.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------  ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image155.png" alt="" style="width:5in;height:2.8in" />
-</p>
-
-Of course, exchanges can use HD wallets to greatly reduce their load, but HD wallets are also useful elsewhere.
-
-Imagine an organization with a hierarchical structure.
-
-Imagine that we have the president control our master key.
-
-From the master key, we can generate child keys for each of the department heads.
-
-And from the keys of the department heads, we can generate child keys again for each of the department employees.
-
-Since keys are derived in a hierarchical fashion, someone controlling a parent key can derive a child key, and can thus spend from it.
-
-In our hierarchical organization, if everyone in the org were to have an HD wallet as previously defined, then the department heads could spend from the wallets of employees in their department, since the employees keys were generated from the department head’s keys.
-
-And the president would have the most power.
-
-Everyone’s key originates in some way from the president’s master key, so the president would be able to spend from everyone’s wallet.
-
-<h3>Intro: Mining</h3>
-
-We’ve talked about consensus and Proof-of-Work, but we haven’t really talked about the implementation of mining in Bitcoin.
-
-In this module, we’ll be diving into the nitty gritty of how mining manifests in the real world, and how even the brilliant Satoshi Nakamoto may not have envisioned the future of mining.
-
-We will go through what a miner actually does to validate blocks.
-
-<h3>Recipe for Mining: Overview</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Recipe for Mining: Overview ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image157.png" alt="Recipe for Mining: Overview" style="width:5in;height:2.8in" />
-</p>
-
-Let’s first take a look at the generic steps for mining as a full node.
-
-Step 0, the preliminary step for mining, is downloading the entire Bitcoin blockchain.
-
-This allows us to know the history so that we can verify future transactions.
-
-Note: this step is optional if you mine in a mining pool; we’ll talk more about this later.
-
-Step 1, the next step, is to verify transactions, which we fill up our block with valid transactions.
-
-Step 2, create the block using the given transactions, and all necessary metadata, such as time, version, and target.
-
-Step 3, find the proof-of-work, aka a valid nonce that solves the partial preimage hash puzzle.
-
-Step 4, broadcast your block if you have not seen any competitor blocks yet.
-
-Step 5, if your block gets included in the longest chain: profit!
-
-Let’s go into detail on how each of these steps plays out.
-
-<h3>Recipe for Mining: Step 0</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ Step 0: Download the Blockchain --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image158.png" alt="Step 0: Download the Blockchain" style="width:5in;height:2.8in" />
-</p>
-
-Step 0, download the history of transactions.
-
-This is Step 0 for two reasons: It only needs to be done once.
-
-Once you have the full Bitcoin blockchain history, you don’t need to redownload that info; you only need to keep track of incoming blocks from other miners.
-
-If you’re a miner with an SPV node, you only need to store the block headers and request info from full nodes for verifying transactions as needed.
-
-Meaning that this step is optional.
-
-We’ll describe further different types of miners.
-
-If you want to be a full, independent miner though, you have to do this step.
-
-Now that we have the full history, let’s go ahead and get started with mining!
-
-<h3>Recipe for Mining: Step 1</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ Step 1: Verify Transactions (165) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image159.png" 
-   alt="Step 1: Verify Transactions" 
-   width="70%" />
-</p>
-
-<h3>Step 1, Verify Transactions</h3>
-
-Bitcoin users are sending transactions to the Bitcoin network every second, and it’s the miners’ jobs to verify the validity of those transactions.
-
-As transactions come to the miner, they will store those in a “mempool,” where “mem” means “memory” and “pool” means supply (referring to supply of transactions).
-
-It’s where all the pending transactions live before they make their way into a block.
-
-Miners will then choose transactions to verify based on their transaction fees, which we’ll get into shortly.
-
-They verify the validity of each by running the unlocking script as mentioned in Lecture 3.
-
-If that piece of code is able to successfully unlock the previous bitcoins, then the transaction goes through.
-
-<h3>Recipe for Mining: Step 2</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Step 2: Create a Block -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image160.png" alt="Step 2: Create a Block" style="width:5in;height:2.8in" />
-</p>
-
-After validating all these transactions, it’s time to generate a block.
-
-As previously mentioned, there are several pieces of information necessary to construct a block, For example, the Merkle Root, which we generate from our list of transactions.
-
-After constructing the block data, we are finally able to start working on the most expensive part of the mining process, the step that earned this whole process of Proof-of-Work the “mining” title: finding a valid nonce.
-
-<h3>Recipe for Mining: Step 3</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Step 3: Find a Valid Nonce ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image161.png" alt="Step 3: Find a Valid Nonce" style="width:5in;height:2.8in" />
-</p>
-
-As mentioned before, every miner needs to find a nonce which makes the hash of the block header less than some target value.
-
-This is how we implement Proof-of-Work in Bitcoin and every other Proof-of-Work cryptocurrency.
-
-By finding the nonce, we have translated the energy burned in computation directly into voting power in the Proof-of-Work consensus protocol.
-
-You may have noticed in this pseudocode that there are two different nonces, the header nonce and the coinbase nonce.
-
-Keep in mind that the nonce in the header is a reasonably small number: only a 32 bit number.
-
-This means that a powerful device can run through all the nonce possibilities within a second.
-
-To make it such that we don’t reach a dead end with our mining puzzle, we need to change our puzzle if the header nonce has no viable options.
-
-To do this, we change the coinbase nonce, a field within the coinbase transaction.
-
-By changing this nonce, we change the Merkle Root, and therefore, we're able to explore more options and hopefully find the answer to the mining puzzle.
-
-Our mining puzzle is completely different.
-
-We go through these loops until finally we find a valid nonce.
-
-<h3>Recipe for Mining: Step 4</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------- Recipe for Mining: Step 4: Broadcast -------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image162-step4-broadcast.png" alt="Recipe for Mining: Step 4: Broadcast" style="width:5in;height:2.8in" />
-</p>
-
-After finding the nonce, the typical miner broadcasts it as soon as possible so that other miners are aware that a block was found.
-
-Those miners will validate the block for themselves before accepting it into their own chain, and then broadcast the block once more.
-
-By broadcasting the block first, other miners will abandon their previous blocks and start to mine on this new longest chain.
-
-At least, that’s the hope: there’s the possibility that someone else broadcasted a block before you that you haven’t yet seen!
-
-Only if your block makes its way into the longest chain will you reap the rewards.
-
-So how do we ensure that happens?
-
-Well, we can’t!
-
-All we can do is hope that we got lucky.
-
-That’s all Proof-of-Work really is at its base, a random lottery.
-
-<h3>Recipe for Mining: Step 5</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Recipe for Mining: Step 5: Profit --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image163-step5-profit.png" alt="Recipe for Mining: Step 5: Profit" style="width:5in;height:2.8in" />
-</p>
-
-Assuming that our block made its way into the longest chain, we profit!
-
-We receive both the block reward, represented by the coinbase transactions, and transaction fees.
-
-All the transactions within that block are added to the canon transaction history.
-
-A situation in which our block is not in the longest chain is where our block is competing with another block that was submitted to the network at the same time.
-
-In which case, miners will likely choose randomly between the two, meaning that it’s once again luck.
-
-If your block is orphaned, or in a fork that’s not the longest chain, then you get no profit.
-
-We won’t actually ever be 100% certain that our block is in the longest chain.
-
-We just assume that the probability of a fork happening gets lower over time.
-
-We’ll talk about that more in the game theory lecture.
-
-Text: Recipe for Mining:
-
-Author: Rea Savla
-
-<h3>Step 0:</h3>
-
--   Download the entire Bitcoin blockchain. This only has to be done once. 
-
-    -   This allows us to know the history so we can validate future transactions. 
-
-    -   Note: This step is optional if you mine in a mining pool or are doing lightweight mining. 
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------ Step 0: Download Entire Blockchain ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image165-step0-download-blockchain.png" alt="Step 0: Download Entire Blockchain" style="width:5in;height:2.8in" />
-</p>
-
-<h3>Step 1:</h3>
-
--   Verify transactions.
-
-    -   You store newly received, unprocessed transactions in a “mempool,” where all pending transactions live before making their way into a block.
-
-    -   You then choose the transactions with the highest fee per byte or size ratio to verify. 
-
-    -   You verify the validity of each transaction by running the unlocking script. 
-
-    -   If that script runs successfully, then the transaction is included within our block.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------ Step 1: Verify Transactions ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image165-step1-verify-transactions.png" alt="Step 1: Verify Transactions" style="width:5in;height:2.8in" />
-</p>
-
-<h3>Step 2:</h3>
-
--   Create the block with the given transactions and necessary metadata, such as time, version, and target.
-
-    -   Construct the block data from our list of valid transactions.
-
-    -   Construct the Merkle Root by hashing the hashes of each pair of transactions 
-
-    -   Construct the Previous Block Hash by hashing the previous block’s header
-
-<!------------------------------------------------------------------------------------------------>
-<!--------- Step 2: Create the block with the given transactions and necessary metadata ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image165-step2-create-block.png" alt="Step 2: Create the block with the given transactions and necessary metadata" style="width:5in;height:2.8in" />
-</p>
-
-<h3>Step 3:</h3>
-
--   Find the proof-of-work that solves the partial preimage hash puzzle. 
-
-    -   A valid nonce makes the hash of the block header less than some algorithmically generated value known as the “target.”
-
-    -   By finding the nonce, we have translated the energy burned in computation into voting power, as designed by the Proof-of-Work consensus protocol.
-
-    -   Note: There are two different nonces, the header nonce and the coinbase nonce. In the event that no permutation of the header nonce solves the hash puzzle, alter the coinbase nonce. This changes the Merkle root, yielding an entirely different hash puzzle.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Step 3: Find the proof-of-work that solves the partial preimage hash puzzle  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image165-step3-find-proof-of-work.png" alt="Step 3: Find the proof-of-work that solves the partial preimage hash puzzle" 
-	style="width:5in;height:2.8in" />
-</p>
-
-<h3>Step 4:</h3>
-
--   Broadcast your block if you have not yet seen any competitor blocks.
-
-    -   After finding the valid proof-of-work, broadcast the block as soon as possible.
-
-    -   Other miners will validate the block for themselves before accepting it into their chain and propagating it further through the network. 
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Step 4: Find the proof-of-work that solves the partial preimage hash puzzle  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image165-step4-broadcast.png" 
-	alt="Step 4: Blockchain that has broadcasted the transaction, Derrick Rustie, Gloria, Nick, Nadir" 
-	style="width:5in;height:2.8in" />
-</p>
-
-<h3>Step 5:</h3>
-
--   If your block makes it into the longest chain, you profit!
-
-    -   You receive both the block reward and the transaction fees, 
-
-    -   All the transactions within that block are added to the transaction history.
-
-    -   Note: When two valid blocks are submitted to the network at roughly the same time, resulting in a fork, honest miners choose to mine on whichever block they see first. You will not receive block reward if the other fork grows longer. 
-
-<h3>Mining Incentives: Intro
-
-So why do we do things?
-
-Why do we work at a job?
-
-Why do we trade cryptocurrencies?
-
-Why do you choose to watch these lectures?
-
-Well, it’s a pretty simple answer:
-
-Profit!
-
-Let me make that a little bigger for you.
-
-Yes, profit!
-
-As you know intuitively, everything that anyone does is with the expectation of gaining some profit.
-
-Each person’s definition of profit is different, but it’s pretty straightforward in Bitcoin: more money means more profit.
-
-It’s such a simple word, yet this concept of profit will come up again and again throughout the rest of this course.
-
-In fact, any type of incentive mechanisms within blockchain protocols focus on aligning personal profit with overall profit.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: What is Profit?  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image195.png" 
-	alt="Mining Incentives: What is Profit?"
-	style="width:5in;height:2.8368in" />
-</p>
-
-Pay good attention to this slide.
-
-Yes, it’s very basic information, but this equation is fundamental to all incentive structures.
-
-It is the fact that the profit equals revenue minus cost.
-
-This means that, only if the revenue exceeds the cost, will you get profit.
-
-Every single person in the Bitcoin network is presumably maximizing the value of their own profit to the best of their ability.
-
-<h3>Mining Incentives: Block Reward</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: How to Profit From Mining  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image196.png" 
-	alt="Mining Incentives: How to Profit From Mining"
-	style="width:5in;height:2.8368in" />
-</p>
-
-Let’s go ahead and break down the various components of profit within Bitcoin.
-
-First, we’ll start by discussing the block reward, the most significant source of profit currently for miners.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Block Reward  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image197.png" 
-	alt="Mining Incentives: Block Reward"
-	style="width:5in;height:2.8368in" />
-</p>
-
-The block reward is a reward that goes to a miner whose block is included in the longest chain.
-
-As of May 2018, the block reward is around 12.5 bitcoins.
-
-As mentioned before, the miner includes a special transaction to themselves: the coinbase transaction.
-
-That transaction is what both allows for the minting of bitcoins and, more importantly, incentivizes honest actors to validate blocks.
-
-To understand better the rationale for the block reward, remember that profit is the primary motivator for any activity, and that a higher incentive for honest behavior leads to a more secure network.
-
-However, we can’t directly punish dishonest behavior: everyone’s anonymous, and there’s no effective way to enforce punishment.
-
-The conclusion is that, if we can’t punish dishonest behavior, we might as well reward honest behavior!
-
-Because miners get rewarded for producing blocks, they’re incentivized to produce more blocks.
-
-However, they only get rewarded in bitcoins.
-
-This means that, if a miner sees no value in Bitcoin, they are less likely to spend money on electricity and hardware to get bitcoins.
-
-Because of this, we expect honest mining power to be drawn more heavily to the Bitcoin network.
-
-As you notice on the graph, the Bitcoin supply cap tapers off at a certain point, calculated at 21 million.
-
-This is because the block reward halves every 210,000 (two hundred and ten thousand) blocks, which is approximately 4 years.
-
-It started off at 50 bitcoins per block when Bitcoin first started, then it dropped to 25 after the first two years, and has been halving ever since.
-
-By using a geometric series, the supply cap is calculated to be 21 million bitcoins.
-
-One caveat about this: Not all 21 million bitcoins will be liquid.
-
-For example, approximately 1 million belongs to Satoshi Nakamoto, and it is possible that those bitcoins will never move.
-
-In addition, some private keys have been lost, and some bitcoins have been burned, all decreasing the usable supply cap.
-
-<h3>Mining Incentives: Transaction Fees</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Transaction Fees  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image198.png" 
-	alt="Mining Incentives: Transaction Fees"
-	style="width:5in;height:2.8368in" />
-</p>
-
-Now that we’ve talked about block rewards, let’s go ahead and talk about transaction fees.
-
-Transaction fees are the second form of profit for miners.
-
-The transaction fee is a price set by the sender of a transaction.
-
-You can consider the transaction fee the cost of service for using the power of the bitcoin network.
-
-Providing transaction fees are not required for a transaction to go through, but they incentivize miners to consider choosing your transaction over other ones due to limited block space.
-
-Because a miner can only approve so many transactions at once given the one megabyte size limit, they will want to choose the transactions that give them the most profit within that block.
-
-In fact, the way the miner calculates the transactions they will collect into a block is through maximizing the ratio of transaction fees to unit of storage.
-
-What this means is that the overall transaction fees for their block will be maximized as they’re taking all the most profitable transactions.
-
-Notice one thing as the block reward diminishes, transaction fees will go up if miners seek the same amount of profit in bitcoins.
-
-As block rewards approach zero, transaction fees will become the primary source of revenue for miners.
-
-<h3>Mining Costs: Fixed Costs</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: How to Profit From Mining  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image199.png" 
-	alt="Mining Incentives: How to Profit From Mining"
-	style="width:5in;height:2.8368in" />
-</p>
-
-Now that we’ve discussed all the different sources of revenue for miners, we can move on to the costs.
-
-Let’s start off by discussing the fixed costs, and then get into the variable costs after.
-
-As you all know, hardware is what allows users to mine, and the cost of hardware is fixed.
-
-It’s a one-time purchase.
-
-There are a few different types of hardware, ranging from generic computation devices to specialized mining hardware.
-
-This logarithmically scaled graph here shows a quick overview of the growth of mining power produced by miners, which as you can tell has grown incredibly, several orders of magnitude since the start of Bitcoin.
-
-<h3>Types of Hardware</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Fixed Cost: CPU Mining ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image200.png" 
-	alt="Mining Incentives: Fixed Cost: CPU Mining"
-	style="width:5in;height:2.8368in" />
-</p>
-
-The first type of mining hardware used was a CPU, or central processing unit.
-
-As of late September 2017, mining with a CPU would take you about 7.6 million years to find a block.
-
-This is because there is much more powerful hardware nowadays, which makes it much harder for a CPU to compete with the rest of the network.
-
-The pseudocode above is what was run originally by CPU miners.
-
-They were the original type of computing power available to the general public.
-
-This is because CPUs are meant to do generic computation, but they are not great at specifically calculating hashes.
-
-Some members of the gaming community quickly recognized that they had some more powerful computation devices available at their hands: GPUs.
-
-GPUs, or graphic processing units, are devices typically used for processing images, like video games.
-
-These devices are also generic computational devices in that they can handle many different types of computation, including hashing.
-
-They are an order of magnitude faster than CPUs when it comes to computing, meaning that they can hash 10 times as fast.
-
-If you look in the chart, you’ll see that in order to mine a block, GPUs only take about a mere 762 thousands years!
-
-GPU miners were most common about 6 years ago, back in 2012, when still not many people had heard of Bitcoin.
-
-They were repurposed from gaming to mining, providing GPU miners a significant advantage above CPU miners.
-
-Some of the disadvantages of using GPUs, however, stems from their components irrelevant to mining.
-
-For example, mining does not require any floating point numbers, so the excess components are not helpful but are still included in the cost of GPU hardware.
-
-In addition, they are not meant to be run in farms side by side, so it is difficult to operate a large scale GPU mining setup.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Fixed Cost: FPGA Mining  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image201.png" 
-	alt="Mining Incentives: Fixed Cost: FPGA Mining"
-	style="width:5in;height:2.8368in" />
-</p>
-
-This is where FPGAs, or Field Programmable Gate Arrays, come into play.
-
-These were the first forms of specialized mining hardware in Bitcoin.
-
-These devices were optimized for mining Bitcoin, but they did not lose all general computation power.
-
-The reason for this tradeoff was because there was still some uncertainty around Bitcoin’s future success, and Bitcoin-specific hardware would become useless if Bitcoin disappeared.
-
-However, if Bitcoin thrives, then there is a desire to beat out other mining competition.
-
-However, FPGAs were only used briefly, because much more powerful hardware quickly came into the market around 2014.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Fixed Cost: ASIC Mining  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image202.png" 
-	alt="Mining Incentives: Fixed Cost: ASIC Mining"
-	style="width:5in;height:2.8368in" />
-</p>
-
-ASICs, or Application Specific Integrated Circuits, are mentioned throughout the Bitcoin ecosystem.
-
-These are fully specialized devices that can do only one thing.
-
-Bitcoin ASICs are capable of one type of computation alone: mining.
-
-These devices do nothing but solve the Bitcoin hash puzzle, but they do it better than anything else.
-
-There are large amounts of customizability when it comes to ASICs.
-
-These range from choosing a lower base cost in exchange for higher electricity use, or choosing a smaller device and losing out on hashrate.
-
-Depending on your specific needs, there probably exists a relevant ASIC.
-
-One issue with ASICs, however, is their initial cost.
-
-Not only do ASICs take a lot of upfront capital to produce, but they also need to be bought in tremendous batches to make a reasonable profit.
-
-A fun stat: one of the most popular and powerful ASICs, the Antminer S9, can perform 14 trillion hashes per second but would still take about 10.9 years to find a block.
-
-<h3>Mining Costs: Operating Costs</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------- Mining Incentives: How to Profit from Mining (179) --------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image203.png" 
-	alt="Mining Incentives: How to Profit from Mining"
-	style="width:5in;height:2.8368in" />
-</p>
-
-Now that we’ve discussed fixed costs, or hardware costs, let’s finish up the equations with an understanding of the variable costs in mining.
-
-As we know, there’s several different costs of energy consumed in the process of mining, all of which are considerations for the cost of Bitcoin on the environment.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: Operating Costs ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image204.png" 
-	alt="Mining Incentives: Operating Costs"
-	style="width:5in;height:2.8368in" />
-</p>
-
-These energy costs come in multiple forms, but primarily the following three.
-
-Embodied energy is consumed when producing hardware, electricity powers hardware, and cooling maintains hardware as it heats up.
-
-All these types of energy are considerations, but electricity and cooling are the variable energy costs that are the bigger considerations when looking at long-term profit projections.
-
-On top of that, there is infrastructure and overhead to maintain as well, such as space and employees.
-
-Depending on the scale of your operation, you may need to go so far as to purchase entire warehouses and a few maintainers to ensure that nothing goes wrong with the hardware, or to take care of things when hardware goes down.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Mining Incentives: How to Profit ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image205.png" 
-	alt="Mining Incentives: How to Profit from Mining"
-	style="width:5in;height:2.8368in" />
-</p>
-
-Finally, you understand everything there is to know about how to profit from mining.
-
-If you keep your revenue above your costs, you’ll make a profit from mining!
-
-Keep in mind that most mining operations, don’t turn a profit for quite a while, so do much more research before spinning up your own ASIC farm.
-
-Speaking of ASIC farms, we’ll go ahead and examine what some mining operations look like in the real world in the next section.
-
-<h3>Intro: Real World Mining</h3>
-
-We’ve seen and understood mining from the theoretical and technical side, but what does it look like in practice?
-
-In this section, we’ll see what mining operations look like in the real world.
-
-Theory and practice often differ in a lot of scenarios, and this is definitely the case in Bitcoin.
-
-We’ll see that while the initial goal of Bitcoin was to be decentralized, honoring the “one CPU one vote” mantra, this could not be farther from the truth.
-
-<h3>ASICs</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Real World Mining: Chinese ASIC Mining Farm ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image206.png" 
-	alt="Real World Mining: Chinese ASIC Mining Farm"
-	style="width:5in;height:2.8368in" />
-</p>
-
-Here, we see a few pictures of what an ASIC mining farm in China.
-
-As you can see, the look is very industrial.
-
-This is because the farm focuses on reducing unnecessary costs, which increases profit for the miners.
-
-The racks are for systematic allocation of hardware, and the giant fans are for cooling.
-
-Notice the water cooling used in the bottom right image.
-
-Anyone familiar with hardware maintenance will recognize that water cooling is much more expensive than air cooling, meaning that whoever is cooling their devices with water cooling is willing to take a bigger cost for better maintenance of their hardware.
-
-Perhaps in the long run, better maintenance means that there’s less need to replace hardware.
-
-Either way, the goal of each of these mining farms is to maximize their profit.
-
-This is why places that are cold -- hence providing natural cooling -- or that provide cheap electricity are more advantageous to set up a long term mining operation.
-
-Here is an example of an ASIC.
-
-\[asic goes here\]
-
-The machine on the left is an Antminer S9, with 14 trillion hashes per second.
-
-It’s one of the most powerful ASICs on the market currently.
-
-The company that produces these, BITMAIN, claims that it has provided approximately 70% of the world’s mining power in hardware.
-
-On the right we can see racks and racks of Antminer S9’s in a datacenter.
-
-This particular photo was taken from an online listing that rented out Antminer S9’s by the month.
-
-But of course, even with the most impressive technology, it still takes far too long to find a block.
-
-Is there any way that we can reduce the amount of time it takes for us to get profit from our hardware?
-
-<h3>Mining Pools</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Real World Mining: Mining Pools ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image207.png" 
-	alt="Real World Mining: Mining Pools"
-	style="width:5in;height:2.8368in" />
-</p>
-
-Well, that’s where mining pools come in.
-
-Mining pools allow individual miners to join their hash power together.
-
-This way, they will collectively find blocks and get rewards more often, even if they only get a smaller amount with each block the pool finds.
-
-Mining pools are run by a pool manager, or pool operator, that takes care of running a Bitcoin full node and distributing jobs to other miners.
-
-They also take a cut of the rewards as compensation.
-
-This way, miners don’t even have to store the blockchain themselves: similar to cloud computing, they give pools access to their hardware in exchange for a share of profits from the pool.
-
-You may be asking, “Bitcoin is decentralized! How can I prove to a pool that I’m spending computation power to help them out?”
-
-Remember something really neat: this problem is a smaller version of the problem Bitcoin itself solved!
-
-We can have miners prove that they’re doing work for the pool through shares.
-
-Shares are defined as near-valid or valid blocks.
-
-Here’s how that works:
-
-Let’s say I’m in Berkeley Pool, the hypothetical UC Berkeley mining pool.
-
-My miner just found a block hash with half as many leading zeros as a valid block.
-
-This is an unlikely event that resulted from expending a significant amount of computational resources.
-
-Mining pools can use this information to gauge just how much mining power you’re contributing, and they can reward you for valid shares.
-
-That way, I can get paid by BerkeleyPool even if I never find a valid block, because these near-valid blocks are indicators that I’m at least trying to find a valid block.
-
-This is how we can create mining pools through Bitcoin.
-
-On top of that, we know that no miner in the mining pool can just take the rewards for themselves.
-
-Keep in mind that rewards are given out through the coinbase transaction.
-
-In mining pools, the puzzle you are trying to solve contains a coinbase transaction that pays the pool manager the block reward.
-
-And then the pool manager would hopefully redistribute the block reward.
-
-Miners are solving a problem based on the Merkle Root, since they’re hashing everything in the block header.
-
-And the Merkle Root of the block is based on the coinbase transaction.
-
-If a miner wants to get rewards for themselves, they’d have to change the coinbase transaction to redirect the block rewards to themselves.
-
-Thus, they wouldn’t get any shares from the mining pool, since the mining pool manager would see that the miner’s coinbase transaction does not pay to the manager’s address.
-
-<h3>Mining Pool Schemes</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Real World Mining: Mining Pool Schemes ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image208.png" 
-	alt="Real World Mining: Mining Pool Schemes"
-	style="width:5in;height:2.8368in" />
-</p>
-
-There are various schemes for payout that mining pool use.
-
-The two most fundamental categories are Pay-per-Share and Proportional.
-
-You can probably gather the basic ideas from the names.
-
-Pay-per-share schemes will pay you a fixed amount of money for each share.
-
-This payment is guaranteed and constant per share, regardless of how much reward the pool makes.
-
-Most pools use this scheme, as it’s easy to implement and to understand.
-
-As you can tell, this is more advantageous for the miner, as variance of their payout is reduced.
-
-This implies that pools take on more risk because they will incur costs if blocks aren’t found by the pool.
-
-On top of that, there’s no incentive for a miner to actually submit valid blocks to the pool.
-
-We’ll see why this is an issue in the Game Theory lecture.
-
-Proportional schemes are the other category which pay out only when a block is found.
-
-The reward of each miner is proportional to the number of shares submitted before the block was found.
-
-This is more advantageous for the pool, as they’ll never pay out more money than they have, but it leads to more variance and risk for miners.
-
-Because of the difficulty of buy-in, proportional schemes aren’t seen often, if ever, in the mining world.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Pool Rewards: Other Reward Schemes ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image209.png" 
-	alt="Pool Rewards: Other Reward Schemes"
-	style="width:5in;height:2.8368in" />
-</p>
-
-This is a demonstration of several different payout schemes that have been thought of.
-
-The point is that there are many ways to go about paying miners, and each one has a different set of incentive tradeoffs.
-
-It all depends on the size and assumptions of the mining pool.
-
-<h3>Mining Pool Pros and Cons</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------- Real World Mining: Mining Pools: Pros and Cons ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image210.png" 
-	alt="Real World Mining: Mining Pools: Pros and Cons"
-	style="width:5in;height:2.8368in" />
-</p>
-
-So now that we’re familiar with mining pool schemes, we can talk about the pros and cons of mining pools.
-
-The pros of mining pools are that they give individual and smaller miners the opportunity to make profit without waiting decades to get payment.
-
-On top of that, software changes are easy to make.
-
-Only one person is running a full node for the mining pool, and that person can upgrade on behalf of the pool.
-
-Cons include trust in the pool manager.
-
-You have to rely on them not to misuse your mining power and not to withhold rewards.
-
-This is a consequence of centralization.
-
-On top of that, a multitude of attacks are enabled by mining pools, which we will discuss further in the Game Theory lecture.
-
-The community typically dislikes large mining pools.
-
-<!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image211.png" 
-	alt=""
-	style="width:5in;height:2.8368in" />
-</p>
-
-For example, GHash.io once approached 50% of the network mining power.
-
-Miners within GHash voluntarily pulled out of the mining pool because they were aware of the dangers of approaching 51% of the network.
-
-In addition, another concern is that a single entity might be hiding their total amount of mining power.
-
-We see here that BTC.com has about 29% of the mining power in their pool, but what’s to stop them from submitting hashpower to other pools?
-
-This is known as laundering hashes, by hiding the origin of mining power.
-
-This allows you to leverage great amounts of mining power without revealing your prowess to the community.
-
-By doing so, you experience no backlash while still receiving major profits.
-
-Because of this, the graph is only a high-level estimate.
-
-We don’t know the true concentration of control over mining hardware, and we may never know.
-
-<h3>Mining Pool Stats</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image212.png" 
-	alt=""
-	style="width:5in;height:2.8368in" />
-</p>
-
-This will be a rundown to show the contrast between solo mining and pool mining.
-
-We’ll show an interesting paradox which you may have noticed: more mining power leads to centralization.
-
-So today’s network hashrate according to blockchain.info is 33,971,919 TH/s (about 34 million).
-
-Mining reward is currently 12.5 BTC per block, and since blocks are mined every 10 minutes on average, we can calculate that the total mining reward yearly is 657,000 BTC/yr. (six hundred fifty seven thousand)
-
-Also, for the sake of this calculation, we assume that the price of bitcoin is constant, staying at 10,000 USD
-
-Suppose you want to start solo mining today.
-
-First you need to buy your mining hardware, and let’s you’re buying a Antminer S9, which costs 3000 dollars with a hash rate of 14 TH/s.
-
-Your hashrate in relation to the entire network’s hashrate is very small.
-
-If we do the math, you end up having 0.0000004% of the total network hash power.
-
-You expected annual reward in this case would be 2707 dollar per year, and this is just an estimate of your average income.
-
-However, if you are unlucky, you might end up with not finding a block in a very long time.
-
-Taking into account the variance of having such small proportion of the network hash rate, we can see that with our current numbers, we can expect to mine 1 block every 2,426,566 (about 2.4 million) blocks, which translates to a reward of approximately \$125,000 once every 46.2 years
-
-On the other hand, if you were to mine with a pool, you could expect to have much more regular payouts.
-
-Assuming a pool you choose to join has one sixth of the network hashrate, this means that the pool finds every 6th block, or every hour.
-
-This means that you can expect to early 31 cents every hour.
-
-The question is, would you rather have a huge payout every couple decades as a solo miner, or a small but regular payout mining in a pool.
-
-Obviously, pool mining sounds more attractive due to its low variance.
-
-And anyways, your ASICs will probably be really out of date in a couple years, so you can’t realistically afford to have high variance in your mining payout.
-
-This leads to the paradox that: the more secure Bitcoin gets, with more and more hash power, the greater the appeal is for joining a mining pool, since your individual hash power decreases when more hash power joins the network.
-
-<h3>Types of Miners</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image213.png" 
-	alt=""
-	style="width:5in;height:2.8368in" />
-</p>
-
-Of course, remember that there are various types of miners.
-
-Some of these are known as “Reference Clients”--these control a wallet to store private keys, a routing node to communicate with others, a blockchain to validate transactions, and mining software to submit hashing power to the network.
-
-This is the code released by Bitcoin Core to miners.
-
-Solo miners, on the other hand, have no wallet functionality, probably have some other separate wallet software, and solely mine.
-
-Aside from the wallet, they are identical to the Reference Client.
-
-Mining nodes are general nodes which have some mining hardware and a protocol by which they connect to a mining pool.
-
-There is the Stratum mining protocol, an unofficial standard for submitting hashpower to a pool, but it’s not the only possibility.
-
-These nodes, you’ll notice, have no burden of storing any information.
-
-They only need to store code and control hardware to interact with the mining pools.
-
-Supplement: Lightweight Mining
-
-Author: David Luo
-
-<h3>Overview</h3>
-
-Simple Payment Verification (SPV) is a method for verifying if particular transactions are included in a block by only having to download the block headers of each block, instead of the entire block, which includes all of the transactions.
-
-These SPV/lightweight clients are especially useful for clients who have limited memory space and simply want bitcoin wallets without downloading the entire blockchain.
-
-There is also lightweight mining software, which differs from lightweight wallet software. Instead of using SPV, users can mine using other methods without downloading any data from the blockchain.
-
-One way users with these lightweight clients are able to mine is by joining a **mining pool**.
-
-These miners work outside the network and only need to mine the transactions the pool operator gives them, trusting that the operators have the entire blockchain and the transactions given to them are valid.
-
-It is up to the pool operator to listen for new blocks and validate the transactions.
-
-To do this, the operator sends the miner a template of the block to be working on.
-
-If a block is found, it is bound to this template, which includes the coinbase transaction that gives the reward to the pool operator.
-
-This way, a user cannot steal the reward for themselves if they find a block.
-
-<h3>getwork, getblocktemplate, and Stratum</h3>
-
-getwork is a remote procedure call method that a client can call to get a block header from a mining pool operator.
-
-However, a caller of this method does not receive any information about the block or the transactions within it.
-
-A malicious server could easily send this user a block header hash that contains invalid transactions, and the user would mine on this invalid block.
-
-getwork has been replaced by **getblocktemplate**, which allows miners to create their own blocks instead of having to trust somebody else (e.g. a pool operator) to provide them a valid block to mine on.
-
-Only a block template is provided with specific configuration parameters, with block data that the client can modify if needed.
-
-This way, the control is given back to the miner, because they can now choose the transactions to be included in the block they are mining on.
-
-However, miners are incentivized to include pool specific data, such as a coinbase transaction to the pool operator in order to make valid shares and get rewards from the mining pool.
-
-Although getblocktemplate does provide good functionality, it requires a lot of bandwidth due to the transferring of the entire block.
-
-Because of this scalability issue, some pools now use **Stratum**, which is another protocol for mining.
-
-Similar to getblocktemplate, the server sends the client a block template.
-
-However, in Stratum only the block header and first transaction are included, instead of the entire block.
-
-<h3>Validationless Mining</h3>
-
-In order to mine, a client needs to have the block header hash of the previous block, which comes from the block header of the previous block, which in turn is generated from previous block.
-
-One piece of information our new block needs to have is the block header hash, as we must reference the previous block in the chain.
-
-They can simply receive this value from an external source and mine on that block.
-
-This comes with one caveat, however, as the miner cannot validate the block header hash and must place trust in whatever source such as a pool operator they are getting the block header hash from.
-
-<h3>Spy Mining</h3>
-
-In mining pools, once a block is found, the block header hash is sent imimagestely to the miners so they can all start mining on the new block as soon as possible. Competing miners that are outside of this mining pool can take advantage of this by **connecting to the mining pool**, listen for the **block header hash**, and **mine on it for themselves**.
-
-<h3>Intro: Bitcoin Governance</h3>
-
-We’ve discussed many of Bitcoin’s underlying mechanisms and protocols, but we haven’t talked about how those changes came to be.
-
-People want to change Bitcoin for a plethora of reasons.
-
-For example, some may feel that it needs to be tied in more to the original cypherpunk vision of decentralization, while others want higher levels of security.
-
-In this section, we’ll be specifically talking about concerns of mining centralization, proposed changes to Bitcoin’s mining puzzle, and making consensus updates in Bitcoin.
-
-<h3>Ensuring Decentralization</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image214.png" style="width:5in;height:2.84967in" />
-
-Right now, one of the big features of Bitcoin, as well as other cryptocurrencies is the fact they can theoretically be mined in a decentralized manner.
-
-There’s a reason we say “theoretically”, and it’s because mining is tending towards becoming more centralized with the development of ASICs, mining pools, and mining farms.
-
-The fact that mining pools and mining farms is pretty straight forward, as they’re usually run by a single entity.
-
-ASICs on the other hand, are also centralized, but in the sense that ASICs can cost a lot of money.
-
-This means that only people with the enough capital can acquire them, centralizing the mining process.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------- Decentralized Mining: Puzzle Requirements Review --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image215.png" 
-	alt="Decentralized Mining: Puzzle Requirements Review"</>
-</p>
-
-We’re going to attempt to address the problem of mining centralization by considering the design of the underlying hash puzzle, and see if there’s any way we can redesign it.
-
-Here’s a quick reminder on what properties a cryptographic puzzle should have.
-
-A puzzle should be hard to solve but easy to verify.
-
-In Bitcoin, finding a nonce is incredibly difficult, but verifying that a particular nonce is correct is much much easier.
-
-The difficulty should be adjustable to account for changes in mining technology (i.e. ASICs).
-
-In Bitcoin, the difficulty is adjusted every two weeks.
-
-You need a solving rate proportional to computational power, meaning that the difficulty reflects the amount of hashpower in the network.
-
-A puzzle should be “progress free”, meaning that finding a hash does not make it easier to find the next hash.
-
-Every solution is independent of the previous ones.
-
-Lastly, you need a pseudo randomly generated puzzle.
-
-Bitcoin’s puzzle is described as a partial hash preimage puzzle.
-
-You don’t have to find the exact preimage of the hash, as long as you have the prerequisite number of leading zeros.
-
-<h3>Ensuring Decentralization: ASIC Resistance</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------- Decentralized Mining: ASIC-Resistance ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image216.png" 
-	alt="Decentralized Mining: ASIC-Resistance" </>
-</p>
-
-ASICs work because it’s easy to create hardware to compute just a certain puzzle.
-
-They’re computation bound.
-
-A way to get around the problem of ASIC domination is to make puzzles that rely not only on computation speed, but also on memory, giving rise to the notions of memory-hard and memory-bound problems.
-
-A memory hard problem is one that needs a large amount of requisite memory to solve,
-
-and a memory bound problem is a problem that scales based on the amount of memory that you have.
-
-These problems deter ASICs since optimizing computation is useless if memory is the limit agent.
-
-Dogecoin and Litecoin implement a memory-bound hash function called Scrypt (pronounced ess-crypt).
-
-They still use a partial hash-preimage puzzle like in Bitcoin, just with a different hash function.
-
-This means that ASICs that are built for Bitcoin don’t work for Dogecoin or Litecoin.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Decentralized Mining: Scrypt ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img width="50%" src="/images/image217.png" 
-	alt="Decentralized Mining: Scrypt" </>
-</p>
-
-Scrypt was originally designed to secure passwords and make them hard to brute force, so a memory-bound type of problem makes sense.
-
-Scrypt has two main steps: first fill a buffer with interdependent data, and then access that data in a pseudorandom way.
-
-To see why this is memory-bound, let’s take a look at what happens when you fill a buffer with non-interdependent data.
-
-Looking something up is easy, since you just find the index of the datum you want.
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------- Decentralized Mining: Scrypt part II ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img width="50%" src="/images/image218.png" 
-	alt="Decentralized Mining: Scrypt - part II" </>
-</p>
-
-However, if the data is interdependent on other pieces of data, you have to look up those too.
-
-If those aren’t stored in the buffer, then you have to spend time computing them on the fly.
-
-Depending on how much data there is, this can quickly become infeasible, meaning that storing as much interdependent data in memory is the only efficient option.
-
-That’s what makes Scrypt memory-bound.
-
-However, Scrypt also has its drawbacks.
-
-It requires an equal amount of memory to verify, since verifiers have to fill and access an equivalent buffer, with the same parameters.
-
-Remember that puzzles should be easy to verify, so this is not ideal.
-
-In addition, even though Scrpyt was developed to be ASIC resistant, an ASIC has actually been developed for it, so it’s no longer considered ASIC resistant.
-
-Another idea to achieve ASIC resistance that people tried was to chain together a bunch of hash functions.
-
-The idea was that it’s much harder to create an ASIC that can deal with so many hash functions, not just once.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------- Decentralized Mining: ASIC Resistance ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img width="50%" src="/images/image219.png" 
-	alt="Decentralized Mining: ASIC Resistance" </>
-</p>
-
-And that was the idea behind x11 and x13, which chain together 11 and 13 different hash functions together respectfully.
-
-The cryptocurrency Dash uses the x11 hashing algorithm, using a chain of SHA3 variants.
-
-Dash’s x11 was designed to be hard to make an ASIC for, but not impossible, so it was never really intended to be ASIC resistant.
-
-Developers wanted to get a good distribution of coin early in Dash’s lifecycle,.
-
-Later on, if someone happened to develop an ASIC for x11, coins would have already been distributed in a fair way.
-
-And that’s exactly what happened.
-
-Another idea that was tossed around was to design coins that periodically switched mining puzzles, making it difficult to optimize.
-
-For example, it could switch around from SHA-1 to SHA-3 to Scrypt for 6 months at a time each.
-
-However, the overhead required to create such an algorithm has historically deterred people from implementing it.
-
-As a closing note, whenever there’s money that can be made, someone’s going to be working to make the most profit.
-
-In cryptocurrencies, that can take the form of working to create ASICs for new hashing algorithms.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="40%" src="/images/image220.png" alt="Decentralized Mining: ASIC Resistance"</>
-</p>
-
-Mike Hearn, a Bitcoin Core developer said (quote) “There’s really no such thing as an ASIC-resistant algorithm.”
-
-<h3>Ensuring Decentralization: ASIC Debate</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="40%" src="/images/image221.png" alt="Decentralized Mining: ASIC Resistance"</>
-</p>
-
-As it turns out, ASIC resistance might actually not be that great of an idea.
-
-It’s still an ongoing debate.
-
-In a non-ASIC-resistant system, ASICs tend to dominate the network, suppressing regular people.
-
-One common mantra in the early days of Bitcoin was “1 CPU 1 Vote”: the idea was that mining was truly decentralized, with all nodes on the network having an equal say in validating blocks.
-
-The rise of ASICs has since diminished this, effectively giving some people more votes than others.
-
-ASIC-resistance brings back this idea of democracy, and decreases mining centralization in the network.
-
-A common counter-argument on the other hand, is that since ASICs are designed solely to solve a cryptographic puzzle, they’re incapable of anything else.
-
-Miners who own ASICs are thus committed to the network.
-
-Their hardware only has value in the network their ASICs were designed for.
-
-If a system with a large amount of miners relying in ASICs switches to an ASIC-resistant algorithm and then the exchange rate of the cryptocurrency crashes, many miners will suddenly be left with useless electricity-gobbling hardware since they have no incentive to mine anymore.
-
-ASIC miners have already committed to the network by buying their ASICs, so they do not want to do anything that would disrupt the network.
-
-Mining pools have historically disbanded once they’ve gotten too large, since the news of a mining pool with a large amount of hashpower would decrease trust in the network.
-
-This idea of useless hardware and wasted hashpower leads us to our next slide.
-
-<h3>Eliminating Waste</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image222.png" alt="Proof-of-Useful-Work: Puzzling Concept"</>
-</p>
-
-Since so much computational power is being expended to solve cryptographic puzzles, which at their core are just pumping out random numbers, why not make those puzzles something that can be useful to the rest of the world?
-
-For example, miners can search for large primes, look for aliens and planets, simulate proteins at the atomic level, or generate predictive climate models.
-
-If we can use the whole computational power on the Bitcoin network to work on these problems, we could solve them so much faster!
-
-Wouldn’t being able to predict the weather be great?
-
-It seems like a great idea, but there are issues.
-
-These distributed computing problems are usually unsuitable for proof-of-work and don’t work as cryptographic puzzles.
-
-There’s a fixed amount of data in the system, meaning that there is a finite number of solutions to the problem.
-
-As soon as somebody has found the solution to a particular problem, what happens then?
-
-Or what if there’s not enough data to find a solution?
-
-The problem can’t be used for proof-of-work anymore.
-
-In Bitcoin, since the puzzle is based on the previous block, the problem space is inexhaustible.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image223.png" alt="Proof-of-Useful-Work: Doesn't it Work?"</>
-</p>
-
-You can always generate more problems with more solutions.
-
-In contrast, we used SETI@Home data for our puzzle, we could run out of raw radio telescope data, leaving no problem to solve.
-
-Next, potential solutions are not equally probable.
-
-For example, if you’re looking for planets in the sky, one part of the sky might be more populated than others.
-
-It’s not equally likely that you’ll find a planet in all sections of the sky.
-
-In the hash functions of Bitcoin, it’s on average equally difficult to find a solution.
-
-Having a uniform solution space means that the only way to find a solution is through pure brute force computation.
-
-You can’t find any tricks or shortcuts that will let you avoid that computation.
-
-Lastly, these problems are delegated by central entities, as opposed to to in Bitcoin, whose problems are created by its protocol.
-
-It opens up the potential for collusion and exploitation.
-
-When we rely on a central authority or central entity to create the problem.
-
-In summary, proof of useful work sounds like a great idea, but it’s incredibly difficult to implement.
-
-<h3>Consensus Updates: Bitcoin Core</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image224.png" alt="Consensus Updates: Bitcoin Core"</>
-</p>
-
-The idea behind a consensus update is that since Bitcoin is decentralized, no one person can say “this is the change we’re going to make in the protocol.”
-
-Everybody has to agree, and come to consensus for an update to go through.
-
-There is a centralized team working on these protocol changes, the Bitcoin Core team, along with a few other people that work on specific parts of the software.
-
-This is the software that’s used in full nodes.
-
-<h3>Consensus Updates: Forks</h3>
-<!------------------------------------------------------------------------------------------------>
-<!--------  ---------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image225.png" alt="Consensus Updates: Forks"</>
-</p>
-
-This brings us to the two ways that blockchains can be updated: hard forks and soft forks.
-
-Hard forks and soft forks refer not to forks as previously mentioned, where two blocks are produced at the same time, but to protocol forks.
-
-Keep in mind that all miners operate independently, and it is not mandatory for them to update their protocols.
-
-When a large group adopts protocol changes, then the blockchain will react in a couple different ways depending on the new protocol’s rules.
-
-A hard fork results from a new protocol that does things not allowed in the old protocol.
-
-An example is Bitcoin Cash, which increased the block size from 1MB to 8MB.
-
-The nodes on the old, legacy Bitcoin protocol are going to refuse the new 8MB blocks, leading to a permanent fork as seen in the diagram.
-
-These two forks would then theoretically continue forever as long as both chains have support, miners who continuously run that software.
-
-Essentially, the hard fork is not backwards compatible.
-
-In a soft fork, the rules of the new protocol are only restrained.
-
-For example, if a new Bitcoin fork called Bitcoin Dollars were to reduce the block size to half a megabyte, then everything valid in the new protocol is still valid in the old protocol.
-
-However, the old protocol’s blocks are no longer valid in the new protocol, meaning that a soft fork is backwards compatible but not forwards compatible.
-
-As seen in the bottom picture, the new and old nodes will accept blocks from the new protocols, but the old nodes will never have their blocks accepted into the longest chain mined by the new nodes.
-
-The new nodes then pressure the old nodes to adapt the new protocol, so that they’re not left behind.
-
-Before every fork, hard or soft, the entire community launches into debates about the future of Bitcoin.
-
-<h3>Consensus Updates: BIPs</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image226.png" 
-   alt="Consensus Updates: Bitcion Improvement Proposal (BIP)"</>
-</p>
-
-In Bitcoin, changes to the protocol come in the form of BIPs, or Bitcoin Improvement Proposals.
-
-These can be changes in the network protocol, block or transaction validation, or anything affecting interoperability.
-
-This is the way the community votes on changes that they want to support.
-
-There are three types of BIPS: standard, informational, and process.
-
-A standard BIP is an actual update or change to the protocol.
-
-This is how the ecosystem changes, and what miners vote on.
-
-Informational BIPs are more so guidelines on how people should do things in the future, but it doesn’t change the protocol.
-
-An example of an informational BIP would be a BIP talking about how to run a mining pool.
-
-The last BIP, process BIPs, are specific things that should be done as well as best practices.
-
-The first BIP was by Amit Taaki in 2011, and was actually a BIP to make BIPs.
-
-Miners vote on BIPs by including a reference to that BIP in the block that they mine.
-
-<h3>Text: Lecture 4 Summary</h3>
-
-Author: Rea Savla
-
-<h3>I. Types of Users</h3>
-
-Bitcoin makes the distinction of 4 key functionalities ([Mastering Bitcoin <u>Opens in new window</u>](https://unglueit-files.s3.amazonaws.com/ebf/05db7df4f31840f0a873d6ea14dcc28d.pdf), p.152) that every node in the network is a combination of:
-
-Wallets: management of keys and addresses
-
-Mining: the voting process which expends computational power
-
-Full Blockchain: a copy of the full Bitcoin blockchain
-
-Routing: software that allows you to talk to other Bitcoin nodes
-
-We can make powerful generalizations using these 4 key characteristics, however there exist other distinctions between users too.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" 
-   src="/images/image227.png" 
-   alt="Wallet-Miner-Full Blockchain-Routing Node (WMBN)"</>
-</p>
-
-Image Source: [Mastering Bitcoin Opens in new window](https://github.com/bitcoinbook/bitcoinbook)
-
-<h3>II. Wallets</h3>
-
-The primary function of Bitcoin wallets is to keep track of your identity. In Bitcoin, a private key gives you a claim to your virtual identity; it unlocks your virtual identity and gives you access to your Bitcoin address. Wallets primarily store your private keys, but most wallet softwares also generate public/private keys with each new transaction and track your transactions. Unlike the physical wallets we use for money, Bitcoin wallets do not store physical bitcoins. They’re simply impossible to store. Hence, control over private keys is essentially control over identity and bitcoins.
-
-There are two types of Bitcoin wallets: hot wallets (Mycelium, AirBitz, Webapp, Mobile App, etc) are connected at some point to the internet, while cold wallets (i.e. paper and hardware) are not. 
-
-You can find them at Bitcoin ATMs, where you can trade cash for bitcoins. You can also get bitcoins through an exchange, where you can trade between different types of fiat currencies and cryptocurrencies. Centralized exchanges are easy to use and access, but are single points of failure which may be vulnerable to hacks. Decentralized exchanges (i.e. Bitshares and Bitsquare) conduct trades directly between users by creating proxy tokens and are mostly trustless but may suffer from liquidity problems. 
-
-<h3>III. Wallet Mechanics</h3>
-
-For wallets to successfully keep track of your identity and bitcoin, they must implement mechanisms to verify transactions and keep track of many keys. 
-
-When using a wallet software, you do not have to download the full Bitcoin blockchain thanks to Simple Payment Verification (SPV). SPV is a method for verifying if particular transactions (specifically your own transactions) are included in a block without having to download entire blocks. Instead, you can simply ask your neighbors for relevant info about the blocks, though you must trust they will give you legitimate data. 
-
-To maintain anonymity, it is best practice never to reuse pseudonyms. Bitcoin addresses are cheap to generate, and using a new pseudonym for each transaction makes tracking your activity and discovering your identity much more difficult. 
-
-The traditional way to keep track of a large number of keys is through a “Just a Bunch of Keys” (JBOK) wallet: a new key pair is created and backed up for every transaction. However, JBOKs are hard to scale. You can see how exchanges have to deal with thousands of transactions a day for thousands of users would need something more efficient than JBOK wallets. 
-
-Hierarchically Deterministic (HD) Wallets overcome this problem by deriving all new keys from an original random seed value. In HD Wallets, anyone controlling the parent key can also generate and control child keys.
-
-<h3>IV. Mining</h3>
-
-Mining in Bitcoin requires miners to verify incoming transactions, create a block, find a valid nonce, broadcast the block, and earn a profit in bitcoins.
-
-Miners are primarily motivated to maintain the network, or execute the Proof-of-Work consensus mechanism and bring new bitcoin into circulation, by earning profit. Miners only earn a profit from mining when the revenues from the block reward and the transaction fees are greater than the fixed and variable costs of mining.
-
-A block reward is a reward that goes to miners whose blocks are included in the longest chain. Bitcoin incentivizes honest mining by rewarding miners in bitcoin. The block reward halves every 210,000 blocks, approximately 2 years, and will fall to 0 once 21 million bitcoins have been mined.
-
-Regardless of the number of bitcoins in circulation, miners will always be rewarded via transaction fees.
-
-The main fixed cost in mining is the hardware that allows users to mine. CPUs, GPUs, FPGAs, and ASICs are all types of hardware that have been used for mining, and each is more computationally powerful than the last. ASICs, which stands for Application-Specific Integrated Circuits, are currently capable of computing 14 trillion hashes per second. They are fully specialized devices that can only do one activity: mine for Bitcoin.
-
-The main variable costs associated with mining are energy and infrastructure costs (i.e. warehouse and personnel). Energy costs are further divided into three types: Embodied Energy, to produce hardware; Electricity, to power hardware; and Cooling, to maintain hardware.
-
-<h3>V. Real World Mining</h3>
-
-To get a better sense of how mining looks in real life, here is what a real-world ASIC mining farm in China looks like:
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="90%" src="/images/image228.png" 
-   alt="Real World Mining"</>
-</p>
-
-Image Source: [The Register Opens in new window](https://www.theregister.co.uk/2014/08/12/chinese_bitcoin_farms_from_scifi_to_scuzzy/)
-
-Even with the most impressive technology, it still takes a great amount of time and power to find a block. Mining pools allow miners to join their hash power together so that they will collectively find blocks and collect rewards more often, reducing variance. As a member of a mining pool, your reward is calculated by the number of “shares” you contribute. A share is defined as a near valid block, used to estimate the mining power you contributed. More shares equals more attempts at finding a valid nonce equals a larger slice of the pie.
-
-The two main payment mechanisms in mining pools are:
-
-Pay-per-Share: where miners are paid a fixed amount of money for each share, regardless of how much reward the pool makes
-
-Proportional Schemes, where miners receive a reward proportional to the number of shares submitted before the block was found
-
-Pay-per-Share pools are advantageous to the miner because of guaranteed payouts, but risky for the pool because miners have no incentive to submit valid blocks to the pool. Proportional Schemes are advantageous for the pool because the pool operator only pays out after a block is found, but more risky for the miner due to greater variance of reward.
-
-<h3>VI. Changing Bitcoin</h3>
-
-One of the current challenges of Bitcoin is that mining is tending towards centralization with the development of ASICs, mining pools, and mining farms. ASICs cost a lot of money, which means only those with access to high volumes of capital can afford them, thereby concentrating the mining power into the hands of a few. To address this issue, we must develop a tweak to the protocol that reduces centralization but still adheres by the puzzle requirements (quick to verify, adjustable difficulty, and computationally difficult).
-
-We can get around the ASIC domination by creating a memory-hard or memory-bound puzzle, periodically switching mining puzzles, or replacing Proof of Work by Proof of Useful Work.
-
-While ASIC resistance may decentralize mining and make it a more democratic process, achieving ASIC resistance may also cause disruptions to the mining community that would undermine the network. 
-
-Real changes are implemented in Bitcoin via hard or soft forks. Hard forks result from a new protocol that does things not allowed in the old protocol. In a soft fork, the rules of the protocol are only restrained. A soft fork is backwards compatible but not forwards compatible.
-
-<h3>Hard Fork:</h3>
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- Hard fork real changes implemented in Bitcoin --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="90%" src="/images/image229.png" alt="Hard fork real changes implemented in Bitcoin"</>
-</p>
-
-<h3>Soft Fork:</h3>
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- Soft fork real changes implemented in Bitcoin --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="90%" src="/images/image230.png" alt="Soft fork real changes implemented in Bitcoin"</>
-</p>
-
-In Bitcoin, changes to the protocol come in the form of BIPs, or Bitcoin Improvement Proposals. These can be changes in the network protocol, block or transaction validation, or anything affecting interoperability. There are three main kinds of BIPS: standard, informational, process.
-
-Readings
-
-[Mining Bitcoin with pencil and paper: 0.67 hashes per day Opens in new window](http://www.righto.com/2014/09/mining-bitcoin-with-pencil-and-paper.html)
-
-[ViaBTC Rises: How A Mysterious Miner Could Decide Bitcoin's Future Opens in new window](https://www.coindesk.com/viabtc-mystery-miner-bitcoin-scaling-future)
-
-[Antbleed: Bitcoin's Newest New Controversy Explained Opens in new window](https://www.coindesk.com/antbleed-bitcoins-newest-new-controversy-explained)
-
-(Optional) [Time stamped chatlog: Why Jihan and Jiang want to block segwit at all cost Opens in new window](https://medium.com/bitcoinfoundation/verified-chatlogs-why-jihan-and-jiang-want-to-block-segwit-at-all-cost-bbf068c5ce0f)
-
-(Optional) [Bitcoin Hash Rate vs Difficulty Opens in new window](https://bitcoinwisdom.com/bitcoin/difficulty) (play around with different variables!)
-
-(Optional) [BlockShell Opens in new window](https://github.com/rustielin/blockshell) (set up and play around with the CLI)
-
-<h3>Module 5: How to Destroy Bitcoin: Game Theory & Attacks</h3>
-
-With all our knowledge so far, we have a pretty good understanding of Bitcoin high level motivations and design, as well as low level mechanics.
-
-So now with our knowledge of the ins and outs of Bitcoin… let’s destroy it :)
-
-Looking from a game theoretical perspective, we’ll formulate attacks and other malicious behavior that can potentially destroy Bitcoin.
-
-One note is that although we have been focusing primarily on Bitcoin so far, now we’re starting to build an understanding of not just Bitcoin, but cryptocurrencies and blockchain in general.
-
-This module is called “How to Destroy Bitcoin: Game Theory and Attacks” but you can understand that the game theoretical approach and analysis of attack vectors applies to all proof-of-work blockchains -- not just Bitcoin.
-
-<h3>Intro: Pool Strategies</h3>
-
-As we explained in the previous module, everything is driven by profit -- and Bitcoin is certainly no exception.
-
-For example, it might not be profitable to be a solo miner, especially if you don’t have a lot of specialized hardware.
-
-You might want to join a mining pool, where users pool together their computing resources so that collectively they all have an increased likelihood of finding the next block, and thus receive the block reward.
-
-As we’ll see in this section, there are some strategies you can employ to increase your profits even further.
-
-And when it comes to making the most profit, honest strategies are NOT usually the best way to go.
-
-<h3>Pool Reward Scheme Review</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Reward Schemes: Reviews ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image231.png" alt="Pool Reward Schemes: Reviews"</>
-</p>
-
-Remember from last lecture that pay-per-share schemes will pay you a fixed amount of money for each share, or near-valid block.
-
-This payment is guaranteed and constant per share, regardless of how much reward the pool makes.
-
-One issue is that there’s no incentive for a miner to actually submit valid blocks to the pool because the amount of revenue collected from that share is equal to any other share.
-
-Miners will stop doing work on their current block as soon as it satisfies the near-valid block requirements.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Reward Schemes: Proportional ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image232.png" alt="Pool Reward Schemes: Proportional"</>
-</p>
-
-Proportional schemes are the other category which pay out only when a block is found.
-
-The reward of each miner is proportional to the number of shares submitted before the block was found.
-
-However, this scheme is disadvantageous for the miner because the miner now has to bear the risk of not finding a block, and therefore the variance of rewards.
-
-They only get paid when a valid block is found by the pool.
-
-For the same reason, proportional pay-out schemes are beneficial to the pool, since they only have to pay miners when a valid block is found.
-
-Given the incentive structures in both pay per share and proportional pool pay-out schemes, is it possible that pools are vulnerable to some incentive misalignment?
-
-<h3>Pool Hopping</h3>
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image233.png" alt="Pool Rewards: Pool Hopping"</>
-</p>
-
-Remember that we as miners want to maximize their payout.
-
-Well, is there a way that we can take advantage of proportional payout schemes?
-
-This graph is a general representation of the difference between pay-per-share payouts and proportional payouts.
-
-We know there must be some intersection between these two because the proportional payout starts off high but decreases while the pay-per-share scheme stays constant.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image234.png" alt="Pool Rewards: Pool Hopping"</>
-</p>
-
-This graph might reveal something to you right away.
-
-If not, don’t worry -- you’re about to see how we can increase our profit margins though a little bit of cleverness.
-
-Here, you see the area under the curve, which represents the total reward per share times the number of shares.
-
-If we mine under just the proportional scheme, the reward gained per share decreases as more and more shares get submitted towards this block, meaning that our marginal rewards start to approach zero.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image235.png" alt="Pool Rewards: Pool Hopping"</>
-</p>
-
-In this example, we see the same type of graph but for pay-per-share.
-
-It’s a giant rectangle, extended a small amount by every share that we mine.
-
-Unlike the previous scheme, this one doesn’t approach zero.
-
-Instead, the value of each share stays constant.
-
-A clever miner will look for ways to take advantage of both payout schemes to increase that total area under the curve, to increase their total profit from shares.
-
-And here’s how they can do that.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image236.png" alt="Pool Rewards: Pool Hopping"</>
-</p>
-
-Let’s say a miner starts off mining under the proportional payout scheme.
-
-This means that each share is very valuable in the beginning.
-
-If we start mining here and find a block quickly, then we make a large amount of profit per share.
-
-However, if we don’t find a block for quite a while in this pool, our shares start to become less profitable.
-
-To get maximum profit, we can reconsider where we put our mining power.
-
-Instead of continuing to mine in the proportional scheme, we switch to the pay-per-share scheme.
-
-Right at the intersection point.
-
-Why?
-
-Because the reward per additional share there is higher, and will yield more profit, than the proportional payout.
-
-To fully understand this attack, you need to see the point at which the two curves intersect.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Pool Rewards: Pool Hopping Strategy ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image237.png" alt="Pool Rewards: Pool Hopping"</>
-</p>
-
-And this is when the value per share of the proportional scheme decreases beneath the value per share of the pay-per-share scheme.
-
-This is why the attack is known as pool hopping: the miner hops to the most valuable pool as they see fit.
-
-A generalization is to say that a miner will rationally mine in the pool providing the most reward per share.
-
-Because of this, honest and loyal miners will be cheated out of profit by the rational miners, who choose personal profit over the group.
-
-Because of this, proportional pools are not feasible in practice.
-
-Thus far, designing a mining pool reward scheme that both aligns incentives fully and is not vulnerable to pool hopping remains an open problem.
-
-A pool with fully aligned incentives would both have miners aim to submit nonces that produce valid block headers to the pool and stay loyal to the pool.
-
-The proportional scheme incentivizes miners to submit such nonces, but it doesn’t incentivize miner loyalty.
-
-Pay-per-share pools are the inverse, as previously mentioned.
-
-We’ll see how this misalignment of incentives in pay-per-share models can lead to even further attacks.
-
-<h3>Pool Cannibalization</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------- Pool Cannibalization: Strategy --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image238.png" alt="Pool Cannibalization: Strategy"</>
-</p>
-
-Remember, in a pay-per-share model, a miner is not incentivized to give their mining pool any valid blocks.
-
-There’s no extra reward to the individual for finding a share that gives the pool a block.
-
-Is there a way that we can exploit this incentive misalignment?
-
-Turns out there is!
-
-You might have started to predict the attack by now.
-
-If we get paid out for finding near-valid shares, why not just get paid for work without submitting valid blocks? And this is known as pool cannibalization.
-
-You may recognize the person in this image on the right side of the slide.
-
-This is Hannibal Lecter, fictitious cannibal, from the TV Show “Hannibal.”
-
-Just like Hannibal is a person that consumes other people, pools can “consume” parts of other pools through pool cannibalization.
-
-The way we “consume” other pools is that if we have a decent amount of mining power, we can distribute some of our power into other pay-per-share schemes, but for these pools, we don’t submit valid blocks.
-
-This way, we can be paid by those other pools without increasing their revenue.
-
-With pool cannibalization, we increase own personal profit at the detriment of other pools.
-
-The advantage of this attack is that it’s very hard to detect in small amounts.
-
-Let’s go ahead and show why this is the case through some calculations.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------- Pool Cannibalization: Strategy --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image239.png" alt="Pool Cannibalization: Strategy"</>
-</p>
-
-Let’s first establish some assumptions.
-
-Let’s say we have 30 hashes per second of power in your pool, and the total network has 100 hashes per second.
-
-Easily, we see that we have 30 percent of the network hashrate.
-
-On top of that, there’s a current block reward of 1 bitcoin per block.
-
-These numbers are for simplicity’s sake to set up the stage for the pool cannibalization analysis and not at all representative of real world conditions.
-
-With basic statistics, we can calculate an expectation of profit per block.
-
-This is the average profit made per block, which is not to be confused with the actual profit per block.
-
-If we have thirty percent of the network hashrate, this means we are also expected to get thirty percent of the blocks in the longest chain.
-
-By implication, we are also expecting to earn thirty percent of the total mining rewards on average, which is 0.3 bitcoins per block.
-
-Now that we’ve established this scenario, let’s consider something: we buy a bit more hardware, currently worth 1 percent of the total network hashrate.
-
-Let’s consider what we can do with this extra mining power.
-
-The standard, simple thing to do with this extra mining power is add it to your own resources.
-
-This means we have 31 hashes per second, and the total network has 101 hashes per second.
-
-We now have 30.69 percent of the total hashrate.
-
-This means that our increase in profit is 0.0069 bitcoins from our extra hardware.
-
-But how can we leverage our previous knowledge about pay-per-share pools?
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Pool Cannibalization: Example ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image240.png" alt="Pool Cannibalization: Example"</>
-</p>
-
-Well, by doing something mean but profitable: distributing our 1 unit of mining power among all the other pools -- the other 70% of the network hash power.
-
-However, we make sure to that we do not add to their revenue.
-
-We withhold any valid blocks while submitting all other shares.
-
-The result is that the pools pay out to us -- because we’re still submitting shares -- but does not gain any benefit from our hash power -- since we don’t submit valid blocks.
-
-What that looks like in this particular scenario is as this: the rest of the pools are 70 parts honest, 1 part dishonest.
-
-By honest, we mean mining and submitting valid blocks.
-
-Dishonest is disobeying this intent and withholding valid blocks, and that’s what we’re doing.
-
-What this means is that the effective hashrate of the other pools has not changed: it’s still 70%.
-
-However, the mining pools are still paying out to us.
-
-This means that our expected value of mining with this one percent of hashpower ends up being 0.0098 bitcoins.
-
-You’ll notice a scary conclusion.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Pool Cannibalization: Example ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image241.png" alt="Pool Cannibalization: Example"</>
-</p>
-
-Dishonesty is more profitable than honesty!
-
-We’ve just shown that it’s more profitable to cannibalize pools than to mine directly through our own pool.
-
-This is a scary deduction that we’ve made, but it doesn’t stop here.
-
-If it’s more profitable for any pool to do this, then what does that look like across the network?
-
-Will pools all start cannibalizing each other?
-
-Is everyone going to start being dishonest for profit?
-
-Are pools going to wage war on each other through this attack?
-
-<h3>Nash Equilibrium and the Tragedy of the Commons</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Pool Wars: The Game of Life ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image242.png" alt="Pool Wars: The Game of Life"</>
-</p>
-
-Like all other competitions for resources, we can model this problem as a game and analyze it with economic game theory.
-
-We have several players all attempting to maximize their individual profit, and they each have choices about whether to cannibalize.
-
-We can, for the sake of analysis, view it as an iterative game.
-
-In other words, there are distinct rounds, and a choice needs to be made each round.
-
-There are several different mining pools in the Bitcoin network, but let’s focus on two theoretical pools: Pool 1, and Pool 2.
-
-Each round, or iteration, is a case of the Prisoner’s Dilemma.
-
-The Prisoner’s Dilemma refers to a problem of cooperation.
-
-Pool 1 and Pool 2 both want to attack each other to increase their own personal profit at the expense of the other.
-
-However, if they both attack each other, they’ll be worse off than if they both chose to cooperate and not attack at all.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Pool Wars: Nash Equilibrium ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image243.png" alt="Pool Wars: Nash Equilibrium"</>
-</p>
-
-Let’s say Pool 1 chooses to attack Pool 2.
-
-Pool 1 increases its own personal profit, as demonstrated in the last section, but Pool 2 suffers.
-
-So what’s to stop Pool 2 from retaliating to increase revenue?
-
-Well, nothing!
-
-Pool 2 has no reason not to attack Pool 1 back.
-
-Because of this, choosing to attack is tempting for both pools.
-
-In fact, we can formally say that both pools attacking each other is a Nash Equilibrium.
-
-A Nash Equilibrium, put simply, refers to the choices that actors see as most profitable, as long as the others' decisions remain unchanged.
-
-Both Pool 1 and Pool 2 would not stop attacking, even if the other stopped attacking, because that would imply less profit for themselves.
-
-However, if both Pool 1 and Pool 2 attack each other, they both lose mining power relative to the rest of the network.
-
-This means that their profit from attacking is actually less than if they both chose not to attack each other.
-
-Why don’t they just not attack each other and make more profit than in this Nash Equilibrium?
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Pool Wars: -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image244.png" alt="Pool Wars"</>
-</p>
-<!---
-<img src="/images/image244.png" style="width:5in;height:2.8in" />
----->
-
-Well, the no-pool-attacks scenario is not a Nash Equilibrium.
-
-In other words, if both pools choose not to attack each other, they’re not making as much profit as they could be.
-
-There’s a more profitable option out there for them.
-
-By attacking, they can increase their profit, and that’s what we’ve established all actors want to do.
-
-Because of this, you fall into this issue where rational actors will eventually choose the Nash Equilibrium if they’re pursuing profit.
-
-So, they’ll continually attack each other in hopes of making profit.
-
-Sure, if pools adhere to a culture where they agree not to attack each other through cannibalization, then everyone benefits in the long run.
-
-However, it’s not a guarantee that all pools will adhere to this: anonymously or not, nothing is stopping them at this point other than social constructs.
-
-Except for the fear of getting attacked, there’s a large amount of incentive to attack other pools for profit.
-
-Pools might be able to detect these attacks in the future, and detection of these attacks would allow for a long term solution, but as of now it’s still very difficult to detect.
-
-We can’t always tell the origin of mining power, meaning that we either trust that we’re not being attacked or accept that there’s no solution to this problem.
-
-Because of this, you can see the problem as a Tragedy of the Commons, in which all pools are individually incentivized to act in ways that do not as a whole improve the wellbeing of the entire group.
-
-It all comes back to this issue of aligning personal incentives with group incentives.
-
-<h3>Supplement Game Theory</h3>
-
-Author: Rea Savla
-
-We can model the behavior of different actors in the Bitcoin network for a given situation using a game theoretical analysis. Our first assumption is that actors will act in a rational way, where rationality is defined as taking the actions that maximize their utility. In our scenario, utility is defined by the monetary gains resulting from an action. While not everyone in Bitcoin is purely motivated by monetary gain, this is still a powerful generalization.
-
-A ***Pure Strategy Nash Equilibrium ***is the set of actions that maximize each actor's utility given the responses of all the other actors. Note, the utility each player receives depends on the player's own decisions and the decisions of all the other actors, in the same way that the rewards a miner gets in the mining pool depend on the miner's own decision to attack or cooperate and the rest of the pool's decision to attack or cooperate. Players in the Bitcoin network or in a mining pool will converge to acting according to the Pure Strategy Nash Equilibrium for a given scenario, assuming they all behave rationally.
-
-Let’s take a look at a simple scenario. Suppose there are only 2 mining pools in the Bitcoin network, Pool A and Pool B. Their utilities are shown below. The numerical value of utility is arbitrary in economics; it does not have any associated units, and it is calculated using a utility function of other parameters, defined by the economist. We are only interested in the comparative value of an action’s utility, whether it is higher or lower than another; we are not interested in its absolute value. In this example, the respective utilities are derived from the monetary gains each player would receive from the given scenarios of attacking or cooperating with the other.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image245.png" style="width:5in;height:2.08in" alt="A table representing Pool A and Pool B demonstrating the relationship between their utilies" />
-
-The specific numerical values for the utilities in this example were chosen arbitrarily to reflect a scenario where players are incentivized to act dishonestly, but fare worse when both players are dishonest than when both players are honest. Let’s take the perspective of Player A. Given Player B acts honestly, player A gains the most utility from acting dishonestly, since a utility of 3 is greater than the utility of 2 that A would receive by acting honestly.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image246.png" style="width:5in;height:2.07298in" alt="Pool A&#39;s utility is 3 and Pool B&#39;s utility is 0. Pool A&#39;s dishonest utility is highlighted." />
-
-Given Player B acts dishonestly, Player A would prefer also acting dishonestly since a utility of 1 \>utility of 0.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image247.png" style="width:5in;height:2.09192in" />
-
-Player B makes the same conclusions, and makes preferences as follows:
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image248.png" style="width:5in;height:2.15447in" alt="Player B&#39;s dishonesty utilities are highlighted as well as Player A&#39;s. " />
-
-We can see that the scenario in which both players choose to act dishonestly is the Pure Strategy Nash Equilibrium, since at this position, both players are maximizing their payoffs given the other player’s actions. Thus, despite receiving higher returns from both acting honestly, Players A and B will both act dishonestly.
-
-If you are interested in learning more about introductory game theory, we recommend the following reading: [A Brief Introduction to Basics of Game Theory ](https://www.ethz.ch/content/dam/ethz/special-interest/gess/chair-of-sociology-dam/documents/education/spieltheorie/literatur/Einf%C3%BChrung/Jackson%20Basics%20of%20Game%20Theory%20SSRN-id1968579.pdf)by Matthew O. Jackson, Stanford University.
-
-<h3>Intro: Double Spending</h3>
-
-Now that we’ve discussed some pool game theory, let’s go ahead and revisit the classic attack of the cryptocurrency world: the double spend attack.
-
-We previously discussed this at a high level in the first lecture, mentioning that we use computational resources to prevent double-spend attacks.
-
-But how does this actually look within the blockchain?
-
-On top of that, is there still a way to double spend?
-
-Can I double spend with less than a majority of the voting power?
-
-We’ll answer all those questions for you in this upcoming module.
-
-<h3>Race Attack</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image249.png" style="width:5in;height:2.85528in" />
-
-Let’s revisit the definition of a Double Spend attack.
-
-It means being able to successfully spend the same value more than once.
-
-Keep this in mind as we go through the attacks in the following slides.
-
-Imagine this scenario: in the year 2099, I’m an old lady, and I want to buy the new iPhone 92XCS from Rustie on the black market.
-
-I’m offering a whopping 100 bitcoins, but I doesn’t actually want to give up my money.
-
-How can I double spend on Rustie?
-
-Well, it all depends on how early Rustie’s willing to give me the iPhone.
-
-We’ll explain what that means right away.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image250.png" style="width:5in;height:2.8275in" />
-
-Suppose Rustie is very naive and trusting.
-
-The moment he sees a valid transaction from me, he sends me the iPhone.
-
-This is before the transaction even enters a block -- he makes the assumption that if the transaction is floating around the network, it will eventually make its way into a block and he’ll get paid.
-
-I can take advantage of that.
-
-I can trick him by sending him a valid transaction and sending the rest of the network a conflicting transaction.
-
-While Rustie has the impression that I am sending the UTXO to his own address, I tell the rest of the network that I want to send that same UTXO to a different address, which is actually another address that I control.
-
-I can incentivize miners to choose the second transaction by making the transaction fee for that higher as well.
-
-It’s possible, then, that Rustie sends me the iPhone but I get to keep my money.
-
-I just successfully double spent on Rustie through a race attack.
-
-It’s called a race attack because the timing of transactions affects the outcome.
-
-The transaction to Rustie doesn’t go through because it’s beat by the second transaction that spends from the same UTXO.
-
-The second transaction making its way into the blockchain prevents poor Rustie from ever getting his bitcoins.
-
-Defense: Confirmations
-
-How might Rustie protect himself from this?
-
-Well, we know that Rustie only gets to keep his bitcoins if a transaction to him makes its way into the longest chain.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image251.png" style="width:5in;height:2.82946in" />
-
-And, as we know, the longest chain could be forked early on.
-
-To provide some confidence in the immutability of the transaction, he can look for what we call confirmations.
-
-Instead of just accepting a transaction as valid when he sees it floating around the network or when it first makes its way into a block, Rustie waits for the transaction to get a certain number of confirmations.
-
-A confirmation is defined as the number of blocks built off of some particular block.
-
-In this diagram, there’s the block holding my transaction to Rustie, and there’s two blocks built on top of that.
-
-This means that there’s two confirmations on this block.
-
-The more confirmations a transaction has, the harder it is to double spend, since a malicious miner such as myself would have to fork the chain starting from before the block that contains that transaction, and mine fast enough to surpass with the honest chain.
-
-This is a reasonably simple concept, but we can see some interesting things that involve confirmations.
-
-The question you’re probably asking: how many confirmations does Rustie need before he feels confident about the finality of his transaction?
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image252.png" style="width:5in;height:2.8125in" />
-
-Well, let’s go back to the example with me and Rustie.
-
-Rustie’s gotten wiser from the last time I double spent on him, so he’s now going to wait for some confirmations before sending the iPhone.
-
-Let’s say he waits for “k” confirmations.
-
-This means he waits for k blocks to be built on top of his transaction before deeming the transaction finalized.
-
-From my perspective, I now needs to find a way for Rustie’s transaction to get k confirmations,
-
-but I then need to find a way to produce a longer chain containing the transaction spending from the exact same UXTO back to myself.
-
-This longer chain will invalidate Rustie’s transaction.
-
-The way I do this is by starting a private chain containing my own malicious transaction, mine k blocks, and then broadcast the chain after Rustie has sent the iPhone to me.
-
-By doing so, I will have received the goods and have kept my own bitcoin.
-
-A quick note: in this demonstration, I will mine k + 1 blocks on top of the block that contains my own transaction to myself.
-
-If I mined just k blocks, I would have caught up with the rest of the network.
-
-But if I want to invalidate the honest chain with the transaction from me to Rustie, my chain has to be longer.
-
-Hence, the plus one.
-
-Let’s go ahead and see a demonstration.
-
-<h3>Demo: Confirmations</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image253.png" style="width:5in;height:2.85526in" />
-
-Let’s say that k in this case is equal to 2 confirmations.
-
-In other words, Rustie will assume that the transaction is finalized after 2 confirmations.
-
-I publish my transaction to Rustie, and it has been included within a block.
-
-One confirmation….
-
-Two confirmations.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image254.png" style="width:5in;height:2.8318in" />
-
-Rustie notices the two confirmations and feels confident about the transaction’s finality.
-
-He now sends me the iPhone so as not to keep me waiting.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image255.png" style="width:5in;height:2.86939in" />
-
-But that was exactly what I was expecting.
-
-This whole time, I was mining on a private chain which I did not reveal to the rest of the network.
-
-This chain contains a transaction from the same UTXO, to a different address which I also control.
-
-This transaction from me to myself is to make sure that the transaction from me to Rustie is forever invalid and can never be republished.
-
-This is because once the network accepts the transaction from me to myself, the corresponding
-
-UTXO is used up, and since both this transaction as well as the transaction from me to Rustie spend from the same UTXO, this then invalidates the transaction from me to Rustie.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image256.png" style="width:5in;height:2.9765in" />
-
-When I broadcast my chain, the rest of the network accepts my chain over the previous chain because it’s longer.
-
-Because of this, the entire chain of blocks, containing the transaction from me to Rustie, and onward is invalidated.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image257.png" style="width:5in;height:2.84238in" />
-
-The rest of the network will continue mining on my chain, meaning that I will have received Rustie’s iPhone while still keeping my own money.
-
-Hooray!
-
-I have successfully double spent!
-
-However, notice that my double spending of Rustie relied on my ability to produce a longer chain than the honest network.
-
-You might be wondering: what is the probability of me being able to produce a chain longer than the rest of the network?
-
-Well, we’ll see right away how that’s possible.
-
-<h3>Probability Analysis</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image258.png" style="width:5in;height:2.83226in" />
-
-These graphs show the probability of a successful fork.
-
-The top shows the probability of an attacker catching up to some chain given two parameters:
-
-the amount of mining power possessed by the attacker, and the amount of blocks by which the honest chain is ahead.
-
-The bottom graph is a mirrored image, as it shows the probability that a transaction is safe after some k number of confirmations.
-
-Let’s look at the top graph first.
-
-The blue line represents the probability of an attacker with 10 percent of the network hashrate successfully producing a chain of equal length to the honest network.
-
-Even just catching up to one block is only a 20 percent chance, and it tapers towards zero quickly.
-
-The curves generally look like an inverse exponential curve, in that the probability starts off high but then quickly drops towards zero.
-
-The exception is mainly with the 50 percent model.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image259.png" style="width:5in;height:2.83679in" />
-
-As you can see, the 50 percent model has a probability of 1 no matter what.
-
-In other words, an attacker with 50 percent of the network hashrate has a 100 percent chance of creating a chain of equal length to the honest chain.
-
-There’s a lot of fancy statistics to get to these exact values, but we’ll save that for readings.
-
-To quickly comment on the second graph, you’ll notice that it’s a flipped over version of the top graph.
-
-This is because there’s only two possibilities that we’re considering with any transaction: its chain is the longest chain, or it’s invalidated by a longer chain.
-
-Because of this, the probability of one event is 1 minus the probability of the other.
-
-In addition, this leads us to the following conclusion: if the attacker has 50% of the network hashrate, then we have a 0 percent probability that our transaction is ever safe.
-
-At any time, the 50% attacker can produce a chain that will catch up with the rest of the honest network.
-
-With more than 50%, say 51%, I will always be able to double spend.
-
-I will always be in full control of which blocks are included within the history of transactions.
-
-<h3>Goldfinger Attack</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image260.png" style="width:5in;height:2.80206in" />
-
-But here’s a question to ask: just because I can double spend doesn’t mean I should.
-
-There’s a lot of real world consequences of double spending that we don’t consider when just discussing theory and math.
-
-If the rest of the world ever realizes that a double spend attack was conducted on Bitcoin, the value would plummet instantaneously because there’s no longer any belief in the finality of transactions and the security of the network.
-
-My own bitcoin would drop in value as well, and that means I’ll lose a lot of money.
-
-In addition, all the specialized hardware I own would be useless as well, since the hardware can only mine Bitcoin.
-
-If Bitcoin is worthless, then so is the hardware.
-
-What are some other options?
-
-Well, I can bribe miners.
-
-If I don’t own the hardware or don’t want to spend that much capital on hardware that’s about to become useless with a successful attack, might as well bribe other miners to mine on my own withheld chain.
-
-But what if I’m a hostile government, adversarial altcoin, large institution, or other enemy to the network with a large amount of capital?
-
-Well, then there’s a way for me to make up my money even after buying all that hardware.
-
-What I can do is called a “Goldfinger” attack, named after the James Bond movie of the same name.
-
-The point of this attack is to profit off the destruction of some assets.
-
-In the James Bond movie, the villain tried to profit off the destruction of gold in Ft. Knox.
-
-With Bitcoin, I can short the currency, meaning to place a bet on its devaluation.
-
-I can first place a bet that Bitcoin is going to go down in value, then I can launch the double spend attack to make my prediction go through.
-
-At this point, double spending on someone is -- interestingly enough -- just a means to an end.
-
-<h3>Intro: Censorship Attacks</h3>
-
-Thus far, we’ve looked at examples of how users with enough hashpower can take advantage of the properties of the blockchain in order to maliciously double spend their coins.
-
-Now, we’ll look at another sort of attack: the censorship of transactions.
-
-With censorship, we can choose to ignore the transactions from an individual or group of individuals, isolating them from the network and effectively rendering their bitcoins useless.
-
-<h3>Censorship Attacks: Naive Censorship</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image261.png" style="width:5in;height:2.82384in" />
-
-Let’s say that Gloria is in charge of the Glorian nation, and has jurisdiction over all of the mining pools within its boundaries, which sums up to be over 51% of the Bitcoin network's hash power . Gloria doesn’t like me, so her goal is to censor all of my Bitcoin addresses and prevent me from spending any of my Bitcoin.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image262.png" style="width:5in;height:2.85528in" />
-
-The blocks in Gloria’s ideal blockchain will include none of my transactions.
-
-The most naive strategy is for Gloria to instruct all of her mining pools not to include my transactions, also known as blacklisting.
-
-However, unless Gloria’s mining pools have 100% of the entire networks hashpower, other miners outside of her jurisdiction will eventually include my transactions in a block.
-
-This doesn’t fully blacklist me, and only ends up causing delays and inconveniences, although those delays and inconveniences can become significant depending on how much hashpower
-
-Gloria has.
-
-<h3>Censorship Attacks: Punitive Forking</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image263.png" style="width:5in;height:2.82018in" />
-
-Let’s look at another strategy for Gloria.
-
-Remember that Gloria’s mining pools have over 51% of the network hashrate.
-
-She can say that all Glorian pools will refuse to work on a chain containing transactions spending from my address and announce this to the world.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image264.png" style="width:5in;height:2.80206in" />
-
-If miners include one of my transactions in a block, Gloria will fork and create a longer proof-of-work chain, which is possible only because she has the majority of the hashrate.
-
-The blocks containing my transactions are now invalid since they aren’t on the longest chain and will never be published.
-
-This also means that the miners on that chain will receive no mining rewards for their efforts.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image265.png" style="width:5in;height:2.85901in" />
-
-Non-Glorian miners will eventually stop including my transactions in their blocks since they know that their blocks won’t be part of the longest chain anway.
-
-They'll be invalidated by Glorian miners.
-
-This strategy is known as punitive forking, and can be very powerful in the hands of someone with a 51% majority hashrate.
-
-That entity can prevent anybody from accessing their funds.
-
-Censorship Attacks: Feather Forking
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image266.png" style="width:5in;height:2.8125in" />
-
-However, punitive forking doesn’t work unless Gloria has 51% of the hashpower, which is extremely difficult to achieve in reality. Is there another way? Unfortunately for me,
-
-Yeah...
-
-There is a strategy called feather forking, in which Gloria announces that she will attempt to fork if she sees a block with one of my transactions. But she will give up after a while.
-
-This is in contrast to punitive forking, since that only works if a longer chain is guaranteed by the fork. In short, Gloria gives up after a block with my transactions has k confirmations, where k is any number. In the diagram, Gloria sees a block containing one of my transactions and attempts to fork. However, I get 3 confirmations, so she gives up trying to continue her fork.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image267.png" style="width:5in;height:2.80724in" />
-
-Let’s look at a little bit of math. Let q be the proportion of mining power that Gloria has. Let k equal one, so that Gloria gives up after one confirmation on my block. This means that the chance of successfully orphaning my block is q squared, since Gloria has to compete with each confirmation. If q is 20%, then gloria has a 4% chance to orphan my block, which isn’t that great.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image268.png" style="width:5in;height:2.81572in" />
-
-However, other miners are now aware that their block has a q\^2, or 4% chance of being orphaned.
-
-They now have to decide whether they should include my transaction in their block. The expected value of including my transaction is the chance that my block is included times the block reward, plus the transaction fee that I pay. The expected value of not including my transaction is simply just the block reward, since all miners would be working on that chain.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image269.png" style="width:5in;height:2.82776in" />
-
-Therefore, looking at the math, unless I pay at least q\^2 times the block reward in transaction fees, other miners will mine on the malicious chain. As of April 17th 2018, that would be a \$4000 minimum tx fee, which is incredibly limiting. It’s very likely that I won’t be able to afford those transaction costs, so I won’t be even be able to send my transactions through. Thus, Gloria has succeeded in censoring my transactions with only 20% of the total hashrate.
-
-Intro: Selfish Mining
-
-It's important to consider how rational and malicious actors will behave to increase the amount of money that they make.
-
-Think back to the previous module, specifically the motivations for mining.
-
-If there’s a way for miners to maximize profit, assume that they will do so, even if it’s not totally fair to everyone else.
-
-One of the best examples of this sort of behavior is selfish mining.
-
-<h3>Selfish Mining Attacks</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image270.png" style="width:5in;height:2.77349in" />
-
-Let’s say that you’re a miner, and you just found a block.
-
-You want to give yourself an advantage over the rest of the network, so instead of publishing the block through the network and receiving the block reward, you keep your block a secret.
-
-Since you haven’t released your block, you’re effectively the only person working on the most recent block, and you effectively have 100% of the hashpower on your hidden chain.
-
-Nobody else on the network can even attempt to solve the hash puzzle.
-
-This is called selfish mining, or block withholding.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image271.png" style="width:5in;height:2.8113in" />
-
-Note that Block withholding is sometimes also used in the context of mining pools, where you submit shares but withhold blocks.
-
-If you find two blocks on your secret chain before the network finds the next one, you suddenly have the longest chain.
-
-The network believes it’s mining on the longest chain, but little does it know that you actually have the longest chain.
-
-You essentially fooled the network.
-
-You’ve guaranteed yourself at least two block rewards because you can just continue to mine on your own chain, assuming that you always stay ahead of the honest network’s chain.
-
-The moment the honest network is about to catch up to you, you can just publish your hidden chain, and then suddenly the honest chain is invalidated, since your chain is the longest, and as we already know, honest nodes in the network will always choose the longest chain.
-
-So, you can continue mining this way and continue cheating the system until the honest network catches up to you.
-
-You’ve guaranteed yourself more block reward than the honest network, and most importantly, you deny the honest network the chance to do any meaningful work because you have your own secret chain, and you can imimagestely invalidate the honest chain as soon as you publish your secret chain.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image272.png" style="width:5in;height:2.83226in" />
-
-Assuming you’re two blocks ahead of the honest network, if the honest network then finds a block, you broadcast your two secret blocks to claim your two block rewards and to keep the honest network from catching up.
-
-This makes the honest network’s block invalid, since the honest chain is now the shorter one.
-
-Because the honest network was mining on chain that was then invalidated, you effectively got time to mine by yourself, for free.
-
-Since you had no competition, you had a higher proportion of the effective hashrate, and therefore, a higher expected return.
-
-The key thing to note here is that you assume that you as a malicious miner can find two blocks faster than the rest of the network can find one block.
-
-If you can’t, then your computation is the one that goes to waste.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image273.png" style="width:5in;height:2.81617in" />
-
-What if the network finds a block before you find a second one?
-
-Then it becomes a race to propagate the new blocks.
-
-As it turns out, if you have the capability of telling 50% of the network about your block before the other party, as well as greater than 25% of the hashpower, then a malicious strategy is more profitable.
-
-If you have greater than 33% of the hashpower, you can lose the propagation race every time and the malicious strategy will still be more profitable!
-
-The math behind these results is omitted here due to complexity, but you’re more than encouraged to look into it!
-
-<h3>Intro: Defenses</h3>
-
-As malicious miners are incentivized by higher potential profits to attack or try to subvert the network, honest individuals are incentivized to prevent such behavior.
-
-There’s a constant struggle to try to patch up the Bitcoin ecosystem to prevent anything that would completely destroy Bitcoin.
-
-In this next section we’ll be taking a look at some of the defenses we have to counter selfish mining.
-
-We’ll first take a look at some of the more naive defenses, and see what we can improve from there.
-
-<h3>Block Validation</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image274.png" style="width:5in;height:2.83398in" />
-
-One of the earlier proposed solutions to solving selfish mining was to validate blocks using dummy blocks that hold metadata.
-
-This technique was proposed by Schultz in 2015, and later by Solat and Potop-Butucaru in 2016.
-
-The idea is that in addition to having regular blocks, we also create additional (dummy) blocks that contain signatures for that block.
-
-So, for any given block, it is easy to look at the corresponding dummy block to verify how many users have seen and signed off on that block.
-
-Blocks that are selfishly mined would only have been seen by the one withholding the blocks, and would not have sufficient signatures.
-
-This proves that an honest block is witnessed by the network, and also proves that a competing block is absent before miners are able to work on it.
-
-When a malicious actor that has been withholding blocks finally publishes their chain, all but the first block will be automatically rejected, since the first block would not have sufficient signatures.
-
-With this method, selfish miners can’t make more than their expected reward, which is just for one block.
-
-This invalidates a lot of the work they do to build the chain off of the first block they find.
-
-Therefore, block validation with this dummy block signature scheme disincentivizes selfish mining.
-
-One imimageste flaw that we can see is that this technique is vulnerable to Sybil attacks.
-
-There’s no way to guarantee that the signatures on a block all come from different users.
-
-And so the selfish miner could just generate as many fake signatures as needed to make it seem like the withheld blocks are valid.
-
-They can do this because as we know from before, it’s easy to generate new identities in Bitcoin.
-
-And furthermore, there’s no real way of determining how many signatures is enough to show that a block is valid.
-
-For example…
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image275.png" style="width:5in;height:2.82665in" />
-
-What order of magnitude is the threshold number of signatures?
-
-And would it have to change depending on the changing number of users within the network?
-
-These questions are all hard to answer but are important to this schemes implementation
-
-Also, no matter how many signatures are needed, a malicious user could still easily Sybil attack the system.
-
-So in the end the fact that there’s no good way of determining a signature volume threshold and the fact that it’s susceptible to a Sybil attack makes the entire defense useless.
-
-Furthermore, another downside to having dummy signature blocks is that their implementation would require fundamental changes to the already established block validity rules.
-
-Such a change would require a hard fork, which is undesirable.
-
-<h3>Fork Publishment</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image276.png" style="width:5in;height:2.80769in" />
-
-Another idea for a defense against selfish mining was fork-punishment, which was proposed by Lear Bahack in 2013.
-
-The fork-punishment rule is as it sounds: it punishes anyone who forks the blockchain.
-
-Any competing blocks receive no block reward, regardless of whether they were mined selfishly or honestly, and the first miner who proves that there was indeed a fork gets half of the forfeited rewards from the previous block height.
-
-This disincentivizes malicious users to attempt to fork the blockchain by working on their own secret chain, and also incentivizes honest miners to report any forks that they have seen.
-
-In the diagram below, we see that there’s a fork, the top being the honest chain and the bottom being the dishonest chain.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image277.png" style="width:5in;height:2.8141in" />
-
-Since two blocks are broadcast at the same block height, they are competing blocks and thus neither of them have an associated block reward.
-
-The first miner who proves that there was a fork, and includes this in the next block, gets the block reward for the block they just mined, as well as half of the block reward from the previous block height.
-
-One of the imimageste drawbacks is that because we punish all competing blocks, honest miners suffer collateral damage from fork-punishment.
-
-And the fact that we’re punishing honest miners constitutes a different kind of attack Fork-punishment also suffers from the fact that we would have to fundamentally change Bitcoin’s reward distribution rules.
-
-We’d have to have some way of changing the coinbase transactions of blocks where there was a fork.
-
-To do this and also to forward half of the block reward to the next block, we’d have to leverage a concept called transaction malleability, which is out of scope for this course.
-
-And in the end, fork punishment would require a hard fork to implement, and as before, that’s pretty undesirable.
-
-<h3>Uniform Tie-Breaking</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image278.png" style="width:5in;height:2.79948in" />
-
-Instead of punishing everyone whenever there’s a fork, like in fork punishment, is there another way?
-
-Perhaps we can instead prevent the block propagation race, and consider each submitted block at each block height.
-
-For this, we can use uniform tie-breaking, which was an idea proposed by Eyal and Sirer in 2014.
-
-When we have a race to propagate, the miner who has a network advantage is more likely to get their block accepted into the longest chain.
-
-This is because they are better connected in the Bitcoin network and are able to get their block out to more people.
-
-We can use uniform tie-breaking to protect against selfish miners who have a network advantage.
-
-After each block is published, instead of taking the first seen block as valid, since this might be a block from a well-connected selfish miner, each miner first waits to hear about all competing blocks.
-
-In the case of a tie, where a miner sees multiple blocks at the same block height, the miner randomly chooses which chain to mine on.
-
-By randomly choosing which chain to mine on, miners mitigate an attacker’s network-level dominance.
-
-Eyal and Sirer found that the default Bitcoin protocol has a profit threshold of 0% if there exist selfish miners that are really well connected in the network and can thus influence the way data flows through the network.
-
-This would then mean that for Bitcoin to be entirely secure, 100% of the network has to be honest.
-
-In their paper, with their proposed uniform tie-breaking, they claimed that it raised the profit threshold for selfish mining to 25%.
-
-However, later in 2015, a separate paper published by Sapirshtein proposed a more optimal selfish mining strategy that reduced the profit threshold down to 23.2%.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image279.png" style="width:5in;height:2.80566in" />
-
-A 25% profit threshold using uniform tie-breaking is pretty bad, considering that selfish mining is always profitable when you have 33% of the mining power.
-
-Even more shocking is when we compare this to our original design for Bitcoin, which was supposed to be tolerant of up to 50% malicious miners.
-
-How do we improve 25%?
-
-In 2014, Ethan Heilman proposed a defense of selfish mining using timestamps.
-
-The idea is that timestamps would be issued by a trusted party and incorporated into every block by miners.
-
-Timestamps would be global across the entire Bitcoin network, and would be issued regularly, say every 60 seconds.
-
-They also would be publically accessible, but unforgeable because we’d use cryptographic signatures.
-
-Blocks are considered in competition if they are received roughly within the same timeframe, say 120 seconds of each other, and when the situations arises when there is competition between blocks, then miners simply will pick the block whose timestamp is fresher, or the most recent.
-
-In the paper, it says that the profit threshold for selfish miners using this method of unforeable timestamps goes up to 32%, a solid improvement from the 25% we saw with uniform tie-breaking.
-
-As it turns out, selfish miners can easily break this defense.
-
-Tie-breaking rules only apply when there’s a block propagation race, NOT when the selfish mining chain is longer than the public chain.
-
-And as it turns out, it has been shown that if an attacker has a large amount of computational power, say greater than 40%, then these tie-breaking defenses against selfish mining are essentially worthless.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image280.png" style="width:5in;height:2.83959in" />
-
-As you can see in the diagram on the bottom, a selfish miner can still invalidate the honest chain if they have the longest chain.
-
-Miners will pick the longest chain, since it has the most work done on it, and will weight this more than the fact that a block in the honest chain is “fresher”, or more recent.
-
-And another thing you might have realized is that this defense requires a trusted third party to distribute timestamps to everyone.
-
-The drawback here is that Bitcoin aims to be as decentralized as possible, and while this might work with other systems, centralization certainly doesn’t mix with Bitcoin’s philosophy.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image281.png" style="width:5in;height:2.82268in" />
-
-So, we’ll skip this for now.
-
-<h3>Publish or Perish: Overview</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image282.png" style="width:5in;height:2.86458in" />
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image283.png" style="width:5in;height:2.80206in" />
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image284.png" style="width:5in;height:2.80645in" />
-
-Now we get into one of the more recent developments in selfish mining defenses.
-
-This one is called Publish or Perish, and was published by Zhang and Prenell in 2017.
-
-Previous defenses we’ve seen had many flaws, such as requiring a hard fork – for example in fork punishment – or not disincentivizing selfish mining when the selfish miner has a longer chain – for example in unforgeable timestamps.
-
-Publish or perish claims to be the best – yet defense of selfish mining, and addresses all these previous issues.
-
-It doesn’t require a hard fork, which means that it’s backwards compatible with the old chain, and it also disincentivized selfish mining even when the selfish miner has a longer chain.
-
-The idea of selfish mining boils down to maliciously building a secret block, and the publishing that off into a chain.
-
-Publish or perish’s main goal was to make sure that secret blocks do not help selfish miners at all.
-
-To do this, Publish or perish’s approach focuses on amending Bitcoin’s Fork Resolving Policy, or FRP.
-
-By default, we know that miners choose the longest chain to be valid, so for Bitcoin, we say that it has a length FRP. Publish or perish’s insight was to switch from length to weight as a heuristic for the fork resolving policy.
-
-Instead of just counting the length of chains, we also consider weight, which is roughly making it disadvantageous to withhold blocks.
-
-There’s a lot of terminology and formal definitions, so we’ll be going into that first.
-
-We define Tau as assumed upper bound on the time it takes to propagate blocks across the Bitcoin network.
-
-And from a miner’s perspective, the term in time means that for a valid receiving block, either (1) it height value is greater than that of the local head, or (2) its height value is the same as that of the local head, but was propagated within tau time.
-
-The bottom diagrams illustrate the two possible requirements for a block to be in time.
-
-On the left side, a block is received withing tau time, so that block is in competition with the current head.
-
-On the right side, the block received has a height value that’s one greater than the local head, so we just append it to the blockchain.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Publish or Perish: Zang and Preneel ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image285.png "Publish or Perish: Zang and Preneel" style="width:5in;height:2.8in" />
-&nbsp;
-
-The term uncle refers to an in-time block that competes with a block parent – the parent being the previous block to the current.
-
-To formalize, the uncle of a block B is one less the height of B. Makes sense because the uncle of B has to be at the same height as B’s parent.
-
-And for the uncle of B to be in time, it must be within tau time of B’s parent.
-
-The diagram on the right side nicely summarized the definition of an uncle block.
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------- Publish or Perish: Weighted Fork Resolving Policy ------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image286.png "Publish or Perish: Weighted Fork Resolving Policy" style="width:5in;height:2.8in" />
-&nbsp;
-
-We have our child block B, and previous to that, we have its parent A. At the same block height to A, we have blocks C and D. Block C is an uncle to B because it is within tau time of B’s parent, A. Block D on the other hand is not an uncle to B because while it has the correct height – one less the height of B – it was not seen in tau time of B’s parent, A. So it’s not an uncle.
-
-The weight of a chain – from a miner’s perspective – is the number of its in time blocks plus the number of in time uncle blocks. And to make sure we have valid in time blocks and in time uncles, we make miners embed Hashes of the blocks that count toward blocks weight.
-
-That way, others can easily verify the blocks weight.
-
-And again, we say everything from a miner’s perspective because whether a block in time is evaluated from the miner’s local perspective.
-
-And we calculate the weight of a chain starting from the block after its root, since competing chains always have a shared root.
-
-For example, in the diagram on the right hand side, all three of these chains are rooted block R.
-
-Having defined weight, you can kinda see how miners are disincentivized from withholding blocks.
-
-If you withhold blocks, then your blocks won’t be in time, and so they’ll have less weight.
-
-With all these definitions, we can now specify the weighted fork resolving policy.
-
-It has three main rules.
-
-If one chain is longer height-wise than the other(s) by k or greater blocks, then miners will mine on this chain.
-
-If a chain is longer than the others by k blocks, we can probably trust it to be a valid chain.
-
-This kind of inherits the notion of an honest majority from the default Bitcoin length FRP. If a chain is longer than other chains by k blocks and its malicious, then we have a bigger problem on our hands; everything’s broken so we should just stop using Bitcoin since someone probably owns a majority of a network hash power.
-
-If all chains are within k blocks height of each other, then the miner will choose to mine on the chain with the largest weight.
-
-If the largest weight is achieved by multiple chains simultaneously, the the miner chooses one among them randomly.
-
-One note is that in the first rule k is a failsafe parameter that gauges the allowed amount of network partition.
-
-If we set k to infinite, then the rule never applies.
-
-So now that we’ve spent all this time defining all these terms and procedures, let’s look at how publish or perish actually disincentivizes selfish mining.
-
-Here’s the general scenario.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ Publish or Perish: Selfish Miners ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image287.png "Publish or Perish: Selfish Miners" style="width:5in;height:2.8in" />
-&nbsp;
-
-Say that a selfish miner has already secretly mined one block. Before they can mine a second block, the honest network publishes a competing block. There’s now a block propagation race. At his point in time, the selfish miner has two options: option 1, to publish, or option 2, not to publish.
-
-If the selfish miner publishes their block, the next honest block would gain a higher weight because it could embed a proof of having seen its uncle.
-
-On the other hand, publishing a block would ensure that it would contribute to the weight of the selfish chain, since it’s in time. So, the selfish miner’s block gets a weight of 1, but also contributes to the weight of the honest chain.
-
-On the other hand, if the selfish miner keeps their block secret and misses the time window for being in time, then the secret block would not contribute to the weight of its own chain. So, the selfish miner’s block gets a weight of 0, but since the honest network wouldn’t have seen this secret block either, it wouldn’t contribute to the weight of the honest chain.
-
-The key takeway is that no matter which option the selfish miner chooses in the end, neither option gives weight to the selfish chain that is not also given to the honest chain.
-
-<h3>Publish or Perish: Analysis</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Publish or Perish: Analysis ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image288.png "Publish or Perish: Analysis" style="width:5in;height:2.8in" />
-&nbsp;
-
-For a bit more clarity, let’s take a more rigorous approach to our analysis of the previous scenario.
-
-In the diagram on the bottom, the dark circles represent blocks that are found by the selfish miner, and the dark triangles represent blocks are found by honest miners.
-
-The circle and triangle outlines represent a count in the weight of the selfish and honest chains, respectively, and as always, blocks are mined from left to right.
-
-So imagine at this point in time, as before, the selfish miner has one block, let’s call it S, and the honest network just published a competitor to S.
-
-In option 1, the selfish miner chooses to publish S. Since S is published within tau time of the honest competitor, it counts into the weight of the selfish chain.
-
-However, since S then becomes an uncle to the next honest block, it also counts into the weight of the honest chain.
-
-So, S counts into the weight of both the honest and selfish chains.
-
-Fast forward to the point in time where we the have diagram below, both the honest and selfish chains have a weight of 3 despite the fact that there are only two honest blocks but three selfishly mined blocks
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Publish or Perish: Option 2 ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image289.png "Publish or Perish: Option 2" style="width:5in;height:2.8in" />
-&nbsp;
-
-In option 2, the selfish miner doesn’t publish S, and instead chooses to wait, and publish later on as part of the selfish chain.
-
-Since S is published late -- as in not within tau time -- it would not contribute to the weight of the selfish chain.
-
-And also it wouldn't an uncle of the next honest block, so S doesn’t contribute to the weight of the honest chain either.
-
-In option 2, S contributes to neither the weight of the honest nor the selfish chain.
-
-If we have scenario depicted in the diagram below, both the honest and selfish chains have a weight of 2, despite there being three selfishly minedblocks and only two honestly mined blocks.
-
-The result is that regardless of which option the selfish miner chooses, S will NOT contribute to only the weight of the selfish chain.
-
-It will only contribute to both or neither.
-
-This completely nullifies the advantage of having S in the first place.
-
-Here are a couple graphs on the expected revenue of selfish miners when publish or perish is in effect.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Publish or Perish: Graphs ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image290.png "Publish or Perish: Graphs" style="width:5in;height:2.8in" />
-&nbsp;
-
-On the left side, we have a graph of selfish miners’ profit, given that certain defenses are in place.
-
-Particularly notable is the performance of publish or perish in comparison to optimal tie breaking.
-
-Optimal tie breaking is the theoretical optimal defense that always rejects selfish blocks whenever there’s a tie, with 100% accuracy.
-
-Notice that publish or perish even outperforms this theoretical optimal tie breaking defense.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Publish or Perish: Limitations -------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image291.png "Publish or Perish: Limitations" style="width:5in;height:2.8in" />
-&nbsp;
-
-On the right side, we have revenue given different values of k, which again is the threshold number of blocks ahead a chain has to be in order for miners to just automatically choose to mine on that one.
-
-As it turns out, the higher the value of k, the less revenue selfish miners will make.
-
-Revenue is the lowest when we set k to infinity, at which point miners will always look to mine on the chain with the most weight.
-
-One important note is that there’s still a big gap between the ideal expected profits, which is linear in the amount of mining power one has, and even the lowest revenue publish or perish scheme at k = infinity.
-
-So as good as publish or perish says it is, it still doesn’t reach Bitcoin’s intended goal of having hash power being directly proportional to mining reward.
-
-As it stands, selfish mining is still an effective way to gain more profit, given that you have a significant amount of hash power, but with publish or perish it’s more difficult to pull off.
-
-Publish or perish actually has a lot of limitations too.
-
-First off, it assumes synchrony, and Bitcoin is asynchronous.
-
-It’s not useful to define an upper bound on block propagation time because you can never be sure if all the blocks at a certain block height have been delivered or not.
-
-This is something inherent in large distributed systems like Bitcoin, and we’ll be exploring this in detail in our second course.
-
-For example, for any fail-safe parameter k \> 1, an attacker could broadcast their blocks right before they are late.
-
-This would cause inconsistent views among honest miners, since some would see the blocks as in time, and some would see them as late, depending on how long it took these blocks to propagate across the network.
-
-It’s not just publish or perish though.
-
-For all defenses or upgrades or proposals that assume Bitcoin is synchronous, everything just falls apart, because you can’t realistically make these assumptions about the network, especially since Bitcoin is publish and open to anyone.
-
-Also, since publish or perish would be rolled out as a software update to bitcoin miners, not all miners would update their software at the same time.
-
-During the transition period from Bitcoin’s default length FRP to the weighted FRP, attackers could potentially leverage the situation and launch double-spend attacks on confused users.
-
-Another limitation of publish or perish is that it neglects some real world factors.
-
-Due to network latency, there are often naturally occurring forks, but there are not permitted in this model.
-
-It doesn’t consider transaction fees as an additional incentive on top of block rewards.
-
-And it also doesn’t consider when there are multiple selfish miners, and how they would interact with each other and with the rest of the network.
-
-In the end, publish or perish doesn’t achieve true incentive compatibility.
-
-However, analyzing publish or perish and all the other works we’ve looked through is a very good start in designing better defenses for Bitcoin.
-
-Maybe porting over publish or perish into an asynchronous model is a good direction for how we can approach defending against selfish miners.
-
-<h3>The Bitcoin Network</h3>
-
-Taking a step back from analyzing individual defenses, it’s important to understand the actual Bitcoin network itself.
-
-After all, as we saw with publish or perish, which sounded really awesome in theory, it ultimately fails to work in practice due to assumptions about certain properties about the Bitcoin network -- particularly that of synchrony.
-
-So first off, the Bitcoin network is peer to peer, and there’s no central entity sending and receiving messages for us.
-
-The way that messages get sent around the network is through a gossip protocol, which also called flooding.
-
-If i wanted to send out a transaction I have to tell all the nodes I’m connected to, which we call my neighbors.
-
-All my neighbors tell their neighbors, and their neighbors tell their neighbors, and so on.
-
-For example, if the network actually looked like this…
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Bitcoin Network: A Closer Look -------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image292.png "Bitcoin Network: A Closer LOok" style="width:5in;height:2.8in" />
-&nbsp;
-
-...and I wanted to send a message to Nick…...I would tell my neighbors Derrick and Gloria.
-
-Derrick and Gloria would then tell their neighbors, and thankfully Derrick is connected to Nick, so Nick gets my message.
-
-Also, one note is that as we discussed in the Bitcoin mechanics module, my message would be digitally signed.
-
-The way you get connected and join the Bitcoin network in the first place is by a recursive procedure.
-
-Hardcoded into the Bitcoin core software is a list of seed peers that you connect to initially.
-
-You ask these seed nodes for their neighbors, pick some, ask these nodes for their neighbors, and repeat this until you think you have a fairly random set of connections.
-
-Bitcoin allows each node to have a maximum of 125 connections, and generally you have 8 outbound connections and 117 inbound connections.
-
-To further understand how information propagates through the Bitcoin network, we have to understand the network topology and latency.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Network: An Uneven Topology ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image293.png "Bitcoin Network: An Uneven Topology" style="width:5in;height:2.8in" />
-&nbsp;
-
-Network topology means how the Bitcoin network looks like if you were to graph it out like we’ve been doing with circles -- for individual nodes -- and lines -- for connections between nodes.
-
-In Bitcoin, we want an even topology.
-
-We want each node to have roughly the same weight, mining power in our case, have random connections, and look fairly uniform.
-
-But this isn’t really the case.
-
-As we know, there’s a huge difference in mining power node to node.
-
-This means that some nodes are more influential than others.
-
-Is the Bitcoin network truly as decentralized and distributed as we thought?
-
-Nope.
-
-Let’s say Derrick has an incredibly high hash rate…
-
-It could be that he’s running a mining farm or pool.
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Network: Uneven Influences ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image294.png "Bitcoin Network: Uneven Influences" style="width:5in;height:2.8in" />
-&nbsp;
-
-We can’t really tell, since mining farms and pools sometimes want to remain secret so people don’t attack them.
-
-Derrick is arguably more influential than other nodes in the network.
-
-Compare his hash power with someone who’s just an SPV node hanging out in the network, or a node that’s just a solo miner.
-
-Derrick’s pool a lot more hash power than any of these.
-
-And there’s no easy way of determining the network topology.
-
-If Derrick is running a mining pool, his miners don’t have to be directly connected on the Bitcoin network at all.
-
-They could just be connecting to Derrick’s node directly through some lightweight protocol.
-
-So all of Derrick’s miners form a secret subgraph essentially.
-
-And it turns out that due to this hidden graph topology, and the fact that Derrick could be multiple nodes on the network, possibly running multiple pools, Derrick could potentially hide the fact that he has more than 50% of the network hash power.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Network: An Uneven Topology (3) -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image295.png "Bitcoin Network: An Uneven Topology (3)" style="width:5in;height:2.8in" />
-&nbsp;
-
-And scarier yet, Derrick doesn’t even need 50% of the network hash power.
-
-As we saw with the attacks and defenses previously, Bitcoin suffers from some incentive alignment problems, especially in the case of selfish mining.
-
-As it turns out, the Bitcoin network could be in jeopardy if Derrick’s pool -- or pools -- had 33% of the network hash rate.
-
-Or 25%... or 23.2%....or 32%....
-
-Perhaps there’s an attack or selfish mining scheme that hasn’t been discovered yet that lowers the profit threshold even lower.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------- Bitcoin Network: Different Propogation Times ------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image296.png "Bitcoin Network: Different Propogation Times" style="width:5in;height:2.8in" />
-&nbsp;
-
-In addition to network topology, we also have to worry about the network latency.
-
-As we saw in publish or perish, a selfish miner could publish his secret blocks right before it’s too late.
-
-Some nodes would see it as in time, and others would see it as late.
-
-And that’s a pretty good example for how network latency is an issue here.
-
-Also, consider the case where two miners find a valid block at the same time.
-
-There’s a race to propagate like before, and the miner who is better connected in the network and has a faster propagation time would ultimately win.
-
-This leads to disproportionate profits in miners.
-
-Miners who are better connected in the network see things faster and are able to send out messages and blocks faster too.
-
-Meanwhile, it’s possible that a poorly connected miner could spend all this time finding a block, and when it finally finds one, its propagation time could be so slow due to network latency that within that time, another miner would have already found and submitted a competing block to a majority of the network.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image297.png "Bitcoin Network: Sybil Attack Revisited" style="width:5in;height:2.8in" />
-&nbsp;
-
-And now for something even bigger.
-
-Think back to the first module, where we discussed Sybil attacks and how it’s not beneficial to have more identities because in Proof-of-Work, we make computational power the limiting factor.
-
-Well, if we’re clever enough, we can launch a Sybil attack in another kind of way, leveraging what we just went over: network topology and latency.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------- Bitcoin Network: Flood the Network ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image298.png "Bitcoin Network: Flood the Network" style="width:5in;height:2.8in" />
-&nbsp;
-
-Let’s say Derrick has the ability to flood the network with nodes.
-
-These could either be his miners, or if he’s clever enough, he could even write malware that make victims’ computers act like 0-power nodes -- just sitting there listening to the Bitcoin network, and relaying information back to Derrick.
-
-They’d act like sensors.
-
-Derrick could sybil attack honest miners by leveraging his network level dominance.
-
-Let’s say Derrick is also selfish mining, and already has some secret blocks, which are distributed to all of his 0-power nodes.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Network: Flood the Network (2)---------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image299.png "Bitcoin Network: Flood the Network (2)" style="width:5in;height:2.8in" />
-&nbsp;
-
-When Derricks nodes hear about the next honest block X, Derrick could ignore X, and publish his secret block P.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Bitcoin Network: Flood the Network (3) --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image300.png "Bitcoin Network: Flood the Network (3)" style="width:5in;height:2.8in" />
-&nbsp;
-
-If block P reaches a miner before block X, then the miner by default mines on block P.
-
-In this attack, Derrick leverages both the network latency and topology.
-
-Derrick is well connected and has less latency, and is able to propagate his secret block P faster than if he only had control of one node.
-
-He also has unique ownership of the network topology, since he owns a lot of nodes around the network, and also since he has a large proportion of the network mining power.
-
-As a closing note, know that outside of what we presented in this module, there are a lot more attacks and defenses, such as eclipse attacks and stubborn mining, which take into account network latency, topology, and more.
-
-<h3>Text: Lecture 5 Summary</h3>
-
-Author: Rea Savla 
-
-<h3>I. Pool Strategies</h3>
-
-<h3>I.I Pool Hopping</h3>
-
-Miners can maximize profits via pool hopping. This occurs when miners switch between Pay-per-Share and Proportional scheme mining pools to whichever payment protocol produces a higher rewards per additional share. In this scenario, honest and loyal pool miners will be cheated out of their profits by miners who pool hop and cause inconsistency in the pool’s hash rate.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- Reward Per Share for Pay-Per-Share & Proportional Pools ------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image301.png "Reward Per Share for Pay-Per-Share & Proportional Pools" style="width:5in;height:3.9in" />
-&nbsp;
-
-<h3>I.II Pool Cannibalization</h3>
-
-In this attack, pool miners distribute a small percent of mining power equally among other pools, without ever submitting valid blocks. In doing so, we increase personal profits to the detriment of our mining pools. Pool Cannibalization is very difficult to detect, unless statistically significant. Since it is more profitable to be dishonest than honest, miners are incentivized to spend mining power cannibalizing each other rather than increasing the useful hashrate for finding the next valid block.
-
-If we model the choice between attacking and not attacking the Bitcoin network using game theory, we see that the dominant strategy is for each miner to attack the network, leading to the ultimate detriment of Bitcoin.
-
-<!------------------------------------------------------------------------------------------------>
-<!--- Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2 --->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image302.png "Table demonstrating the results of attacking and not attacking between Pool 1 and Pool 2" style="width:6.5in;height:1.36597in" />
-&nbsp;
-
-In this situation, the Nash Equilibrium, or the position from which no actor can change their position to improve their outcome, is also known as the Tragedy of the Commons,where each individual actor finds it individually beneficial to exploit the public good, leading to the ultimate deterioration of the public good.
-
-<h3>II. The Double Spend Attack</h3>
-
-The double spend attack occurs when an individual successfully spends the same value more than once. You can double spend via race attack:
-
-The Race Attack occurs when you trick someone into thinking the transaction is complete before the transaction even enters a block.
-
-While you can show your victim a valid transaction, you can also send into the network a conflicting transaction that sends bitcoins from that same UTXO to an account you control, and incentivize miners to include this conflicting transaction instead of the first transaction by offering a higher transaction fee. In other words, you “race” with the conflicting transaction \\to get included in the longest chain.
-
-The Race Attack occurs when you trick someone into thinking the transaction is complete before the transaction even enters a block.
-
-While you can show your victim a valid transaction, you can also send into the network a conflicting transaction that sends bitcoins from that same UTXO to an account you control, and incentivize miners to include this conflicting transaction instead of the first transaction by offering a higher transaction fee. In other words, you “race” with the conflicting transaction \\to get included in the longest chain. 
-
-To protect against this type of attack, the victim should wait for kconfirmations, kblocks built off of some particular block. In practice, kequals 6. If you still want to double spend, you must create a longer private chain with the same UTXO. If the victim waits kconfirmations, you must mine k+1blocks upon your private chain and then publish your private chain to the network, since no one else can see it when it is private, to complete the Double Spend Attack. Using the following graph, we can see that if you have over 50 percent of the hashing power, the probability that you will eventually get a longer chain than the honest chain is 100 percent, and you will thus successfully conduct a race attack.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- Reward Per Share for Pay-Per-Share & Proportional Pools ------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image303.png "Graph demonstrating the relationship between chains and their lengths" style="width:4in;height:2.8in" />
-&nbsp;
-
-<h3>III. The 51 Percent Attack</h3>
-
-If you, the attacker, have any more than 50 percent of network hashrate, then you will always be able to double spend because you will always be able to create the longest chain, and since you would be in full control of which blocks are included within that chain. Since individuals on the network would just leave the network when they see a 51 percent attack, and subsequently devalue bitcoin, conducting such an attack is too risky.
-
-<h3>IV. The Goldfinger Attack</h3>
-
-The Goldfinger Attack allows attackers to still profit off of the destruction of Bitcoin. Attackers can “short,” or place a bet on the devaluation of bitcoin.
-
-<h3>V. Censorship</h3>
-
-In addition to attacking Bitcoin by leveraging hashpower, you can also attack the network via censorship. With censorship, we can choose to ignore the transactions from an individual or group of individuals, isolating them from the network and effectively rendering their bitcoins useless.
-
-A mining pool with more than 51 percent of the network hashrate can decide not to work on a chain containing transactions spending from a particular address. Other miners will see that if they include a transaction with that address, their block will not be included in the chain, since the mining pool with the majority hashrate can fork and create a longer proof-of-work chain. Therefore, they will be incentivized to exclude the transactions with that address from their chain. This is called punitive forking.  
-
-Even without 51 percent of the network hashrate, you can censor another address’ transactions using feather forking. In feather forking, the attacker announces they will attempt to fork if they see a block with a certain address’ transactions, but will give up after kconfirmations. Even though the attacker has a low chance of orphaning, or excluding, that block, miners will ignore blocks with the given address. This happens because miners are incentivized primarily by the profit they expect to earn from mining a particular block. Even if there is a small chance of the attacker forking a block with the given address, the math works out such that the expected profit of ignoring that transaction will exceed that of including it. Thus the victim has to pay a much higher transaction fee to incentivize miners to include their transaction.
-
-<h3>VI. Selfish Mining</h3>
-
-Upon being the first to find a valid block, you can withhold that block from the network and continue to work on it privately. If you find two blocks on your secret chain before the network finds the next one, then you suddenly have the longest chain. This means you get at least two block rewards and you have fooled the network into working on an honest chain that you will render useless. You can keep doing this and submit your longer, secret chain to the network right before you think the network is going to catch up to you. This is selfish mining.
-
-<h3>VII. Defense</h3>
-
- We discussed several theorized defenses to selfish mining including
-
-[Block Validation Using Time Signatures Opens in new window](https://arxiv.org/abs/1605.02435), proposed by Schultz (2015) and Solat and Potop-Butucaru (2016)
-
-[Fork-punishment rule Opens in new window](https://arxiv.org/pdf/1312.7013.pdf), proposed by Lear Bahack (2013)
-
-[Uniform Tie-Breaking Rule Opens in new window](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf), proposed Eyal and Sirer (2014)
-
-[Publish or Perish Opens in new window](https://www.esat.kuleuven.be/cosic/publications/article-2746.pdf), proposed by Zhang and Preneel (2017).
-
-However, according to Vitalik Buterin, "in practice, most Bitcoin miners act altruistically to support the network, both out of ideological considerations and because they do not want to destabilize the source of their own revenue. Such higher-level economic concerns are beyond the scope of Eyal and Sirer’s paper, but they seriously reduce the chance that this economic attack will work in practice" ([Bitcoin Magazine Opens in new window](https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440/), 2013).
-
-<h3>VIII. The Bitcoin Network</h3>
-
-In addition to individual attacks, the architecture of the Bitcoin network itself contains vulnerabilities. The Bitcoin protocol is P2P, in which messages get sent via a gossip protocol, where each node passes a message to its connected nodes. Though we would like an even topology, this is not the case. Nodes with higher hashrate, perhaps from running mining pools, may have miners connected to them directly on a lightweight protocol, or a secret subgraph. Due to this hidden graph topology, a user could potentially hide that it has more than 50% of the network hash power.
-
-In addition to network topology, network latency also poses as an issue. Nodes that are better connected to the network see things faster and can send out messages and blocks to the network more quickly. This leads to disproportionate profits in miners.
-
-<h3>Readings</h3>
-
-[Selfish Mining: A 25% Attack Against the Bitcoin Network Opens in new window](https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440/)
-
-["Ethereum Whitepaper up to "Miscellanea And Concerns" ](https://github.com/ethereum/wiki/wiki/White-Paper)
-
-**Chapter 6: Ethereum & Smart Contracts: Enabling a Decentralized Future**
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Bitcoin Network: Sybil Attack Revisited --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img width="50%" src="/images/image-lecture-overview-mod-6.png" 
-   alt="Culmination of the last 5 modules" 
-</p>
-
-This module will be the culmination of the last 5 modules.
-
-From here, you will have fully understood all the tenets of how we build a blockchain system, from the conceptual level to the implementation.
-
-Our first module examined the basics of Bitcoin, building it from the ground up with ***<u>four</u>*** key components: ***identity, transactions, record-keeping, and consensus.***
-
-WIth this high level understanding of Bitcoin, you learned the motivations for Bitcoin’s design, how Bitcoin provides a previously centralized service in a decentralized manner, and were then able to explain Bitcoin in simple terms.
-
-In our second module, we took a step back to look at Bitcoin and blockchain’s historical context, to get a sense for libertarian ideals and the Cypherpunk movement, why blockchains are designed as they are, and the path that current efforts are taking us now.
-
-We then dove into the technical implementation of Bitcoin in our third module, which used tools such as cryptographic hash functions, tamper evident data structures, the elliptic curve digital signature algorithm, and Bitcoin Script.
-
-Through this lecture, you saw features of Bitcoin, such as Merkle trees and nonces, implementing every concept from Module 1.
-
-In the fourth module, we stepped out of the world of hypotheticals and theory and looked at how all these concepts played out in real life.
-
-We examined all the various types of users of Bitcoin and discussed tools to interact with the network, such as wallets and various categories of nodes.
-
-The lecture brought Bitcoin to life, allowing you to decide for yourself how well Satoshi Nakamoto met their mission with Bitcoin.
-
-And then finally, last module, we looked at the vulnerabilities of Bitcoin from a game theoretical standpoint.
-
-Recognizing the costs and implications of both malicious Proof-of-Work attacks, and that of network latency and topology, we saw for ourselves Bitcoin’s imperfections.
-
-By completing these 5 lectures, you have now completed your understanding of Bitcoin fundamentals.
-
-This is only the beginning of your blockchain knowledge.
-
-With these accumulated sets of knowledge, we are now going to take you from Bitcoin-centric material into a new frame of blockchain thinking, leveraging all the blockchain knowledge you accumulated while learning about Bitcoin.
-
-In this module, we’ll be looking at Ethereum and blockchain use cases.
-
-<h3>Intro: Smart Contracts</h3>
-
-In the past, we talked about how Bitcoin enabled users to conduct transactions that were decentralized and trustless.
-
-A more general case of this is the execution of arbitrary computations on the blockchain, and that’s exactly what smart contracts enable us to do in Ethereum.
-
-We’ve mentioned this before very briefly, saying that Ethereum allows the creation of decentralized apps, otherwise known as dapps.
-
-In this section, we’ll take a look at what smart contracts are at a high level, and why we might want them.
-
-Then, we’ll look at what we need in a framework that allows us to run smart contracts.
-
-As we did with Bitcoin, we’ll first look at the high level features that we want to see in Ethereum -- mainly the support of smart contracts -- and then see how they’re implemented at a lower level.
-
-<h3>Bitcoin Review</h3>
-<!----done & done ----->
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- What makes Bitcoin so special? --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<p align="center" width="100%">
-<img src="/images/image304.jpg" 
-	width="50%"
-	alt="What makes Bitcoin so special?" />
-</p>
-
-First, we have to consider what makes Bitcoin so special.
-
-Understanding what Bitcoin has to offer allows us better to understand Ethereum’s own value proposition as a smart contract platform.
-
-Remember in module 1, we built Bitcoin from the ground up, and emphasized the importance of ***<u>four</u>*** key components: ***identity, transactions, record keeping,*** and ***consensus.***
-
-And it’s the careful design and combination of these components that really differentiated Bitcoin from anything else at the time.
-
-It turns out that these ideas are much more fundamental than Bitcoin itself, and will help us understand the key components of Ethereum.
-
-So let’s take some time to review some of what makes Bitcoin so special.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image305.png" 
-	width="50%"
-	alt="Bitcoin From the Ground Up: Identity" />
-</p>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------- A Distributed Network: Bitcoin Bare Bones --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image306.png" 
-	width="50%"
-	alt="A Distributed Network: Bitcoin Bare Bones" />
-</p>
-
-First off, when we built Bitcoin from the ground up, we first emphasized the importance of identity: especially in order to enable authentication and integrity.
-
-We want everyone to control a unique identity, and we also wanted Bitcoin to be pseudonymous.
-
-We used ECDSA, the elliptic curve digital signature signature algorithm.
-
-Bonus points to anyone who remembers the specific name of the curve.
-
-Users generate their private key at random, or through some hard to guess manner such as a hashed and key stretched brain wallet mnemonic.
-
-And then they use one way functions to generate a public-facing address.
-
-Also remember that Bitcoin is secure since all the numbers we’re dealing with are massive.
-
-Think back to the grains of sand on earth example in module 1.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- Bitcoin from the ground up: Transactions -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image307.png" 
-	width="50%" 
-	alt="Bitcoin from the ground up: Transactions" />
-
-Of course, the main idea of Bitcoin was to be able to send transactions between users, so naturally, we have a way to do this.
-
-However, the way we did this with Bitcoin was with UTXOs, which might’ve been not that intuitive at first.
-
-UTXOs made it easier to enable higher degrees of privacy, for example, if you sent all your change UTXOs to different addresses under your control.
-
-On the other hand, to calculate your entire balance in bitcoin, you would have to sum up all your UTXOs.
-
-You’d also potentially have to reference more than one UTXO when making a transaction, and in some cases this isn’t that desirable.
-
-Still, implementing UTXOs was the innovation that enabled transactions in Bitcoin, and it works well despite the tradeoffs it makes.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image308.png" style="width:5in;height:2.83505in" />
-
-Next, of course, we have the blockchain: the famous data structure that enables record keeping in the network.
-
-Every full node in the network has a copy of the blockchain.
-
-We did this to avoid centralization of power: to avoid having a central bank, we made everyone the bank.
-
-And the blockchain is constructed in a tamper evident manner too.
-
-Each block in the blockchain refers to the hash of the previous block’s header.
-
-And also, within each block, we construct a merkle root, which is a tamper evident “summary” of all the transactions in that block.
-
-Any time a previous transaction is altered in the blockchain that changes the transaction’s hash, which bubbles up to change the merkle root, which then changes the block header hash.
-
-This then invalidates the block, since all blocks refer to the previous block hash
-
-With the blockchain, we have an efficient way to not only store data, but also to make sure that the data is tamper evident: and this is crucial especially since we’re deploying this for the public, where we can’t expect everyone to be honest.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image310.png" style="width:5in;height:2.80284in" />
-
-And finally, we have Proof-of-Work consensus.
-
-Nodes on the Bitcoin network needed a way to come to consensus on updates to the blockchain, so we implemented a voting system.
-
-However, it wasn’t as easy as assigning each user a single vote, since it’s so easy to generate new identities.
-
-We saw the need to assign weights to our votes.
-
-The innovation here was to have everyone solve a cryptographic hash puzzle, incentivized by block reward.
-
-And whoever solved the cryptographic hash puzzle first, and provided proof that they solved it correctly, would propose the new update to the blockchain.
-
-And the more compute power you had, the more likely you’d solve the hash puzzle first and get to propose the new block.
-
-Voting power is limited by compute power -- a physical limitation -- rather than by the number of identities a user holds.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image311.jpg" style="width:5in;height:2.81677in" />
-
-And by carefully designing Bitcoin like that, we have all these nice benefits:
-
-Bitcoin is **pseudonymous**.
-
-Cryptographic identities allow for integrity and authentication, meaning also that we have accountability -- for example if someone tries to double spend or do something malicious, we can catch that.
-
-Bitcoin is **democratic**, in that decisions made through Proof-of-Work consensus don’t require you to trust anybody else on the network.
-
-You just have to trust the math behind consensus, and that there’s an honest majority on the network, so the network proceeds in a healthy manner.
-
-Also, we can see that the blockchain is an **immutable** ledger of truth.
-
-Everyone sees the same version of the truth since we have consensus.
-
-And we also have tamper evident data structures in place so that no one can just go in and change history.
-
-Bitcoin was also designed to be **uncensorable**.
-
-To censor transactions, you would have to control a large proportion of the network, and for any one party, this would be considerably difficult.
-
-Finally, Bitcoin is **distributed**.
-
-There’s no central point of failure.
-
-Instead, the execution of transactions depends on a network of miners located around the world.
-
-All these properties seem pretty nice, and it would be awesome if we could include them in our smart contract platform.
-
-We’ll keep Bitcoin’s architecture in mind.
-
-<h3>Smart Contracts Overview</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image311.jpg" style="width:5in;height:2.81677in" />
-
-Now that we have these design considerations, we can take a look at smart contracts, and how they fall into this whole space.
-
-Taking a step back, we can look at the definition of the word “contract”.
-
-A contract is a written or spoken agreement that is intended to be enforced by law.
-
-Notice specifically that a contract must be agreed upon, and that it is enforceable by law.
-
-just by these words alone, it sounds like we need some sort of consensus going on in our smart contract system.
-
-And through consensus, we should be able to agree on both the contents of the contract, and also the execution of the contract.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image312.jpg" style="width:5in;height:2.81677in" />
-
-Alright, so now that we know what a contract is, now the question is...what makes a smart contract so “smart?”
-
-A **smart contract** is a piece of code that facilitates, verifies, or enforces the negotiation or execution of a digital contract.
-
-For us to reach consensus, a trusted entity must run this code.
-
-After all, we need to trust that a digital contract is enforced correctly.
-
-Like a traditional contract, it carries a set of conditions that must be fulfilled, or terms that must be executed on.
-
-The difference is that the execution and enforcement is done through carefully designed algorithms, not through law.
-
-<h3>Intro: Ethereum</h3>
-
-Looking first at what makes Bitcoin special, and the underlying architecture that makes it the way it is, we saw how we could keep bitcoins design philosophy in mind as we sought ways to design a smart contract platform.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image-ethereum.png" style="width:5in;height:3.19444in" />
-
-In the next sections, we’ll take a look at Ethereum.
-
-We’ve mentioned it throughout the course thus far.
-
-From what we know so far, Ethereum is a technology upon which people have built countless applications, ranging from decentralized autonomous organizations to online markets for digital kittens.
-
-But now we can finally ask, what exactly is Ethereum and how does it work?
-
-As it turns out, leveraging our understanding of Bitcoin’s inner workings makes understanding Ethereum a whole lot more accessible.
-
-<h3>High Level Overview</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image313.png" style="width:4.00833in;height:2.27244in" />
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image314.jpg" style="width:5in;height:2.81677in" />
-
-Just like Bitcoin, Ethereum is a platform that’s constantly changing.
-
-It’s under active development by not only the official Ethereum Foundation team, but also by its large open source community.
-
-Over the years, it’s been shaped by current events and its community.
-
-And the software improvements and proposals over the years are, like in Bitcoin, a testament to the large user base and also the democratic nature of the software.
-
-As more and more people begin to use Ethereum to build applications, Ethereum needs to adapt more and more.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image316.ppg" style="width:5in;height:2.8125in" />
-
-On their website, it says Ethereum is a decentralized platform designed to run smart contracts.
-
-In short, it’s a distributed computer spread amongst a multitude of nodes across the world that executes code that people feed to it.
-
-And because of this architecture, it can run unstoppable applications.
-
-Applications are run exactly as programmed, without any possibility of downtime, censorship, fraud, or third-party intervention. It uses a blockchain, and its blockchain is account-based, instead of UTXO-based like Bitcoin.
-
-We’ll into more detail about this in a bit.
-
-Formally, Ethereum is implemented as a distributed state machine, and transactions on the network change the global state of the system.
-
-Nodes in Ethereum keep track of and come to consensus on the global system state – which includes data about who owns what.
-
-Execution of transactions bring us from a previous state to a new state, so they’re the state transition functions.
-
-Ethereum’s native asset is ether, which is the basis of value in the Ethereum ecosystem, and is also crucial in aligning incentives.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image317.jpg" style="width:5in;height:2.81677in" />
-
-So as a recap from the previous section, what makes Bitcoin so special are the following properties: it’s trustless, immutable, uncensorable, pseudonymous, has no central point of failure, and aims for a one-cpu-one-vote policy.
-
-Ethereum has all of these, but has a different use case.
-
-Before the creation of Ethereum, Vitalik Buterin, the creator of Ethereum had argued that Bitcoin needed a more general purpose scripting language, but he didn’t get much support for his proposal.
-
-So, he made Ethereum.
-
-And one of the most notable features is that it supports a turing complete scripting language.
-
-<h3>Ethereum vs Bitcoin</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image318.jpg" style="width:5in;height:2.81677in" />
-
-Ethereum and Bitcoin are the two most popular blockchain platforms in the world today, but have two different goals.
-
-Bitcoin is the “gold standard” of blockchains.
-
-It’s been around for the longest, and its protocol has successfully supported an enormous number of transactions over the past years.
-
-It’s intended purpose is solely to allow the transaction of bitcoins, its native asset.
-
-On the other hand, Ethereum is a smart contract blockchain platform, a distributed world computer.
-
-It’s native asset ether exists to fund computation and to align incentives.
-
-Its primary purpose is not to act as a medium of exchanging value.
-
-Bitcoin is simple and robust.
-
-It’s a global payment system.
-
-That’s all it really sets out to do.
-
-Ethereum has a much larger vision, and therefore supports many more features, for example, a much more powerful scripting language.
-
-Bitcoin has a stack based primitive scripting language which is not turing complete, meaning that the applications we can make on Bitcoin are pretty limited.
-
-Ethereum on the other hand has a Turing-complete scripting language -- one of the motivating factors for Ethereum’s creation in the first place.
-
-So, a wider variety of applications can be made on Ethereum than on Bitcoin, making it more developer friendly.
-
-Another key difference is that Bitcoin is UTXO-based, whereas Ethereum is account based.
-
-<h3>Ethereum Features</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image320.png" style="width:5in;height:2.8125in" />
-
-In Bitcoin, private keys prove ownership of UTXOs.
-
-When you spend bitcoin, you spend from previous transactions.
-
-And to calculate your current balance, you have to sum up all the UTXOs that you own.
-
-The reason Bitcoin uses UTXOs is that they make it easy to make transactions and prevent double spending.
-
-Think back to the piggy bank analogy from module 1.
-
-In Ethereum, private keys prove ownership of an account, which tracks a current balance.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image321.png" style="width:5in;height:2.8125in" />
-
-Accounts are more space efficient than UTXOs, since to calculate your balance, you only have to reference your account, rather than summing across all your UTXOs.
-
-Also, since our ultimate goal is to support smart contracts, it’s much cheaper and easier to look up an account balance and also transfer between accounts when we have an account model rather than a UTXO model.
-
-In Ethereum, there are two types of accounts: externally owned accounts and contract accounts.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image322.png" style="width:5in;height:2.8125in" />
-
-Externally owned accounts are, as their name implies, owned by some external entity – outside of the Ethereum network.
-
-This could be a person, group of people, a corporation, or something else.
-
-Externally owned accounts contain an address that they use to let people send them ether, and also a balance of ether.
-
-This type of account can send transactions to transfer ether or to trigger contract code, which lives in contract accounts.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image323.png" style="width:5in;height:2.8125in" />
-
-Contract accounts are owned by smart contracts.
-
-They contain an address, associated contract code, and also persistent storage.
-
-Their code is executed when externally owned accounts or other contract accounts make transactions to trigger their code’s function calls.
-
-Smart contracts in Ethereum are like autonomous agents that live inside of the Ethereum network, whereas regular users controlling externally owned accounts are not.
-
-Smart contracts react to the external world when they are poked by transactions, which call specific functions.
-
-Smart contracts have direct control over an internal ether balance, internal contract state, and also permanent storage.
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------- Ethereum Virtual Machine: Compilation & Process -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image324.png" 
-   alt="Ethereum Virtual Machine: Compilation & Process"
-   width="50%" </>
-</p>
-   
-Ethereum smart contracts generally serve four main purposes.
-
-1.  They can be used to store and maintain data.
-
-The data representing something useful to users or other contracts.
-
-For example, there could be a smart contract defining a new token currency, or perhaps a certain organization’s membership, which you have to pay a certain amount to obtain.
-
-1.  Smart contracts can also be used to manage a contract or relationship between untrusting users.
-
-This is perhaps the most easily understood use of smart contracts, as it’s just running a regular contract but on the distributed Ethereum network.
-
-For example, you could have smart contracts that manage financial contracts, escrow, or insurance.
-
-1.  Smart contracts can also provide additional functionality to other contracts.
-
-You can write contracts that call other contracts, perhaps using them as a software library, leveraging the functionality of an existing contract.
-
-1.  And finally, smart contracts can be used for complex authentication use cases.
-
-For example, you can define m of n multisignature, which is also something we looked at when we studied Bitcoin.
-
-<p align="center" width="100%">
-<img src="/images/image325.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-<p align="center" width="100%">
-<img src="/images/image326.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image327.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image328.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-<h3>Intro: Ethereum Virtual Machine</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image329.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image330.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image331.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-We’ve seen how smart contracts can be expressed in code, but how are they executed on the Ethereum network?
-
-What happens under the hood that enables the distributed and decentralized execution of smart contracts?
-
-In this section, we’ll be looking at the Ethereum Virtual Machine -- the heart of Ethereum -- which enables the Ethereum blockchain to be programmable.
-
-<h3>Understanding Ethereum Virtual Machine</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image332.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-Ethereum smart contracts are generally written in high level programming languages.
-
-The most popular is Solidity, which kind of looks like a mix between C++ and JavaScript.
-
-There’s also Vyper, which is a newer language that’s currently under development.
-
-Smart contracts written in these high level programming languages have to be compiled down to Ethereum Virtual Machine code, abbreviated as EVM code.
-
-We go from a higher level, human readable language, and compile that down into EVM code, which is lower level, simpler language -- much easier for a machine to understand and execute.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image333.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-After the code is compiled to EVM code, every node in the Ethereum network executes it.
-
-And all nodes execute the code the same way, so long as they have an up-to-date version of the EVM software.
-
-We say that Ethereum is a distributed computer because every node executes the Ethereum smart contracts.
-
-Nodes then come to consensus on the new system state.
-
-This should be fairly familiar.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image334.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-In module 1, the high-level overview of Bitcoin, we discussed how every full node in Bitcoin stores their own ledger, making everyone the bank.
-
-In Bitcoin, nodes come to consensus on the state of who owns which UTXOs.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image335.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-And in Ethereum...
-
-...after executing EVM code, nodes come to consensus on the general state of the network.
-
-And how do nodes actually come to consensus?
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image336.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-With Proof-of-Work!
-
-That’s right.
-
-The same distributed consensus protocol used in Bitcoin is also used in Ethereum.
-
-Of course, there ARE differences between Ethereum’s and Bitcoin’s Proof-of-Work implementations, but the general concepts that we have learned in the past modules definitely still apply.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image337.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-Remember that Proof-of-Work requires miners to expend computational power to increase their chances of being able to propose blocks to the network.
-
-There’s no real smart way to go about solving the hash puzzle, so miners have to brute force.
-
-And by tying voting power to computational power, a physical real-world resource, we can prevent naive Sybil attacks.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image338.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-Here are some differences between Bitcoin and Ethereum’s Proof-of-Work algorithms.
-
-In Ethereum, block creation time is 15 seconds long, whereas in Bitcoin, it’s 10 minutes.
-
-This allows execution of smart contracts to be done and finalized fairly quickly.
-
-However, having such fast block times does increase the rate of natural forks and orphaned blocks, but this is accounted for in Ethereum’s protocol.
-
-In previous modules, we studied Bitcoin’s proof of work algorithm, and how it’s bound by computation and uses sha-256.
-
-In Ethereum, the proof of work algorithm is called Ethash.
-
-Ethash is memory bound and claims to be ASIC resistant.
-
-And over on the right side, we can see a graph of Ethereum’s network hash rate, which is significantly lower than that of Bitcoin.
-
-As of May 23rd, 2018, Ethereum has roughly 275,000 GH/s whereas Bitcoin has a whopping 31,000,000 TH/s
-
-<h3>Ethereum Virtual Machine: Overview</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image339.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-Miners in Ethereum competitively create blocks by executing EVM code and searching for a solution to a mining puzzle.
-
-And just like before, Proof-of-Work is a competition, and only one miner is able to add a block to the Ethereum blockchain, and claim the associated reward.
-
-Proof-of-Work is essentially a way to randomly select -- based on proportion of hash power -- one node’s execution result as the correct one to add to the blockchain.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image340.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-Every Ethereum node runs the Ethereum Virtual Machine as part of its block verification procedure.
-
-As before, network consensus removes the need for a trusted third party.
-
-In order to violate smart contracts, you would have to subvert the entire network.
-
-This enables peer-to-peer agreements that live on the blockchain forever.
-
-Contract code is run by the Ethereum Virtual Machine, or EVM for short, as we mentioned earlier.
-
-Contract code is compiled down, and the code that actually gets executed on every node is EVM code.
-
-And EVM code is a low-level stack based bytecode language.
-
-If you’re familiar with the JVM, it’s like how JVM languages such as Java, Scala, and Groovy all compile down to JVM bytecode.
-
-The fact that we can compile complex smart contract code into simple machine understandable instructions in the form of EVM code that all nodes in the network can execute in the same deterministic way provides the basis for consensus in Ethereum.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image341.png" style="width:5in;height:2.8125in" />
-
-Because every node in the Ethereum network is executing smart contracts, one imimageste issue we face is: What if a contract has an infinite loop?
-
-All of a sudden, this contract is pushed onto the Ethereum network, and someone calls the function foo, which has an infinite loop in it, and all nodes see this transaction and start executing foo -- forever.
-
-Every node on the network would be stuck executing this infinite loop.
-
-And by the halting problem, a well-known problem in computability theory, we know that it’s impossible to determine ahead of time whether a given contract will ever terminate.
-
-And all of this leads to a very easy way for attackers to launch denial of service attacks:
-
-by trapping computers around the world in an infinite loop, thereby making them unable to execute other more meaningful contracts.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------  -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image342.png" 
-   alt=""
-   width="50%" </>
-</p>
-
-Luckily, the developers of Ethereum thought of this and implemented a solution: in the form of what’s known as gas.
-
-Gas is what fuels the execution of a given contract.
-
-Every EVM op-code requires gas in order to execute -- thereby preventing the aforementioned infinite loop denial of service attack.
-
-Every transaction specifies two parameters, “***startgas***”, or the maximum quantity of gas the transaction is willing to consume, and the “***gasprice***”, or the fee in ether the contract is willing to pay per unit gas.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image343.png" style="width:5in;height:2.8125in" />
-
-At the start of a transaction, “startgas \* gasprice”, which represents the amount of ether paid for a computation, is subtracted from the sender’s account.
-
-The sender being the one who invokes the contract by sending a transaction.
-
-If the contract successfully executes, then the remaining gas is refunded to the sender.
-
-On the other hand, if the contract execution runs out of gas before it finishes, then the execution reverts.
-
-However, the amount in ether that was consumed is not refunded.
-
-The idea here is that although the contract execution gets reverted, someone on the network had to put in the computational power to execute the EVM code, and once the gas is spent up, it’s proof that someone executed the program, so it isn’t refunded.
-
-This gives us two end states: either a program terminates or runs out of gas.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image344.png" style="width:5in;height:2.83398in" />
-
-Ethereum still allows someone to write an infinite loop in a smart contract.
-
-However, the attacker attempting to DoS the network has to pay enough ether to fund the DoS
-
-In a way, you can think of purchasing gas as the price you have to pay to use this distributed, trustless computational power.
-
-This thereby disincentivizes users from running expensive computations without having sufficient funds.
-
-Since each computation requires gas, an attacker looking to DoS the network would need an absurdly large amount of ether, and since the attack is so costly, that pretty much disincentivizes this sort of attack.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image345.png" style="width:5in;height:2.79754in" />
-
-We mentioned that nodes come to consensus on the network state, and that code execution on the EVM changes the state.
-
-In a way, you can think of the EVM as the underlying state transition mechanism.
-
-When we execute a transaction, we go from a previous state to a new state.
-
-At the beginning, there was a blank Genesis state, upon which many transactions were executed.
-
-And at any point in time, the final state represents the current state of the Ethereum network.
-
-You start with the current block state, the gas required, the current memory, the transaction that’s calling a contract, a message which basically contains transaction metadata, the code of the contract, and the stack and program counter.
-
-Basically, everything you need to correctly execute a transaction.
-
-And you feed this into the EVM, and get out the new block state, with all the updated account balances and internal state, and the new gas value, which gets refunded.
-
-<h3>Ethereum Conclusions</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image346.png" style="width:5in;height:2.8125in" />
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image347.png" style="width:5in;height:2.8125in" />
-
-So, some conclusions about Ethereum’s high level architecture.
-
-Ethereum’s main goal is not to optimize computational efficiency, but to enable distributed and trustless computation.
-
-Every node on the network has to run the same computations, so Ethereum is redundantly parallel.
-
-And this is all to efficiently reach consensus on the system state without needing trusted third parties.
-
-And because contract executions are redundantly replicated across all nodes, execution is expensive.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image348.png" style="width:5in;height:2.8125in" />
-
-For example, you shouldn’t be training machine learning models or doing anything else computationally expensive directly on smart contracts.
-
-So hopefully this creates an incentive not to use the blockchain for computation that can be done off chain.
-
-<h3>Intro: Ethereum Use Cases</h3>
-
-In this next section, we’ll go over both basic and advanced use cases enabled by smart contracts.
-
-In these use cases, we will present how we can leverage a particular blockchain property to accomplish something not previously possible.
-
-This is not a necessarily a stamp of approval on the use case, but an opportunity for us to demonstrate the unique and meaningful features provided by a blockchain.
-
-<h3>Basic Use Cases: Smart Assets</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ (304) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image349.png" style="width:5in;height:2.8125in" />
-
-The first use case imaginable is a smart asset, or token, built on top of a currently existing blockchain.
-
-This is literally building your own currency on top of another currency.
-
-All that needs to be done is to ensure that a user who wants to spend money has the funds, has been authenticated, and is not double spending.
-
-Authentication and double spending protocols are both built into Ethereum , so the only piece of logic that the smart contract needs to handle is checking for funds.
-
-Thus, it only requires two main features to be functional: a storage structure for associating addresses with assets, and a send() function to transfer assets.
-
-An example of the send() function is shown below, written in Solidity, a popular contract oriented, high level EVM language for implementing smart contracts.
-
-This demonstrates that building an app on top of the Ethereum blockchain allows you to tap into the currently existing blockchain protocol and procedures.
-
-All that the user needs to provide is the basic, secure logic to bring their desired blockchain use case to life.
-
-It should be noted now that building functional smart contracts and building secure ones are two completely different things.
-
-Securing smart contracts is incredibly tough, as you may have figured out from recent news about smart contract hacks.
-
-<h3>Basic Use Cases: Multisig</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------------- Multisig (305)  -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image350.png" 
-   alt="Multisig"
-   width="50%" />
-&nbsp;
-
-Another meaningful use case for smart contracts is multisignature wallets.
-
-Remember back to the multisig script from module 3.
-
-Now, we can include that same functionality in a human-readable manner in Ethereum.
-
-Here, we’re able to leverage the built-in authentication protocols to build a multiparty authentication wallet.
-
-This functionality allows us to have an m of n signature scheme, in which m addresses out of a total n owners of the wallet are required to sign off on every transaction.
-
-This ensures that no one person has control over funds.
-
-Even though the logic is reasonably easy to describe, the Solidity implementation is pretty complex.
-
-A company that created multisig wallets, Parity, was hacked twice last year due to undiscovered vulnerabilities.
-
-The shown code on the right is the constructor for the contract, establishing the threshold and owners.
-
-The value of threshold corresponds to m, and the number of owners represents n.
-
-<h3>Basic Use Cases: Proof of Existence</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------------------------  Proof-of-Existence (306) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image351.png" 
-   alt="Proof of Existence"
-   width="50%" />
-&nbsp;
-
-Let’s say we came up with an amazing new tech buzzword, “3D printing artificial intelligence on the blockchain.”
-
-We wanted to prove that we came up with it before some date, but we don’t yet want to reveal the buzzword to the public.
-
-How do we do this in a way that everyone trusts?
-
-Well, by combining hash functions and the trustless blockchain!
-
-We store a hash of our document onto the blockchain.
-
-By doing so, we can prove to everyone at any later date that we were the ones who included that hash on the blockchain, and that our information has not been changed.
-
-By doing so, we have now “proved the existence” of some piece of information at some point in time.
-
-With Proof-of-Existence, we leverage both the public auditability and immutability of the blockchain.
-
-With a blockchain, we can cryptographically prove commitment to some particular value.
-
-This is nothing more than a record-keeping use case, and there are several which fall under this category.
-
-One of these use cases is document ownership.
-
-We can prove that we own some document at some time through a commitment scheme: hash the document with some random number, then you have your hash commitment.
-
-Reveal the inputs later to prove your ownership.
-
-<!------------------------------------------------------------------------------------------------>
-<!-----------------  Public Registry: Namecoin: Blockchain Fundamentals (307) -------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image352.png" 
-   alt="Public Registry: Namecoin: Blockchain Fundamentals"
-   width="70%" />
-
-In addition, there’s the opportunity to implement a decentralized DNS system.
-
-“DNS” stands for “Domain Name System,” and its one purpose is to associate URLs with IP addresses.
-
-Our browsers look to trusted DNS servers to provide this service, but why not put this service on a trustless database?
-
-In a smart contract, we can easily design a scheme that creates associations between names and values.
-
-We’ll expand on how we take advantage of these properties in the Advanced Use Cases section.
-
-<h3>Advanced Use Cases: Land Titles</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------ Decentralized Land Titles: Blockchain Fundamentals (309) -------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" >
-<img src="/images/image353.png" 
-   alt="Decentralized Land Titles: Blockchain Fundamentals"
-   width="65%" />
-</p>
-
-A problem that several underdeveloped countries face is a broken land titles system.
-
-Flawed paperwork, forged signatures, and unclear documents make it difficult to trace the ownership of land.
-
-In addition, it’s difficult for these governments to build infrastructure for each of their citizens.
-
-The pitfalls which keep a central organization from solving this problem are mistrust between citizens and these central parties.
-
-Corrupt officials are susceptible to bribes and have tampered records countless times.
-
-Also, the government does not have the resources to oversee so large a project when it does not bring in a substantial amount of revenue.
-
-In addition, most citizens do not trust non-governmental organizations either, making all centralized options infeasible.
-
-So how do we solve this problem?
-
-Well, let’s try a decentralized approach.
-
-What do we include in our decentralized approach?
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------  ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image354.png" style="width:5in;height:2.8125in" />
-
-Well, what we’re doing here is tracking ownership of documents, similar to Proof-of-Existence.
-
-We can create an association between users and document hashes.
-
-By associating addresses to document hashes, users can provide digital signatures to prove ownership.
-
-This provides transparency and immutability, since information about all document ownership is public on the blockchain, and also limits centralization because no single entity decides which person owns which titles.
-
-Just like transferring bitcoin between users through UTXOs, we’re simply transferring the land title through smart contracts as well.
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Decentralized Land Titles ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image344.png "Decentralized Land Titles" style="width:5in;height:2.85in" />
-&nbsp;
-
-However, there’s a big caveat that affects this blockchain use case, along with several others that link real world information to digital information.
-
-In the computer science world, most are familiar with the acronym “GIGO,” which means “Garbage In, Garbage Out.”
-
-A blockchain is good at handling internal data through its public auditability, but it can’t reach into the real world and validate inputs.
-
-If the inputs from the real world are incorrect, then the output is also going to be incorrect.
-
-This implies some system for validating inputs into the blockchain -- we refer to such entities sending information from the real world into the blockchain as “oracles.”
-
-However, this drives us back towards centralization, since we need some trusted third party to serve as an oracle to provide information into the blockchain whenever someone creates a land title.
-
-This problem has yet to be solved.
-
-Georgia, Ukraine, and Sweden are a few of the major countries tackling decentralized land titles, and several companies are seeking to make decentralized oracle systems as well.
-
-<h3>Advanced Use Cases: Prediction Markets</h3>
-<!------------------------------------------------------------------------------------------------>
-<!------------------- Prediction Markets: Draws on the Wisdom of the Crowd ----------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image345.png "Prediction Markets: Draws on the Wisdom of the Crowd" style="width:5in;height:2.85in" />
-&nbsp;
-
-A prediction market allows users to bet on the future and receive winnings if they bet correctly.
-
-An example of this is the Presidential Election: PredictIt.org gave anyone the opportunity to bet on whether Donald Trump, Hillary Clinton, or another candidate would win the election.
-
-The organization would then decide on what happened, and pay out to users as specified.
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- Prediction Markets: Transparent & Never Crashes ------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image346.png "Prediction Markets: Transparent & Never Crashes" style="width:5in;height:2.85in" />
-&nbsp;
-
-However, with a central organization, we depend both on the organization to provide honest information about payouts and to truthfully act on political events.
-
-In addition, the central organization is the only producer of markets, and it is able to censor users as desired.
-
-How can we guarantee a fully open system?
-
-If we seek to perform this with a decentralized system, how can we make this happen?
-
-That’s exactly what smart contract platforms are for: letting you leverage the underlying blockchain protocol without having creating it from scratch.
-
-We can tap into the censorship-resistant and trustless blockchain protocol and write smart contracts to handle the market logic.
-
-Anyone can create and participate in a market.
-
-In addition, execution of this logic is all public, giving guarantees that all funds have been distributed as intended.
-
-Gnosis and Augur are two well-known companies that have deployed prediction market smart contracts.
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------- Prediction Markets: Use Case 1 --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image347.png "Prediction Markets: Use Case 1" style="width:5in;height:2.85in" />
-&nbsp;
-
-What can we do with these prediction markets?
-
-An easy way to use them is to, quite simply, see predictions.
-
-We can use prediction markets to “buy information.”
-
-As users have an incentive to monetize information while revealing as little of it as possible, we can set up a prediction market which asks a simple question, such as…
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------- Prediction Markets: And Decentralizing Them ---------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image348.png "Prediction Markets: And Decentralizing Them" style="width:5in;height:2.85in" />
-&nbsp;
-
-Will this movie be a flop?
-
-By putting this in a prediction market, we can get a sense for the general audience’s perspective on some movie, paying them if they bet correctly.
-
-Hollywood insiders, for example, would be particularly drawn to this, as they can leverage their immense store of knowledge to make money for themselves.
-
-This allows the person asking the question to gather information while letting users keep specifics to themselves.
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------- Prediction Markets: Other Use Cases--------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image349.png "Prediction Markets: Other Use Cases" style="width:5in;height:2.85in" />
-&nbsp;
-
-Other use cases include insurance, bug bounties, and ICO signaling.
-
-The first market for insurance is a way to let users prepare against disasters through crowdfunding, and the second two are ways to incentivize certain actions, such as the honest exposure of bug bounties.
-
-If a user notices a bug in a smart contract, they can heavily bet “yes” before revealing the vulnerability, allowing them to reap the rewards of their hidden knowledge.
-<!------------------------------------------------------------------------------------------------>
-<!------------------- Prediction Markets: Futarchy & Cryptoeconomics ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image350.png "Prediction Markets: Futarchy & Cryptoeconomics" style="width:5in;height:2.85in" />
-&nbsp;
-
-An exciting use case of prediction markets is futarchy.
-
-Futarchy is a system of government controlled by prediction markets.
-
-The typical slogan is “Vote Values, but Bet Beliefs,” as futarchy aims to give citizens the power to put their money where their mouth is.
-
-Elected representatives will define and manage national welfare.
-
-Meanwhile, citizens who more often predict the outcome of some policy will be rewarded, and the rest will lose money.
-
-Eventually, only the regularly successful will bet, meaning that policies will be decided by those with the most knowledge.
-
-Research is still being done to examine the feasibility of futarchy on a blockchain, particularly by Gnosis.
-
-<h3>Advanced Use Cases: Supply Chain</h3>
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Supply Chain and Provenance ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image351.png "Supply Chain and Provenance" style="width:5in;height:2.85in" />
-&nbsp;
-
-A popular conception is that blockchain is the perfect solution for supply chain.
-
-However, we’ll see here that there are quite a few caveats when using blockchain to solve supply chain.
-
-One problem that the world faces today is the use of diamonds to fund rebel groups against governments.
-
-Such diamonds are referred to as conflict diamonds, or “blood diamonds.”
-
-The Kimberley Process is a governmental effort requiring participants to certify the origin of their diamond.
-
-However, there are some potential issues with the system, which include corrupt officials taking bribes to validate or sign certifications, and the masking of actual trails by complex supply chains.
-
-Everledger was created to solve this problem using blockchain technology, specifically leveraging Hyperledger.
-
-This company tokenizes every diamond and tracks its movement on the blockchain as individuals trade.
-
-At any point in time, someone can cross-reference the blockchain to see the diamond’s path from mining to current product.
-
-There are some caveats however, which include the issue of representing real world data on the blockchain.
-
-We have to trust that individuals are not bribed to include false information in the blockchain, and we also have to trust that the identifier of the diamond was not tampered with in the process.
-
-<h3>Advanced Use Cases: Smart Energy Grids</h3>
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- Smart Energy Grids: Revolutionizing Infrastructure ------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image352.png "Smart Energy Grids: Revolutionizing Infrastructure" style="width:5in;height:2.85in" />
-&nbsp;
-
-Thus far, we’ve mentioned how we can provide a digital service using a blockchain.
-
-However, what about the situation in which we want to provide a real world service, leveraging a blockchain to make it happen?
-
-Onesp of the biggest scenarios is infrastructure.
-
-In hundreds of countries, infrastructure is one of its defining qualities.
-
-Japan and Germany, for example, have world-renowned infrastructure.
-
-But what happens if a country’s government cannot, or will not, build for its citizens?
-
-This could be because of a lack of capital, or simply a lack of desire.
-
-In this scenario, it’s hard to find a central party that will collaborate on the behalf of citizens.
-
-This is where a blockchain comes in.
-
-A common infrastructure problem is that of smart energy grids.
-
-Energy can transfer from a plant to a house, but what if a house has excess energy?
-
-Let’s say House A has excess energy, and House C lacks energy.
-
-How can we build infrastructure from House A to C without relying on a central party?
-
-The solution is in smart contracts.
-
-We can make promises through smart contracts to guarantee our financial commitment to a project.
-
-House A can create a smart contract, put in \$10,000, and say that, if both House B and House C also commit \$10,000, then a contractor can redeem that money in exchange for working on this smart energy grid.
-
-This immutable commitment scheme allows anyone to leverage smart money properties to the fullest.
-
-Through smart contracts, we can coordinate between untrusting parties without a central entity.
-
-In places where the government can’t or won’t contribute to the quality of life for citizens, they’re now able to do it themselves if they have the capital but not yet the system to securely combine their resources.
-
-This is one of the most revolutionary concepts in blockchain, giving users the ability to be their own service providers.
-
-<h3>Advanced Use Cases: After Hours Trading</h3>
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- After Hours Trading: 24/7 Access & Liquidity ---------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image353.png "After Hours Trading: 24/7 Access & Liquidity" style="width:5in;height:2.85in" />
-&nbsp;
-
-The final use case we’re going to examine is after hours trading.
-
-After hours trading refers to the case of trading stocks during unconventional hours.
-
-In the days before global connectivity, stock trading was limited to daytime hours, from 9:30 AM to 4 PM EST.
-
-This artificial restraint perpetuated into the Digital Age.
-
-So, what’s stopping us from enabling after hours trading today?
-
-The problem is a lack of liquidity.
-
-With a lack of liquidity comes an increase of volatility, implying an increase of risk.
-
-As the SEC aims to reduce risk for investors, the options for after hours trading are limited to limit orders.
-
-These types of orders are not guaranteed to execute, only going through if some stock value is above some minimum or below some max, depending on the type of order.
-
-The solution?
-
-Tokenize the stocks.
-
-Put the marketplace on the blockchain instead.
-
-We can tokenize the stocks by asking a broker to underwrite the stock token.
-
-The contract will say, “Anyone who owns this stock token can come to me, the broker, to exchange the token for the physical corresponding stock.”
-
-This tie between the token and real world assets will provide the tokens with tangible value, and the global properties of a blockchain will allow that stock to be traded around the world, unrestrained by social constructs.
-
-The most important part of the blockchain, however, is the accessibility.
-
-Any broker can tap into this market, allowing for the trustless pooling of these stock tokens across the board.
-
-By coordinating between these untrusting parties on a globally accessible platform, the liquidity problem will have been solved in a way that’s unfeasible for centralized solutions.
-
-<h3>Blockchain vs Internet</h3>
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Blockchain vs The Internet ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image354.png 
-   alt="Blockchain vs The Internet" 
-   width="65%" />
-&nbsp;
-
-In almost every conversation about blockchain’s role in society or path going forward, you’ll hear a comparison to the Internet.
-
-You’ll hear about how the Internet took 20 years to flesh out meaningful use cases, about how several companies sprung up during the Dot Com boom only to fade out as the few significant startups survived, about how blockchain is an Internet of Value as opposed to information.
-
-So, what’s a full comparison of blockchain versus the Internet?
-
-First, we know that both blockchain technology and the Internet describe protocols for connectivity.
-
-However, the type of connectivity differs.
-
-With the Internet, you now have the capability to connect to anyone of your choice to securely share information.
-
-The only people who need to see this information are the two parties involved in the exchange, and there only needs to be some path for information to flow between them.
-
-With blockchain, you now have the capability to connect with anyone to securely share value, but the exchange of value must be observed by everyone on the network.
-
-If you didn’t have the public validating transactions, then blockchain protocols would be meaningless.
-
-Whereas, with the Internet, it doesn’t matter who else is on the network as long as each individual is able to communicate with its relevant parties.
-
-Second, the way in which blockchain and the Internet manifested also differs.
-
-The Internet was a project developed by academics.
-
-The first message over the Internet was sent was between UCLA and Stanford research labs.
-
-From the world of academia, the Internet arrived to the corporate and public worlds.
-
-Blockchain, however, started differently.
-
-A grassroots movement, Bitcoin was an open-source project between libertarian advocates first and foremost, and the first Bitcoin transaction was between anonymous Satoshi Nakamoto and Hal Finney, a cypherpunk and developer for the PGP Corporation.
-
-From there, Bitcoin and blockchain started to move into the realms of academia and enterprise.
-
-Third, the social environment developed around these projects differs immensely because of both their origins and the eras in which they were born.
-
-During the Internet era, the concept of personal computers hadn’t even developed yet, let alone the idea of connecting individuals around the country, or around the world.
-
-Companies springing up during this type focused primarily on corporations, leading to several “intranet” projects, analogous to private blockchains.
-
-With blockchain, we see the same patterns, but on a much larger.
-
-In this era of connectivity and social images, information spreads much more quickly, as does haste.
-
-Most projects target the general public instead of corporations, but these projects also come to fruition much less frequently.
-
-Many teams settle for an excellent marketing team, launch an ICO, and pray for no lawsuit.
-
-In terms of use cases, it’s easy to see that the purpose of the Internet differs massively from blockchain, though they share parallels when it comes to the manner in which their use cases and ecosystem develop.
-
-The Internet focuses much more on information exchange, while blockchain focuses on value exchange.
-
-When thinking about a blockchain use case, ask yourself whether it leverages some value exchange, particularly that which cannot be handled by a single authority.
-
-Blockchain’s innovation was not to enable distributed information sharing, but distributed record-keeping and decentralized exchange of value.
-
-<h3>Blockchain Generalizations</h3>
-
-Now that we’ve seen all these use cases, let’s go ahead and finish off with some generalizations.
-
-These points can be used to understand and discuss any use case you come across or come up with.
-
-These points describe the properties of a good blockchain use case, along with the scenarios in which a blockchain is not needed or inferior to a centralized solution.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------- Blockchain Generalizations: Viable but Blockchain Not Necessary ----------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image355.png" "Blockchain Generalizations: Viable but Blockchain Not Necessary" style="width:5in;height:2.85in" />
-&nbsp;
-
-To start off, let’s talk about the scenarios where a blockchain will work, but is not necessary.
-
-We often hear the term “efficiency” in the context of blockchain use cases, but this isn’t often applicable.
-
-For example, let’s take Bitcoin.
-
-If I’m buying coffee, it’s less efficient to send Bitcoin and wait 10 minutes for a confirmation than to hand over a few dollars or use a credit card.
-
-However, it is more efficient to send value overseas with Bitcoin, which takes a mere ten minutes in comparison to the days that banks take to coordinate… and the transaction fees they levy for international transfers of value.
-
-Hence, efficiency depends on context.
-
-The other bullet points listed below are properties of blockchain that are not exclusive to blockchain.
-
-For example, just because you didn’t hear of fault tolerance, consensus, or public key cryptography before blockchain doesn’t mean that blockchain’s the only way to do it.
-
-Each of these bullets can be achieved by using a subset of the technology that goes into making a blockchain.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------- Blockchain Generalizations: Solving Coordination Failures -------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image356.png" "Blockchain Generalizations: Solving Coordination Failures" style="width:5in;height:2.85in" />
-&nbsp;
-
-While blockchains will work, they’re over-engineered solutions to these problems.
-
-As mentioned in the smart energy grid example, blockchains allow us to solve coordination failures.
-
-We are able to implement arbitrary incentive schemes, allowing us to create a system which incentivizes individuals to operate according to our expectations.
-
-In addition, blockchain can be thought of as a “technological solution to a social problem.”
-
-Theoretically, every blockchain protocol could be run by a single node.
-
-However, you’ll notice the issue that if only one person runs the protocol, then we lose out on the guarantees of auditability and decentralized control, properties that are meaningful only in a social setting.
-
-When individuals don’t trust each other, then the blockchain allows them to coordinate between each other without relying on some trusted third party.
-
-With this, smart contracts can be used to make commitments, to fund public infrastructure or do crowdfunding.
-
-The miners will force the actors to honor their commitments, as was the original intention of smart contracts.
-
-Instead of bringing in lawyers to settle matters when things don’t according to plan, we’re now able to rely on a smart contract to execute as intended, giving us the ability to believe in this code as law.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- Blockchain Generalizations: Horizontal Integration ------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image357.png" "Blockchain Generalizations: Horizontal Integration" style="width:5in;height:2.85in" />
-&nbsp;
-
-Blockchains create a standardized platform for access and interaction.
-
-Because of this, we can combine the power of all users on a blockchain to enhance everyone’s capabilities.
-
-Given that all information in a blockchain is accessible to everyone, we are now able to combine data silos between institutions.
-
-Any information collected or functionality provided by an app on the Ethereum Blockchain is accessible to all other users on the blockchain, something which can’t be said about the Internet alone.
-
-In addition, blockchains enforce a common standard.
-
-As all users tap into the same single protocol, they must also adapt to that protocol’s specifications.
-
-Granted, that requires everyone to go through the trouble of adapting.
-
-However, once everyone’s on the same platform, there are no longer issues of format or syntax.
-
-Lastly, by combining resources and information from all parties, we can enhance everyone’s user experience.
-
-Any app that exists on a smart contract platform has its data and functionality living in that platform.
-
-Any other app can leverage existing technologies on the same platform, creating a positive feedback loop and benefiting all involved.
-
-This is referred to as network effects, which is the increased value or potential of a product with every additional user.
-
-Similar to how more Facebook users makes the platform more worthwhile for all users, more smart contract developers increases the value of a platform.
-
-In this way, individuals are supporting the rest of the community while benefiting themselves as well.
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------- Blockchain Generalizations: Essential Properties ------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image358.png" "Blockchain Generalizations: Essential Properties" style="width:5in;height:2.85in" />
-&nbsp;
-
-<img src="/images/image369.png" style="width:5in;height:2.83301in" />
-
-Finally, the most abstract yet fundamental property of a good blockchain use case is pure decentralization.
-
-What this means is decentralization for the sake of keeping it out of the hands of a central authority.
-
-This is what Bitcoin aimed to do with banks.
-
-Although there was a working central solution, Bitcoin wanted decentralization nevertheless.
-
-In countries with significant amounts of distrust in central authorities due to corruption or inefficiency, blockchain might be useful.
-
-Blockchain provides a system for users to produce guarantees that a central solution cannot provide, such as censorship-resistance and disinterimagestion of power.
-
-These properties are difficult to evaluate in terms of dollars and cents, but groups like cypherpunks and crypto-anarchists ask about finances second.
-
-For some individuals, self-governance and privacy is more important than any amount of revenue, making decentralization for decentralization’s sake worthwhile.
-
-Perhaps the most astonishing property that a blockchain provides is globally recognized proofs.
-
-Cryptocurrencies aren’t divided by lines or borders--they’re guaranteed to be globally accessible and unstoppable as long as there exists a community to support them, unlike businesses or government projects.
-
-Through blockchain, we can support globally recognized ownership, persisting across nations.
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------- Blockchain Generalizations: Advantages of Centralized Solutions ---------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image359.png" "Blockchain Generalizations: Advantages of Centralized Solutions" style="width:5in;height:2.85in" />
-&nbsp;
-
-Now that we’ve finished talking about all the meaningful properties of decentralized solutions, it wouldn’t be complete if we didn’t go over the caveats.
-
-What are the costs of these properties of decentralization?
-
-What do we achieve better with centralized solutions?
-
-The overarching theme of centralized solutions is the benefit of independence.
-
-There’s no need for consensus when a single party has the power to make decisions.
-
-Because of this, we get the following benefits:
-
-First and foremost, we have deep integration.
-
-A central solution has full control over everything under its umbrella.
-
-Apple is well known for taking advantage of this to control the user experience.
-
-When a blockchain attempts to upgrade its protocol, all users have to voluntarily upgrade or get left behind.
-
-With a central solution, however, it’s much easier to change individual components or entire architectures of projects.
-
-Because of this, it’s much easier for a centralized systems to patch up bugs, such as security issues, than decentralized systems.
-
-A central solution does what it needs to do, unrestricted, but a decentralized system needs to come to consensus with thousands of different actors to change anything at the protocol level.
-
-Another huge advantage for central solutions is efficiency.
-
-With centralized solutions, the cost of executing a program is about a million times less work than decentralized solutions.
-
-This is easy to see, as only one party is doing work, and it doesn’t need to confirm the result of its work with anyone else.
-
-In addition, only one store of data is required.
-
-The data doesn't isn’t replicated across thousands of nodes.
-
-In addition, access control is simpler in a central solution, where it’s much easier to restrict read and write permissions.
-
-In a decentralized solution with censorship-resistance, we give up that control.
-
-Building off that, central solutions handle complexity well.
-
-Imagine replicating Airbnb using smart contracts.
-
-If a landlord finds their house destroyed, a blockchain can’t handle that scenario.
-
-How can an oracle accurately report whether a tenant damaged household possessions?
-
-Who would report that information?
-
-It’s much easier to trust a single person to report on the state of the house than to implement a complex and likely unreliable oracle system.
-
-Finally, central solutions are adaptive.
-
-When an Uber driver is having trouble with their passenger, or the other way around, who do they call for customer support on a blockchain solution?
-
-How do they get this issue resolved?
-
-Centralized solutions have the advantage of handling messy situations with grace, since you don’t need every single entity to agree on every single outcome.
-
-If you do integrate centralization with a blockchain solution, you lose out on most of the benefits of decentralization.
-
-<h3>Supplement: Use Cases</h3>
-
-Authors: Rea Savla and David Luo
-
-<h3>I. Basic Use Cases</h3>
-
-The first use case is a smart asset, or token, built on a currently existing blockchain. All that needs to be done is to ensure that a user who wants to spend money has the funds, has been authenticated, and is not double spending.
-
-Another meaningful use case for smart contracts is multisignature wallets. On Ethereum, we can leverage the platform’s built-in authentication protocol to create a functionality that allows us to have an m of n signature scheme (refer to Lecture 3).
-
-<!------------------------------------------------------------------------------------------------>
-<!------------- Document Ownership: Blockchain Fundamentals: Proof-of-Existence ------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/document-ownership.png" "Document Ownership: Blockchain Fundamentals: Proof-of-Existence" style="width:5in;height:2.85in" />
-&nbsp;
-
-We can also create Proof-of-Existence use cases using smart contracts, which hash intellectual property onto a blockchain to prove the existence of some piece of information at some point in time. With Proof-of-Existence, we leverage both the public auditability and immutability of the blockchain. We can use Proof-of-Existence to record document ownership or implement a decentralized DNS system.
-
-<h3>II. Advanced Use Cases</h3>
-
-Many developing nations struggle with broken land titles systems; flawed paperwork, forged signatures, and unclear documents make tracing ownership of land difficult. The pitfalls which keep a central organization from solving this problem are mistrust between citizens and these central parties.
-
-Proof-of-Ownership helps address these issues by tracking ownership of documents, similar to Proof-of-Existence. We can create an association between users and document hashes to prove ownership. This provides transparency and immutability, and it limits centralization. A major caveat to this use case is “Garbage in Garbage Out” (GIGO), which states that if the inputs are incorrect, the outputs will also be incorrect. We refer to the entities that send information from the real world into the blockchain as “oracles.”
-
-Prediction markets are another advanced use case of smart contracts. A prediction market allows users to bet on the future and receive winnings if they bet correctly.
-
-We can use prediction markets to “buy information.” Use cases of prediction markets include insurance, bug bounties, ICO signaling, and futarchy.
-
-Smart contracts also have significant potential to secure supply chains. Everledger was created to tokenize and track a diamond’s path from mining to current product.
-
-In addition to providing a digital service, blockchain can also be used to provide a real world service, such as providing infrastructure in the absence of government action to do so. A common infrastructure problem is that of energy grids. Individual households can create smart contracts that promise to pay a certain amount of money to build an electric grid if neighboring households commit to doing the same. A contractor can then redeem the money in exchange of working on the grid. Through smart contracts, we can coordinate between untrusting parties without a central entity.
-
-Finally, blockchain can also allow us to conduct after hours trading by solving the “Liquidity Problem,” which causes the SEC to restrict after hour trading to placing limit orders. With blockchain, brokers can tokenize stocks by creating legal contracts underwriting them. Stock tokens can be traded worldwide even after the markets close and redeemed for their respective stocks during business hours.
-
-<h3>III. Blockchain Generalizations: Essential Properties </h3>
-
-Although using blockchain provides numerous properties if implemented in a system, there are often other solutions that provide the desired properties without using a blockchain.
-
-Blockchains provide guarantees of privacy, decentralization, and more. However, these properties are sometimes unaffordable for practical use depending on the user base, goals, and scale of the application.
-
-<h3>III.I Efficiency</h3>
-
-The word “efficiency” is often used when used to describe blockchains, but blockchains are not always efficient for their proposed use cases they are proposed for. For example, if one wanted to purchase a coffee using bitcoin, it is far less efficient to wait 10 minutes for a confirmation than it is to simply swipe a credit card or hand the cashier some money. However, sending money across the world using Bitcoin would take a mere ten minutes, compared to the days for coordination between banks internationally. As shown, there are numerous properties that a blockchain provides if implemented, but sometimes there is no need to implement a blockchain in order to achieve these properties for specific uses cases. Efficiency depends on whether the immense cost and complexity of decentralized consensus is overcome by the benefits of blockchain.
-
-In addition, properties like data immutability , integrity, auditability, authenticity, and public key identity infrastructures are all very powerful properties provides by blockchains that a blockchain can possess, but can all be achievable by using previously existing technologies, like cryptography and implementing a system with a hash chains. Redundant, mission-critical, fault-tolerant systems already exist in the form of secure servers or cloud services like such as Amazon Web Services. In addition, these centralized solutions are literally millions of times less expensive to run than current decentralized solutions. Although by definition a blockchain possesses these properties, a centralized solution can just as well implement these, usually cheaper as well.
-
-<h3>III.II Solving coordination failures</h3>
-
-One major property of a blockchain system is its ability to create arbitrary incentive structures so as to solve coordination failures. By offering rewards for users to act a certain way, a system can therefore incentivize them to follow those certain expectations. Because of this, blockchain can be considered a “technological solution to a social problem.” This is especially useful in use cases where individuals do not trust each, but could benefit from working together. Blockchain allows for them to still coordinate or collaborate without the need for a trusted third party. Funding public infrastructure/crowdfunding is one such example for coordination, such as with the smart energy grid example, which uses smart contracts in order to create a common law without a third party.
-
-<h3>III.III Horizontal Integration</h3>
-
-Blockchains create a standardized platform for access and interaction, combining the power of all users to enhance all of their capabilities. One such example of this is the combining of data silos. Since all information that is stored on a blockchain is shared, it is accessible for all users on the chain. Any individual contribution to the chain increases the protocol’s value for all. This property, along with that of enforcing having a common formatting standards, is known as network effects, which is the increased value of potential of a product for each additional user. Users support the entire community while also benefiting themselves.
-
-<h3>III.IV Pure decentralization</h3>
-
-One of the largest selling points of using a blockchain is its decentralization. Pure decentralization refers to decentralization for decentralization’s sake, such as Bitcoin avoiding the functioning bank system out of distrust. So if it required to avoid a centralized authority, a blockchain would be a good solution to this issue. This extends to scenarios of corruption or power saturation in central authorities, such as governments and financial institutions. In a situation where there is a lack of trust in the government due to corruption, a blockchain could be implemented. This decentralization paves the path to also create censorship resistance and disinterimagestion of power. Because blockchains are globally accessible, they are unstoppable as long as there is a community that supports them.
-
-<h3>III.V Advantages of centralized solutions</h3>
-
-A central solution is fully controlled by a single organization, keeping everything under the same umbrella. One of the benefits of this is simpler and faster software updates, meaning it is easy to make changes and have the update for all users. Contrast this with a blockchain, where everyone instead must have to voluntarily agree to upgrade. It is much easier to make security patches when you don’t need to reach consensus on upgrades across all users. Centralized solutions are also more efficient, as instead of having to do a computation for every user in a network, it only needs to be done once, and there is no need for verification. Access control is also much easier, as the central authority can simply keep track of access in a centrally controlled database, something that cannot be done in a decentralized system. Most significantly, centralized systems can make decisions with their human judgment, especially helpful when tackling complex decisions. In a decentralized system, smart contracts may not be able to cover or formalize all of the edge cases, and may not be suitable for use in more complex issues. For example, if Airbnb were replaced by used smart contracts, how would a smart contract be able to determine what to do if household possessions were damaged? Which individuals could be trusted to report this information without stripping away the values of decentralization? How would a smart contract handle human error?
-
-In the end, it is important to always ask why a blockchain is better than a centralized solution. Neither is better than the other universally, so it is important to compare the pros and cons of both to determine which one is better for each specific use case.
-
-<h3>Blockchain Use Cases Takeaways</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ Blockchain Use Cases Takeaways ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image360.png" 
-   alt="Blockchain Use Cases Takeaways" 
-   width="70%" />
-&nbsp;
-
-The main takeaway is that there are advantages to both centralized and decentralized solutions.
-
-Neither is universally better than the other; they each have their own use cases.
-
-However, the best solutions are those that recognize when decentralization is critical to accomplishing some goal and don’t get distracted when a blockchain is viable but really doesn’t make sense.
-
-A good blockchain use case is like an oasis in a desert.
-
-Mirages pop up all the time, but that doesn’t make them the real deal.
-
-Be sure that you’re able to justify why a blockchain works for your use case!
-
-<h3>Intro: Ethereum Ecosystem</h3>
-
-Just like with Bitcoin, the Ethereum ecosystem is constantly changing.
+<img src="/images/image-proof-of-stake-chart.png?raw=true"
+	alt="Proof of Stake Chart"
+	width="65%" >
+<br/>
 
-However, you can argue that Ethereum is a bit more politically centralized.
+<h3 id="ch3-6">3.6 Bitcoin Consensus Model</h3>
+Bitcoin, the first blockchain to appear, uses Proof of Work which requires miners to solve a complex cryptographic mathematical puzzle for which they get rewarded. 
 
-They have more recognizable people.
+Block rewards are newly minted Bitcoin granted to the miners that solve the puzzle first. 
 
-After all, we know that Vitalik Buterin created Ethereum, but what do we know about Satoshi Nakamoto?
+Built into the Bitcoin blockchain protocol, is an event called halving. 
 
-Knowing some of the key players in the space will get you an upper hand in understanding what’s happening right now, and where things are heading.
+[Bitcoin halving](https://www.investopedia.com/bitcoin-halving-4843769) happens every four years and Bitcoin’s block reward gets cut in half. 
 
-It’ll also introduce you to ways Ethereum and its community are pushing the blockchain space forward.
+The halving occurs when the block height reaches a certain point (210,000 blocks) which is programmed into the protocol. 
 
-<h3>Community Leaders</h3>
+The first halving occurred in November 2012 and the block reward was cut from 50 BTC to 25 BTC. 
 
-Of course, the biggest face in Ethereum is Vitalik Buterin.
+The second occurred July 9, 2016 and the reward was reduced to 12.5 BTC. 
 
-He created Ethereum, and also co-founded the Bitcoin Magazine, both when he was under 20 years old.
+The third occurred on May 11th 2020, cutting the block reward to 6.25. 
 
-Some people argue that he represents a point of centralization behind Ethereum.
+The next halving is estimated in the year 2024 and the reward will be reduced to 3.125 BTC. 
 
-He’s the personality driving Ethereum forward, and he’s a pretty likable guy, but what happens when he steps aside?
+The Bitcoin network is programmed to produce only 21 million bitcoin and the halving is what keeps inflation in check by slowing down the distribution. 
 
-His opinion can very easily shape the entire space, and he controls a lot of influence.
+About ⅔ of the 21 million BTC have been mined so far.
+Ethereum Consensus Model
+Ethereum currently uses Proof of Work for a consensus model. 
 
-Actually, just recently (5/23/18), Vitalik posted on Twitter that Google had reached out to him to try to hire him for a top secret blockchain project.
+Ethereum was introduced in a white paper by [Vitaly Dmitriyevich "Vitalik" Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), a Russian-Canadian entrepreneur and programmer from Toronto. 
 
-This is interesting especially since Google banned cryptocurrency and ICO ads on their search engine earlier this year.
+He envisioned the second-largest cryptocurrency when he “forked” or copied the Bitcoin code, made improvements and created the Ethereum blockchain. 
 
-Vitalik didn’t take the job, and instead made a poll on Twitter on whether or not he should take the job as a joke.
+This new blockchain was not only a currency exchange system but along with the [Ethereum Virtual Machine](https://ethereum.org/en/developers/docs/evm/), an interconnect, turing complete computer, open to programmers to develop. 
 
-Vitalik currently leads Ethereum’s research team, which contains another key player: Vlad Zamfir.
+It creates a platform that smart contracts can be executed and applications can be built upon. 
 
-Vlad is very outspoken and is a self-proclaimed troll, and often times disagrees with Vitalik: making for a culture of healthy debate within the space.
+Ethereum has always planned to move away from a Proof of Work consensus mechanism to a Proof of Stake. 
 
-Notably, Vitalik and Vlad have different visions for Ethereum’s upgrade to Proof-of-Stake, an alternative consensus mechanism to Proof-of-Work.
+Plans for Ethereum to adopt Proof of Stake will occur when [Ethereum 2.0](https://ethereum.org/en/upgrades/) is incorporated, this improvement is expected sometime in the second half of 2021.
 
-We’ll explore this in our second course.
+<h3>Hyperledger Fabric Consensus Model</h3>
+Hyperledger Fabric is a private permissioned blockchain platform that breaks consensus into components, allowing users to pick a consensus algorithm for their particular situation. Instead of a predetermined consensus model, Hyperledger has an ordering service that performs consensus related events, this ordering component can pick the consensus model that best suits the blockchains needs. 
 
-Gavin Wood is a co-founder and former CTO of Ethereum, and is famous for originally proposing Solidity as a high level programming language on top of the EVM.
+By approaching consensus in this modular fashion, Hyperledger DLT’s can change consensus models without huge overhauls to the code base.
 
-He’s the current CTO and Chairman of Parity technologies, which recently has been famous for the Parity wallet hacks.
+As explained by [Demiro Massessi](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03),
+<blockquote>
+"Hyperledger Fabric deliberately avoided hard-coding a consensus mechanism into the protocol by defining an “orderer component” that performs all of the consensus-related operations. This allows users of Hyperledger Fabric to select a consensus algorithm that fits their use case without being forced to make large-scale code edits".
+</blockquote>
 
-Nick Szabo is a researcher in digital contracts and digital currency.
+<h3>Corda Consensus Model</h3>
 
-He is known for designing Bitgold way back in 1998, and also for coining the term “smart contract.”
+[Corda](https://www.corda.net/) is a private permissioned blockchain. 
 
-Being an academic with quite a large internet presence, his articles are particularly useful.
+Each Corda network has a notary service made up of independent parties that approve blocks using any applicable consensus algorithms.
 
-Andreas Antonopoulos is the author of Mastering Bitcoin, which is an optional text for this course.
+As mentioned in [Jamiel Sheikh's](https://jamiel.io/#about-me) book “Mastering Corda: Blockchain for Java Developers”, R3 provides a set of Corda applications called The Corda Business Network Toolkit to manage one or more Corda networks. 
 
-He’s an author, educator, and speaker.
+Corda does not follow the standard blockchain model of transactions being bundled into blocks and then being finalized by the network as a whole. 
 
-He’s also known for coining the term “Internet of Money”, writing two books called The Internet of Money (volumes 1 and 2) and also Mastering Ethereum.
-
-Joseph Lubin was a co-founder of Ethereum.
-
-He also founded ConsenSys, which is a company that made great strides in developing the Ethereum ecosystem.
-
-<h3>Ethereum Research</h3>
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------- ConsenSys: Ethereum Infrastructure (332) ---------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image361.png" 
-   alt="ConsenSys: Ethereum Infrastructure" 
-   width="70%" />
-&nbsp;
-
-ConsenSys can be best described as a software foundry.
-
-It facilitates a variety of applications which operate on the Ethereum blockchain, and coordinates, incubates, accelerates, and spawns what it calls “spoke ventures.”
-
-For example, there’s uPort, which is identity management, the popular Truffle development suite, MetaMask, which links your web browser to Ethereum, and Gnosis, the prediction market platform we mentioned in the previous section.
-
-And here are some of the many other spoke ventures in Consensys.
-
-The Ethereum community also spawns a lot of original research.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ Reasearh: Paving the Road Ahead --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image362.png" 
-   alt= "Research: Paving the Road Ahead" 
-   width="65%" />
-&nbsp;
-
-Most notably is Casper, the Ethereum Proof-of-Stake implementation that we’ve mentioned a couple times in this module.
-
-There are two main implementations of Casper, and this is one of the topics we’ll dive into in our second course.
-
-There’s also Plasma, a proposed scalability upgrade to Ethereum inspired by a similar scalability proposal for Bitcoin called Lightning.
-
-You can see the resemblance in the name.
-
-And this is a bit less directly associated with the main Ethereum project, but there have been efforts to port Ethereum over to another blockchain platform called Cosmos, which claims to be the internet of blockchains.
-
-The project is called Ethermint, because it runs Ethereum on a modular blockchain system called Tendermint.
-
-We’ll go into this, and also Plasma, in our next course.
-
-<h2>Lecture 6: Summary</h2>
-
-<h3>I. Smart Contracts</h3>
-
-Smart contracts on Ethereum enable us to execute arbitrary computations on the blockchain. A smart contract is a piece of code that facilitates, verifies, or enforces the negotiation or execution of a digital contract. For us to reach consensus, a trusted entity must run this code.
-
-<h3>II. Ethereum</h3>
-
-Ethereum is a decentralized platform designed to run smart contracts. It is a distributed computer spread across many nodes around the world that executes the code people feed in it, without any possibility of downtime, fraud, censorship, or third-party intervention.
-
-Here’s a review of the similarity and differences between Ethereum and Bitcoin:
-
-<!------------------------------------------------------------------------------------------------>
-<!----- Table reviewing the similarities and differences between Ethereum and Bitcoin (334) ------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="/images/image363.jpg" 
-   alt= "Bitcoin Network: Flood the Network" 
-   width="85%" />
-&nbsp;
+Instead, a Corda network contains one or more notaries consisting of several independent parties. 
 
-There are two kinds of Ethereum accounts: 
-<ol type="1">
-<li>Externally Owned Accounts contain an address that allows people to send them ether and a balance of ether.</li>
-<li>Contract Accounts contain an address, persistent storage, and code which is executed by transactions or function calls.</li>
-</ol>
+Transactions in Corda are finalized by a notary with a multiparty digital signature using an algorithm like Raft.
 
-Ethereum smart contracts generally serve four main purposes: 
+<h3 id="ch3-7">3.7 Chapter Summary</h3>
+In this chapter, we discussed:
 <ul>
-<li>Store and maintain data</li>
-<li>Manage contract or relationship between untrusting users</li>
-<li>Provide functions to other contracts</li>
-<li>Complex authentication</li>
+<li>Smart contracts and benefits from using smart contracts,</li>
+<li>Differences between blockchain security vs. standard security,</li>
+<li>Differences between private and public blockchains,</li>
+<li>Factors in deciding on blockchain,</li>
+<li>Transaction flow in blockchain,</li>
+<li>Consensus mechanisms used in blockchain.</li>
 </ul>
 
-<h3>III. Ethereum Virtual Machines</h3>
+<h2 id="ch4">Chapter 4. Blockchains and Governance</h2>
+<h3>Chapter Overview</h3>
+<p>
+In this section, we will cover blockchain governance. 
 
-The Ethereum Virtual Machine enables the Ethereum blockchain to be programmable. Ethereum Smart Contracts are written in high level programming languages like Solidity, which have to be compiled down to Ethereum Virtual Machine (EVM) code. Every node runs EVM as part of its block verification procedure. Once the contract code is compiled to EVM code, every node in the Ethereum network executes the code. Nodes then come to consensus on the new system state. Note: Ethereum is redundantly parallel; its main goal is not to optimize computational efficiency, but to enable distributed and trustless computation.
+We will start by discussing the cooperative way blockchain companies share the computer code for this technology. 
+
+We will also explore how this open source environment is fostering new innovations. 
+And then we will examine who really is in charge of blockchains and how the network effect determines the direction a blockchain will take.
+
+Next, we will take a look at how these trustless systems with open interactions are more secure than past systems. 
+
+Finally, we will dive into the idea of collaboration among parties who don't trust each other and how blockchain technology is changing how the global community can interact. 
+
+This new form of world wide collaboration can be the key to solving the world's toughest problems.
+</p>
+
+<h3 id="ch4-1">4.1 Learning Objectives</h3>
+By the end of this chapter, you should be able to:
+<ul>
+<li>Discuss open source communities and blockchain source code,</li>
+<li>Discuss the different types of governance models and what types of governance are used in public and private blockchains,</li>
+<li>Analyze governance types in a blockchain and determine which are used for the more popular blockchains,</li>
+<li>Analyze examples of Decentralized Autonomous Organizations (DAOs),</li>
+<li>Summarize the advantages and disadvantages of a consortium blockchain.</li>
+</ul>
+
+<h3 id="ch4-2">4.2 What Is Open Source?</h3>
+Blockchain technology and the developers who work with it reinforce the basic tenet of decentralization in many ways. Not only by decision making consensus models, but also the way in which it distributes the software code.<br/>
+
+<ul>
+<li>Proprietary/closed source code<br/>
+Software controlled by the person, team or organization who created it and maintains exclusive rights over it. Only the original authors can legally copy, inspect, and alter the software. Most users of proprietary software sign an agreement giving permission to use the software but not alter it. Microsoft Office is an example of proprietary software.</li>
+<li>Open source code<br/>
+Computer code that describes a specific approach to creating software.
+When describing tools for distributing open source code Discipline Tools states, Open source initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency and community-oriented development. 
+Open source software is code that anyone can inspect, modify and enhance. 
+Much of the Internet was built on open source technologies. 
+Users of the computer software never interact with the source code, rather it's manipulated by programmers who improve and fix it. As with proprietary software, users must accept the terms of the license, but they are dramatically different structurally. 
+Linux and Kubernetes are examples of open source software.</li>
+</ul>
+Open source software fosters collaboration by sharing code and encouraging modifications and improvements. 
+Instead of charging for the software program, software developers find it more lucrative to charge for service around developing and maintaining these open source projects.
+
+<h3>Benefits from Open Source Software</h3>
+Developing software in an open source environment means a willingness to share and collaborate in a transparent way.
+<ul>
+<li>Control<br/>
+To a developer's open source means an individual can contribute to the direction the code takes. This open participation means coders who participate the most have more influence over the direction of the code.</li>
+<li>Training<br/>
+The ability to copy code and make your own changes in test environments act as invaluable hands-on training. This also fosters innovation as programmers can devise previously unthought-of functionality and code direction.</li>
+<li>Security<br/>
+In open source, software programs are considered more secure because they are open to peer review where errors can be spotted. Coders are encouraged to test code, find errors and develop fixes to bugs as long as they follow the process the network has in place.</li>
+<li>Stability<br/>
+Open source projects have a certain amount of code stability due to the openness for public review. A publicly distributed source code is openly reviewed and can expose situations that may not have otherwise been tested.</li>
+<li>Community<br/>
+Open source inspires the community to get involved. When contributing to an open source project, you join a community of people that ultimately affects the software you are interested in.</li>
+</ul>
+
+The programming code for Bitcoin, Ethereum, Hyperledger and other blockchains is open source.
+
+<h3>Introduction to Governance</h3>
+Humans are tribal by nature, we tend to attract each other and build tribes, villages, towns, cities, states and countries. 
+
+With these interactions comes a need to direct the behavior of the group. 
+
+These directions become the social norms among those who are living with or near each other. 
+
+These norms become the rules by which the behavior of the group is governed. 
+
+It doesn’t matter if the governance is the real world or the digital world, there are shared underlying principles within both. Let's take a look at who is involved.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Nodes in the Ethereum Network (335) --------------------------->
+<!----------------------------- Participants in Governance (119) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image364.jpg" 
-   alt="Nodes in the Ethereum Network" 
-   width="75%" />
-&nbsp;
+<img src="/images/image-participants-in-governance.png?raw=true"
+	alt="Participants in Governance"
+	width="65%" >
 
-As in Bitcoin, the nodes come to consensus using Proof-of-Work, removing the need for a trusted third party. Miners in Ethereum competitively create blocks by executing EVM code and searching for a solution to a mining puzzle.
+Governance can be undertaken by a government, market, network, organization, social system or family.
 
-The developers of Ethereum implemented ‘gas’ to protect against the Denial of Service (DoS) Attack, where an attacker includes an infinite loop in the smart contract to disable nodes from executing any other contracts. Gas is what fuels a given contract. You can think of purchasing gas as the price you have to pay to use this distributed, trustless computational power. This disincentivizes DoS attacks because attackers would have to pay an absurdly large amount of ether to execute this attack.
+For a governance process to work effectively, the above three principles will need to agree to the rules that govern the behavior. 
 
-Ethereum is implemented as a distributed state machine, and transactions on the network change the global state of the system. In the transaction execution, or “state transition function,” nodes in Ethereum come to consensus on the network state, and their code execution on the EVM changes the global state from the previous state to the new state. The function looks like this:
+The rules should be aligned with the overall participants' goals, and the leaders should have the ability to enforce positive and negative actions.
+
+Now that we have a simple understanding of governance, let’s analyze how this is taking place in both the standard world and the blockchain world.
+
+<h3 id="ch4-3">4.3 Governance Explained</h3>
+<p>
+Every business wants to make sure it's getting the best out of technology spending.
+
+IT governance is a formal framework that provides a structure for organizations to ensure that technology investments support business objectives.
+
+Now we all know that, despite our best efforts, things occasionally do go wrong.
+
+A large part of modern governance efforts includes planning for disasters in a way that ensures business continuity - the ability to remain available to customers no matter what.
+
+Modern decentralized solutions are most often created in a cooperative or consortium format - a shared joint effort business organizations.
+
+In these initiatives, it is important not only for clear and comprehensive governance to be in place, but for that governance to be consistent across participating organizations.
+
+These type of cross-organizational governance efforts represent an entirely new type of project initiative, and will require business analysts, solution architects, product and program managers, and executive leaders who understand the incredible potential and massive disruption that decentralized solution architectures bring to focus.
+</p>
+
+<h3>Governance Models</h3>
+A basic description of governance can be defined as a system by which behavior is directed.
+
+This direction is guided by a set of norms or rules and a way to enforce or keep order.
+
+The mechanism to enforce these policies can take many forms from a dictator who has complete control to a democratic governance model where the voice of the majority is recognized.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------- block_state, gas, memory, transaction, msg, code, stack, pc (335) --------------->
+<!--------------------------------- Governance Models (120) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image365.jpg" 
-   alt="Bitcoin Network: Flood the Network" 
+<img src="/images/image-blockchain-governance-model.png?raw=true"
+	alt="Blockchain Governance Models"
+	width="85%" </p>
+ 
+Blockchain governance models reflect a more democratic flavor due to the open source environment. Blockchains are composed of a community of users who work together to strengthen the system. The degree in which the majority rules can vary.
+<ul>
+<li>Representative democracy<br/>
+This type of governance has a few individuals, empowered by the group, to suggest new rules and guide future direction.
+The amount of authority the representative has is granted by the majority.
+The representatives selected reflect the views of the majority and are given authority to guide the community.
+The control comes from the community and representatives are presumed to act in the best interest of the governed. 
+This type of governance is more efficient as only a few debate the issue and decide on policy.
+Issues can occur when the majority opinion unevenly reflects the community, causing minority groups to be underserved. Also, the assumption is that the representatives are acting on the best behalf of the group and not in their own best interests.</li>
+<li>Direct democracy<br/>
+All decisions regarding the governance of the group are voted on by the entire community. In this form of governance model every vote counts and people have more control over the quality of policies. In this model it is best to have an educated community where everyone is willing to participate for the good of the whole.</li>
+</ul>
+
+<h3>How Does Blockchain Fit Into Governance?</h3>
+Each and every blockchain ecosystem that has or is being created will need some kind of governance mechanism in place.
+
+As discussed in the [“Bitcoin and Blockchain Governance: What It Is and Why It Matters”](https://www.bitcoinmarketjournal.com/bitcoin-and-blockchain-governance/) article by Evan Karnoupakis, traditional systems and laws are made and then enforced. When participants (miners, developers, and users) in the network are interacting, ideally they are acting in a way that’s best for the overall group. Being able to build a governance structure in a decentralized (sometimes anonymous, as well) world has proven to be extremely difficult, but this is a problem that many DLT companies are in the midst of solving.
+
+Most governance structures in the blockchain ecosystem are looking to achieve similar goals, such as:
+<ul>
+<li>Protocol changes and technical upgrades.</li>
+<li>Critical bug and vulnerability fixes.</li>
+<li>Using pooled funds for research and development.</li>
+</ul>
+<h3>On-Chain vs. Off-Chain Governance</h3>
+These goals can be achieved through many different methods of governance. When designing a blockchain, choices between on-chain and off-chain governance must be balanced.
+In the on-chain governance, rules for instituting changes are encoded into the blockchain protocol. This means that any decision being made is automatically being translated into code (e.g. decisions concerning block size). Developers propose changes through code updates and each node votes on whether to accept or reject the proposed change.
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- On Chain Governance Pros and Cons (122) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-on-chain-pros-cons.png?raw=true"
+	alt="On-Chain Governance Pros and Cons"
+	width="65%" </p>
+
+On the other hand, as discussed in the Medium article "Revisiting the On-chain Governance vs. Off-chain Governance Discussion",
+"Off-chain governance can be seen as decision-making that first takes place on a social level and is later actively encoded into the protocol by the developers. For instance, Bitcoin developers share their improvement proposals (BIPs) through a mailing list, whereas Ethereum collects improvement protocols (EIPs) on GitHub.
+Fred Ehrsam (Coinbase co-founder) argues that the Bitcoin governance system resembles the checks and balances system of the US government. Just like the Senate, developers submit a pull request to the community, the miners take the role of the judiciary who decides whether or not proposals are adopted in practice. Lastly, the users are just like citizens in a nation or state and can revolt and switch protocols or sell their tokens".
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- Off Chain Governance Pros and Cons (123) --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="/images/image-off-chain-pros-cons.png?raw=true"
+	alt="Off-Chain Governance Pros and Cons"
+	width="65%" </p>
+
+<h3>What Is Blockchain Governance?</h3>
+In the previous chapter, we discussed the decentralized characteristics of blockchains. But if blockchains are decentralized, how are decisions made and by who? Open source software organizations and open source software development projects need a way to manage projects. Most organizations are centralized and have a set leadership team. Before getting into the details of how governance works on the blockchain, it’s important to have a clear definition of what blockchain governance is.
+In order for a blockchain to survive, it must adapt to the needs of its users and advances in technology. The way the changes are debated and decided upon is important for these decisions to be implemented. A decentralized ecosystem is designed not to be under the control of a single source, there is no CEO to take responsibility for issues. This means blockchains need a new strategy for governing the policy it wants to adopt.
+Strategies must include incentives so the members want to be good actors in the system. The efforts of the group must be coordinated to be productive. Both of these elements are necessary in blockchain governance models.
+
+<h3>Blockchain Governance Strategies</h3>
+Several different blockchain governance strategies have been proposed and implemented for different blockchains. Let's review some blockchain governance strategies sorted from the fewest to the most members directly involved in the decision, as discussed in the "Blockchain Governance In A Nutshell" article by Demiro Massessi:
+  •	"Benevolent dictator for life
+The original creator or lead developer of a cryptocurrency has the final say on all decisions. The simplest governance strategy is nicknamed benevolent dictator for life. In this strategy, the creator of the blockchain is the final authority on all decisions regarding the blockchain (...).
+  •	Core development team
+A team of the most active developers decides what functionality should or shouldn’t be included. The next step up places control of the blockchain roadmap in the hands of a core development team. This is a strategy commonly used in open source programming projects, where users are able to offer or request features, but developers have the final say on what is or is not included in the official release.
+  •	Open governance
+The team making governance decisions for the blockchain is chosen by the users of the blockchain. Some blockchains use the open governance method of handling governance of the blockchain. In this system, the team that makes the final technical decisions for a system is selected by the system’s users.
+  •	On-chain governance
+The rules for how the blockchain operates are stored on-chain in smart contracts with built-in capability and procedures for modifications. A blockchain-specific governance strategy is on-chain governance. In this form of blockchain governance, the rules describing how the blockchain should operate are stored on the blockchain itself. These regulations typically are implemented as smart contracts on the blockchain with built-in methods for users to modify the rules based upon their needs and the needs of the blockchain".
+
+<h3>Consortium Governance</h3>
+Due to blockchains built in trust and collaboration mechanisms, new pathways are opening up for enterprises to work together. A new form of collaboration fostered by blockchain is consortiums. Consortium, as defined by Webster's dictionary, is
+"an agreement, combination, or group (as of companies) formed to undertake an enterprise beyond the resources of any one member".
+Most enterprise blockchain solutions will be implemented by a "consortium" of enterprises, building one or more applications on top of a "blockchain platform". These consortiums are already forming in many industries to deal with the particular problems of those industries. Alliances in Trade Finance, Carbon Emissions Accounting, Social Impact and Healthcare have working blockchain consortiums solutions.
+
+<h3>Who Really Governs the Blockchain?</h3>
+Blockchain governance comes down to the users. For a blockchain community to thrive it needs a robust community. Changes to the operation of the blockchain must be accepted by the majority of its users or they will create a new blockchain that does. The process by which changes are made follow these five steps discussed by Pierre Rochard in his article "Bitcoin Governance":
+ 
+The changes to a blockchain starts with research. Before the problem or situation can be addressed it must be understood. A proposal consists of a problem definition and a proposed solution. Implementation requires a little bit more work as the nodes and user must agree to the change or it can not be enforced.
+As explained in the "Blockchain Governance In A Nutshell" article by Demiro Massessi:
+"Major changes to a blockchain require a hard fork. A hard fork is a change to the blockchain protocol that makes it incompatible with old clients.
+For a hard fork to be successful, users need to agree to follow it. Users can refuse to follow a hard fork, creating a divergent blockchain. The DAO Hard Fork on Ethereum created Ethereum Classic.
+
+Despite the official story of who governs the blockchain, in the end, the users are the ones who really make the final decisions of what will or will not be included in the blockchain. With the huge number of potential options, users can abandon a blockchain that makes changes that they disagree with.
+Any major change to a blockchain requires a "hard fork". All this means is that the blockchain protocol has changes that are not backward compatible, so blockchain clients that do not make the switch will not be able to operate on the main blockchain. A soft fork is a change that invalidates previous valid blocks by accepting new blocks, soft forks are backwards compatible. For a hard fork to be successful, users of the blockchain need to make the decision to update their software protocols to incorporate the new changes.
+If not all users decide to make the switch after a hard fork, a divergent blockchain can be created. Since the blockchain is a distributed network, the decision to implement a hard fork doesn’t cause the old version of the blockchain to become non-functional. Users who choose not to follow the fork can decide to maintain the old blockchain, fragmenting the blockchain network".
+
+<h3>Bitcoin Network and Governance</h3>
+As we mentioned in previous sections, Bitcoin uses a Proof of Work model to encourage miners to add blocks to the network. This governs the operations of the blockchain. But what happens when changes need to be made? How do they get implemented? The Bitcoin community consists of three main players: developers, miners, and users. None of these participants have the ability to make emergency decisions when unexpected situations occur. Bitcoin uses an off-chain governance model where decisions are balanced by the developers, miners and users. In blockchain, developers must write the code to change the blockchain. Without the consent of the miners and users, the developers have no way of enforcing the change. Miners and users must choose to adopt the new software changes.
+
+<h3>Bitcoin Improvement Protocols (BIP)</h3>
+When a change to the Bitcoin protocol is needed, developers will share the proposed change with other protocol developers.
+This improvement sharing could be in the form of an email to the bitcoin-dev mailing list, a formal white paper, and/or a Bitcoin Improvement Proposal (BIP).
+Code is written and tested that will enact the change.
+If developers in the community approve the proposals and resulting code, the proposal is put to a vote on chain and the miners decide if the proposal is implemented. This occurs through a hard or soft fork.
+This system is not without faults, as can be seen with the SegWit improvement protocol which alters block size.
+The vision surrounding blockchains deals with decentralization.
+By implementing the SegWit changes, a change in how the Bitcoin blockchain protocol operates, a central authority was responsible for enacting the change.
+To many in the community this decision went against the fundamental tenets of blockchains decentralized philosophy.
+As a result, the Bitcoin community was torn and the Bitcoin Network split into two different chains Bitcoin (BTC) and Bitcoin Classic (BCH).
+The Bitcoin Foundation is set up to educate and promote the Bitcoin Blockchain.
+
+<h3>Governance in Ethereum</h3>
+Vitalik Buterin first described the concept of Ethereum through a Whitepaper introduced at the Bitcoin Convention in Miami 2014. 
+It was based on the code for Bitcoin, but included a logic engine that could execute smart contracts. 
+By connecting computers using the Ethereum blockchain, computing power is aggregated creating the Ethereum Virtual Machine. 
+Ethereum is not only a functioning blockchain with smart contract capabilities, but a platform for new blockchains to be built upon. 
+The EVM computing does not come free, a GAS price is charged for the GAS needed to perform the transaction’s computations. 
+This GAS fee can change dramatically depending on network conditions as the current price of Ether is part of the calculation.
+
+<h3>Ethereum Improvement Proposals EIP’s</h3>
+Like Bitcoin, Ethereum's three main players (developer, miners and users) must update code to improve on functionality.
+Ethereum Improvement Proposals (EIPs) are standards specifying potential new features or processes for Ethereum. EIPs contain technical specifications for the proposed changes and act as the “source of truth” for the community. A note worth EIP was the code for issuing a token.
+The Ethereum Request for Comment, ERC-20 introduced the standards for issuing utility tokens on blockchain based on Ethereum protocols.
+The Beacon Chain introduced the Proof of Stake consensus model and the concept of sharding.
+Sharding is the concept of running parallel side chains to alleviate congestion of the network. 
+The Berlin Hard fork and the London Fork are improvements to stabilize fees paid to the miners so these fees do not fluctuate with the price of Ether.
+Ultimately, Ethereum uses the benevolent dictator for life mode of blockchain governance.
+While user input and input from the development team is welcome for Ethereum, Vitalik Buterin is the final authority on decisions regarding the Ethereum roadmap.
+
+<h3>DAO Hard Fork on Ethereum</h3>
+One famous example of this type of fragmentation is the DAO hack on the Ethereum network. The DAO was an Ethereum smart contract that completed a record-breaking crowdfunding campaign on the Ethereum network, with all of this value stored within the DAO smart contract. A flaw in the smart contract’s code allowed an attacker to create another version of the smart contract under their control and siphon off a portion of the DAO contract’s funds, worth roughly 72 million dollars at the time.
+After much debate, the Ethereum network decided to implement a hard fork that allowed investors of the DAO to reclaim their stolen Ether.
+This was a very contentious decision, because the historical ledger in the blockchain is supposed to be immutable and all transactions are final.
+Smart contracts are supposed to be their own final authority, so any action that could be performed with a smart contract, including exploiting a programming flaw to drain value from it, is considered fair game. The Ethereum network’s decision to reverse the DAO hack went against the principles of blockchain’s immutability and the supposed self-regulation of smart contracts.
+Some of the Ethereum network refused to follow the DAO hard fork, resulting in a divergent blockchain where the DAO hack was successful. 
+This created the Ethereum Classic cryptocurrency, which shares the same history as Ethereum up to the DAO hack, but is completely independent after that point.
+
+<h3>Governance in Hyperledger Frameworks</h3>
+Hyperledger was introduced as an open source blockchain project sanctioned by the Linux Foundation. 
+Spearheaded by Brian Behlendorf, its mission is to provide the community with the tools and education to foster distributed ledger technology on an enterprise level. Hyperledger frameworks use an Open Governance model to make technical decisions regarding the Hyperledger environment.
+The Hyperledger Technical Steering Committee (TSC) is the final authority for technical decisions in Hyperledger.
+Each year, the Hyperledger Technical Steering Committee is selected from the Hyperledger environment’s active contributors and maintainers.
+Contributors and maintainers can submit themselves as potential candidates for the fifteen slots, and the slots are filled based on voting by the same group of contributors and maintainers.
+This model is designed to allow those with an active role in the Hyperledger development community to have a say in how that community is governed.
+
+<h4>Governance in Corda</h4>
+Corda is an open source blockchain project designed for business. Developed by R3, an enterprise blockchain software firm, in collaboration with over 200 technology and industry partners. The Corda platform was launched in September of 2017. Corda also uses an Open Governance model to make technical decisions regarding the future of the blockchain. The Corda Network Governing Body is selected to represent the interests of all users in the Corda network.
+
+<h4>Working Groups and Special Interest Groups</h4>
+Working Groups and Special Interest Groups are consortium-based discussion sessions to complete a task or develop a whitepaper, prototype, platform or project. 
+These collaborations are aimed at developing open source standards and projects to accelerate the acceptance of blockchain.
+
+<h4>Enterprise Ethereum Alliance Working Groups</h4>
+There are two types of the EEA working groups:
+  1. Technical which tackles developing standard and resolving specific problems.
+  2. Core Specific Working Groups which ensures quality interoperable implementations.
+Some examples of the EEA’s working Groups include: _Client Interoperability Testing_, _Core Specifications_ and _Cross-Chain Interoperability_.
+
+<h4>Interest Groups (IGs)</h4>
+IG’s are designed to foster information exchange across vertical, industry-centric groups where EEA members in specific industry segments can exchange information.
+Some examples of the EEAs Interest Groups are: A.I. and Blockchain, Ethereum Mainnet, Supply Chain, Financial Services and Tokenization.
+
+<h4>Hyperledger Wiki</h4>
+It is a Linux sponsor environment for projects, Working Groups and Special Interest Groups to exchange ideas and develop projects.
+
+Working Groups in Hyperledger are developed for specific purposes.
+For example, the _Learning Materials Working Group_ focus is on supplying templates, assisting the project in developing documentation and collecting and categorizing resources created by the vast Hyperledger community.
+The LMDWG wiki home page also provides a list of weekly events in and out of the Hyperledger community. 
+Each working group has a wiki home page and a “Join This Group” button.
+
+Some example Hyperledger’s Working Groups: _Identity_, _Diversity and Inclusion_, _Performance and Scale_, and _Technical Working Group China_.
+
+Special Interest Groups at Hyperledger are designed to tackle cross industry issues by supplying an open environment for information exchange. 
+The Climate Action and Accounting SIG is developing a carbon calculator spearheaded by Si Chen for global consideration. 
+The "Resources" section on the wiki page has current information about the global emergency. 
+Please consider joining this conversation as it affects all humans.
+Some examples of other Special Interest Groups: _Capital Markets_, _Healthcare_, _Public Sector_, _Social Impact_, _Supply Chain_, _Media and Entertainment+, _Telecom_, and _Trade Finance_.
+
+<h4>Government Blockchain Association (GBA)</h4>
+The GBA promotes blockchain technology by empowering individuals and organizations to connect, communicate, and collaborate to solve public sector challenges around the world.
+The GBA hosts international events like the Government Blockchain Week at the US Capital where they recognize new blockchain emerging projects with an award ceremony. Spearheaded by a tireless Gerard Dache, the GBA cultivates professional work flows between technologists, public policy makers, application specialists, and those who want to learn about the new and emerging digital currencies. 
+Furthermore, GBA acts as a catalyst in creating a public dialogue around the creative, profitable, and positive leveraging of blockchain technology.
+You can find examples of the GBA Working Groups here.
+As previously mentioned, blockchain is about community. Become part of a growing community by joining a special interest group or working group and become part of the conversation.
+
+<h4>Governance With Autonomy - Driverless Cars</h4>
+Let's discuss governance with autonomy.
+Let's jump 20 to 25 years into the future and see where we've gotten with AI and autonomous drive.
+Driverless cars have now evolved to the point where a company can own a fleet of autonomous vehicles all driving in a variety of directions, moving items as well as people.
+But it's more than just that. Each car is pre-programmed with a set of guiding principles.
+For example, don't hurt humans, reach X percentage of profits within the month, maintain a set percentage of holistic health, etc.
+Consider the following scenario: A vehicle arrives to pick up a passenger for transport within a set time frame to take them to their scheduled meeting.
+The passenger is running late and therefore decides to take advantage of the option to pay an extra fee for an expedited route.
+Conceivable solutions to provide this options could include designating a lane on the highway for users paying the premium or sending micropayments to other vehicles in exchange for adjusting their travels to create a clear path for the expedited vehicle.
+Once the passenger has been delivered to the appropriate destination, the vehicle recognizes the need for maintenance after running an internal diagnostic.
+After repairs are completed, the vehicle heads off to a charging station and then moves on to the next customer.
+This can eventually be applied to blockchain governance.
+More specifically, decentralized autonomous organizations.
+This is a concept that quickly manifested itself after the Bitcoin white paper spread and people began to run through thought exercises.
+
+<h4>Decentralized Autonomous Organization (DAO)</h4>
+An organization whose operating rules are encoded into a computer program controlled by its members.
+It is composed of a complex stack of smart contracts that form a decentralized application (Dapp).
+In simple terms, a DAO is an organization that runs on a stack of computer programs (called smart contracts in the blockchain world) that are all interconnected to maintain a set of pre-programmed rules that have been previously voted upon by a community. 
+When thinking about regular corporations stripped all the way down to their bare bones, they are basically different groups following rules, responsibilities, and duties given from those sitting at the top of the organization. 
+The bigger they are, the more complex these pieces become. At the moment, a DAO's goal is to automate this complex system piece by piece.
+Within each DAO, there is a kind of pooling process for humans to contribute new rules into the system. 
+These rules are then presented to the community and voted upon, based on the DAOs previously created rules. 
+These new rule commitments will need majority agreement (may be different for each DAO) from the community to make this rule real. 
+If this new computer-coded rule is accepted by the community, then it will be placed into the stack of other computer coded rules to improve the overall autonomous organization.
+  
+<h4>Decentralized Autonomous Organization (DAO)</h4>
+As our technology advances, the world around us becomes more and more automated.
+Take securities trading, for example.
+In the 1950s, experts began designing the algorithm and rules that an automated trading system should follow.
+In the 1980s, technology began catching up and those algorithms could finally start to be implemented.
+Systems improved in the 1990s.
+And in 2008, the world's first fully automated trading system, Betterment, went live.
+Just six short years later, more than 75% of shares traded on US exchanges were made by fully automated systems.
+As we continue to use technology to automate more and more of our business processes, the concept of a DAO, or a Decentralized Autonomous Organization, has emerged.
+The basic idea behind a DAO is simple.
+Most business processes are governed by a set of well-defined rules and procedures.
+These rules and procedures can be codified as smart contracts on a decentralized network, thus, automating business process.
+This decentralized nature of Web 3.0 technologies like blockchain makes it much more fault-tolerant, as well as providing a built-in layer of redundancy, backup and error correction.
+
+Consider the following example set sometime in the near future, when fully autonomous vehicles and consumer grade artificial narrow intelligence are common.
+An entrepreneur notices a lack of ride-sharing services available in her town and decides to enter the market.
+She saves enough capital to purchase a fully automated vehicle, as well as an AI Deep Learning system to analyze traffic and demand patterns and design optimal routes for the vehicle to cover.
+Now, over time, this single vehicle earns enough to fund the purchase of a second automated vehicle.
+The business is able to manage its own operations, forecasting and modeling, and grow with little to no human intervention.
+This is the conceptually ideal model of a DAO.
+
+<h3>Governance for Enterprise</h3>
+We’re focusing on governance in the consortium space, not governance within an enterprise company.
+
+So what is a "consortium"? 
+A consortium is just a grouping of institutions (possibly individuals) getting together to achieve a mutual goal.
+
+This goal can be setting some standards for their industry (Department of Justice), selling products (Airbus), sharing resources (Universities), etc. 
+
+In a consortium, the only real obligation you have to others who are taking part would be providing resources for specific tasks and sticking to the rules laid out prior to you joining. 
+Within blockchain, there are many different industries creating their own consortiums, such as financial services, life science and health care, energy, media and telcos, and the public sector.
+
+Governance becomes much easier when it’s in a controlled environment, with each member agreeing upon set rules prior to jumping in with everyone else. Governance structures vary by industry and profit vs. non-profit, so there will be no set governance model everyone uses, but there are two we’ve come across in the blockchain space:
+  •	One is including the formation of smaller subgroups to work on specific issues.
+  •	The second is providing several levels of potential engagement, ranging from participation in monthly calls to active technology development.
+
+The point we would like to get across here is that a consortium governance model is currently more efficient than most decentralized blockchains.
+
+<h3>Governance for Enterprise: Consortiums</h3>
+Almost all consortiums up to this point have been permissioned and not decentralized permissionless blockchains, which is an opportunity cost most companies make when joining. 
+At a high level, a permissioned blockchain is just that, a chain in which others must have permission to operate on.
+So, all the nodes operating on a permissioned chain have been verified by the central institution that is the authority of the network and the transactions that are confirmed don’t necessarily have to go through all the nodes.
+
+These consortium blockchains have historically taken two approaches:
+  •	Business-focused consortia
+They aim to build and operate blockchain-based business platforms to solve a specific business problem (e.g. Digital Trade Chain – focused on cross-border payments).
+  •	Technology-focused consortia
+They seek to develop reusable blockchain platforms based on technical standards (e.g. Hyperledger).
+
+<h3>Consortiums: Pros and Cons</h3>
+Let's see what are some pros and cons of consortiums:
+
+picture here
+
+<h3 Id="ch3-4">4.4 Identity on the Blockchain</h3>
+In this section, we're going to discuss identity on the blockchain.
+
+Let's start by understanding why we even need to have an identity on the blockchain.
+
+Centralized systems can be coerced by other forms of authority to shut down their network.
+
+Let's take Napster for example.
+
+Napster had a decentralized network architecture, but they maintained the centralized authority.
+
+Therefore, the central authority could be attacked and, by taking out the central authority, could effectively control Napster.
+
+This is because Napster relied on that mix of centralized control over a decentralized network.
+
+This impacted identity because you need an identity to control.
+
+Torrents on the other hand, they do not operate in the same fashion.
+
+Torrents provide a decentralized network with decentralized authority.
+
+This allows the nodes to manage identity differently.
+
+It's also the reason why torrents are still being used today, in spite of the entertainment industry's best efforts to stop it.
+
+Torrents remove the central authority.
+
+This begs the question "Why didn't point-to-point networks like torrents attain the same level of acclaim as blockchain?"
+
+Because there's no guarantee that the nodes would do the right thing.
+
+Nobody could guarantee that the nodes would cooperate with each other.<br/>
+
+This leads to an extremely important question.
+
+How do you incentivize the nodes on the network to follow the rules?
+
+In a torrent system, anyone can download and share a file, but there's not a real incentive to be a good actor on the network.
+
+What happens when people do something dishonorable on a torrent for instance, and stop seeding the files that ate up bandwidth or occupied space on their computers?
+
+Instead of music going to the network or other files, what if it were money going through a point-to-point network, through a bank network, let's say?
+
+Your transactions would never be processed reliably.
+
+You couldn't trust that the processing was not messed up, either deliberately or accidentally.
+
+Further, because of anonymity and the way that identity works in the blockchain, you wouldn't have a way to punish or reward the actors.
+
+Blockchain solved this problem.
+
+It perfectly incentivized how to create a decentralized self-contained network using crypto economics.
+
+This differed from earlier point-to-point networks because it offered economic incentives to the nodes that followed the rules.
+
+Nodes are given money for following the rules.
+
+This money is in the form of cryptocurrency.
+
+The nodes were punished for tampering with the system or with past transactions, or submitting a bad transaction.
+
+This is why all public blockchains can operate without an authority.
+
+It is also the reason why cryptocurrency is mandatory for a public blockchain, and not needed for a private blockchain.
+
+Because you need a way to incentivize the actors on the network.
+
+Consider how these rewards and these punishments work and how a system without a central authority can determine what is valid and what is invalid.
+
+On the blockchain, identity is important.
+
+You have to be able to prove that your assets actually belong to you.
+
+Different blockchains they use different systems for tracking identity and identity information, but most are based on the principles of public key cryptography.
+
+Before we get into the details of how identity works on the blockchain, we need to discuss the basics of public key cryptography.
+
+The security of a public key cryptography it's based on let's call them hard math problems.
+
+By that, I mean a hard math problem is one where it's easy for someone to calculate it, but it's hard for someone to reverse that calculation.
+
+Take multiplication, for example.
+
+All things considered, multiplication is easy.
+
+If you have a little bit of time, something to write with, you can pretty much multiply any two numbers and get the right answer.
+
+A computer can do can do that even more quickly.
+
+Factoring on the other hand, it's hard.
+
+The best way to factor a large number is to try every possible factor until you find the right one.
+
+Well, this approach works well if the number to be factored is small.
+
+It quickly becomes virtually impossible with a sufficiently large factor.
+
+Some public key cryptography algorithms are designed so that breaking the algorithm requires factoring very large, usually prime numbers.
+
+Another hard math problem used in public key cryptography is based on exponents and logarithms.
+
+Exponents are easy, since it's essentially multiplication, and logarithms are hard, since you're essentially factoring.
+
+Most public key algorithms that use exponents use a type called modular exponents.
+
+All this means is that when they're done calculating the exponent, they divide the result by a publicly-known value called the modulus, and they keep only the remainder.
+
+RSA is a commonly known public key cryptography algorithm.
+
+It's based on exponents and logarithms.
+
+RSA uses the power law of exponents.<br/>
+
+What this means is that, if you take a number, you raise that number to a power, and then raise the result to another power, that you'll get the same result as if you simply multiply the two exponents together and then raise the base to the result.<br/>
+
+An RSA user chooses two exponents so that any number raised to the product of the two exponents in a given modulus produces the original number.<br/>
+
+One of these is called the public key and that public key is distributed freely, while the other is the private key, which is intended to be kept secret.<br/>
+
+If someone wants to send a private message to the user, they convert it to an integer using a publicly-known method.<br/>
+
+They raise it to the power of the user's public exponent and they send the result to the user.<br/>
+
+The user raises the received value to their private exponent producing the original message.<br/>
+
+RSA is secure because an attacker must be able to calculate a logarithm to determine the secret message.
+
+Since this takes guessing every possible value until the correct one is found,
+
+RSA is designed to make the number of potential values so large that finding the right one is pretty close to impossible.
+
+Another public key algorithm uses different math behind the scenes, but the basics are effectively the same.<br/>
+
+A user creates a public key and the private key that can be used together for either encryption or signing, which we'll talk about later.<br/>
+
+The algorithms are designed so that an authorized user only has to do the, quote, "easy calculations", while an attacker has to perform the hard calculations, and the algorithm is designed to make attacking so that the hard algorithms are close to impossible.<br/>
+
+Public key cryptography is how identity is handled on the blockchain.<br/>
+A user's address on the blockchain it's their public key.<br/>
+This has several useful properties.<br/>
+Users do not need to reveal their identity on the blockchain, but they can positively identify themselves, since determining their private keys requires solving a quote, "hard problem".<br/>
+Anyone can send a user an encrypted message, since they have easy access to their public key.<br/>
+
+Users can verify the validity of their transactions using digital signatures.<br/>
+
+You can think of a digital signature as the opposite of an encrypted message.<br/>
+
+In RSA, anyone can send an encrypted message to a user by converting it to a number, raising it to their public exponent, and sending the result to them.<br/>
+
+The user's public and private keys are designed so that the users can retrieve the original message by raising the received message to their private exponent.<br/>
+
+RSA digital signatures involve the opposite process.<br/>
+
+A user writes a message and raises a condensed form of the message to the power of their private exponent to create a signature, then they publish that signature.<br/>
+
+Their public key and their message are both published together.<br/>
+
+Anyone can verify the signature using a simple three-step process, condense the attached message using the same method as the message writer, the message originator, raising that attached signature to the user's public key, then verifying that the results of the previous two steps are identical.<br/>
+
+Digital signatures work for the same reason that encryption works in RSA.<br/>
+
+An attacker needs to know the user's private key to perform either operation, and the algorithm is designed to make that process difficult or very close to impossible.<br/>
+
+This means that identity on the blockchain boils down to the possession of a user's private key.
+
+It is absolutely important that that private key be kept safe.<br/>
+
+In Ethereum, a user's identity is managed using a public key or address, and the user can use the corresponding private key to sign transactions and read encrypted messages that are sent to them.<br/>
+
+In Hyperledger (Fabric) and Corda, identity is encoded in x.509 certificates, which include the user's public key.<br/>
+
+In Corda, specifically, certificates can either be public, which means that they are published to the blockchain, or confidential, meaning that they are only shared with the parties that the owner performs transactions with.<br/>
+
+<h3>Identity</h3>
+Self-sovereign identity and blockchain solutions introduce identity management in a way that can improve a system considered broken. This topic will be examined in the next chapter. In this section, we will cover identity as seen through transactions and how and if you want your identity tied to a transaction.
+
+<h3>Anonymity in the Blockchain</h3>
+In this section, we'll discuss anonymity on the blockchain.<br/>
+
+Privacy and anonymity on the blockchain are a crucial part of its success in some applications.<br/>
+
+If individuals or organizations are performing transactions on the blockchain, they may not wish this to be public knowledge.<br/>
+
+Different blockchains have different levels of anonymity and privacy built into the protocol.
+
+As discussed earlier, public key cryptography is at the center of maintaining identity on the blockchain.
+
+It uses a pair of public and private keys to make encryption and digital signatures possible.
+
+At this point, we need to take a look a bit more into the relationship between a user's keys and a user's actual identity.
+
+The first thing to consider is that there is nothing about a public key that ties it to its corresponding private key.
+
+We've said that a digital signature verifies that an owner of the corresponding private key created the signature, but that is all that it says.
+
+Since private keys are secret, obviously it can't be possible for someone to determine a private key from a public key, at least it shouldn't.
+
+If you know a user's private key, you can calculate the public one, but the reverse is not true.
+The other thing to keep in mind is that private keys are just numbers, and can't be tied to a person's actual identity, their real-world identity.
+
+Identity on the blockchain is just possession of the relevant private key, and even if someone guesses or steals that private key, they can't learn its owner's actual identity from it directly.
+
+The original blockchains did not have much in the way of privacy and anonymity protection.
+
+You can't tie public keys to private keys or private keys to real-world identities, which means that blockchain users have a limited amount of built-in privacy.
+
+However, every transaction on the blockchain is public and stored there forever.
+
+This means that a lot of information about the users' identity could be learned through sifting through the data stored on the blockchain to obtain the metadata.
+
+Based on the repeated transactions to places like a coffee shop or a market, someone could get an idea of where an individual lives and their habits.
+
+For businesses, repeated transactions may indicate business relationships that may lead to a loss of a competitive advantage if leaked.
+
+On basic blockchains, anonymity only goes so far.
+
+The limited level of anonymity and privacy protections available on the original blockchain has inspired development of enhancements that increase privacy, while still allowing transactions to be verified and validated publicly on the blockchain.
+
+This is an incomplete list of some of the mechanisms developed and implemented in various blockchains.
+
+We'll start with zero knowledge proofs.
+
+They use cryptography and cryptographic algorithms to allow a user to prove knowledge of a secret without revealing the actual secret.
+
+A common example of this type of proof includes a colorblind person and two objects identical except for the color.
+
+The colorblind person shows one object to the prover, conceals both objects, and then shows one to the prover again.
+
+The prover then says whether or not they are the same object.
+
+Since the only way of determining this reliably is that the objects are different colors, the prover can prove the difference in colors without revealing the color of either object.
+
+Another approach is stealth addresses.
+
+Stealth addresses involve using one-time addresses to perform transactions on the blockchain.
+
+A stealth address is just a one-time address that makes it impossible to link a transaction to a known account.
+
+What this does is prevents the data mining attacks on privacy that we discussed earlier.
+
+We mentioned previously that transactions are digitally signed.
+
+With ring signatures, all that can be determined from a transaction is that a member of a group signed it, but not the particular member.
+
+The ability to see who is performing transactions with whom is dangerous to user privacy and anonymity.
+
+Protocols like CoinJoin mix several transactions together, so that it is difficult to pair senders with recipients.
+
+Confidential transactions take advantage of homomorphic encryption, which makes it possible to perform mathematical operations on encrypted data.
+
+This means that the data contained in a transaction can be hidden from the public, while still allowing the network to verify that the transaction is valid.
+
+Now, let's discuss how different blockchains implement the various privacy and anonymity mechanisms available.
+
+We start with the Ethereum.
+
+Ethereum does not currently implement many real advanced options for privacy or and/or anonymity.
+
+In the current version, user anonymity is limited to the fact that no one can tie a public key to a real-world identity.
+
+This is intended to change in the future though, and the Ethereum roadmap currently includes laying the groundwork for implementing zero knowledge proof.
+
+Hyperledger (Fabric) provides several options for privacy and anonymity.
+
+At the lowest levels, users can achieve increased anonymity through channels which can further encrypt the data that's stored on the channel using keys only available to members of the channel.
+
+At the next level, Hyperledger Fabric also allows users to perform private transactions.
+
+In a private transaction, data is stored on the cloud, but the hash of the data is stored on the blockchain.
+This allows users to use the blockchain to ensure data authenticity without storing the actual data publicly on the blockchain.
+
+Finally, Hyperledger supports zero knowledge proof, where a prover can demonstrate possession of some data without revealing the data itself.
+
+These different levels of privacy and anonymity protection gives users a higher degree of configurability on the Hyperledger Fabric blockchain.
+
+Finally, Corda allows users to perform transactions either as a party or an anonymous party on their blockchain.<br/>
+
+An anonymous party has the same level of anonymity protection as a basic blockchain, relying on the fact that public keys cannot be tied directly to real-world identities.<br/>
+
+A party on the Corda blockchain reveals the real-world identity of the user which intentionally sacrifices anonymity for identity validation.
+
+<h3>Advanced Blockchain Anonymity Techniques</h3>
+The following are only some of the mechanisms developed and implemented in various blockchains:
+<ul>
+<li>Zero-knowledge proofs<br/>
+Zero-knowledge proofs use cryptographic algorithms to allow a user to prove knowledge of a secret without revealing the secret. A prover proves knowledge of a secret without revealing it. New technology referred to as SNARK (Succinct Non-interactive - ARgument of Knowledge) are fine tuning privacy issues on blockchains.</li>
+<li>Stealth addresses<br/>
+Stealth addresses involve using one-time addresses to perform transactions on a blockchain. A stealth address is just a one-time address that makes it impossible to link a transaction to a known account. This prevents the data mining attacks on privacy that we discussed earlier.</li>
+<li>Ring signatures<br/>
+We mentioned previously that transactions are digitally signed. With ring signatures, all that can be determined from a transaction is that a member of a group signed it, but not the particular member.</li>
+<li>CoinJoin<br/>
+The ability to see who is performing transactions with whom is dangerous to user privacy and anonymity. Protocols like CoinJoin mix several transactions together so that it is difficult to pair senders with recipients.</li>
+<li>Confidential transactions<br/>
+Confidential transactions take advantage of homomorphic encryption, which makes it possible to perform mathematical operations on encrypted data. This means that the data contained in a transaction can be hidden from the public, while still allowing the network to verify that the transaction is valid.</li>
+</ul>
+
+<h3>Specific Anonymity Implementations</h3>
+<ul>
+<li>Ethereum<br/>   
+Ethereum is working on improving the zero-knowledge proofs, mixing and DAPPS (applications developed to improve anonymity) to strengthen privacy. 
+Also, ConsenSys, the Enterprise Solutions builder for Ethereum introduced QUORUM, a fork of the Ethereum blockchain which enables users to benefit from the public Ethereum blockchain while enjoying features from a private network. Developed by JPMorgan, it is a permissioned implementation.</li><br/>
+<li>Hyperledger<br/>   
+   <ul>
+   <li>Channels: Subsections of the blockchain that make transactions visible only to members.</li><br/>  
+   <li>Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.</li><br/>
+   <li>Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.</li></li><br/>
+</ul>
+<li>Hyperledger Besu<br/>
+Besu is an Ethereum client that runs on the Ethereum public network, private networks, and test networks such as Rinkeby, Ropsten, and Görli.
+Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.</li><br/>
+<li>Corda<br/>
+Parties on the Corda Network can be represented in one of two ways:
+   <ul>
+   <li>Party: A public key and name.</li><br/>
+   <li>Anonymous party: Only a public key.</li></li><br/>
+   </ul>
+</ul>
+<h3>Trust in Blockchains</h3>
+Just as there are benefits with blockchain technology, there are also some challenges. 
+Blockchain is a culmination of technologies that have been blended to provide a trustless platform. 
+Expect some challenges and use case justifications taking the old line of business apps to the blockchain.
+
+Let's recap the features of a blockchain that establishes trust:<br/>
+
+   * Blockchain technology is about storing some kind of data (which are transactions in regards to the Bitcoin blockchain).
+   * Blockchain is essentially transferring trust from an intermediary to technology.
+   * Storing data in the blockchain is through cryptographic functions.
+   * Private key/public key.
+   * Collaboration through consensus.
+
+<h3>Establishing Trust in Blockchains</h3>
+All transaction data on a chained block is assumed to be trustworthy.
+
+The users base this trust on the fact that:
+  1. This data has not been tampered with.
+  2. The blockchain is immutable.
+
+<h3>What Do Blockchains Really Do?</h3>
+Blockchains minimize the amount of trust required from any single actor in the system. They do this by distributing trust among different actors in the blockchain as defined by the consensus protocols.
+
+Blockchains have a shared ledger that gives us the absolute truth of the state of the system.
+It uses mathematics, economics, and game theory to incentivize all parties in the system to reach a “consensus” (i.e. coming to an agreement on a single state of the ledger).
+<ul>
+<li>Consensus algorithms<br/>
+The blockchain is based on a consensus algorithm where all nodes agree that the transaction is valid.</li>
+<li>Financial transparency<br/>
+Financial transparency can reduce the need for intermediaries.</li>
+<li>Smart contracts<br/>
+Smart contracts reduce the need for accountants, lawyers, bankers, etc., as computer code can replace some basic functions. Trust shifts to technology.</li>
+<li>Trust in technology<br/>
+Trustless blockchains is a transfer of trust to technology from organizations, governments and corporations.</li>
+<li>Confidential transactions<br/>
+Privacy techniques mask details of transactions while still proving they occurred.</li>
+<li>Decentralized ledger<br/>
+The ledger acts as a trust broker when two parties who don’t trust each other want to interact.</li>
+<li>Transparent code<br/>
+Most blockchains are built on open-source software that is transparent, community-driven code that is open for comment.</li>
+</ul>
+
+<h3 id="ch4-5">4.5 Chapter Summary</h3>
+In this chapter, we discussed:
+<ul>
+<li>Open source communities and blockchain source code.</li>
+<li>Governance models for blockchain and who is really in charge.</li>
+<li>How a blockchain is “trustless”.</li>
+<li>Why a trustless system is more secure than a system that requires trust.</li>
+<li>Why anonymity is required in public blockchains.</li>
+<li>How private/public key cryptography provides anonymity.</li>
+</ul>
+
+<h2 id="ch5">Chapter 5. Blockchain Problem Solving and Future Trends</h2>
+Now that we understand the basics of how blockchain works, Chapter 5 will discuss the problems blockchain can solve. 
+
+We will discuss the concept of immutability and how the append only blockchain brings new trust in shared information. 
+
+Next, we will take what we learned about smart contracts to see how they are bringing autonomy to systems that previously required human interaction. 
+
+We will discuss the double-spend issue and how blockchain can solve for it. 
+
+We will also discuss some popular cryptocurrencies.
+Next, we will discuss the new business trends blockchain makes possible. 
+
+First, we will discuss the way we manage our identity and information on the Internet and how decentralized identity solutions rooted on a blockchain are fixing what is broken. 
+
+Next, we will discuss how blockchain is revolutionizing the financial markets by autonomous market solutions that remove middlemen and open markets up to previously excluded clients. 
+
+We will also join in the conversation around Central Bank Digital currencies and how enacting blockchain solutions can streamline the government's monetary policies.
+
+Finally, we will discuss the energized world of NFT’s (non-fungible tokens) and how owning unique rights to everything from music, sports collectables and even “captured moments” is turning the collectable world upside down. 
+
+We end the chapter with a brief discussion on interoperability. 
+
+In order for this new technology to take hold, blockchains need to be able to communicate and transfer value amongst themselves.
+
+<h3 id="ch5-1">5.1 Learning Objectives</h3>
+By the end of this chapter, you should be able to:
+<ul>
+<li>Discuss immutability in blockchains.</li>
+<li>Explain what transparency is and review advantages and disadvantages of append-only ledgers.</li>
+<li>Explain how blockchain is looking to be autonomous through smart contracts.</li>
+<li>Discuss how blockchain removes third party intermediaries.</li>
+<li>Discuss how blockchain solves the problem of double spending.</li>
+<li>Distinguish between traditional database vs. blockchain immutability.</li>
+<li>Discuss central bank digital currencies and how they operate.</li>
+<li>Explain identity management on a blockchain.</li>
+<li>Discuss decentralized finance and the implications for the financial industry.</li>
+<li>Examine Central Bank Digital Currencies (CBDC).</li>
+<li>Discuss non-fungible tokens and how they will impact society.</li>
+<li>Examine the importance of interoperability for blockchains.</li>
+</ul>
+
+<h3>Immutability Defined</h3>
+Immutability is when something is unable to be changed.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------- Immutability Defined - No Changes Allowed...Ever (145) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/immutability.png"
+   alt="Immutability Defined - No Changes Allowed...Ever"
+   width="50%" />
+</p>
+  
+<h3>Immutability</h3>
+"Immutable" simply refers to the permanence of data.<br/>
+
+Anything we call "immutable" we understand to be permanent and unchanging. <br/>
+
+Your local weather forecast - that's mutable, it changes all the time; the stars in the sky, those are immutable, they seem permanent from our perspective. <br/>
+
+One of the benefits of blockchain and many other Web 3.0 technologies is the promise of immutability. <br/>
+
+The data recorded on a blockchain system can never be altered, edited, changed, or deleted once it has been recorded.<br/>
+
+As this data is stored in many different locations,
+changing or removing a copy of the data in one single place, or in a limited number of places poses no threat. <br/>
+
+Blockchain goes further than this though. <br/>
+
+In addition to recording facts or data points, blockchain also has the capacity to record who endorses or agrees with those recorded facts. <br/>
+
+Think of the difference between a piece of paper, and a contract. <br/>
+
+A piece of paper can contain any data, true or not. <br/>
+
+A signed contract becomes more than a piece of paper because those signatures represent who agreed with the facts recorded on the paper at the time of signing. <br/>
+
+Blockchain provides a digital implementation of this process, and can be an immeasurably valuable tool when you need to capture not only what happened, but who was involved as well. <br/>
+
+Imagine the new opportunities that arise when organizations can safely and securely share their most critical data with one another, with the trust that the data they're seeing hasn't been compromised or altered.
+
+<h3>Traditional Database Immutability Concept</h3>
+The very nature of centrally-operated databases can’t be completely immutable, but that’s the case for blockchain as well. 
+A centrally-run database can embed things into it with features that mention immutability (unchangeable). But if there is a central authority, they have all the ability in the world to override that feature.
+
+Another point to keep in mind is that immutability has been around for many years, just like the majority of the tech used via blockchain; it is the combination of these that makes it unique.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- Immutability Example ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+  <img width="60%" src="./images/image-immutability-example.png"
+    alt="Immutability Example"</>
+</p>
+
+<h3>Blockchain Immutability Concept</h3>
+Let's review the aspects of the public blockchain that improve the chances of it being immutable.
+
+There are many different variables, but the main one is consensus. 
+
+In a blockchain, it refers to the logs of transactions which are created by consensus among the chain’s participants. The basic notion is that once a blockchain transaction has received a sufficient level of validation and posted on the chain, it can almost never be replaced, reversed or edited.
+
+If all the nodes within the network (Bitcoin specifically) are working to solve a really hard math problem by running many computers simultaneously, the chances of anyone overriding that are slim to zero.
+
+But, if someone wanted to undermine the immutability of the Bitcoin blockchain, here’s how they would do it:
+  * __First__, they would install more mining capacity than the rest of the network put together, creating a so-called “51% attack”,
+  * __Second__, instead of openly participating in the mining process, they would mine their own “secret branch", containing whichever transactions they approve and censoring the rest,
+  * __Finally__, when the desired amount of time has passed, they would anonymously broadcast their secret branch to the network.
+
+Since the attacker has more mining power than the rest of the network, their branch will contain more Proof of Work than the public one. Every Bitcoin node will therefore switch over since the rules of Bitcoin state that the more difficult branch wins. Any previously confirmed transactions not in the secret branch will be reversed and the Bitcoin they spent could be sent elsewhere. The computing power required to achieve this is enormous and probably only theoretical, but it’s important to consider.
+
+One other less technical and malicious example would be from the Ethereum hard fork that directly happened after the DAO hack. In this example, the majority of the Ethereum nodes in the network decided to update the software preventing those hackers from withdrawing the cryptocurrency “earned” (stolen). This update could not be enforced, since every Ethereum user controls their own computer. Nonetheless, it was publicly supported by Vitalik Buterin, Ethereum’s founder, as well as many other community leaders. As a result, most users complied, and the blockchain with the new rules kept the name "Ethereum". A minority disagreed with the change and continued the blockchain according to its original rules, earning the title "Ethereum Classic".
+
+<h3>Transparency Defined</h3>
+Anything that is see-through, where there is very little fog or obstruction in the way. Just like immutability, transparency comes on a spectrum. Certain things are more transparent than others. In the context of business/technology, this can be seen as a way of operating that is easy for others to see what actions are being performed.
+ 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- Transparency of a Blockchain --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="25%" 
+   src="./images/image-transparency.png"
+   alt="Transparency of a Blockchain"</>
+</p>
+
+For example, open source projects where all the source code is available for the masses.
+
+<h3>Traditional CRUD Explanation</h3>
+Before we jump into how blockchain technology can be seen as transparent in certain aspects, let’s review the traditional CRUD method used by most databases.
+ 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Update a Database: CRUD ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="40%" 
+   src="./images/image-crud.png"
+   alt="Update a Database: CRUD"</>
+</p>
+
+In a traditional database, a client can perform four functions on data: create, read, update, delete. In a traditional database, there is usually an administrator, the authority giver who allows certain known participants in the database to do more than read/create; it allows them to update (change) and/or delete.
+
+Due to the fact that the administrator is controlling who has access and who doesn’t, it’s easier to track these changes and prevent actors from tampering. In the public blockchain world, this isn’t necessarily the case.
+
+<h3>Blockchain Append-Only</h3>
+Within the public blockchain world, every full node on the network is its own administrator, where it can create (e.g. add) and read; this is also known as read/write access (e.g. append-only). These nodes only add more data over time in the form of blocks, but all previous data is permanently stored and cannot be altered.
+
+Read: query (e.g. search) and retrieve data from the blockchain.
+
+Write: add more data onto the blockchain.
+
+As explained in the "Blockchains vs. Traditional Databases" article by Shaan Ray,
+<blockquote>
+"(...) if the blockchain has recorded that my Bitcoin wallet has 1 million BTC, that figure is permanently stored in the blockchain. When I spend 200,000 BTC, that transaction is recorded onto the blockchain, bringing my balance to 800,000 BTC. However, since the blockchain can only be appended, my pre-transaction balance of 1 million BTC also remains on the blockchain permanently, for those who care to look. This is why the blockchain is often referred to as an immutable and distributed ledger".
+</blockquote>
+  
+<h3>Autonomy Defined</h3>
+Independence or freedom, the ability to make your own decisions without being controlled by anyone else. This sense of freedom can be at the macro level of a country or at the micro level of a person.
+ 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Autonomy in Blockchain ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="40%" 
+   src="./images/image-autonomy.png"
+   alt="Autonomy in Blockchain"</>
+</p>
+
+As children and adults, we all want a little autonomy in our lives, careers, or relationships, but it’s just a matter of how much autonomy one truly wants and can handle.
+
+<h3>Autonomy: Human Process-Driven Complexity</h3>
+The blockchain world is looking to solve all of this complexity with autonomy from intermediaries via automated smart contracts. In the traditional world of doing any kind of transaction with another party, there tends to be a lot of administrative paperwork, with third parties intervening every step of the way. Some of this is needed, but most of it becomes wasted time and effort which could be spent elsewhere.
+ 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ Red X ----------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="20%" 
+   src="./images/image-ex.png"
+   alt="Red X"</>
+</p>
+
+Depending on how complex a transaction is between two parties, designated specialists can make the process more efficient. Many players are involved in the process, from contract drafters, signatories, and regulators. If a dispute over the contract occurs, many parties can be involved, including the courts.
+This complexity can be seen within many areas of life. Take a moment to dissect the backend of certain services or products you use and this concept will become exposed very quickly.
+
+<h3>Autonomy with Smart Contracts</h3>
+Autonomy in the blockchain world can be seen from many different angles. We are going to focus solely on smart contracts in this section, due to the amount of autonomy they provide everyone involved. The concept of smart contracts has been around for a long time and was first proposed by Nick Szabo, who coined the term in 1994.
+
+The most simplified explanation is:
+"IF THEN ELSE" statement, which means IF X happens, THEN do Y, ELSE do Z.
+
+Take this concept and apply it to two or more parties, all interacting on a mutually agreed upon contract that executes based on their actions (or non-actions). An example of a smart contract could be,
+"if this happens before the end of the year, then you pay me, else I pay you".
+
+These "smart" contracts aren’t very smart, at least for now. 
+
+That’s due to the simple explanation above because these contracts are "if, then, else" statements, which can vary in complexity based on how they’re stacked.
+
+At the present moment, they can't make decisions without human intervention, or AI, which is a highly debated topic at the moment by many neuroscientists/philosophers. 
+
+Companies are emerging as reliable Oracles that filter in real world facts to the blockchain. 
+
+An Oracle is defined as a reliable source of information and blockchain makes that information immutable.
+
+Anyone is able to create their own smart contracts without a central authority giving the right to do so. 
+
+These contracts are executed without too much human intervention, and they’re stored on blockchain technology which provides a sense of permanence. 
+
+These are three of the main attributes that can bring more autonomy to exchanging information between parties. 
+Setting up a pre-agreed upon contract that’s coded into a blockchain and executes automatically when certain actions are taken is one step in the direction of not only improving our autonomy as individuals or companies, but shifting wasted resources (middle men/women) toward more impactful work.
+
+<h3>Smart Contracts</h3>
+The first generation of blockchain platforms, collectively known as the "Blockchain 1.0" networks, were capable of capturing and recording data, but not acting upon it. 
+Bitcoin, the world's first mass-scale blockchain, was designed to capture and record the transfer of Bitcoin from one owner to the next. 
+
+At the time, nobody was envisioning blockchain as a platform on top of which applications and solutions could be built.
+
+The release of Ethereum in 2015 changed this model. "Blockchain 2.0" was born, and now blockchain networks could not only capture data, they could act upon it as well. 
+
+All of this was made possible by the introduction of a technology called "Smart Contracts".
+Put quite simply, a Smart Contract is some computer code deployed to a blockchain network.
+
+Users can transact with the Smart Contract just as they would another user, except when transacting with a Smart Contract, the rules defined in the code are used to process the transaction. 
+This advancement now allows blockchain solutions to manage and automate processes, and record their results on a permanent, immutable, secure ledger shared with all relevant parties.
+
+Consider the sale of a used car. Alice lists her car for sale, and offers a guarantee to any buyer that the car will be trouble-free for 1,000 miles. Bob looks at Alice's car and makes her an offer of $5,000.
+
+Alice and Bob agree that Alice will take half the purchase price now ($2,500), and the other half if the car has had no major issues in the first 1,000 miles of Bob's ownership.
+
+A Smart Contract could be created between Alice and Bob.
+
+The Smart Contract would hold the remaining $2,500 in escrow, and if Bob had an issue with the car, he would report it to the Smart Contract. After 1,000 miles the Smart Contract will determine how much of the remaining funds are due to Alice and how much should be returned to Bob using the rules Alice and Bob initially agreed upon.
+
+All details about the transaction would be recorded on a permanent, decentralized ledger which could be used at any point in the future to answer any questions about the transaction between Alice and Bob.
+
+<h3>Multi-Party Transactions</h3>
+In our current world of transactions, there’s always a third party to assist with connecting the sender and receiver. 
+
+This has always been the most efficient way to move something from Point A to Point B. But with a third party making the connection comes the need to trust that they’ll get whatever is being sent in an efficient, economical, and effective way. This trust is open to human and process error. 
+
+But we’ve discovered through experimentation that certain use cases could be automated via smart contracts.
+ 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Cross Border Payment  ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="65%" 
+   src="./images/image-cross-border-payment.png"
+   alt="Cross Border Payments and Ledgers"</>
+</p>
+
+One example is cross-border payments. 
+
+Sending money from one country (border) to another country (different border). 
+
+The major issue with how this is traditionally done today (e.g. correspondent banking) is that certain transactions end up stopping off at 7–10 different checkpoint banks. 
+
+This constant stopping is making the money movement more expensive (each bank takes a fee), slower, and less reliable (sometimes it might never make it). 
+
+This type of transaction is heavily reliant upon third parties to facilitate the movement of information and money.
+
+<h3>Blockchain Multi-Party Sync (Removing Middlemen)</h3>
+Blockchain technology has been shown to provide many benefits, but one of the most prominent and immediate benefits is removing middlemen (third parties) from a variety of processes. There is a long list of examples for middlemen currently being removed, such as:
+<ul>
+<li>Energy distributors</li>
+<li>Payment networks (Visa and Mastercard)</li>
+<li>Content distributors (YouTube, Facebook, Medium, etc.)</li>
+<li>Central exchanges (NASDAQ, London Stock Exchange, NYSE, etc.)</li>
+<li>Cloud database providers (AWS, Azure, etc.).</li>
+</ul>
+How is the blockchain world removing this middleman? 
+
+The answer is all around trust. 
+
+Within the public blockchain world, where everyone is theoretically anonymous, there needs to be trust so we’re able to exchange valuable things without the concern of bad actors. 
+
+Trust is built into the consensus mechanism that we’ve mentioned multiple times throughout this course. 
+
+This incentivizes all the participants to help secure and validate good actions throughout the network. 
+
+With that built-in "trustless" trust, we’re able to remove those middlemen that provide no additional value, plus it could potentially increase the efficiency based on which public blockchain is being used.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Cross Border Payments  ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="65%" 
+   src="./images/image-cross-border.png"
+   alt="Cross Border Payments and Ledgers"</>
+</p>
+
+<h3>Cross Border Payments and Ledgers</h3>
+Traditional centralized ledger systems have weaknesses. Accuracy is dependent on intermediaries who can change details of the centralized ledger. Data derived from the ledger is siloed and misused.
+ 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------- Multi-Party Transactions - Centralized Ledgers (153) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="65%" 
+   src="./images/image-multi-party-trans-centralized-ledger.png"
+   alt="Multi-Party Transactions - Centralized Ledgers"</>
+</p>
+
+Distributed decentralized ledgers are not dependent on intermediaries who can manipulate the data. 
+
+Data is secure and tamper resistant.
+ 
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- Multi-Party Transactions - Decentralized Ledgers (154) -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="60%" 
+   src="./images/image-multi-party-trans-decentralized-ledger.png"
+   alt="Multi-Party Transactions - Decentralized Ledgers"</>
+</p>
+
+<h3 id="ch5-2">5.2 Double Spend Problem</h3>
+Bitcoin, the world's first blockchain, was created as part of an attempt to create the world's first truly viable digital currency.<br/>
+
+Bitcoin was not the first attempt to create a digital currency, but it was the first which was able to successfully solve a long-standing problem - the "Double Spend" problem.
+
+The Double Spend problem is quite simple.
+
+Let's say Alice owes a debt of $5 to both Bob and Carol.
+
+Alice's total debt is $10, but let's assume she only has $5 currently.
+
+If Alice's transactions were recorded on two separate ledgers, it is possible that one ledger would show she paid $5 to Bob, while the second ledger may show she paid $5 to Carol.
+
+It would be impossible to tell who actually got paid.
+
+This is the double spend problem - any financial ledger MUST prevent Alice from spending her $5 more than once.
+
+Digital assets are particularly vulnerable to the double spend problem as we generally design them to be easy to copy and distribute.
+
+If you've got a great picture you took with your phone, it's easy to post one copy to
+Facebook, another copy to Instagram, then you might text a copy to your spouse, and email a copy to your parents.
+
+We live in a world where digital assets are easy to copy and distribute, by design.
+
+A digital currency should NOT be easy to copy and distribute though.
+
+It was overcoming this technical challenge that lead to so many failed attempts at digital currency before Bitcoin, and the innovations that the solution to this problem has delivered are now being leveraged to track and manage many different types of assets and data that we never could easily manage before.
+
+It is this possibility of building tools and solutions that were never before thought possible that has so many people excited about the blockchain revolution!
+
+<h3>Blockchain Solves The Double Spend Problem</h3>
+Back in the early 1990’s, developers, cryptographers, and different groups of people were trying to solve the double-spend problem as it related to digital cash, previously known also as electronic cash. Double spending within Bitcoin is the act of using the same bitcoins (digital money files) more than once.
+ 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- Double Spend ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="60%" 
+   src="./images/image-double-spend.png"
+   alt="Double Spend"</>
+</p>
+
+If I buy an apple for $1, I cannot spend that same $1 to buy an orange. 
+
+If I could, money would be worthless since everyone would have unlimited amounts and the scarcity that gives the currency value would disappear. 
+
+The network protects against double-spending by verifying each recorded transaction within the blockchain utilizing a consensus mechanism (explained in the previous section).
+
+Bitcoin was the first decentralized protocol to solve this problem and now more protocols are following, such as: Proof of Stake (PoS), Delegated Proof of Stake (DPoS), Directed Acyclic Graphs (DAG) structures, Proof of Authority (PoA), etc.
+
+<h3>Digital Currency Difficulties</h3>
+Today, when someone mentions digital currency, usually Bitcoin or crypto is the first thing that comes to mind, but digital currency had a long history before Bitcoin popularized it. 
+
+This history goes all the way back to 1983, when [David Chaum](https://en.wikipedia.org/wiki/David_Chaum) introduced the idea of digital cash in a research paper. 
+
+Then, in 1992, he founded DigiCash, an electronic cash company, which eventually went bankrupt in 1998 due to adoption (buyout by another financial institution). 
+
+Today, David is a leading pioneer of blockchain companies such as [Elixxir](https://xx.network/archive/cmix/) and [Praxxis](https://xx.network/blockchain/) to provide scalable digital sovereignty.
+
+There were many other attempts to create digital cash over the years, but many failed due to a variety of reasons, such as:
+ 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Adoption Security Fraud ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="./images/image-adoption-security-fraud.png"
+   alt="Adoption Security Fraud"</>
+</p>
+
+Other attempts include:
+<ul>
+<li>CyberCash in 1994 (failed after the Y2K bug of 2000).</li>
+<li>E-gold in 1996 (sunk by continuous money laundering, hacking, and extortion).</li>
+<li>Liberty Reserve in 2006 (shut down in 2013 due to this becoming a great hangout spot for cybercriminals).</li>
+</ul>
+
+<h3 id="ch5-3">5.3 Digital Currencies Overview</h3>
+Digital currencies are available only in the digital world and not in the physical world. They can be defined as any currency, money, or money-like asset that is primarily managed, stored or exchanged on computer systems. Examples of digital currencies include cryptocurrency, virtual currency and central bank digital currency.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- Digital Currency ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="./images/image-digital-currency.png"
+   alt="Digital Currency"</>
+</p>
+ 
+<h3>Cryptocurrency Defined</h3>
+
+According to [Investopedia](https://www.investopedia.com/tech/most-important-cryptocurrencies-other-than-bitcoin/),
+"A cryptocurrency, broadly defined, is currency that takes the form of tokens or “coins” and exists on a distributed and decentralized electronic ledger. While a large majority remain completely intangible, some cryptocurrencies have ventured into the physical world by building associations with companies offering traditional payment rails (credit cards and payment processors)".
+
+<h3>Cryptocurrencies Markets </h3>
+To break down the crypto markets, let's start with some basic definitions.
+
+<h3>Crypto Wallet</h3>
+A cryptocurrency wallet is an application on your computer or smart phone that connects you to a blockchain where you can trade cryptocurrencies. A Bitcoin wallet allows you to trade Bitcoin, an Ethereum wallet accommodates Ether. You can not send Bitcoin to the Ethereum blockchain, each cryptocurrency must transact on its own blockchain.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------- Smart Phone ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="40%" 
+   src="./images/image-phone.png"
+   alt="Smart Phone"</>
+</p>
+
+<h3>Multi-currency Wallets</h3>
+Some wallets allow you to hold multiple cryptocurrencies in the same application. In these wallets, each cryptocurrency will have its own balance. To initiate a transaction, the application will create a cryptographically secure address (specific for the particular blockchain). This address acts as your account number and lets you send and receive the cryptocurrency.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- Multi-Currency Wallets ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="30%" 
+   src="./images/image-multi-currency-wallets.jpg"
+   alt="Multi-Currency Wallets"</>
+</p>
+
+<h3>Atomic Swaps</h3>
+Additional features in these wallets lets you “swap” one cryptocurrency for another. The application provider acts as the intermediary to secure the transactions from one chain to the other.
+
+<h3>Metamask</h3>
+
+[Metamask](https://metamask.io/) is a cryptocurrency wallet used to interact with the Ethereum blockchain and other blockchains issued in accordance with the Ethereum Platform. Tokens issued in accordance with the ERC-20 standard for utility tokens can be stored in a metamask wallet. Metamask not only stores cryptocurrencies but acts as a gateway to blockchain applications. You can access the wallet through a mobile application or a browser extension.
+ 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ Consensys ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="30%" 
+   src="./images/image-consensys.jpg"
+   alt="Consensys"</>
+</p>
+
+ConsenSys, spearheaded by [Joe Lubin](https://consensys.net/about/joseph-lubin-founder-of-consensys/), an early Ethereum programmer, is a software engineering company that helps developers build next-generation networks and enable enterprises to launch more powerful financial infrastructure. 
+
+[Consensys Mesh](https://mesh.xyz/) is a playground for entrepreneurs and programmers to build decentralized platforms and projects, Metamask is just one project to come out of the efforts at Consensys.
+
+One example of how the Metamask wallet is used is with the [CryptoKitties](https://www.cryptokitties.co/catalogue) project. 
+
+CryptoKitties are one of the first examples of a digital collectible where you own the rights (private keys) to code that represents a unique kitten. 
+
+A kitten is a set of identifiers built or “bred” by a smart contract to be one of a kind. 
+
+In order to purchase, view or interact with a digital kitten you must open your Metamask wallet and connect it to the cryptokitties.co website.
+ 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- Frog logo for Kittens ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="20%" 
+   src="./images/image-kittens-frog.png"
+   alt="Frog logo"</>
+</p>
+
+Kittens purchased on the cryptokitties.co site will be stored in the Metamask wallet associated with your account or can be put up for sale at an NFT marketplace. Any fees or revenue from your kittens will automatically be reflected in your Metamask wallet totals. Cryptokitties are the first example of a non-fungible token which we will cover in the next section.
+
+<h3>Exchanges</h3>
+Cryptocurrency exchanges vary in complexities and user experience.
+
+<h3>Beginners</h3>
+To start off, it is advantageous to deal with a centralized solution to store your cryptocurrency. 
+
+These larger exchanges act as a bank for your cryptocurrencies. Offering features like loans and staking rewards (rewards for being an active part in a network).
+
+They vet the currencies they allow you to trade and store, while controlling the private keys for you, so accessing your currencies is as easy as a username and password. 
+
+Such examples of these organizations are [Coinbase](https://www.coinbase.com/) and [Gemini](https://www.gemini.com/). 
+
+Below you can see a screenshot of the [Gemini Custodial Crypto Account Dashboard](https://exchange.gemini.com/signin?redirect=e2aa461e75019f06a9907a89b5090decb94caf52-1626117922675-%2F):
+ 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ Gemini Custodial Crypto Account Dashboard ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="100%" 
+   src="./images/image-advanced.jpg"
+   alt="Gemini Custodial Crypto Account Dashboard"</>
+</p>
+
+<h3>Advanced</h3>
+In keeping with the decentralization nature of the cryptocurrency markets, exchanges exist where you are the custodian of your accounts and trading is done from your computer or smartphone. 
+
+This is where the term Decentralized Finance was born. 
+
+It gives you the ability to apply smart contracts to govern your trades and access to markets previously only for accredited investors. 
+
+Such examples of decentralized exchanges are Liquid, SushiSwap and Uniswap. 
+
+Below is the screenshot of the Liquid Exchange:
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- Liquid Exchange --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="100%" 
+   src="./images/image-liquid-exchange.jpg"
+   alt="Liquid Exchange"</>
+</p>
+ 
+<h3>Hardware Wallets</h3>
+Hardware wallets offer an alternative to storing your cryptocurrency online. These devices plug into a USB port and transfer your private keys (ownership rights to the cryptocurrency) from your “hot wallet” (mobile, computer or web based) to be stored offline. If the device is damaged or lost, so are the cryptocurrencies stored.
+
+This is what the [ledger wallet](https://shop.ledger.com/products/ledger-nano-s/?flow_country=USA&msclkid=91c26052e5701161046300fd18bf7e2d) looks like:
+ 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- Ledger Wallet (164) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="10%" 
+   src="./images/image-ledger-wallet.png"
+   alt="Ledger Wallet"</>
+</p>
+
+<h3>Self-Sovereign Identity (SSI)</h3>
+
+As explained by [Drummond Reed](https://www.evernym.com/blog/team/drummond-reed/),
+<blockquote>
+"Web 1.0 used centralized identity; Web 2.0 graduated to federated identity; now Web 3.0 is using decentralized digital identity, a model known as "self-sovereign identity" or "SSI" because now individuals control their own portable digital identity credentials in their own digital wallets—just like we prove our identity with physical credentials from our physical wallets every day. The digital signatures on these credentials use blockchain technology for decentralized public key management. 
+
+Finally we can have a trust layer for the Internet that doesn't require everyone to rely on centralized authorities".
+</blockquote>
+
+The concept of self-sovereign identity (SSI) is based on the idea that the Internet was created without a way to properly deal with identifying participants. 
+
+Innovative minds, such as Drummond Reed and Alex Preukscha, have been working on solutions to this problem. 
+
+We will start with some key terms taken from the ["Self-Sovereign Identity: Decentralized Digital Identity and Verifiable Credentials"](https://www.manning.com/books/self-sovereign-identity?utm_source=freecontentcenter&utm_medium=blog&utm_campaign=book_selfsovereignidentity&utm_content=article_01) book by Reed and Preukscha.
+
+The Internet was designed to identify computers, not users. 
+
+The result is a tangled web of passwords, and usernames, and siloed data that is bought and sold without our consent. 
+
+With blockchain and cryptographic techniques, solutions are being developed to fix what is broken with identity and the Internet. 
+
+The [W3C Consortium](https://www.w3.org/Consortium/) is an international community where members work together to develop web standards. 
+
+Led by web inventor and Director [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) and CEO [Jeffrey Jaffe](https://www.w3.org/People/Jeff/), W3C's mission is to lead the Web to its full potential. 
+
+W3C is working on standards that can be used to define a new paradigm for the Internet and Identity.
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<h3>Key Concepts</h3>
+
+<h4>Self-sovereign identity (SSI)</h4>
+SSI is relatively new, having only emerged onto the Internet stage in 2016. 
+At one level, SSI is a set of principles about how identity and personal data control should work across digital networks. 
+At another level, SSI is a set of technologies which build upon core concepts in identity management, distributed computing, blockchain or Distributed Ledger Technology (DLT), and cryptography.
+
+<h4>Verifiable credentials</h4>
+The essence of decentralized identity is transitioning physical identity credentials (birth certificate, driver licenses, passports, college degrees, medical records, etc.) to a digital twin that the individual can possess in a digital wallet.
+
+<h4>Verifier</h4>
+A verifier is the person, organization or computer program granting verification of an assertion. 
+They request proof that a claim or statement about a credential is true.
+
+<h4>Issuers</h4>
+Issuers are the source of credentials—every credential has an issuer. Most issuers are organizations such as government agencies (passports), financial institutions (credit cards), universities (degrees), corporations (employment credentials), NGOs (membership cards), or churches (awards).
+
+<h4>Holders/Provers</h4>
+Providers request verifiable credentials from issuers, hold them in the holder’s digital wallet (below), and present proofs of claims from one or more credentials when requested by verifiers (and approved by the holder). 
+Although we most commonly think of individuals as holders/provers, holders/provers can also be organizations using enterprise wallets, or things in the sense of the Internet of Things (IoT). 
+The trust triangle represents the Trust over IP version of how the new relationship will operate.
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Decentralized Identifiers (DIDs) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image092.png?raw=true"
+   alt="Decentralized Identifiers (DIDs)"</>
+</p>
+
+<h4>Decentralized identifiers</h4>
+
+According to the WC3, [decentralized identifiers (DIDs)](https://www.windley.com/archives/2020/11/didcomm_and_the_self-sovereign_internet.shtml) are a new type of identifier for verifiable, decentralized digital identity credentials. 
+
+These new identifiers are designed to enable the controller of a DID to prove control over it and to be implemented independently of any centralized registry, identity provider, or certificate authority. 
+
+WC3 is working on ways to standardize the format for DIDs.
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Decentralized Identifiers (DIDs) - Public  & Private Keys -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image093.png?raw=true"
+   alt="Decentralized Identifiers (DIDs) - Public & Private Keys"</>
+</p>
+
+The DID above is structured to identify what type of credential, the issuer and the cryptographic hash of the credential.
+
+The [Sovrin Foundation](https://sovrin.org/) and [Everynym](https://sovrin.org/) are leading pioneers in this new emerging sector offering identity solutions in sectors such as Healthcare and Refugee Management.
+
+<h3>Decentralized Finance</h3>
+
+According to ["The Complete Beginner's Guide to Decentralized Finance (DeFi)"](https://academy.binance.com/en/articles/the-complete-beginners-guide-to-decentralized-finance-defi) article by Binance Academy, Decentralized Finance or DeFI refers to a system of financial software that enables financial products to be made available to the public on decentralized blockchains. 
+
+As we have learned, the term decentralized and its ramifications will revolutionize how we interact with each other. 
+
+These new interactions can have different effects in various sectors. 
+
+In the financial markets, new interactions will dramatically change the current structure by eliminating the need for intermediaries. 
+
+Banks, lending institutions, Money Managers, Market Analysts, Hedge Fund Managers, and other positions and functions can now be performed using smart contracts.
+
+With new technology platforms, open source projects are fueled by blockchains, incentive models, stablecoins, smart contracts and self hosted wallets that remove financial middlemen. 
+
+Users' funds that are pooled together for investment advantages are now managed by a series of smart contracts that execute programmed financial trades instead of a third party.
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Components of Decentralized Finance ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="65%" 
+   src="/images/image093.png?raw=true"
+   alt="Components of Decentralized Finance"</>
+</p>
+
+<h3>Benefits of Decentralized Finance</h3>
+Along with the new decentralized financial model come new innovations that have far reaching ramifications. 
+
+Microloans, smaller loans made from pools of capital, now are available granting access to these financial vehicles to participants previously excluded. 
+
+For example, in agriculture, farmers are able to secure small loans to help them get crops to market.
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- Benefits of Decentralized Finance) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="65%" 
+   src="/images/image094.png?raw=true"
+   alt="Benefits of Decentralized Finance"</>
+</p>
+ 
+Regulating these new financial instruments is proving challenging as government agencies wrestle with controlling currencies that do not recognize borders. 
+
+And have a steep learning curve. 
+
+A stable price coupled with the benefits of blockchain, new financial markets are emerging that will change the current financial markets making them more inclusive.
+
+<h3>Central Bank Digital Currencies (CBDC)</h3>
+Enterprise blockchain solutions are successfully creating efficient micro-economies that are decentralized, immutable and efficient. 
+
+The success of these projects are forcing governments to take a look at blockchain technology through the lens of streamlining current financial systems. 
+
+More specifically, studying how blockchain can improve the way governments handle their central banking systems.
+
+Central Bank Digital currencies are a digital form of central bank money that is issued by the central bank as part of its overall monetary policy. 
+
+In the Ledger Insights article titled ["IMF Outlines Pros and Cons of Central Bank Digital Currency"](https://www.ledgerinsights.com/imf-pros-cons-central-bank-digital-currency-cbdc/) it is estimated that 80% of central banks are exploring CBDC.
+
+Some of the benefits of Central Bank Digital Currencies include:
+<ul>
+<li>Transparent monetary policy<br/>
+Due to the distributed ledger technology’s feature of transparency, creating a digital currency will bring clarity to the government's monetary system, where policy can be recorded on the blockchain and remain immutable.</li>
+<li>Combat money laundering<br/>
+Money laundering is converting illegal funds into legal payments systems. Blockchain can eliminate this practice with a shared ledger that keeps a complete transaction history, making it impossible to erase. Like with all money transfers, certain safeguards are in place to identify wallets or accounts to users. Anti Money Laundering (AML) policies like Know Your Customer (KYC) further ensure citizens are following laws in their countries.</li>
+<li>Cross-border payments<br/>
+Blockchain technology eliminates middlemen in cross-border payments, reducing transfer fees, and making interactions faster and frictionless while keeping the integrity of the underlying asset.</li>
+<li>Government efficiency<br/>
+A huge benefit for governments to research CBDC is to overcome existing problems inherent in the existing antiquated systems. By moving to the digital realm, governments can enjoy the cost reductions blockchain offers.</li>
+<li>Banking the unbanked<br/>
+To be unbanked describes a person who does not have a checking or savings account. Being unbanked puts individuals at an extreme dis-advantage as they do not have access to financial services like loans and usually pay more for check cashing. By creating a digital currency governments can include this market segment, onboarding people with mobile phones.</li>
+</ul>
+
+<h3>Types of Central Bank Digital Currencies</h3>
+According to the "What Is Retail Central Bank Digital Currency?" article by Matthieu Saint Olive, there are two types of central bank digital currencies:
+<ol type="1">
+<li>Wholesale CBDC<br/>
+A wholesale CBCD is a type of currency used by financial institutions to buy and sell financial assets. It would replace real time settlement systems used today.</li>
+<li>Retail CBDC<br/>
+Retail central bank digital currency would be used as a digital twin for fiat currency. Citizens would use it to pay for things, send money and save it.</li>
+</ol>
+Central Bank Digital Currencies are being considered across the globe.
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------- Cemtral Bank Digital Currency Status (168) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="85%" 
+   src="/images/image095.png?raw=true"
+   alt="Central Bank Digital Currency status"</>
+</p>
+  
+According to the [CBDC Tracker](https://cbdctracker.org/), the Sand Dollars, a retail CBDC issued by the Central Bank of the Bahamas is the first nationwide Central Bank Digital Currency. The US Federal Reserve is researching CBDC for the US with the Federal Reserve Bank of Boston and [MIT](https://dci.mit.edu/) committed to a multi-year collaboration to build a hypothetical currency called the Hamilton.
+
+Hyperledger created a [Capital Market Special Interest Working Group](https://wiki.hyperledger.org/display/CMSIG) spearheaded by [Vipin Bharathan](https://www.forbes.com/sites/vipinbharathan/?sh=22cfcca23f76) working on standards for CBDC’s. This working group is just one of many discussing CBDC’s and is open for anyone to [join](https://lists.hyperledger.org/g/capital-markets-sig/).
+
+<h3 id="ch5-4">5.4 Non-Fungible Tokens (NFTs)</h3>
+At the beginning of this course we discussed the Internet and the changes it has gone through. We started with Web 1.0 and how it revolutionized the way exchanged value, looking back it is hard to believe we managed without email. Then came Web 2.0 and our social status and personal information flowed on the net as freely as the air we breathe. Web 3.0 started with blockchain and the transfer of value, the first killer application being Bitcoin.
+
+Now, you may be asking yourself, "What's next?". That's where non-fungible tokens come into play and are set to revolutionize art, music, sports and gaming by offering a new kind of digital ownership and the ability to transfer unique value with digital collectables. We first saw a glimpse of this new market with CryptoKitties but let's look deeper into this phenomenon.
+
+According to [Wikipedia](https://en.wikipedia.org/wiki/Non-fungible_token), a non-fungible token:
+<blockquote>
+"is a unit of data stored on a digital ledger, called blockchain, that certifies a digital asset to be unique and therefore not interchangeable".
+</blockquote>
+
+NFTs can represent art, music, videos and other digital files where access to the original file is restricted, limited to the owner proving authenticity and providence. The first standard for issuing NFT’s was based on the Ethereum's [ERC-721](http://erc721.org/) that differs from the ERC-20 as ERC-721 tokens are all unique which makes them perfect for the collectibles market. The [ECR-1155](https://eips.ethereum.org/EIPS/eip-1155) aims to improve on the previous token standard by further defining assets.
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+Let's now take a look at some of the types of non-fungible tokens:
+   * Digital artwork<br/>
+By guaranteeing uniqueness of a digital item and applying smart contracts to the terms of the sale, artists are now in control of the ownership rights to their work giving control of royalties back to the creator. The New York Times reported art entitled ["Everydays – The First 5000 Days"](https://www.nytimes.com/2021/02/24/arts/design/christies-beeple-nft.html), by artist Mike Winkelmann, also known as [Beeple](https://en.wikipedia.org/wiki/Mike_Winkelmann), sold for $69.3 million USD in 2021.
+   * Collectables<br/>
+As we saw with CryptoKitties, non-fungible tokens create unique items. One of the more popular collectables are [CryptoPunks](https://www.crypto-news-flash.com/ethereum-eth-cryptopunks-nft-index-fund-migrates-to-sushiswap/), a collection of 10,000 uniquely generated characters each having a unique owner registered on the Ethereum blockchain. A crypto punk, Punk 1651 sold for 78 ETH or $136,850.22 USD.
+   * Games<br/>
+NFTs can be used to represent assets in computerized games. With the ability to trade assets created in a gaming platform, users and creators of assets in the digital game can trade assets on a third party marketplaces and store them in a wallet where the private keys are controlled by the gamer, taking control away from the game developer.
+   * Music and film<br/>
+With NFTs, musicians and filmmakers can now tokenize their work where the artist monetizes and profits from their content. When artists release music or film as NFT, they retain control and realize royalties in a more equitable way. Musicians can join in decentralized marketplace such as [Mediachain](http://www.mediachain.io/) a [Ujo](https://mesh.xyz/) to ensure artists are paid fairly, musicians enter into smart contracts that state royalty stipulations without the need of a third party.
+   * Sports<br/>
+The sports industry has embraced the idea of NFTs from tokenizing memorable sporting moments to trading card collectables. [NBA Top Shots](https://nbatopshot.com/) being the leader for creating a marketplace for NBA collectible cards and moments.[
+   * University research<br/>
+In May 2021, [UC Berkeley](https://en.wikipedia.org/wiki/University_of_California,_Berkeley) announced it would auction off NFTs for the patent disclosure for two Nobel Prize-winning inventions dealing with gene editing and Cancer Immunotherapies.<br/>
+
+The younger generation of collectors aren’t interested in China sets and linen, but something they can show their friends on their social media accounts. 
+
+The future of the non-fungible token promises to be one of the more energetic market segment blockchain has seen.
+
+<h3>Interoperability</h3>
+To end this section, we must mention interoperability. Interoperability in blockchains deals with creating standards so different types of blockchains can communicate with each other.<br/>
+
+If new emerging blockchains can’t communicate with each other, we will have the same issues with siloed data that created frustration with the Internet of Today. 
+
+As different blockchains take different approaches to interoperability, standards will emerge that will help regulate the industry and help with widespread adoption. 
+
+Currently Hyperledger and Ethereum are working together on interoperability projects from [Hyperledger Besu](https://wiki.hyperledger.org/display/besu) (to learn more about Hyperledger Besu enroll into [Hyperledger Besu Essentials: Creating a Private Blockchain Network (LFS176x)](https://training.linuxfoundation.org/training/hyperledger-besu-essentials-creating-a-private-blockchain-network-lfs176x/)), an open source Ethereum client for enterprise solutions that can be run on the Ethereum public network or on a private permissioned network. 
+
+Other projects in the [Hyperledger labs](https://wiki.hyperledger.org/display/labs) that deal with interoperability are working on standards that will make it easier for blockchains to talk to each other.
+
+When considering how blockchain interoperability can work, consider email and smartphone. 
+
+Both of these technologies have the ability to interoperate. 
+
+Outlook email server can receive email from the Gmail server and Verizon cell phone carriers can transfer and accept calls from T-Mobile. 
+
+These services would not operate efficiently, if these companies couldn't exchange data. 
+
+With this in mind, blockchain are developing projects that, like smartphones and emails, will transfer value and information across blockchain seamlessly.
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<h3 id="ch5-5">5.5 Chapter Summary</h3>
+In this chapter, we discussed:
+<ul>
+<li>How some features of blockchain are solving real world problems.</li>
+<li>How immutability is opening up new cooperation models for business.</li>
+<li>How the concept of autonomy will reduce conflict by eliminating human processes.</li>
+<li>New emerging business models as multiparty exchanges, with built in trust, are being developed.</li>
+<li>How the double spend accounting issue is solved with blockchain.</li>
+<li>Future trends in decentralized finance and Central Bank Digital Currencies.</li>
+<li>The importance of interoperability between blockchains.</li>
+<li>Non-fungible tokens (NFTs) and their importance to the blockchain ecosystem.</li>
+</ul>
+
+<h2 id="ch6"></a>Chapter 6. Blockchain Use Cases</h2>
+
+This final section will examine blockchains in action.
+<ul>
+<li>We will see how blockchain is providing solutions for businesses, governments and social projects. </li>
+<li>Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and trust among untrusting parties, fostering new business models.</li>
+<li>Governments are realizing the best way to serve the population is to develop digital identity management systems where individuals hold their credentials and services can instantly be matched to those in need. </li>
+<li>We will discuss how governments are using blockchain to tackle document and workflow management issues creating better services for their citizens.</li>
+<li>Next, we will discuss the impact blockchain is having in developing countries.</li>
+<li>We will look at examples of how philanthropy is offering new transparency and accountability to charity organizations with massive global benefits.</li>
+<li>Then, we will devote some time discussing new technologies and emerging breakthroughs developers are building. 
+Either to enhance existing systems or offering services to help users manage blockchains, these new advances are like nothing we have seen before.</li>
+<li>Finally, we will see use cases designed to improve the individual's experience, decentralized gaming platforms and new marketplaces inventing new worlds to interact in. </li>
+</ul>
+
+Blockchains are reshaping the way artists and musicians are benefiting from their creativity by having the royalties delivered directly to them, without agents and middlemen.
+
+*Blockchain will be a part of everyone's future.*
+
+<h3 id="ch6-1">6.1 Learning Objectives</h3>
+By the end of this chapter, you should be able to:
+<ul>
+<li>Discuss blockchain use cases in business enterprises.</li>
+<li>Discuss use cases in the public sector.</li>
+<li>Explain the relevance of blockchain in social impact projects.</li>
+<li>Discuss developing new technologies made possible by blockchain.</li>
+<li>Explain how blockchain will improve the human experience.</li>
+</ul>
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<h3 id="ch6-2">6.2 Blockchain Use Case Categories (Blockchain in Practice)</h3>
+Blockchain technology promises sound extremely lofty. Let's take a look at how this technology is improving the way we trust each other and interact. 
+
+It is showing a new path that will improve the lives of so many. 
+
+We will see how identity management is key (no pun intended) to all the use cases we discuss.
+
+For our discussion, we will categorize use cases by who is developing solutions, starting with large enterprise solutions to smartphone and web browser applications powered by blockchain that put control back in the user's hands:
+  - Enterprise solutions<br/>
+Businesses and organizations are implementing blockchain to overcome obstacles in transparency and trust forging new associations with global implications.
+  - Public sector solutions<br/>
+Governments are using blockchain solutions to improve services that they provide to their citizens. Digital identity solutions, central bank digital currencies and transparent workflows are bringing efficiency to the public sector system with an end result that benefits citizens. With that, new laws are needed to regulate this technology.
+  - Social impact solutions<br/>
+Social impact blockchain solutions address social and environmental challenges. Backed by the [17 United Nations Sustainable Development Goals](https://sdgs.un.org/goals) blockchain developers, investors, philanthropists, government agencies and foundations are developing solutions that tackle these global problems.
+  - Platform developers' solutions<br/>
+Blockchain is a new technology constantly improving and changing. Developers are creating standards and new platforms to bring this technology into the mainstream.
+  - End user solutions<br/>
+Everyday solutions emerge that put decentralized blockchains and all the benefits they promise in the hands of individuals from new decentralized marketplaces to new ways to express your music, art, and even let you trade property built inside a game.
+
+<h3 id="ch6-3">6.3 Enterprise Solutions Overview</h3>
+Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and workflows, fostering new business models. Problems with how we transact online, to the cost of doing business, are solved with blockchain. Let’s look at an enterprise supply chain solution built with blockchain.
+
+<h3>Global Supply Chains</h3>
+Supply chain data is not always visible or trusted. In recent times of disruption supply chains matter more than ever. Global supply chain and blockchain are working to secure systems to better handle these disruptions. The Covid pandemic shed light on the frailty of our supply chains which accelerated discussion over blockchain solutions. 
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- Maersk & IBM logos (172) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image096.png?raw=true"
+   alt="Maersk + IBM"</>
+</p>
+  
+Learn more about the collaboration between Maersk and IBM from the ["Digitizing Global Trade with Maersk and IBM"](https://www.ibm.com/blogs/blockchain/2018/01/digitizing-global-trade-maersk-ibm/) blog post by Michael White.
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<h3>Supply Chain - Maersk (Enterprise Solutions)</h3>
+Global trade functions much as it has since the introduction of the shipping container in 1956.
+
+Manual, paper-based processes are still common and information about the status of goods is locked away in organizational silos.
+
+Today, 90% of goods in global trade are carried by the shipping industry with the supply chain slowed by the complexity and sheer volume of point-to-point communication across a loosely coupled web of land transportation providers, freight forwarders, customs brokers, governments, ports, and ocean carriers.
+
+IBM and Maersk are addressing this problem with a distributed permission platform accessible by the supply chain ecosystem designed to exchange event data and handle document workflows.
+
+Maersk and IBM are employing blockchain technology to create a global tamperproof system for digitizing trade workflow and tracking shipments end-to-end, eliminating frictions including costly point-to-point communications.
+
+The collaboration will launch with the potential ability to track millions of container journeys per year and integrate with customs authorities on selected trade lanes.
+
+In a recent test by Maersk, shipping a single container of flowers from Kenya to the port of Rotterdam resulted in a stack of nearly 200 communications.
+
+Using this example, we will examine how blockchain has been implemented to create trust and security in the digitized document workflow and improve the efficiency of global supply chains.
+
+Here we can see each distinct entity involved in the transaction: the growers, export authorities, ports, customs, and importers.
+
+Shipping from the port of Mombasa requires signatures from three different agencies approving the export and six documents that describe the origin, chemical treatments, quality of the produce, and customs duties.
+
+Firstly, using a PC or mobile device the Kenyan farm submits a packing list that becomes visible to all participants.
+
+This action initiates a smart contract that enforces an export approval workflow between the three agencies.
+
+As each agency signs, the status is updated for all to see.
+
+Simultaneously, information about the inspection of the flowers, the sealing of the refrigerated container, the pickup by the trucker, and the approval from customs is communicated to the port of Mombasa allowing them to prepare for the container.
+
+All actions relating to the documents and the physical goods are captured and shared: which documents were submitted, when and by whom, where the flowers are, and who is in possession of them, and the next steps in their journey.
+
+Flowers are perishable, so it's crucial that there are no delays or missed steps .
+
+Blockchain provides secure data exchange and a tamperproof repository for these documents and shipping events.
+
+This system could significantly reduce delays and fraud saving billions of dollars annually.
+
+And, according to the WTO, reducing barriers within the international supply chain could increase worldwide GDP by almost 5% and total trade volume by 15%.
+
+The resulting solution is called [TradeLens](https://www.tradelens.com/). You can take the TradeLens tour [here](https://tour.tradelens.com/).
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- Trade Made Easy ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image098.jpg?raw=true"
+   alt="Trade Made Easy"</>
+</p>
+ 
+<h3>Farm to Table</h3>
+Farms are complicated ecosystems with many moving parts, careful timing, and seasonal financing structures. However, after the food leaves a farm, it becomes part of a wide-reaching supply chain with a lot of parties. Buyers, sellers, distributors, and grocery chains all want to know where the food is along its journey. You also probably want to know where your food has been before you serve it on your dinner table.
+The trend toward blockchain agriculture promises to make each step of growing and distributing food simpler. It will offer all parties involved a single source of truth for the agriculture supply chain. 
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- Walmart logo (175) --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image-walmart-logo.png?raw=true"
+   alt="Walmart logo"</>
+</p>
+
+To learn more, read Hyperledger's case study ["How Walmart Brought Unprecedented Transparency to the Food Supply Chain with Hyperledger Fabric"](https://www.hyperledger.org/learn/publications/walmart-case-study).
+
+<h3>Walmart</h3>
+I purchased a pack of mangos, I came into my staff meeting, I put them on the table, and I said: "Your traceback exercise starts right now".
+And we timed how long it took them to get the information for each point in the food system all the way back to the farm.
+And I'm not gonna give you the results.
+After the pilot, but it's gonna be good.
+
+When a customer shops in our stores, we know they expect great prices, we know they expect fast, clean, and friendly service, but an unspoken expectation is that they expect the products that they buy in our stores to be safe.
+You know, when there's a food event or a food scare what you want to do is you want to be fast, but you want to be right.
+That food product is guilty until proven innocent.
+
+We at Walmart, will actually pull all the product until we know what is the implicated product and can put then the safe product back out.
+And imagine, if we could pinpoint with certainty, within minutes not days, that it was the implicated product.
+
+Walmart and IBM are working to make that a reality.
+If you think about the food system, it's pretty complex.
+It involves farmers, processors, distributors, and the way traceability is done today, each segment of the food system does it their own way.
+Most actually do it on paper or on systems that don't speak to each other, and so you can never have a full view of what's happening in the food system.
+
+What we hope to do with blockchain is bring all food safety system stakeholders and collaborate so that we do it one best way, we can do it very quickly, and efficiently.
+
+Blockchain is a digital ledger that allows different segments of the food system to capture information about the product, what they've done to it, where that product has been.
+If we're linking that data with other data points, the Internet of Things, all that information will yield to insights that will allow us to have a safer, more affordable and sustainable food system.
+But we don't believe traceability is the goal. 
+We believe that transparency is the ultimate goal.
+
+Blockchain will give us the ability to not only track where food came from, but how it was produced, was it produced safely, was it produced responsibly, is it sustainably grown, how many dates of shelf life are left on that product.
+
+The food system is a shared responsibility and for blockchain, and traceability, and transparency to work we need a lot of people working together.
+We're excited to be working with IBM on this blockchain initiative, but it's not just Walmart and IBM, we actually have some of our suppliers participating in this pilot, we've got some universities also participating in the pilot.
+
+We'll make sure that all stakeholders work together for a safer and better food system.
+  - IBM's [Food Trust Solution](https://www.ibm.com/blockchain/resources/food-trust/manufacturing/?mhsrc=ibmsearch_a&mhq=Food%20Trust%20Solution) building faith in food supply chains.
+  - Paramount's [Farm to Table](https://www.farmtoplate.io/) creates an inclusive blockchain supply chain solution [from the farm all the way to your plate](https://www.producebluebook.com/2021/05/21/paramount-software-solutions-launches-farm-to-plate-blockchain-platform/#modal).
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Farm to Table logo ------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image100.png?raw=true"
+   alt="Farm to Table logo"</>
+   <!---- connected dots ---->
+</p>
+
+<h3>Healthcare</h3>
+Blockchain is transforming the healthcare industry. Some challenges the healthcare industry faces are counterfeit drugs, siloed data, health record management to name a few. Blockchain can solve these issues with interoperability, data integrity and security. Let's look at some solutions.
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- Moderna logo------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="25%" 
+   src="/images/image101.jpg?raw=true"
+   alt="Moderna logo"</>
+</p>
+  
+Moderna uses blockchain to support smart COVID vaccine management. 
+To learn more see ["Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter' Management of COVID-19 Vaccines"](https://www.marketwatch.com/story/moderna-ibm-explore-blockchain-tech-ai-to-support-smarter-management-of-covid-19-vaccines-2021-03-04) article by Tomi Kilgore.
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- SAP logo ----------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="25%" 
+   src="/images/image101.png?raw=true"
+   alt="SAP logo"</>
+</p>
+
+SAP has an existing solution unrelated to blockchain called Advanced Track and Trace for Pharmaceuticals (ATTP) which generates the unique identifiers. 
+To further explore this solution read the following article by Nicky Morris ["SAP Leads Pharma Supply Chain Blockchain"](https://www.ledgerinsights.com/sap-pharma-supply-chain/) and watch ["Verifying Pharmaceutical Products Using Blockchain"](https://www.sap.com/assetdetail/2018/05/c48ee5c2-047d-0010-87a3-c30de2ffd8ff.html) video. 
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------   Pfizer logo --------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="25%" 
+   src="/images/image103.png?raw=true"
+   alt="Pfizer logo"</>
+</p>
+
+Also, Pfizer has been using blockchain in transparent [clinical trials](https://www.pfizer.com/science/clinical-trials/guide). You can learn more about this project by reading the following blog post, ["Clinical Trial Data Should Be Accessible and Transparent"](https://www.pfizer.com/science/clinical-trials/data-and-results).
+
+<h3>Finance Markets</h3>
+Reduction of settlement times will improve the flow of money through fintech companies.
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Swiss Exchange logo (SIX) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="25%" 
+   src="/images/image104.jpg?raw=true"
+   alt="Swiss Exchange logo (SIX)"</>
+</p>
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+Swiss Exchange, [SIX](https://tokenist.com/swiss-exchange-six-to-incorporate-blockchain-and-launch-sto/) has a solution that solves the issue in the trade markets of long settlement times. 
+The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. 
+Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can be completed in fractions of a second.
+Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. 
+In a paper from [Andrea Frosinini](https://www.tradefinanceglobal.com/posts/author/andrea-frosinini/), ["Reshaping Trade Finance: Towards a “New” Letter of Credit"](https://wiki.hyperledger.org/display/TFSIG/Reshaping+Trade+Finance.+Towards+a+new+Letter+of+Credit?preview=/29035705/29035706/Reshaping%20Trade%20Finance%20(towards%20a%20new%20Letter%20of%20Credit).pdf), he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
+
+<!------------------------------------------------------------------------------------------------>
+<!-----------------------------=------- Voltron logo --------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="25%" 
+   src="/images/image105.png?raw=true"
+   alt="Voltron logo"</>
+</p>
+
+Voltron Trade Finance was co-founded by eight member banks including Bangkok Bank, BNP Paribas, CTBC, HSBC, ING, Natwest, SEB and Standard Chartered. 
+The consortium has since grown to more than 50 banks and corporations. 
+The platform is built on Corda blockchain, it solves the problem that most letters of credit are based on paper and take 5 to 10 days. 
+By using blockchain technology, the letters of credit may be efficiently transacted in less than 24 hours. 
+You can learn more about Voltron from the following two articles "Blockchain Based Letter of Credit Processed by HSBC on Voltron Trade Finance Platform" (by JD Alois) and "Trade Finance Solution Voltron Launches Open Platform on Corda Blockchain".
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<h3 id="ch6-4">6.4 Public Sector Solutions Overview</h3>
+Blockchain benefits of security, efficiency and speed have government leaders research the far reaching implications that will improve lives and accelerate global blockchain solutions. 
+Public sector can be categorized by, Public Administration, Public Service, Land and Community, and Government. 
+According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’Kelly, "Re-thinking Public Sector through Blockchain", all blockchain public sector project must consider in the design these four factors:
+  - Identity management for Governments
+  - Interactions (highly regulated transactions)
+  - Regulations
+  - Governance
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ Smarrt Dubai ---------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image106.jpg?raw=true"
+   alt="Smart Dubai"</>
+</p>
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goal is to become the happiest city on Earth. 
+Watch these additional resources to learn more about the Smart Dubai initiative, ["Smart Dubai's Paperless Strategy"](https://www.digitaldubai.ae/initiatives/paperless) and ["Happy Cities Forum 2019"](https://www.digitaldubai.ae/initiatives/happiness-agenda).
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Dutch Blockchain logo ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image105.png?raw=true"
+   alt="Dutch blockchain coalition"</>
+</p>
+
+[Dutch Blockchain Coalition](https://dutchblockchaincoalition.org/) established three pillars of society working together to build a blockchain future:
+<ul>
+<li>Developing blockchain building blocks - digital identities</li>
+<li>Realizing the conditions for utilizing blockchain</li>
+<li>Developing and realizing the Human Capital Agenda</li>
+</ul>
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Buffalo on Wyoming Flag (180) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image108.jpg?raw=true"
+   alt="Buffalo on Wyoming flag"</>
+</p>
+
+Wyoming has now enacted a total of [13 blockchain-enabling laws](https://caitlin-long.com/what-do-wyomings-blockchain-laws-mean/), making it the only US state to provide a comprehensive, welcoming legal framework that enables blockchain technology to flourish, both for individuals and companies. This effort was led by tireless [Caitlin Long](https://caitlin-long.com/).
+
+<h3 id="ch6-5">6.5 Social Impact Solutions Overview</h3>
+
+The [Blockchain for Social Impact Coalition (BSIC)](https://blockchainforsocialimpact.com/) is a not-for-profit organization that incubates, develops, and collaborates on blockchain products and solutions that can address social and environmental challenges across the United Nations Sustainable Development Goals. The aim is to inspire, federate, and create bridges between NGOs, and government agencies, foundations, impact investors, philanthropists and technologists.
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- Blockchain for Social Impact -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image-blockchain-for-social-impact.png?raw=true"
+   alt="Blockchain for Social Impact"</>
+</p>
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+According to the ["7 Ways Blockchain Can Be Used for Social Good"](https://innotechtoday.com/blockchain-social-good/) article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
+<ul>
+<li>Philanthropy and remittances</li>
+<li>Financial empowerment</li>
+<li>Identity and land rights</li>
+<li>Governance and democracy</li>
+<li>Supply chain and environmental protections</li>
+</ul>
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ Kiva logo ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="25%" 
+   src="/images/image-kiva.png?raw=true"
+   alt="Kiva logo"</>
+</p>
+ 
+More than 1.7 billion people around the world are unbanked and can’t access the financial services they need. [Kiva](https://www.kiva.org/) is an international nonprofit, founded in 2005 in San Francisco, with a mission to expand financial access to help underserved communities thrive. Kiva accomplishes this by crowdfunding loans and unlocking capital for the underserved, improving the quality and cost of financial services, and addressing the underlying barriers to financial access around the world. Through Kiva's work, students can pay for tuition, women can start businesses, farmers are able to invest in equipment and families can afford needed emergency care.
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------- Mission of the Rohingya Project. How it works (182) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image-rohingya-howitworks.png?raw=true"
+   alt="Mission of the Rohingya Project. How it works"</>
+</p>
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+The mission of the Rohingya Project is to create the foundation for a viable future for the stateless Rohingya people by connecting them digitally to opportunities to learn, equip and empower themselves. Through the creation of a Financial and Social Inclusion platform, those Rohingya who for years have been sidelined can be given access to a range of virtual services including online education, digital identity and reward tokens.
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- Rohingya Initiative logo   --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img width="50%" 
+   src="/images/image-rohingya-project.png?raw=true"
+   alt="Rohingya Initiative logo"</>
+</p>
+
+The platform will tap into the potential of the Rohingya community and other marginalized people and offer options to counter their exclusion from the mainstream.
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- Displaced Rohingya Worldwide ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-displaced.png?raw=true"
+   alt="Displaced Rohingya Worldwide"
    width="85%" />
-&nbsp;
+</p>
 
-<h3>Readings</h3>
+The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social Impact project designed to improve disaster relief efforts as well as open up new pathways for local charity giving.
 
-   * Ethereum Whitepaper: [A Next-Generation Smart Contract and Decentralized Application Platform](https://github.com/ethereum/wiki/wiki/White-Paper)
-   * (Optional) [Explore decentralized applications](https://www.stateofthedapps.com/). Check out all the different Ethereum Apps that have been created!
-   * (Optional) [Ethereum: A Secure Decentralized Generalised Transaction Ledger](http://gavwood.com/paper.pdf)
-   * [Blockchain, Cryptocurrencies & The New Decentralized Economy](https://blockchainatberkeley.blog/blockchains-cryptocurrencies-the-new-decentralized-economy-part-1-a-gentle-introduction-edcb4824b174)
+**[`^        back to top        ^`](#table-of-contents)**
 
-Congratulations on completing the course!<br/>
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- Charity logo ------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image112.png?raw=true"
+   alt="Charity logo"
+   width="85%" />
+</p>
 
-On behalf of all of our lovely course staff, I’d like to thank you for finishing part one of the Blockchain Fundamentals program: Bitcoin and Cryptocurrencies.
+Created by three local meetup groups, [Ledger Academy](https://ledgeracademy.com/index.html), [Hyperledger Princeton](https://www.meetup.com/Hyperledger-Princeton/) and [Blockchain & AI Princeton](https://www.meetup.com/Blockchain-Princeton/). The project won the 2021 Government Blockchain Associations Award for Social Impact. The video of the awards ceremony can be viewed on [YouTube](https://www.youtube.com/watch?v=41DYKpLSvrs).
 
-With this first step into cryptocurrencies and blockchain, you now likely have a much better understanding of the space than most of your peers.
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- The Giving Chain (183) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+  <img width="65%" src="/images/image115.jpg?raw=true"
+    alt="The Giving Chain"</>
+</p>
 
-You understand the fundamentals and vulnerabilities of Bitcoin, the first use of blockchain, and Ethereum, a generalization of Bitcoin designed to simulate a distributed computer.
+**[`^        back to top        ^`](#table-of-contents)**
 
-By understanding the technical and cultural aspects of Bitcoin, Ethereum, and blockchain, you can apply that experience to understand and analyze any blockchain platform or use case you may encounter.
+The Giving Chain is now moving from a Proof of Concept project to a prototype as it was selected for the 2021 Hyperledger Mentorship program.
+ConsenSys
+ConsenSys Mesh companies offer solutions to help build out the Ethereum Ecosystem. ConsenSys Mesh acts as an incubator for Etherum-based projects:
+<ul>
+<li>Codefi<br/>
+Finance and commerce blockchain applications.</li>
+<li>Diligence<br/>
+Ethereum smart contract audits.</li>
+<li>INFURA<br/>
+Scaling and performance issues.</li>
+<li>Metamask<br/>
+Wallet application.</li>
+<li>Quorum<br/>
+open source blockchain platforms.</li>
+<li>Truffle<br/>
+Application builder.</li>
+</ul>
 
-We hope you enjoyed this first part of the Blockchain Fundamentals program.
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- Consensys mesh companies --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image114.png?raw=true"
+   alt="ConsenSys Mesh Companies"
+   width="75%" />
+</p>
 
-If you’re looking for more, there’s still a great deal of complexity and innovation left to explore, so I cordially invite you to take our second course, CS198.2x Blockchain Technology.
+<h3>Hyperledger</h3>
 
-We wish you all the best on the rest of your blockchain journey!
+[Hyperledger Greenhouse](https://www.hyperledger.org/use) is a graphical representation of the blockchains tools and libraries hosted by the Linux Foundation:
 
-the end…
-4/15/2022 6:18pm
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- hyperledger green 'house' ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-hyperledger-house.png?raw=true"
+   alt="Hyperledger Greenhouse"
+   width="85%" />
+</p>
+
+Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger [distributed ledgers](https://www.hyperledger.org/use/distributed-ledgers) and [libraries](https://www.hyperledger.org/use/libraries) on the Hyperledger website.
+
+<!------------------------------------------------------------------------------------------------>
+<!----------- Hyperledger Websites: aries, besu, fabric, indy, iroha, and sawtooth --------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-hyperledgers.jpg?raw=true"
+   alt="Hyperledger Websites: aries, besu, fabric, indy, iroha, and sawtooth"
+   width="100%" />
+</p>
+
+**[`^        back to top        ^`](#table-of-contents)**
+  
+<h3>Daml</h3>
+
+[Daml](https://www.digitalasset.com/developers) is:
+> "a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
+<ul type="disc">
+   <li>Daml Connect<br/>
+It is a complete development and application stack allowing you to build, integrate, deploy, and maintain full-stack multi-party solutions with a minimum of boilerplate code.</li>
+   <li>Daml Drivers<br/>
+They allow you to deploy your application using distributed ledgers, blockchains, or databases. Migrate between ledger drivers without any code changes as business needs evolve.</li>
+   <li>Daml Hub<br/>
+It is a cloud service that enables rapid distributed application deployment with an always available, easy-to-use, fully managed cloud environment.</li?
+</ul>
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- A DAML logo ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image117.png?raw=true"
+   alt="A DAML logo"
+   width="25%" />
+</p>
+
+<h3>SIMBA Chain</h3>
+
+[SIMBA Chain, Inc.](https://simbachain.com/about/) was formed in 2017 from a grant awarded by the Defense Advanced Research Projects Agency (DARPA) to Indiana Technology and Manufacturing Companies [(ITAMCO)](https://itamco.com/) and the Center for Research Computing [(CRC)](https://crc.nd.edu/) at the University of Notre Dame in order to develop a secure, unhackable messaging and transaction platform for the United States military.
+
+SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). 
+
+These apps allow secure, direct connections between users and providers, eliminating third parties. 
+
+The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- Simba logo (186) ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image118.png?raw=true"
+   alt="Simba logo"
+   width="25%" />
+</p>
+
+[SIMBA's Smart Contract Designer](https://info.simbachain.com/smart-contract-designer-landing-page) allows anyone to quickly and easily create smart contracts. 
+
+The interface allows users to easily build a graph of the relationships between assets and transactions. 
+
+This graphical model is then converted to Solidity where each asset and transaction becomes a Solidity Smart Contract method that can be executed on the blockchain.
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- Simba - Software as a Service (SaaS)   ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image119.png?raw=true"
+   alt="Simba - Software as a Service (SaaS)"
+   width="75%" />
+</p>
+
+SIMBA Chain also offers management services [(Software as a Service)](https://simbachain.com/enterprise/) for your blockchain solution that grant use of software solutions or APIs (application programming interface), across several cloud platforms so companies can effectively create blockchain solutions.
+
+<h3>Identity</h3>
+
+Identity management is vital for blockchain operation. Identifying objects that will interact with a blockchain such as people, places, things [(IOT devices)](https://www.blockchain-council.org/blockchain/blockchain-and-iot-a-solid-technological-duo/), is the first step and consideration when developing a blockchain.
+
+One solution is the Verifiable Organizations Network [(VON)](https://vonxio/about/) project that enables organizations—and the people running those organizations—to conduct business online in a trusted manner. The core challenge is that on the Internet we can’t tell if we’re talking to you, or someone pretending to be you. We need a reliable way to verify that “you are you” in a manner appropriate for the type of transaction that you want to complete and in a privacy-preserving manner.
+
+To learn more, we recommend that you listen the ["Digital Trust: How the OrgBook Enables the Digital Economy"](https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4) webinar.
+
+<h3>Marketplace</h3>
+Marketplaces exist to shop renewable energies to make sustainable solutions available on open markets. Everyone knows there are countless inefficiencies in the energy grid, stemming from the highly centralized nature of our utilities systems. With the advent of at-home energy production and storage through affordable solar panels and home batteries, many users are storing energy surpluses at home without a way to “sell” clean energy.
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- Clean Energy logo ------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image122.jpg?raw=true"
+   alt="Clean Energy logo"
+   width="25%" />
+</p>
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+[Power Ledger](https://www.powerledger.io/) solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. 
+
+By increasing the transparency for energy origins, Power Ledger could assist with providing customers more choices for where their energy comes from. 
+
+They accomplish these goals through peer-to-peer energy trading, carbon product trading, microgrids management, and more.
+
+<h3>Gaming</h3>
+The days of video games being just a form of entertainment are long gone.<br/> 
+
+Most of the new video games have in-app purchases and loot box features in them. <br/>
+
+These features enable users to use real-life currency to buy new skins for their characters and tools. <br/>
+
+With the use of [DeFi](https://101blockchains.com/defi-use-cases/), game developers can implement the newer incentive or reward models with DeFi coins. 
+
+In fact, gaming and eSports will likely become one of the major markets as the users are more tech-savvy and open to newer technologies.
+
+To learn more, visit the [Game Developers Conference's website](https://gdconf.com/).
+
+<h3>Decentraland</h3>
+
+[Decentraland](https://decentraland.org/) is a virtual world built on top of the Ethereum blockchain. 
+
+A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br/> 
+
+Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).<br/>
+
+Watch this video to learn more about <a href="https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/" target="_blank">Decentraland</a>
+<!--- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/). -->
+
+<h3>Music</h3>
+
+Experts from [Statista](https://www.statista.com/statistics/239276/growth-of-the-global-music-revenue-by-type/) projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
+
+Read ["Blockchain for the Music Industry: 9 Possible Use Cases"](https://www.disruptordaily.com/blockchain-use-cases-music/) by Sam Mire to learn more.<br/>
+[themusicianmarketplace.com](https://www.themusicianmarketplace.com/) was built to establish one profile for each artist, but each artist can list talents for any job they want. <br/>
+For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place.
+
+The options on themusicianmarketplace.com are unlimited. 
+
+Below you can see themusicianmarketplace.com dashboard: 
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- musicianmarketplace.com ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image123.jpg?raw=true"
+   alt="musicianmarketplace.com"
+   width="85%" />
+</p>
+
+<h3 id="ch6-6">6.6 What is the future of blockchain?</h3>
+That is a big question.
+
+And unlike everything we have already talked about in this course, this is nothing factual, but just my own opinion.
+
+I think blockchain is a really, really exciting place right now.
+
+Blockchain tends to get talked about in the context of a lot of other exciting emerging technologies, things like IoT and smart devices, self-driving cars and autonomous devices, AI, virtual and augmented reality.
+
+The truth is, in my opinion, I see blockchain as an enabling layer for many of these other technological revolutions.
+
+Everybody is excited about the idea of smart devices.
+
+Wouldn't it be great if I had a smart refrigerator that automatically reordered more ketchup as it started to get low?
+
+Everyone gets a little nervous when it comes time to actually talk about implementing something like this, because how do we protect it?
+
+How do we ensure that the data the system uses is immutable and secure?
+
+Blockchain provides that.
+
+I think that we are going to see a lot of growth in emerging technologies as blockchain continues to emerge, because it's going to make more and more things possible.
+
+**[`^        back to top        ^`](#table-of-contents)**
+
+And if we talk long term, and again, only my opinion, I think blockchain becomes the enabling layer for a multi-planetary human economy.
+
+You might have seen in February 2018, SpaceX put up Falcon Heavy.
+
+Because SpaceX and Elon Musk are committed to getting us to Mars.
+
+And I truly believe in the next 20 to 50 years we are going to see a human colony on Mars.
+
+Now, one interesting thing about Mars is that it's really really far away.
+
+At the closest Earth gets to Mars, it's a 26 minute roundtrip at light speed, and there's two weeks out of every March and year, where Earth and Mars can't communicate because the Sun is right in the middle.
+
+Well, think about this: if you run a small pizza shop on Mars, you close out your register for the day, and you need to deposit funds into your bank account, and that is a bank on Wall Street, New York City, and under the best case scenario, that's a 26-minute roundtrip, you can see how centralized models of the Internet aren't going to scale.
+
+If you ask me, I really believe technologies like blockchain and supporting technologies like IPFS are the enabling technologies to allow humans to continue to trade and interact and conduct commerce with each other when we become a multi-planetary society.
+And that's why I think there's a ton of potential in blockchain and it's something really exciting, and hopefully, you're all inspired to stay up-to-date with.
+
+<h3 id="ch6-7">6.7 Chapter Summary</h3>
+In this chapter, we discussed:
+<ul type="disc">
+   <li>Blockchain use cases in an enterprise environment.</li>
+   <li>Public sector and how blockchain is important in shaping citizens' futures.</li>
+   <li>The relevance of blockchain in social impact projects.</li>
+   <li>Developing new blockchain platforms emerging as the ecosystem evolves.</li>
+   <li>Blockchain and how it will improve human experience.</li>
+</ul>
+
+<pre>
+The end . . .
+   © 2021 edX Inc. All rights reserved.
+   深圳市恒宇博科技有限公司 粤ICP备17044299号-2
+</pre>
+**[`^        back to top        ^`](#table-of-contents)**
+4/8/2022
