@@ -74,7 +74,6 @@
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-**[`^        back to top        ^`](#table-of-contents)**
 
 <h2 id="ch1">Chapter 1. Introduction to Blockchain</h2>
 <h3>Learning Objectives</h3>
@@ -315,6 +314,10 @@ It's not big data. It's not artificial intelligence. It's not even social media.
 
 It's **BLOCKCHAIN!**
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Now, let's discuss the vast promise blockchain has for every business, every society, and for everyone listening today.<br/>
 
 And let's begin with an example we are all familiar with.<br/>
@@ -405,6 +408,10 @@ Smart contracts will revolutionize how we do business.
 There are so many possibilities with blockchain; not just in the now, but with things we haven't begun to think about yet.
 
 <b><i>Blockchain Is **NOT** Bitcoin</i></b><br/>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Bitcoin is a digital currency running on top of the Bitcoin blockchain. We will develop the concept of cryptocurrencies in later sections. 
 
@@ -536,6 +543,10 @@ And the rest of this series will take a deeper dive into these basic concepts an
 You already understand all the major principles and concepts required to understand what blockchain is and why it's so powerful.
 </p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Let’s Review an Analogy</h3>
 <p>
 A block on a blockchain can be thought of much like a page in a notebook. Data is stored on a block, just like data is written on a page of a notebook. <br/>
@@ -578,6 +589,10 @@ Examples of stored data include:
    alt="Data stored on block" 
    width="40%" />
 &nbsp;
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Let’s Review an Analogy: Blocks Are Chained Together</h3>
 Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
@@ -635,6 +650,10 @@ It is decentralized in that an identical copy of the ledger exists on every node
 In 2009 with the publishing of Satoshi Nakamoto’s whitepaper [“Bitcoin: A Peer-to-Peer Electronic Cash System”](https://bitcoin.org/bitcoin.pdf) ,[Bitcoin](https://bitcoinfoundation.org/) became the first application to leverage blockchain technology by recording the first asset transfer on a public blockchain ledger.
 </p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Blockchain Features: Peer to Peer Network</h3>
 <p>
 The ledger is stored, updated, and maintained by a peer network. <br/>
@@ -677,6 +696,10 @@ Since every node shares a copy of the agreed-upon ledger, there is no friction a
 
 Centralized systems are not transparent, the information about the ledger is controlled by one authority.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Blockchain Features: Consensus</h3>
 <p>
 Blockchain ledgers are different from centralized ledgers because network participants have an agreement upon what is in the identical ledger. <br/>
@@ -715,6 +738,9 @@ Cryptography and blockchain offer a secure way to prove something is authentic.
 
 Instead of relying on third-party, trust is put into cryptographic algorithms that prove the provenance and authenticity of an attestation.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain Features: Programable</h3>
 <p>
@@ -802,6 +828,10 @@ The collectable world is jumping in head first and creating non fungible tokens 
 Designers are needed to turn these moments/media into art for the thirsty NFT market.</li>
 </ul>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch1-5">1.5 Who is Using Blockchain? (Use Cases)</h3>
 <p>
 There are a lot of really interesting use cases being explored with blockchain right now.<br/>
@@ -870,6 +900,10 @@ There are lots of very interesting use cases for blockchain in the real world ri
 
 I would encourage all of you to dig in a little bit more, and see some of the interesting things that are going on with blockchain in healthcare, in public sector, in insurance, in supply chain, value chain and more, see what other folks are doing, and then go out and make your own blockchain dreams a reality.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Blockchain Users: Business to Consumer (B2C)</h3>
 <p>
 A Business to Consumer (B2C) is business or transactions conducted directly between a company and consumers who are the end-users of its products or services.<br/>
@@ -906,6 +940,10 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
    * <b>Result:</b> The jewelry industry can now track and authenticate diamonds and precious metals through every stage of the supply chain. 
 Blockchain provides physical product verification, process verification and servers as an ethical oversight.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Blockchain Users: Business to Business (B2B)</h3>
 With a decentralized approach, blockchain removes the middleman (such as banks and brokers) to facilitate faster and less expensive payments. <br/>
 
@@ -941,6 +979,10 @@ Industries like finance, international trade and commerce, food supply chains ar
   The carriers are a vital link in Walmart's supply chain backbone, and the DLT solution ensures invoicing systems run smoothly.
 &nbsp;<br/>
    * <b>Result:</b> Demonstrable transformation of freight management and carrier relationships by implementing a shared DLT invoicing system with trust and transparency build-in, reduces disputes among organization by 95%.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Unintended Use Cases</h3>
 <p>
@@ -1005,6 +1047,9 @@ Certainly, it was not the original problem we went to solve with blockchain, but
 
 Look for blockchain not just to transform the areas that we're aware it might make a difference in, but also to provide some new exciting and unintended benefits.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain Users: Government to Consumer (G2C)/Government to Government (G2G)</h3>
 <p>
@@ -1066,6 +1111,10 @@ The [Smart Dubai](https://www.digitaldubai.ae/) strategy will be using three ess
 
 When successful, Dubai will be the first blockchain-powered government driving the future economy.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>More Use Cases</h3>
 Blockchain is having far reaching effects in major industries.
 Let’s take a look at three major industries having a positive influence from this new way to organize our information:<br/>
@@ -1100,6 +1149,9 @@ In this chapter, we discussed:
 <li>Blockchain users and their roles.</li>
 <li>Emerging general use cases.</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h2 id="ch2">Chapter 2. Blockchain Mechanics</h2>
 
@@ -1126,6 +1178,9 @@ By the end of this chapter, you should be able to:
 <li>Discuss how blockchain utilizes transparency.</li>
 <li>Explain what it means for blockchains to be immutable and how chaining provides this capability.</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch2-1">2.1 Introduction to Blockchain Components</h3>
 <p>
@@ -1187,6 +1242,10 @@ The blockchain is a network.
 
 The blockchain is a ... <b><i>public blockchain</i></b> is equivalent to the Internet, complete with its own set of protocols, etc.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <b><i>Private blockchains</i></b> are more synonymous with an intranet.
 
 It is... just like we have a use case for public blockchains and public internet, we also have use cases for private blockchains and an intranet, if we're gonna stay with that analogy.
@@ -1244,6 +1303,9 @@ When something occurs on the blockchain, either public blockchains... most publi
 This allows end-users, other systems, other users, different components to be able to act off of the events that come from an update on a blockchain.
 
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Basic Terms</h3>
 Some terms that are mentioned in the video we will get familiar with in later chapters, but are worth a brief description for clarification:
@@ -1315,6 +1377,10 @@ To understand how blockchain came about, we must first understand the following 
 <li>Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.</li>
 </ul>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>History of Ledgers (Triple-Entry Example)</h3>
 
 <b>As described in the </b>[Reddit post](https://www.reddit.com/r/Accounting/comments/2biy4h/triple_entry_bookkeeping_using_cryptocurrencies/),
@@ -1334,6 +1400,9 @@ Since the entries are distributed and cryptographically sealed, falsifying them 
    alt="Double vs. Triple-Entry Accounting Comparison"
    width="65%" >
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Island of Yap</h3>
 
@@ -1382,6 +1451,9 @@ One day, a stone fell into the ocean and the Yapese decided that this stone, eve
 
 This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.<br/>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Island of Yap: Recap</h3>
 <p>
@@ -1446,6 +1518,10 @@ Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never ga
 </ul>
 If Alice wants to cheat, she will need a way to convince 51% or more of the tribe to accept an alternative ledger.
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>The Evolution of Distributed Ledgers</h3>
 <p>
 We've gone through history and seen how ledgers have evolved from stone tablets to double-entry ledgers.<br/>
@@ -1490,6 +1566,10 @@ Essentially you are not trusting one person or entity to control the ledger, you
 
 Let's look a little further into how that trust is achieved.<br/>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch2-3">2.3 From Distributed Ledger to Cryptography</h3>
 <p>
 A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
@@ -1741,7 +1821,10 @@ Transactions on the blockchain include their public key and are digitally signed
 &nbsp;
 
 <h3>Identity: Specific Identity Implementations</h3>
-Ethereum is a public blockchain that anyone can participate in. [Hyperledger](https://www.hyperledger.org/) is an example of an enterprise blockchain where participants must be granted access to engage in the blockchain.
+Ethereum is a public blockchain that anyone can participate in.
+
+[Hyperledger](https://www.hyperledger.org/) is an example of an enterprise blockchain where participants must be granted access to engage in the blockchain.
+
 <ul>
 <li>Ethereum<br/>
 A user’s identity is an address based on their public key.</li>
@@ -5841,4 +5924,4 @@ The end . . .
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<b><i>4/15/2022 9:33pm</i></b>
+<b><i>4/15/2022 9:55pm</i></b>
