@@ -1619,6 +1619,9 @@ Rose did this for a number of years, until finally her encryption method was bro
 
 When you hear about blockchain and all the new cutting-edge things that it's doing, don't forget that it has its roots in very old technology, and we're just combining old technology in new and creative ways to create a brand new solutions development platform.<br/>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Early Use of Cryptography: Caesar Cipher</h3>
 
 As described in the ["Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet"](https://medium.com/tokenring/ancient-uses-of-cryptography-four-examples-that-pre-date-the-internet-14679ae4f509) article by Melanie Shapiro,
@@ -1665,6 +1668,9 @@ Encryption is the reverse process of converting ciphertext into plain text.</li>
    width="65%" >
 &nbsp;
 <p align="center">The Secret and the Key are passed into the Function to create the Cipher.</p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Cryptography Basics</h3>
 One of the technologies that plays a pivotal role in blockchain and making blockchain secure and immutable is cryptography.
@@ -1721,6 +1727,10 @@ Number one, that cryptography is normally a two-way function with four component
    able to recreate that hash output.
 
 These are key components which enable security and immutability on the blockchain.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Cryptographic Functions</h3>
 Simple example function:
@@ -2327,6 +2337,10 @@ Its append-only structure and decentralized storage sacrifice storage efficiency
 	alt="Transparency: Database vs. Blockchain"
 	width="85%" >
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch2-4"></a>2.4 Transparency</h3>
 <p>
 One of the big benefits we get in any blockchain solution, public or private, is the idea of transparency.
@@ -2382,6 +2396,9 @@ These kind of transparency solutions are one of the biggest benefits of blockcha
 
 And blockchain, both public and private, can be a great solution for doing that.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Immutability in the Blockchain</h3>
 Blockchain is designed to be an authoritative ledger of the history of the network.
@@ -2457,6 +2474,10 @@ And also, along with that, understand that we only have two possible operations 
 
 There's no concept of an edit or delete, and this is what we talk about when we talk about immutability on the blockchain.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Immutability in the Blockchain Is Essential</h3>
 The blockchain needs to be immutable. 
 
@@ -2518,6 +2539,10 @@ Finally, each block is digitally signed by its creator.
 Since the creator of a block is selected via a consensus algorithm, it’s difficult for an attacker to become the legitimate creator of a given block. 
 
 If an attacker is not the legitimate creator of a block, it’s impossible for them to create a digital signature that others would accept.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Immutability Mechanisms</h3>
 Now, let’s look at how different blockchains implement immutability.<br/>
@@ -2662,6 +2687,10 @@ In this chapter, we discussed:
 <li>Public-key cryptography and public/private key pairs to support privacy, authenticity and security.</li>
 <li>Ledger immutability and transparency result from combining these technologies for an agreed-upon, append-only distributed ledger system chained together by blocks.</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h2 id="ch3">Chapter 3. Blockchain Functions</h2>
 <h3 id="ch3-1">3.1 Chapter Overview</h3>
 In this chapter, we will examine some blockchain functions. 
@@ -2686,6 +2715,10 @@ By the end of this chapter, you should be able to:
 <li>Discuss consensus mechanism used in blockchain.</li>
 <li>Explore different methods of achieving consensus (Proof of Work, Proof of Stake, etc.).</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch3-2">3.2 What Are Smart Contracts?</h3>
 When we make a transaction on the blockchain, understand that there are only three types of transactions we can make.<br/>
 
@@ -2765,6 +2798,10 @@ While they sometimes may be legally binding, they're not necessarily legally bin
 
 They're just a way for us to bake our own logic into block chain solutions to ensure that consistency of execution.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Smart Contracts Recap</h3>
 Let’s review some basic information about smart contracts:
 <ul>
@@ -2799,6 +2836,10 @@ A blockchain and smart contract deployed to it can provide a permanent record, a
 <li>Autonomy</li>
 Smart contracts can be developed by anyone, no need for intermediaries such as lawyers, brokers, or auditors.</li>
 </ul>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Campaign Finance</h3>
 <p>
@@ -2851,6 +2892,10 @@ In this section, we will discuss some of the ways that security differs in tradi
    alt="Blockchain Security"
    width="65%" >
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch3-3">3.3 Introduction to Blockchain Security vs. Standard Cybersecurity</h3>
 <p>
 In this section, we're gonna talk a bit about how traditional cybersecurity is different than security concerns on the blockchain.
@@ -2895,6 +2940,9 @@ This means that we must ensure that all the trust in a blockchain solution comes
 
 There are a lot of differences between conventional cybersecurity and security in the blockchain space that you're going to want to understand before you deploy your own blockchain solutions.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain Security Environment</h3>
 One of the primary differences between cybersecurity in a traditional computing environment and on the blockchain is the environment itself and what it is and isn't designed to do.
@@ -2927,6 +2975,9 @@ To be effective, denial-of-service attacks typically focus on a system’s weake
 <li>In traditional environments, denial-of-service attacks target a company's web server to prevent customers from accessing the company's services. This can be accomplished by making more connection requests than the server is capable of supporting.</li>
 <li>In blockchain, a denial-of-service attack involves submitting more transactions to the blockchain than it can handle. Since many blockchains have fixed-size blocks created at a fixed rate and are stored in a distributed fashion, they have a maximum capacity that a determined attacker can exceed, rendering the blockchain unusable.</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Security Attacks: Endpoint Security</h3>
 Traditional infrastructure and blockchain environments also differ with regard to endpoint security. Endpoint security originated to ensure multi-layer prevention against malware, fraud, cyber threats, and attempts to extract private information.
@@ -2961,6 +3012,10 @@ Next, let's engage with an interactive lab. In this lab, you will be examining a
 <br/>&nbsp;
 
 [Start Lab](https://blockchaintrainingalliance.com/pages/lab-distributed)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch3-4">3.4 Different Types of Blockchains (Public & Permissioned Blockchains)</h3>
 When we try to understand the main difference between a public and private blockchain, it is important to understand the terminology.
@@ -3019,6 +3074,10 @@ And, if a user has a currency, something of value, they should be able to exchan
 We don't want to treat any class of users differently than any others in those scenarios.
 
 That's a public blockchain, and that's a very different animal from the private permission blockchain.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Public Blockchain Benefits</h3>
 
@@ -3083,6 +3142,10 @@ A lot of people make the impression, get the impression that they compete with o
 
 They just serve to provide different types of solutions and enable different kinds of products and offerings to be built on top of them.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Private Blockchain Benefits</h3>
 
 The following benefits of a private blockchain have been described in the ["Public vs. Private Blockchain In a Nutshell"](https://medium.com/coinmonks/public-vs-private-blockchain-in-a-nutshell-c9fe284fa39f) article by Demiro Massessi:
@@ -3115,6 +3178,10 @@ On the other hand, as described in [Investopedia](https://www.investopedia.com/n
 <li>A public blockchain network is completely open and anyone can join and participate in the network.</li>
 <li>A private blockchain network requires an invitation, and must be validated by either the network starter or by a set of rules. Private blockchains are usually set up as permissioned networks, placing restrictions on who is allowed to participate in the network, and only in certain transactions.</li>
 </ul>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Public and Private Comparison</h3>
 Now that we've talked about public and private blockchains, what those terms mean and again, you can think of that as permission versus permissionless blockchains, 
@@ -5924,4 +5991,4 @@ The end . . .
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<b><i>4/15/2022 9:55pm</i></b>
+<b><i>4/15/2022 10:27pm</i></b>
