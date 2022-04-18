@@ -5558,11 +5558,11 @@ Trade finance is showing promise for blockchain solutions in letter of credits b
 In a paper from [Andrea Frosinini](https://www.tradefinanceglobal.com/posts/author/andrea-frosinini/), ["Reshaping Trade Finance: Towards a “New” Letter of Credit"](https://wiki.hyperledger.org/display/TFSIG/Reshaping+Trade+Finance.+Towards+a+new+Letter+of+Credit?preview=/29035705/29035706/Reshaping%20Trade%20Finance%20(towards%20a%20new%20Letter%20of%20Credit).pdf), he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------=------- Voltron logo --------------------------------------------->
+<!------------------------------------- Voltron logo --------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="25%" 
-   src="/images/image105.png?raw=true"
+   src="/images/image104.png?raw=true"
    alt="Voltron logo"</>
 </p>
 
