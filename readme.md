@@ -1762,6 +1762,10 @@ One Empire exists within the confines of a walled city, the second Empire has se
 
 And the balance of power is very, very evenly matched between these two empires.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 And it is such that if all the generals agree to attack at the same time, they will have enough power to overcome the empire in the city and win the campaign.
 
 If they, for whatever reason, they're not able to coordinate their attacks simultaneously, and even one general misses the message, well then, the Empire surrounding the walled city is going to lose the campaign and the war.
@@ -1791,6 +1795,10 @@ And if someone ever were to, chances are the economics behind it would be such t
 This is Byzantine Fault Tolerance.
 
 It is the root of cryptography, which is simply the study of how do we send information back and forth securely in the presence of adversaries and bad actors, and it's what underlies all the security and immutability that we get in blockchain.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Types of Cryptography in Blockchain</h3>
 To understand cryptography in blockchain, you must be able to differentiate between various cryptographic techniques used. There are four main ways blockchain leverages cryptography:
@@ -1831,6 +1839,10 @@ Transactions on the blockchain include their public key and are digitally signed
    alt="Public Key Cryptography - Verify Signature with 3-step Process"
    width="65%" />
 &nbsp;
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Identity: Specific Identity Implementations</h3>
 Ethereum is a public blockchain that anyone can participate in.
@@ -1889,6 +1901,10 @@ Digital Signatures and Key Pairs<br/>
 	width="50%" >
 &nbsp;
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Private/Public Key Cryptography</h3>
 <p>
 I want to talk a little bit about cryptography and some cryptography principles.
@@ -1933,6 +1949,11 @@ All that money is is just a record on the blockchain, and, as long as I can reco
 
 That's how public and private keys fit into blockchain; a very key component just to understand that they're used to sign and verify any transactions that you make.
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h4>Zero-Knowledge Proof (ZKP)</h4>
 <p>
 Zero-knowledge proofs authenticate parties without the need to widely transmit private information online. 
@@ -1984,6 +2005,11 @@ When you hear about zk-SNARKs, don't get intimidated.
 
 It's not a complex idea. Just think of Zero-Knowledge Proofs and the cave door, think about how important it is in blockchain to be able to prove a claim without actually revealing the information behind that claim, and you'll understand Zero-Knowledge Proofs.
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Hash Functions in Blockchain</h3>
 <p>
 When using blockchain, the need to trust a central authority to verify the accuracy of data is removed and replaced by trust in a cryptographic hashing function. 
@@ -2013,7 +2039,11 @@ A hash function is a mathematical equation with <b>four</b> important properties
    alt="Cryptographic Hashing"
    width="100%" />
 </p>
- 
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Cryptographic Hashing Demo</h3>
 <p>
 In this section, we're going to talk about cryptographic hashing.
@@ -2077,10 +2107,15 @@ My self-driving car, every time I start the car, can take its source code, run i
 
 It can then share this identifier or 32-character hash output with every other self-driving car it has contact with, or even validate this against a database or some other centralized data store, or perhaps an immutable record on the blockchain.
 
-
 This gives me the confidence that if the source code for my self-driving car ever gets hacked and makes it unsafe to drive,
 
-I'll know it right away. I'll try to start my self-driving car, which will immediately hash its source code, share that hash output with other self-driving cars or validate it against an authoritative source, and instantly we can see I've got an entirely different hash output letting me know before I've gone anywhere that my self-driving car is not safe, and putting that self-driving car into a limp or shutdown mode, where it simply refuses to go anywhere until the compromised software has been updated and replaced with the right version.
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+I'll know it right away. 
+
+I'll try to start my self-driving car, which will immediately hash its source code, share that hash output with other self-driving cars or validate it against an authoritative source, and instantly we can see I've got an entirely different hash output letting me know before I've gone anywhere that my self-driving car is not safe, and putting that self-driving car into a limp or shutdown mode, where it simply refuses to go anywhere until the compromised software has been updated and replaced with the right version.
 
 Cryptographic hashes give us a way to link all blocks on the blockchain together in an immutable fashion, such that if any one particular block or the data on any block is changed or altered to any degree, no matter how small, we will know it instantly and we will break the link between that block and every subsequent block.
 
@@ -2109,6 +2144,10 @@ A special type of data storage structure based on hash functions is called a Mer
 	alt="Merkle Tree"
 	width="100%" />
 &nbsp;
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <p align="center">Merkle trees are a data structure that allows authenticated storage with efficient data retrieval.</p>
 
@@ -2176,6 +2215,10 @@ Both Ethereum and Hyperledger Fabric are smart contract platforms that use a par
    alt="Disintermediation - Trust Through Transparency"
    width="100%" />
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Disintermediation - Trust Through Transparency</h3>
 Now, that we have an understanding of how collaboration and cryptography work together to create a layer of trust, let's discuss how blockchain has a powerful disintermediation effect.
@@ -2261,6 +2304,10 @@ Traditional Database Updates
 
 A database is a collection of interrelated data organized so that individual records or groups of records can be retrieved to satisfy various criteria.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- CRUD - create, read, update, delete ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2304,6 +2351,10 @@ This means that the blockchain is an append-only data structure without support 
 The entire history of the blockchain is publicly visible and stored in a distributed and decentralized fashion.
  
 Values in the blockchain can be “updated” by appending a new version of that value in a later block, but the complete history of the value is preserved.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Transparency of a Blockchain</h3>
 The blockchain is designed so that its entire history is visible and unchangeable. 
@@ -3234,6 +3285,10 @@ But, myself, my architects, and my developers are gonna have to develop the logi
 
 As you start to dig into a lot of real-world use cases, what you're going to find is many use cases make use of both types of blockchain, integrated seamlessly to you.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Is Blockchain Right for You?</h3>
 
 Consider the following aspects before deciding if blockchain is for you:
@@ -3267,6 +3322,10 @@ Let's take a look at the blockchain decision chart:
 	alt="Blockchain Decision Chart"
 	width="65%" >
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Questions to Ask When Deciding on Blockchain</h3>
 Discussion on these topics need to be addressed when making the decision to adopt a blockchain strategy for your company:
 
@@ -3298,7 +3357,6 @@ Understand that blockchain is like hot sauce - there are a lot of areas you can 
 
 But there are some areas that you can't add blockchain to without making things a lot worse.
 
-
 And just like hot sauce, there is a big misconception that blockchain is an all-or-nothing proposition, that if we're going to architect and develop a solution on blockchain, we either have to build something that exists entirely on blockchain, or we need to build something that exists entirely on conventional technology.
 
 The truth is that like hot sauce, blockchain is really best when it's combined with something.
@@ -3308,10 +3366,14 @@ That's the same way with blockchain.
 
 If you are looking at building a solution completely and entirely on the blockchain, without exploring some of the amazing potential that you get by combining blockchain with conventional technology, then you probably got a bad recipe.
 
-So, when you're thinking about blockchain, and how to add it to your personal and professional life, understand that it's not a meal all by itself.
+When you're thinking about blockchain, and how to add it to your personal and professional life, understand that it's not a meal all by itself.
 
 It's just a little splash of hot sauce you put on something that already works pretty well.
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain Considerations</h3>
 Companies must consider many factors when deciding how blockchain will fit into the business model. 
@@ -3331,7 +3393,7 @@ As mentioned previously, a cryptocurrency is a medium of exchange digitally enab
 <li>Cost modeling<br/>
 New questions arise around consortium type blockchains, one consideration is how to split the technology cost among the participants in a fair and equitable manner.</li>
 </ul>
-<br/>&nbsp;
+<br/>
 Overall, blockchain decisions will be made by actors in the blockchain system:
 <ul>
 <li>System Architects design and build blockchain networks. This includes decisions on node types and membership rights.</li>
@@ -3339,6 +3401,11 @@ Overall, blockchain decisions will be made by actors in the blockchain system:
 <li>System Operators interact with the software, permissioning and onboarding participants. This includes storing the ledger, creating wallets and managing credentials.</li>
 <li>Blockchain Users join a blockchain by setting up a wallet and/or receiving permission to engage in a particular function.</li>
 </ul>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch3-5">3.5 Blockchain Transaction Flow</h3>
 <p>
 In this section, we'll discuss the blockchain transaction flow.
@@ -3392,27 +3459,35 @@ Let's follow the step with a basic Bitcoin transaction. If Alicia wants to send 
 </p>
 
 It is worth mentioning here that cryptocurrencies are a function of a particular blockchain, the Bitcoin blockchain only transacts bitcoin and the Ethereum blockchain can only exchange Ether. To initiate the transaction, Alicia would make a request of the system to send Bitcoin to Billy’s wallet by specifying the amount and Billy’s Bitcoin address.
-<br/>&nbsp;
+<br/>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <b>Step 2: Smart Contract Triggered</b><br/>
 When Alicia sends her transaction to the network, it triggers a smart contract that checks with the nodes on the network to make sure Alicia has the currency to spend, and that she hasn't already spent it. Once checked, the transaction is added to a proposed block.
-<br/>&nbsp;
+<br/>
 
 <b>Step 3: Operators Spread Transaction</b><br/>
 Proposed block is communicated to the network through the peer-to-peer protocols.
-<br/>&nbsp;
+<br/>
 
 <b>Step 4: Consensus</b><br/>
 In order for the Bitcoin network to validate a block, nodes or miners must validate the correctness of a block by completing a math problem first. The node that completes the Proof of Work equation first is rewarded with some newly minted Bitcoin. Once a solution for the equation is reached, the other nodes can easily check its accuracy, thereby accepting the new block onto the blockchain.
-<br/>&nbsp;
+<br/>
 
 <b>Step 5: Spread The New Block</b><br/>
 This block is spread throughout the network through the same peer-to-peer communications we used for the transaction. When block operators receive a copy of the new block, they add it to their copy of the distributed ledger. This guarantees that all members of the peer network agree on the current state of the blockchain’s distributed ledger.
-<br/>&nbsp;
+<br/>
 
 <b>Step 6: Transaction Completed</b><br/>
 The user’s wallet monitors for the creation of new blocks that include transactions associated with the user. When a block containing the completed code from the user’s operation is received, an event is created to notify the user that the operation is complete. When the block containing Alicia’s Bitcoin transfer to Billy is added to the blockchain, an alert will be sent to the affected wallets that the transaction was accepted and completed.
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Consensus in Blockchain</h3>
 Consensus in blockchain is moving away from a centralized system where one entity keeps track of the ledger towards a decentralized system where trust does not rest with one entity but all entities and what they decide together. 
@@ -3483,6 +3558,10 @@ But the takeaway point to understand is that, it's this consensus, it is this id
 That gives blockchain that high level of trust and that makes it such a secure record store.
 </p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Introduction to Consensus in the Blockchain</h3>
 
 As discussed in the ["Blockchain Consensus and Fault Tolerance In a Nutshell"](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) article by Demiro Massessi,
@@ -3511,6 +3590,10 @@ The most commonly used consensus algorithms are Proof of Work and Proof of Stake
 	width="65%" >
 &nbsp;
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Proof of Work</h3>
 
 As explained in the ["Blockchain Consensus and Fault Tolerance In a Nutshell"](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) article by Demiro Massessi,
@@ -3538,6 +3621,10 @@ As a result of seeking out carbon-friendly energy sources, mining companies will
  
 The security of the Proof of Work consensus is based on the assumption that no one controls more than half of the computational resources of a blockchain’s mining network. If one entity controls 51% of the mining effort, they control consensus. To take control would require a huge investment in equipment and energy, more than would be gained by defrauding the system.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Proof of Stake</h3>
 Proof of Stake comes with a number of improvements to Proof of Work systems, it requires less energy and has a lower barrier to entry since no specialized hardware is required to create blocks.
 
@@ -3560,6 +3647,10 @@ Since cryptocurrency is a limited asset, buying up enough of it to do this is ex
 	alt="Proof of Stake"
 	width="65%" >
 &nbsp;
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Fault Tolerance in the Blockchain</h3>
 In blockchain, it is essential all participants agree to the state of the ledger. Shared decentralized ledgers arrive at network agreement or the state of the ledger by consensus algorithms. But what happens if all participants in the network don’t agree? Let's discuss the concept of Fault tolerance and why it is an important blockchain concept.
@@ -3626,6 +3717,10 @@ We know that peer-to-peer has a long history of providing extremely high fault t
 If you're looking for a solution platform that offers you that kind of incredible fault tolerance, if you're looking to deploy a solution into areas with less than ideal infrastructure or under conditions where nodes may come online and go offline frequently, then blockchain may be a really good platform to look at.
 </p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>The Byzantine Generals' Problem</h3>
 
 The Byzantine Generals' Problem has been thoroughly explained in the [Medium article](https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03) by Demiro Massessi,
@@ -3690,6 +3785,10 @@ We're trying to find consensus mechanisms that most importantly allow us to scal
 We talk about Proof of Work and Proof of Stake in much greater depth in other modules in this course.
 If you're curious about the difference between them, how they work and what the actual implementation differences are, be sure to check out those other modules.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Proof of Work vs. Proof of Stake</h3>
 Let's recap differences between Proof of Work and Proof of Stake:
 
@@ -3712,7 +3811,7 @@ Let's recap differences between Proof of Work and Proof of Stake:
 <br/>
 
 <h3 id="ch3-6">3.6 Bitcoin Consensus Model</h3>
-Bitcoin, the first blockchain to appear, uses Proof of Work which requires miners to solve a complex cryptographic mathematical puzzle for which they get rewarded. 
+Bitcoin, the first blockchain to appear, uses Proof of Work which requires miners to solve a complex cryptographic mathematical puzzle for which they get rewarded.<br/>
 
 Block rewards are newly minted Bitcoin granted to the miners that solve the puzzle first. 
 
@@ -3747,6 +3846,10 @@ It creates a platform that smart contracts can be executed and applications can 
 Ethereum has always planned to move away from a Proof of Work consensus mechanism to a Proof of Stake. 
 
 Plans for Ethereum to adopt Proof of Stake will occur when [Ethereum 2.0](https://ethereum.org/en/upgrades/) is incorporated, this improvement is expected sometime in the second half of 2021.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Hyperledger Fabric Consensus Model</h3>
 Hyperledger Fabric is a private permissioned blockchain platform that breaks consensus into components, allowing users to pick a consensus algorithm for their particular situation. Instead of a predetermined consensus model, Hyperledger has an ordering service that performs consensus related events, this ordering component can pick the consensus model that best suits the blockchains needs. 
@@ -3783,6 +3886,10 @@ In this chapter, we discussed:
 <li>Consensus mechanisms used in blockchain.</li>
 </ul>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h2 id="ch4">Chapter 4. Blockchains and Governance</h2>
 <h3>Chapter Overview</h3>
 <p>
@@ -3809,6 +3916,10 @@ By the end of this chapter, you should be able to:
 <li>Analyze examples of Decentralized Autonomous Organizations (DAOs),</li>
 <li>Summarize the advantages and disadvantages of a consortium blockchain.</li>
 </ul>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch4-2">4.2 What Is Open Source?</h3>
 Blockchain technology and the developers who work with it reinforce the basic tenet of decentralization in many ways. Not only by decision making consensus models, but also the way in which it distributes the software code.<br/>
@@ -3844,6 +3955,10 @@ Open source inspires the community to get involved. When contributing to an open
 
 The programming code for Bitcoin, Ethereum, Hyperledger and other blockchains is open source.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Introduction to Governance</h3>
 Humans are tribal by nature, we tend to attract each other and build tribes, villages, towns, cities, states and countries. 
 
@@ -3870,6 +3985,10 @@ For a governance process to work effectively, the above three principles will ne
 The rules should be aligned with the overall participants' goals, and the leaders should have the ability to enforce positive and negative actions.
 
 Now that we have a simple understanding of governance, let’s analyze how this is taking place in both the standard world and the blockchain world.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch4-3">4.3 Governance Explained</h3>
 <p>
@@ -3916,6 +4035,10 @@ Issues can occur when the majority opinion unevenly reflects the community, caus
 All decisions regarding the governance of the group are voted on by the entire community. In this form of governance model every vote counts and people have more control over the quality of policies. In this model it is best to have an educated community where everyone is willing to participate for the good of the whole.</li>
 </ul>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>How Does Blockchain Fit Into Governance?</h3>
 Each and every blockchain ecosystem that has or is being created will need some kind of governance mechanism in place.
 
@@ -3943,6 +4066,10 @@ On the other hand, as discussed in the Medium article "Revisiting the On-chain G
 "Off-chain governance can be seen as decision-making that first takes place on a social level and is later actively encoded into the protocol by the developers. For instance, Bitcoin developers share their improvement proposals (BIPs) through a mailing list, whereas Ethereum collects improvement protocols (EIPs) on GitHub.
 Fred Ehrsam (Coinbase co-founder) argues that the Bitcoin governance system resembles the checks and balances system of the US government. Just like the Senate, developers submit a pull request to the community, the miners take the role of the judiciary who decides whether or not proposals are adopted in practice. Lastly, the users are just like citizens in a nation or state and can revolt and switch protocols or sell their tokens".
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- Off Chain Governance Pros and Cons (123) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3955,6 +4082,10 @@ Fred Ehrsam (Coinbase co-founder) argues that the Bitcoin governance system rese
 In the previous chapter, we discussed the decentralized characteristics of blockchains. But if blockchains are decentralized, how are decisions made and by who? Open source software organizations and open source software development projects need a way to manage projects. Most organizations are centralized and have a set leadership team. Before getting into the details of how governance works on the blockchain, it’s important to have a clear definition of what blockchain governance is.
 In order for a blockchain to survive, it must adapt to the needs of its users and advances in technology. The way the changes are debated and decided upon is important for these decisions to be implemented. A decentralized ecosystem is designed not to be under the control of a single source, there is no CEO to take responsibility for issues. This means blockchains need a new strategy for governing the policy it wants to adopt.
 Strategies must include incentives so the members want to be good actors in the system. The efforts of the group must be coordinated to be productive. Both of these elements are necessary in blockchain governance models.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain Governance Strategies</h3>
 Several different blockchain governance strategies have been proposed and implemented for different blockchains. Let's review some blockchain governance strategies sorted from the fewest to the most members directly involved in the decision, as discussed in the "Blockchain Governance In A Nutshell" article by Demiro Massessi:
@@ -3983,6 +4114,10 @@ For a hard fork to be successful, users need to agree to follow it. Users can re
 Despite the official story of who governs the blockchain, in the end, the users are the ones who really make the final decisions of what will or will not be included in the blockchain. With the huge number of potential options, users can abandon a blockchain that makes changes that they disagree with.
 Any major change to a blockchain requires a "hard fork". All this means is that the blockchain protocol has changes that are not backward compatible, so blockchain clients that do not make the switch will not be able to operate on the main blockchain. A soft fork is a change that invalidates previous valid blocks by accepting new blocks, soft forks are backwards compatible. For a hard fork to be successful, users of the blockchain need to make the decision to update their software protocols to incorporate the new changes.
 If not all users decide to make the switch after a hard fork, a divergent blockchain can be created. Since the blockchain is a distributed network, the decision to implement a hard fork doesn’t cause the old version of the blockchain to become non-functional. Users who choose not to follow the fork can decide to maintain the old blockchain, fragmenting the blockchain network".
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Bitcoin Network and Governance</h3>
 As we mentioned in previous sections, Bitcoin uses a Proof of Work model to encourage miners to add blocks to the network. This governs the operations of the blockchain. But what happens when changes need to be made? How do they get implemented? The Bitcoin community consists of three main players: developers, miners, and users. None of these participants have the ability to make emergency decisions when unexpected situations occur. Bitcoin uses an off-chain governance model where decisions are balanced by the developers, miners and users. In blockchain, developers must write the code to change the blockchain. Without the consent of the miners and users, the developers have no way of enforcing the change. Miners and users must choose to adopt the new software changes.
@@ -4017,6 +4152,10 @@ The Berlin Hard fork and the London Fork are improvements to stabilize fees paid
 Ultimately, Ethereum uses the benevolent dictator for life mode of blockchain governance.
 While user input and input from the development team is welcome for Ethereum, Vitalik Buterin is the final authority on decisions regarding the Ethereum roadmap.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>DAO Hard Fork on Ethereum</h3>
 One famous example of this type of fragmentation is the DAO hack on the Ethereum network. The DAO was an Ethereum smart contract that completed a record-breaking crowdfunding campaign on the Ethereum network, with all of this value stored within the DAO smart contract. A flaw in the smart contract’s code allowed an attacker to create another version of the smart contract under their control and siphon off a portion of the DAO contract’s funds, worth roughly 72 million dollars at the time.
 After much debate, the Ethereum network decided to implement a hard fork that allowed investors of the DAO to reclaim their stolen Ether.
@@ -4049,6 +4188,10 @@ Some examples of the EEA’s working Groups include: _Client Interoperability Te
 <h4>Interest Groups (IGs)</h4>
 IG’s are designed to foster information exchange across vertical, industry-centric groups where EEA members in specific industry segments can exchange information.
 Some examples of the EEAs Interest Groups are: A.I. and Blockchain, Ethereum Mainnet, Supply Chain, Financial Services and Tokenization.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h4>Hyperledger Wiki</h4>
 It is a Linux sponsor environment for projects, Working Groups and Special Interest Groups to exchange ideas and develop projects.
@@ -4087,6 +4230,10 @@ After repairs are completed, the vehicle heads off to a charging station and the
 This can eventually be applied to blockchain governance.
 More specifically, decentralized autonomous organizations.
 This is a concept that quickly manifested itself after the Bitcoin white paper spread and people began to run through thought exercises.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h4>Decentralized Autonomous Organization (DAO)</h4>
 An organization whose operating rules are encoded into a computer program controlled by its members.
@@ -4137,6 +4284,10 @@ Governance becomes much easier when it’s in a controlled environment, with eac
 
 The point we would like to get across here is that a consortium governance model is currently more efficient than most decentralized blockchains.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Governance for Enterprise: Consortiums</h3>
 Almost all consortiums up to this point have been permissioned and not decentralized permissionless blockchains, which is an opportunity cost most companies make when joining. 
 At a high level, a permissioned blockchain is just that, a chain in which others must have permission to operate on.
@@ -4179,6 +4330,10 @@ This allows the nodes to manage identity differently.
 It's also the reason why torrents are still being used today, in spite of the entertainment industry's best efforts to stop it.
 
 Torrents remove the central authority.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 This begs the question "Why didn't point-to-point networks like torrents attain the same level of acclaim as blockchain?"
 
@@ -4290,10 +4445,18 @@ A user creates a public key and the private key that can be used together for ei
 
 The algorithms are designed so that an authorized user only has to do the, quote, "easy calculations", while an attacker has to perform the hard calculations, and the algorithm is designed to make attacking so that the hard algorithms are close to impossible.<br/>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Public key cryptography is how identity is handled on the blockchain.<br/>
+
 A user's address on the blockchain it's their public key.<br/>
+
 This has several useful properties.<br/>
+
 Users do not need to reveal their identity on the blockchain, but they can positively identify themselves, since determining their private keys requires solving a quote, "hard problem".<br/>
+
 Anyone can send a user an encrypted message, since they have easy access to their public key.<br/>
 
 Users can verify the validity of their transactions using digital signatures.<br/>
@@ -4328,6 +4491,10 @@ In Corda, specifically, certificates can either be public, which means that they
 
 <h3>Identity</h3>
 Self-sovereign identity and blockchain solutions introduce identity management in a way that can improve a system considered broken. This topic will be examined in the next chapter. In this section, we will cover identity as seen through transactions and how and if you want your identity tied to a transaction.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Anonymity in the Blockchain</h3>
 In this section, we'll discuss anonymity on the blockchain.<br/>
@@ -4414,6 +4581,10 @@ Ethereum does not currently implement many real advanced options for privacy or 
 In the current version, user anonymity is limited to the fact that no one can tie a public key to a real-world identity.
 
 This is intended to change in the future though, and the Ethereum roadmap currently includes laying the groundwork for implementing zero knowledge proof.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Hyperledger (Fabric) provides several options for privacy and anonymity.
 
@@ -5993,4 +6164,5 @@ The end . . .
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<b><i>4/15/2022 10:27pm</i></b>
+<b><i>4/20/2022 4:53pm</i></b>
+<p>Added go to table of contents (right side) & removed left-sided ones</p>
