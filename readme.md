@@ -70,9 +70,9 @@
 >### 6.5. [**Social Impact Solutions**](#ch6-5)
 >### 6.6. [**Future of Blockchain**](#ch6-6)
 >### 6.7. [**Summary**](#ch6-7)
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h2 id="ch1">Chapter 1. Introduction to Blockchain</h2>
 <h3>Learning Objectives</h3>
 By the end of this chapter, you should be able to:
