@@ -1945,6 +1945,10 @@ Jerry then hides that car behind his back and shows Sam the other car.
 
 Sam can consistently detect the switch because the cars are different colors, but he never has to reveal the color of the cars to Jerry in order to prove the secret.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h4>Zero-Knowledge Proof (Cave Example)</h4>
 <p>
 In this section, we're going to talk about a cybersecurity idea in blockchain known as **"Zero-Knowledge Proofs"**.
@@ -2007,7 +2011,10 @@ A hash function is a mathematical equation with <b>four</b> important properties
    alt="Cryptographic Hashing"
    width="100%" />
 </p>
- 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Cryptographic Hashing Demo</h3>
 <p>
 In this section, we're going to talk about cryptographic hashing.
@@ -2044,6 +2051,10 @@ I've generated a unique 32-character output or identifier for this input text.
 You'll notice that this is the same length hash that I got when I had a short one sentence input, and if I change anything in this extremely large dataset, even one character, I will generate an entirely new hash output.
 
 Let's take a look at this by removing the period at the end of this sentence, and replacing it with a question mark.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 You'll see that by doing so, I've generated a completely different and unique 32-character hash output.
 
@@ -2083,9 +2094,14 @@ If you haven't watched the module in this course that covers the in-depth walkth
 We actually show how cryptographic hashing is used to link together all blocks on the blockchain, creating a data store that is immutable, secure, and extremely trustworthy.
 </p>
 Lab 1: Hashing
-Next, let's engage with an interactive lab. This lab is an actual hands-on demonstration of taking data and creating a hash output. Enjoy!
+Next, let's engage with an interactive lab. This lab is an actual hands-on demonstration of taking data and creating a hash output. Enjoy!<br/>
+&nbsp;
 
 [Start Lab](https://blockchaintrainingalliance.com/pages/lab-hash)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Merkle Tree</h3>
 A special type of data storage structure based on hash functions is called a Merkle tree:
@@ -2093,7 +2109,7 @@ A special type of data storage structure based on hash functions is called a Mer
 <li>It is structured as a binary tree; the leaves contain the values to be stored and each internal node is the hash of its two children,</li>
 <li>It provides efficient lookups and protection against forgery since verifying a transaction is included in the tree. Can be accomplished by sending only the transaction, the hash contained in each node between the transaction leaf node and the root, and the hash values used to create each hash sent,</li>
 <li>Looking up a transaction in a Merkle tree with three levels includes sending two transactions (the desired one and the other child of its parent) and three hashes (the transaction’s parent, the root, and the root’s other child).</li>
-</ul> 
+</ul>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------------- Merkle Tree (61) --------------------------------------->
@@ -2138,6 +2154,10 @@ And if the root matches the block, the transaction can be assumed to be valid.
 
 Merkle trees allow for validation of a specific transaction without requiring the entire set of data.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Ethereum vs. Hyperledger Fabric</h3>
 
 The use of public keys for identity management is a logical choice since knowledge of a public key is necessary for verification of digital signatures. 
@@ -2170,6 +2190,9 @@ Both Ethereum and Hyperledger Fabric are smart contract platforms that use a par
    alt="Disintermediation - Trust Through Transparency"
    width="100%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Disintermediation - Trust Through Transparency</h3>
 Now, that we have an understanding of how collaboration and cryptography work together to create a layer of trust, let's discuss how blockchain has a powerful disintermediation effect.
@@ -2255,6 +2278,10 @@ Traditional Database Updates
 
 A database is a collection of interrelated data organized so that individual records or groups of records can be retrieved to satisfy various criteria.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- CRUD - create, read, update, delete ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2313,6 +2340,9 @@ This means that the blockchain is a completely transparent data structure with t
    alt="Transparency of a Blockchain"
    width="65%" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Transparency: Databases vs. Blockchain</h3>
 <p>
@@ -2388,6 +2418,9 @@ These kind of transparency solutions are one of the biggest benefits of blockcha
 
 And blockchain, both public and private, can be a great solution for doing that.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Immutability in the Blockchain</h3>
 Blockchain is designed to be an authoritative ledger of the history of the network.
@@ -2478,7 +2511,9 @@ The blockchain is designed so that immutability is cumulative; each piece is lin
 All four of these features help to make the blockchain resistant against changes occurring after the fact.
 <br/>
 &nbsp;
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- tampered and unbroken blockchains (73) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2525,6 +2560,10 @@ Since the creator of a block is selected via a consensus algorithm, it’s diffi
 
 If an attacker is not the legitimate creator of a block, it’s impossible for them to create a digital signature that others would accept.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Immutability Mechanisms</h3>
 Now, let’s look at how different blockchains implement immutability.<br/>
 
@@ -2558,8 +2597,12 @@ As explained in the article [“A Gentle Introduction to Immutability of Blockch
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-hashing-chaining.png?raw=true"
-	alt="Hashing and chaining in a block"
+	alt="Hashing and Chaining in a Block"
 	width="85%" >
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Hashing and Chaining with Proof of Work</h3>
 We will cover the Proof of Work in a later module. However, this demo uses the Proof of Work to show how blocks are chained together and how tampering with information in a past block destroys the integrity of the proceeding blocks.
@@ -2659,6 +2702,10 @@ Next, let's engage with an interactive lab. This lab will give you the chance to
 
 [Start Lab](https://blockchaintrainingalliance.com/pages/lab-blocks)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch2-5">2.5 Chapter Summary</h3>
 In this chapter, we discussed:
 <ul>
@@ -2692,6 +2739,10 @@ By the end of this chapter, you should be able to:
 <li>Discuss consensus mechanism used in blockchain.</li>
 <li>Explore different methods of achieving consensus (Proof of Work, Proof of Stake, etc.).</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch3-2">3.2 What Are Smart Contracts?</h3>
 When we make a transaction on the blockchain, understand that there are only three types of transactions we can make.<br/>
 
@@ -2771,6 +2822,10 @@ While they sometimes may be legally binding, they're not necessarily legally bin
 
 They're just a way for us to bake our own logic into block chain solutions to ensure that consistency of execution.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Smart Contracts Recap</h3>
 Let’s review some basic information about smart contracts:
 <ul>
@@ -2842,6 +2897,10 @@ While things like this certainly are possible with conventional technology, they
 
 Blockchain and smart contracts puts this power back in the hand of voters and has the potential to radically reform campaign finance and campaign donations.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Blockchain Security vs. Standard Cybersecurity</h3>
 <p>
 Blockchain is commonly called the future of computing. It takes a very different approach to data storage and processing and requires a very different perspective for security.
@@ -2901,6 +2960,10 @@ This means that we must ensure that all the trust in a blockchain solution comes
 
 There are a lot of differences between conventional cybersecurity and security in the blockchain space that you're going to want to understand before you deploy your own blockchain solutions.
 </p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain Security Environment</h3>
 One of the primary differences between cybersecurity in a traditional computing environment and on the blockchain is the environment itself and what it is and isn't designed to do.
@@ -2968,6 +3031,10 @@ Next, let's engage with an interactive lab. In this lab, you will be examining a
 
 [Start Lab](https://blockchaintrainingalliance.com/pages/lab-distributed)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch3-4">3.4 Different Types of Blockchains (Public & Permissioned Blockchains)</h3>
 When we try to understand the main difference between a public and private blockchain, it is important to understand the terminology.
 <ul>
@@ -3025,6 +3092,10 @@ And, if a user has a currency, something of value, they should be able to exchan
 We don't want to treat any class of users differently than any others in those scenarios.
 
 That's a public blockchain, and that's a very different animal from the private permission blockchain.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Public Blockchain Benefits</h3>
 
@@ -3088,6 +3159,10 @@ Public and private blockchains, two very, very different offerings.
 A lot of people make the impression, get the impression that they compete with one another, when really they don't.
 
 They just serve to provide different types of solutions and enable different kinds of products and offerings to be built on top of them.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Private Blockchain Benefits</h3>
 
@@ -3171,6 +3246,10 @@ But, myself, my architects, and my developers are gonna have to develop the logi
 
 As you start to dig into a lot of real-world use cases, what you're going to find is many use cases make use of both types of blockchain, integrated seamlessly to you.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Is Blockchain Right for You?</h3>
 
 Consider the following aspects before deciding if blockchain is for you:
@@ -3215,6 +3294,10 @@ Discussion on these topics need to be addressed when making the decision to adop
 	alt="Questions to Ask"
 	width="65%" >
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Blockchain Is Like Hot Sauce</h3>
 <p>
 One important thing to keep in mind as you're evaluating blockchain, is it's like hot sauce.
@@ -3245,7 +3328,7 @@ That's the same way with blockchain.
 
 If you are looking at building a solution completely and entirely on the blockchain, without exploring some of the amazing potential that you get by combining blockchain with conventional technology, then you probably got a bad recipe.
 
-So, when you're thinking about blockchain, and how to add it to your personal and professional life, understand that it's not a meal all by itself.
+When you're thinking about blockchain, and how to add it to your personal and professional life, understand that it's not a meal all by itself.
 
 It's just a little splash of hot sauce you put on something that already works pretty well.
 </p>
@@ -3276,6 +3359,10 @@ Overall, blockchain decisions will be made by actors in the blockchain system:
 <li>System Operators interact with the software, permissioning and onboarding participants. This includes storing the ledger, creating wallets and managing credentials.</li>
 <li>Blockchain Users join a blockchain by setting up a wallet and/or receiving permission to engage in a particular function.</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch3-5">3.5 Blockchain Transaction Flow</h3>
 <p>
 In this section, we'll discuss the blockchain transaction flow.
@@ -3327,6 +3414,9 @@ Let's follow the step with a basic Bitcoin transaction. If Alicia wants to send 
 	alt="Bitcoin Wallet App"
 	width="40%" >
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 It is worth mentioning here that cryptocurrencies are a function of a particular blockchain, the Bitcoin blockchain only transacts bitcoin and the Ethereum blockchain can only exchange Ether. To initiate the transaction, Alicia would make a request of the system to send Bitcoin to Billy’s wallet by specifying the amount and Billy’s Bitcoin address.
 <br/>&nbsp;
@@ -3368,6 +3458,10 @@ Since the blockchain can include financial transactions and business agreements,
 &nbsp;
 
 In this section, we will discuss the details of how a blockchain network comes to agreement on the contents of the blockchain.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Consensus</h3>
 <p>
@@ -3428,6 +3522,9 @@ As discussed in the ["Blockchain Consensus and Fault Tolerance In a Nutshell"](h
 
 The method that [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto), creator of the Bitcoin network, invented to achieve consensus is based on scarcity. In one way or another, blockchain consensus algorithms boil down to some kind of vote where the number of votes that a user has is tied to the amount of a limited resource that is under the user’s control. Based on the economic law of supply and demand, collecting enough of an asset to have a controlling share will drive up the price of the asset enough to make achieving that level of control unfeasibly expensive".
 </blockquote>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Consensus Mechanisms</h3>
 <p>
@@ -3474,6 +3571,10 @@ As a result of seeking out carbon-friendly energy sources, mining companies will
 &nbsp;
  
 The security of the Proof of Work consensus is based on the assumption that no one controls more than half of the computational resources of a blockchain’s mining network. If one entity controls 51% of the mining effort, they control consensus. To take control would require a huge investment in equipment and energy, more than would be gained by defrauding the system.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Proof of Stake</h3>
 Proof of Stake comes with a number of improvements to Proof of Work systems, it requires less energy and has a lower barrier to entry since no specialized hardware is required to create blocks.
@@ -5927,4 +6028,4 @@ The end . . .
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-<b>4/27/2022 Wednesday 3:47pm</b>
+<b>4/27/2022 Wednesday 4:04pm</b>
