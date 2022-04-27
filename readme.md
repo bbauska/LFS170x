@@ -312,6 +312,10 @@ It's not big data. It's not artificial intelligence. It's not even social media.
 
 It's **BLOCKCHAIN!**
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Now, let's discuss the vast promise blockchain has for every business, every society, and for everyone listening today.<br/>
 
 And let's begin with an example we are all familiar with.<br/>
@@ -420,6 +424,10 @@ Let us look at what it means to be a currency.
 &nbsp;
 <p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h4>Purpose of currency:</h4>
 <ul type="disc">
    <li>Medium for exchange,</li>
@@ -476,10 +484,10 @@ There are many more use cases that utilize blockchain technology far reaching th
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------------------- blockchain files ---------------------------------->
+<!------------------------------------ 14. blockchain files -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image014.png?raw=true" 
+<img src="/images/image014.png?raw=true"
    alt="Blockchain files" 
    width="20%" />
 &nbsp;
@@ -532,7 +540,9 @@ And the rest of this series will take a deeper dive into these basic concepts an
 
 You already understand all the major principles and concepts required to understand what blockchain is and why it's so powerful.
 </p>
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Let’s Review an Analogy</h3>
 <p>
 A block on a blockchain can be thought of much like a page in a notebook. Data is stored on a block, just like data is written on a page of a notebook. <br/>
@@ -575,6 +585,9 @@ Examples of stored data include:
    alt="Data stored on block" 
    width="40%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Let’s Review an Analogy: Blocks Are Chained Together</h3>
 Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
@@ -606,6 +619,9 @@ This provides immutability and security.
 Blockchain is a combination of several other underlying technologies that have never been combined so successfully.
 Here are some features that make this new technology so revolutionary.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- Blockchain Features - distributed ledger ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -662,6 +678,9 @@ A public blockchain is open to anyone with an internet connection and the approp
 
 A private blockchain grants access and rights to its users before they can interact.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Blockchain Features: Transparency</h3>
 <p>
 In a blockchain, we can see all the transactions that have occurred on the shared or distributed ledger. <br/>
@@ -698,6 +717,9 @@ The Bitcoin network uses a proof of work consensus model.
 
 This process of building agreement among a group of mutually distrusting participants is a benefit of blockchain consensus.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Blockchain Features: Encryption</h3>
 <p>
 Encryption and cryptography are combined with blockchain technology to assure the information on the blockchain is authentic. <br/>
@@ -737,6 +759,9 @@ They can be sure that if the conditions aren't fulfilled, the contract won't be 
 
 Other than that, the use of smart contracts can remove the need for intermediaries, reducing operational costs significantly.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch1-4">1.4 Blockchain Actors (Career Opportunities)</h3>
 With new technology comes new opportunities and this holds true for blockchain. 
@@ -798,6 +823,9 @@ NFT stands for a non fungible token, a special token that represents a unique ID
 The collectable world is jumping in head first and creating non fungible tokens that represent art, music, memorializing events, newspaper articles and record releases. 
 Designers are needed to turn these moments/media into art for the thirsty NFT market.</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch1-5">1.5 Who is Using Blockchain? (Use Cases)</h3>
 <p>
@@ -867,6 +895,10 @@ There are lots of very interesting use cases for blockchain in the real world ri
 
 I would encourage all of you to dig in a little bit more, and see some of the interesting things that are going on with blockchain in healthcare, in public sector, in insurance, in supply chain, value chain and more, see what other folks are doing, and then go out and make your own blockchain dreams a reality.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Blockchain Users: Business to Consumer (B2C)</h3>
 <p>
 A Business to Consumer (B2C) is business or transactions conducted directly between a company and consumers who are the end-users of its products or services.<br/>
@@ -918,6 +950,10 @@ The shared ledger approach also eliminates the need for multiple paper copies th
 &nbsp;
 
 Industries like finance, international trade and commerce, food supply chains are taking a serious look at blockchain.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Real World Example of Business to Business Transaction</h3>
 
@@ -1002,6 +1038,9 @@ Certainly, it was not the original problem we went to solve with blockchain, but
 
 Look for blockchain not just to transform the areas that we're aware it might make a difference in, but also to provide some new exciting and unintended benefits.
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain Users: Government to Consumer (G2C)/Government to Government (G2G)</h3>
 <p>
@@ -1063,6 +1102,10 @@ The [Smart Dubai](https://www.digitaldubai.ae/) strategy will be using three ess
 
 When successful, Dubai will be the first blockchain-powered government driving the future economy.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>More Use Cases</h3>
 Blockchain is having far reaching effects in major industries.
 Let’s take a look at three major industries having a positive influence from this new way to organize our information:<br/>
@@ -1097,6 +1140,9 @@ In this chapter, we discussed:
 <li>Blockchain users and their roles.</li>
 <li>Emerging general use cases.</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h2 id="ch2">Chapter 2. Blockchain Mechanics</h2>
 
@@ -1151,6 +1197,10 @@ For instance, for England to do trade with France, we had the owner of the ledge
 And so, we needed a new form of accounting, and that's where double-entry accounting came in, which was in use up until very recently, now, within the last 40 years.<br/>
 
 What blockchain is? Blockchain is the very first implementation of triple-entry accounting, where we have an asset being recorded on the ledger in the context of a transaction.<br/>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The third entry and triple-entry accounting is cryptography, where we have a cryptographic account of the transaction stored permanently and immutably on the ledger.<br/>
 
@@ -1241,6 +1291,9 @@ When something occurs on the blockchain, either public blockchains... most publi
 This allows end-users, other systems, other users, different components to be able to act off of the events that come from an update on a blockchain.
 
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Basic Terms</h3>
 Some terms that are mentioned in the video we will get familiar with in later chapters, but are worth a brief description for clarification:
@@ -1312,6 +1365,10 @@ To understand how blockchain came about, we must first understand the following 
 <li>Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.</li>
 </ul>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>History of Ledgers (Triple-Entry Example)</h3>
 
 <b>As described in the </b>[Reddit post](https://www.reddit.com/r/Accounting/comments/2biy4h/triple_entry_bookkeeping_using_cryptocurrencies/),
@@ -1379,6 +1436,9 @@ One day, a stone fell into the ocean and the Yapese decided that this stone, eve
 
 This system of consensus by the majority of the adults on the island with no central administrator is one of the first examples of distributed ledger.<br/>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Island of Yap: Recap</h3>
 <p>
@@ -1443,6 +1503,10 @@ Alice tries to corrupt Carol, so that Carol’s ledger shows that Alice never ga
 </ul>
 If Alice wants to cheat, she will need a way to convince 51% or more of the tribe to accept an alternative ledger.
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>The Evolution of Distributed Ledgers</h3>
 <p>
 We've gone through history and seen how ledgers have evolved from stone tablets to double-entry ledgers.<br/>
@@ -1487,6 +1551,10 @@ Essentially you are not trusting one person or entity to control the ledger, you
 
 Let's look a little further into how that trust is achieved.<br/>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch2-3">2.3 From Distributed Ledger to Cryptography</h3>
 <p>
 A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
@@ -1536,6 +1604,10 @@ Rose did this for a number of years, until finally her encryption method was bro
 
 When you hear about blockchain and all the new cutting-edge things that it's doing, don't forget that it has its roots in very old technology, and we're just combining old technology in new and creative ways to create a brand new solutions development platform.<br/>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Early Use of Cryptography: Caesar Cipher</h3>
 
 As described in the ["Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet"](https://medium.com/tokenring/ancient-uses-of-cryptography-four-examples-that-pre-date-the-internet-14679ae4f509) article by Melanie Shapiro,
@@ -1582,6 +1654,10 @@ Encryption is the reverse process of converting ciphertext into plain text.</li>
    width="65%" >
 &nbsp;
 <p align="center">The Secret and the Key are passed into the Function to create the Cipher.</p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Cryptography Basics</h3>
 One of the technologies that plays a pivotal role in blockchain and making blockchain secure and immutable is cryptography.
@@ -1638,6 +1714,10 @@ Number one, that cryptography is normally a two-way function with four component
    able to recreate that hash output.
 
 These are key components which enable security and immutability on the blockchain.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Cryptographic Functions</h3>
 Simple example function:
@@ -1697,6 +1777,10 @@ This is Byzantine Fault Tolerance.
 
 It is the root of cryptography, which is simply the study of how do we send information back and forth securely in the presence of adversaries and bad actors, and it's what underlies all the security and immutability that we get in blockchain.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Types of Cryptography in Blockchain</h3>
 To understand cryptography in blockchain, you must be able to differentiate between various cryptographic techniques used. There are four main ways blockchain leverages cryptography:
 <ul>
@@ -1736,6 +1820,10 @@ Transactions on the blockchain include their public key and are digitally signed
    alt="Public Key Cryptography - Verify Signature with 3-step Process"
    width="65%" />
 &nbsp;
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Identity: Specific Identity Implementations</h3>
 Ethereum is a public blockchain that anyone can participate in. [Hyperledger](https://www.hyperledger.org/) is an example of an enterprise blockchain where participants must be granted access to engage in the blockchain.
@@ -1790,6 +1878,10 @@ Digital Signatures and Key Pairs<br/>
 	alt="Step 3: The recipient uses the public key with the private keys to decrypt the message"
 	width="50%" >
 &nbsp;
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Private/Public Key Cryptography</h3>
 <p>
@@ -5835,4 +5927,4 @@ The end . . .
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-<b>4/27/2022 Wednesday 3:28pm</b>
+<b>4/27/2022 Wednesday 3:47pm</b>
