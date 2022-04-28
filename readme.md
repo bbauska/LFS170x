@@ -3616,6 +3616,9 @@ As described by [Demiro Massessi](https://medium.com/coinmonks/blockchain-consen
 	alt="Byzantine Fault Tolerance"
 	width="65%" >
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Fault Tolerance</h3>
 <p>
@@ -3672,6 +3675,9 @@ The Byzantine Generals' Problem has been thoroughly explained in the [Medium art
 The generals can only communicate by messengers, who could be intercepted and forced to carry fake messages, and one or more generals may be a traitor. The goal is to find a way to achieve a consensus on strategy despite the possibility of traitors and false messages. Presumably, all generals will abide by what they believe is the majority consensus. The Byzantine Generals' Problem is solvable as long as two-thirds of the generals are honest.<br/>
 Blockchain is designed to be Byzantine Fault Tolerant, meaning that the network will come to a consensus on the official state of the blockchain, despite the fact that some members may misbehave. The solution to the Byzantine Generals' Problem is inefficient, so the blockchain needs some way of being confident of consensus without going through a full solution".
 </blockquote>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Proof of Work vs. Proof of Stake</h3>
 We've talked a lot in this course about Proof of Work versus Proof of Stake.
@@ -3727,6 +3733,10 @@ We're trying to find consensus mechanisms that most importantly allow us to scal
 
 We talk about Proof of Work and Proof of Stake in much greater depth in other modules in this course.
 If you're curious about the difference between them, how they work and what the actual implementation differences are, be sure to check out those other modules.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Proof of Work vs. Proof of Stake</h3>
 Let's recap differences between Proof of Work and Proof of Stake:
@@ -3786,6 +3796,10 @@ Ethereum has always planned to move away from a Proof of Work consensus mechanis
 
 Plans for Ethereum to adopt Proof of Stake will occur when [Ethereum 2.0](https://ethereum.org/en/upgrades/) is incorporated, this improvement is expected sometime in the second half of 2021.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Hyperledger Fabric Consensus Model</h3>
 Hyperledger Fabric is a private permissioned blockchain platform that breaks consensus into components, allowing users to pick a consensus algorithm for their particular situation. Instead of a predetermined consensus model, Hyperledger has an ordering service that performs consensus related events, this ordering component can pick the consensus model that best suits the blockchains needs. 
 
@@ -3820,6 +3834,9 @@ In this chapter, we discussed:
 <li>Transaction flow in blockchain,</li>
 <li>Consensus mechanisms used in blockchain.</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h2 id="ch4">Chapter 4. Blockchains and Governance</h2>
 <h3>Chapter Overview</h3>
@@ -3882,6 +3899,10 @@ Open source inspires the community to get involved. When contributing to an open
 
 The programming code for Bitcoin, Ethereum, Hyperledger and other blockchains is open source.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Introduction to Governance</h3>
 Humans are tribal by nature, we tend to attract each other and build tribes, villages, towns, cities, states and countries. 
 
@@ -3908,6 +3929,10 @@ For a governance process to work effectively, the above three principles will ne
 The rules should be aligned with the overall participants' goals, and the leaders should have the ability to enforce positive and negative actions.
 
 Now that we have a simple understanding of governance, let’s analyze how this is taking place in both the standard world and the blockchain world.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch4-3">4.3 Governance Explained</h3>
 <p>
@@ -3965,6 +3990,10 @@ Most governance structures in the blockchain ecosystem are looking to achieve si
 <li>Critical bug and vulnerability fixes.</li>
 <li>Using pooled funds for research and development.</li>
 </ul>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>On-Chain vs. Off-Chain Governance</h3>
 These goals can be achieved through many different methods of governance. When designing a blockchain, choices between on-chain and off-chain governance must be balanced.
 In the on-chain governance, rules for instituting changes are encoded into the blockchain protocol. This means that any decision being made is automatically being translated into code (e.g. decisions concerning block size). Developers propose changes through code updates and each node votes on whether to accept or reject the proposed change.
@@ -3988,6 +4017,9 @@ Fred Ehrsam (Coinbase co-founder) argues that the Bitcoin governance system rese
 <img src="/images/image-off-chain-pros-cons.png?raw=true"
 	alt="Off-Chain Governance Pros and Cons"
 	width="65%" </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>What Is Blockchain Governance?</h3>
 In the previous chapter, we discussed the decentralized characteristics of blockchains. But if blockchains are decentralized, how are decisions made and by who? Open source software organizations and open source software development projects need a way to manage projects. Most organizations are centralized and have a set leadership team. Before getting into the details of how governance works on the blockchain, it’s important to have a clear definition of what blockchain governance is.
@@ -4045,6 +4077,10 @@ Ethereum is not only a functioning blockchain with smart contract capabilities, 
 The EVM computing does not come free, a GAS price is charged for the GAS needed to perform the transaction’s computations. 
 This GAS fee can change dramatically depending on network conditions as the current price of Ether is part of the calculation.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Ethereum Improvement Proposals EIP’s</h3>
 Like Bitcoin, Ethereum's three main players (developer, miners and users) must update code to improve on functionality.
 Ethereum Improvement Proposals (EIPs) are standards specifying potential new features or processes for Ethereum. EIPs contain technical specifications for the proposed changes and act as the “source of truth” for the community. A note worth EIP was the code for issuing a token.
@@ -4077,6 +4113,10 @@ Corda is an open source blockchain project designed for business. Developed by R
 <h4>Working Groups and Special Interest Groups</h4>
 Working Groups and Special Interest Groups are consortium-based discussion sessions to complete a task or develop a whitepaper, prototype, platform or project. 
 These collaborations are aimed at developing open source standards and projects to accelerate the acceptance of blockchain.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h4>Enterprise Ethereum Alliance Working Groups</h4>
 There are two types of the EEA working groups:
