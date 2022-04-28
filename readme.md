@@ -4166,6 +4166,10 @@ This can eventually be applied to blockchain governance.
 More specifically, decentralized autonomous organizations.
 This is a concept that quickly manifested itself after the Bitcoin white paper spread and people began to run through thought exercises.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h4>Decentralized Autonomous Organization (DAO)</h4>
 An organization whose operating rules are encoded into a computer program controlled by its members.
 It is composed of a complex stack of smart contracts that form a decentralized application (Dapp).
@@ -4230,6 +4234,10 @@ They seek to develop reusable blockchain platforms based on technical standards 
 Let's see what are some pros and cons of consortiums:
 
 picture here
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 Id="ch3-4">4.4 Identity on the Blockchain</h3>
 In this section, we're going to discuss identity on the blockchain.
@@ -4305,6 +4313,10 @@ On the blockchain, identity is important.
 You have to be able to prove that your assets actually belong to you.
 
 Different blockchains they use different systems for tracking identity and identity information, but most are based on the principles of public key cryptography.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Before we get into the details of how identity works on the blockchain, we need to discuss the basics of public key cryptography.
 
@@ -4404,6 +4416,10 @@ In Hyperledger (Fabric) and Corda, identity is encoded in x.509 certificates, wh
 
 In Corda, specifically, certificates can either be public, which means that they are published to the blockchain, or confidential, meaning that they are only shared with the parties that the owner performs transactions with.<br/>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Identity</h3>
 Self-sovereign identity and blockchain solutions introduce identity management in a way that can improve a system considered broken. This topic will be examined in the next chapter. In this section, we will cover identity as seen through transactions and how and if you want your identity tied to a transaction.
 
@@ -4483,6 +4499,10 @@ Confidential transactions take advantage of homomorphic encryption, which makes 
 
 This means that the data contained in a transaction can be hidden from the public, while still allowing the network to verify that the transaction is valid.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Now, let's discuss how different blockchains implement the various privacy and anonymity mechanisms available.
 
 We start with the Ethereum.
@@ -4548,6 +4568,11 @@ Parties on the Corda Network can be represented in one of two ways:
    <li>Anonymous party: Only a public key.</li></li><br/>
    </ul>
 </ul>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Trust in Blockchains</h3>
 Just as there are benefits with blockchain technology, there are also some challenges. 
 Blockchain is a culmination of technologies that have been blended to provide a trustless platform. 
@@ -4601,6 +4626,10 @@ In this chapter, we discussed:
 <li>How private/public key cryptography provides anonymity.</li>
 </ul>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h2 id="ch5">Chapter 5. Blockchain Problem Solving and Future Trends</h2>
 Now that we understand the basics of how blockchain works, Chapter 5 will discuss the problems blockchain can solve. 
 
@@ -4641,6 +4670,10 @@ By the end of this chapter, you should be able to:
 <li>Discuss non-fungible tokens and how they will impact society.</li>
 <li>Examine the importance of interoperability for blockchains.</li>
 </ul>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Immutability Defined</h3>
 Immutability is when something is unable to be changed.
@@ -4696,6 +4729,10 @@ Another point to keep in mind is that immutability has been around for many year
     alt="Immutability Example"</>
 </p>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Blockchain Immutability Concept</h3>
 Let's review the aspects of the public blockchain that improve the chances of it being immutable.
 
@@ -4743,6 +4780,10 @@ Before we jump into how blockchain technology can be seen as transparent in cert
 In a traditional database, a client can perform four functions on data: create, read, update, delete. In a traditional database, there is usually an administrator, the authority giver who allows certain known participants in the database to do more than read/create; it allows them to update (change) and/or delete.
 
 Due to the fact that the administrator is controlling who has access and who doesn’t, it’s easier to track these changes and prevent actors from tampering. In the public blockchain world, this isn’t necessarily the case.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain Append-Only</h3>
 Within the public blockchain world, every full node on the network is its own administrator, where it can create (e.g. add) and read; this is also known as read/write access (e.g. append-only). These nodes only add more data over time in the form of blocks, but all previous data is permanently stored and cannot be altered.
@@ -4811,6 +4852,10 @@ These contracts are executed without too much human intervention, and they’re 
 These are three of the main attributes that can bring more autonomy to exchanging information between parties. 
 Setting up a pre-agreed upon contract that’s coded into a blockchain and executes automatically when certain actions are taken is one step in the direction of not only improving our autonomy as individuals or companies, but shifting wasted resources (middle men/women) toward more impactful work.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3>Smart Contracts</h3>
 The first generation of blockchain platforms, collectively known as the "Blockchain 1.0" networks, were capable of capturing and recording data, but not acting upon it. 
 Bitcoin, the world's first mass-scale blockchain, was designed to capture and record the transfer of Bitcoin from one owner to the next. 
@@ -4860,6 +4905,10 @@ The major issue with how this is traditionally done today (e.g. correspondent ba
 This constant stopping is making the money movement more expensive (each bank takes a fee), slower, and less reliable (sometimes it might never make it). 
 
 This type of transaction is heavily reliant upon third parties to facilitate the movement of information and money.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain Multi-Party Sync (Removing Middlemen)</h3>
 Blockchain technology has been shown to provide many benefits, but one of the most prominent and immediate benefits is removing middlemen (third parties) from a variety of processes. There is a long list of examples for middlemen currently being removed, such as:
@@ -4915,6 +4964,9 @@ Data is secure and tamper resistant.
    src="./images/image-multi-party-trans-decentralized-ledger.png"
    alt="Multi-Party Transactions - Decentralized Ledgers"</>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch5-2">5.2 Double Spend Problem</h3>
 Bitcoin, the world's first blockchain, was created as part of an attempt to create the world's first truly viable digital currency.<br/>
@@ -4965,6 +5017,10 @@ If I could, money would be worthless since everyone would have unlimited amounts
 The network protects against double-spending by verifying each recorded transaction within the blockchain utilizing a consensus mechanism (explained in the previous section).
 
 Bitcoin was the first decentralized protocol to solve this problem and now more protocols are following, such as: Proof of Stake (PoS), Delegated Proof of Stake (DPoS), Directed Acyclic Graphs (DAG) structures, Proof of Authority (PoA), etc.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Digital Currency Difficulties</h3>
 Today, when someone mentions digital currency, usually Bitcoin or crypto is the first thing that comes to mind, but digital currency had a long history before Bitcoin popularized it. 
@@ -5024,6 +5080,9 @@ A cryptocurrency wallet is an application on your computer or smart phone that c
    src="./images/image-phone.png"
    alt="Smart Phone"</>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Multi-currency Wallets</h3>
 Some wallets allow you to hold multiple cryptocurrencies in the same application. In these wallets, each cryptocurrency will have its own balance. To initiate a transaction, the application will create a cryptographically secure address (specific for the particular blockchain). This address acts as your account number and lets you send and receive the cryptocurrency.
@@ -5075,6 +5134,10 @@ In order to purchase, view or interact with a digital kitten you must open your 
 </p>
 
 Kittens purchased on the cryptokitties.co site will be stored in the Metamask wallet associated with your account or can be put up for sale at an NFT marketplace. Any fees or revenue from your kittens will automatically be reflected in your Metamask wallet totals. Cryptokitties are the first example of a non-fungible token which we will cover in the next section.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Exchanges</h3>
 Cryptocurrency exchanges vary in complexities and user experience.
@@ -5132,6 +5195,9 @@ This is what the [ledger wallet](https://shop.ledger.com/products/ledger-nano-s/
    src="./images/image-ledger-wallet.png"
    alt="Ledger Wallet"</>
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Self-Sovereign Identity (SSI)</h3>
 
@@ -5196,6 +5262,9 @@ The trust triangle represents the Trust over IP version of how the new relations
 </p>
 
 <h4>Decentralized identifiers</h4>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 According to the WC3, [decentralized identifiers (DIDs)](https://www.windley.com/archives/2020/11/didcomm_and_the_self-sovereign_internet.shtml) are a new type of identifier for verifiable, decentralized digital identity credentials. 
 
@@ -6068,4 +6137,4 @@ The end . . .
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-<b>4/27/2022 Wednesday 4:04pm</b>
+<b>4/27/2022 Wednesday 5:42pm</b>
