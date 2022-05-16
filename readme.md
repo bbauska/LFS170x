@@ -7,7 +7,8 @@
 <p align="center" width="100%">
 <img src="/images/image001.jpg?raw=true"
    alt="Linux logo"
-   width="40%">
+   width="40%" />
+</p>
 &nbsp;
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
 </p>  
@@ -19,7 +20,8 @@
 <p align="center" width="100%">
 <img src="/images/image-lfs170x-logo.png?raw=true"
    alt="Linux LFS170x logo"
-   width="50%">
+   width="50%" />
+</p>
 &nbsp;
 
 Welcome to LFS170x: Blockchain - Understanding Its Use Cases and Implications
@@ -112,7 +114,8 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
    alt="Connect the Dots"
-   width="40%" >
+   width="40%" />
+</p>
 &nbsp;
 
 <h3 id="ch1-2">1.2 The Early Internet</h3>
@@ -123,7 +126,8 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <p align="center" width="100%">
 <img src="/images/darpa-logo.jpg?raw=true"
    alt-"DARPA logo" 
-   width="30%" >
+   width="30%" />
+</p>
 &nbsp;
 
 What started as a **[DARPA (Defense Advanced Research Project Agency)](https://www.darpa.mil)** experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
@@ -136,7 +140,8 @@ With the TCP/IP protocols in place, users had the ability to link hypertext docu
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
    alt="WWW logo" 
-   width="20%" >
+   width="20%" />
+</p>
 &nbsp;
 
 <div align="right">
@@ -170,7 +175,8 @@ Characteristics of Web 1.0:<br/>
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true" 
    alt="E-mail logo" 
-   width="30%" >
+   width="30%" />
+</p>
 
 <h4 align="center">Email, Electronically Transferring Information</h4>
 Computers and items for connection became necessities.
@@ -190,7 +196,8 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true" 
 	alt="Netscape logo" 
-	width="20%" >
+	width="20%" />
+</p>
 &nbsp;
  
 <h3>Web 2.0 - Internet of Information</h3>
@@ -212,7 +219,8 @@ Websites let users generate content, social networks became part of our lives.
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true" 
    alt="Social Networking logo" 
-   width="30%" >
+   width="30%" />
+</p>
 &nbsp;
 
 <h5 align="center">Social Networking</h5>
@@ -225,7 +233,8 @@ Websites let users generate content, social networks became part of our lives.
 <p align="center" width="100%">
 <img src="/images/image007.png?raw=true" 
    alt="Napster logo" 
-   width="20%" >
+   width="20%" />
+</p>
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer.
@@ -239,7 +248,8 @@ Napster is forced to take down its index, shutting down the platform.
 <p align="center" width="100%">
 <img src="/images/image008.png?raw=true" 
    alt="BitTorrent logo" 
-   width="20%" >
+   width="20%" />
+</p>
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer. 
@@ -276,7 +286,8 @@ Bitcoin is the first widely accepted application for the Internet of Value (just
 <p align="center" width="100%">
 <img src="/images/image009.png?raw=true" 
 	alt="Crypto, electronically transferring value" 
-	width="40%" >
+	width="40%" />
+</p>
 &nbsp;
 
 <h5 align="center">Cryptocurrencies, Electronically Transferring Value</h5>
@@ -426,7 +437,8 @@ Let us look at what it means to be a currency.
 <p align="center" width="100%">
 <img src="/images/image010.png?raw=true" 
    alt="Bitcoin logo" 
-   width="20%" >
+   width="20%" />
+</p>
 &nbsp;
 <p>
 
@@ -453,6 +465,7 @@ According to [Investopedia](https://www.investopedia.com/terms/f/fiatmoney.asp),
 <img src="/images/image011.png?raw=true" 
    alt= "Government building" 
    width="20%" />
+</p>
 &nbsp;
 
 Apart from the government issuing Fiat, a centralized authority needs to keep track of assets. 
@@ -465,6 +478,7 @@ Banks, credit card companies’ stockbrokers are companies that represent a cent
 <img src="/images/image012.png?raw=true" 
    alt="Bank building" 
    width="20%" />
+</p>
 &nbsp;
 
 Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. 
@@ -478,6 +492,7 @@ Cryptocurrencies like Bitcoin have value because it can be proven with math. Unl
 <img src="/images/image013.png?raw=true" 
    alt="Key, keyboard" 
    width="20%" />
+</p>
 &nbsp;
 
 [Bitcoin](https://bitcoinfoundation.org/) and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology.
@@ -496,6 +511,7 @@ There are many more use cases that utilize blockchain technology far reaching th
 <img src="/images/image014.png?raw=true"
    alt="Blockchain files" 
    width="20%" />
+</p>
 &nbsp;
 
 <h3>Blockchain - Let’s Cover the Basics</h3>
@@ -567,8 +583,9 @@ If you go back and try and change any data on any page anywhere in this notebook
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image015.png?raw=true" 
-	alt="Notebook page, block on a blockchain" 
-	width="40%" />
+   alt="Notebook page, block on a blockchain" 
+   width="40%" />
+</p>
 &nbsp;
 
 <h3>Let’s Review an Analogy: Data Stored</h3>
@@ -603,8 +620,9 @@ Each block is chained or tied to the previous block by embedding the block with 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image017.png?raw=true" 
-	alt="Blockchains are chained together" 
-	width="65%" />
+   alt="Blockchains are chained together" 
+   width="65%" />
+</p>
 &nbsp;
 
 <h3>Let’s Review an Analogy: Blockchain Is Immutable</h3>
@@ -617,6 +635,7 @@ If the data is tampered with anywhere in the chain, the links will break in a ve
 <img src="/images/image018.png?raw=true"
    alt="Blockchain is immutable"
    width="65%" />
+</p>
 &nbsp;
  
 This provides immutability and security.
@@ -633,8 +652,9 @@ Here are some features that make this new technology so revolutionary.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image019.png?raw=true"
-	alt="Blockchain Features - distributed ledger"
-	width="65%" />
+   alt="Blockchain Features - distributed ledger"
+   width="65%" />
+</p>
 &nbsp;
 
 <h3>Blockchain Features: Distributed Ledger</h3>
@@ -676,6 +696,7 @@ User node interacts with the ledger. With blockchain technology, a lack of a cen
 <img src="/images/image020.png?raw=true"
 	alt="Blockchain networks can be public or private"
 	width="65%" />
+</p>
 &nbsp;
 
 Blockchain networks can be <i>public</i> or <i>private</i>. 
@@ -715,6 +736,7 @@ Since there is no central authority telling the nodes which transactions are val
 <img src="/images/image021.png?raw=true"
    alt="All agree to transaction"
    width="65%" />
+</p>
 &nbsp;
 
 The way in which each blockchain comes to consensus is built into the protocol, they are the rules built into the code that determine how the nodes will add ledger transactions.
@@ -920,6 +942,7 @@ Benefits to the consumer are transparency to the consumer, accountability from s
 <img src="/images/image022.png?raw=true"
    alt="Consumer Benefits from Blockchain"
    width="65%" />
+</p>
 &nbsp;
 
 Vertical markets see the advantage to the transparency feature in blockchain. Financials, logistics, charity funding, agriculture and ethical sourcing tracking are all markets leveraging blockchain to offer new insights to the customer.
@@ -935,6 +958,7 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
 <img src="/images/image023.png?raw=true"
    alt="Trustchain logo"
    width="20%" />
+</p>
 &nbsp;
 
    * <b>Approach:</b> The blockchain collaboration, known as [TrustChainTM](https://www.trustchainjewelry.com/), will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.
@@ -953,6 +977,7 @@ The shared ledger approach also eliminates the need for multiple paper copies th
 <img src="/images/image024.png?raw=true"
    alt="Business Benefits from Blockchain"
    width="65%" />
+</p>
 &nbsp;
 
 Industries like finance, international trade and commerce, food supply chains are taking a serious look at blockchain.
@@ -1068,6 +1093,7 @@ Blockchain networks offer more secure, agile, and cost-effective structures.<br/
 <img src="/images/image026.png?raw=true"
    alt="Government Benefits from Blockchain"
    width="65%" />
+</p>
 &nbsp;
 
 <h3>Dubai Use Case</h3>
@@ -1100,6 +1126,7 @@ If you want to see some of the really exciting use cases in blockchain right now
 <img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.png"
    width="40%"
    alt="Smart Dubai" />
+</p>
 &nbsp;
 
    * <b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.
@@ -1334,7 +1361,8 @@ To understand how blockchain came about, we must first understand the following 
 <p align="center" width="100%">
 <img src="/images/image028.png?raw=true"
    alt="Single-Entry Accounting Ledger"
-   width="65%" >
+   width="65%" />
+</p>
 &nbsp;
 
 <ul>
@@ -1348,7 +1376,7 @@ To understand how blockchain came about, we must first understand the following 
 <p align="center" width="100%">
 <img src="/images/image029.png?raw=true"
    alt="Double-Entry Accounting Ledger"
-   width="65%" >
+   width="65%" />
 &nbsp;
 
 <li>Double-entry ledger appears in 1340 A.D.</li>
@@ -1362,7 +1390,8 @@ To understand how blockchain came about, we must first understand the following 
 <p align="center" width="100%">
 <img src="/images/image030.png?raw=true"
    alt="Triple-Entry Accounting Ledger"
-   width="65%" >
+   width="65%" />
+</p>
 &nbsp;
 
 <li>Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
@@ -1392,7 +1421,8 @@ Since the entries are distributed and cryptographically sealed, falsifying them 
 <p align="center" width="100%">
 <img src="/images/image-double vs triple accounting.png?raw=true"
    alt="Double vs. Triple-Entry Accounting Comparison"
-   width="65%" >
+   width="65%" />
+</p>
 &nbsp;
 
 <h3>Island of Yap</h3>
@@ -1455,7 +1485,8 @@ This system of consensus by the majority of the adults on the island with no cen
 <p align="center" width="100%">
 <img src="/images/image-yap-1.png?raw=true"
    alt="All Tribe Members Keep Copy in Their Head"
-   width="50%" >
+   width="50%" />
+</p>
 &nbsp;
 <br/>
 <p align="left">   1. The group shared the ledger.</p>
@@ -1465,7 +1496,8 @@ This system of consensus by the majority of the adults on the island with no cen
 <p align="center" width="100%">
 <img src="/images/image-yap-2.png?raw=true"
    alt="All Tribe Members Keep Copy in Their Head"
-   width="50%" >
+   width="50%" />
+</p>
 &nbsp;
 <br/>
 <p align="left">   2. The group agreed to the ledger.</p>
@@ -1485,7 +1517,8 @@ This system of consensus by the majority of the adults on the island with no cen
 <p align="center" width="100%">
 <img src="/images/image-yap-4.png?raw=true"
    alt="All Tribe Members Keep Copy in Their Head"
-   width="50%" >
+   width="50%" />
+</p>
 &nbsp;
 <br/>
 <p align="left">   4. The group agreed to update all ledgers.</p>
@@ -1629,7 +1662,8 @@ If you want to encrypt and decrypt information, you are going to have to choose 
 <p align="center" width="100%">
 <img src="/images/image-cryptography-romans.png?raw=true"
    alt="Cryptography By Julius Caesar: Caesar Cipher"
-   width="65%" >
+   width="65%" />
+</p>
 &nbsp;
 
 <h3>Cryptography Key Terms</h3>
@@ -1657,7 +1691,8 @@ Encryption is the reverse process of converting ciphertext into plain text.</li>
 <p align="center" width="100%">
 <img src="/images/image-cryptography-key-terms.png?raw=true"
    alt="The Secret and the Key are passed into the Function to create the Cipher"
-   width="65%" >
+   width="65%" />
+</p>
 &nbsp;
 <p align="center">The Secret and the Key are passed into the Function to create the Cipher.</p>
 
@@ -1815,6 +1850,7 @@ Transactions on the blockchain include their public key and are digitally signed
 <img src="/images/image-rsa-key.png?raw=true"
    alt="Public Key Cryptography"
    width="65%" />
+</p>
 &nbsp;
 
 <h3>Identity: RSA Public Key Cryptography</h3>
@@ -1825,6 +1861,7 @@ Transactions on the blockchain include their public key and are digitally signed
 <img src="/images/image-rsa-public-key.png?raw=true"
    alt="Public Key Cryptography - Verify Signature with 3-step Process"
    width="65%" />
+</p>
 &nbsp;
 
 <div align="right">
@@ -1850,6 +1887,7 @@ Using a person's public key, it is possible to encrypt a message so that only th
 <img src="/images/image-key.png?raw=true"
    alt="Key"
    width="20%" />
+</p>
 &nbsp;
 
 Digital Signatures and Key Pairs<br/>
@@ -1862,7 +1900,8 @@ Digital Signatures and Key Pairs<br/>
 <p align="center" width="100%">
 <img src="/images/image-step-1.png?raw=true"
 	alt="Step 1: The sender generates a public key from a private key"
-	width="50%" >
+	width="50%" />
+</p>
 &nbsp;
  
 <b>Step 2:</b>
@@ -1872,7 +1911,8 @@ Digital Signatures and Key Pairs<br/>
 <p align="center" width="100%">
 <img src="/images/image-step-2.png?raw=true"
    alt="Step 2: The sender encrypts message using the key pairs.  Then sends it"
-   width="50%" >
+   width="50%" />
+</p>
 &nbsp;
  
 <b>Step 3:</b>
@@ -1882,7 +1922,8 @@ Digital Signatures and Key Pairs<br/>
 <p align="center" width="100%">
 <img src="/images/image-step-3.png?raw=true"
 	alt="Step 3: The recipient uses the public key with the private keys to decrypt the message"
-	width="50%" >
+	width="50%" />
+</p>
 &nbsp;
 
 <div align="right">
@@ -2122,8 +2163,9 @@ A special type of data storage structure based on hash functions is called a Mer
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-merkle-tree.png?raw=true"
-	alt="Merkle Tree"
-	width="100%" />
+   alt="Merkle Tree"
+   width="100%" />
+</p>
 &nbsp;
 
 <p align="center">Merkle trees are a data structure that allows authenticated storage with efficient data retrieval.</p>
@@ -2293,8 +2335,8 @@ A database is a collection of interrelated data organized so that individual rec
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-crud.png?raw=true"
-	alt="CRUD - Create, Read, Update, Delete"
-	width="65%" />
+   alt="CRUD - Create, Read, Update, Delete"
+   width="65%" />
 </p>
  
 Traditional databases use the CRUD method which has <b>four</b> main operations:
@@ -2366,8 +2408,9 @@ Its append-only structure and decentralized storage sacrifice storage efficiency
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-transparency-database-vs-blockchain.png?raw=true"
-	alt="Transparency: Database vs. Blockchain"
-	width="85%" >
+   alt="Transparency: Database vs. Blockchain"
+   width="85%" />
+</p>
 
 <h3 id="ch2-4"></a>2.4 Transparency</h3>
 <p>
@@ -2436,8 +2479,9 @@ Blockchain is designed to be an authoritative ledger of the history of the netwo
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-immutability-blockchain.png?raw=true"
-	alt="Immutability in the Blockchain"
-	width="85%" >
+   alt="Immutability in the Blockchain"
+   width="85%" />
+</p>
 
 This history may include financial transactions and business agreements where modifications to the ledger may have wide-reaching business impacts. Blockchain is based on an untrusted network, so trust that the blockchain has not been modified needs to arise from the structure of the blockchain itself, rather than from trust in the organization storing a certain copy.
 Immutability
@@ -2525,9 +2569,9 @@ All four of these features help to make the blockchain resistant against changes
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-immutable.png?raw=true"
-	alt="Immutable in the Blockchain"
-	width="85%" >
-
+   alt="Immutable in the Blockchain"
+   width="85%" />
+</p>
 <h3>Why Is the Blockchain Immutable?</h3>
 <p>
 Each transaction cannot be forged or modified because it is mathematically infeasible to forge a digital signature. 
@@ -2603,9 +2647,9 @@ As explained in the article [“A Gentle Introduction to Immutability of Blockch
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-hashing-chaining.png?raw=true"
-	alt="Hashing and Chaining in a Block"
-	width="85%" >
-
+   alt="Hashing and Chaining in a Block"
+   width="85%" />
+</p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
@@ -2850,7 +2894,8 @@ Let’s review some basic information about smart contracts:
 <p align="center">
 <img src="/images/image-smart-contracts-handshake.png?raw=true"
    alt="Smart Contracts - Handshake"
-   width="85%" >
+   width="85%" />
+</p>
  
 <h3>What Do Smart Contracts Provide?</h3>
 These are some of the features that smart contracts provide:
@@ -2920,7 +2965,8 @@ In this section, we will discuss some of the ways that security differs in tradi
 <p align="center">
 <img src="/images/image-blockchain-security.png?raw=true"
    alt="Blockchain Security"
-   width="65%" >
+   width="65%" />
+</p>
 
 <h3 id="ch3-3">3.3 Introduction to Blockchain Security vs. Standard Cybersecurity</h3>
 <p>
@@ -3286,8 +3332,9 @@ Let's take a look at the blockchain decision chart:
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-blockchain-decision-chart.png?raw=true"
-	alt="Blockchain Decision Chart"
-	width="65%" >
+   alt="Blockchain Decision Chart"
+   width="65%" />
+</p>
 
 <h3>Questions to Ask When Deciding on Blockchain</h3>
 Discussion on these topics need to be addressed when making the decision to adopt a blockchain strategy for your company:
@@ -3297,8 +3344,9 @@ Discussion on these topics need to be addressed when making the decision to adop
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-questions-to-ask.png?raw=true"
-	alt="Questions to Ask"
-	width="65%" >
+   alt="Questions to Ask"
+   width="65%" />
+</p>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -3323,7 +3371,6 @@ You'd never put hot sauce on an ice cream.
 Understand that blockchain is like hot sauce - there are a lot of areas you can add a little splash of blockchain to, and end up making a much better and more compelling solution.
 
 But there are some areas that you can't add blockchain to without making things a lot worse.
-
 
 And just like hot sauce, there is a big misconception that blockchain is an all-or-nothing proposition, that if we're going to architect and develop a solution on blockchain, we either have to build something that exists entirely on blockchain, or we need to build something that exists entirely on conventional technology.
 
@@ -3405,8 +3452,8 @@ Although blockchains can differ in form and function, all follow a basic transac
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-blockchain-transactions.png?raw=true"
-	alt="Blockchain Transaction Flow, steps 1 thru 6"
-	width="85%" >
+   alt="Blockchain Transaction Flow, steps 1 thru 6"
+   width="85%" />
 </p>
 <b>Step 1: Operation Initiated</b><br/>
 Let's follow the step with a basic Bitcoin transaction. If Alicia wants to send Billy some bitcoin, she would go to a Bitcoin wallet application either on her phone or computer where she has some Bitcoin stored. Wallet applications are usually free downloads that create a digital wallet to purchase and/or store your cryptocurrency.
@@ -3417,8 +3464,8 @@ Let's follow the step with a basic Bitcoin transaction. If Alicia wants to send 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-bitcoin-wallet-app.png?raw=true"
-	alt="Bitcoin Wallet App"
-	width="40%" >
+   alt="Bitcoin Wallet App"
+   width="40%" />
 </p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -3459,8 +3506,9 @@ Since the blockchain can include financial transactions and business agreements,
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-network-comps.png?raw=true"
-	alt="Blockchain Network Nodes (Computers)"
-	width="65%" >
+   alt="Blockchain Network Nodes (Computers)"
+   width="65%" />
+</p>
 &nbsp;
 
 In this section, we will discuss the details of how a blockchain network comes to agreement on the contents of the blockchain.
@@ -3547,8 +3595,9 @@ The most commonly used consensus algorithms are Proof of Work and Proof of Stake
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-consensus-mechanisms.png?raw=true"
-	alt="Consensus Mechanisms"
-	width="65%" >
+   alt="Consensus Mechanisms"
+   width="65%" />
+</p>
 &nbsp;
 
 <h3>Proof of Work</h3>
@@ -3572,8 +3621,9 @@ As a result of seeking out carbon-friendly energy sources, mining companies will
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-proof-of-work.png?raw=true"
-	alt="Proof of Work"
-	width="65%" >
+   alt="Proof of Work"
+   width="65%" />
+</p>
 &nbsp;
  
 The security of the Proof of Work consensus is based on the assumption that no one controls more than half of the computational resources of a blockchain’s mining network. If one entity controls 51% of the mining effort, they control consensus. To take control would require a huge investment in equipment and energy, more than would be gained by defrauding the system.
@@ -3601,8 +3651,9 @@ Since cryptocurrency is a limited asset, buying up enough of it to do this is ex
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-proof-of-stake.png?raw=true"
-	alt="Proof of Stake"
-	width="65%" >
+   alt="Proof of Stake"
+   width="65%" />
+</p>
 &nbsp;
 
 <h3>Fault Tolerance in the Blockchain</h3>
@@ -3619,8 +3670,9 @@ As described by [Demiro Massessi](https://medium.com/coinmonks/blockchain-consen
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-byzantine-fault.png?raw=true"
-	alt="Byzantine Fault Tolerance"
-	width="65%" >
+   alt="Byzantine Fault Tolerance"
+   width="65%" />
+</p>
 &nbsp;
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -3752,8 +3804,9 @@ Let's recap differences between Proof of Work and Proof of Stake:
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-proof-of-work-chart.png?raw=true"
-	alt="Proof of Work Chart"
-	width="65%" >
+   alt="Proof of Work Chart"
+   width="65%" />
+</p>
 &nbsp;
 <br/>
 <!------------------------------------------------------------------------------------------------>
@@ -3761,8 +3814,9 @@ Let's recap differences between Proof of Work and Proof of Stake:
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-proof-of-stake-chart.png?raw=true"
-	alt="Proof of Stake Chart"
-	width="65%" >
+   alt="Proof of Stake Chart"
+   width="65%" />
+</p>
 <br/>
 
 <h3 id="ch3-6">3.6 Bitcoin Consensus Model</h3>
@@ -3925,8 +3979,9 @@ It doesn’t matter if the governance is the real world or the digital world, th
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-participants-in-governance.png?raw=true"
-	alt="Participants in Governance"
-	width="65%" >
+   alt="Participants in Governance"
+   width="65%" />
+</p>
 
 Governance can be undertaken by a government, market, network, organization, social system or family.
 
@@ -3969,8 +4024,9 @@ The mechanism to enforce these policies can take many forms from a dictator who 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-blockchain-governance-model.png?raw=true"
-	alt="Blockchain Governance Models"
-	width="85%" </p>
+   alt="Blockchain Governance Models"
+   width="85%" />
+</p>
  
 Blockchain governance models reflect a more democratic flavor due to the open source environment. Blockchains are composed of a community of users who work together to strengthen the system. The degree in which the majority rules can vary.
 <ul>
@@ -4009,8 +4065,9 @@ In the on-chain governance, rules for instituting changes are encoded into the b
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-on-chain-pros-cons.png?raw=true"
-	alt="On-Chain Governance Pros and Cons"
-	width="65%" </p>
+   alt="On-Chain Governance Pros and Cons"
+   width="65%" />
+</p>
 
 On the other hand, as discussed in the Medium article "Revisiting the On-chain Governance vs. Off-chain Governance Discussion",
 "Off-chain governance can be seen as decision-making that first takes place on a social level and is later actively encoded into the protocol by the developers. For instance, Bitcoin developers share their improvement proposals (BIPs) through a mailing list, whereas Ethereum collects improvement protocols (EIPs) on GitHub.
@@ -4021,8 +4078,9 @@ Fred Ehrsam (Coinbase co-founder) argues that the Bitcoin governance system rese
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-off-chain-pros-cons.png?raw=true"
-	alt="Off-Chain Governance Pros and Cons"
-	width="65%" </p>
+   alt="Off-Chain Governance Pros and Cons"
+   width="65%" />
+</p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
@@ -4731,8 +4789,8 @@ Another point to keep in mind is that immutability has been around for many year
 <!------------------------------------- Immutability Example ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="60%" src="./images/image-immutability-example.png"
-    alt="Immutability Example"</>
+   <img width="60%" src="./images/image-immutability-example.png"
+   alt="Immutability Example" />
 </p>
 
 <div align="right">
@@ -4766,7 +4824,7 @@ Anything that is see-through, where there is very little fog or obstruction in t
 <p align="center" width="100%">
 <img width="25%" 
    src="./images/image-transparency.png"
-   alt="Transparency of a Blockchain"</>
+   alt="Transparency of a Blockchain" />
 </p>
 
 For example, open source projects where all the source code is available for the masses.
@@ -4780,7 +4838,7 @@ Before we jump into how blockchain technology can be seen as transparent in cert
 <p align="center" width="100%">
 <img width="40%" 
    src="./images/image-crud.png"
-   alt="Update a Database: CRUD"</>
+   alt="Update a Database: CRUD" />
 </p>
 
 In a traditional database, a client can perform four functions on data: create, read, update, delete. In a traditional database, there is usually an administrator, the authority giver who allows certain known participants in the database to do more than read/create; it allows them to update (change) and/or delete.
@@ -4812,7 +4870,7 @@ Independence or freedom, the ability to make your own decisions without being co
 <p align="center" width="100%">
 <img width="40%" 
    src="./images/image-autonomy.png"
-   alt="Autonomy in Blockchain"</>
+   alt="Autonomy in Blockchain" />
 </p>
 
 As children and adults, we all want a little autonomy in our lives, careers, or relationships, but it’s just a matter of how much autonomy one truly wants and can handle.
@@ -4826,7 +4884,7 @@ The blockchain world is looking to solve all of this complexity with autonomy fr
 <p align="center" width="100%">
 <img width="20%" 
    src="./images/image-ex.png"
-   alt="Red X"</>
+   alt="Red X" />
 </p>
 
 Depending on how complex a transaction is between two parties, designated specialists can make the process more efficient. Many players are involved in the process, from contract drafters, signatories, and regulators. If a dispute over the contract occurs, many parties can be involved, including the courts.
@@ -4955,7 +5013,7 @@ Traditional centralized ledger systems have weaknesses. Accuracy is dependent on
 <p align="center" width="100%">
 <img width="65%" 
    src="./images/image-multi-party-trans-centralized-ledger.png"
-   alt="Multi-Party Transactions - Centralized Ledgers"</>
+   alt="Multi-Party Transactions - Centralized Ledgers" />
 </p>
 
 Distributed decentralized ledgers are not dependent on intermediaries who can manipulate the data. 
@@ -5185,7 +5243,7 @@ Below is the screenshot of the Liquid Exchange:
 <p align="center" width="100%">
 <img width="100%" 
    src="./images/image-liquid-exchange.jpg"
-   alt="Liquid Exchange"</>
+   alt="Liquid Exchange" />
 </p>
  
 <h3>Hardware Wallets</h3>
@@ -5313,7 +5371,7 @@ Users' funds that are pooled together for investment advantages are now managed 
 <p align="center" width="100%">
 <img width="65%" 
    src="/images/image093.png?raw=true"
-   alt="Components of Decentralized Finance"</>
+   alt="Components of Decentralized Finance" />
 </p>
 
 <h3>Benefits of Decentralized Finance</h3>
@@ -5331,9 +5389,9 @@ For example, in agriculture, farmers are able to secure small loans to help them
 <!--------------------------- 94. Benefits of Decentralized Finance ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="65%"
-   src="/images/image094.png?raw=true"
-   alt="Benefits of Decentralized Finance" />
+<img src="/images/image094.png?raw=true"
+   alt="Benefits of Decentralized Finance"
+   width="65%" />
 </p>
  
 Regulating these new financial instruments is proving challenging as government agencies wrestle with controlling currencies that do not recognize borders. 
@@ -5378,12 +5436,12 @@ Retail central bank digital currency would be used as a digital twin for fiat cu
 Central Bank Digital Currencies are being considered across the globe.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- Cemtral Bank Digital Currency Status (168) -------------------------->
+<!----------------------- 95. cemtral bank digital currency status (168) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="85%"
-   src="/images/image095.png?raw=true"
-   alt="Central Bank Digital Currency status" />
+<img src="/images/image095.png?raw=true"
+   alt="Central Bank Digital Currency status"
+   width="85%" />
 </p>
   
 According to the [CBDC Tracker](https://cbdctracker.org/), the Sand Dollars, a retail CBDC issued by the Central Bank of the Bahamas is the first nationwide Central Bank Digital Currency. The US Federal Reserve is researching CBDC for the US with the Federal Reserve Bank of Boston and [MIT](https://dci.mit.edu/) committed to a multi-year collaboration to build a hypothetical currency called the Hamilton.
@@ -5524,8 +5582,8 @@ Supply chain data is not always visible or trusted. In recent times of disruptio
 <!------------------------------- 96. Maersk & IBM logos (172) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%"
-   src="/images/image096.png?raw=true"
+<img src="/images/image096.png?raw=true"
+   width="50%"
    alt="Maersk + IBM" />
 </p>
   
@@ -5584,8 +5642,8 @@ The resulting solution is called [TradeLens](https://www.tradelens.com/). You ca
 <!------------------------------------ 98. Trade Made Easy --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image098.jpg?raw=true"
+<img src="/images/image098.jpg?raw=true"
+   width="50%"
    alt="Trade Made Easy" />
 </p>
  
@@ -5597,9 +5655,9 @@ The trend toward blockchain agriculture promises to make each step of growing an
 <!------------------------------------- Walmart logo (175) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image-walmart-logo.png?raw=true"
-   alt="Walmart logo"</>
+<img src="/images/image-walmart-logo.png?raw=true"
+   width="50%"
+   alt="Walmart logo" />
 </p>
 
 To learn more, read Hyperledger's case study ["How Walmart Brought Unprecedented Transparency to the Food Supply Chain with Hyperledger Fabric"](https://www.hyperledger.org/learn/publications/walmart-case-study).
@@ -5646,10 +5704,9 @@ We'll make sure that all stakeholders work together for a safer and better food 
 <!-------------------------------- 100. Farm to Table logo --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image100.png?raw=true"
-   alt="Farm to Table logo"</>
-   <!---- connected dots ---->
+<img src="/images/image100.png?raw=true"
+   width="50%"
+   alt="Farm to Table logo" />
 </p>
 
 <h3>Healthcare</h3>
@@ -5659,9 +5716,9 @@ Blockchain is transforming the healthcare industry. Some challenges the healthca
 <!------------------------------------- 101. Moderna logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="25%" 
-   src="/images/image101.jpg?raw=true"
-   alt="Moderna logo"</>
+<img src="/images/image101.jpg?raw=true"
+   width="25%"
+   alt="Moderna logo" />
 </p>
   
 Moderna uses blockchain to support smart COVID vaccine management. 
@@ -5671,9 +5728,9 @@ To learn more see ["Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter
 <!--------------------------------------- 101. SAP logo ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="25%" 
-   src="/images/image101.png?raw=true"
-   alt="SAP logo"</>
+<img src="/images/image101.png?raw=true"
+   width="25%"
+   alt="SAP logo" />
 </p>
 
 SAP has an existing solution unrelated to blockchain called Advanced Track and Trace for Pharmaceuticals (ATTP) which generates the unique identifiers. 
@@ -5683,9 +5740,9 @@ To further explore this solution read the following article by Nicky Morris ["SA
 <!-------------------------------------  103. Pfizer logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="25%" 
-   src="/images/image103.png?raw=true"
-   alt="Pfizer logo"</>
+<img src="/images/image103.png?raw=true"
+   width="25%"
+   alt="Pfizer logo" />
 </p>
 
 Also, Pfizer has been using blockchain in transparent [clinical trials](https://www.pfizer.com/science/clinical-trials/guide). You can learn more about this project by reading the following blog post, ["Clinical Trial Data Should Be Accessible and Transparent"](https://www.pfizer.com/science/clinical-trials/data-and-results).
@@ -5697,9 +5754,9 @@ Reduction of settlement times will improve the flow of money through fintech com
 <!-------------------------------- 104. Swiss Exchange logo (SIX) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="25%" 
-   src="/images/image104.jpg?raw=true"
-   alt="Swiss Exchange logo (SIX)"</>
+<img src="/images/image104.jpg?raw=true"
+   width="25%"
+   alt="Swiss Exchange logo (SIX)" />
 </p>
 
 <div align="right">
@@ -5716,9 +5773,9 @@ In a paper from [Andrea Frosinini](https://www.tradefinanceglobal.com/posts/auth
 <!------------------------------------- 105. Voltron logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="25%" 
-   src="/images/image105.png?raw=true"
-   alt="Voltron logo"</>
+<img src="/images/image105.png?raw=true"
+   width="25%"
+   alt="Voltron logo" />
 </p>
 
 Voltron Trade Finance was co-founded by eight member banks including Bangkok Bank, BNP Paribas, CTBC, HSBC, ING, Natwest, SEB and Standard Chartered. 
@@ -5744,9 +5801,9 @@ According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’K
 <!------------------------------------ 106. Smarrt Dubai ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image106.jpg?raw=true"
-   alt="Smart Dubai"</>
+<img src="/images/image106.jpg?raw=true"
+   width="50%"
+   alt="Smart Dubai" />
 </p>
 
 <div align="right">
@@ -5760,9 +5817,9 @@ Watch these additional resources to learn more about the Smart Dubai initiative,
 <!-------------------------------- 105. Dutch Blockchain logo ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image105.png?raw=true"
-   alt="Dutch blockchain coalition"</>
+<img src="/images/image105.png?raw=true"
+   width="50%" 
+   alt="Dutch blockchain coalition" />
 </p>
 
 [Dutch Blockchain Coalition](https://dutchblockchaincoalition.org/) established three pillars of society working together to build a blockchain future:
@@ -5776,9 +5833,9 @@ Watch these additional resources to learn more about the Smart Dubai initiative,
 <!---------------------------------- 108. Buffalo on Wyoming Flag (180) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image108.jpg?raw=true"
-   alt="Buffalo on Wyoming flag"</>
+<img src="/images/image108.jpg?raw=true"
+   width="50%"
+   alt="Buffalo on Wyoming flag" />
 </p>
 
 Wyoming has now enacted a total of [13 blockchain-enabling laws](https://caitlin-long.com/what-do-wyomings-blockchain-laws-mean/), making it the only US state to provide a comprehensive, welcoming legal framework that enables blockchain technology to flourish, both for individuals and companies. This effort was led by tireless [Caitlin Long](https://caitlin-long.com/).
@@ -5791,9 +5848,9 @@ The [Blockchain for Social Impact Coalition (BSIC)](https://blockchainforsociali
 <!---------------------------------- Blockchain for Social Impact -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image-blockchain-for-social-impact.png?raw=true"
-   alt="Blockchain for Social Impact"</>
+<img src="/images/image-blockchain-for-social-impact.png?raw=true"
+   width="50%"
+   alt="Blockchain for Social Impact" />
 </p>
 
 <div align="right">
@@ -5813,9 +5870,9 @@ According to the ["7 Ways Blockchain Can Be Used for Social Good"](https://innot
 <!------------------------------------------ Kiva logo ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="25%" 
-   src="/images/image-kiva.png?raw=true"
-   alt="Kiva logo"</>
+<img src="/images/image-kiva.png?raw=true"
+   width="25%"
+   alt="Kiva logo" />
 </p>
  
 More than 1.7 billion people around the world are unbanked and can’t access the financial services they need. [Kiva](https://www.kiva.org/) is an international nonprofit, founded in 2005 in San Francisco, with a mission to expand financial access to help underserved communities thrive. Kiva accomplishes this by crowdfunding loans and unlocking capital for the underserved, improving the quality and cost of financial services, and addressing the underlying barriers to financial access around the world. Through Kiva's work, students can pay for tuition, women can start businesses, farmers are able to invest in equipment and families can afford needed emergency care.
@@ -5824,9 +5881,9 @@ More than 1.7 billion people around the world are unbanked and can’t access th
 <!--------------------- Mission of the Rohingya Project. How it works (182) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image-rohingya-howitworks.png?raw=true"
-   alt="Mission of the Rohingya Project. How it works"</>
+<img src="/images/image-rohingya-howitworks.png?raw=true"
+   width="50%"
+   alt="Mission of the Rohingya Project. How it works" />
 </p>
 
 <div align="right">
@@ -5839,9 +5896,9 @@ The mission of the Rohingya Project is to create the foundation for a viable fut
 <!----------------------------------- Rohingya Initiative logo   --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
-   src="/images/image-rohingya-project.png?raw=true"
-   alt="Rohingya Initiative logo"</>
+<img src="/images/image-rohingya-project.png?raw=true"
+   width="50%"
+   alt="Rohingya Initiative logo" />
 </p>
 
 The platform will tap into the potential of the Rohingya community and other marginalized people and offer options to counter their exclusion from the mainstream.
@@ -5876,8 +5933,9 @@ Created by three local meetup groups, [Ledger Academy](https://ledgeracademy.com
 <!-------------------------------- 115. The Giving Chain (183) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="65%" src="/images/image115.jpg?raw=true"
-    alt="The Giving Chain"</>
+<img width="65%" src="/images/image115.jpg?raw=true"
+   width="50%"
+   alt="The Giving Chain" />
 </p>
 
 <div align="right">
