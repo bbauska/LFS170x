@@ -4897,9 +4897,9 @@ But we’ve discovered through experimentation that certain use cases could be a
 <!------------------------------------ Cross Border Payment  ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="65%" 
+<img width="65%"
    src="./images/image-cross-border-payment.png"
-   alt="Cross Border Payments and Ledgers"</>
+   alt="Cross Border Payments and Ledgers" />
 </p>
 
 One example is cross-border payments. 
@@ -4941,9 +4941,9 @@ With that built-in "trustless" trust, we’re able to remove those middlemen tha
 <!------------------------------------ Cross Border Payments  ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="65%" 
+<img width="65%"
    src="./images/image-cross-border.png"
-   alt="Cross Border Payments and Ledgers"</>
+   alt="Cross Border Payments and Ledgers" />
 </p>
 
 <h3>Cross Border Payments and Ledgers</h3>
@@ -4968,7 +4968,7 @@ Data is secure and tamper resistant.
 <p align="center" width="100%">
 <img width="60%" 
    src="./images/image-multi-party-trans-decentralized-ledger.png"
-   alt="Multi-Party Transactions - Decentralized Ledgers"</>
+   alt="Multi-Party Transactions - Decentralized Ledgers" />
 </p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -5011,9 +5011,9 @@ Back in the early 1990’s, developers, cryptographers, and different groups of 
 <!--------------------------------------- Double Spend ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="60%" 
+<img width="60%"
    src="./images/image-double-spend.png"
-   alt="Double Spend"</>
+   alt="Double Spend" />
 </p>
 
 If I buy an apple for $1, I cannot spend that same $1 to buy an orange. 
@@ -5045,7 +5045,7 @@ There were many other attempts to create digital cash over the years, but many f
 <p align="center" width="100%">
 <img width="50%" 
    src="./images/image-adoption-security-fraud.png"
-   alt="Adoption Security Fraud"</>
+   alt="Adoption Security Fraud" />
 </p>
 
 Other attempts include:
@@ -5062,9 +5062,9 @@ Digital currencies are available only in the digital world and not in the physic
 <!------------------------------------- Digital Currency ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
+<img width="50%"
    src="./images/image-digital-currency.png"
-   alt="Digital Currency"</>
+   alt="Digital Currency" />
 </p>
  
 <h3>Cryptocurrency Defined</h3>
@@ -5097,9 +5097,9 @@ Some wallets allow you to hold multiple cryptocurrencies in the same application
 <!------------------------------------- Multi-Currency Wallets ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="30%" 
+<img width="30%"
    src="./images/image-multi-currency-wallets.jpg"
-   alt="Multi-Currency Wallets"</>
+   alt="Multi-Currency Wallets" />
 </p>
 
 <h3>Atomic Swaps</h3>
@@ -5113,9 +5113,9 @@ Additional features in these wallets lets you “swap” one cryptocurrency for 
 <!------------------------------------------ Consensys ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="30%" 
+<img width="30%"
    src="./images/image-consensys.jpg"
-   alt="Consensys"</>
+   alt="Consensys" />
 </p>
 
 ConsenSys, spearheaded by [Joe Lubin](https://consensys.net/about/joseph-lubin-founder-of-consensys/), an early Ethereum programmer, is a software engineering company that helps developers build next-generation networks and enable enterprises to launch more powerful financial infrastructure. 
@@ -5134,9 +5134,9 @@ In order to purchase, view or interact with a digital kitten you must open your 
 <!------------------------------------- Frog logo for Kittens ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="20%" 
+<img width="20%"
    src="./images/image-kittens-frog.png"
-   alt="Frog logo"</>
+   alt="Frog logo" />
 </p>
 
 Kittens purchased on the cryptokitties.co site will be stored in the Metamask wallet associated with your account or can be put up for sale at an NFT marketplace. Any fees or revenue from your kittens will automatically be reflected in your Metamask wallet totals. Cryptokitties are the first example of a non-fungible token which we will cover in the next section.
@@ -5163,9 +5163,9 @@ Below you can see a screenshot of the [Gemini Custodial Crypto Account Dashboard
 <!------------------------ Gemini Custodial Crypto Account Dashboard ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="100%" 
+<img width="100%"
    src="./images/image-advanced.jpg"
-   alt="Gemini Custodial Crypto Account Dashboard"</>
+   alt="Gemini Custodial Crypto Account Dashboard" />
 </p>
 
 <h3>Advanced</h3>
@@ -5197,9 +5197,9 @@ This is what the [ledger wallet](https://shop.ledger.com/products/ledger-nano-s/
 <!------------------------------------- Ledger Wallet (164) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="10%" 
+<img width="10%"
    src="./images/image-ledger-wallet.png"
-   alt="Ledger Wallet"</>
+   alt="Ledger Wallet" />
 </p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -5262,9 +5262,9 @@ The trust triangle represents the Trust over IP version of how the new relations
 <!---------------------------- Decentralized Identifiers (DIDs) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
+<img width="50%"
    src="/images/image092.png?raw=true"
-   alt="Decentralized Identifiers (DIDs)"</>
+   alt="Decentralized Identifiers (DIDs)" />
 </p>
 
 <h4>Decentralized identifiers</h4>
@@ -5282,9 +5282,9 @@ WC3 is working on ways to standardize the format for DIDs.
 <!----------------- Decentralized Identifiers (DIDs) - Public  & Private Keys -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
+<img width="50%"
    src="/images/image093.png?raw=true"
-   alt="Decentralized Identifiers (DIDs) - Public & Private Keys"</>
+   alt="Decentralized Identifiers (DIDs) - Public & Private Keys" />
 </p>
 
 The DID above is structured to identify what type of credential, the issuer and the cryptographic hash of the credential.
@@ -5331,9 +5331,9 @@ For example, in agriculture, farmers are able to secure small loans to help them
 <!--------------------------- 94. Benefits of Decentralized Finance ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="65%" 
+<img width="65%"
    src="/images/image094.png?raw=true"
-   alt="Benefits of Decentralized Finance"</>
+   alt="Benefits of Decentralized Finance" />
 </p>
  
 Regulating these new financial instruments is proving challenging as government agencies wrestle with controlling currencies that do not recognize borders. 
@@ -5381,9 +5381,9 @@ Central Bank Digital Currencies are being considered across the globe.
 <!-------------------------- Cemtral Bank Digital Currency Status (168) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="85%" 
+<img width="85%"
    src="/images/image095.png?raw=true"
-   alt="Central Bank Digital Currency status"</>
+   alt="Central Bank Digital Currency status" />
 </p>
   
 According to the [CBDC Tracker](https://cbdctracker.org/), the Sand Dollars, a retail CBDC issued by the Central Bank of the Bahamas is the first nationwide Central Bank Digital Currency. The US Federal Reserve is researching CBDC for the US with the Federal Reserve Bank of Boston and [MIT](https://dci.mit.edu/) committed to a multi-year collaboration to build a hypothetical currency called the Hamilton.
@@ -5521,12 +5521,12 @@ Businesses fueled by blockchain solutions are developing new relationships for m
 Supply chain data is not always visible or trusted. In recent times of disruption supply chains matter more than ever. Global supply chain and blockchain are working to secure systems to better handle these disruptions. The Covid pandemic shed light on the frailty of our supply chains which accelerated discussion over blockchain solutions. 
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Maersk & IBM logos (172) ------------------------------------->
+<!------------------------------- 96. Maersk & IBM logos (172) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="50%" 
+<img width="50%"
    src="/images/image096.png?raw=true"
-   alt="Maersk + IBM"</>
+   alt="Maersk + IBM" />
 </p>
   
 Learn more about the collaboration between Maersk and IBM from the ["Digitizing Global Trade with Maersk and IBM"](https://www.ibm.com/blogs/blockchain/2018/01/digitizing-global-trade-maersk-ibm/) blog post by Michael White.
@@ -5581,12 +5581,12 @@ The resulting solution is called [TradeLens](https://www.tradelens.com/). You ca
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------------- Trade Made Easy ----------------------------------------->
+<!------------------------------------ 98. Trade Made Easy --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
    src="/images/image098.jpg?raw=true"
-   alt="Trade Made Easy"</>
+   alt="Trade Made Easy" />
 </p>
  
 <h3>Farm to Table</h3>
@@ -5643,7 +5643,7 @@ We'll make sure that all stakeholders work together for a safer and better food 
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Farm to Table logo ------------------------------------------>
+<!-------------------------------- 100. Farm to Table logo --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -5656,7 +5656,7 @@ We'll make sure that all stakeholders work together for a safer and better food 
 Blockchain is transforming the healthcare industry. Some challenges the healthcare industry faces are counterfeit drugs, siloed data, health record management to name a few. Blockchain can solve these issues with interoperability, data integrity and security. Let's look at some solutions.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- Moderna logo------------------------------------------->
+<!------------------------------------- 101. Moderna logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="25%" 
@@ -5668,7 +5668,7 @@ Moderna uses blockchain to support smart COVID vaccine management.
 To learn more see ["Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter' Management of COVID-19 Vaccines"](https://www.marketwatch.com/story/moderna-ibm-explore-blockchain-tech-ai-to-support-smarter-management-of-covid-19-vaccines-2021-03-04) article by Tomi Kilgore.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------------- SAP logo ----------------------------------------------->
+<!--------------------------------------- 101. SAP logo ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="25%" 
@@ -5680,7 +5680,7 @@ SAP has an existing solution unrelated to blockchain called Advanced Track and T
 To further explore this solution read the following article by Nicky Morris ["SAP Leads Pharma Supply Chain Blockchain"](https://www.ledgerinsights.com/sap-pharma-supply-chain/) and watch ["Verifying Pharmaceutical Products Using Blockchain"](https://www.sap.com/assetdetail/2018/05/c48ee5c2-047d-0010-87a3-c30de2ffd8ff.html) video. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------   Pfizer logo --------------------------------------------->
+<!-------------------------------------  103. Pfizer logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="25%" 
@@ -5694,7 +5694,7 @@ Also, Pfizer has been using blockchain in transparent [clinical trials](https://
 Reduction of settlement times will improve the flow of money through fintech companies.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Swiss Exchange logo (SIX) ------------------------------------->
+<!-------------------------------- 104. Swiss Exchange logo (SIX) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="25%" 
@@ -5713,7 +5713,7 @@ Trade finance is showing promise for blockchain solutions in letter of credits b
 In a paper from [Andrea Frosinini](https://www.tradefinanceglobal.com/posts/author/andrea-frosinini/), ["Reshaping Trade Finance: Towards a “New” Letter of Credit"](https://wiki.hyperledger.org/display/TFSIG/Reshaping+Trade+Finance.+Towards+a+new+Letter+of+Credit?preview=/29035705/29035706/Reshaping%20Trade%20Finance%20(towards%20a%20new%20Letter%20of%20Credit).pdf), he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 
 <!------------------------------------------------------------------------------------------------>
-<!-----------------------------=------- Voltron logo --------------------------------------------->
+<!------------------------------------- 105. Voltron logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="25%" 
@@ -5741,7 +5741,7 @@ According to a presentation by Bobbi Muscara, Saptarshi Choudhury and Sean O’K
   - Governance
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ Smarrt Dubai ---------------------------------------------->
+<!------------------------------------ 106. Smarrt Dubai ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -5757,7 +5757,7 @@ One solution that we have already mentioned in Chapter 1 is Smart Dubai. Its goa
 Watch these additional resources to learn more about the Smart Dubai initiative, ["Smart Dubai's Paperless Strategy"](https://www.digitaldubai.ae/initiatives/paperless) and ["Happy Cities Forum 2019"](https://www.digitaldubai.ae/initiatives/happiness-agenda).
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Dutch Blockchain logo ----------------------------------------->
+<!-------------------------------- 105. Dutch Blockchain logo ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -5773,7 +5773,7 @@ Watch these additional resources to learn more about the Smart Dubai initiative,
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Buffalo on Wyoming Flag (180) ------------------------------->
+<!---------------------------------- 108. Buffalo on Wyoming Flag (180) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="50%" 
@@ -5862,7 +5862,7 @@ The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- Charity logo ------------------------------------------>
+<!---------------------------------------- 112. Charity logo ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image112.png?raw=true"
@@ -5903,7 +5903,7 @@ Application builder.</li>
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Consensys mesh companies --------------------------------------->
+<!------------------------------- 114. Consensys mesh companies ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image114.png?raw=true"
