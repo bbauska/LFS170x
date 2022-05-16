@@ -5873,7 +5873,7 @@ The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social
 Created by three local meetup groups, [Ledger Academy](https://ledgeracademy.com/index.html), [Hyperledger Princeton](https://www.meetup.com/Hyperledger-Princeton/) and [Blockchain & AI Princeton](https://www.meetup.com/Blockchain-Princeton/). The project won the 2021 Government Blockchain Associations Award for Social Impact. The video of the awards ceremony can be viewed on [YouTube](https://www.youtube.com/watch?v=41DYKpLSvrs).
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- The Giving Chain (183) ------------------------------------->
+<!-------------------------------- 115. The Giving Chain (183) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="65%" src="/images/image115.jpg?raw=true"
@@ -5908,7 +5908,7 @@ Application builder.</li>
 <p align="center" width="100%">
 <img src="/images/image114.png?raw=true"
    alt="ConsenSys Mesh Companies"
-   width="75%" />
+   width="85%" />
 </p>
 
 <h3>Hyperledger</h3>
@@ -5921,7 +5921,7 @@ Application builder.</li>
 <p align="center" width="100%">
 <img src="/images/image-hyperledger-house.png?raw=true"
    alt="Hyperledger Greenhouse"
-   width="85%" />
+   width="100%" />
 </p>
 
 Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger [distributed ledgers](https://www.hyperledger.org/use/distributed-ledgers) and [libraries](https://www.hyperledger.org/use/libraries) on the Hyperledger website.
@@ -5953,7 +5953,7 @@ It is a cloud service that enables rapid distributed application deployment with
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- A DAML logo ------------------------------------------->
+<!-------------------------------------- 117. A DAML logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image117.png?raw=true"
@@ -5976,7 +5976,7 @@ The easy-to-use platform is tailored for users, developers, government, and ente
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Simba logo (186) ------------------------------------------->
+<!------------------------------------ 118. Simba logo (186) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image118.png?raw=true"
@@ -5991,12 +5991,12 @@ The interface allows users to easily build a graph of the relationships between 
 This graphical model is then converted to Solidity where each asset and transaction becomes a Solidity Smart Contract method that can be executed on the blockchain.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- Simba - Software as a Service (SaaS)   ---------------------------->
+<!-------------------------- 119. Simba - Software as a Service (SaaS) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image119.png?raw=true"
    alt="Simba - Software as a Service (SaaS)"
-   width="75%" />
+   width="100%" />
 </p>
 
 SIMBA Chain also offers management services [(Software as a Service)](https://simbachain.com/enterprise/) for your blockchain solution that grant use of software solutions or APIs (application programming interface), across several cloud platforms so companies can effectively create blockchain solutions.
@@ -6013,7 +6013,7 @@ To learn more, we recommend that you listen the ["Digital Trust: How the OrgBook
 Marketplaces exist to shop renewable energies to make sustainable solutions available on open markets. Everyone knows there are countless inefficiencies in the energy grid, stemming from the highly centralized nature of our utilities systems. With the advent of at-home energy production and storage through affordable solar panels and home batteries, many users are storing energy surpluses at home without a way to “sell” clean energy.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Clean Energy logo ------------------------------------------>
+<!-------------------------------- 122. Clean Energy logo (187) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image122.jpg?raw=true"
@@ -6072,12 +6072,12 @@ Below you can see themusicianmarketplace.com dashboard:
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- musicianmarketplace.com ------------------------------------->
+<!----------------------------- 123. musicianmarketplace.com (188) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image123.jpg?raw=true"
    alt="musicianmarketplace.com"
-   width="85%" />
+   width="100%" />
 </p>
 
 <h3 id="ch6-6">6.6 What is the future of blockchain?</h3>
@@ -6143,4 +6143,4 @@ The end . . .
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-<b>4/27/2022 Wednesday 5:42pm</b>
+<b>Last Updated: 5/15/2022 Sunday 5:07pm</b>
