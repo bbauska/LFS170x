@@ -3,7 +3,7 @@
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- readme.md in LFS170x.bauska.org ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ linux logo ------------------------------------------>
+<!------------------------------------- 01. linux logo (01) -------------------------------------->
 <p align="center" width="100%">
 <img src="/images/image001.jpg?raw=true"
    alt="Linux logo"
@@ -14,7 +14,7 @@
 <h2 align="center">Blockchain: Understanding Its Use Cases and Implications </h2>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ linux blockchain logo ------------------------------------->
+<!---------------------------------- linux blockchain logo (01) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-lfs170x-logo.png?raw=true"
@@ -107,7 +107,7 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------------- Connect Dots ----------------------------------------->
+<!------------------------------------- 02. Connect Dots (04) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
@@ -131,7 +131,7 @@ What started as a **[DARPA (Defense Advanced Research Project Agency)](https://w
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------- www logo ------------------------------------------->
+<!-------------------------------------- 03. www logo (05) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
@@ -165,7 +165,7 @@ Characteristics of Web 1.0:<br/>
    <li>Email was the first widely adopted application on the Internet.</li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- Email logo -------------------------------------------->
+<!------------------------------------ 04. Email logo (06) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true" 
@@ -185,7 +185,7 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------------- Netscape logo ------------------------------------------>
+<!----------------------------------- 05. Netscape logo (06) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true" 
@@ -207,7 +207,7 @@ Data became a commodity collected, siloed and sold; we were giving up our inform
 Websites let users generate content, social networks became part of our lives.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- social networking logo -------------------------------------------------->
+<!------------------------------- 06. social networking logo (07) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true" 
@@ -219,7 +219,7 @@ Websites let users generate content, social networks became part of our lives.
 
 <h3>Real World Examples of File Sharing</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ napster logo ---------------------------------------------->
+<!------------------------------------ 07. napster logo (07) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <h3>Use Case: Music Sharing Companies</h3>
 <p align="center" width="100%">
@@ -234,7 +234,7 @@ Websites let users generate content, social networks became part of our lives.
 Napster is forced to take down its index, shutting down the platform.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------------- bittorrent logo ---------------------------------------->
+<!---------------------------------- 08. bittorrent logo (07) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image008.png?raw=true" 
@@ -271,7 +271,7 @@ Bitcoin is the first widely accepted application for the Internet of Value (just
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 09. crypto, electronically transferring value ---------------------------->
+<!--------------------- 09. crypto, electronically transferring value (08) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image009.png?raw=true" 
@@ -421,7 +421,7 @@ Let us look at what it means to be a currency.
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------- bitcoin logo --------------------------------------->
+<!------------------------------------ 10, bitcoin logo (11) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image010.png?raw=true" 
@@ -447,7 +447,7 @@ According to [Investopedia](https://www.investopedia.com/terms/f/fiatmoney.asp),
 > The dollar is an example of the United States fiat currency”.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ government building --------------------------------->
+<!-------------------------------- 11. government building (12) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image011.png?raw=true" 
@@ -459,7 +459,7 @@ Apart from the government issuing Fiat, a centralized authority needs to keep tr
 Banks, credit card companies’ stockbrokers are companies that represent a centralized authority that controls your money.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- bank building <p align="center" ----------------------------->
+<!----------------------------------- 12. bank building (12) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image012.png?raw=true" 
@@ -472,7 +472,7 @@ If you have an Internet connection and a Bitcoin wallet application, you can rec
 Cryptocurrencies like Bitcoin have value because it can be proven with math. Unlike banks offering centralized services, you are responsible for your cryptocurrency.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- key, keyboard ----------------------------------------->
+<!----------------------------------- 13. key, keyboard (13) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image013.png?raw=true" 
@@ -490,7 +490,7 @@ There are many more use cases that utilize blockchain technology far reaching th
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 14. blockchain files -------------------------------------->
+<!---------------------------------- 14. blockchain files (13) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image014.png?raw=true"
@@ -563,7 +563,7 @@ If you go back and try and change any data on any page anywhere in this notebook
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Notebook page, block on a blockchain --------------------------->
+<!--------------------------- 15. Notebook page, block on a blockchain (15) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image015.png?raw=true" 
@@ -584,7 +584,7 @@ Examples of stored data include:
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ data stored on block -------------------------------------->
+<!-------------------------------- 16. data stored on block (16) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image016.png?raw=true" 
@@ -599,7 +599,7 @@ Examples of stored data include:
 Each block is chained or tied to the previous block by embedding the block with information from the previous block (we will go through this in depth later in the course).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ blockchains are chained together -------------------------------->
+<!-------------------------- 17. blockchains are chained together (16) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image017.png?raw=true" 
@@ -611,7 +611,7 @@ Each block is chained or tied to the previous block by embedding the block with 
 If the data is tampered with anywhere in the chain, the links will break in a very obvious way.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- blockchain is immutable ------------------------------------>
+<!------------------------------ 18. blockchain is immutable (17) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image018.png?raw=true"
@@ -629,7 +629,7 @@ Here are some features that make this new technology so revolutionary.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- Blockchain Features - distributed ledger ---------------------------------->
+<!---------------------- 19. Blockchain Features - distributed ledger (17) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image019.png?raw=true"
@@ -670,7 +670,7 @@ User node interacts with the ledger. With blockchain technology, a lack of a cen
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ blockchain networks can be public or private -------------------------->
+<!-------------------- 20. blockchain networks can be public or private (18) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image020.png?raw=true"
@@ -709,7 +709,7 @@ Since there is no central authority telling the nodes which transactions are val
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------------All agree to transaction ---------------------------------->
+<!------------------------------ 21. All agree to transaction (19) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image021.png?raw=true"
@@ -914,7 +914,7 @@ Services being provided to the consumer is an area of interest to companies. <br
 Benefits to the consumer are transparency to the consumer, accountability from suppliers, ethical sourcing validation, labor verification and an immutable shared view.
 </p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- Consumer benefits from blockchain ------------------------------>
+<!------------------------- 22. Consumer benefits from blockchain (26) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image022.png?raw=true"
@@ -929,7 +929,7 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
 <h4>Use Case: Diamond Tracing</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Trustchain logo ------------------------------------------------------>
+<!---------------------------------- 23. Trustchain logo (26) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image023.png?raw=true"
@@ -947,7 +947,7 @@ With a decentralized approach, blockchain removes the middleman (such as banks a
 The shared ledger approach also eliminates the need for multiple paper copies that need to be verified and updated frequently.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- Business Benefits from Blockchain  --------------------------------->
+<!------------------------- 24. Business Benefits from Blockchain (27) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image024.png?raw=true"
@@ -966,7 +966,7 @@ Industries like finance, international trade and commerce, food supply chains ar
 <h4>Use Case: Multi-party Invoicing DLT Labs</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Walmart Canada & DLT Labs logos ----------------------------->
+<!-------------------------- 25. Walmart Canada & DLT Labs logos (27) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image025.png?raw=true"
@@ -1062,7 +1062,7 @@ Blockchain networks offer more secure, agile, and cost-effective structures.<br/
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- Government Benefits from Blockchain (30) ---------------------------->
+<!------------------------ 26. Government Benefits from Blockchain (30) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image026.png?raw=true"
@@ -1329,7 +1329,7 @@ To understand how blockchain came about, we must first understand the following 
 
 <h3>History of Ledgers</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ single-entry accounting ledgers (37)----------------------------->
+<!--------------------------- 28. single-entry accounting ledgers (37)---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image028.png?raw=true"
@@ -1343,7 +1343,7 @@ To understand how blockchain came about, we must first understand the following 
 <li>Chanakya, an Indian leader, creates the first documented accounting standards.</li><br/>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- double-entry accounting ledger ------------------------------->
+<!-------------------------- 29. double-entry accounting ledger (37) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image029.png?raw=true"
@@ -1357,7 +1357,7 @@ To understand how blockchain came about, we must first understand the following 
 <li>The Italian Luca Pacioli, recognized as the father of accounting and bookkeeping, was the first person to publish a work on double-entry bookkeeping and introduced the field in Italy.</li><br/>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ triple-entry accounting ledger (38) ----------------------------->
+<!-------------------------- 30. triple-entry accounting ledger (38) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image030.png?raw=true"
@@ -1450,7 +1450,7 @@ This system of consensus by the majority of the adults on the island with no cen
 <p>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------- All Tribe Members Keep Copy in Their Head --------------------------------------->
+<!----------------------- All Tribe Members Keep Copy in Their Head (41) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-yap-1.png?raw=true"
@@ -1460,7 +1460,7 @@ This system of consensus by the majority of the adults on the island with no cen
 <br/>
 <p align="left">   1. The group shared the ledger.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- All Tribe Members Who owned the Rai Stone ------------------------------>
+<!----------------------- All Tribe Members Who owned the Rai Stone (41) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-yap-2.png?raw=true"
@@ -1470,7 +1470,7 @@ This system of consensus by the majority of the adults on the island with no cen
 <br/>
 <p align="left">   2. The group agreed to the ledger.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- All Tribe Members Who ownede ----------------------------------------->
+<!------------------------------ All Tribe Members Who ownede (41) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-yap-3.png?raw=true"
@@ -1480,7 +1480,7 @@ This system of consensus by the majority of the adults on the island with no cen
 <br/>
 <p align="left">   3. All changes or transactions to the ledger were announced to the group.</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- All Tribe Members Who owned the Rai Stone ------------------------------->
+<!----------------------- All Tribe Members Who owned the Rai Stone (42) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-yap-4.png?raw=true"
@@ -1809,7 +1809,7 @@ Transactions on the blockchain include their public key and are digitally signed
 </ul> 
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- public key cryptography (52) --------------------------------->
+<!-------------------------------- public key cryptography (52) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-rsa-key.png?raw=true"
@@ -1819,7 +1819,7 @@ Transactions on the blockchain include their public key and are digitally signed
 
 <h3>Identity: RSA Public Key Cryptography</h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- Public Key Cryptography ------------------------------------>
+<!-------------------------------- public key cryptography (52) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-rsa-public-key.png?raw=true"
@@ -1844,7 +1844,7 @@ Public key cryptography uses a pair of a public key and a private key to perform
 Using a person's public key, it is possible to encrypt a message so that only the person with the private key can decrypt and read it. Using a private key, a digital signature can be created so that anyone with the corresponding public key can verify that the message was created by the owner of the private key and was not modified since.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------------------- Key ---------------------------------------------->
+<!------------------------------------------ Key (53) -------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-key.png?raw=true"
@@ -1857,7 +1857,7 @@ Digital Signatures and Key Pairs<br/>
 <b>Step 1:</b>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- Step 1 - generate public from private key ---------------------------->
+<!----------------------- Step 1 - generate public from private key (53) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-step-1.png?raw=true"
@@ -1867,7 +1867,7 @@ Digital Signatures and Key Pairs<br/>
  
 <b>Step 2:</b>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Step 2 - encrypt and send message -------------------------------->
+<!----------------------------- Step 2 - encrypt and send message (53) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-step-2.png?raw=true"
@@ -1877,7 +1877,7 @@ Digital Signatures and Key Pairs<br/>
  
 <b>Step 3:</b>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- Step 3 - recipient decrypts message ------------------------------>
+<!--------------------------- Step 3 - recipient decrypts message (54) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-step-3.png?raw=true"
