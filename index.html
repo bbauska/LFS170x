@@ -179,7 +179,7 @@ img.displayed {
   border-style: solid; 
   }
 h1 {
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
   font-family: normal 1.4em verdana, tahoma, arial, sans-serif, helvetica;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -188,7 +188,7 @@ h1 {
   text-align: center;
 }
 h2 {
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
   font: normal 1.4em verdana, calibri, arial, sans-serif, tahoma;
   letter-spacing: 3px;
   color: #3800aa;   <!-- dark purple -->
@@ -196,7 +196,7 @@ h2 {
   text-align: left;
 }
 h3 {
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
   font: normal 1.4em frente, verdana, helvetica, arial, sans-serif;
   letter-spacing: 3px;
 <!--  color: #3899ff; -->
@@ -205,7 +205,7 @@ h3 {
   text-align: left;
 }
 h4 {
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
   font: normal 1.4em verdana, helvetica, arial, sans-serif;
   <!-- frente, helvetica, garamond, futura, didot; -->
   <!-- verdana, helvetica, arial, sans-serif -->
@@ -215,7 +215,7 @@ h4 {
   text-align: left;
 }
 h5 {
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
   font: normal 1.4em frente, verdana, helvetica, arial, sans-serif;
   letter-spacing: 3px;
   color: #326908;    <!-- green -->
@@ -223,7 +223,7 @@ h5 {
   text-align: left;
 }
 h6 {
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
   font: normal 1.4em frente, verdana, helvetica, arial, sans-serif;
   letter-spacing: 3px;
   color: #326908;    <!-- green -->
@@ -232,9 +232,9 @@ h6 {
 }
 body {
   font-family: "Avenir Next", Calibri, Verdana, sans-serif;
-  margin-left: 2%;
+  margin-left: 3px;
 }
-
+<!-- was 2% -->
 &nbsp;
 &nbsp;
 <br>
@@ -317,7 +317,7 @@ h6 {
   }
 body {
   font-family: Bahnschrift, Calibri, Verdana, sans-serif;
-  margin-left: 2%;
+  margin-left: 3px;
   }
 <!-- list item styles -->
 ul.a {list-style-type: circle;}
@@ -4374,86 +4374,43 @@ compete with one another, when really they don’t.</p>
 <p>They just serve to provide different types of solutions and enable
 different kinds of products and offerings to be built on top of
 them.</p>
-<h3>
-Private Blockchain Benefits
-</h3>
+
+<h3>Private Blockchain Benefits</h3>
+
 The following benefits of a private blockchain have been described in
 the <a target="_blank" rel="noopener noreferrer" 
 href="https://medium.com/coinmonks/public-vs-private-blockchain-in-a-nutshell-c9fe284fa39f">“Public
 vs. Private Blockchain In a Nutshell”</a> article by Demiro Massessi:
+
 <ul>
-<li>
-Ledger is distributed/immutable The database is not centralized like in
-a client-server approach, and all nodes in the blockchain participate in
-the transaction validation. When something is written to the blockchain,
-it cannot be changed.
-</li>
-<li>
-Compliance support As an enterprise, you likely would have compliance
-requirements to adhere to, and having control of your infrastructure
-would enable this requirement more seamlessly.
-</li>
-<li>
-Faster transactions When you distribute the nodes locally, but also have
-much less nodes to participate in the ledger, the performance is faster.
-</li>
-<li>
-Consensus more efficient/more options More options for consensus models.
-Enterprise or private blockchains have less nodes and usually have a
-different consensus algorithm, such as BFT vs. POW, which we will
-discuss in a later section.
-</li>
-<li>
-Better scalability Being able to add nodes and services on demand can
-provide a great advantage to the enterprise.
-</li>
-<li>
-Enterprise permissioned The enterprise controls the resources and access
-to the blockchain, hence private and/or permissioned.
-</li>
+  <li>Ledger is distributed/immutable The database is not centralized like in a client-server approach, and all nodes in the blockchain participate in the transaction validation. When something is written to the blockchain, it cannot be changed.</li>
+  <li>Compliance support As an enterprise, you likely would have compliance requirements to adhere to, and having control of your infrastructure would enable this requirement more seamlessly.</li>
+  <li>Faster transactions When you distribute the nodes locally, but also have much less nodes to participate in the ledger, the performance is faster.</li>
+  <li>Consensus more efficient/more options More options for consensus models. Enterprise or private blockchains have less nodes and usually have a different consensus algorithm, such as BFT vs. POW, which we will discuss in a later section.</li>
+  <li>Better scalability Being able to add nodes and services on demand can provide a great advantage to the enterprise.</li>
+  <li>Enterprise permissioned The enterprise controls the resources and access to the blockchain, hence private and/or permissioned.</li>
 </ul>
-<h3>
-Security: Public vs. Private Blockchains
-</h3>
-As discussed in <a target="_blank" rel="noopener noreferrer" 
-href="https://www.ibm.com/blogs/blockchain/2017/05/the-difference-between-public-and-private-blockchain/">“The
-Difference Between Public and Private Blockchain”</a> article by Praveen
-Jayachandran, both public and private blockchains share many
-similarities:
+
+<h3>Security: Public vs. Private Blockchains</h3>
+
+<p>As discussed in <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/blogs/blockchain/2017/05/the-difference-between-public-and-private-blockchain/">"The
+Difference Between Public and Private Blockchain”</a> article by Praveen Jayachandran, both public and private blockchains share many similarities:</p>
+
 <ul>
-<li>
-Both are decentralized peer-to-peer networks, each maintaining a shared
-append-only ledger of digitally-signed transactions.
-</li>
-<li>
-Both maintain transaction replicas in-sync through a protocol referred
-to as consensus.
-</li>
-<li>
-Both provide certain guarantees on the immutability of the ledger.
-</li>
+  <li>Both are decentralized peer-to-peer networks, each maintaining a shared append-only ledger of digitally-signed transactions.</li>
+  <li>Both maintain transaction replicas in-sync through a protocol referred to as consensus.</li>
+  <li>Both provide certain guarantees on the immutability of the ledger.</li>
 </ul>
-On the other hand, as described in <a target="_blank" rel="noopener noreferrer" 
-href="https://www.investopedia.com/news/public-private-permissioned-blockchains-compared/#:~:text=The%20primary%20distinction%20between%20the,and%20maintain%20the%20shared%20ledger">Investopedia</a>,
-the main difference between a public and private blockchain is related
-to who is allowed to participate in the network, execute the consensus
-protocol, and maintain the shared ledger:
+
+<p>On the other hand, as described in <a target="_blank" rel="noopener noreferrer" href="https://www.investopedia.com/news/public-private-permissioned-blockchains-compared/#:~:text=The%20primary%20distinction%20between%20the,and%20maintain%20the%20shared%20ledger">Investopedia</a>, the main difference between a public and private blockchain is related to who is allowed to participate in the network, execute the consensus protocol, and maintain the shared ledger:</p>
+
 <ul>
-<li>
-A public blockchain network is completely open and anyone can join and
-participate in the network.
-</li>
-<li>
-A private blockchain network requires an invitation, and must be
-validated by either the network starter or by a set of rules. Private
-blockchains are usually set up as permissioned networks, placing
-restrictions on who is allowed to participate in the network, and only
-in certain transactions.
-</li>
+  <li>A public blockchain network is completely open and anyone can join and participate in the network.</li>
+  <li>A private blockchain network requires an invitation, and must be validated by either the network starter or by a set of rules. Private blockchains are usually set up as permissioned networks, placing restrictions on who is allowed to participate in the network, and only in certain transactions.</li>
 </ul>
-<h3>
-Public and Private Comparison
-</h3>
+
+<h3>Public and Private Comparison</h3>
+
 <p>Now that we’ve talked about public and private blockchains, what
 those terms mean and again, you can think of that as permission versus
 permissionless blockchains,</p>
@@ -4520,47 +4477,23 @@ serve vastly different purposes.</p>
 <p>As you start to dig into a lot of real-world use cases, what you’re
 going to find is many use cases make use of both types of blockchain,
 integrated seamlessly to you.</p>
-<h3>
-Is Blockchain Right for You?
-</h3>
-Consider the following aspects before deciding if blockchain is for you:
+
+<h3>Is Blockchain Right for You?</h3>
+
+<p>Consider the following aspects before deciding if blockchain is for you:</p>
+
 <ul>
-<li>
-Blockchain decisions<br/> When it comes to decision making around which
-blockchain model to use, it’s important to determine which platform and
-structure is right for your business.
-</li>
-<li>
-Intermediaries<br/> Blockchain implementations can eliminate middlemen
-from work processes.
-</li>
-<li>
-Central authority<br/> Some organizations rely on one person having
-control, with blockchain decentralized work flows without a single point
-of failure are emerging.
-</li>
-<li>
-Multi-party interaction<br/> Blockchain provides a trust layer that
-opens up new opportunities for participation.
-</li>
-<li>
-Visibility<br/> Blockchain transparency reduces dispute over what is in
-the ledger since agreement occurs before transactions are committed and
-everyone can have access to the ledger.
-</li>
-<li>
-Write access<br/> Public permissionless blockchains do not prohibit who
-can add blocks to the chain, where private permissioned can restrict
-access.
-</li>
-<li>
-Value transfer<br/> Blockchains can differ in the ways participants
-transfer value.
-</li>
+  <li>Blockchain decisions<br/> When it comes to decision making around which blockchain model to use, it’s important to determine which platform and structure is right for your business.</li>
+  <li>Intermediaries<br/> Blockchain implementations can eliminate middlemen from work processes.</li>
+  <li>Central authority<br/> Some organizations rely on one person having control, with blockchain decentralized work flows without a single point of failure are emerging.</li>
+  <li>Multi-party interaction<br/> Blockchain provides a trust layer that opens up new opportunities for participation.</li>
+  <li>Visibility<br/> Blockchain transparency reduces dispute over what is in the ledger since agreement occurs before transactions are committed and everyone can have access to the ledger.</li>
+  <li>Write access<br/> Public permissionless blockchains do not prohibit who can add blocks to the chain, where private permissioned can restrict access.</li>
+  <li>Value transfer<br/> Blockchains can differ in the ways participants transfer value.</li>
 </ul>
-<h3>
-Blockchain Decision Chart
-</h3>
+
+<h3>Blockchain Decision Chart</h3>
+
 <p>Let’s take a look at the blockchain decision chart:  </p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- Blockchain decision chart (97) --------------------------------->
@@ -8412,7 +8345,7 @@ The end . . .
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
 
-<b><i>lfs170x Last Updated: 2/28/2023 1:50pm +</i></b>
+<b><i>lfs170x Last Updated: 3/01/2023 4:30pm +</i></b>
 
 <!--
 <img class="displayed"
