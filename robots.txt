@@ -1,3 +1,2 @@
-Sitemap: http://lfs170x.org/sitemap.xml
 User-agent: *
 Disallow: /
