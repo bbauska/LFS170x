@@ -3,24 +3,23 @@ lfs170x: "Linux Foundation - Blockchain: Understanding Its Use Cases and Implica
 ---
 
 <h2 align="center">LFS170x - Linux FoundationX</h2>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- readme.md in LFS170x.bauska.org ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- 01. linux logo (01) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image001.jpg?raw=true"
    alt="Linux logo"
-   width="40%" />
+   width="150px" />
 </p>
 &nbsp;
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
 </p>  
 <h2 align="center">Blockchain: Understanding Its Use Cases and Implications </h2>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- linux blockchain logo (01) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-lfs170x-logo.png?raw=true"
    alt="Linux LFS170x logo"
@@ -111,10 +110,9 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- 02. Connect Dots (04) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
    alt="Connect the Dots"
@@ -123,10 +121,9 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 &nbsp;
 
 <h3 id="ch1-2">1.2 The Early Internet</h3>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------ darpa logo ------------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/darpa-logo.jpg?raw=true"
    alt-"DARPA logo" 
@@ -137,10 +134,9 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 What started as a **[DARPA (Defense Advanced Research Project Agency)](https://www.darpa.mil)** experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
 
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------------- 03. www logo (05) --------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
    alt="WWW logo" 
@@ -173,9 +169,9 @@ Characteristics of Web 1.0:<br/>
    <li>Read-only, information was “pushed” to users,</li>
    <li>Email was the first widely adopted application on the Internet.</li>
 </ul>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ 04. Email logo (06) --------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true" 
    alt="E-mail logo" 
@@ -193,10 +189,9 @@ Companies appeared attempting to cash in on this new technology, most notable wa
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 05. Netscape logo (06) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true" 
 	alt="Netscape logo" 
@@ -216,10 +211,9 @@ Characteristics of Web 2.0:<br/>
 Web 2.0 saw emerging marketplaces that brought together unrelated buyers and sellers in a seamless low-cost way. 
 Data became a commodity collected, siloed and sold; we were giving up our information at a frenzied pace. 
 Websites let users generate content, social networks became part of our lives.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 06. social networking logo (07) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true" 
    alt="Social Networking logo" 
@@ -230,9 +224,9 @@ Websites let users generate content, social networks became part of our lives.
 <h5 align="center">Social Networking</h5>
 
 <h3>Real World Examples of File Sharing</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ 07. napster logo (07) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Use Case: Music Sharing Companies</h3>
 <p align="center" width="100%">
 <img src="/images/image007.png?raw=true" 
@@ -245,10 +239,9 @@ Websites let users generate content, social networks became part of our lives.
 [Napster](https://us.napster.com/) software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.<br/>
 <b>Result:</b> The industry cracks down music sharing companies copyright infringement.
 Napster is forced to take down its index, shutting down the platform.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 08. bittorrent logo (07) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image008.png?raw=true" 
    alt="BitTorrent logo" 
@@ -283,10 +276,9 @@ Bitcoin is the first widely accepted application for the Internet of Value (just
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------- 09. crypto, electronically transferring value (08) ----------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image009.png?raw=true" 
 	alt="Crypto, electronically transferring value" 
@@ -434,10 +426,9 @@ Bitcoin has no borders and was created as a decentralized payment system, an alt
 
 Let us look at what it means to be a currency.
 </p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ 10, bitcoin logo (11) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image010.png?raw=true" 
    alt="Bitcoin logo" 
@@ -461,10 +452,9 @@ According to [Investopedia](https://www.investopedia.com/terms/f/fiatmoney.asp),
 > “Fiat currency is money a government issues that is not backed by a commodity like gold. 
 > Fiat money is backed by the government and it has value because the government says so and the citizens believe it. 
 > The dollar is an example of the United States fiat currency”.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 11. government building (12) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image011.png?raw=true" 
    alt= "Government building" 
@@ -474,10 +464,9 @@ According to [Investopedia](https://www.investopedia.com/terms/f/fiatmoney.asp),
 
 Apart from the government issuing Fiat, a centralized authority needs to keep track of assets. 
 Banks, credit card companies’ stockbrokers are companies that represent a centralized authority that controls your money.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 12. bank building (12) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image012.png?raw=true" 
    alt="Bank building" 
@@ -488,10 +477,9 @@ Banks, credit card companies’ stockbrokers are companies that represent a cent
 Bitcoin is transacted over the Bitcoin network, which is an open, public blockchain network. 
 If you have an Internet connection and a Bitcoin wallet application, you can receive and send the cryptocurrency Bitcoin. 
 Cryptocurrencies like Bitcoin have value because it can be proven with math. Unlike banks offering centralized services, you are responsible for your cryptocurrency.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 13. key, keyboard (13) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image013.png?raw=true" 
    alt="Key, keyboard" 
@@ -507,10 +495,9 @@ There are many more use cases that utilize blockchain technology far reaching th
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 14. blockchain files (13) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image014.png?raw=true"
    alt="Blockchain files" 
@@ -542,7 +529,6 @@ In fact, you can think of a block as being exactly like this piece of paper, in 
 
 And just like the paper doesn't know or care, neither does the block in a blockchain.
 </p>
-
 <p>
 While most of what we're recording today are financial transactions, we could also record things like voting records and results, land titling, medical records, or even the opening notes to a Beethoven symphony.
 
@@ -2891,13 +2877,12 @@ Let’s review some basic information about smart contracts:
 <li>The smart contracts act as a foundation to build decentralized applications (DApps).</li>
 <li>Once executed, the information in the smart contract is stored on a blockchain which cannot be altered.</li>
 </ul>
- 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- smart contracts handshake (83) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-smart-contracts-handshake.png?raw=true"
-   alt="Smart Contracts - Handshake"
+   alt="Smart Contracts - Handshake."
    width="85%" />
 </p>
  
@@ -2962,13 +2947,12 @@ Blockchain is commonly called the future of computing. It takes a very different
 
 In this section, we will discuss some of the ways that security differs in traditional and blockchain environments.
 </p>
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- blockchain security (85) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-blockchain-security.png?raw=true"
-   alt="Blockchain Security"
+   alt="Blockchain Security."
    width="65%" />
 </p>
 
@@ -3330,26 +3314,24 @@ Blockchains can differ in the ways participants transfer value.</li>
 
 Let's take a look at the blockchain decision chart:
 &nbsp;
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------- Blockchain decision chart (97) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------- blockchain decision chart (97) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-blockchain-decision-chart.png?raw=true"
-   alt="Blockchain Decision Chart"
+   alt="Blockchain Decision Chart."
    width="65%" />
 </p>
 
 <h3>Questions to Ask When Deciding on Blockchain</h3>
 Discussion on these topics need to be addressed when making the decision to adopt a blockchain strategy for your company:
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------- Questions to ask when deciding on blockchain (98) ------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------------- questions to ask when deciding on blockchain (98) ------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-questions-to-ask.png?raw=true"
-   alt="Questions to Ask"
-   width="65%" />
+  alt="Questions to Ask."
+  width="65%" />
 </p>
 
 <div align="right">
@@ -3450,13 +3432,12 @@ The users will be notified of an event from a blockchain creation via an event.
 <h3>Blockchain Transactions</h3>
 <p>
 Although blockchains can differ in form and function, all follow a basic transaction flow.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- The Blockchain Transaction Flow, steps 1 thru 6 (101) --------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------- the blockchain transaction flow, steps 1 thru 6 (101) --------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-blockchain-transactions.png?raw=true"
-   alt="Blockchain Transaction Flow, steps 1 thru 6"
+   alt="Blockchain Transaction Flow, steps 1 thru 6."
    width="85%" />
 </p>
 <b>Step 1: Operation Initiated</b><br/>
@@ -3464,11 +3445,11 @@ Let's follow the step with a basic Bitcoin transaction. If Alicia wants to send 
 <br/>&nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- Bitcoin Wallet Application (101) ------------------------------>
+<!-------------------------------- bitcoin wallet application (101) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-bitcoin-wallet-app.png?raw=true"
-   alt="Bitcoin Wallet App"
+   alt="Bitcoin Wallet App."
    width="40%" />
 </p>
 <div align="right">
@@ -3504,13 +3485,12 @@ Consensus in blockchain is moving away from a centralized system where one entit
 The blockchain is a distributed and decentralized system, which means that it needs to have a way of tracking the official current state of the system. 
 
 Since the blockchain can include financial transactions and business agreements, it is important that all parties involved are in sync regarding the terms of the agreement.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------- Blockchain Network Nodes (103) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------- blockchain network nodes (103) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-network-comps.png?raw=true"
-   alt="Blockchain Network Nodes (Computers)"
+   alt="Blockchain Network Nodes (Computers)."
    width="65%" />
 </p>
 &nbsp;
@@ -3594,12 +3574,12 @@ These include Proof of Stake, Delegated Proof of Stake, Practical Byzantine Faul
 
 The most commonly used consensus algorithms are Proof of Work and Proof of Stake.
 </p>
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Consensus Mechanisms (105) ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- consensus mechanisms (105) ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-consensus-mechanisms.png?raw=true"
-   alt="Consensus Mechanisms"
+   alt="Consensus Mechanisms."
    width="65%" />
 </p>
 &nbsp;
@@ -3619,13 +3599,12 @@ Some argue the Bitcoin network is not sustainable because of its increasing need
 The argument against this assumes Bitcoin miners are out to make a profit and by using renewable energy sources to power the mining operations they will be more profitable. 
 
 As a result of seeking out carbon-friendly energy sources, mining companies will bring new renewable energy solutions to the power grids.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Proof of Work (107) ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!---------------------------------- proof of work (107) ---------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-proof-of-work.png?raw=true"
-   alt="Proof of Work"
+   alt="Proof of Work."
    width="65%" />
 </p>
 &nbsp;
@@ -3649,14 +3628,13 @@ For example, imagine that a wheel is divided into sections where the size of a s
 In Proof of Stake, an attacker needs to control enough of the staked currency to guarantee they will be selected to create every block. 
 
 Since cryptocurrency is a limited asset, buying up enough of it to do this is expensive, making attacks on Proof of Stake systems economically infeasible.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------------- Proof of Stake (108) ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!---------------------------------- proof of stake (108) ---------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-proof-of-stake.png?raw=true"
-   alt="Proof of Stake"
-   width="65%" />
+  alt="Proof of Stake."
+  width="65%" />
 </p>
 &nbsp;
 
@@ -3668,13 +3646,12 @@ As described by [Demiro Massessi](https://medium.com/coinmonks/blockchain-consen
 <blockquote>
 "Blockchain is a distributed, decentralized system that maintains a shared state. While consensus algorithms are designed to make it possible for the network to agree on the state, there is the possibility that agreement does not occur. Fault tolerance is an important aspect of blockchain technology".
 </blockquote>
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Byzantine Fault Tolerance (109) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------- byzantine fault tolerance (109) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-byzantine-fault.png?raw=true"
-   alt="Byzantine Fault Tolerance"
+   alt="Byzantine Fault Tolerance."
    width="65%" />
 </p>
 &nbsp;
@@ -3737,6 +3714,7 @@ The Byzantine Generals' Problem has been thoroughly explained in the [Medium art
 The generals can only communicate by messengers, who could be intercepted and forced to carry fake messages, and one or more generals may be a traitor. The goal is to find a way to achieve a consensus on strategy despite the possibility of traitors and false messages. Presumably, all generals will abide by what they believe is the majority consensus. The Byzantine Generals' Problem is solvable as long as two-thirds of the generals are honest.<br/>
 Blockchain is designed to be Byzantine Fault Tolerant, meaning that the network will come to a consensus on the official state of the blockchain, despite the fact that some members may misbehave. The solution to the Byzantine Generals' Problem is inefficient, so the blockchain needs some way of being confident of consensus without going through a full solution".
 </blockquote>
+
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
@@ -3804,21 +3782,21 @@ If you're curious about the difference between them, how they work and what the 
 Let's recap differences between Proof of Work and Proof of Stake:
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Proof of work chart (114) ------------------------------------>
+<!--------------------------------- proof of work chart (114) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-proof-of-work-chart.png?raw=true"
-   alt="Proof of Work Chart"
+   alt="Proof of Work Chart."
    width="65%" />
 </p>
 &nbsp;
 <br/>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Proof of stake chart (114) ----------------------------------->
+<!--------------------------------- proof of stake chart (114) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image-proof-of-stake-chart.png?raw=true"
-   alt="Proof of Stake Chart"
+   alt="Proof of Stake Chart."
    width="65%" />
 </p>
 <br/>
@@ -3977,13 +3955,12 @@ These directions become the social norms among those who are living with or near
 These norms become the rules by which the behavior of the group is governed. 
 
 It doesn’t matter if the governance is the real world or the digital world, there are shared underlying principles within both. Let's take a look at who is involved.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------- Participants in Governance (119) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------- participants in governance (119) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-participants-in-governance.png?raw=true"
-   alt="Participants in Governance"
+   alt="Participants in Governance."
    width="65%" />
 </p>
 
@@ -4022,13 +3999,12 @@ A basic description of governance can be defined as a system by which behavior i
 This direction is guided by a set of norms or rules and a way to enforce or keep order.
 
 The mechanism to enforce these policies can take many forms from a dictator who has complete control to a democratic governance model where the voice of the majority is recognized.
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Governance Models (120) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- governance models (120) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-blockchain-governance-model.png?raw=true"
-   alt="Blockchain Governance Models"
+   alt="Blockchain Governance Models."
    width="85%" />
 </p>
  
@@ -4046,6 +4022,7 @@ All decisions regarding the governance of the group are voted on by the entire c
 </ul>
 
 <h3>How Does Blockchain Fit Into Governance?</h3>
+
 Each and every blockchain ecosystem that has or is being created will need some kind of governance mechanism in place.
 
 As discussed in the [“Bitcoin and Blockchain Governance: What It Is and Why It Matters”](https://www.bitcoinmarketjournal.com/bitcoin-and-blockchain-governance/) article by Evan Karnoupakis, traditional systems and laws are made and then enforced. When participants (miners, developers, and users) in the network are interacting, ideally they are acting in a way that’s best for the overall group. Being able to build a governance structure in a decentralized (sometimes anonymous, as well) world has proven to be extremely difficult, but this is a problem that many DLT companies are in the midst of solving.
@@ -4063,27 +4040,25 @@ Most governance structures in the blockchain ecosystem are looking to achieve si
 <h3>On-Chain vs. Off-Chain Governance</h3>
 These goals can be achieved through many different methods of governance. When designing a blockchain, choices between on-chain and off-chain governance must be balanced.
 In the on-chain governance, rules for instituting changes are encoded into the blockchain protocol. This means that any decision being made is automatically being translated into code (e.g. decisions concerning block size). Developers propose changes through code updates and each node votes on whether to accept or reject the proposed change.
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------- On Chain Governance Pros and Cons (122) ---------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------- on chain governance pros and cons (122) ---------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-on-chain-pros-cons.png?raw=true"
-   alt="On-Chain Governance Pros and Cons"
+   alt="On-Chain Governance Pros and Cons."
    width="65%" />
 </p>
 
 On the other hand, as discussed in the Medium article "Revisiting the On-chain Governance vs. Off-chain Governance Discussion",
 "Off-chain governance can be seen as decision-making that first takes place on a social level and is later actively encoded into the protocol by the developers. For instance, Bitcoin developers share their improvement proposals (BIPs) through a mailing list, whereas Ethereum collects improvement protocols (EIPs) on GitHub.
 Fred Ehrsam (Coinbase co-founder) argues that the Bitcoin governance system resembles the checks and balances system of the US government. Just like the Senate, developers submit a pull request to the community, the miners take the role of the judiciary who decides whether or not proposals are adopted in practice. Lastly, the users are just like citizens in a nation or state and can revolt and switch protocols or sell their tokens".
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------- Off Chain Governance Pros and Cons (123) --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------- off chain governance pros and cons (123) --------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-off-chain-pros-cons.png?raw=true"
-   alt="Off-Chain Governance Pros and Cons"
-   width="65%" />
+  alt="Off-Chain Governance Pros and Cons."
+  width="65%" />
 </p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -4745,14 +4720,13 @@ By the end of this chapter, you should be able to:
 
 <h3>Immutability Defined</h3>
 Immutability is when something is unable to be changed.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------- Immutability Defined - No Changes Allowed...Ever (145) --------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/immutability.png"
-   alt="Immutability Defined - No Changes Allowed...Ever"
-   width="50%" />
+  alt="Immutability Defined - No Changes Allowed...Ever."
+  width="50%" />
 </p>
   
 <h3>Immutability</h3>
@@ -4788,13 +4762,13 @@ The very nature of centrally-operated databases can’t be completely immutable,
 A centrally-run database can embed things into it with features that mention immutability (unchangeable). But if there is a central authority, they have all the ability in the world to override that feature.
 
 Another point to keep in mind is that immutability has been around for many years, just like the majority of the tech used via blockchain; it is the combination of these that makes it unique.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- Immutability Example ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-   <img width="60%" src="./images/image-immutability-example.png"
-   alt="Immutability Example" />
+<img width="60%" 
+  src="./images/image-immutability-example.png"
+  alt="Immutability Example" />
 </p>
 
 <div align="right">
@@ -4821,10 +4795,9 @@ One other less technical and malicious example would be from the Ethereum hard f
 
 <h3>Transparency Defined</h3>
 Anything that is see-through, where there is very little fog or obstruction in the way. Just like immutability, transparency comes on a spectrum. Certain things are more transparent than others. In the context of business/technology, this can be seen as a way of operating that is easy for others to see what actions are being performed.
- 
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------------- Transparency of a Blockchain --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- transparency of a blockchain --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="25%" 
    src="./images/image-transparency.png"
@@ -4835,14 +4808,13 @@ For example, open source projects where all the source code is available for the
 
 <h3>Traditional CRUD Explanation</h3>
 Before we jump into how blockchain technology can be seen as transparent in certain aspects, let’s review the traditional CRUD method used by most databases.
- 
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------ Update a Database: CRUD ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------ update a database: crud ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="40%" 
-   src="./images/image-crud.png"
-   alt="Update a Database: CRUD" />
+  src="./images/image-crud.png"
+  alt="Update a Database: CRUD" />
 </p>
 
 In a traditional database, a client can perform four functions on data: create, read, update, delete. In a traditional database, there is usually an administrator, the authority giver who allows certain known participants in the database to do more than read/create; it allows them to update (change) and/or delete.
@@ -4867,28 +4839,26 @@ As explained in the "Blockchains vs. Traditional Databases" article by Shaan Ray
   
 <h3>Autonomy Defined</h3>
 Independence or freedom, the ability to make your own decisions without being controlled by anyone else. This sense of freedom can be at the macro level of a country or at the micro level of a person.
- 
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------ Autonomy in Blockchain ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------ autonomy in blockchain ------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="40%" 
-   src="./images/image-autonomy.png"
-   alt="Autonomy in Blockchain" />
+  src="./images/image-autonomy.png"
+  alt="Autonomy in Blockchain." />
 </p>
 
 As children and adults, we all want a little autonomy in our lives, careers, or relationships, but it’s just a matter of how much autonomy one truly wants and can handle.
 
 <h3>Autonomy: Human Process-Driven Complexity</h3>
 The blockchain world is looking to solve all of this complexity with autonomy from intermediaries via automated smart contracts. In the traditional world of doing any kind of transaction with another party, there tends to be a lot of administrative paperwork, with third parties intervening every step of the way. Some of this is needed, but most of it becomes wasted time and effort which could be spent elsewhere.
- 
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ Red X ----------------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------ red x ----------------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="20%" 
-   src="./images/image-ex.png"
-   alt="Red X" />
+  src="./images/image-ex.png"
+  alt="Red X." />
 </p>
 
 Depending on how complex a transaction is between two parties, designated specialists can make the process more efficient. Many players are involved in the process, from contract drafters, signatories, and regulators. If a dispute over the contract occurs, many parties can be involved, including the courts.
@@ -4954,14 +4924,13 @@ In our current world of transactions, there’s always a third party to assist w
 This has always been the most efficient way to move something from Point A to Point B. But with a third party making the connection comes the need to trust that they’ll get whatever is being sent in an efficient, economical, and effective way. This trust is open to human and process error. 
 
 But we’ve discovered through experimentation that certain use cases could be automated via smart contracts.
- 
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------ Cross Border Payment  ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------ cross border payment  ------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="65%"
    src="./images/image-cross-border-payment.png"
-   alt="Cross Border Payments and Ledgers" />
+   alt="Cross Border Payments and Ledgers." />
 </p>
 
 One example is cross-border payments. 
@@ -4998,39 +4967,36 @@ Trust is built into the consensus mechanism that we’ve mentioned multiple time
 This incentivizes all the participants to help secure and validate good actions throughout the network. 
 
 With that built-in "trustless" trust, we’re able to remove those middlemen that provide no additional value, plus it could potentially increase the efficiency based on which public blockchain is being used.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------ Cross Border Payments  ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------ cross border payments  ------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="65%"
    src="./images/image-cross-border.png"
-   alt="Cross Border Payments and Ledgers" />
+   alt="Cross Border Payments and Ledgers." />
 </p>
 
 <h3>Cross Border Payments and Ledgers</h3>
 Traditional centralized ledger systems have weaknesses. Accuracy is dependent on intermediaries who can change details of the centralized ledger. Data derived from the ledger is siloed and misused.
- 
-<!------------------------------------------------------------------------------------------------>
-<!--------------------- Multi-Party Transactions - Centralized Ledgers (153) --------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------- multi-party transactions - centralized ledgers (153) --------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="65%" 
    src="./images/image-multi-party-trans-centralized-ledger.png"
-   alt="Multi-Party Transactions - Centralized Ledgers" />
+   alt="Multi-Party Transactions - Centralized Ledgers." />
 </p>
 
 Distributed decentralized ledgers are not dependent on intermediaries who can manipulate the data. 
 
 Data is secure and tamper resistant.
- 
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- Multi-Party Transactions - Decentralized Ledgers (154) -------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------- multi-party transactions - decentralized ledgers (154) -------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="60%" 
    src="./images/image-multi-party-trans-decentralized-ledger.png"
-   alt="Multi-Party Transactions - Decentralized Ledgers" />
+   alt="Multi-Party Transactions - Decentralized Ledgers." />
 </p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -5068,14 +5034,13 @@ It is this possibility of building tools and solutions that were never before th
 
 <h3>Blockchain Solves The Double Spend Problem</h3>
 Back in the early 1990’s, developers, cryptographers, and different groups of people were trying to solve the double-spend problem as it related to digital cash, previously known also as electronic cash. Double spending within Bitcoin is the act of using the same bitcoins (digital money files) more than once.
- 
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------------------- Double Spend ------------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------------- double spend ------------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="60%"
-   src="./images/image-double-spend.png"
-   alt="Double Spend" />
+  src="./images/image-double-spend.png"
+  alt="Double Spend." />
 </p>
 
 If I buy an apple for $1, I cannot spend that same $1 to buy an orange. 
@@ -5100,14 +5065,13 @@ Then, in 1992, he founded DigiCash, an electronic cash company, which eventually
 Today, David is a leading pioneer of blockchain companies such as [Elixxir](https://xx.network/archive/cmix/) and [Praxxis](https://xx.network/blockchain/) to provide scalable digital sovereignty.
 
 There were many other attempts to create digital cash over the years, but many failed due to a variety of reasons, such as:
- 
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------ Adoption Security Fraud ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------ adoption security fraud ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="50%" 
-   src="./images/image-adoption-security-fraud.png"
-   alt="Adoption Security Fraud" />
+  src="./images/image-adoption-security-fraud.png"
+  alt="Adoption Security Fraud" />
 </p>
 
 Other attempts include:
@@ -5119,10 +5083,9 @@ Other attempts include:
 
 <h3 id="ch5-3">5.3 Digital Currencies Overview</h3>
 Digital currencies are available only in the digital world and not in the physical world. They can be defined as any currency, money, or money-like asset that is primarily managed, stored or exchanged on computer systems. Examples of digital currencies include cryptocurrency, virtual currency and central bank digital currency.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------- Digital Currency ----------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------- digital currency ----------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="50%"
    src="./images/image-digital-currency.png"
@@ -5139,10 +5102,9 @@ To break down the crypto markets, let's start with some basic definitions.
 
 <h3>Crypto Wallet</h3>
 A cryptocurrency wallet is an application on your computer or smart phone that connects you to a blockchain where you can trade cryptocurrencies. A Bitcoin wallet allows you to trade Bitcoin, an Ethereum wallet accommodates Ether. You can not send Bitcoin to the Ethereum blockchain, each cryptocurrency must transact on its own blockchain.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------------- Smart Phone ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------- smart phone ---------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="40%" 
    src="./images/image-phone.png"
