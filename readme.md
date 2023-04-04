@@ -11,7 +11,7 @@ lfs170x: "Linux Foundation - Blockchain: Understanding Its Use Cases and Implica
 <p align="center" width="100%">
 <img src="/images/image001.jpg?raw=true"
    alt="Linux logo"
-   width="150px" />
+   width="350px" />
 </p>
 &nbsp;
 <!-- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/).  --->
