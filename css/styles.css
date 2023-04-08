@@ -1,29 +1,156 @@
 <style>
-<!------ font-size: 20px; ------->
-<!--  font-family: Arial, Helvetica, sans-serif;  --->
+background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
 body {
-  font-family: Bahnschrift, Helvetica, sans-serif;
-  font-size: 15px;
-  margin: 10px;
+  font-family: Bahnschrift, Inter, Arial, Helvetica, sans-serif;
+  font-size: 13.5px;
 }
-<!----- bottom: 10px, right: 15px, font-size: 18px; ------>
+	
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 15px;
+  right: 23px;
   z-index: 99;
-  font-size: 13px;
+  font-size: 14px;
   border: none;
   outline: none;
   background-color: red;
   color: white;
   cursor: pointer;
-  padding: 8px;
-  border-radius: 2px;
+  padding: 11px;
+  border-radius: 3px;
 }
 
 #myBtn:hover {
   background-color: #555;
 }
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- drop down menu ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+.dropbtn {
+  background-color: #04006D;
+  color: white;
+  padding: 11px;
+  font-size: 12px;  /* was 14 */
+  left: 15px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-size: 12px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 12px;  /* 12px 16px */
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ccc;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #398e41;}
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- style: body & p ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+body {
+  font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, sans-serif;
+}
+p {
+  margin: 15px;
+}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- style: ordered & unordered list item styles -------------------------->
+<!------------------------------------------------------------------------------------------------>
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: square;}
+
+ol.c {list-style-type: decimal;}
+ol.d {list-style-type: decimal-leading-zero;}
+ol.e {list-style-type: lower-roman;}
+ol.f {list-style-type: lower-alpha;}
+ol.g {list-style-type: lower-latin;}
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- style: h1 thru h6 & img ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+h1 {
+  font-family: normal 2.0em Bahnschrift, Verdana, Helvetica, sans-serif, helvetica;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #acaf2c;		<!--- olive ---->
+  background: inherit;
+  text-align: center;
+}
+ h2 {
+  font: normal 1.8em BBahnschrift, Verdana, Helvetica, sans-serif, tahoma;
+  font-size: 22px;
+  letter-spacing: 3px;
+  color: #3800aa;   <!--- dark purple --->
+  background: inherit;
+  text-align: left;
+  margin-left; 5px;
+}
+ h3 {
+  font: normal 1.6em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+  font-size: 20px;
+<!---  color: #3899ff; light blue --->
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+  margin-left: 5px;
+}
+ h4 {
+  font-size: 18px;
+  font: normal 1.4em Bahnschrift, Verdana, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  color: #900001 ;    <!-- red ---->
+  background: inherit;
+  text-align: left;
+  margin-left: 5px;
+}
+ h5 {
+  font-size: 16px;
+  font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+  margin-left: 5px;
+}
+ h6 {
+  font-size: 14px;
+  font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+  margin-left: 5px;
+}
+
+img.displayed {
+  display: block;
+  margin: 0 auto; }
+
+.border {
+  border-width: 1px;
+  border-color: #778899;
+  border-style: solid; }
+
 </style>
