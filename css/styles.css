@@ -93,7 +93,7 @@ h1 {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #acaf2c;		/* olive */
+  color: #acaf2c;  /* olive */
   background: inherit;
   text-align: center;
 }
@@ -101,7 +101,7 @@ h1 {
   font: normal 1.8em BBahnschrift, Verdana, Helvetica, sans-serif, tahoma;
   font-size: 22px;
   letter-spacing: 3px;
-  color: #3800aa;   		/* dark purple */
+  color: #3800aa;  /* dark purple */
   background: inherit;
   text-align: left;
   margin-left; 5px;
@@ -110,7 +110,7 @@ h1 {
   font: normal 1.6em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
   letter-spacing: 3px;
   font-size: 20px;
-  color: #326908;    		/* green */
+  color: #326908;  /* green */
   background: inherit;
   text-align: left;
   margin-left: 5px;
@@ -119,7 +119,7 @@ h1 {
   font-size: 18px;
   font: normal 1.4em Bahnschrift, Verdana, Helvetica, sans-serif;
   letter-spacing: 3px;
-  color: #900001 ;    		/* red */
+  color: #900001 ;  /* red */
   background: inherit;
   text-align: left;
   margin-left: 5px;
@@ -128,7 +128,7 @@ h1 {
   font-size: 16px;
   font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
   letter-spacing: 3px;
-  color: #326908;    		/* green */
+  color: #326908;  /* green */
   background: inherit;
   text-align: left;
   margin-left: 5px;
@@ -137,7 +137,7 @@ h1 {
   font-size: 14px;
   font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
   letter-spacing: 3px;
-  color: #326908;    <!-- green ---->
+  color: #326908;  /* green */
   background: inherit;
   text-align: left;
   margin-left: 5px;
