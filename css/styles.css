@@ -32,6 +32,7 @@ body {
   background-color: #04006D;
   color: white;
   padding: 11px;
+  border-radius: 3px;  /* blank */
   font-size: 12px;  /* was 14 */
   left: 15px;
   border: none;
