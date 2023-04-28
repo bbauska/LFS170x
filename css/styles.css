@@ -1,8 +1,9 @@
 <style>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ lfs170x goto top button ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+body {
+  font-family: Bahnschrift, Inter, Arial, Helvetica, sans-serif;
+  font-size: 13.5px;
+}
 	
 #myBtn {
   display: none;
@@ -10,7 +11,7 @@ background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #
   bottom: 15px;
   right: 23px;
   z-index: 99;
-  font-size: 12px;
+  font-size: 14px;
   border: none;
   outline: none;
   background-color: red;
@@ -23,9 +24,10 @@ background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #
 #myBtn:hover {
   background-color: #555;
 }
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ drop down menu ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- drop down menu ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 .dropbtn {
   background-color: #04006D;
   color: white;
@@ -63,12 +65,13 @@ background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #398e41;}
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ style: body & p ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- style: body & p ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 body {
-  font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, Helvetica, sans-serif;
-  font-size: 13.5px;  /* 1.2rem */
+  font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, sans-serif;
+  font-size: 1.2rem;
   background-color: #EEEEEE;
   color: #000000;
   text-align: left;
@@ -79,9 +82,9 @@ p {
   font-size: 15px;
   text-align: left; 
 }
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ style: ordered & unordered list item styles ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- style: ordered & unordered list item styles -------------------------->
+<!------------------------------------------------------------------------------------------------>
 ul.a {list-style-type: circle;}
 ul.b {list-style-type: square;}
 
@@ -90,9 +93,9 @@ ol.d {list-style-type: decimal-leading-zero;}
 ol.e {list-style-type: lower-roman;}
 ol.f {list-style-type: lower-alpha;}
 ol.g {list-style-type: lower-latin;}
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ style: h1 thru h6 & img ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- style: h1 thru h6 & img ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 h1 {
   font-family: normal 2.0em Bahnschrift, Verdana, Helvetica, sans-serif, helvetica;
   font-size: 24px;
@@ -121,27 +124,27 @@ h1 {
   margin-left: 5px;
 }
  h4 {
+  font-size: 18px;
   font: normal 1.4em Bahnschrift, Verdana, Helvetica, sans-serif;
   letter-spacing: 3px;
-  font-size: 18px;
   color: #900001 ;  /* red */
   background: inherit;
   text-align: left;
   margin-left: 5px;
 }
  h5 {
+  font-size: 16px;
   font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
   letter-spacing: 3px;
-  font-size: 16px;
   color: #326908;  /* green */
   background: inherit;
   text-align: left;
   margin-left: 5px;
 }
  h6 {
+  font-size: 14px;
   font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
   letter-spacing: 3px;
-  font-size: 14px;
   color: #326908;  /* green */
   background: inherit;
   text-align: left;
