@@ -1,4 +1,7 @@
 <style>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ styles.css of lfs170x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
 body {
   font-family: Bahnschrift, Inter, Arial, Helvetica, sans-serif;
@@ -22,14 +25,13 @@ body {
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #555;  /* very dark gray */
 }
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------------------- drop down menu ----------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ drop down menu ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 .dropbtn {
-  background-color: #04006D;
+  background-color: #04006D;  /* very dark blue */
   color: white;
   padding: 11px;
   border-radius: 3px;  /* blank */
@@ -46,7 +48,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #f1f1f1;  /* very light gray */
   min-width: 20em;  /* 160px */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   font-size: 12px;
@@ -60,21 +62,21 @@ body {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ccc;}
+.dropdown-content a:hover {background-color: #ccc;}  /* light gray */
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #398e41;}
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------------------- style: body & p ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+.dropdown:hover .dropbtn {background-color: #398e41;}  /* Dark moderate cyan - lime green */
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ style: body & p ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 body {
   font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, sans-serif;
   font-size: 1.2rem;
-  background-color: #EEEEEE;
-  color: #000000;
+  background-color: #EEEEEE;  /* very light gray */
+  color: #000000;  /* black */
   text-align: left;
+  margin-left: 15px;
   padding: 10px;
 }
 p {
@@ -82,9 +84,9 @@ p {
   font-size: 15px;
   text-align: left; 
 }
-<!------------------------------------------------------------------------------------------------>
-<!------------------------- style: ordered & unordered list item styles -------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ style: ordered & unordered list item styles ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ul.a {list-style-type: circle;}
 ul.b {list-style-type: square;}
 
@@ -93,15 +95,15 @@ ol.d {list-style-type: decimal-leading-zero;}
 ol.e {list-style-type: lower-roman;}
 ol.f {list-style-type: lower-alpha;}
 ol.g {list-style-type: lower-latin;}
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------------- style: h1 thru h6 & img ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ style: h1 thru h6 & img ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 h1 {
   font-family: normal 2.0em Bahnschrift, Verdana, Helvetica, sans-serif, helvetica;
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #acaf2c;  /* olive */
+  color: #acaf2c;  /* olive tone */
   background: inherit;
   text-align: center;
 }
@@ -112,7 +114,7 @@ h1 {
   color: #3800aa;  /* dark purple */
   background: inherit;
   text-align: left;
-  margin-left; 5px;
+  margin-left; 15px;
 }
  h3 {
   font: normal 1.6em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
@@ -121,16 +123,16 @@ h1 {
   color: #326908;  /* green */
   background: inherit;
   text-align: left;
-  margin-left: 5px;
+  margin-left: 15px;
 }
  h4 {
   font-size: 18px;
   font: normal 1.4em Bahnschrift, Verdana, Helvetica, sans-serif;
   letter-spacing: 3px;
-  color: #900001 ;  /* red */
+  color: #900001 ;  /* dark red */
   background: inherit;
   text-align: left;
-  margin-left: 5px;
+  margin-left: 15px;
 }
  h5 {
   font-size: 16px;
@@ -139,13 +141,13 @@ h1 {
   color: #326908;  /* green */
   background: inherit;
   text-align: left;
-  margin-left: 5px;
+  margin-left: 15px;
 }
  h6 {
   font-size: 14px;
   font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
   letter-spacing: 3px;
-  color: #326908;  /* green */
+  color: #326908;  /* very dark green */
   background: inherit;
   text-align: left;
   margin-left: 5px;
@@ -157,7 +159,7 @@ img.displayed {
 
 .border {
   border-width: 1px;
-  border-color: #778899;
+  border-color: #778899;  /* dark grayish blue */
   border-style: solid; }
 
 </style>
