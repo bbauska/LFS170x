@@ -100,16 +100,17 @@ ol.g {list-style-type: lower-latin;}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 h1 {
   font-family: normal 2.0em Bahnschrift, Verdana, Helvetica, sans-serif, helvetica;
-  font-size: 24px;
+  font-size: 22px;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #acaf2c;  /* olive tone */
+  letter-spacing: 2px;
+  color: #000000;  /* black */
   background: inherit;
-  text-align: center;
+  text-align: left;
+  margin-left: 15px;
 }
  h2 {
   font: normal 1.8em BBahnschrift, Verdana, Helvetica, sans-serif, tahoma;
-  font-size: 22px;
+  font-size: 21px;
   letter-spacing: 3px;
   color: #3800aa;  /* dark purple */
   background: inherit;
@@ -120,7 +121,7 @@ h1 {
   font: normal 1.6em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
   letter-spacing: 3px;
   font-size: 20px;
-  color: #326908;  /* green */
+  color: #326908;  /* very dark green */
   background: inherit;
   text-align: left;
   margin-left: 15px;
@@ -138,7 +139,7 @@ h1 {
   font-size: 16px;
   font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
   letter-spacing: 3px;
-  color: #326908;  /* green */
+  color: #326908;  /* very dark green */
   background: inherit;
   text-align: left;
   margin-left: 15px;
@@ -150,7 +151,7 @@ h1 {
   color: #326908;  /* very dark green */
   background: inherit;
   text-align: left;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 img.displayed {
