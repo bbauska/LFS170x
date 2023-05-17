@@ -14,14 +14,14 @@ body {
   bottom: 15px;
   right: 23px;
   z-index: 99;
-  font-size: 14px;
+  font-size: 12px;
   border: none;
   outline: none;
   background-color: red;
   color: white;
   cursor: pointer;
-  padding: 11px;
-  border-radius: 3px;
+  padding: 7px;
+  border-radius: 2px;
 }
 
 #myBtn:hover {
@@ -33,11 +33,11 @@ body {
 .dropbtn {
   background-color: #04006D;  /* very dark blue */
   color: white;
-  padding: 11px;
+  padding: 7px;  /* 11 */
   border-radius: 3px;  /* blank */
   font-size: 12px;  /* was 14 */
   left: 15px;
-  border: none;
+  border-radius: 2px;  /*  border: none; */
 }
 
 .dropdown {
@@ -51,7 +51,7 @@ body {
   background-color: #f1f1f1;  /* very light gray */
   min-width: 20em;  /* 160px */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  font-size: 12px;
+  font-size: 11px;
   z-index: 1;
 }
 
