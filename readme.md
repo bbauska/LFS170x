@@ -5706,7 +5706,7 @@ To further explore this solution read the following article by Nicky Morris ["SA
 <!-------------------------------------  103. Pfizer logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image103.png?raw=true"
+<img src="/images/image102.png?raw=true"
    width="25%"
    alt="Pfizer logo" />
 </p>
@@ -5720,7 +5720,7 @@ Reduction of settlement times will improve the flow of money through fintech com
 <!-------------------------------- 104. Swiss Exchange logo (SIX) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image104.jpg?raw=true"
+<img src="/images/image103.jpg?raw=true"
    width="25%"
    alt="Swiss Exchange logo (SIX)" />
 </p>
