@@ -275,7 +275,7 @@ became part of our lives.</p>
   alt="Social networking logo."
   style="width:30%;" />
 
-<h5 align="center">Social Networking</h5>
+<h5 style="text-align: center;">Social Networking</h5>
 
 <h3>Real World Examples of File Sharing</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1779,7 +1779,7 @@ ciphertext into plain text.
   alt="The Secret and the Key are passed into the Function to create the Cipher"
   width="65%" />
 
-<p align="center">
+<p style="text-align: center;">
 The Secret and the Key are passed into the Function to create the
 Cipher.
 </p>
@@ -2337,20 +2337,20 @@ the link between that block and every subsequent block.</p>
 <p>If you haven’t watched the module in this course that covers the
 in-depth walkthrough of Proof of Work consensus, you might want to check
 it out now.</p>
-We actually show how cryptographic hashing is used to link together all
+<p>We actually show how cryptographic hashing is used to link together all
 blocks on the blockchain, creating a data store that is immutable,
-secure, and extremely trustworthy.
-</p>
+secure, and extremely trustworthy.</p>
 <p>Lab 1: Hashing Next, let’s engage with an interactive lab. This lab
 is an actual hands-on demonstration of taking data and creating a hash
 output. Enjoy!</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://blockchaintrainingalliance.com/pages/lab-hash">Start
 Lab</a></p>
-<h3>
-Merkle Tree
-</h3>
-A special type of data storage structure based on hash functions is
-called a Merkle tree:
+
+<h3>Merkle Tree</h3>
+
+<p>A special type of data storage structure based on hash functions is
+called a Merkle tree:</p>
+
 <ul>
 <li>
 It is structured as a binary tree; the leaves contain the values to be
@@ -2376,10 +2376,9 @@ root’s other child).
 <img class="displayed"
   src="./images/image-merkle-tree.png?raw=true"
   alt="Merkle Tree"
-  width="100%" />
+  style="width:100%" />
 
-
-<p align="center">
+<p style="text-align: center;">
 Merkle trees are a data structure that allows authenticated storage with
 efficient data retrieval.
 </p>
@@ -2414,9 +2413,8 @@ hash values to Bob.</p>
 information.</p>
 <p>And if the root matches the block, the transaction can be assumed to
 be valid.</p>
-Merkle trees allow for validation of a specific transaction without
-requiring the entire set of data.
-</p>
+<p>Merkle trees allow for validation of a specific transaction without
+requiring the entire set of data.</p>
 
 <h3>Ethereum vs. Hyperledger Fabric</h3>
 
@@ -2456,7 +2454,7 @@ store the current state of their virtual machine.</p>
 <img class="displayed"
   src="./images/image-disintermediation.png?raw=true"
   alt="Disintermediation"
-  width="100%" />
+  style="width:100%" />
 
 <h3>Disintermediation - Trust Through Transparency</h3>
 
@@ -2555,7 +2553,7 @@ various criteria.
 <img class="displayed"
   src="./images/image-crud.png?raw=true"
   alt="CRUD"
-  width="40%" />
+  style="width:40%" />
 
 <p>Traditional databases use the CRUD method which has <b>four</b> main operations:</p>
 
@@ -2574,24 +2572,17 @@ Delete - remove the value from the database.
 </li>
 </ul>
 </p>
-<h3>
-Transparency of Traditional Databases
-</h3>
-Traditional databases do not retain historical information:
+<h3>Transparency of Traditional Databases</h3>
+
+<p>Traditional databases do not retain historical information:</p>
+
 <ul>
-<li>
-Only the most recent versions of each value are visible.
-</li>
-<li>
-Deleted values are not visible in the database.
-</li>
-<li>
-This limits the transparency of data contained in the database.
-</li>
-<li>
-Values can be modified or deleted after creation.
-</li>
+  <li>Only the most recent versions of each value are visible.</li>
+  <li>Deleted values are not visible in the database.</li>
+  <li>This limits the transparency of data contained in the database.</li>
+  <li>Values can be modified or deleted after creation.</li>
 </ul>
+
 <p>The CRUD update model of databases allows data to be changed or
 removed from the database. This means that the visible data in a
 database is not an accurate historical record of the database. The
@@ -2600,20 +2591,18 @@ is only the most recent version of that value and could have had
 different values in the past. The delete operation means that values can
 be removed from the database. This limits the transparency of data in
 the database since values can be modified or deleted after creation.</p>
-<h3>
-Blockchain Updates
-</h3>
-The blockchain is designed to be a data structure that only allows
-appending:
+
+<h3>Blockchain Updates</h3>
+
+<p>The blockchain is designed to be a data structure that only allows
+appending:</p>
+
 <ul list-style-type: disc>
-<li>
-The past history of the blockchain is visible and immutable.
-</li>
-<li>
-Updates to the blockchain can be performed by including them in new
-blocks added to the blockchain.
-</li>
+  <li>The past history of the blockchain is visible and immutable.</li>
+  <li>Updates to the blockchain can be performed by including them in new
+    blocks added to the blockchain.</li>
 </ul>
+
 <p>The blockchain is designed as a data structure where each block in
 the chain locks in the value of the previous block and so on, back to
 the first or genesis block.</p>
@@ -2624,16 +2613,16 @@ in a distributed and decentralized fashion.</p>
 <p>Values in the blockchain can be “updated” by appending a new version
 of that value in a later block, but the complete history of the value is
 preserved.</p>
-<h3>
-Transparency of a Blockchain
-</h3>
+
+<h3>Transparency of a Blockchain</h3>
+
 <p>The blockchain is designed so that its entire history is visible and
 unchangeable.</p>
 <p>Transactions in the blockchain cannot be modified after creation, and
 their complete history is publicly visible.</p>
-This means that the blockchain is a completely transparent data
+<p>This means that the blockchain is a completely transparent data
 structure with the useful property that the integrity of the blockchain
-is easily verifiable by any user.
+is easily verifiable by any user.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ transparency of a blockchain (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2652,9 +2641,8 @@ data in an efficient manner, with only the most relevant versions of
 each value retained in storage.</p>
 <p>The blockchain is publicly visible and immutable, meaning that it has
 very high transparency.</p>
-Its append-only structure and decentralized storage sacrifice storage
-efficiency for trustworthiness of the stored data.
-</p>
+<p>Its append-only structure and decentralized storage sacrifice storage
+efficiency for trustworthiness of the stored data.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ transparency database vs. blockchain ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2741,7 +2729,7 @@ price for it.</p>
 of blockchain and one of the areas being most explored, because right
 now there are a lot of consumers who would simply like more visibility
 into the products and services they purchase.</p>
-And blockchain, both public and private, can be a great solution for
+<p>And blockchain, both public and private, can be a great solution for
 doing that.</p>
 
 <h3>Immutability in the Blockchain</h3>
@@ -2840,9 +2828,10 @@ Immutability in the Blockchain Is Essential
 <p>The blockchain needs to be immutable.</p>
 <p>If someone can change the blockchain after the fact, then it is no
 longer a trusted historical ledger.</p>
-The blockchain is designed so that immutability is cumulative; each
+<p>The blockchain is designed so that immutability is cumulative; each
 piece is linked to every other piece, creating a cohesive whole that is
-more difficult for an attacker to modify.
+more difficult for an attacker to modify.</p>
+
 <ul>
 <li>
 At the bottom level, transactions are digitally signed by their
@@ -2889,11 +2878,11 @@ by the creator.</p>
 <p>The creator of a block is either publicly known (Proof of Stake) or
 difficult to become (Proof of Work), making masquerading as the real
 creator difficult or impossible.</p>
-Now, let’s take a moment to discuss how each of the features mentioned
-contribute to the immutability of the blockchain.
-</p>
-At the bottom level, each transaction is digitally signed. This means
-two things about transactions:
+<p>Now, let’s take a moment to discuss how each of the features mentioned
+contribute to the immutability of the blockchain.</p>
+<p>At the bottom level, each transaction is digitally signed. This means
+two things about transactions:</p>
+
 <ul>
 <li>
 Existing transactions can’t be changed after the fact, because the
@@ -2943,14 +2932,15 @@ transactions.</p>
 by the notary service.</p>
 <p>Transactions signed by a notary are finalized and cannot be modified
 after the fact.</p>
-<h3>
-Hashing and Chaining
-</h3>
+
+<h3>Hashing and Chaining</h3>
+
 <p>It is important to understand the value of locking in the previous
 block by including its hash in the next block.</p>
-As explained in the article <a target="_blank" rel="noopener noreferrer" 
+<p>As explained in the article <a target="_blank" rel="noopener noreferrer" 
 href="https://bitsonblocks.net/2016/02/29/a-gentle-introduction-to-immutability-of-blockchains/">“A
-Gentle Introduction to Immutability of Blockchains”</a> by Antony Lewis,
+Gentle Introduction to Immutability of Blockchains”</a> by Antony Lewis,</p>
+
 <ul>
 <li>
 Creating a ledger of transactions with blocks that refer to previous
@@ -3105,26 +3095,16 @@ Lab</a></p>
 <p>In this chapter, we discussed:</p>
 
 <ul>
-<li>
-Distributed ledger technology (DLT) and how it differs from previous
-ledger storage techniques.
-</li>
-<li>
-Cryptography and how it is used in several different ways in blockchain.
-</li>
-<li>
-Hashing functions, zero-knowledge proofs (ZKPs) and Merkle tree data
-structures and how they are used to secure the blockchain.
-</li>
-<li>
-Public-key cryptography and public/private key pairs to support privacy,
-authenticity and security.
-</li>
-<li>
-Ledger immutability and transparency result from combining these
-technologies for an agreed-upon, append-only distributed ledger system
-chained together by blocks.
-</li>
+  <li>Distributed ledger technology (DLT) and how it differs from previous
+    ledger storage techniques.</li>
+  <li>Cryptography and how it is used in several different ways in blockchain.</li>
+  <li>Hashing functions, zero-knowledge proofs (ZKPs) and Merkle tree data
+    structures and how they are used to secure the blockchain.</li>
+  <li>Public-key cryptography and public/private key pairs to support privacy,
+    authenticity and security.</li>
+  <li>Ledger immutability and transparency result from combining these
+    technologies for an agreed-upon, append-only distributed ledger system
+	chained together by blocks.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Chapter 3: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1 id="ch3">Chapter 3. Blockchain Functions</h1>
@@ -3134,69 +3114,39 @@ chained together by blocks.
 <p>In this chapter, we will examine some blockchain functions.</p>
 
 <ul>
-<li>
-First, we will discuss smart contracts, how blockchains have the ability
-to store and run computer code (applications) that can execute the terms
-of an agreement. These digital promises stored and executed on the
-blockchains remove intermediaries and ambiguity thereby reducing
-conflict.
-</li>
-<li>
-We will discuss how blockchains secure their information and how these
-techniques differ from traditional database security.
-</li>
-<li>
-Next, we will discuss different types of blockchains (public, private
-and hybrid models) and design considerations that need to be made before
-blockchains can be developed.
-</li>
-<li>
-We will examine the steps in a basic blockchain transaction from start
-to finish.
-</li>
-<li>
-Finally, we will discuss blockchain consensus models and why they are
-the backbone to the blockchain operations.
-</li>
-<li>
-We will compare Proof of Stake and Proof of Work models and be able to
-discuss the differences and environmental considerations.
-</li>
-<li>
-Also, we will discuss private blockchain structures and how
-permissioning mechanisms are the basis for their ConsenSys models.
-</li>
+  <li>First, we will discuss smart contracts, how blockchains have the ability
+    to store and run computer code (applications) that can execute the terms
+	of an agreement. These digital promises stored and executed on the
+	blockchains remove intermediaries and ambiguity thereby reducing conflict.</li>
+  <li>We will discuss how blockchains secure their information and how these
+    techniques differ from traditional database security.</li>
+  <li>Next, we will discuss different types of blockchains (public, private
+    and hybrid models) and design considerations that need to be made before
+	blockchains can be developed.</li>
+  <li>We will examine the steps in a basic blockchain transaction from start
+    to finish.</li>
+  <li>Finally, we will discuss blockchain consensus models and why they are
+    the backbone to the blockchain operations.</li>
+  <li>We will compare Proof of Stake and Proof of Work models and be able to
+    discuss the differences and environmental considerations.</li>
+  <li>Also, we will discuss private blockchain structures and how
+    permissioning mechanisms are the basis for their ConsenSys models.</li>
 </ul>
-<h3>
-Learning Objectives
-</h3>
-By the end of this chapter, you should be able to:
+
+<h3>Learning Objectives</h3>
+
+<p>By the end of this chapter (3.2), you should be able to:</p>
+
 <ul>
-<li>
-Explain what smart contracts are and how they work.
-</li>
-<li>
-Discuss the benefits of using smart contracts.
-</li>
-<li>
-Compare blockchain security vs. standard security.
-</li>
-<li>
-Indicate the differences between private and public blockchains.
-</li>
-<li>
-Understand when to use a public vs. a private blockchain.
-</li>
-<li>
-Analyze the flow of a transaction in blockchain.
-</li>
-<li>
-Discuss consensus mechanism used in blockchain.
-</li>
-<li>
-Explore different methods of achieving consensus (Proof of Work, Proof
-of Stake, etc.).
-</li>
+  <li>Explain what smart contracts are and how they work.</li>
+  <li>Discuss the benefits of using smart contracts.</li>
+  <li>Compare blockchain security vs. standard security.</li>
+  <li>Indicate the differences between private and public blockchains.</li>
+  <li>Understand when to use a public vs. a private blockchain.</li>
+  <li>Analyze the flow of a transaction in blockchain.</li>
+  <li>Discuss consensus mechanism used in blockchain.</li>
+  <li>Explore different methods of achieving consensus (Proof of Work, Proof
+    of Stake, etc.).</li>
 </ul>
 
 <h3 id="ch3-2">3.2 What Are Smart Contracts?</h3>
@@ -3474,41 +3424,32 @@ world.</p>
 solution comes from the protocol and the code layer itself, because it’s
 a much more massively distributed network, and we don’t have direct
 control or access into the hardware that supports it.</p>
-There are a lot of differences between conventional cybersecurity and
+<p>There are a lot of differences between conventional cybersecurity and
 security in the blockchain space that you’re going to want to understand
-before you deploy your own blockchain solutions.
-</p>
-<h3>
-Blockchain Security Environment
-</h3>
+before you deploy your own blockchain solutions.</p>
+
+<h3>Blockchain Security Environment</h3>
+
 <p>One of the primary differences between cybersecurity in a traditional
 computing environment and on the blockchain is the environment itself
 and what it is and isn’t designed to do.</p>
-<h3>
-Standard Cyber Security
-</h3>
+
+<h3>Standard Cyber Security</h3>
+
 <ul>
-<li>
-The traditional computing environment is a company network fully or, at
-least mostly, under the control of the company’s computer security
-staff.
-</li>
-<li>
-While many organizations are making the shift to cloud-based
-environments, they still have a high degree of control over the security
-and configuration of their rented systems.
-</li>
-<li>
-Traditional networks are highly centralized, and the focus of
-cybersecurity on these systems is primarily perimeter-focused. All
-systems and authorized users on the network are trusted or semi-trusted,
-so the focus is on preventing attackers from entering from outside the
-network.
-</li>
+  <li>The traditional computing environment is a company network fully or, at
+    least mostly, under the control of the company’s computer security staff.</li>
+  <li>While many organizations are making the shift to cloud-based environments, 
+    they still have a high degree of control over the security and configuration 
+	of their rented systems.</li>
+  <li>Traditional networks are highly centralized, and the focus of
+    cybersecurity on these systems is primarily perimeter-focused. All
+	systems and authorized users on the network are trusted or semi-trusted,
+	so the focus is on preventing attackers from entering from outside the network.</li>
 </ul>
-<h3>
-Blockchain Cyber Security
-</h3>
+
+<h3>Blockchain Cyber Security</h3>
+
 <ul>
 <li>
 Blockchains are designed to be decentralized, distributed systems
@@ -3542,81 +3483,69 @@ impossible for a system to serve its users as designed.</p>
 <p>This can be accomplished by exploiting a flaw in the system, but,
 more commonly, is accomplished by performing legitimate actions at a
 rate higher than the target can handle.</p>
-To be effective, denial-of-service attacks typically focus on a system’s
-weakest link or bottleneck.
+<p>To be effective, denial-of-service attacks typically focus on a system’s
+weakest link or bottleneck.</p>
+
 <ul>
-<li>
-In traditional environments, denial-of-service attacks target a
-company’s web server to prevent customers from accessing the company’s
-services. This can be accomplished by making more connection requests
-than the server is capable of supporting.
-</li>
-<li>
-In blockchain, a denial-of-service attack involves submitting more
-transactions to the blockchain than it can handle. Since many
-blockchains have fixed-size blocks created at a fixed rate and are
-stored in a distributed fashion, they have a maximum capacity that a
-determined attacker can exceed, rendering the blockchain unusable.
-</li>
+  <li>In traditional environments, denial-of-service attacks target a
+    company’s web server to prevent customers from accessing the company’s
+	services. This can be accomplished by making more connection requests
+	than the server is capable of supporting.</li>
+  <li>In blockchain, a denial-of-service attack involves submitting more
+    transactions to the blockchain than it can handle. Since many 
+	blockchains have fixed-size blocks created at a fixed rate and are
+	stored in a distributed fashion, they have a maximum capacity that a
+	determined attacker can exceed, rendering the blockchain unusable.</li>
 </ul>
-<h3>
-Security Attacks: Endpoint Security
-</h3>
-Traditional infrastructure and blockchain environments also differ with
+
+<h3>Security Attacks: Endpoint Security</h3>
+
+<p>Traditional infrastructure and blockchain environments also differ with
 regard to endpoint security. Endpoint security originated to ensure
 multi-layer prevention against malware, fraud, cyber threats, and
-attempts to extract private information.
+attempts to extract private information.</p>
+
 <ul>
-<li>
-In traditional cyber, endpoints are under the control of the enterprise
-and have some level of heterogeneity. Heterogeneity can be dangerous
-because an attacker has more options for finding a vulnerability to
-exploit.
-</li>
-<li>
-In blockchain, endpoints are the nodes and may be completely
-homogeneous. While homogeneity means that a flaw in one system is a flaw
-in all of the systems, blockchains built in trust and data privacy
-feature guard against such attacks.
-</li>
+  <li>In traditional cyber, endpoints are under the control of the enterprise
+    and have some level of heterogeneity. Heterogeneity can be dangerous 
+	because an attacker has more options for finding a vulnerability to
+	exploit.</li>
+  <li>In blockchain, endpoints are the nodes and may be completely
+    homogeneous. While homogeneity means that a flaw in one system is a flaw
+	in all of the systems, blockchains built in trust and data privacy
+	feature guard against such attacks.</li>
 </ul>
-<h3>
-Security Attacks: Code Vulnerabilities
-</h3>
-Computer applications are dependent on reliable code. Another way that
+
+<h3>Security Attacks: Code Vulnerabilities</h3>
+
+<p>Computer applications are dependent on reliable code. Another way that
 traditional and blockchain cybersecurity differ is in the level of trust
-in the code used in a company’s applications.
+in the code used in a company’s applications.</p>
+
 <ul>
-<li>
-In traditional cyber, the company writes most of the code, and
-vulnerabilities can arise only from code that the company controls.
-</li>
-<li>
-In blockchain, anyone can write a smart contract, and a flaw in the
-smart contract or the underlying platform code can have wide-reaching
-consequences. But since smart contracts can be vetted and reused, such
-inconsistency can be edited from the code. We will discuss an example of
-a vulnerability in a platform’s code in a later section covering the
-Ethereum network.
-</li>
+  <li>In traditional cyber, the company writes most of the code, and
+    vulnerabilities can arise only from code that the company controls.</li>
+  <li>In blockchain, anyone can write a smart contract, and a flaw in the
+    smart contract or the underlying platform code can have wide-reaching
+	consequences. But since smart contracts can be vetted and reused, such
+	inconsistency can be edited from the code. We will discuss an example of
+	a vulnerability in a platform’s code in a later section covering the
+	Ethereum network.</li>
 </ul>
-<h3>
-Security Attacks: Intentional Misuse
-</h3>
-Both traditional and blockchain environments are vulnerable to attacks
-based on intentional misuse of the system.
+
+<h3>Security Attacks: Intentional Misuse</h3>
+
+<p>Both traditional and blockchain environments are vulnerable to attacks
+based on intentional misuse of the system.</p>
+
 <ul>
-<li>
-In traditional cyber, insider attacks or intentional misuse of the
-system by clients are possible. In fact, a denial-of-service attack is a
-specific type of intentional misuse.
-</li>
-<li>
-Blockchain systems are set up to incentivize network participants,
-miners or nodes, to do something that is in their best interest. A
-weakness is, if more than half of the network’s processing power is
-controlled by a single group, the network is controlled by that group.
-</li>
+  <li>In traditional cyber, insider attacks or intentional misuse of the
+    system by clients are possible. In fact, a denial-of-service attack is a
+	specific type of intentional misuse.</li>
+  <li>Blockchain systems are set up to incentivize network participants,
+    miners or nodes, to do something that is in their best interest. A
+	weakness is, if more than half of the network’s processing power is
+	controlled by a single group, the network is controlled by that group.</li>
 </ul>
 
 <h3>Security Attacks: Data Protection</h3>
@@ -3709,7 +3638,7 @@ the private permission blockchain.</p>
 <p>In the <a target="_blank" rel="noopener noreferrer" 
 href="https://medium.com/the-capital/public-vs-private-blockchain-in-a-nutshell-8799dd8b4ca6">"Public vs. Private Blockchain In a Nutshell"</a> article by Rokkex, public and private blockchains have different features. The benefits of public blockchain are:</p>
 
-https://www.blockchain-council.org/blockchain/public-vs-private-blockchain-a-comprehensive-comparison/
+<!-- <p>https://www.blockchain-council.org/blockchain/public-vs-private-blockchain-a-comprehensive-comparison/</p> -->
 
 <ul>
   <li>Ledger is distributed<br/> The database is not centralized like in a client-server approach, and all nodes in the blockchain participate in the transaction validation.</li>
@@ -3777,10 +3706,10 @@ them.</p>
 
 <h3>Private Blockchain Benefits</h3>
 
-The following benefits of a private blockchain have been described in
+<p>The following benefits of a private blockchain have been described in
 the <a target="_blank" rel="noopener noreferrer" 
 href="https://medium.com/coinmonks/public-vs-private-blockchain-in-a-nutshell-c9fe284fa39f">“Public
-vs. Private Blockchain In a Nutshell”</a> article by Demiro Massessi:
+vs. Private Blockchain In a Nutshell”</a> article by Demiro Massessi:</p>
 
 <ul>
   <li>Ledger is distributed/immutable The database is not centralized like in a client-server approach, and all nodes in the blockchain participate in the transaction validation. When something is written to the blockchain, it cannot be changed.</li>
@@ -3950,31 +3879,29 @@ probably got a bad recipe.</p>
 <p>So, when you’re thinking about blockchain, and how to add it to your
 personal and professional life, understand that it’s not a meal all by
 itself.</p>
-It’s just a little splash of hot sauce you put on something that already
-works pretty well.
-</p>
-<h3>
-Blockchain Considerations
-</h3>
+<p>It’s just a little splash of hot sauce you put on something that already
+works pretty well.</p>
+
+<h3>Blockchain Considerations</h3>
+
 <p>Companies must consider many factors when deciding how blockchain
 will fit into the business model.</p>
-There is not a “one size fits all” blockchain but rather a
-well-thought-out approach that considers many options.
+<p>There is not a “one size fits all” blockchain but rather a
+well-thought-out approach that considers many options.</p>
+
 <ul>
 <li>
 Governance<br/> Governance of blockchains deals with a system for
 managing and implementing changes to blockchains. Chapter 4,
 “Blockchains and Governance”, covers how blockchain is managed and how
-changes are implemented.
-</li>
+changes are implemented.</li>
 <li>
 Smart contract functionality<br/> Each organization has unique needs
 when deciding on smart contract functionality. Such decisions as to the
 design, implementation and testing of these digital promises need to be
 determined. Can smart contracts replace or accentuate current work
 flows? Can a previously written smart contact fit in the current
-business model?
-</li>
+business model?</li>
 <li>
 Consensus algorithms<br/> Consensus models change depending on the type
 of blockchain environment you are creating. In order for a blockchain to
@@ -3983,14 +3910,12 @@ in the ledger or the state of the ledger. This agreement is called
 consensus. Public blockchains have miners that are incentivized to reach
 consensus whereas private blockchain set up enterprise nodes that agree
 to the state of the ledger. We will discuss consensus models later in
-this chapter.
-</li>
+this chapter.</li>
 <li>
 Integration<br/> Consideration for current work flows and how to bridge
 blockchain platforms with existing systems are a vital conversation. How
 can blockchain add value to your current organization while leveraging
-your existing systems?
-</li>
+your existing systems?</li>
 <li>
 Cryptocurrency requirements<br/> As mentioned previously, a
 cryptocurrency is a medium of exchange digitally enabled by blockchain.
@@ -3998,13 +3923,11 @@ Cryptocurrencies secure and keep track of assets on a public blockchain.
 Enterprise blockchains generally do not use the cryptocurrency feature.
 Decisions on if and how your blockchain will exchange value among
 participants are important discussions that need to occur during the
-design phase.
-</li>
+design phase.</li>
 <li>
 Cost modeling<br/> New questions arise around consortium type
 blockchains, one consideration is how to split the technology cost among
-the participants in a fair and equitable manner.
-</li>
+the participants in a fair and equitable manner.</li>
 </ul>
 <br/>  Overall, blockchain decisions will be made by actors in the
 blockchain system:
@@ -4026,10 +3949,9 @@ Blockchain Users join a blockchain by setting up a wallet and/or
 receiving permission to engage in a particular function.
 </li>
 </ul>
-<h3 id="ch3-5">
-3.5 Blockchain Transaction Flow
-</h3>
-<p>
+
+<h3 id="ch3-5">3.5 Blockchain Transaction Flow</h3>
+
 <p>In this section, we’ll discuss the blockchain transaction flow.</p>
 <p>Regardless of the blockchain technology, the flow of data through a
 blockchain will remain relatively the same, at least at a high
@@ -4054,13 +3976,11 @@ update the ledger copies once consensus has been achieved.</p>
 <p>And this results in the block operators again executing code included
 in transactions within the block to update their own copy of the
 internal state of the blockchain.</p>
-The users will be notified of an event from a blockchain creation via an
-event.
-</p>
-<h3>
-Blockchain Transactions
-</h3>
-<p>
+<p>The users will be notified of an event from a blockchain creation via an
+event.</p>
+
+<h3>Blockchain Transactions</h3>
+
 <p>Although blockchains can differ in form and function, all follow a
 basic transaction flow.</p>
 <!------------------------------------------------------------------------------------------------>
@@ -4076,7 +3996,7 @@ basic Bitcoin transaction. If Alicia wants to send Billy some bitcoin,
 she would go to a Bitcoin wallet application either on her phone or
 computer where she has some Bitcoin stored. Wallet applications are
 usually free downloads that create a digital wallet to purchase and/or
-store your cryptocurrency. <br/> </p>
+store your cryptocurrency.<br/></p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- Bitcoin Wallet Application (101) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -4089,40 +4009,36 @@ store your cryptocurrency. <br/> </p>
 particular blockchain, the Bitcoin blockchain only transacts bitcoin and
 the Ethereum blockchain can only exchange Ether. To initiate the
 transaction, Alicia would make a request of the system to send Bitcoin
-to Billy’s wallet by specifying the amount and Billy’s Bitcoin address.
-<br/> </p>
+to Billy’s wallet by specifying the amount and Billy’s Bitcoin address.</p>
 <p><b>Step 2: Smart Contract Triggered</b><br/> When Alicia sends her
 transaction to the network, it triggers a smart contract that checks
 with the nodes on the network to make sure Alicia has the currency to
 spend, and that she hasn’t already spent it. Once checked, the
-transaction is added to a proposed block. <br/> </p>
+transaction is added to a proposed block.</p>
 <p><b>Step 3: Operators Spread Transaction</b><br/> Proposed block is
-communicated to the network through the peer-to-peer protocols.
-<br/> </p>
+communicated to the network through the peer-to-peer protocols.</p>
 <p><b>Step 4: Consensus</b><br/> In order for the Bitcoin network to
 validate a block, nodes or miners must validate the correctness of a
 block by completing a math problem first. The node that completes the
 Proof of Work equation first is rewarded with some newly minted Bitcoin.
 Once a solution for the equation is reached, the other nodes can easily
-check its accuracy, thereby accepting the new block onto the blockchain.
-<br/> </p>
+check its accuracy, thereby accepting the new block onto the blockchain.</p>
 <p><b>Step 5: Spread The New Block</b><br/> This block is spread
 throughout the network through the same peer-to-peer communications we
 used for the transaction. When block operators receive a copy of the new
 block, they add it to their copy of the distributed ledger. This
 guarantees that all members of the peer network agree on the current
-state of the blockchain’s distributed ledger. <br/> </p>
-<b>Step 6: Transaction Completed</b><br/> The user’s wallet monitors for
+state of the blockchain’s distributed ledger.</p>
+<p><b>Step 6: Transaction Completed</b><br/> The user’s wallet monitors for
 the creation of new blocks that include transactions associated with the
 user. When a block containing the completed code from the user’s
 operation is received, an event is created to notify the user that the
 operation is complete. When the block containing Alicia’s Bitcoin
 transfer to Billy is added to the blockchain, an alert will be sent to
-the affected wallets that the transaction was accepted and completed.
-</p>
-<h3>
-Consensus in Blockchain
-</h3>
+the affected wallets that the transaction was accepted and completed.</p>
+
+<h3>Consensus in Blockchain</h3>
+
 <p>Consensus in blockchain is moving away from a centralized system
 where one entity keeps track of the ledger towards a decentralized
 system where trust does not rest with one entity but all entities and
@@ -4206,22 +4122,21 @@ is this idea of asking all of these nodes, potentially tens of thousands
 of nodes, to all repeat the same work and then periodically come
 together and agree on whatever the majority select the right version of
 the truth to be.</p>
-That gives blockchain that high level of trust and that makes it such a
-secure record store.
-</p>
-<h3>
-Introduction to Consensus in the Blockchain
-</h3>
-As discussed in the <a target="_blank" rel="noopener noreferrer" 
+<p>That gives blockchain that high level of trust and that makes it such a
+secure record store.</p>
+
+<h3>Introduction to Consensus in the Blockchain</h3>
+
+<p>As discussed in the <a target="_blank" rel="noopener noreferrer" 
 href="https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03">“Blockchain
-Consensus and Fault Tolerance In a Nutshell”</a> article by Demiro
-Massessi,
+Consensus and Fault Tolerance In a Nutshell”</a> article by Demiro Massessi,</p>
+
 <blockquote>
-<p>“The blockchain is designed to be a shared, synchronized historical
+“The blockchain is designed to be a shared, synchronized historical
 ledger, meaning that there needs to be a final decision at some point on
 what should and shouldn’t be included in the official record. Since
 blockchain is decentralized, there is no”higher authority” that can
-rubber-stamp and finalize the contents of a blockchain block.<br/></p>
+rubber-stamp and finalize the contents of a blockchain block.<br/>
 The method that <a target="_blank" rel="noopener noreferrer" 
 href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto">Satoshi
 Nakamoto</a>, creator of the Bitcoin network, invented to achieve
@@ -4233,20 +4148,18 @@ demand, collecting enough of an asset to have a controlling share will
 drive up the price of the asset enough to make achieving that level of
 control unfeasibly expensive”.
 </blockquote>
-<h3>
-Consensus Mechanisms
-</h3>
-<p>
+
+<h3>Consensus Mechanisms</h3>
+
 <p>In order to ensure no one spent the same Bitcoin twice, Satoshi
 Nakamoto created the consensus algorithm called Proof of Work for the
-Bitcoin network. <br/></p>
+Bitcoin network.</p>
 <p>Since then, several other consensus algorithms have been invented to
-fit different use cases. <br/></p>
+fit different use cases.</p>
 <p>These include Proof of Stake, Delegated Proof of Stake, Practical
-Byzantine Fault Tolerance, and Proof of Elapsed Time. <br/></p>
-The most commonly used consensus algorithms are Proof of Work and Proof
-of Stake.
-</p>
+Byzantine Fault Tolerance, and Proof of Elapsed Time.</p>
+<p>The most commonly used consensus algorithms are Proof of Work and Proof
+of Stake.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- Consensus Mechanisms (105) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4258,7 +4171,8 @@ of Stake.
 <h3>Proof of Work</h3>
 
 <p>As explained in the <a target="_blank" rel="noopener noreferrer" 
-href="https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03">“Blockchain Consensus and Fault Tolerance In a Nutshell”</a> article by Demiro Massessi,
+href="https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03">“Blockchain Consensus and Fault Tolerance In a Nutshell”</a> article by Demiro Massessi,</p>
+
 <blockquote>
 “In Proof of Work, users in the blockchain network who want to create
 the next block (and win the associated reward) are called miners. To win
@@ -4301,15 +4215,16 @@ resources of a blockchain’s mining network. If one entity controls 51%
 of the mining effort, they control consensus. To take control would
 require a huge investment in equipment and energy, more than would be
 gained by defrauding the system.</p>
-<h3>
-Proof of Stake
-</h3>
+
+<h3>Proof of Stake</h3>
+
 <p>Proof of Stake comes with a number of improvements to Proof of Work
 systems, it requires less energy and has a lower barrier to entry since
 no specialized hardware is required to create blocks.</p>
 <p>In the same <a target="_blank" rel="noopener noreferrer" 
 href="https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03">article</a>
 that we mentioned on a previous page, the author explains,</p>
+
 <blockquote>
 “Users in a Proof of Stake blockchain can”stake” or promise not to use
 the tokens they own. This gives them the opportunity to be selected as
@@ -4325,6 +4240,7 @@ synchronized so that each person can independently determine the
 selection and get the same result. This is why Proof of Stake uses a
 pseudo-random instead of a random selection process”.
 </blockquote>
+
 <p>In Proof of Stake, an attacker needs to control enough of the staked
 currency to guarantee they will be selected to create every block.</p>
 <p>Since cryptocurrency is a limited asset, buying up enough of it to do
@@ -4344,10 +4260,11 @@ infeasible.</p>
 the ledger. Shared decentralized ledgers arrive at network agreement or
 the state of the ledger by consensus algorithms. But what happens if all
 participants in the network don’t agree? Let’s discuss the concept of
-Fault tolerance and why it is an important blockchain concept. <br/></p>
-As described by <a target="_blank" rel="noopener noreferrer" 
+Fault tolerance and why it is an important blockchain concept.</p>
+<p>As described by <a target="_blank" rel="noopener noreferrer" 
 href="https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03">Demiro
-Massessi</a>,
+Massessi</a>,</p>
+
 <blockquote>
 “Blockchain is a distributed, decentralized system that maintains a
 shared state. While consensus algorithms are designed to make it
@@ -4418,18 +4335,18 @@ connectivity.</p>
 <p>We know that peer-to-peer has a long history of providing extremely
 high fault tolerance and reliability, and that’s why we’ve chosen to
 build a platform like blockchain on top of it.</p>
-If you’re looking for a solution platform that offers you that kind of
+<p>If you’re looking for a solution platform that offers you that kind of
 incredible fault tolerance, if you’re looking to deploy a solution into
 areas with less than ideal infrastructure or under conditions where
 nodes may come online and go offline frequently, then blockchain may be
 a really good platform to look at.
 </p>
-<h3>
-The Byzantine Generals’ Problem
-</h3>
-The Byzantine Generals’ Problem has been thoroughly explained in the <a target="_blank" rel="noopener noreferrer" 
+<h3>The Byzantine Generals’ Problem</h3>
+
+<p>The Byzantine Generals’ Problem has been thoroughly explained in the <a target="_blank" rel="noopener noreferrer" 
 href="https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03">Medium
-article</a> by Demiro Massessi,
+article</a> by Demiro Massessi,</p>
+
 <blockquote>
 “The Byzantine Generals’ Problem is a scenario designed to demonstrate
 the difficulty of multiple parties coming to an agreement when
@@ -4450,9 +4367,9 @@ fact that some members may misbehave. The solution to the Byzantine
 Generals’ Problem is inefficient, so the blockchain needs some way of
 being confident of consensus without going through a full solution”.
 </blockquote>
-<h3>
-Proof of Work vs. Proof of Stake
-</h3>
+
+<h3>Proof of Work vs. Proof of Stake</h3>
+
 <p>We’ve talked a lot in this course about Proof of Work versus Proof of
 Stake. Proof of Work is the oldest and the original consensus protocol.
 It’s coming up on its tenth anniversary; first one into production with
@@ -4527,9 +4444,9 @@ centralized aspects that we’ve seen form around Proof ofWork.</p>
 in other modules in this course. If you’re curious about the difference
 between them, how they work and what the actual implementation
 differences are, be sure to check out those other modules.</p>
-<h3>
-Proof of Work vs. Proof of Stake
-</h3>
+
+<h3>Proof of Work vs. Proof of Stake</h3>
+
 <p>Let’s recap differences between Proof of Work and Proof of Stake:</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- Proof of work chart (114) ------------------------------------>
@@ -4595,9 +4512,9 @@ consensus mechanism to a Proof of Stake.</p>
 href="https://ethereum.org/en/upgrades/">Ethereum 2.0</a> is
 incorporated, this improvement is expected sometime in the second half
 of 2021.</p>
-<h3>
-Hyperledger Fabric Consensus Model
-</h3>
+
+<h3>Hyperledger Fabric Consensus Model</h3>
+
 <p>Hyperledger Fabric is a private permissioned blockchain platform that
 breaks consensus into components, allowing users to pick a consensus
 algorithm for their particular situation. Instead of a predetermined
@@ -4606,9 +4523,10 @@ consensus related events, this ordering component can pick the consensus
 model that best suits the blockchains needs.</p>
 <p>By approaching consensus in this modular fashion, Hyperledger DLT’s
 can change consensus models without huge overhauls to the code base.</p>
-As explained by <a target="_blank" rel="noopener noreferrer" 
+<p>As explained by <a target="_blank" rel="noopener noreferrer" 
 href="https://medium.com/coinmonks/blockchain-consensus-and-fault-tolerance-in-a-nutshell-765de83b8d03">Demiro
-Massessi</a>,
+Massessi</a>,</p>
+
 <blockquote>
 “Hyperledger Fabric deliberately avoided hard-coding a consensus
 mechanism into the protocol by defining an “orderer component” that
@@ -4616,9 +4534,9 @@ performs all of the consensus-related operations. This allows users of
 Hyperledger Fabric to select a consensus algorithm that fits their use
 case without being forced to make large-scale code edits”.
 </blockquote>
-<h3>
-Corda Consensus Model
-</h3>
+
+<h3>Corda Consensus Model</h3>
+
 <p><a target="_blank" rel="noopener noreferrer" href="https://www.corda.net/">Corda</a> is a private permissioned blockchain.</p>
 <p>Each Corda network has a notary service made up of independent
 parties that approve blocks using any applicable consensus
@@ -4634,10 +4552,10 @@ whole.</p>
 several independent parties.</p>
 <p>Transactions in Corda are finalized by a notary with a multiparty
 digital signature using an algorithm like Raft.</p>
-<h3 id="ch3-7">
-3.7 Chapter Summary
-</h3>
-In this chapter, we discussed:
+<h3 id="ch3-7">3.7 Chapter Summary</h3>
+
+<p>In this chapter, we discussed:</p>
+
 <ul>
 <li>
 Smart contracts and benefits from using smart contracts,
@@ -4659,13 +4577,10 @@ Consensus mechanisms used in blockchain.
 </li>
 </ul>
 <!--------------------------------------------- Chapter 4: --------------------------------------->
-<h1 id="ch4">
-Chapter 4. Blockchains and Governance
-</h1>
-<h3>
-Chapter Overview
-</h3>
-<p>
+<h1 id="ch4">Chapter 4. Blockchains and Governance</h1>
+
+<h3>Chapter Overview</h3>
+
 <p>In this section, we will cover blockchain governance.</p>
 <p>We will start by discussing the cooperative way blockchain companies
 share the computer code for this technology.</p>
@@ -4678,13 +4593,13 @@ interactions are more secure than past systems.</p>
 <p>Finally, we will dive into the idea of collaboration among parties
 who don’t trust each other and how blockchain technology is changing how
 the global community can interact.</p>
-This new form of world wide collaboration can be the key to solving the
-world’s toughest problems.
-</p>
-<h3 id="ch4-1">
-4.1 Learning Objectives
-</h3>
-By the end of this chapter, you should be able to:
+<p>This new form of world wide collaboration can be the key to solving the
+world’s toughest problems.</p>
+
+<h3 id="ch4-1">4.1 Learning Objectives</h3>
+
+<p>By the end of this chapter, you should be able to:</p>
+
 <ul>
 <li>
 Discuss open source communities and blockchain source code,
@@ -4704,6 +4619,7 @@ Analyze examples of Decentralized Autonomous Organizations (DAOs),
 Summarize the advantages and disadvantages of a consortium blockchain.
 </li>
 </ul>
+
 <h3 id="ch4-2">4.2 What Is Open Source?</h3>
 
 <p>Blockchain technology and the developers who work with it reinforce
@@ -4807,7 +4723,7 @@ organizations.</p>
 <p>In these initiatives, it is important not only for clear and
 comprehensive governance to be in place, but for that governance to be
 consistent across participating organizations.</p>
-These type of cross-organizational governance efforts represent an
+<p>These type of cross-organizational governance efforts represent an
 entirely new type of project initiative, and will require business
 analysts, solution architects, product and program managers, and
 executive leaders who understand the incredible potential and massive
@@ -4832,11 +4748,11 @@ the voice of the majority is recognized.</p>
   alt=“Blockchain Governance Models” 
   width=“85%” />
 
-<p>
-Blockchain governance models reflect a more democratic flavor due to the
-open source environment.
-</p>
-Blockchains are composed of a community of users who work together to strengthen the system. The degree in which the majority rules can vary.
+<p>Blockchain governance models reflect a more democratic flavor due to the
+open source environment.</p>
+<p>Blockchains are composed of a community of users who work together to strengthen the system. 
+The degree in which the majority rules can vary.</p>
+
 <ul>
 <li>
 Representative democracy<br/> This type of governance has a few
@@ -4930,7 +4846,8 @@ characteristics of blockchains. But if blockchains are decentralized,
 how are decisions made and by who? Open source software organizations
 and open source software development projects need a way to manage
 projects. Most organizations are centralized and have a set leadership
-team. Before getting into the details of how governance works on the
+team.</p>
+<p>Before getting into the details of how governance works on the
 blockchain, it’s important to have a clear definition of what blockchain
 governance is. In order for a blockchain to survive, it must adapt to
 the needs of its users and advances in technology. The way the changes
@@ -4942,9 +4859,9 @@ policy it wants to adopt. Strategies must include incentives so the
 members want to be good actors in the system. The efforts of the group
 must be coordinated to be productive. Both of these elements are
 necessary in blockchain governance models.</p>
-<h3>
-Blockchain Governance Strategies
-</h3>
+
+<h3>Blockchain Governance Strategies</h3>
+
 <p>Several different blockchain governance strategies have been proposed
 and implemented for different blockchains. 
 Let’s review some blockchain
@@ -4974,9 +4891,9 @@ the rules describing how the blockchain should operate are stored on the
 blockchain itself. These regulations typically are implemented as smart
 contracts on the blockchain with built-in methods for users to modify
 the rules based upon their needs and the needs of the blockchain”.</p>
-<h3>
-Consortium Governance
-</h3>
+
+<h3>Consortium Governance</h3>
+
 <p>Due to blockchains built in trust and collaboration mechanisms, new
 pathways are opening up for enterprises to work together. A new form of
 collaboration fostered by blockchain is consortiums. Consortium, as
@@ -4989,9 +4906,9 @@ already forming in many industries to deal with the particular problems
 of those industries. Alliances in Trade Finance, Carbon Emissions
 Accounting, Social Impact and Healthcare have working blockchain
 consortiums solutions.</p>
-<h3>
-Who Really Governs the Blockchain?
-</h3>
+
+<h3>Who Really Governs the Blockchain?</h3>
+
 <p>Blockchain governance comes down to the users. For a blockchain
 community to thrive it needs a robust community. Changes to the
 operation of the blockchain must be accepted by the majority of its
@@ -4999,7 +4916,6 @@ users or they will create a new blockchain that does. The process by
 which changes are made follow these five steps discussed by Pierre
 Rochard in his article <a target="_blank" rel="noopener noreferrer" href="https://nakamotoinstitute.org/mempool/bitcoin-governance/">
 Bitcoin Governance</a>:</p>
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- Process of Blockchain Governance (125) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5700,31 +5616,33 @@ still allowing the network to verify that the transaction is valid.</p>
 <h3>Specific Anonymity Implementations</h3>
 
 <ul>
-  <li>Ethereum<br/><br/>
-Ethereum is working on improving the zero-knowledge proofs, mixing and
-DAPPS (applications developed to improve anonymity) to strengthen
-privacy. Also ConsenSys, the Enterprise Solutions builder for Ethereum
-introduced QUORUM, a fork of the Ethereum blockchain which enables users
-to benefit from the public Ethereum blockchain while enjoying features
-from a private network. Developed by JPMorgan, it is a permissioned
-implementation.</li>
-<br/>
-  <li>Hyperledger</li><br/><br/>
-  <ul>
-    <li>Channels: Subsections of the blockchain that make transactions visible only to members.</li>
-<br/><br />
-    <li>Private transactions: Hashes of private data are stored to publicly verify it on the blockchain.</li><br/>
-    <li>Zero-knowledge technology: One can demonstrate knowledge of a secret without revealing the secret itself.</li> <br/>
-  </ul>
-<li>Hyperledger Besu<br/> Besu is an Ethereum client that runs on the Ethereum public network, private networks, and test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus
-algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment.</li>
-<br/>
-<li>Corda<br/> Parties on the Corda Network can be represented in one of two ways:</li>
-<ul>
-  <li>Party: A public key and name.</li>
-  <br/>
-  <li>Anonymous party: Only a public key.</li> <br/>
-  </ul>
+  <li>Ethereum<br/>
+    Ethereum is working on improving the zero-knowledge proofs, mixing and
+	DAPPS (applications developed to improve anonymity) to strengthen
+	privacy. Also ConsenSys, the Enterprise Solutions builder for Ethereum
+	introduced QUORUM, a fork of the Ethereum blockchain which enables users
+	to benefit from the public Ethereum blockchain while enjoying features
+	from a private network. Developed by JPMorgan, it is a permissioned
+	implementation.<br></li>
+  <li>Hyperledger</li>
+    <ul>
+      <li>Channels: Subsections of the blockchain that make transactions visible 
+	    only to members.</li>
+      <li>Private transactions: Hashes of private data are stored to publicly 
+	    verify it on the blockchain.</li>
+      <li>Zero-knowledge technology: One can demonstrate knowledge of a secret 
+	    without revealing the secret itself.</li>
+    </ul>
+  <li>Hyperledger Besu<br/> Besu is an Ethereum client that runs on the Ethereum 
+    public network, private networks, and test networks such as Rinkeby, Ropsten, 
+	and Görli. Hyperledger Besu includes several consensus algorithms including 
+	PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed 
+	specifically for uses in a consortium environment.</li>
+  <li>Corda<br/> Parties on the Corda Network can be represented in one of two ways:</li>
+    <ul>
+      <li>Party: A public key and name.</li><br/>
+      <li>Anonymous party: Only a public key.</li> <br/>
+    </ul>
 </ul>
 
 <h3> Trust in Blockchains</h3>
