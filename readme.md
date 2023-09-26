@@ -84,7 +84,7 @@ LFS170x is part of the Blockchain for Business Professional Certificate. Skills 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-<h2 id="ch1">Chapter 1. Introduction to Blockchain</h2>
+<h2><a name="ch1">Chapter 1. Introduction to Blockchain</a></h2>
 <h3>Learning Objectives</h3>
 By the end of this chapter, you should be able to:
 <ul type="disc">
@@ -99,7 +99,7 @@ By the end of this chapter, you should be able to:
    <li>Discuss use cases for general blockchain solutions.</li>
 </ul>
 
-<h3 id="ch1-1">1.1 What is Blockchain?</h3>
+<h3><a name="ch1-1">1.1 What is Blockchain?</a></h3>
 Blockchain is a peer-to-peer ledger system that allows peers to transact directly with each other eliminating the need for a central authority.
 
 At its core, blockchain is a system for recording information about a transaction in a new decentralized way that makes it difficult or impossible to alter.
@@ -120,7 +120,7 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 </p>
 &nbsp;
 
-<h3 id="ch1-2">1.2 The Early Internet</h3>
+<h3><a name="ch1-2">1.2 The Early Internet</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------ darpa logo ------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -296,7 +296,7 @@ The new Web 3.0 browsers are being built to help you manage your cryptocurrency,
 
 Let’s now dive into blockchain basics.
 
-<h3 id="ch1-3">1.3 What Is Blockchain? (Blockchain Basics)</h3>
+<h3><a name=="ch1-3">1.3 What Is Blockchain? (Blockchain Basics)</a></h3>
 <p>
 There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
 <br/>
@@ -775,7 +775,7 @@ Other than that, the use of smart contracts can remove the need for intermediari
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-4">1.4 Blockchain Actors (Career Opportunities)</h3>
+<h3><a name="ch1-4">1.4 Blockchain Actors (Career Opportunities)</a></h3>
 With new technology comes new opportunities and this holds true for blockchain. 
 
 As this nascent technology matures, more positions are needed to fill this increased demand. 
@@ -839,7 +839,7 @@ Designers are needed to turn these moments/media into art for the thirsty NFT ma
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-5">1.5 Who is Using Blockchain? (Use Cases)</h3>
+<h3><a name="ch1-5">1.5 Who is Using Blockchain? (Use Cases)</a></h3>
 <p>
 There are a lot of really interesting use cases being explored with blockchain right now.<br/>
 
@@ -1142,7 +1142,7 @@ With new blockchain technology, individuals can reclaim their identity informati
 Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.</li>
 </ul>
 
-<h3 id="ch1-6">1.6 Chapter Summary</h3>
+<h3><a name="ch1-6">1.6 Chapter Summary</a></h3>
 In this chapter, we discussed:
 <ul>
 <li>The history of the Internet and how blockchain technology relies on Internet technology as the foundation for building the future of the blockchain evolution.</li>
@@ -1156,11 +1156,10 @@ In this chapter, we discussed:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch2">Chapter 2. Blockchain Mechanics</h2>
+<h2><a name="ch2">Chapter 2. Blockchain Mechanics</a></h2>
 
 <h3>Chapter Overview</h3>
-<p>
-In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques.<br/>
+<p>In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques.<br/>
 
 We will gain an understanding of how previous computer technologies like file sharing, data storage and cryptography are wrapped into the blockchain foundations.<br/>
 
@@ -1182,7 +1181,8 @@ By the end of this chapter, you should be able to:
 <li>Explain what it means for blockchains to be immutable and how chaining provides this capability.</li>
 </ul>
 
-<h3 id="ch2-1">2.1 Introduction to Blockchain Components</h3>
+<h3><a name="ch2-1">2.1 Introduction to Blockchain Components</a></h3>
+
 <p>
 In this section, we're going to discuss the core components of the blockchain, starting with a high-level view of the blockchain components.<br/>
 
@@ -1326,7 +1326,7 @@ Some terms that are mentioned in the video we will get familiar with in later ch
 > Public Key Infrastructure is the identity management system for instilling trust into the electronic transfers of information or value. 
 > It is the technology used to authenticate users and information by issuing a set of key pairs (public and private).
 
-<h3 id="ch2-2">2.2 Ledgers and Basic Accounting Systems (Understanding Ledgers)</h3>
+<h3><a name="ch2-2">2.2 Ledgers and Basic Accounting Systems (Understanding Ledgers)</a></h3>
 To understand how blockchain came about, we must first understand the following key principles:
 <ul>
 <li>Ledgers</li>
@@ -1596,7 +1596,7 @@ Let's look a little further into how that trust is achieved.<br/>
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch2-3">2.3 From Distributed Ledger to Cryptography</h3>
+<h3><a name="ch2-3">2.3 From Distributed Ledger to Cryptography</a></h3>
 <p>
 A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
 
@@ -2431,7 +2431,7 @@ Its append-only structure and decentralized storage sacrifice storage efficiency
    width="85%" />
 </p>
 
-<h3 id="ch2-4"></a>2.4 Transparency</h3>
+<h3><a name="ch2-4">2.4 Transparency</a></h3>
 <p>
 One of the big benefits we get in any blockchain solution, public or private, is the idea of transparency.
 
