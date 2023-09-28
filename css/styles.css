@@ -15,8 +15,8 @@ body {
   font-size: 12px;
   border: none;
   outline: none;
-  background-color: red;
-  color: white;
+  background-color: #900001;  /* red */
+  color: #ffffff;  /* white */
   cursor: pointer;
   padding: 7px;
   border-radius: 2px;
@@ -28,7 +28,7 @@ body {
 /* drop down menu */
 .dropbtn {
   background-color: #04006D;  /* very dark blue */
-  color: white;
+  color: #ffffff;  /* white */
   padding: 7px;  /* 11 */
   border-radius: 3px;  /* blank */
   font-size: 12px;  /* was 14 */
@@ -52,8 +52,8 @@ body {
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 10px 12px;  /* 12px 16px */
+  color: #000000;  /* black */
+  padding: 10px 12px;  /* was 12px 16px */
   text-decoration: none;
   display: block;
 }
@@ -62,7 +62,7 @@ body {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #398e41;}  /* Dark moderate cyan - lime green */
+.dropdown:hover .dropbtn {background-color: #398e41;}  /* dark moderate cyan - lime green */
 /* style: body & p */
 body {
   font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, sans-serif;
