@@ -90,7 +90,7 @@ ol.g {list-style-type: lower-latin;}
 /* style: h1 thru h6 & img */
 h1 {
   font-family: normal 2.0em Bahnschrift, Verdana, Helvetica, sans-serif, helvetica;
-  font-size: 22px;
+  font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #000000;  /* black */
@@ -99,7 +99,7 @@ h1 {
 }
 h2 {
   font: normal 1.8em BBahnschrift, Verdana, Helvetica, sans-serif, tahoma;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 3px;
   color: #3800aa;  /* dark purple */
   background: inherit;
