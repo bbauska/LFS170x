@@ -14,7 +14,7 @@ body {
   font-size: 12px;
   border: none;
   outline: none;
-  background-color: #900001;  /* red */
+  background-color: #900001;  /* dark red */
   color: #ffffff;  /* white */
   cursor: pointer;
   padding: 7px;
@@ -22,11 +22,11 @@ body {
 }
 
 #myBtn:hover {
-  background-color: #555;  /* very dark gray */
+  background-color: #555555;  /* very dark gray */
 }
 /* drop down menu */
 .dropbtn {
-  background-color: #04006D;  /* very dark blue */
+  background-color: #04006d;  /* very dark blue */
   color: #ffffff;  /* white */
   padding: 7px;  /* 11 */
   border-radius: 3px;  /* blank */
@@ -57,7 +57,7 @@ body {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ccc;}  /* light gray */
+.dropdown-content a:hover {background-color: #cccccc;}  /* light gray */
 
 .dropdown:hover .dropdown-content {display: block;}
 
@@ -95,12 +95,11 @@ h1 {
   letter-spacing: 2px;
   color: #000000;  /* black */
   background: inherit;
-  text-align: left;
-  margin-left: 15px;
+  text-align: center;
 }
 h2 {
   font: normal 1.8em BBahnschrift, Verdana, Helvetica, sans-serif, tahoma;
-  font-size: 21px;
+  font-size: 22px;
   letter-spacing: 3px;
   color: #3800aa;  /* dark purple */
   background: inherit;
