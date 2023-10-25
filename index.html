@@ -36,8 +36,9 @@
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 5px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+<!-- window.onscroll = function() {scrollFunction()}; -->
 
+<!-- 
 function scrollFunction() {
   if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
     mybutton.style.display = "block";
@@ -45,13 +46,14 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
+-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: topFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-//when the user clicks on the button, scroll to the top of the document
+//when the user clicks on the button, scroll to the top of the document; was 860.
 function topFunction() {
-  document.body.scrollTop = 860;
-  document.documentElement.scrollTop = 860;
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 </script>
 
