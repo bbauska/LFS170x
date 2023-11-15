@@ -87,7 +87,7 @@ LFS170x is part of the Blockchain for Business Professional Certificate. Skills 
 </div>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1">Chapter 1. Introduction to Blockchain</h2>
+<h2 name="ch1">Chapter 1. Introduction to Blockchain</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h3>Learning Objectives</h3>
@@ -105,7 +105,7 @@ By the end of this chapter, you should be able to:
    <li>Discuss use cases for general blockchain solutions.</li>
 </ul>
 
-<h3 id="ch1-1">1.1 What is Blockchain?</h3>
+<h3 name="ch1-1">1.1 What is Blockchain?</h3>
 Blockchain is a peer-to-peer ledger system that allows peers to transact directly with each other eliminating the need for a central authority.
 
 At its core, blockchain is a system for recording information about a transaction in a new decentralized way that makes it difficult or impossible to alter.
@@ -126,7 +126,7 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 </p>
 &nbsp;
 
-<h3 id="ch1-2">1.2 The Early Internet</h3>
+<h3 name="ch1-2">1.2 The Early Internet</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------ darpa logo ------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -302,7 +302,7 @@ The new Web 3.0 browsers are being built to help you manage your cryptocurrency,
 
 Let’s now dive into blockchain basics.
 
-<h3 id=="ch1-3">1.3 What Is Blockchain? (Blockchain Basics)</h3>
+<h3 name=="ch1-3">1.3 What Is Blockchain? (Blockchain Basics)</h3>
 <p>
 There's a new technology that has the power to revolutionize how you, businesses, and the world interact!
 <br/>
@@ -781,7 +781,7 @@ Other than that, the use of smart contracts can remove the need for intermediari
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-4">1.4 Blockchain Actors (Career Opportunities)</h3>
+<h3 name="ch1-4">1.4 Blockchain Actors (Career Opportunities)</h3>
 With new technology comes new opportunities and this holds true for blockchain. 
 
 As this nascent technology matures, more positions are needed to fill this increased demand. 
@@ -845,7 +845,7 @@ Designers are needed to turn these moments/media into art for the thirsty NFT ma
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-5">1.5 Who is Using Blockchain? (Use Cases)</h3>
+<h3 name="ch1-5">1.5 Who is Using Blockchain? (Use Cases)</h3>
 <p>
 There are a lot of really interesting use cases being explored with blockchain right now.<br/>
 
@@ -1148,7 +1148,7 @@ With new blockchain technology, individuals can reclaim their identity informati
 Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.</li>
 </ul>
 
-<h3><a id="ch1-6">1.6 Chapter Summary</a></h3>
+<h3><a name="ch1-6">1.6 Chapter Summary</a></h3>
 In this chapter, we discussed:
 <ul>
 <li>The history of the Internet and how blockchain technology relies on Internet technology as the foundation for building the future of the blockchain evolution.</li>
@@ -1163,7 +1163,7 @@ In this chapter, we discussed:
 </div>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2">Chapter 2. Blockchain Mechanics</h2>
+<h2 name="ch2">Chapter 2. Blockchain Mechanics</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h3>Chapter Overview</h3>
@@ -1189,7 +1189,7 @@ By the end of this chapter, you should be able to:
 <li>Explain what it means for blockchains to be immutable and how chaining provides this capability.</li>
 </ul>
 
-<h3 id="ch2-1">2.1 Introduction to Blockchain Components</h3>
+<h3 name="ch2-1">2.1 Introduction to Blockchain Components</h3>
 
 <p>
 In this section, we're going to discuss the core components of the blockchain, starting with a high-level view of the blockchain components.<br/>
@@ -1334,7 +1334,7 @@ Some terms that are mentioned in the video we will get familiar with in later ch
 > Public Key Infrastructure is the identity management system for instilling trust into the electronic transfers of information or value. 
 > It is the technology used to authenticate users and information by issuing a set of key pairs (public and private).
 
-<h3 id="ch2-2">2.2 Ledgers and Basic Accounting Systems (Understanding Ledgers)</h3>
+<h3 name="ch2-2">2.2 Ledgers and Basic Accounting Systems (Understanding Ledgers)</h3>
 To understand how blockchain came about, we must first understand the following key principles:
 <ul>
 <li>Ledgers</li>
@@ -1604,7 +1604,7 @@ Let's look a little further into how that trust is achieved.<br/>
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3><a id="ch2-3">2.3 From Distributed Ledger to Cryptography</a></h3>
+<h3><a name="ch2-3">2.3 From Distributed Ledger to Cryptography</a></h3>
 <p>
 A great way to think of blockchain is to think of blockchain as another layer of the Internet, a layer that enables secure and trusted records and transactions to occur, which is why a lot of people associate the word blockchain with the word trust.
 
@@ -1852,7 +1852,7 @@ Transactions on the blockchain include their public key and are digitally signed
 <li>Digital signatures can be easily verified using the corresponding public key, which is included in the transaction.</li>
 </ul> 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- public key cryptography (52) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ public key cryptography (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-rsa-key.webp?raw=true"
@@ -1863,7 +1863,7 @@ Transactions on the blockchain include their public key and are digitally signed
 
 <h3>Identity: RSA Public Key Cryptography</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- public key cryptography (52) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ public key cryptography (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-rsa-public-key.webp?raw=true"
@@ -1888,7 +1888,7 @@ Public key cryptography uses a pair of a public key and a private key to perform
 
 Using a person's public key, it is possible to encrypt a message so that only the person with the private key can decrypt and read it. Using a private key, a digital signature can be created so that anyone with the corresponding public key can verify that the message was created by the owner of the private key and was not modified since.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------ Key (53) -------------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ key (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-key.webp?raw=true"
@@ -1901,7 +1901,7 @@ Digital Signatures and Key Pairs<br/>
 
 <b>Step 1:</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- step 1 - generate public from private key (53) ------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ step 1 - generate public from private key (53) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-step-1.webp?raw=true"
@@ -1912,7 +1912,7 @@ Digital Signatures and Key Pairs<br/>
  
 <b>Step 2:</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- Step 2 - encrypt and send message (53) --------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ step 2 - encrypt and send message (53) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-step-2.webp?raw=true"
@@ -1923,7 +1923,7 @@ Digital Signatures and Key Pairs<br/>
  
 <b>Step 3:</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ Step 3 - recipient decrypts message (54) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ step 3 - recipient decrypts message (54) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-step-3.webp?raw=true"
@@ -2056,7 +2056,7 @@ A hash function is a mathematical equation with <b>four</b> important properties
 </ol>
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Cryptographic Hashing (57) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cryptographic hashing (57) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-hash.webp?raw=true"
@@ -2163,7 +2163,7 @@ A special type of data storage structure based on hash functions is called a Mer
 <li>Looking up a transaction in a Merkle tree with three levels includes sending two transactions (the desired one and the other child of its parent) and three hashes (the transaction’s parent, the root, and the root’s other child).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------------- Merkle Tree (61) --------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ merkle tree (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-merkle-tree.webp?raw=true"
@@ -2259,9 +2259,9 @@ Merkle trees are a data structure that allows authenticated storage with efficie
 
 Both Ethereum and Hyperledger Fabric are smart contract platforms that use a particular type of 
 Merkle tree called the Patricia tree to store the current state of their virtual machine.
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- disintermediation - trust through transparency (63) ----------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ disintermediation - trust through transparency (63) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-disintermediation.webp?raw=true"
    alt="Disintermediation - Trust Through Transparency"
@@ -2359,7 +2359,7 @@ A database is a collection of interrelated data organized so that individual rec
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- CRUD - create, read, update, delete ------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ crud - create, read, update, delete ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-crud.webp?raw=true"
@@ -2409,7 +2409,7 @@ Transactions in the blockchain cannot be modified after creation, and their comp
 
 This means that the blockchain is a completely transparent data structure with the useful property that the integrity of the blockchain is easily verifiable by any user.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- transparency of a blockchain ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ transparency of a blockchain ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-transp-blockchain.webp?raw=true"
@@ -2439,7 +2439,7 @@ Its append-only structure and decentralized storage sacrifice storage efficiency
    width="85%" />
 </p>
 
-<h3><a id="ch2-4">2.4 Transparency</a></h3>
+<h3><a name="ch2-4">2.4 Transparency</a></h3>
 <p>
 One of the big benefits we get in any blockchain solution, public or private, is the idea of transparency.
 
@@ -2591,7 +2591,7 @@ All four of these features help to make the blockchain resistant against changes
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- tampered and unbroken blockchains (73) ---------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ tampered and unbroken blockchains (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-immutable.webp?raw=true"
@@ -2668,7 +2668,7 @@ As explained in the article [“A Gentle Introduction to Immutability of Blockch
 <br/>
 &nbsp;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------ hashing & chaining (75) ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ hashing & chaining (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-hashing-chaining.webp?raw=true"
@@ -2781,7 +2781,7 @@ Next, let's engage with an interactive lab. This lab will give you the chance to
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch2-5">2.5 Chapter Summary</h3>
+<h3 name="ch2-5">2.5 Chapter Summary</h3>
 In this chapter, we discussed:
 <ul>
 <li>Distributed ledger technology (DLT) and how it differs from previous ledger storage techniques.</li>
@@ -2791,9 +2791,9 @@ In this chapter, we discussed:
 <li>Ledger immutability and transparency result from combining these technologies for an agreed-upon, append-only distributed ledger system chained together by blocks.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3">Chapter 3. Blockchain Functions</h2>
+<h2 name="ch3">Chapter 3. Blockchain Functions</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-1">3.1 Chapter Overview</h3>
+<h3 name="ch3-1">3.1 Chapter Overview</h3>
 
 In this chapter, we will examine some blockchain functions. 
 
@@ -2835,7 +2835,7 @@ By the end of this chapter, you should be able to:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-2">3.2 What Are Smart Contracts?</h3>
+<h3 name="ch3-2">3.2 What Are Smart Contracts?</h3>
 When we make a transaction on the blockchain, understand that there are only three 
 types of transactions we can make.<br/>
 
@@ -2949,7 +2949,7 @@ Let’s review some basic information about smart contracts:
 <li>Once executed, the information in the smart contract is stored on a blockchain which cannot be altered.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- smart contracts handshake (83) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ smart contracts handshake (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-smart-contracts-handshake.webp?raw=true"
@@ -3019,7 +3019,7 @@ Blockchain is commonly called the future of computing. It takes a very different
 In this section, we will discuss some of the ways that security differs in traditional and blockchain environments.
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- blockchain security (85) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ blockchain security (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-blockchain-security.webp?raw=true"
@@ -3027,7 +3027,7 @@ In this section, we will discuss some of the ways that security differs in tradi
    width="65%" />
 </p>
 
-<h3 id="ch3-3">3.3 Introduction to Blockchain Security vs. Standard Cybersecurity</h3>
+<h3 name="ch3-3">3.3 Introduction to Blockchain Security vs. Standard Cybersecurity</h3>
 <p>
 In this section, we're gonna talk a bit about how traditional cybersecurity is different than security concerns on the blockchain.
 
@@ -3146,7 +3146,7 @@ Next, let's engage with an interactive lab. In this lab, you will be examining a
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-4">3.4 Different Types of Blockchains (Public & Permissioned Blockchains)</h3>
+<h3 name="ch3-4">3.4 Different Types of Blockchains (Public & Permissioned Blockchains)</h3>
 When we try to understand the main difference between a public and private blockchain, it is important to understand the terminology.
 <ul>
 <li>Public Blockchains<br/>
@@ -3386,7 +3386,7 @@ Blockchains can differ in the ways participants transfer value.</li>
 Let's take a look at the blockchain decision chart:
 &nbsp;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- blockchain decision chart (97) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ blockchain decision chart (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-blockchain-decision-chart.webp?raw=true"
@@ -3397,7 +3397,7 @@ Let's take a look at the blockchain decision chart:
 <h3>Questions to Ask When Deciding on Blockchain</h3>
 Discussion on these topics need to be addressed when making the decision to adopt a blockchain strategy for your company:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- questions to ask when deciding on blockchain (98) ------------------->
+<!--~~~~~~~~~~~~~~~~~~~~ questions to ask when deciding on blockchain (98) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-questions-to-ask.webp?raw=true"
@@ -3478,7 +3478,7 @@ Overall, blockchain decisions will be made by actors in the blockchain system:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-5">3.5 Blockchain Transaction Flow</h3>
+<h3 name="ch3-5">3.5 Blockchain Transaction Flow</h3>
 
 <p>In this section, we'll discuss the blockchain transaction flow.
 
@@ -3508,7 +3508,7 @@ The users will be notified of an event from a blockchain creation via an event.<
 
 <p>Although blockchains can differ in form and function, all follow a basic transaction flow.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- the blockchain transaction flow, steps 1 thru 6 (101) --------------------->
+<!--~~~~~~~~~~~~~~~~~~ the blockchain transaction flow, steps 1 thru 6 (101) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-blockchain-transactions.webp?raw=true"
@@ -3519,7 +3519,7 @@ The users will be notified of an event from a blockchain creation via an event.<
 Let's follow the step with a basic Bitcoin transaction. If Alicia wants to send Billy some bitcoin, she would go to a Bitcoin wallet application either on her phone or computer where she has some Bitcoin stored. Wallet applications are usually free downloads that create a digital wallet to purchase and/or store your cryptocurrency.
 <br/>&nbsp;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- bitcoin wallet application (101) ------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bitcoin wallet application (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-bitcoin-wallet-app.webp?raw=true"
@@ -3561,7 +3561,7 @@ The blockchain is a distributed and decentralized system, which means that it ne
 
 Since the blockchain can include financial transactions and business agreements, it is important that all parties involved are in sync regarding the terms of the agreement.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- blockchain network nodes (103) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ blockchain network nodes (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-network-comps.webp?raw=true"
@@ -3878,7 +3878,7 @@ Let's recap differences between Proof of Work and Proof of Stake:
 </p>
 <br/>
 
-<h3 id="ch3-6">3.6 Bitcoin Consensus Model</h3>
+<h3 name="ch3-6">3.6 Bitcoin Consensus Model</h3>
 
 Bitcoin, the first blockchain to appear, uses Proof of Work which requires miners to solve a complex cryptographic mathematical puzzle for which they get rewarded. 
 
@@ -3945,7 +3945,7 @@ Instead, a Corda network contains one or more notaries consisting of several ind
 
 Transactions in Corda are finalized by a notary with a multiparty digital signature using an algorithm like Raft.
 
-<h3 id="ch3-7">3.7 Chapter Summary</h3>
+<h3 name="ch3-7">3.7 Chapter Summary</h3>
 
 In this chapter, we discussed:
 
@@ -3963,7 +3963,7 @@ In this chapter, we discussed:
 </div>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4">Chapter 4. Blockchains and Governance</h2>
+<h2 name="ch4">Chapter 4. Blockchains and Governance</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Chapter Overview</h3>
 
@@ -3981,7 +3981,7 @@ Finally, we will dive into the idea of collaboration among parties who don't tru
 This new form of world wide collaboration can be the key to solving the world's toughest problems.
 </p>
 
-<h3 id="ch4-1">4.1 Learning Objectives</h3>
+<h3 name="ch4-1">4.1 Learning Objectives</h3>
 
 By the end of this chapter, you should be able to:
 
@@ -3993,7 +3993,7 @@ By the end of this chapter, you should be able to:
   <li>Summarize the advantages and disadvantages of a consortium blockchain.</li>
 </ul>
 
-<h3 id="ch4-2">4.2 What Is Open Source?</h3>
+<h3 name="ch4-2">4.2 What Is Open Source?</h3>
 
 Blockchain technology and the developers who work with it reinforce the basic tenet of decentralization in many ways. Not only by decision making consensus models, but also the way in which it distributes the software code.<br/>
 
@@ -4067,7 +4067,7 @@ Now that we have a simple understanding of governance, let’s analyze how this 
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch4-3">4.3 Governance Explained</h3>
+<h3 name="ch4-3">4.3 Governance Explained</h3>
 
 <p>
 Every business wants to make sure it's getting the best out of technology spending.
@@ -4398,7 +4398,7 @@ picture here
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch3-4">4.4 Identity on the Blockchain</h3>
+<h3 name="ch3-4">4.4 Identity on the Blockchain</h3>
 In this section, we're going to discuss identity on the blockchain.
 
 Let's start by understanding why we even need to have an identity on the blockchain.
@@ -4780,7 +4780,7 @@ It uses mathematics, economics, and game theory to incentivize all parties in th
     Most blockchains are built on open-source software that is transparent, community-driven code that is open for comment.</li>
 </ul>
 
-<h3 id="ch4-5">4.5 Chapter Summary</h3>
+<h3 name="ch4-5">4.5 Chapter Summary</h3>
 In this chapter, we discussed:
 
 <ul>
@@ -4797,7 +4797,7 @@ In this chapter, we discussed:
 </div>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch5">Chapter 5. Blockchain Problem Solving and Future Trends</h2>
+<h2 name="ch5">Chapter 5. Blockchain Problem Solving and Future Trends</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Now that we understand the basics of how blockchain works, Chapter 5 will discuss the problems blockchain can solve. 
@@ -4823,7 +4823,7 @@ We end the chapter with a brief discussion on interoperability.
 
 In order for this new technology to take hold, blockchains need to be able to communicate and transfer value amongst themselves.
 
-<h3 id="ch5-1">5.1 Learning Objectives</h3>
+<h3 name="ch5-1">5.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
 <ul>
 <li>Discuss immutability in blockchains.</li>
@@ -5128,7 +5128,7 @@ Data is secure and tamper resistant.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch5-2">5.2 Double Spend Problem</h3>
+<h3 name="ch5-2">5.2 Double Spend Problem</h3>
 Bitcoin, the world's first blockchain, was created as part of an attempt to create the world's first truly viable digital currency.<br/>
 
 Bitcoin was not the first attempt to create a digital currency, but it was the first which was able to successfully solve a long-standing problem - the "Double Spend" problem.
@@ -5208,7 +5208,7 @@ Other attempts include:
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-3">5.3 Digital Currencies Overview</h3>
+<h3 name="ch5-3">5.3 Digital Currencies Overview</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Digital currencies are available only in the digital world and not in the physical world. 
 They can be defined as any currency, money, or money-like asset that is primarily managed, 
@@ -5535,7 +5535,7 @@ According to the [CBDC Tracker](https://cbdctracker.org/), the Sand Dollars, a r
 Hyperledger created a [Capital Market Special Interest Working Group](https://wiki.hyperledger.org/display/CMSIG) spearheaded by [Vipin Bharathan](https://www.forbes.com/sites/vipinbharathan/?sh=22cfcca23f76) working on standards for CBDC’s. This working group is just one of many discussing CBDC’s and is open for anyone to [join](https://lists.hyperledger.org/g/capital-markets-sig/).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-4">5.4 Non-Fungible Tokens (NFTs)</h3>
+<h3 name="ch5-4">5.4 Non-Fungible Tokens (NFTs)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 At the beginning of this course we discussed the Internet and the changes it has gone through. We started with Web 1.0 and how it revolutionized the way exchanged value, looking back it is hard to believe we managed without email. Then came Web 2.0 and our social status and personal information flowed on the net as freely as the air we breathe. Web 3.0 started with blockchain and the transfer of value, the first killer application being Bitcoin.
 
@@ -5595,7 +5595,7 @@ With this in mind, blockchain are developing projects that, like smartphones and
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch5-5">5.5 Chapter Summary</h3>
+<h3 name="ch5-5">5.5 Chapter Summary</h3>
 In this chapter, we discussed:
 <ul>
 <li>How some features of blockchain are solving real world problems.</li>
@@ -5609,7 +5609,7 @@ In this chapter, we discussed:
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch6"></a>Chapter 6. Blockchain Use Cases</h2>
+<h2 name="ch6"></a>Chapter 6. Blockchain Use Cases</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 This final section will examine blockchains in action.
 
@@ -5640,7 +5640,7 @@ Blockchains are reshaping the way artists and musicians are benefiting from thei
 *Blockchain will be a part of everyone's future.*
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-1">6.1 Learning Objectives</h3>
+<h3 name="ch6-1">6.1 Learning Objectives</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 By the end of this chapter, you should be able to:
 
@@ -5657,7 +5657,7 @@ By the end of this chapter, you should be able to:
 </div>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2">6.2 Blockchain Use Case Categories (Blockchain in Practice)</h3>
+<h3 name="ch6-2">6.2 Blockchain Use Case Categories (Blockchain in Practice)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Blockchain technology promises sound extremely lofty. Let's take a look at how this 
 technology is improving the way we trust each other and interact. 
@@ -5680,7 +5680,7 @@ Blockchain is a new technology constantly improving and changing. Developers are
   - End user solutions<br/>
 Everyday solutions emerge that put decentralized blockchains and all the benefits they promise in the hands of individuals from new decentralized marketplaces to new ways to express your music, art, and even let you trade property built inside a game.
 
-<h3 id="ch6-3">6.3 Enterprise Solutions Overview</h3>
+<h3 name="ch6-3">6.3 Enterprise Solutions Overview</h3>
 Businesses fueled by blockchain solutions are developing new relationships for more efficient communication and workflows, fostering new business models. Problems with how we transact online, to the cost of doing business, are solved with blockchain. Let’s look at an enterprise supply chain solution built with blockchain.
 
 <h3>Global Supply Chains</h3>
@@ -5887,7 +5887,7 @@ You can learn more about Voltron from the following two articles "Blockchain Bas
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-4">6.4 Public Sector Solutions Overview</h3>
+<h3 name="ch6-4">6.4 Public Sector Solutions Overview</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Blockchain benefits of security, efficiency and speed have government leaders research the far reaching implications that will improve lives and accelerate global blockchain solutions. 
@@ -5939,7 +5939,7 @@ Watch these additional resources to learn more about the Smart Dubai initiative,
 Wyoming has now enacted a total of [13 blockchain-enabling laws](https://caitlin-long.com/what-do-wyomings-blockchain-laws-mean/), making it the only US state to provide a comprehensive, welcoming legal framework that enables blockchain technology to flourish, both for individuals and companies. This effort was led by tireless [Caitlin Long](https://caitlin-long.com/).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-5">6.5 Social Impact Solutions Overview</h3>
+<h3 name="ch6-5">6.5 Social Impact Solutions Overview</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The [Blockchain for Social Impact Coalition (BSIC)](https://blockchainforsocialimpact.com/) is a not-for-profit organization that incubates, develops, and collaborates on blockchain products and solutions that can address social and environmental challenges across the United Nations Sustainable Development Goals. The aim is to inspire, federate, and create bridges between NGOs, and government agencies, foundations, impact investors, philanthropists and technologists.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6226,7 +6226,7 @@ Below you can see themusicianmarketplace.com dashboard:
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-6">6.6 What is the future of blockchain?</h3>
+<h3 name="ch6-6">6.6 What is the future of blockchain?</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 That is a big question.
 
@@ -6272,7 +6272,7 @@ If you ask me, I really believe technologies like blockchain and supporting tech
 And that's why I think there's a ton of potential in blockchain and it's something really exciting, and hopefully, you're all inspired to stay up-to-date with.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-7">6.7 Chapter Summary</h3>
+<h3 name="ch6-7">6.7 Chapter Summary</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In this chapter, we discussed:
 
@@ -6293,4 +6293,4 @@ The end . . .
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-<b>Last Updated: 9/27/2023 Wednesday 12:46pm</b>
+<b>Last Updated: 11/15/2023 Wednesday 9:39am</b>
