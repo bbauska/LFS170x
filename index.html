@@ -48,7 +48,7 @@ function scrollFunction() {
 }
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: topFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-//when the user clicks on the button, scroll to the top of the document; was 860.
+//when the user clicks on the button, scroll to the top of the document; was 860 to toc.
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
@@ -1548,10 +1548,14 @@ following key principles:</p>
   style="width:65%" />
 
 <ul>
-  <li>Triple-entry accounting is an enhancement to the traditional double-entry system, in which all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
+  <li>Triple-entry accounting is an enhancement to the traditional double-entry 
+    system, in which all accounting entries involving outside parties are 
+	cryptographically sealed by a third entry.</li>
   <li>Debits, credits, and an immutable link to all past debits and credits.</li>
-  <li>Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).</li>
-  <li>Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, validated, secure, and private, digitally signed receipts.</li>
+  <li>Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto 
+    (a.k.a., Blockchain).</li>
+  <li>Some features include: tamper-proof records, distributed ledgers, double-
+    entry+cryptography, validated, secure, and private, digitally signed receipts.</li>
 </ul>
 
 <h3>History of Ledgers (Triple-Entry Example)</h3>
@@ -1853,33 +1857,19 @@ choose a kind of cipher to do so”.
 <p>Let’s explain the key terms used in cryptography:</p>
 
 <ul>
-<li>
-Cryptography<br/> Cryptography is a technique used to secure the
-communication between two parties from a third. The term cryptography is
-derived from two ancient greek terms, “kryptos” which means “hidden” and
-“graphein” which means “to write”.
-</li>
-<li>
-Secret<br/> The data which we are trying to protect.
-</li>
-<li>
-Key<br/> A piece of data used for encrypting and decrypting the secret.
-</li>
-<li>
-Function<br/> The process or function used to encrypt the secret.
-</li>
-<li>
-Cipher<br/> The encrypted secret data, the digital secret, the output of
-the mathematical function or a cryptographic algorithm.
-</li>
-<li>
-Encryption<br/> This is the process from plain text (ordinary text) to
-cipher text (random sequence of bits).
-</li>
-<li>
-Decryption<br/> Encryption is the reverse process of converting
-ciphertext into plain text.
-</li>
+  <li>Cryptography<br/> Cryptography is a technique used to secure the communication 
+    between two parties from a third. The term cryptography is derived from two 
+	ancient greek terms, “kryptos” which means “hidden” and “graphein” which means 
+	“to write”.</li>
+  <li>Secret<br/> The data which we are trying to protect.</li>
+  <li>Key<br/> A piece of data used for encrypting and decrypting the secret.</li>
+  <li>Function<br/> The process or function used to encrypt the secret.</li>
+  <li>Cipher<br/> The encrypted secret data, the digital secret, the output of the 
+    mathematical function or a cryptographic algorithm.</li>
+  <li>Encryption<br/> This is the process from plain text (ordinary text) to cipher 
+    text (random sequence of bits).</li>
+  <li>Decryption<br/> Encryption is the reverse process of converting ciphertext 
+    into plain text.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cryptography key terms (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2919,26 +2909,18 @@ piece is linked to every other piece, creating a cohesive whole that is
 more difficult for an attacker to modify.</p>
 
 <ul>
-<li>
-At the bottom level, transactions are digitally signed by their
-creators. An attacker can’t forge a transaction unless they steal a
-private key.
-</li>
-<li>
-A block structure is predefined. Attackers can’t modify it to suit their
-purposes.
-</li>
-<li>
-The chain part of the blockchain is achieved using hash functions. Each
-block includes the hash of the previous block, creating a clear link
-between each block in the blockchain.
-</li>
-<li>
-Each block is digitally signed by its creator. The creator is selected
-through the blockchain’s consensus protocol, making it difficult for an
-attacker to be a legitimate creator.
-</li>
+  <li>At the bottom level, transactions are digitally signed by their creators. 
+    An attacker can’t forge a transaction unless they steal a private key.</li>
+  <li>A block structure is predefined. Attackers can’t modify it to suit their 
+    purposes.</li>
+  <li>The chain part of the blockchain is achieved using hash functions. Each
+    block includes the hash of the previous block, creating a clear link between 
+	each block in the blockchain.</li>
+  <li>Each block is digitally signed by its creator. The creator is selected through 
+    the blockchain’s consensus protocol, making it difficult for an attacker to be a 
+	legitimate creator.</li>
 </ul>
+
 <p>All four of these features help to make the blockchain resistant
 against changes occurring after the fact. <br/>  </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3977,64 +3959,47 @@ will fit into the business model.</p>
 well-thought-out approach that considers many options.</p>
 
 <ul>
-<li>
-Governance<br/> Governance of blockchains deals with a system for
-managing and implementing changes to blockchains. Chapter 4,
-“Blockchains and Governance”, covers how blockchain is managed and how
-changes are implemented.</li>
-<li>
-Smart contract functionality<br/> Each organization has unique needs
-when deciding on smart contract functionality. Such decisions as to the
-design, implementation and testing of these digital promises need to be
-determined. Can smart contracts replace or accentuate current work
-flows? Can a previously written smart contact fit in the current
-business model?</li>
-<li>
-Consensus algorithms<br/> Consensus models change depending on the type
-of blockchain environment you are creating. In order for a blockchain to
-work, the participants must come to an agreement as to the transactions
-in the ledger or the state of the ledger. This agreement is called
-consensus. Public blockchains have miners that are incentivized to reach
-consensus whereas private blockchain set up enterprise nodes that agree
-to the state of the ledger. We will discuss consensus models later in
-this chapter.</li>
-<li>
-Integration<br/> Consideration for current work flows and how to bridge
-blockchain platforms with existing systems are a vital conversation. How
-can blockchain add value to your current organization while leveraging
-your existing systems?</li>
-<li>
-Cryptocurrency requirements<br/> As mentioned previously, a
-cryptocurrency is a medium of exchange digitally enabled by blockchain.
-Cryptocurrencies secure and keep track of assets on a public blockchain.
-Enterprise blockchains generally do not use the cryptocurrency feature.
-Decisions on if and how your blockchain will exchange value among
-participants are important discussions that need to occur during the
-design phase.</li>
-<li>
-Cost modeling<br/> New questions arise around consortium type
-blockchains, one consideration is how to split the technology cost among
-the participants in a fair and equitable manner.</li>
+  <li>Governance<br/> Governance of blockchains deals with a system for managing 
+    and implementing changes to blockchains. Chapter 4, “Blockchains and Governance”, 
+	covers how blockchain is managed and how changes are implemented.</li>
+  <li>Smart contract functionality<br/> Each organization has unique needs when 
+    deciding on smart contract functionality. Such decisions as to the design, 
+	implementation and testing of these digital promises need to be determined. 
+	Can smart contracts replace or accentuate current work flows? Can a previously 
+	written smart contact fit in the current business model?</li>
+  <li>Consensus algorithms<br/> Consensus models change depending on the type of 
+    blockchain environment you are creating. In order for a blockchain to work, 
+	the participants must come to an agreement as to the transactions in the ledger 
+	or the state of the ledger. This agreement is called consensus. Public blockchains 
+	have miners that are incentivized to reach consensus whereas private blockchain 
+	set up enterprise nodes that agree to the state of the ledger. We will discuss 
+	consensus models later in this chapter.</li>
+  <li>Integration<br/> Consideration for current work flows and how to bridge blockchain 
+    platforms with existing systems are a vital conversation. How can blockchain 
+	add value to your current organization while leveraging your existing systems?</li>
+  <li>Cryptocurrency requirements<br/> As mentioned previously, a cryptocurrency 
+    is a medium of exchange digitally enabled by blockchain. Cryptocurrencies secure 
+	and keep track of assets on a public blockchain. Enterprise blockchains generally 
+	do not use the cryptocurrency feature. Decisions on if and how your blockchain 
+	will exchange value among participants are important discussions that need to 
+	occur during the design phase.</li>
+  <li>Cost modeling<br/> New questions arise around consortium type blockchains, 
+    one consideration is how to split the technology cost among the participants 
+	in a fair and equitable manner.</li>
 </ul>
-<br/>  Overall, blockchain decisions will be made by actors in the
-blockchain system:
+
+<p>Overall, blockchain decisions will be made by actors in the
+blockchain system:</p>
+
 <ul>
-<li>
-System Architects design and build blockchain networks. This includes
-decisions on node types and membership rights.
-</li>
-<li>
-System Developers design the smart contracts for the community to use.
-</li>
-<li>
-System Operators interact with the software, permissioning and
-onboarding participants. This includes storing the ledger, creating
-wallets and managing credentials.
-</li>
-<li>
-Blockchain Users join a blockchain by setting up a wallet and/or
-receiving permission to engage in a particular function.
-</li>
+  <li>System Architects design and build blockchain networks. This includes decisions 
+    on node types and membership rights.</li>
+  <li>System Developers design the smart contracts for the community to use.</li>
+  <li>System Operators interact with the software, permissioning and onboarding 
+    participants. This includes storing the ledger, creating wallets and managing 
+	credentials.</li>
+  <li>Blockchain Users join a blockchain by setting up a wallet and/or receiving 
+    permission to engage in a particular function.</li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ chapter 3.5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7622,7 +7587,7 @@ The end . . .
    深圳市恒宇博科技有限公司 粤ICP备17044299号-2
 </pre>
 
-<b><i>lfs170x Last Updated: 10/15/2023 8:58pm +</i></b>
+<b><i>lfs170x Last Updated: 11/15/2023 8:58pm +</i></b>
 
 <!--
 <img class="displayed"
