@@ -1073,11 +1073,11 @@ Current systems are inherently insecure and costly, with duplicated and in-effic
 Blockchain networks offer more secure, agile, and cost-effective structures.<br/>
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------ 26. Government Benefits from Blockchain (30) -------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 26. Government Benefits from Blockchain (30) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image026.webp?raw=true"
-   alt="Government Benefits from Blockchain"
+   alt="Government Benefits from Blockchain."
    width="65%" />
 </p>
 &nbsp;
@@ -1105,12 +1105,12 @@ If you want to see some of the really exciting use cases in blockchain right now
 
 <h4>Use Case: Public Sector - Smart Dubai</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------------- smart dubai (31) ---------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ smart dubai (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.webp"
    width="40%"
-   alt="Smart Dubai" />
+   alt="Smart Dubai." />
 </p>
 &nbsp;
 
@@ -1147,9 +1147,11 @@ Data became a siloed commodity owned by everyone but you.
 With new blockchain technology, individuals can reclaim their identity information breaking the need for data silos, endless passwords and hackable databases. 
 Self-sovereign identity (an individual identity holder controls their credentials and can use them without permission) gives secure identity verification designed to bring trust and personal control so people can prove things about themselves using trustworthy verifiable digital credential.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3><a name="ch1-6">1.6 Chapter Summary</a></h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In this chapter, we discussed:
+
 <ul>
 <li>The history of the Internet and how blockchain technology relies on Internet technology as the foundation for building the future of the blockchain evolution.</li>
 <li>The difference between blockchain and Bitcoin.</li>
@@ -1161,32 +1163,42 @@ In this chapter, we discussed:
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2">Chapter 2. Blockchain Mechanics</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h3>Chapter Overview</h3>
-<p>In this chapter, we will discuss distributed ledger technology, some of its basic components and how it differs from previous ledger storage techniques.<br/>
+<p>In this chapter, we will discuss distributed ledger technology, some of its basic 
+components and how it differs from previous ledger storage techniques.<br/>
 
-We will gain an understanding of how previous computer technologies like file sharing, data storage and cryptography are wrapped into the blockchain foundations.<br/>
+We will gain an understanding of how previous computer technologies like file sharing, 
+data storage and cryptography are wrapped into the blockchain foundations.<br/>
 
-We will also see how hashing functions and Merkle tree data structures help us immutably store and prove facts without revealing all the details.<br/>
+We will also see how hashing functions and Merkle tree data structures help us immutably 
+store and prove facts without revealing all the details.<br/>
 
-Next, we will learn how these blockchain techniques are fundamental in public-key cryptography where key pairs support privacy and authenticity by only exposing the public key while keeping the private key secure.<br/>
+Next, we will learn how these blockchain techniques are fundamental in public-
+key cryptography where key pairs support privacy and authenticity by only exposing 
+the public key while keeping the private key secure.<br/>
 
-We will examine how this agreed-upon, append-only distributed ledger guarantees transparency and immutability, where trust in the information contained in the ledger is a given.<br/>
+We will examine how this agreed-upon, append-only distributed ledger guarantees 
+transparency and immutability, where trust in the information contained in the 
+ledger is a given.<br/>
 </p>
 
 <h3>Learning Objectives</h3>
-By the end of this chapter, you should be able to:
+
+<p>By the end of this chapter, you should be able to:</p>
+
 <ul>
-<li>Discuss how cryptography allows for distributed ledgers to work on a global scale.</li>
-<li>Explain how blockchain is using cryptography.</li>
-<li>Define key terms of cryptography and understand basic concepts.</li>
-<li>Explain the concept of zero-knowledge proofs (ZKPs) and Merkle trees and how they are used in blockchain technologies.</li>
-<li>Discuss how blockchain utilizes transparency.</li>
-<li>Explain what it means for blockchains to be immutable and how chaining provides this capability.</li>
+  <li>Discuss how cryptography allows for distributed ledgers to work on a global 
+    scale.</li>
+  <li>Explain how blockchain is using cryptography.</li>
+  <li>Define key terms of cryptography and understand basic concepts.</li>
+  <li>Explain the concept of zero-knowledge proofs (ZKPs) and Merkle trees and 
+    how they are used in blockchain technologies.</li>
+  <li>Discuss how blockchain utilizes transparency.</li>
+  <li>Explain what it means for blockchains to be immutable and how chaining provides 
+    this capability.</li>
 </ul>
 
 <h3 name="ch2-1">2.1 Introduction to Blockchain Components</h3>
@@ -1343,11 +1355,11 @@ To understand how blockchain came about, we must first understand the following 
 
 <h3>History of Ledgers</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 28. single-entry accounting ledgers (37)---------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 28. single-entry accounting ledgers (37) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image028.webp?raw=true"
-   alt="Single-Entry Accounting Ledger"
+   alt="Single-Entry Accounting Ledger."
    width="65%" />
 </p>
 &nbsp;
@@ -1358,11 +1370,11 @@ To understand how blockchain came about, we must first understand the following 
 <li>Chanakya, an Indian leader, creates the first documented accounting standards.</li><br/>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 29. double-entry accounting ledger (37) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 29. double-entry accounting ledger (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image029.webp?raw=true"
-   alt="Double-Entry Accounting Ledger"
+   alt="Double-Entry Accounting Ledger."
    width="65%" />
 &nbsp;
 
@@ -1378,18 +1390,20 @@ first person to publish a work on double-entry bookkeeping and introduced the fi
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image030.webp?raw=true"
-   alt="Triple-Entry Accounting Ledger"
+   alt="Triple-Entry Accounting Ledger."
    width="65%" />
 </p>
 &nbsp;
 
 <ul>
-<li>Triple-entry accounting is an enhancement to the traditional double-entry system, in which 
-all accounting entries involving outside parties are cryptographically sealed by a third entry.</li>
-<li>Debits, credits, and an immutable link to all past debits and credits.</li>
-<li>Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto (a.k.a., Blockchain).</li>
-<li>Some features include: tamper-proof records, distributed ledgers, double-entry+cryptography, 
-validated, secure, and private, digitally signed receipts.</li>
+  <li>Triple-entry accounting is an enhancement to the traditional double-entry 
+    system, in which all accounting entries involving outside parties are cryptographically 
+	sealed by a third entry.</li>
+  <li>Debits, credits, and an immutable link to all past debits and credits.</li>
+  <li>Triple-entry ledger appears in 2008 in a white paper by Satoshi Nakamoto 
+    (a.k.a., Blockchain).</li>
+  <li>Some features include: tamper-proof records, distributed ledgers, double-
+    entry+cryptography, validated, secure, and private, digitally signed receipts.</li>
 </ul>
 
 <div align="right">
@@ -1412,11 +1426,11 @@ destroying them to conceal activity is practically impossible".
 
 <h3>Double vs. Triple-Entry Accounting Comparison</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------- double vs triple-entry accounting comparison (39) ----------------------->
+<!--~~~~~~~~~~~~~~~~~~~~ double vs triple-entry accounting comparison (39) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-double vs triple accounting.webp?raw=true"
-   alt="Double vs. Triple-Entry Accounting Comparison"
+   alt="Double vs. Triple-Entry Accounting Comparison."
    width="65%" />
 </p>
 &nbsp;
@@ -1490,22 +1504,22 @@ administrator is one of the first examples of distributed ledger.<br/>
 
 <h3>Island of Yap: Recap</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- all tribe members keep copy in their head (41) ------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ all tribe members keep copy in their head (41) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-yap-1.webp?raw=true"
-   alt="All Tribe Members Keep Copy in Their Head"
+   alt="All Tribe Members Keep Copy in Their Head."
    width="50%" />
 </p>
 &nbsp;
 <br/>
 <p align="left">   1. The group shared the ledger.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- all tribe members who owned the rai stone (41) ------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ all tribe members who owned the rai stone (41) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-yap-2.webp?raw=true"
-   alt="All Tribe Members Keep Copy in Their Head"
+   alt="All Tribe Members Keep Copy in Their Head."
    width="50%" />
 </p>
 &nbsp;
@@ -1516,17 +1530,17 @@ administrator is one of the first examples of distributed ledger.<br/>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-yap-3.webp?raw=true"
-   alt="All Tribe Members Keep Copy in Their Head"
+   alt="All Tribe Members Keep Copy in Their Head."
    width="50%" >
 &nbsp;
 <br/>
 <p align="left">   3. All changes or transactions to the ledger were announced to the group.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- all tribe members who owned the rai stone (42) ------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ all tribe members who owned the rai stone (42) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-yap-4.webp?raw=true"
-   alt="All Tribe Members Keep Copy in Their Head"
+   alt="All Tribe Members Keep Copy in Their Head."
    width="50%" />
 </p>
 &nbsp;
@@ -1671,7 +1685,7 @@ If you want to encrypt and decrypt information, you are going to have to choose 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-cryptography-romans.webp?raw=true"
-   alt="Cryptography By Julius Caesar: Caesar Cipher"
+   alt="Cryptography By Julius Caesar: Caesar Cipher."
    width="65%" />
 </p>
 &nbsp;
@@ -1695,11 +1709,11 @@ This is the process from plain text (ordinary text) to cipher text (random seque
 Encryption is the reverse process of converting ciphertext into plain text.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- cryptography key terms (46) ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cryptography key terms (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-cryptography-key-terms.webp?raw=true"
-   alt="The Secret and the Key are passed into the Function to create the Cipher"
+   alt="The Secret and the Key are passed into the Function to create the Cipher."
    width="65%" />
 </p>
 &nbsp;
@@ -1770,12 +1784,14 @@ These are key components which enable security and immutability on the blockchai
 </div>
 
 <h3>Cryptographic Functions</h3>
-Simple example function:
+
+<p>Simple example function:</p>
+
 <ul>
-<li>Secret = "Blockchain technology is transformative"</li>
-<li>Function = Swap each letter in the secret with a new letter according to the Key</li>
-<li>Key = "+2"</li>
-<li>Cipher = "Dnqemejckp vgejpqnqia ku vtcpuhqtocvkxg".</li>
+  <li>Secret = "Blockchain technology is transformative"</li>
+  <li>Function = Swap each letter in the secret with a new letter according to the Key</li>
+  <li>Key = "+2"</li>
+  <li>Cipher = "Dnqemejckp vgejpqnqia ku vtcpuhqtocvkxg".</li>
 </ul>
 
 As mentioned in the ["Ancient Uses of Cryptography: Four Examples that Pre-Date the Internet"](https://medium.com/tokenring/ancient-uses-of-cryptography-four-examples-that-pre-date-the-internet-14679ae4f509) article by Melanie Shapiro,
@@ -1856,7 +1872,7 @@ Transactions on the blockchain include their public key and are digitally signed
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-rsa-key.webp?raw=true"
-   alt="Public Key Cryptography"
+   alt="Public Key Cryptography."
    width="65%" />
 </p>
 &nbsp;
@@ -1867,7 +1883,7 @@ Transactions on the blockchain include their public key and are digitally signed
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-rsa-public-key.webp?raw=true"
-   alt="Public Key Cryptography - Verify Signature with 3-step Process"
+   alt="Public Key Cryptography - Verify Signature with 3-step Process."
    width="65%" />
 </p>
 &nbsp;
@@ -1892,7 +1908,7 @@ Using a person's public key, it is possible to encrypt a message so that only th
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-key.webp?raw=true"
-   alt="Key"
+   alt="Key."
    width="20%" />
 </p>
 &nbsp;
@@ -1905,7 +1921,7 @@ Digital Signatures and Key Pairs<br/>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-step-1.webp?raw=true"
-	alt="Step 1: The sender generates a public key from a private key"
+	alt="Step 1: The sender generates a public key from a private key."
 	width="50%" />
 </p>
 &nbsp;
@@ -1916,7 +1932,7 @@ Digital Signatures and Key Pairs<br/>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-step-2.webp?raw=true"
-   alt="Step 2: The sender encrypts message using the key pairs.  Then sends it"
+   alt="Step 2: The sender encrypts message using the key pairs.  Then sends it."
    width="50%" />
 </p>
 &nbsp;
@@ -1927,7 +1943,7 @@ Digital Signatures and Key Pairs<br/>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-step-3.webp?raw=true"
-	alt="Step 3: The recipient uses the public key with the private keys to decrypt the message"
+	alt="Step 3: The recipient uses the public key with the private keys to decrypt the message."
 	width="50%" />
 </p>
 &nbsp;
@@ -2060,7 +2076,7 @@ A hash function is a mathematical equation with <b>four</b> important properties
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-hash.webp?raw=true"
-   alt="Cryptographic Hashing"
+   alt="Cryptographic Hashing."
    width="100%" />
 </p>
 <div align="right">
@@ -2167,7 +2183,7 @@ A special type of data storage structure based on hash functions is called a Mer
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-merkle-tree.webp?raw=true"
-   alt="Merkle Tree"
+   alt="Merkle Tree."
    width="100%" />
 </p>
 &nbsp;
@@ -2264,7 +2280,7 @@ Merkle tree called the Patricia tree to store the current state of their virtual
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-disintermediation.webp?raw=true"
-   alt="Disintermediation - Trust Through Transparency"
+   alt="Disintermediation - Trust Through Transparency."
    width="100%" />
 </p>
 <div align="right">
@@ -2413,7 +2429,7 @@ This means that the blockchain is a completely transparent data structure with t
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-transp-blockchain.webp?raw=true"
-   alt="Transparency of a Blockchain"
+   alt="Transparency of a Blockchain."
    width="65%" />
 </p>
 <div align="right">
@@ -2435,7 +2451,7 @@ Its append-only structure and decentralized storage sacrifice storage efficiency
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-transparency-database-vs-blockchain.webp?raw=true"
-   alt="Transparency: Database vs. Blockchain"
+   alt="Transparency: Database vs. Blockchain."
    width="85%" />
 </p>
 
@@ -2505,7 +2521,7 @@ Blockchain is designed to be an authoritative ledger of the history of the netwo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-immutability-blockchain.webp?raw=true"
-   alt="Immutability in the Blockchain"
+   alt="Immutability in the Blockchain."
    width="85%" />
 </p>
 
@@ -2595,7 +2611,7 @@ All four of these features help to make the blockchain resistant against changes
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-immutable.webp?raw=true"
-   alt="Immutable in the Blockchain"
+   alt="Tampered and Unbroken Blockchains."
    width="85%" />
 </p>
 <h3>Why Is the Blockchain Immutable?</h3>
@@ -2668,11 +2684,11 @@ As explained in the article [“A Gentle Introduction to Immutability of Blockch
 <br/>
 &nbsp;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ hashing & chaining (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ hashing & chaining (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-hashing-chaining.webp?raw=true"
-   alt="Hashing and Chaining in a Block"
+   alt="Hashing and Chaining in a Block."
    width="85%" />
 </p>
 <div align="right">
@@ -3019,7 +3035,7 @@ Blockchain is commonly called the future of computing. It takes a very different
 In this section, we will discuss some of the ways that security differs in traditional and blockchain environments.
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ blockchain security (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ blockchain security (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-blockchain-security.webp?raw=true"
@@ -3401,7 +3417,7 @@ Discussion on these topics need to be addressed when making the decision to adop
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-questions-to-ask.webp?raw=true"
-  alt="Questions to Ask."
+  alt="Questions to ask when deciding on blockchain."
   width="65%" />
 </p>
 
@@ -3648,7 +3664,7 @@ These include Proof of Stake, Delegated Proof of Stake, Practical Byzantine Faul
 
 The most commonly used consensus algorithms are Proof of Work and Proof of Stake.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- consensus mechanisms (105) ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ consensus mechanisms (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-consensus-mechanisms.webp?raw=true"
@@ -3673,7 +3689,7 @@ The argument against this assumes Bitcoin miners are out to make a profit and by
 
 As a result of seeking out carbon-friendly energy sources, mining companies will bring new renewable energy solutions to the power grids.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- proof of work (107) ---------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ proof of work (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-proof-of-work.webp?raw=true"
@@ -3703,7 +3719,7 @@ In Proof of Stake, an attacker needs to control enough of the staked currency to
 
 Since cryptocurrency is a limited asset, buying up enough of it to do this is expensive, making attacks on Proof of Stake systems economically infeasible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- proof of stake (108) ---------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ proof of stake (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-proof-of-stake.webp?raw=true"
@@ -3722,7 +3738,7 @@ As described by [Demiro Massessi](https://medium.com/coinmonks/blockchain-consen
 "Blockchain is a distributed, decentralized system that maintains a shared state. While consensus algorithms are designed to make it possible for the network to agree on the state, there is the possibility that agreement does not occur. Fault tolerance is an important aspect of blockchain technology".
 </blockquote>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- byzantine fault tolerance (109) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ byzantine fault tolerance (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/images/image-byzantine-fault.webp?raw=true"
@@ -4979,7 +4995,7 @@ As children and adults, we all want a little autonomy in our lives, careers, or 
 <h3>Autonomy: Human Process-Driven Complexity</h3>
 The blockchain world is looking to solve all of this complexity with autonomy from intermediaries via automated smart contracts. In the traditional world of doing any kind of transaction with another party, there tends to be a lot of administrative paperwork, with third parties intervening every step of the way. Some of this is needed, but most of it becomes wasted time and effort which could be spent elsewhere.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------ red x ----------------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ red x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="20%" 
@@ -5105,7 +5121,7 @@ With that built-in "trustless" trust, we’re able to remove those middlemen tha
 <h3>Cross Border Payments and Ledgers</h3>
 Traditional centralized ledger systems have weaknesses. Accuracy is dependent on intermediaries who can change details of the centralized ledger. Data derived from the ledger is siloed and misused.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------- multi-party transactions - centralized ledgers (153) --------------------->
+<!--~~~~~~~~~~~~~~~~~~~ multi-party transactions - centralized ledgers (153) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="65%" 
@@ -5117,7 +5133,7 @@ Distributed decentralized ledgers are not dependent on intermediaries who can ma
 
 Data is secure and tamper resistant.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- multi-party transactions - decentralized ledgers (154) -------------------->
+<!--~~~~~~~~~~~~~~~~~~ multi-party transactions - decentralized ledgers (154) ~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="60%" 
@@ -5161,7 +5177,7 @@ It is this possibility of building tools and solutions that were never before th
 <h3>Blockchain Solves The Double Spend Problem</h3>
 Back in the early 1990’s, developers, cryptographers, and different groups of people were trying to solve the double-spend problem as it related to digital cash, previously known also as electronic cash. Double spending within Bitcoin is the act of using the same bitcoins (digital money files) more than once.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------------- double spend ------------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ double spend ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img width="60%"
@@ -5220,7 +5236,7 @@ virtual currency and central bank digital currency.
 <p align="center" width="100%">
 <img width="50%"
    src="./images/image-digital-currency.webp"
-   alt="Digital Currency" />
+   alt="Digital Currency." />
 </p>
  
 <h3>Cryptocurrency Defined</h3>
@@ -5239,7 +5255,7 @@ A cryptocurrency wallet is an application on your computer or smart phone that c
 <p align="center" width="100%">
 <img width="40%" 
    src="./images/image-phone.webp"
-   alt="Smart Phone"</>
+   alt="Smart Phone."</>
 </p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -5253,7 +5269,7 @@ Some wallets allow you to hold multiple cryptocurrencies in the same application
 <p align="center" width="100%">
 <img width="30%"
    src="./images/image-multi-currency-wallets.webp"
-   alt="Multi-Currency Wallets" />
+   alt="Multi-Currency Wallets." />
 </p>
 
 <h3>Atomic Swaps</h3>
@@ -5268,7 +5284,7 @@ Additional features in these wallets lets you “swap” one cryptocurrency for 
 <p align="center" width="100%">
 <img width="30%"
    src="./images/image-consensys.webp"
-   alt="Consensys" />
+   alt="Consensys." />
 </p>
 
 ConsenSys, spearheaded by [Joe Lubin](https://consensys.net/about/joseph-lubin-founder-of-consensys/), an early Ethereum programmer, is a software engineering company that helps developers build next-generation networks and enable enterprises to launch more powerful financial infrastructure. 
@@ -5288,7 +5304,7 @@ In order to purchase, view or interact with a digital kitten you must open your 
 <p align="center" width="100%">
 <img width="20%"
    src="./images/image-kittens-frog.webp"
-   alt="Frog logo" />
+   alt="Frog logo." />
 </p>
 
 Kittens purchased on the cryptokitties.co site will be stored in the Metamask wallet associated with your account or can be put up for sale at an NFT marketplace. Any fees or revenue from your kittens will automatically be reflected in your Metamask wallet totals. Cryptokitties are the first example of a non-fungible token which we will cover in the next section.
@@ -5316,7 +5332,7 @@ Below you can see a screenshot of the [Gemini Custodial Crypto Account Dashboard
 <p align="center" width="100%">
 <img width="100%"
    src="./images/image-advanced.webp"
-   alt="Gemini Custodial Crypto Account Dashboard" />
+   alt="Gemini Custodial Crypto Account Dashboard." />
 </p>
 
 <h3>Advanced</h3>
@@ -5335,7 +5351,7 @@ Below is the screenshot of the Liquid Exchange:
 <p align="center" width="100%">
 <img width="100%" 
    src="./images/image-liquid-exchange.webp"
-   alt="Liquid Exchange" />
+   alt="Liquid Exchange." />
 </p>
  
 <h3>Hardware Wallets</h3>
@@ -5348,7 +5364,7 @@ This is what the [ledger wallet](https://shop.ledger.com/products/ledger-nano-s/
 <p align="center" width="100%">
 <img width="10%"
   src="./images/image-ledger-wallet.webp"
-  alt="Ledger Wallet" />
+  alt="Ledger Wallet." />
 </p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -6012,11 +6028,11 @@ The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. Charity logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. charity logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image112.webp?raw=true"
-   alt="Charity logo"
+   alt="Charity logo."
    width="85%" />
 </p>
 
@@ -6027,7 +6043,7 @@ Created by three local meetup groups, [Ledger Academy](https://ledgeracademy.com
 <p align="center" width="100%">
 <img width="65%" src="/images/image115.webp?raw=true"
   width="50%"
-  alt="The Giving Chain" />
+  alt="The Giving Chain." />
 </p>
 
 <div align="right">
@@ -6057,7 +6073,7 @@ ConsenSys Mesh companies offer solutions to help build out the Ethereum Ecosyste
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image114.webp?raw=true"
-   alt="ConsenSys Mesh Companies"
+   alt="ConsenSys Mesh Companies."
    width="85%" />
 </p>
 
@@ -6069,7 +6085,7 @@ ConsenSys Mesh companies offer solutions to help build out the Ethereum Ecosyste
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image-hyperledger-house.webp?raw=true"
-   alt="Hyperledger Greenhouse"
+   alt="Hyperledger Greenhouse."
    width="100%" />
 </p>
 
