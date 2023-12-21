@@ -137,7 +137,11 @@ Once the agreed-upon transactions blocks are recorded in the immutable ledger, t
 </p>
 &nbsp;
 
-What started as a **[DARPA (Defense Advanced Research Project Agency)](https://www.darpa.mil)** experiment in decentralized computing communications between two university labs in California in 1970, became the Transmission Control Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
+What started as a **<a href="https://www.darpa.mil">DARPA (Defense Advanced 
+Research Project Agency</a>** experiment in decentralized computing communications 
+between two university labs in California in 1970, became the Transmission Control 
+Protocol/Internet Protocol, INTERNET PROTOCOL SUITE (TCP/IP) developed as a standard 
+in networking protocol or computer communication standards, and it is the backbone of today’s Internet.
 
 With the TCP/IP protocols in place, users had the ability to link hypertext documents in an information system accessible from any node or computer using the TCP/IP protocol. The resulting information system or database is today’s World Wide Web.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -189,7 +193,8 @@ Computers and items for connection became necessities.
 Technology advancements in computers brought on changes, floppy disks became hard drives that stored MB that turned into GB that turned into TB. 
 Internet speeds switched from kilobits to tens of megabits per second, to gigabits per second and RAM grew from hundreds of kilobytes to gigabytes and the dot-com bubble began. 
 
-Companies appeared attempting to cash in on this new technology, most notable was a company called [Netscape](https://isp.netscape.com/) which developed the first commercial Web browser.
+Companies appeared attempting to cash in on this new technology, most notable was a company called 
+<a href="https://isp.netscape.com/">Netscape</a> which developed the first commercial Web browser.
 <br/>
 
 <div align="right">
@@ -242,7 +247,9 @@ Websites let users generate content, social networks became part of our lives.
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer.
-[Napster](https://us.napster.com/) software supplied its users with a centralized index of all music files and directed users to where these files were located on the connected peers' computers.<br/>
+<a href="https://us.napster.com/">Napster</a> software supplied its users 
+with a centralized index of all music files and directed users to where 
+these files were located on the connected peers' computers.<br/>
 <b>Result:</b> The industry cracks down music sharing companies copyright infringement.
 Napster is forced to take down its index, shutting down the platform.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -256,7 +263,10 @@ Napster is forced to take down its index, shutting down the platform.
 &nbsp;
 
 <b>Approach:</b> Music stored on many computers connected peer-to-peer. 
-[BitTorrent's](https://www.bittorrent.com/) software was purely decentralized, the files were stored as packet on the peers' computers and when a request was made for a song, the software would find the packet and send it to the user.<br/>
+<a href="https://www.bittorrent.com/">BitTorrent's</a> software was purely 
+decentralized, the files were stored as packet on the peers' computers and 
+when a request was made for a song, the software would find the packet and 
+send it to the user.<br/>
 <b>Result:</b> The industry cracks down music sharing companies copyright infringement. 
 <p>
 BitTorrent is asked to shut down their platform.
@@ -454,7 +464,7 @@ Let us look at what it means to be a currency.
    <li>Accepted as a measure of worth.</li>
 </ul>
 
-According to [Investopedia](https://www.investopedia.com/terms/f/fiatmoney.asp), 
+According to <a href="https://www.investopedia.com/terms/f/fiatmoney.asp">Investopedia</a>, 
 > “Fiat currency is money a government issues that is not backed by a commodity like gold. 
 > Fiat money is backed by the government and it has value because the government says so and the citizens believe it. 
 > The dollar is an example of the United States fiat currency”.
@@ -493,7 +503,8 @@ Cryptocurrencies like Bitcoin have value because it can be proven with math. Unl
 </p>
 &nbsp;
 
-[Bitcoin](https://bitcoinfoundation.org/) and cryptocurrencies are great use cases for blockchain, but they are just one component of the technology.
+<a href="https://bitcoinfoundation.org/">Bitcoin</a> and cryptocurrencies 
+are great use cases for blockchain, but they are just one component of the technology.
 Some privately run blockchains do not use cryptocurrencies as a function of their blockchains.
 Blockchain technology can easily transfer anything from property rights, stocks, and even artwork. 
 There are many more use cases that utilize blockchain technology far reaching than currency transfer.
@@ -663,8 +674,10 @@ The ledger is distributed among participants in the network, all running the sam
 
 It is decentralized in that an identical copy of the ledger exists on every node/computer on the network. 
 
-In 2009 with the publishing of Satoshi Nakamoto’s whitepaper [“Bitcoin: A Peer-to-Peer Electronic Cash System”](https://bitcoin.org/bitcoin.pdf) ,[Bitcoin](https://bitcoinfoundation.org/) became the first application to leverage blockchain technology by recording the first asset transfer on a public blockchain ledger.
-</p>
+In 2009 with the publishing of Satoshi Nakamoto’s whitepaper 
+<a href="https://bitcoin.org/bitcoin.pdf">"Bitcoin: A Peer-to-Peer Electronic Cash System"</a>,
+<a href="https://bitcoinfoundation.org/">Bitcoin</a> became the first application to leverage 
+blockchain technology by recording the first asset transfer on a public blockchain ledger.</p>
 
 <h3>Blockchain Features: Peer to Peer Network</h3>
 <p>
@@ -759,7 +772,7 @@ Some blockchains offer an additional feature, <i>smart contracts</i>, that impos
 
 If you think of the Bitcoin blockchain as a calculator recording financial transactions, you can think of these blockchains as computers. 
 
-The first of these blockchains is <b><i>[Ethereum](https://ethereum.org/en/)</i></b>, created by Vitalik Buterin, Joe Lubin and team. 
+The first of these blockchains is <b><i><a href="https://ethereum.org/en/">Ethereum</a></i></b>, created by Vitalik Buterin, Joe Lubin and team. 
 
 Ethereum runs the EVM, Ethereum Virtual Machine, which has the ability to impose digital agreements or smart contracts. 
 
@@ -945,13 +958,17 @@ Vertical markets see the advantage to the transparency feature in blockchain. Fi
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image023.webp?raw=true"
-   alt="Trustchain logo"
-   width="20%" />
+  alt="Trustchain logo"
+  width="20%" />
 </p>
 &nbsp;
 
-   * <b>Approach:</b> The blockchain collaboration, known as [TrustChainTM](https://www.trustchainjewelry.com/), will track and authenticate diamonds, precious metals and jewelry at all stages of the global supply chain, from the mine to the retailer/consumer.
-   * <b>Result:</b> The jewelry industry can now track and authenticate diamonds and precious metals through every stage of the supply chain. 
+   * <b>Approach:</b> The blockchain collaboration, known as 
+     <a href="https://www.trustchainjewelry.com/">TrustChainTM</a>, 
+	 will track and authenticate diamonds, precious metals and jewelry 
+	 at all stages of the global supply chain, from the mine to the retailer/consumer.
+   * <b>Result:</b> The jewelry industry can now track and authenticate 
+     diamonds and precious metals through every stage of the supply chain. 
 Blockchain provides physical product verification, process verification and servers as an ethical oversight.
 
 <h3>Blockchain Users: Business to Business (B2B)</h3>
@@ -963,8 +980,8 @@ The shared ledger approach also eliminates the need for multiple paper copies th
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image024.webp?raw=true"
-   alt="Business Benefits from Blockchain"
-   width="65%" />
+  alt="Business Benefits from Blockchain"
+  width="65%" />
 </p>
 &nbsp;
 
@@ -982,8 +999,8 @@ Industries like finance, international trade and commerce, food supply chains ar
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image025.webp?raw=true"
-   alt="Walmart Canada & DLT Labs logos."
-   width="40%" />
+  alt="Walmart Canada & DLT Labs logos."
+  width="40%" />
 &nbsp;
 </p>
 
@@ -1115,7 +1132,7 @@ If you want to see some of the really exciting use cases in blockchain right now
 &nbsp;
 
    * <b>Approach:</b> To make Dubai the happiest city on Earth by recreating everyday experiences for residents and visitors of Dubai, making them more personalized seamless, efficient and impactful.
-The [Smart Dubai](https://www.digitaldubai.ae/) strategy will be using three essential pillars: government efficiency, industry creation and international leadership.
+The <a href="https://www.digitaldubai.ae/">Smart Dubai</a> strategy will be using three essential pillars: government efficiency, industry creation and international leadership.
    * <b>Result:</b> By the end of 2021, Dubai government will go completely paper-free, eliminating more than one billion pieces of paper used for government transactions every day. <br/>
 
 When successful, Dubai will be the first blockchain-powered government driving the future economy.
@@ -1412,8 +1429,10 @@ first person to publish a work on double-entry bookkeeping and introduced the fi
 
 <h3>History of Ledgers (Triple-Entry Example)</h3>
 
-<b>As described in the </b>[Reddit post]
-(https://www.reddit.com/r/Accounting/comments/2biy4h/triple_entry_bookkeeping_using_cryptocurrencies/),
+<b>As described in the </b>
+<a href="https://www.reddit.com/r/Accounting/comments/2biy4h/triple_entry_bookkeeping_using_cryptocurrencies/">
+Reddit post</a>,
+
 <blockquote>
 "A seller books a debit to account for cash received, while a buyer books a credit for cash spent in 
 the same transaction, but in separate sets of accounting records. 
@@ -5706,11 +5725,13 @@ Supply chain data is not always visible or trusted. In recent times of disruptio
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image096.webp?raw=true"
-   width="50%"
-   alt="Maersk + IBM" />
+  width="50%"
+  alt="Maersk + IBM" />
 </p>
-  
-Learn more about the collaboration between Maersk and IBM from the ["Digitizing Global Trade with Maersk and IBM"](https://www.ibm.com/blogs/blockchain/2018/01/digitizing-global-trade-maersk-ibm/) blog post by Michael White.
+
+Learn more about the collaboration between Maersk and IBM from 
+the <a href="https://www.ibm.com/blogs/blockchain/2018/01/digitizing-global-trade-maersk-ibm/">
+"Digitizing Global Trade with Maersk and IBM"</a> blog post by Michael White.
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -5755,7 +5776,8 @@ This system could significantly reduce delays and fraud saving billions of dolla
 
 And, according to the WTO, reducing barriers within the international supply chain could increase worldwide GDP by almost 5% and total trade volume by 15%.
 
-The resulting solution is called [TradeLens](https://www.tradelens.com/). You can take the TradeLens tour [here](https://tour.tradelens.com/).
+The resulting solution is called <a href="https://www.tradelens.com/">TradeLens</a>. You can 
+take the TradeLens tour <a href="https://tour.tradelens.com/">here</a>.
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -5841,7 +5863,8 @@ Blockchain is transforming the healthcare industry. Some challenges the healthca
 </p>
   
 Moderna uses blockchain to support smart COVID vaccine management. 
-To learn more see ["Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter' Management of COVID-19 Vaccines"](https://www.marketwatch.com/story/moderna-ibm-explore-blockchain-tech-ai-to-support-smarter-management-of-covid-19-vaccines-2021-03-04) article by Tomi Kilgore.
+To learn more see 
+<a href="https://www.marketwatch.com/story/moderna-ibm-explore-blockchain-tech-ai-to-support-smarter-management-of-covid-19-vaccines-2021-03-04">"Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter' Management of COVID-19 Vaccines"</a> article by Tomi Kilgore.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. sap logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5852,7 +5875,11 @@ To learn more see ["Moderna, IBM Explore Blockchain Tech, AI to Support 'Smarter
 </p>
 
 SAP has an existing solution unrelated to blockchain called Advanced Track and Trace for Pharmaceuticals (ATTP) which generates the unique identifiers. 
-To further explore this solution read the following article by Nicky Morris ["SAP Leads Pharma Supply Chain Blockchain"](https://www.ledgerinsights.com/sap-pharma-supply-chain/) and watch ["Verifying Pharmaceutical Products Using Blockchain"](https://www.sap.com/assetdetail/2018/05/c48ee5c2-047d-0010-87a3-c30de2ffd8ff.html) video. 
+To further explore this solution read the following article by Nicky Morris 
+<a href="https://www.ledgerinsights.com/sap-pharma-supply-chain/">
+"SAP Leads Pharma Supply Chain Blockchain"</a> and watch 
+<a href="https://www.sap.com/assetdetail/2018/05/c48ee5c2-047d-0010-87a3-c30de2ffd8ff.html">
+"Verifying Pharmaceutical Products Using Blockchain"</a> video. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 103. pfizer logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5862,7 +5889,11 @@ To further explore this solution read the following article by Nicky Morris ["SA
    alt="Pfizer logo" />
 </p>
 
-Also, Pfizer has been using blockchain in transparent [clinical trials](https://www.pfizer.com/science/clinical-trials/guide). You can learn more about this project by reading the following blog post, ["Clinical Trial Data Should Be Accessible and Transparent"](https://www.pfizer.com/science/clinical-trials/data-and-results).
+Also, Pfizer has been using blockchain in transparent 
+<a href="https://www.pfizer.com/science/clinical-trials/guide">clinical trials</a>. 
+You can learn more about this project by reading the following blog post, 
+<a href="https://www.pfizer.com/science/clinical-trials/data-and-results">
+"Clinical Trial Data Should Be Accessible and Transparent"</a>.
 
 <h3>Finance Markets</h3>
 Reduction of settlement times will improve the flow of money through fintech companies.
@@ -5879,11 +5910,16 @@ Reduction of settlement times will improve the flow of money through fintech com
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-Swiss Exchange, [SIX](https://tokenist.com/swiss-exchange-six-to-incorporate-blockchain-and-launch-sto/) has a solution that solves the issue in the trade markets of long settlement times. 
-The new blockchain platform runs parallel to the existing SIX platform, which involves three steps to complete a trade, often over several days. 
-Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can be completed in fractions of a second.
-Trade finance is showing promise for blockchain solutions in letter of credits by making available financial mechanisms previously excluded for most people. 
-In a paper from [Andrea Frosinini](https://www.tradefinanceglobal.com/posts/author/andrea-frosinini/), ["Reshaping Trade Finance: Towards a “New” Letter of Credit"](https://wiki.hyperledger.org/display/TFSIG/Reshaping+Trade+Finance.+Towards+a+new+Letter+of+Credit?preview=/29035705/29035706/Reshaping%20Trade%20Finance%20(towards%20a%20new%20Letter%20of%20Credit).pdf), he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
+Swiss Exchange, <a href="https://tokenist.com/swiss-exchange-six-to-incorporate-blockchain-and-launch-sto/">
+SIX</a> has a solution that solves the issue in the trade markets of long settlement times. 
+The new blockchain platform runs parallel to the existing SIX platform, which involves 
+three steps to complete a trade, often over several days. 
+Two of those steps vanish in a blockchain distributed ledger, meaning a transaction can 
+be completed in fractions of a second.
+Trade finance is showing promise for blockchain solutions in letter of credits by making 
+available financial mechanisms previously excluded for most people. 
+In a paper from <a href="https://www.tradefinanceglobal.com/posts/author/andrea-frosinini/">
+Andrea Frosinini</a>, <a href="https://wiki.hyperledger.org/display/TFSIG/Reshaping+Trade+Finance.+Towards+a+new+Letter+of+Credit?preview=/29035705/29035706/Reshaping%20Trade%20Finance%20(towards%20a%20new%20Letter%20of%20Credit).pdf">"Reshaping Trade Finance: Towards a “New” Letter of Credit"</a>, he supplied trade finance paired with blockchain that provides delivery and payment assurance to buyers and sellers, reducing operation and transactional cost and opening up market opportunities.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. voltron logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5957,7 +5993,12 @@ Wyoming has now enacted a total of [13 blockchain-enabling laws](https://caitlin
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 name="ch6-5">6.5 Social Impact Solutions Overview</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-The [Blockchain for Social Impact Coalition (BSIC)](https://blockchainforsocialimpact.com/) is a not-for-profit organization that incubates, develops, and collaborates on blockchain products and solutions that can address social and environmental challenges across the United Nations Sustainable Development Goals. The aim is to inspire, federate, and create bridges between NGOs, and government agencies, foundations, impact investors, philanthropists and technologists.
+The <a href="https://blockchainforsocialimpact.com/">Blockchain for Social Impact Coalition 
+(BSIC)</a> is a not-for-profit organization that incubates, develops, and collaborates on 
+blockchain products and solutions that can address social and environmental challenges 
+across the United Nations Sustainable Development Goals. The aim is to inspire, federate, 
+and create bridges between NGOs, and government agencies, foundations, impact investors, 
+philanthropists and technologists.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ blockchain for social impact ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5971,7 +6012,9 @@ The [Blockchain for Social Impact Coalition (BSIC)](https://blockchainforsociali
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-According to the ["7 Ways Blockchain Can Be Used for Social Good"](https://innotechtoday.com/blockchain-social-good/) article by Kayla Matthews, areas that are seeing blockchain social impact projects are:
+According to the <a href="https://innotechtoday.com/blockchain-social-good/">
+"7 Ways Blockchain Can Be Used for Social Good"</a> article by Kayla Matthews, 
+areas that are seeing blockchain social impact projects are:
 <ul>
 <li>Philanthropy and remittances</li>
 <li>Financial empowerment</li>
@@ -5988,7 +6031,15 @@ According to the ["7 Ways Blockchain Can Be Used for Social Good"](https://innot
    alt="Kiva logo" />
 </p>
 
-More than 1.7 billion people around the world are unbanked and can’t access the financial services they need. [Kiva](https://www.kiva.org/) is an international nonprofit, founded in 2005 in San Francisco, with a mission to expand financial access to help underserved communities thrive. Kiva accomplishes this by crowdfunding loans and unlocking capital for the underserved, improving the quality and cost of financial services, and addressing the underlying barriers to financial access around the world. Through Kiva's work, students can pay for tuition, women can start businesses, farmers are able to invest in equipment and families can afford needed emergency care.
+More than 1.7 billion people around the world are unbanked and can’t 
+access the financial services they need. <a href="https://www.kiva.org/">Kiva</a> 
+is an international nonprofit, founded in 2005 in San Francisco, with a mission 
+to expand financial access to help underserved communities thrive. Kiva accomplishes 
+this by crowdfunding loans and unlocking capital for the underserved, improving the 
+quality and cost of financial services, and addressing the underlying barriers to 
+financial access around the world. Through Kiva's work, students can pay for tuition, 
+women can start businesses, farmers are able to invest in equipment and families can 
+afford needed emergency care.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ Mission of the Rohingya Project. How it works (182) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6022,7 +6073,9 @@ The platform will tap into the potential of the Rohingya community and other mar
   width="85%" />
 </p>
 
-The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social Impact project designed to improve disaster relief efforts as well as open up new pathways for local charity giving.
+The <a href="https://thegivingchain.org/index.html">Giving Chain</a> 
+is a grassroots Social Impact project designed to improve disaster 
+relief efforts as well as open up new pathways for local charity giving.
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -6036,7 +6089,11 @@ The [Giving Chain](https://thegivingchain.org/index.html) is a grassroots Social
    width="85%" />
 </p>
 
-Created by three local meetup groups, [Ledger Academy](https://ledgeracademy.com/index.html), [Hyperledger Princeton](https://www.meetup.com/Hyperledger-Princeton/) and [Blockchain & AI Princeton](https://www.meetup.com/Blockchain-Princeton/). The project won the 2021 Government Blockchain Associations Award for Social Impact. The video of the awards ceremony can be viewed on [YouTube](https://www.youtube.com/watch?v=41DYKpLSvrs).
+Created by three local meetup groups, <a href="https://ledgeracademy.com/index.html">
+Ledger Academy</a>, <a href="https://www.meetup.com/Hyperledger-Princeton/">Hyperledger Princeton</a> 
+and <a href="https://www.meetup.com/Blockchain-Princeton/">Blockchain & AI Princeton</a>. The project 
+won the 2021 Government Blockchain Associations Award for Social Impact. The video of the awards 
+ceremony can be viewed on <a href="https://www.youtube.com/watch?v=41DYKpLSvrs">YouTube</a>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 115. the giving chain (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6213,7 +6270,9 @@ many users are storing energy surpluses at home without a way to “sell” clea
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-[Power Ledger](https://www.powerledger.io/) solution offers a peer-to-peer energy trading platform. It builds global blockchain energy solutions to provide communities access to affordable electricity that is also renewable. 
+<a href="https://www.powerledger.io/">Power Ledger</a> solution offers 
+a peer-to-peer energy trading platform. It builds global blockchain energy 
+solutions to provide communities access to affordable electricity that is also renewable. 
 
 By increasing the transparency for energy origins, Power Ledger could assist with providing customers more choices for where their energy comes from. 
 
