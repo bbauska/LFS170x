@@ -982,7 +982,7 @@ Industries like finance, international trade and commerce, food supply chains ar
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image025.webp?raw=true"
-   alt="Walmart Canada & DLT Labs logos"
+   alt="Walmart Canada & DLT Labs logos."
    width="40%" />
 &nbsp;
 </p>
@@ -1105,10 +1105,10 @@ If you want to see some of the really exciting use cases in blockchain right now
 
 <h4>Use Case: Public Sector - Smart Dubai</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ smart dubai (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. smart dubai (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/41387907/149682296-168d4769-ce5f-41e6-8504-e063e8882647.webp"
+<img src="/images/image027.webp?raw=true"
    width="40%"
    alt="Smart Dubai." />
 </p>
