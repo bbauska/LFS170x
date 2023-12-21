@@ -4941,7 +4941,7 @@ Anything that is see-through, where there is very little fog or obstruction in t
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ transparency of a blockchain ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img width="25%" 
+<img width="40%" 
    src="./images/image-transparency.webp"
    alt="Transparency of a Blockchain" />
 </p>
@@ -6079,7 +6079,8 @@ ConsenSys Mesh companies offer solutions to help build out the Ethereum Ecosyste
 
 <h3>Hyperledger</h3>
 
-[Hyperledger Greenhouse](https://www.hyperledger.org/use) is a graphical representation of the blockchains tools and libraries hosted by the Linux Foundation:
+<a href="https://www.hyperledger.org/use">Hyperledger Greenhouse</a> is a graphical 
+representation of the blockchains tools and libraries hosted by the Linux Foundation:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ hyperledger green 'house' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6089,7 +6090,10 @@ ConsenSys Mesh companies offer solutions to help build out the Ethereum Ecosyste
    width="100%" />
 </p>
 
-Hyperledger is an open source project with blockchains for you to build your solutions on and tools to support these blockchains. Learn more about Hyperledger [distributed ledgers](https://www.hyperledger.org/use/distributed-ledgers) and [libraries](https://www.hyperledger.org/use/libraries) on the Hyperledger website.
+Hyperledger is an open source project with blockchains for you to build your solutions 
+on and tools to support these blockchains. Learn more about Hyperledger 
+<a href="https://www.hyperledger.org/use/distributed-ledgers">distributed ledgers</a> and 
+<a href="https://www.hyperledger.org/use/libraries">libraries</a> on the Hyperledger website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ hyperledger websites: aries, besu, fabric, indy, iroha, and sawtooth ~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6105,7 +6109,7 @@ Hyperledger is an open source project with blockchains for you to build your sol
   
 <h3>Daml</h3>
 
-[Daml](https://www.digitalasset.com/developers) is:
+<a href="https://www.digitalasset.com/developers">Daml</a> is:
 > "a development framework for creating systems of record that securely connect across business processes and data boundaries while retaining privacy, guaranteeing data integrity, and enforcing strict authorization. Allowing such systems to cross boundaries — legal, regulatory, organizational, or other — enables them to form seamless economic networks".
 <ul type="disc">
    <li>Daml Connect<br/>
@@ -6126,13 +6130,19 @@ It is a cloud service that enables rapid distributed application deployment with
 
 <h3>SIMBA Chain</h3>
 
-[SIMBA Chain, Inc.](https://simbachain.com/about/) was formed in 2017 from a grant awarded by the Defense Advanced Research Projects Agency (DARPA) to Indiana Technology and Manufacturing Companies [(ITAMCO)](https://itamco.com/) and the Center for Research Computing [(CRC)](https://crc.nd.edu/) at the University of Notre Dame in order to develop a secure, unhackable messaging and transaction platform for the United States military.
+<a href="https://simbachain.com/about/">SIMBA Chain, Inc.</a> was formed in 2017 from a 
+grant awarded by the Defense Advanced Research Projects Agency (DARPA) to Indiana Technology 
+and Manufacturing Companies <a href="https://itamco.com/">(ITAMCO)</a> and the Center for 
+Research Computing <a href="https://crc.nd.edu/">(CRC)</a> at the University of Notre Dame 
+in order to develop a secure, unhackable messaging and transaction platform for the United States military.
 
-SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users across a variety of skill sets to implement dapps (decentralized applications). 
+SIMBA Chain is a cloud-based, smart-contract-as-a-service (SCaaS) platform, enabling users 
+across a variety of skill sets to implement dapps (decentralized applications). 
 
 These apps allow secure, direct connections between users and providers, eliminating third parties. 
 
-The easy-to-use platform is tailored for users, developers, government, and enterprises to quickly deploy blockchain dapps for their enterprise.
+The easy-to-use platform is tailored for users, developers, government, and enterprises 
+to quickly deploy blockchain dapps for their enterprise.
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -6146,11 +6156,13 @@ The easy-to-use platform is tailored for users, developers, government, and ente
    width="25%" />
 </p>
 
-[SIMBA's Smart Contract Designer](https://info.simbachain.com/smart-contract-designer-landing-page) allows anyone to quickly and easily create smart contracts. 
+<a href="https://info.simbachain.com/smart-contract-designer-landing-page">
+SIMBA's Smart Contract Designer</a> allows anyone to quickly and easily create smart contracts. 
 
 The interface allows users to easily build a graph of the relationships between assets and transactions. 
 
-This graphical model is then converted to Solidity where each asset and transaction becomes a Solidity Smart Contract method that can be executed on the blockchain.
+This graphical model is then converted to Solidity where each asset and transaction becomes 
+a Solidity Smart Contract method that can be executed on the blockchain.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 119. Simba - Software as a Service (SaaS) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6160,19 +6172,34 @@ This graphical model is then converted to Solidity where each asset and transact
    width="100%" />
 </p>
 
-SIMBA Chain also offers management services [(Software as a Service)](https://simbachain.com/enterprise/) for your blockchain solution that grant use of software solutions or APIs (application programming interface), across several cloud platforms so companies can effectively create blockchain solutions.
+SIMBA Chain also offers management services <a href="https://simbachain.com/enterprise/">
+(Software as a Service)</a> for your blockchain solution that grant use of software solutions 
+or APIs (application programming interface), across several cloud platforms so companies can 
+effectively create blockchain solutions.
 
 <h3>Identity</h3>
 
-Identity management is vital for blockchain operation. Identifying objects that will interact with a blockchain such as people, places, things [(IOT devices)](https://www.blockchain-council.org/blockchain/blockchain-and-iot-a-solid-technological-duo/), is the first step and consideration when developing a blockchain.
+Identity management is vital for blockchain operation. Identifying objects that will interact 
+with a blockchain such as people, places, things 
+<a href="https://www.blockchain-council.org/blockchain/blockchain-and-iot-a-solid-technological-duo/">
+(IOT devices)</a>, is the first step and consideration when developing a blockchain.
 
-One solution is the Verifiable Organizations Network [(VON)](https://vonxio/about/) project that enables organizations—and the people running those organizations—to conduct business online in a trusted manner. The core challenge is that on the Internet we can’t tell if we’re talking to you, or someone pretending to be you. We need a reliable way to verify that “you are you” in a manner appropriate for the type of transaction that you want to complete and in a privacy-preserving manner.
+One solution is the Verifiable Organizations Network <a href="https://vonxio/about/">(VON)</a> 
+project that enables organizations—and the people running those organizations—to conduct business 
+online in a trusted manner. The core challenge is that on the Internet we can’t tell if we’re 
+talking to you, or someone pretending to be you. We need a reliable way to verify that “you are you” 
+in a manner appropriate for the type of transaction that you want to complete and in a privacy-preserving manner.
 
-To learn more, we recommend that you listen the ["Digital Trust: How the OrgBook Enables the Digital Economy"](https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4) webinar.
+To learn more, we recommend that you listen the <a href="https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4">
+"Digital Trust: How the OrgBook Enables the Digital Economy"</a> webinar.
 
 <h3>Marketplace</h3>
 
-Marketplaces exist to shop renewable energies to make sustainable solutions available on open markets. Everyone knows there are countless inefficiencies in the energy grid, stemming from the highly centralized nature of our utilities systems. With the advent of at-home energy production and storage through affordable solar panels and home batteries, many users are storing energy surpluses at home without a way to “sell” clean energy.
+Marketplaces exist to shop renewable energies to make sustainable solutions available on 
+open markets. Everyone knows there are countless inefficiencies in the energy grid, 
+stemming from the highly centralized nature of our utilities systems. With the advent 
+of at-home energy production and storage through affordable solar panels and home batteries, 
+many users are storing energy surpluses at home without a way to “sell” clean energy.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 122. Clean Energy logo (187) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6190,40 +6217,50 @@ Marketplaces exist to shop renewable energies to make sustainable solutions avai
 
 By increasing the transparency for energy origins, Power Ledger could assist with providing customers more choices for where their energy comes from. 
 
-They accomplish these goals through peer-to-peer energy trading, carbon product trading, microgrids management, and more.
+They accomplish these goals through peer-to-peer energy trading, carbon product trading, 
+microgrids management, and more.
 
 <h3>Gaming</h3>
 
 The days of video games being just a form of entertainment are long gone.<br/> 
 
-Most of the new video games have in-app purchases and loot box features in them. <br/>
+Most of the new video games have in-app purchases and loot box features in them.<br/>
 
-These features enable users to use real-life currency to buy new skins for their characters and tools. <br/>
+These features enable users to use real-life currency to buy new skins for their characters and tools.<br/>
 
-With the use of [DeFi](https://101blockchains.com/defi-use-cases/), game developers can implement the newer incentive or reward models with DeFi coins. 
+With the use of <a href="https://101blockchains.com/defi-use-cases/">DeFi</a>, game developers 
+can implement the newer incentive or reward models with DeFi coins.
 
-In fact, gaming and eSports will likely become one of the major markets as the users are more tech-savvy and open to newer technologies.
+In fact, gaming and eSports will likely become one of the major markets as the users are more 
+tech-savvy and open to newer technologies.
 
-To learn more, visit the [Game Developers Conference's website](https://gdconf.com/).
+To learn more, visit the <a href="https://gdconf.com/">Game Developers Conference's website</a>.
 
 <h3>Decentraland</h3>
 
-[Decentraland](https://decentraland.org/) is a virtual world built on top of the Ethereum blockchain. 
+<a href="https://decentraland.org/">Decentraland</a> is a virtual world built on top of the Ethereum blockchain. 
 
-A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy a concert with virtual friends (real life people that they met in Decentraland).<br/> 
+A fully decentralized world where users can interact, build and exchange items, ideas, even enjoy 
+a concert with virtual friends (real life people that they met in Decentraland).<br/> 
 
-Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps (decentralized applications).<br/>
+Decentraland is run by a DOA, decentralized organization built with smart contracts and dapps 
+(decentralized applications).<br/>
 
 Watch this video to learn more about <a href="https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/" target="_blank">Decentraland</a>
-<!--- [Decentraland](https://www.youtube.com/watch?app=desktop&v=qGgYEwJrw0w/). -->
 
 <h3>Music</h3>
 
-Experts from [Statista](https://www.statista.com/statistics/239276/growth-of-the-global-music-revenue-by-type/) projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
+Experts from <a href="https://www.statista.com/statistics/239276/growth-of-the-global-music-revenue-by-type/">Statista</a> 
+projected that the music industry will grow from $1.4 billion to $17.2 billion dollars between 2012 and 2021. That’s a lot 
+of dough, and it probably wouldn't all go to deserving parties, until blockchain entered the scene. Now there is a way for 
+artists, producers, and labels to get paid on time, in full with royalties going directly back to the artist.
 
-Read ["Blockchain for the Music Industry: 9 Possible Use Cases"](https://www.disruptordaily.com/blockchain-use-cases-music/) by Sam Mire to learn more.<br/>
-[themusicianmarketplace.com](https://www.themusicianmarketplace.com/) was built to establish one profile for each artist, but each artist can list talents for any job they want. <br/>
-For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes original music, resells his software, and sells his guitar instrument all in one place.
+Read <a href="https://www.disruptordaily.com/blockchain-use-cases-music/">
+"Blockchain for the Music Industry: 9 Possible Use Cases"</a> by Sam Mire to learn more.<br/>
+<a href="https://www.themusicianmarketplace.com/">themusicianmarketplace.com</a> was built to 
+establish one profile for each artist, but each artist can list talents for any job they want.<br/>
+For example, John is a guitar player, a songwriter who is recording songwriting gigs, composes 
+original music, resells his software, and sells his guitar instrument all in one place.
 
 The options on themusicianmarketplace.com are unlimited. 
 
@@ -6250,27 +6287,32 @@ And unlike everything we have already talked about in this course, this is nothi
 
 I think blockchain is a really, really exciting place right now.
 
-Blockchain tends to get talked about in the context of a lot of other exciting emerging technologies, things like IoT and smart devices, self-driving cars and autonomous devices, AI, virtual and augmented reality.
+Blockchain tends to get talked about in the context of a lot of other exciting emerging technologies, 
+things like IoT and smart devices, self-driving cars and autonomous devices, AI, virtual and augmented reality.
 
 The truth is, in my opinion, I see blockchain as an enabling layer for many of these other technological revolutions.
 
 Everybody is excited about the idea of smart devices.
 
-Wouldn't it be great if I had a smart refrigerator that automatically reordered more ketchup as it started to get low?
+Wouldn't it be great if I had a smart refrigerator that automatically reordered more 
+ketchup as it started to get low?
 
-Everyone gets a little nervous when it comes time to actually talk about implementing something like this, because how do we protect it?
+Everyone gets a little nervous when it comes time to actually talk about implementing 
+something like this, because how do we protect it?
 
 How do we ensure that the data the system uses is immutable and secure?
 
 Blockchain provides that.
 
-I think that we are going to see a lot of growth in emerging technologies as blockchain continues to emerge, because it's going to make more and more things possible.
+I think that we are going to see a lot of growth in emerging technologies as blockchain 
+continues to emerge, because it's going to make more and more things possible.
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-And if we talk long term, and again, only my opinion, I think blockchain becomes the enabling layer for a multi-planetary human economy.
+And if we talk long term, and again, only my opinion, I think blockchain becomes the 
+enabling layer for a multi-planetary human economy.
 
 You might have seen in February 2018, SpaceX put up Falcon Heavy.
 
@@ -6280,12 +6322,20 @@ And I truly believe in the next 20 to 50 years we are going to see a human colon
 
 Now, one interesting thing about Mars is that it's really really far away.
 
-At the closest Earth gets to Mars, it's a 26 minute roundtrip at light speed, and there's two weeks out of every March and year, where Earth and Mars can't communicate because the Sun is right in the middle.
+At the closest Earth gets to Mars, it's a 26 minute roundtrip at light speed, and there's two 
+weeks out of every March and year, where Earth and Mars can't communicate because the Sun is 
+right in the middle.
 
-Well, think about this: if you run a small pizza shop on Mars, you close out your register for the day, and you need to deposit funds into your bank account, and that is a bank on Wall Street, New York City, and under the best case scenario, that's a 26-minute roundtrip, you can see how centralized models of the Internet aren't going to scale.
+Well, think about this: if you run a small pizza shop on Mars, you close out your register 
+for the day, and you need to deposit funds into your bank account, and that is a bank on 
+Wall Street, New York City, and under the best case scenario, that's a 26-minute roundtrip, 
+you can see how centralized models of the Internet aren't going to scale.
 
-If you ask me, I really believe technologies like blockchain and supporting technologies like IPFS are the enabling technologies to allow humans to continue to trade and interact and conduct commerce with each other when we become a multi-planetary society.
-And that's why I think there's a ton of potential in blockchain and it's something really exciting, and hopefully, you're all inspired to stay up-to-date with.
+If you ask me, I really believe technologies like blockchain and supporting technologies 
+like IPFS are the enabling technologies to allow humans to continue to trade and interact 
+and conduct commerce with each other when we become a multi-planetary society.
+And that's why I think there's a ton of potential in blockchain and it's something really 
+exciting, and hopefully, you're all inspired to stay up-to-date with.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 name="ch6-7">6.7 Chapter Summary</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
