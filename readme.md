@@ -1429,7 +1429,7 @@ destroying them to conceal activity is practically impossible".
 <!--~~~~~~~~~~~~~~~~~~~~ double vs triple-entry accounting comparison (39) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image-double vs triple accounting.webp?raw=true"
+<img src="/images/image-double-vs-triple-accounting.webp?raw=true"
    alt="Double vs. Triple-Entry Accounting Comparison."
    width="65%" />
 </p>
