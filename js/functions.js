@@ -1,6 +1,6 @@
-/** Called from index.html within bbauska/CandysRoof.bauska.org/main.  Playing and learning JS.  */
+<!-- Called from index.html Playing and learning JS. -->
 
-function myfunction()   // write shit.
+function myfunction()
  {   
 document.write("welcome to Learning from Brian.  Pick it up as I go along.  Love the shit out of git.");  
          } 
