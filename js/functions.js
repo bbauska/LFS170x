@@ -1,4 +1,4 @@
-<!-- Called from index.html Playing and learning JS. -->
+/* ./js/functions.js for LFS170x.bauska.org - Playing and learning JS. */
 
 function myfunction()
  {   
