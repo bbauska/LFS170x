@@ -1,6 +1,11 @@
 {
- "name": "App",
- "icons": [
+  "name": "LFS170x Blockchain: Understanding its Use Cases and Implications",
+  "short_name": "Blockchain",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "icons": [
   {
    "src": "\/images/android-icon-36x36.png",
    "sizes": "36x36",
